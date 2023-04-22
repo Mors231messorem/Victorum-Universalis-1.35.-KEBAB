@@ -1,0 +1,49 @@
+vu_sydney_harbour = {
+	start = 1090
+	date = 1788.01.01
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+	build_trigger = { is_year = 1788 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    on_built = {}
+    on_destroyed = {}
+    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
+    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    
+	tier_0 = {
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = {	factor = 0 }
+		province_modifiers = {}
+		area_modifier = {}
+		country_modifiers = {}
+		on_upgraded = {}
+	}
+	tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = {	factor = 3500 }
+		province_modifiers = { local_development_cost = -0.05 }
+		area_modifier = { local_build_cost = -0.15 }
+		country_modifiers = { global_colonial_growth = 10 colonist_placement_chance = 0.05 republican_tradition = 0.5 }
+		on_upgraded = {}
+	}
+	tier_2 = {
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 7000 }
+		province_modifiers = { local_development_cost = -0.1 trade_value = 2 }
+		area_modifier = { local_build_cost = -0.25 }
+		country_modifiers = { global_colonial_growth = 20 colonist_placement_chance = 0.1 republican_tradition = 1 colonists = 1 }
+		on_upgraded = {}
+	}
+	tier_3 = {
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 14000 }
+		province_modifiers = { local_development_cost = -0.2 trade_value = 4 }
+		area_modifier = { local_build_cost = -0.35 ship_recruit_speed = -0.25 }
+		country_modifiers = { global_colonial_growth = 25 colonist_placement_chance = 0.15 republican_tradition = 1.5 colonists = 1 candidate_random_bonus = 1 }
+		on_upgraded = {}
+	}
+}
