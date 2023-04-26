@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 peasants_1 = {
 	slot = 1
 	generic = no
@@ -20,6 +21,7 @@ peasants_1 = {
 				limit = {
 					OR = {
 						has_dlc = "Golden Century"
+						has_dlc = "Lions of the North"
 						has_dlc = "Wealth of Nations"
 					}
 				}
@@ -104,6 +106,9 @@ peasants_1 = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
+		}
 	}
 	peasants_hemmingstedt = {
 		icon = mission_teutonic_knights
@@ -148,6 +153,9 @@ peasants_1 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
+		}
 	}
 	peasants_denmark = {
 		icon = mission_monarch_in_throne_room
@@ -182,6 +190,9 @@ peasants_1 = {
 				name = "integrating_the_peasantry"
 				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
 		}
 	}
 	peasants_conquest_of_bread = {
@@ -222,6 +233,9 @@ peasants_1 = {
 					}
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
 		}
 	}
 	peasants_means_of_production = {
@@ -274,6 +288,9 @@ peasants_1 = {
 				name = "means_of_production"
 				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
 		}
 	}
 }
@@ -411,6 +428,9 @@ peasants_2 = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
+		}
 	}
 	peasants_north_germany = {
 		icon = mission_landsknecht_soldier
@@ -509,6 +529,9 @@ peasants_2 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
+		}
 	}
 	peasants_protect_frisia = {
 		icon = mission_settlers_north_america
@@ -546,6 +569,9 @@ peasants_2 = {
 		effect = {
 			add_dip_power = 200
 		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
+		}
 	}
 	peasants_the_peasants_war = {
 		icon = mission_noble_council
@@ -571,8 +597,8 @@ peasants_2 = {
 					custom_trigger_tooltip = {
 						tooltip = dtt_peasants_war_tt_1
 						OR = {
-							has_country_flag = gpw_peasants_win_major
-							has_country_flag = gpw_peasants_win_minor
+							has_global_flag = gpw_peasants_win_major
+							has_global_flag = gpw_peasants_win_minor
 						}
 					}
 					calc_true_if = {
@@ -601,7 +627,7 @@ peasants_2 = {
 							area = schleswig_area
 						}
 						owner = {
-							has_reform = peasants_republic
+							has_government_attribute = is_peasants_republic
 						}
 					}
 					amount = 45
@@ -615,6 +641,9 @@ peasants_2 = {
 				duration = -1
 			}
 		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
+		}
 	}
 	peasants_break_the_chains = {
 		icon = mission_impaled_soldies
@@ -627,7 +656,7 @@ peasants_2 = {
 				# new revolution stuff
 				AND = {
 					num_of_cities = 75
-					has_reform = peasants_republic
+					has_government_attribute = is_peasants_republic
 				}
 			}
 		}
@@ -645,6 +674,9 @@ peasants_2 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
+		}
 	}
 	peasants_terror_in_russia = {
 		icon = mission_steppe_warriors
@@ -655,7 +687,10 @@ peasants_2 = {
 					region = russia_region
 				}
 				total_development = 200
-				culture_group = east_slavic
+				OR = {
+					culture_group = east_slavic
+					culture_group = slavic
+				}
 				is_subject = no
 			}
 		}
@@ -669,7 +704,10 @@ peasants_2 = {
 							region = russia_region
 						}
 						total_development = 200
-						culture_group = east_slavic
+						OR = {
+							culture_group = east_slavic
+							culture_group = slavic
+						}
 						is_subject = no
 					}
 				}
@@ -677,6 +715,9 @@ peasants_2 = {
 		}
 		effect = {
 			add_mil_power = 300
+		}
+		ai_weight = {
+			factor = 500	#Dithmarschen Glory
 		}
 	}
 }

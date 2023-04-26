@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 genoa_missions_africa = {
 	slot = 1
 	generic = no
@@ -112,24 +113,18 @@ genoa_missions_africa = {
 			northern_morocco_area = {
 				limit = {
 					NOT = {
-			 
 						is_permanent_claim = ROOT
 						is_core = ROOT
-	   
 					}
-							   
 				}
 				add_permanent_claim = ROOT
 			}
 			delta_area = {
 				limit = {
 					NOT = {
-			 
 						is_permanent_claim = ROOT
 						is_core = ROOT
-	   
 					}
-							   
 				}
 				add_permanent_claim = ROOT
 			}
@@ -154,12 +149,9 @@ genoa_missions_africa = {
 			upper_andalucia_area = {
 				limit = {
 					NOT = {
-			 
 						is_permanent_claim = ROOT
 						is_core = ROOT
-	   
 					}
-							   
 				}
 				add_permanent_claim = ROOT
 			}
@@ -184,12 +176,9 @@ genoa_missions_africa = {
 			lower_andalucia_area = {
 				limit = {
 					NOT = {
-			 
 						is_permanent_claim = ROOT
 						is_core = ROOT
-	   
 					}
-							   
 				}
 				add_permanent_claim = ROOT
 			}
@@ -292,12 +281,9 @@ genoa_europe_slot = {
 			east_adriatic_coast_area = {
 				limit = {
 					NOT = {
-			 
 						is_permanent_claim = ROOT
 						is_core = ROOT
-	   
 					}
-							   
 				}
 				add_permanent_claim = ROOT
 			}

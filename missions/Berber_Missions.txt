@@ -1,10 +1,10 @@
-#Updated by Dub.
+#VU Credits to Dub and integrated by San Felipe
 berber_3 = {
 	slot = 3
 	generic = yes
 	ai = yes
 	potential = {
-		OR = { #BT overhauled this due to cultural overhaul restricting this to Algiers only.
+		OR = { #VU overhaul due to cultural additions restricting this to Algiers only.
 			culture_group = berber_group
 			culture_group = maghrebi
 			primary_culture = tunisian

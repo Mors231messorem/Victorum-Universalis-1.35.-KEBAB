@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 mnd_siam_1 = {
 	slot = 1
 	generic = no
@@ -16,7 +17,7 @@ mnd_siam_1 = {
 	has_country_shield = yes
 
 	mnd_siam_transfer_development = {
-		icon = mission_kowtow
+		icon = mission_mnd_khm_protect_the_cham
 		required_missions = {  }
 		provinces_to_highlight = {
 		}
@@ -24,7 +25,10 @@ mnd_siam_1 = {
 			capital_scope = {
 				development = 30
 			}
-			num_of_times_used_transfer_development = 3
+			OR = {
+				num_of_times_used_transfer_development = 2
+				capital_scope = { num_of_times_improved = 5 }
+			}
 		}
 		effect = {
 			change_government_reform_progress = 50
@@ -32,7 +36,7 @@ mnd_siam_1 = {
 	}
 	
 	mnd_siam_mandala = {
-		icon = mission_mnd_siam_royal_duel
+		icon = mission_se_birdmen
 		required_missions = { mnd_siam_transfer_development }
 		provinces_to_highlight = {
 			is_capital = yes
@@ -245,7 +249,7 @@ mnd_siam_2 = {
 	}
 	
 	mnd_siam_absolutism = {
-		icon = mission_mnd_siam_royal_duel
+		icon = mission_kowtow
 		required_missions = { mnd_siam_revolution }
 		provinces_to_highlight = {
 		}
@@ -272,6 +276,11 @@ mnd_siam_2 = {
 					NOT = { exists = SIA }
 				}
 				change_tag = SIA
+				on_change_tag_effect = yes
+				if = {
+					limit = { has_custom_ideas = no }
+					country_event = { id = ideagroups.1 } #Swap Ideas
+				}
 			}
 			set_country_flag = siam_royal_absolutism
 			if = {
@@ -346,6 +355,7 @@ mnd_siam_3 = {
 				add_casus_belli = {
 					target = KHM
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -375,7 +385,7 @@ mnd_siam_3 = {
 	}
 	
 	mnd_siam_subjugate_khmer = {
-		icon = mission_mnd_siam_subjugate_vietnam
+		icon = mission_unite_home_region
 		required_missions = { mnd_siam_royal_duel }
 		provinces_to_highlight = {
 			OR = {
@@ -429,34 +439,76 @@ mnd_siam_3 = {
 	}
 	
 	mnd_siam_divide_the_lao = {
-		icon = mission_mnd_siam_royal_duel
+		icon = mission_mnd_maj_prepare_eastern_campaigns
 		required_missions = { mnd_siam_subjugate_khmer }
 		provinces_to_highlight = {
 		}
 		trigger = {
-			calc_true_if = {
-				amount = 3
-				all_known_country = {
-					primary_culture = lao
+			OR = {
+				calc_true_if = {
+					amount = 3
+					all_known_country = {
+						primary_culture = lao
+					}
+				}
+				primary_culture = lao
+				NOT = {
+					any_province = {
+						culture = lao
+					}
 				}
 			}
 		}
 		effect = {
-			every_country = {
+			if = {
 				limit = {
-					is_free_or_tributary_trigger = yes
-					primary_culture = lao
+					calc_true_if = {
+						amount = 3
+						all_known_country = {
+							primary_culture = lao
+						}
+					}
 				}
-				reverse_add_casus_belli = {
-					target = ROOT
-					type = cb_vassalize_mission
+				every_country = {
+					limit = {
+						is_free_or_tributary_trigger = yes
+						primary_culture = lao
+					}
+					reverse_add_casus_belli = {
+						target = ROOT
+						type = cb_vassalize_mission
+						months = 120
+					}
+				}
+			}
+			else = {
+				khorat_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				south_laos_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				north_laos_area = {
+					limit = {
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_permanent_claim = ROOT
 				}
 			}
 		}
 	}
 	
 	mnd_siam_subjugate_the_lao = {
-		icon = mission_mnd_siam_subjugate_vietnam
+		icon = mission_mnd_maj_subjugate_makassar
 		required_missions = { mnd_siam_divide_the_lao }
 		provinces_to_highlight = {
 			OR = {
@@ -499,7 +551,10 @@ mnd_siam_3 = {
 			if = {
 				limit = {
 					any_country = {
-						primary_culture = vietnamese
+						OR = {
+							primary_culture = vietnamese
+							primary_culture = vietnamese_new
+						}
 						capital_scope = {
 							OR = {
 							    region = indo_china_region
@@ -511,7 +566,10 @@ mnd_siam_3 = {
 				}
 				every_country = {
 					limit = {
-						primary_culture = vietnamese
+						OR = {
+							primary_culture = vietnamese
+							primary_culture = vietnamese_new
+						}
 						capital_scope = {
 							OR = {
 							    region = indo_china_region
@@ -523,6 +581,7 @@ mnd_siam_3 = {
 					reverse_add_casus_belli = {
 						target = ROOT
 						type = cb_vassalize_mission
+						months = 120
 					}
 				}
 			}
@@ -562,12 +621,18 @@ mnd_siam_3 = {
 				limit = {
 					any_country = {
 						is_subject_of = ROOT
-						primary_culture = vietnamese
+						OR = {
+							primary_culture = vietnamese
+							primary_culture = vietnamese_new
+						}
 					}
 				}
 				NOT = {
 					any_subject_country = {
-						primary_culture = vietnamese
+						OR = {
+							primary_culture = vietnamese
+							primary_culture = vietnamese_new
+						}
 						liberty_desire = 50
 					}
 				}
@@ -702,7 +767,7 @@ mnd_siam_4 = {
 	has_country_shield = yes
 	
 	mnd_siam_inherit_sukhothai = {
-		icon = mission_mnd_siam_subjugate_vietnam
+		icon = mission_mnd_khm_avenge_angkor
 		required_missions = {  }
 		provinces_to_highlight = {
 			area = sukothai_area
@@ -725,6 +790,7 @@ mnd_siam_4 = {
 				add_casus_belli = {
 					type = cb_vassalize_mission
 					target = LNA
+					months = 120
 				}
 			}
 			else = {
@@ -740,7 +806,7 @@ mnd_siam_4 = {
 	}
 	
 	mnd_siam_subjugate_chiang_mai = {
-		icon = mission_mnd_siam_revolution
+		icon = mission_che_the_cave_country
 		required_missions = { mnd_siam_inherit_sukhothai }
 		provinces_to_highlight = {
 			area = northern_thai_area
@@ -775,6 +841,7 @@ mnd_siam_4 = {
 				add_casus_belli = {
 					type = cb_vassalize_mission
 					target = PEG
+					months = 120
 				}
 			}
 			else = {
@@ -832,7 +899,7 @@ mnd_siam_4 = {
 	}
 	
 	mnd_siam_defeat_burma = {
-		icon = mission_mnd_siam_royal_duel
+		icon = mission_indian_soldier_elephant
 		required_missions = { mnd_siam_protect_the_mon }
 		provinces_to_highlight = {
 			owner = {
@@ -869,7 +936,7 @@ mnd_siam_4 = {
 	}
 	
 	mnd_siam_conquer_burma = {
-		icon = mission_mnd_siam_subjugate_vietnam
+		icon = mission_mnd_dai_control_the_army
 		required_missions = { mnd_siam_defeat_burma }
 		provinces_to_highlight = {
 			region = burma_region
@@ -986,6 +1053,7 @@ mnd_siam_5 = {
 				add_casus_belli = {
 					target = MLC
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -1001,7 +1069,7 @@ mnd_siam_5 = {
 	}
 	
 	mnd_siam_mlc = {
-		icon = mission_mnd_siam_subjugate_vietnam
+		icon = mission_invade_island
 		required_missions = { mnd_siam_prepare }
 		provinces_to_highlight = {
 			area = malacca_area

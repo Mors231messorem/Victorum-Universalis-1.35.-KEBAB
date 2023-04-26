@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 spa_colonial_group = {
 	slot = 1
 	generic = no

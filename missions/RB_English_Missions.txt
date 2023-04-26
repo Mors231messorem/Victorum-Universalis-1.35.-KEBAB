@@ -1,4 +1,4 @@
-#Missions by San Felipe. Adjusted by Lord_Bowser
+#VU updated for 1.35 by San Felipe
 eng_rb_slot_2 = { 
 	slot = 2
 	generic = no
@@ -262,7 +262,7 @@ eng_rb_slot_2 = {
     eng_rb_take_somaliland = {
         icon = mission_rb_take_somaliland
 	    required_missions = { eng_take_nubia_and_upper_sudan }
-	    position = 8
+	    position = 20
 
 	    provinces_to_highlight = {
 		    area = somaliland_area
@@ -288,7 +288,7 @@ eng_rb_slot_2 = {
     eng_rb_take_yemen = {
         icon = mission_rb_take_yemen
 	    required_missions = { eng_rb_take_somaliland }
-	    position = 9
+	    position = 21
 
 	    provinces_to_highlight = {
 	        OR = {
@@ -328,7 +328,7 @@ eng_rb_slot_2 = {
     eng_rb_take_oman = {
         icon = mission_rb_take_oman
 	    required_missions = { eng_rb_take_yemen }
-	    position = 10
+	    position = 22
 
 	    provinces_to_highlight = {
 	        OR = {
@@ -366,7 +366,7 @@ eng_rb_slot_2 = {
     eng_rb_take_the_emirates = {
         icon = mission_rb_take_emirates
 	    required_missions = { eng_rb_take_oman }
-	    position = 11
+	    position = 23
 
 	    provinces_to_highlight = {
 	        OR = {
@@ -397,7 +397,7 @@ eng_rb_slot_2 = {
 	eng_rb_establish_trade_in_american_cot_virginia_company = {
         icon = mission_rb_dominate_trade_node_virginia_co
         required_missions = { english_colony_in_north_america }
-        position = 12
+        position = 24
 	
 	    provinces_to_highlight = {
 	        province_id = 1500
@@ -409,7 +409,7 @@ eng_rb_slot_2 = {
 	        is_strongest_trade_power = ROOT
 	        }
 	    }
-
+	
         effect = {
             add_treasury = 2500
 	        add_country_modifier = {
@@ -430,7 +430,7 @@ eng_rb_slot_2 = {
 	lotf_gb_rh = {
 		icon = overshadow_venice
 		required_missions = { lotf_gb_sea_venture }	
-		position = 13
+		position = 25
 		provinces_to_highlight = {
 			province_id = 967
 		}	
@@ -466,7 +466,7 @@ eng_rb_slot_2 = {
 	lotf_gb_plymouth = {
 		icon = mission_settlers_north_america
 		required_missions = { lotf_gb_jamestown lotf_gb_rh }	
-		position = 14
+		position = 26
 		provinces_to_highlight = {
 			province_id = 2561
 		}	
@@ -502,7 +502,7 @@ eng_rb_slot_2 = {
 	lotf_gb_invest_northern_colonies = {
 		icon = renaissance_city
 		required_missions = { lotf_gb_plymouth }
-        position = 15		
+        position = 27
 		provinces_to_highlight = {
 			colonial_region = colonial_eastern_america
 			country_or_non_sovereign_subject_holds = ROOT
@@ -649,7 +649,7 @@ eng_rb_slot_2 = {
 			lotf_gb_invest_northern_colonies
 			lotf_gb_invest_southern_colonies
 		}	
-		position = 16
+		position = 28
 		trigger = {		
 			custom_trigger_tooltip = {
 				tooltip = lotf_gb_reorganize_colonies_tt
@@ -682,7 +682,7 @@ eng_rb_slot_2 = {
 	    icon = mission_rb_the_thirteen_colonies
 	    required_missions = { lotf_gb_reorganize_colonies }
 	    completed_by = 1701.1.1
-	    position = 17
+	    position = 29
 
 	    provinces_to_highlight = {
 		    colonial_region = colonial_eastern_america
@@ -1433,7 +1433,7 @@ eng_rb_slot_5 = {
 	    icon = mission_rb_british_kowloon
 	    required_missions = { eng_rb_british_borneo }
 	    completed_by = 1846.1.1
-		position = 12
+		position = 24
 
 	    provinces_to_highlight = {
 	        province_id = 7164
@@ -1457,7 +1457,7 @@ eng_rb_slot_5 = {
 	eng_rb_furnaces = {
 		icon = mission_rb_build_furnaces
 		required_missions = { eng_rb_coal }
-		position = 13
+		position = 25
 
 		provinces_to_highlight = {
 			OR = {
@@ -1498,7 +1498,7 @@ eng_rb_slot_5 = {
 	eng_rb_trade_value = {
 		icon = mission_rb_grow_the_channel
 		required_missions = { eng_rb_furnaces }
-		position = 14
+		position = 26
 
 		provinces_to_highlight = {
 			province_id = 1269
@@ -1522,7 +1522,7 @@ eng_rb_slot_5 = {
 	eng_rb_new_palace_of_westminster = {
 		icon = mission_rb_palace_of_westminster
 		required_missions = { eng_rb_trade_value }
-		position = 15
+		position = 27
 
 		provinces_to_highlight = {
 			province_id = 7437

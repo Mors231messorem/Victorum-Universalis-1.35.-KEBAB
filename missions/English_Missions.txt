@@ -1,4 +1,4 @@
-#Missions by San Felipe. Effects adjusted by Lord_Bowser
+#VU updated for 1.35 but kept the same by San Felipe
 eng_slot_1 = {
 	slot = 1
 	generic = no
@@ -249,7 +249,7 @@ eng_slot_1 = {
 	eng_take_abyssinia = {
 	    icon = mission_abyssinia
 		required_missions = { eng_rb_take_somaliland }
-		position = 9
+		position = 21
 
 		provinces_to_highlight = {
 			OR = {
@@ -342,7 +342,7 @@ eng_slot_1 = {
 	eng_discover_america_caribbean = {
 		icon = mission_establish_high_seas_navy
 		required_missions = { }
-		position = 10
+		position = 22
 		completed_by = 1578.1.1
 
 		trigger = {
@@ -369,7 +369,7 @@ eng_slot_1 = {
 	english_colony_in_north_america = {
 		icon = mission_colonial
 		required_missions = { eng_discover_america_caribbean }
-		position = 11
+		position = 23
 		completed_by = 1610.1.1
 
 		provinces_to_highlight = {
@@ -399,7 +399,7 @@ eng_slot_1 = {
 	lotf_gb_sea_venture = {
 		icon = indonesian_trade
 		required_missions = { english_colony_in_north_america }	
-		position = 12
+		position = 24
 		provinces_to_highlight = {
 			province_id = 481
 		}	
@@ -436,7 +436,7 @@ eng_slot_1 = {
 	english_colony_in_the_carribean = {
 		icon = mission_establish_caribbean_colony
 		required_missions = { lotf_gb_sea_venture }
-		position = 13
+		position = 25
 		completed_by = 1610.1.1
 
 		provinces_to_highlight = {
@@ -483,7 +483,7 @@ eng_slot_1 = {
 	english_triangular_trade = {
 		icon = mission_english_triangular_trade
 		required_missions = { english_colony_in_the_carribean }
-		position = 14
+		position = 26
 		completed_by = 1610.1.1
 
 		provinces_to_highlight = {
@@ -569,7 +569,7 @@ eng_slot_1 = {
 	english_british_nigeria = {
 		icon = mission_british_nigeria
 		required_missions = { english_triangular_trade }
-		position = 15
+		position = 27
 		completed_by = 1610.1.1
 
 		provinces_to_highlight = {
@@ -614,7 +614,7 @@ eng_slot_1 = {
 	england_colonises_the_cape = {
 		icon = mission_colonise_the_cape
 		required_missions = { english_british_nigeria }
-		position = 16
+		position = 28
 		completed_by = 1795.1.1
 
 		provinces_to_highlight = {
@@ -652,7 +652,7 @@ eng_slot_1 = {
 	england_the_zulu_wars = {
 		icon = mission_zulu_wars
 		required_missions = { england_colonises_the_cape }
-		position = 17
+		position = 29
 
 		provinces_to_highlight = {
 			OR = {

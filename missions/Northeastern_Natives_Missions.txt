@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 northeast = {
 	slot = 3
 	generic = no
@@ -16,6 +17,9 @@ northeast = {
 				tag = TSC
 			}
 		}
+		capital_scope = {
+			NOT = { continent = new_world }
+		}
 	}
 	has_country_shield = yes
 
@@ -32,7 +36,6 @@ northeast = {
 			}
 			NOT = { owned_by = ROOT }
 		}
-
 		trigger = {
 			is_subject = no
 			stability = 1
@@ -43,7 +46,6 @@ northeast = {
 				961 = { owned_by = ROOT }
 			}
 		}
-
 		effect = {
 			capital_scope = {
 				add_province_modifier = {
@@ -61,7 +63,6 @@ northeast = {
 		provinces_to_highlight = {
 			owned_by = ROOT
 		}
-
 		trigger = {
 			calc_true_if = {
 				all_owned_province = {
@@ -73,7 +74,6 @@ northeast = {
 				amount = 2
 			}
 		}
-
 		effect = {
 			add_country_modifier = {
 				name = ne_fortified_village
@@ -161,7 +161,6 @@ northeast = {
 		provinces_to_highlight = {
 			owned_by = ROOT
 		}
-
 		trigger = {
 			calc_true_if = {
 				all_owned_province = {
@@ -170,7 +169,6 @@ northeast = {
 				amount = 2
 			}
 		}
-
 		effect = {
 			every_owned_province = {
 				limit = {
@@ -399,7 +397,6 @@ northeast = {
 			}
 			NOT = { owned_by = ROOT }
 		}
-
 		trigger = {
 			calc_true_if = {
 				amount = 20
@@ -411,7 +408,6 @@ northeast = {
 				}
 			}
 		}
-
 		effect = {
 			add_country_modifier = {
 				name = ne_conquered_northeast
@@ -428,7 +424,6 @@ northeast = {
 		provinces_to_highlight = {
 			owned_by = ROOT
 		}
-
 		trigger = {
 			calc_true_if = {
 				all_owned_province = {
@@ -438,7 +433,6 @@ northeast = {
 			}
 			total_development = 50
 		}
-
 		effect = {
 			add_years_of_income = 1
 			add_country_modifier = {

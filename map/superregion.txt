@@ -41,6 +41,7 @@ europe_superregion = {
     austria_region
     bohemia_region
     british_isles_region
+	brittany_region
 	france_region
 	iberia_region
 	ireland_region

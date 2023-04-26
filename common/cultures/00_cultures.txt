@@ -1248,7 +1248,7 @@ germanic = {
 		#primary = #no tag so no seperatists
 	}
 	#VU addition - Needed for SEVU colonials
-	german_east_african = { 
+	german_east_african = {
         graphical_culture = westerngfx
 		#primary = #no tag so no seperatists
 	}
@@ -1273,45 +1273,58 @@ germanic = {
 		#primary = #no tag so no seperatists
 	}
 	#VU addition - Needed for VUColonialCultures
-	afrikaner = { #Africa
+	deutsch_asiaten = {
         graphical_culture = westerngfx
 		#primary = #no tag so no seperatists
 	}
-	mexikaner = { #Mexico/Central America
+	#VU addition - Needed for VUColonialCultures and VU_Colonial_Cultures
+	#Brazil CR
+	hunsrik = {
         graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
 	}
-	hunsrik = { #Brazil
+	#La Plata, Chile CR
+	argentiner = {
         graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
 	}
-	seelander = { #New Zealand
+	#Colombia, Venezuela, Ecuador CR
+	deutschkolumbian = {
         graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
 	}
-	australier = { #Oceania
+	#Cuba CR
+	kubaner = {
         graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
 	}
-	pennsilfaanisch = { #North America
+	#Mexico CR
+	mexikaner = {
         graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
 	}
-	argentiner = { #Argintina
+	#Eastern America, Mississippi, Great Lakes, Louisiana, Florida
+	pennsilfaanisch = {
         graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
 	}
-	neu_prussian = { #German N.American East Coast
+	#California CR
+	kalifornier = {
         graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
 	}
-	deutsch_asiaten = { #German Asian
+	#Acadia, Canada, Newfoundland CR
+	neu_prussian = {	
         graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
 	}
-	german_indian = { #indisch
+	#Alaska CR
+	alaskaner = {
         graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
+	}
+	#Cape CR
+	afrikaner = {
+        graphical_culture = westerngfx
+	}
+	#Australia CR
+	australier = {
+        graphical_culture = westerngfx
+	}
+	#New Zealand CR
+	seelander = {
+        graphical_culture = westerngfx
 	}
 }
 

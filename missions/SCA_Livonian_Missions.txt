@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 liv_diplomacy_mission_slot = {
 	slot = 1
 	generic = no
@@ -2775,7 +2776,7 @@ liv_end_the_orthodoxy_mission_slot = {
 					OR = {
 						NOT = { religion = ROOT }
 						AND = {
-							NOT = { owns_or_non_sovereign_subject_of = ROOT }
+							NOT = { owns_or_non_sovereign_subject_of = PREV }
 							NOT = { alliance_with = ROOT }
 						}
 					}

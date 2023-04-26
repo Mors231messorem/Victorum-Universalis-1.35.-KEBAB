@@ -57,7 +57,7 @@ eng_row_slot_1 = {
 	}
 
 	eng_conquer_scotland = {
-		icon = mission_rb_conquer_scotland
+		icon = mission_hammer_of_the_scots
 		required_missions = { eng_recruit_the_mercenaries }
 		position = 2
 		

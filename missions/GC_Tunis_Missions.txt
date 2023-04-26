@@ -1,8 +1,4 @@
-#Updated by C1CK
-#Only had minor issues with slightly dodgy claims, and the Great Mosque of Kairouan being in the wrong place
-#Has no changes besides updating claims for BT
-#Scriptified by Dub.
-
+#VU updated for 1.35 but kept the same for by San Felipe
 gc_tunis_1 = {
 	slot = 1
 	generic = no

@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 teu_hre_protection_mission_slot = {
 	slot = 1
 	generic = no

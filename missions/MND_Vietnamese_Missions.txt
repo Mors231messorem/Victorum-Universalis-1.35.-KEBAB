@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 mnd_dai_1 = {
 	slot = 1
 	generic = no
@@ -17,7 +18,7 @@ mnd_dai_1 = {
 	has_country_shield = yes
 
 	mnd_dai_control_the_army = {
-		icon = mission_mnd_dai_control_the_army
+		icon = mission_asian_cannon
 		required_missions = {  }
 		provinces_to_highlight = {
 		}
@@ -113,10 +114,12 @@ mnd_dai_1 = {
 			if = {
 				limit = {
 					exists = YUE
-					YUE = { is_subject_of = MNG }
-					OR = {
-						is_subject_of_type = vassal
-						is_subject_of_type = march
+					YUE = { 
+						is_subject_of = MNG 
+						OR = {
+							is_subject_of_type = vassal
+							is_subject_of_type = march
+						}
 					}
 				}
 				create_subject = {
@@ -596,6 +599,12 @@ mnd_dai_3 = {
 			country_event = {
 				id = flavor_dai.5
 			}
+			2373 = {
+				add_great_project_tier = {
+					type = imperial_city_hue
+					tier = 1
+				}
+			}
 		}
 	}
 }
@@ -626,13 +635,17 @@ mnd_dai_4 = {
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { culture = vietnamese }
+				NOT = { culture = vietnamese_new }
 			}
 		}
 		trigger = {
 			champa_area = {
 				type = all
 				owned_by = ROOT
-				culture = vietnamese
+				OR = {
+					culture = vietnamese
+					culture = vietnamese_new
+				}
 			}
 		}
 		effect = {
@@ -669,16 +682,10 @@ mnd_dai_4 = {
 				add_casus_belli = {
 					target = KHM
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
-				cambodia_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
 				cambodia_area = {
 					limit = {
 						NOT = { is_core = ROOT }
@@ -693,17 +700,10 @@ mnd_dai_4 = {
 		icon = mission_mnd_khm_avenge_angkor
 		required_missions = { mnd_dai_great_march_south }
 		provinces_to_highlight = {
-			OR = {
-				area = cambodia_area
-				area = cambodia_area
-			}
+			area = cambodia_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			cambodia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 			cambodia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
@@ -734,7 +734,7 @@ mnd_dai_5 = {
 	has_country_shield = yes
 
 	mnd_dai_muang_phuan = {
-		icon = mission_mnd_dai_control_the_army
+		icon = mission_mnd_maj_subjugate_makassar
 		required_missions = {  }
 		provinces_to_highlight = {
 			province_id = 1844
@@ -756,6 +756,7 @@ mnd_dai_5 = {
 				add_casus_belli = {
 					target = LXA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -819,6 +820,7 @@ mnd_dai_5 = {
 				add_casus_belli = {
 					target = LNA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -856,6 +858,7 @@ mnd_dai_5 = {
 				add_casus_belli = {
 					target = AYU
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {

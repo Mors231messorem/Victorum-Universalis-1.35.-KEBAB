@@ -1,5 +1,4 @@
-#Completely overhauled for the 13.0 update by Dub.
-
+#VU updated for 1.35 by San Felipe
 hsn_economic_group = {
 	slot = 1
 	generic = no

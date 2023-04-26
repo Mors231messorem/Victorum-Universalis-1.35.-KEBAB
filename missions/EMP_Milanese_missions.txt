@@ -1,5 +1,4 @@
-
-
+#VU updated for 1.35 by San Felipe
 emp_mlo_conquest_branch = {
 	slot = 1
 	generic = no
@@ -485,15 +484,15 @@ emp_mlo_venice_branch = {
 			    type = all
 				country_or_non_sovereign_subject_holds = root
 			}
+			liguria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
 			south_piedmont_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = root
 			}
 			north_piedmont_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = root
-			}
-			liguria_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = root
 			}
@@ -536,13 +535,6 @@ emp_mlo_venice_branch = {
 					}
 					add_permanent_claim = root
 				}
-				abruzzo_area = {
-					limit = {
-						NOT = { is_core = root }
-						NOT = { is_permanent_claim = root }
-					}
-					add_permanent_claim = root
-				}
 				apulia_area = {
 					limit = {
 						NOT = { is_core = root }
@@ -551,6 +543,13 @@ emp_mlo_venice_branch = {
 					add_permanent_claim = root
 				}
 				calabria_area = {
+					limit = {
+						NOT = { is_core = root }
+						NOT = { is_permanent_claim = root }
+					}
+					add_permanent_claim = root
+				}
+				abruzzo_area = {
 					limit = {
 						NOT = { is_core = root }
 						NOT = { is_permanent_claim = root }
@@ -1043,6 +1042,8 @@ emp_mlo_security_branch_2 = {
 				province_id = 103
 				province_id = 4727
 				province_id = 102
+				province_id = 110
+				province_id = 111
 				province_id = 1875
 				province_id = 7064
 				province_id = 7071
@@ -1052,8 +1053,6 @@ emp_mlo_security_branch_2 = {
 				province_id = 3294
 				province_id = 4758
 				province_id = 3048
-				province_id = 110
-				province_id = 111
 				province_id = 7093
 				province_id = 7088
 				province_id = 7098
@@ -1084,6 +1083,8 @@ emp_mlo_security_branch_2 = {
 					province_id = 103
 					province_id = 4727
 					province_id = 102
+					province_id = 110
+					province_id = 111
 					province_id = 1875
 					province_id = 7064
 					province_id = 7071
@@ -1093,8 +1094,6 @@ emp_mlo_security_branch_2 = {
 					province_id = 3294
 					province_id = 4758
 					province_id = 3048
-					province_id = 110
-					province_id = 111
 					province_id = 7093
 					province_id = 7088
 					province_id = 7098
@@ -1112,9 +1111,9 @@ emp_mlo_security_branch_2 = {
 					        province_id = 4740
 						    province_id = 103
 						    province_id = 4727
-						    province_id = 110
-						    province_id = 111
 						    province_id = 102
+							province_id = 110
+						    province_id = 111
 						    province_id = 1875
 						    province_id = 7064
 						    province_id = 7071
@@ -1144,6 +1143,8 @@ emp_mlo_security_branch_2 = {
 							province_id = 103
 							province_id = 4727
 							province_id = 102
+							province_id = 110
+							province_id = 111
 							province_id = 1875
 							province_id = 7064
 							province_id = 7071
@@ -1153,7 +1154,6 @@ emp_mlo_security_branch_2 = {
 							province_id = 3294
 							province_id = 4758
 							province_id = 3048
-							province_id = 110
 							province_id = 7093
 							province_id = 7088
 							province_id = 7098

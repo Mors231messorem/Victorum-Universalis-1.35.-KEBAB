@@ -1,7 +1,4 @@
-
-#Missions for both Savoy and Sardinia-Piedmont
-
-
+#VU updated for 1.35 by San Felipe
 emp_sav_missions_conquest = {
 	slot = 1
 	generic = no
@@ -50,6 +47,9 @@ emp_sav_missions_conquest = {
 				add_permanent_claim = root
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 	emp_sav_conquer_genoa = {
 		icon = mission_dominate_genoa
@@ -68,38 +68,30 @@ emp_sav_missions_conquest = {
 		effect = {
 			lombardy_area = {
 				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
 				}
-				add_permanent_claim = ROOT
+				add_permanent_claim = root
 			}
 			po_valley_area = {
 				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
 				}
-				add_permanent_claim = ROOT
+				add_permanent_claim = root
 			}
-			7080 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
+			if = {
+				limit = {
+					exists = COR
+					valid_for_personal_unions_trigger = yes
+					COR = {
+						valid_for_personal_unions_trigger = yes
 					}
-					add_permanent_claim = ROOT
 				}
-			}
-			2979 = {
-				if = {
-					limit = {
-						NOT = {
-							is_permanent_claim = ROOT
-							is_core = ROOT
-						}
-					}
-					add_permanent_claim = ROOT
+				add_casus_belli = {
+					type = cb_restore_personal_union
+					months = 300
+					target = COR
 				}
 			}
 			if = {
@@ -116,30 +108,92 @@ emp_sav_missions_conquest = {
 					target = SAR
 				}
 			}
-			else = {
+			if = {
+				limit = {
+					OR = {
+						is_subject = yes
+						NOT = { government = monarchy }
+						NOT = { religion_group = christian }
+						AND = {
+							NOT = { exists = COR }
+							NOT = { exists = SAR }
+						}
+					}
+				}
+				corsica_sardinia_area = {
+					limit = {
+						NOT = { is_core = root }
+						NOT = { is_permanent_claim = root }
+					}
+					add_permanent_claim = root
+				}
 				sardinia_area = {
 					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
+						NOT = { is_core = root }
+						NOT = { is_permanent_claim = root }
 					}
-				add_permanent_claim = ROOT
+					add_permanent_claim = root
+				}
+			}
+			else = {
+				every_province = {
+					limit = {
+						OR = {
+						    area = corsica_sardinia_area
+							area = sardinia_area
+						}
+						NOT = { is_core = root }
+						NOT = { is_permanent_claim = root }
+						OR = {
+							NOT = {
+								OR = {
+									owned_by = COR
+									owned_by = SAR
+								}
+							}
+							NOT = {
+								owner = {
+									is_subject = no
+									government = monarchy
+								}
+							}
+						}
+					}
+					add_permanent_claim = root
+				}
 			}
 		}
-	}
+		ai_weight = {
+			factor = 500
+		}
 	}
 	emp_sav_conquer_sardinia = {
 		icon = unite_with_sardinia
 		required_missions = { emp_sav_conquer_genoa }
 		provinces_to_highlight = {
-			area = sardinia_area
+			OR = {
+			    area = corsica_sardinia_area
+				area = sardinia_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = root }
+			ROOT = {
+				NOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 3 #you can leave out Corsica
+						OR = {
+						    area = corsica_sardinia_area
+							area = sardinia_area
+						}
+					}
+				}
+			}
 		}
 		trigger = {
-			OR = {
-				SAR = { is_subject_of = ROOT }
-				sardinia_area = {
-					type = all
-					country_or_non_sovereign_subject_holds = ROOT
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 3 #you can leave out Corsica
+				OR = {
+				    area = corsica_sardinia_area
+					area = sardinia_area
 				}
 			}
 		}
@@ -153,6 +207,11 @@ emp_sav_missions_conquest = {
 						valid_for_personal_unions_trigger = yes
 					}
 				}
+				add_casus_belli = {
+					type = cb_restore_personal_union
+					months = 300
+					target = SIC
+				}
 			}
 			else = {
 				sicily_area = {
@@ -164,18 +223,29 @@ emp_sav_missions_conquest = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 	emp_sav_conquer_sicily = {
 		icon = king_of_sicily
 		required_missions = { emp_sav_conquer_sardinia }
 		provinces_to_highlight = {
-				area = sicily_area
+			area = sicily_area
 			NOT = { country_or_non_sovereign_subject_holds = root }
+			NOT = {
+				ROOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 5 #can leave out Malta
+						area = sicily_area
+					}
+				}
+			}
 		}
 		trigger = {
-			sicily_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5 #can leave out Malta
+				area = sicily_area
 			}
 		}
 		effect = {
@@ -242,40 +312,46 @@ emp_sav_missions_conquest = {
 				duration = 7300
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 	emp_sav_union_with_naples = {
 		icon = sav_union_with_naples
 		required_missions = { emp_sav_conquer_sicily }
 		provinces_to_highlight = {
 			OR = {
-				area = naples_area
-				area = apulia_area
-				area = calabria_area
-				area = abruzzo_area
+				province_id = 121
+				AND = {
+					OR = {
+						area = naples_area
+						area = apulia_area
+						area = calabria_area
+					}
+					ROOT = {
+						NOT = {
+							num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+								value = 8
+								OR = {
+									area = naples_area
+									area = apulia_area
+									area = calabria_area
+								}
+							}
+						}
+					}
+				}
 			}
 			NOT = { country_or_non_sovereign_subject_holds = root }
 		}
 		trigger = {
-			OR = {
-				NAP = { is_subject_of = ROOT }
-				TTS = { is_subject_of = ROOT }
-				AND = {
-					naples_area = {
-						type = all
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-					apulia_area = {
-						type = all
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-					calabria_area = {
-						type = all
-						country_or_non_sovereign_subject_holds = ROOT
-					}
-					abruzzo_area = {
-						type = all
-						country_or_non_sovereign_subject_holds = ROOT
-					}
+			owns_or_non_sovereign_subject_of = 121
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 8
+				OR = {
+					area = naples_area
+					area = apulia_area
+					area = calabria_area
 				}
 			}
 		}
@@ -284,6 +360,9 @@ emp_sav_missions_conquest = {
 				name = sav_garibaldis_handshake
 				duration = -1
 			}
+		}
+		ai_weight = {
+			factor = 500
 		}
 	}
 }
@@ -334,6 +413,9 @@ emp_sav_missions_conquest_north = {
 				add_permanent_claim = root
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 	
 	emp_sav_defeat_the_swiss = {
@@ -345,15 +427,25 @@ emp_sav_missions_conquest_north = {
 				area = switzerland_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = root }
+			ROOT = {
+				NOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 8
+						OR = {
+							area = romandie_area
+							area = switzerland_area
+						}
+					}
+				}
+			}
 		}
 		trigger = {
-			romandie_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			switzerland_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 8
+				OR = {
+					area = romandie_area
+					area = switzerland_area
+				}
 			}
 		}
 		effect = {
@@ -371,6 +463,13 @@ emp_sav_missions_conquest_north = {
 				}
 				add_permanent_claim = root
 			}
+			lorraine_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
 		}
 	}
 	
@@ -381,6 +480,7 @@ emp_sav_missions_conquest_north = {
 			OR = {
 				area = bourgogne_area
 				area = west_burgundy_area
+				area = lorraine_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = root }
 			NOT = {
@@ -390,19 +490,20 @@ emp_sav_missions_conquest_north = {
 						OR = {
 							area = bourgogne_area
 							area = west_burgundy_area
+							area = lorraine_area
 						}
 					}
 				}
 			}
 		}
 		trigger = {
-			bourgogne_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			west_burgundy_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 6
+				OR = {
+					area = bourgogne_area
+					area = west_burgundy_area
+					area = lorraine_area
+				}
 			}
 		}
 		effect = {
@@ -438,29 +539,38 @@ emp_sav_missions_conquest_italia = {
 		required_missions = { emp_sav_conquer_genoa }
 		provinces_to_highlight = {
 			OR = {
-				area = lombardy_area
-				area = po_valley_area
-				province_id = 7080
-				province_id = 2979
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
+				AND = {
+					OR = {
+						area = lombardy_area
+						area = po_valley_area
+					}
+					NOT = { country_or_non_sovereign_subject_holds = root }
+					ROOT = {
+						NOT = {
+							num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+								value = 5
+								OR = {
+									area = lombardy_area
+									area = po_valley_area
+								}
+							}
+						}
+					}
+				}
+				AND = {
+					province_id = 104
+					NOT = { country_or_non_sovereign_subject_holds = root }
+				}
 			}
 		}
 		trigger = {
-			lombardy_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			po_valley_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			7080 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			2979 = {
-				country_or_non_sovereign_subject_holds = ROOT
+			owns_or_non_sovereign_subject_of = 104
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5 #those held by Milan at start
+				OR = {
+					area = lombardy_area
+					area = po_valley_area
+				}
 			}
 		}
 		effect = {
@@ -497,6 +607,9 @@ emp_sav_missions_conquest_italia = {
 				add_permanent_claim = root
 			}
 		}
+		ai_weight = {
+			factor = 500
+		}
 	}
 	emp_sav_conquer_UPCI = { #Tuscany, Parma, Modena
 		icon = conquer_tuscany
@@ -504,43 +617,47 @@ emp_sav_missions_conquest_italia = {
 		provinces_to_highlight = {
 			OR = {
 				area = tuscany_area
-				area = south_tuscany_area 
 				area = emilia_romagna_area
+				area = south_tuscany_area 
 				area = upper_emilia_area 
 				area = emilia_area 
 			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
+			NOT = { country_or_non_sovereign_subject_holds = root }
+			ROOT = {
+				NOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 8 #out of 10
+						OR = {
+							area = tuscany_area
+							area = emilia_romagna_area
+							area = south_tuscany_area
+							area = upper_emilia_area
+							area = emilia_area 
+						}
+					}
+				}
 			}
 		}
 		trigger = {
-			tuscany_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			emilia_romagna_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			south_tuscany_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			upper_emilia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			emilia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 8 #out of 10
+				OR = {
+					area = tuscany_area
+					area = emilia_romagna_area
+					area = south_tuscany_area
+					area = upper_emilia_area
+					area = emilia_area 
+				}
 			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = sav_northern_italian_empire
 				duration = 10950
-
 			}
+		}
+		ai_weight = {
+			factor = 500
 		}
 	}
 }
@@ -566,13 +683,19 @@ emp_sav_missions_conquest_west = {
 		icon = mission_humiliate_provence
 		required_missions = {  }
 		provinces_to_highlight = {
+			OR = {
 				area = provence_area
+				area = savoy_dauphine_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = root }
 			ROOT = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 7
-						area = provence_area
+						OR = {
+							area = provence_area
+							area = savoy_dauphine_area
+						}
 					}
 				}
 			}
@@ -580,38 +703,24 @@ emp_sav_missions_conquest_west = {
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 7
+				OR = {
 					area = provence_area
+					area = savoy_dauphine_area
+				}
 			}
 		}
 		effect = {
-			languedoc_area = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
+			custom_tooltip = emp_sav_conquer_provence_reward_tooltip
+			hidden_effect = {
+				every_province = {
+					limit = {
+						NOT = { is_core = root }
+						NOT = { is_permanent_claim = root }
+						continent = europe
+						culture = occitain
+					}
+					add_permanent_claim = root
 				}
-				add_permanent_claim = root
-			}
-			dauphine_area  = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
-			}
-			west_languedoc_area  = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-					NOT = { province_id = 197 }
-				}
-				add_permanent_claim = root
-			}
-			limousin_area  = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-				}
-				add_permanent_claim = root
 			}
 		}
 	}
@@ -621,51 +730,75 @@ emp_sav_missions_conquest_west = {
 		required_missions = { emp_sav_conquer_provence }
 		provinces_to_highlight = {
 			OR = {
-				area = west_languedoc_area
+				area = provence_area
 				area = savoy_dauphine_area
 				area = languedoc_area
+				province_id = 198
+				province_id = 199
+				province_id = 4777
+				area = west_languedoc_area
 				area = limousin_area
 			}
-			NOT = { province_id = 197 }
 			NOT = { country_or_non_sovereign_subject_holds = root }
+			ROOT = {
+				NOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 14 #out of 16
+						OR = {
+							area = provence_area
+							area = savoy_dauphine_area
+							area = languedoc_area
+							province_id = 198
+							province_id = 199
+							province_id = 4777
+							area = west_languedoc_area
+							area = limousin_area
+						}
+					}
+				}
+			}
 		}
 		trigger = {
-			limousin_area = {
-				type = all
-				owned_by = ROOT
-			}
-			languedoc_area = {
-				type = all
-				owned_by = ROOT
-			}
-			savoy_dauphine_area = {
-				type = all
-				owned_by = ROOT
-			}
-			west_languedoc_area = {
-				type = all
-				owned_by = ROOT
-				NOT = { province_id = 197 }
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 14 #out of 16
+				OR = {
+					area = provence_area
+					area = savoy_dauphine_area
+					area = languedoc_area
+					province_id = 198
+					province_id = 199
+					province_id = 4777
+					area = west_languedoc_area
+					area = limousin_area
+				}
 			}
 		}
 		effect = {
-			upper_gascony_area  = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
+			custom_tooltip = emp_sav_conquer_occitania_effect_tooltip
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						culture = occitain
+					}
+					add_province_modifier = {
+						name = sav_savoyard_occitania
+						duration = 10950
+					}
 				}
-				add_permanent_claim = root
 			}
-			pyrenees_area   = {
-				limit = {
-					NOT = { is_core = root }
-					NOT = { is_permanent_claim = root }
-					NOT = { province_id = 7923 }
+			custom_tooltip = emp_sav_conquer_occitania_effect_tooltip2
+			hidden_effect = {
+				every_province = {
+					limit = {
+						NOT = { is_core = root }
+						NOT = { is_permanent_claim = root }
+						continent = europe
+						culture = gascon
+					}
+					add_permanent_claim = root
 				}
-				add_permanent_claim = root
-				
 			}
-			guyenne_area  = {
+			ile_de_france_area = {
 				limit = {
 					NOT = { is_core = root }
 					NOT = { is_permanent_claim = root }
@@ -680,27 +813,18 @@ emp_sav_missions_conquest_west = {
 		required_missions = { emp_sav_conquer_burgundy emp_sav_conquer_occitania }
 		position = 4
 		provinces_to_highlight = {
+			province_id = 183
 			OR = {
-				area = upper_gascony_area
-				area = pyrenees_area
-				area = guyenne_area
+				NOT = { owned_by = root }
+				NOT = { is_core = root }
 			}
-			NOT = { province_id = 7923 }
-			NOT = { country_or_non_sovereign_subject_holds = root }
+			ROOT = { NOT = { succession_claim = FRA } }
 		}
 		trigger = {
-			upper_gascony_area = {
-				type = all
-				owned_by = ROOT
-			}
-			guyenne_area = {
-				type = all
-				owned_by = ROOT
-			}
-			pyrenees_area = {
-				type = all
-				owned_by = ROOT
-				NOT = { province_id = 7923 }
+			NOT = { is_part_of_hre = yes }
+			OR = {
+				owns_core_province = 183
+				succession_claim = FRA
 			}
 		}
 		effect = {
@@ -889,13 +1013,13 @@ emp_sav_missions_security = {
 		required_missions = { emp_sav_cover_your_bases }
 		provinces_to_highlight = {
 			OR = {
-				area = north_piedmont_area
-				area = south_piedmont_area
 				area = piedmont_area
 				area = savoy_dauphine_area
 				area = provence_area
 				area = switzerland_area
 				area = romandie_area
+				area = north_piedmont_area
+				area = south_piedmont_area
 			}
 			owned_by = root
 			if = {
@@ -945,13 +1069,13 @@ emp_sav_missions_security = {
 							has_building = fort_15th
 						}
 						OR = {
-				area = north_piedmont_area
-				area = south_piedmont_area
 							area = piedmont_area
 							area = savoy_dauphine_area
 							area = provence_area
 							area = switzerland_area
 							area = romandie_area
+							area = north_piedmont_area
+							area = south_piedmont_area
 						}
 					}
 				}
@@ -982,47 +1106,47 @@ emp_sav_missions_security = {
 					has_building = fort_15th
 				}
 				OR = {
-						area = north_piedmont_area
-						area = south_piedmont_area
 					area = piedmont_area
 					area = savoy_dauphine_area
 					area = provence_area
 					area = switzerland_area
 					area = romandie_area
+					area = north_piedmont_area
+					area = south_piedmont_area
 				}
 			}
 		}
 		effect = {
 			custom_tooltip = emp_mlo_fortify_alps_effects_tooltip
-			every_owned_province = {
-				limit = {
-					OR = {
-						area = north_piedmont_area
-						area = south_piedmont_area
-						area = piedmont_area
-						area = savoy_dauphine_area
-						area = provence_area
-						area = switzerland_area
-						area = romandie_area
-					}
-					has_building = fort_18th
-				}
-				add_province_modifier = {
-					name = mlo_expanded_fortifications
-					duration = 36500
-				}
-			}
 			hidden_effect = {
 				every_owned_province = {
 					limit = {
 						OR = {
-							area = north_piedmont_area
-							area = south_piedmont_area
 							area = piedmont_area
 							area = savoy_dauphine_area
 							area = provence_area
 							area = switzerland_area
 							area = romandie_area
+							area = north_piedmont_area
+							area = south_piedmont_area
+						}
+						has_building = fort_18th
+					}
+					add_province_modifier = {
+						name = mlo_expanded_fortifications
+						duration = 36500
+					}
+				}
+				every_owned_province = {
+					limit = {
+						OR = {
+							area = piedmont_area
+							area = savoy_dauphine_area
+							area = provence_area
+							area = switzerland_area
+							area = romandie_area
+							area = north_piedmont_area
+							area = south_piedmont_area
 						}
 					}
 					if = {
@@ -1326,14 +1450,20 @@ emp_sav_missions_papacy = {
 				}
 				add_permanent_claim = root
 			}
-			tripoli_area  = {
+			syria_area = {
 				limit = {
 					NOT = { is_core = root }
 					NOT = { is_permanent_claim = root }
 				}
 				add_permanent_claim = root
 			}
-
+			aleppo_area = {
+				limit = {
+					NOT = { is_core = root }
+					NOT = { is_permanent_claim = root }
+				}
+				add_permanent_claim = root
+			}
 		}
 	}
 }

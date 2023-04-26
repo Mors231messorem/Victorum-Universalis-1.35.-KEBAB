@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 mas_1 = {
 	slot = 1
 	generic = no
@@ -84,7 +85,7 @@ mas_1 = {
 	}
 	
 	mas_going_back_home = { 
-		icon = mission_war_chest
+		icon = mission_ne_great_lakes_conquest
 		position = 3
 		required_missions = { mas_the_sound_of_bells }
 		provinces_to_highlight = {

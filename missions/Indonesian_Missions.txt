@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 indonesians_3 = {
 	slot = 3
 	generic = no
@@ -155,6 +156,7 @@ indonesians_4 = {
 		technology_group = chinese
 		culture_group = malay
 		NOT = { tag = MAJ }
+		NOT = { has_reform = pirate_republic_reform }
 	}
 	has_country_shield = yes
 	
@@ -659,6 +661,12 @@ indonesians_4 = {
 			add_country_modifier = {
 				name = malay_united_nusantara
 				duration = -1
+			}
+			if = { 
+				limit = { 
+					NOT = { government_rank = 3 } 
+				}
+				set_government_rank = 3
 			}
 		}
 	}	

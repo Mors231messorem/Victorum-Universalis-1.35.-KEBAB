@@ -31,7 +31,6 @@ bohemia_region = {
 
 france_region = {
 	areas = {
-		brittany_area
 		bar_area
 		normandy_area
 		provence_area
@@ -49,7 +48,6 @@ france_region = {
 		#BTADDITIONS
 		poitou_area			#also added by Paradox in 1.25, same id so no change needed.
 		champagne_area			#also added by Paradox in 1.25, same id so no change needed.
-		lower_brittany_area
 		lower_normandy_area
 		orleans_area
 		berry_touraine_area
@@ -61,6 +59,13 @@ france_region = {
 		limousin_area
 		lorraine_area
 		alsace_area
+	}
+}
+
+brittany_region = {
+	areas = {
+		brittany_area
+		lower_brittany_area
 	}
 }
 

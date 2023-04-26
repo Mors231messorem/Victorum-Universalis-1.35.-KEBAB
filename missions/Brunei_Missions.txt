@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 mnd_bei_1 = {
 	slot = 1
 	generic = no
@@ -88,6 +89,9 @@ mnd_bei_1 = {
 		effect = {
 			add_prestige = 50
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 	
 	mnd_bei_impress_sulu = {
@@ -151,6 +155,9 @@ mnd_bei_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 	mnd_bei_conquer_mindanao = {
@@ -216,6 +223,9 @@ mnd_bei_1 = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 	mnd_bei_conquer_philippines = {
 		icon = mission_oceania_assemble_an_army
@@ -270,6 +280,9 @@ mnd_bei_1 = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 }
 
@@ -320,6 +333,9 @@ mnd_bei_2 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 	mnd_bei_civil_strife = {
 		icon = mission_hands_praying
@@ -356,17 +372,12 @@ mnd_bei_2 = {
 			}				
 		}
 		effect = {
-			if = {
-				limit = {
-					is_revolutionary = no
-				}
-				add_absolutism = 20
-			}
-			else = {
-				add_revolutionary_zeal = 20
-			}
+			add_revolutionary_zeal_or_absolutism = { amount = 20 }
 			add_stability = 1
 			add_prestige = 10
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 	
@@ -432,6 +443,9 @@ mnd_bei_2 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 	mnd_bei_conquer_luzon = {
 		icon = mission_ne_great_lakes_conquest
@@ -492,6 +506,9 @@ mnd_bei_2 = {
 					duration = -1
 				}
 			}
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 }

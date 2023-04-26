@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 fijian_missions = {
 	slot = 3
 	generic = no
@@ -65,14 +66,13 @@ fijian_missions = {
 		trigger = {
 			OR = {
 				AND = {
-					all_rival_country = { 
-						NOT = {
-							army_strength = {
-								who = ROOT
-								value = 0.5
-							}
-						}
+					fiji_area = {
+						type = all
+						country_or_non_sovereign_subject_holds = ROOT
 					}
+					army_size_percentage = 1
+				}
+				AND = {
 					OR = { 
 						any_rival_country = {
 							is_threat = ROOT
@@ -83,13 +83,14 @@ fijian_missions = {
 							}
 						}
 					}
-				}
-				AND = {
-					fiji_area = {
-						type = all
-						country_or_non_sovereign_subject_holds = ROOT
+					all_rival_country = { 
+						NOT = {
+							army_strength = {
+								who = ROOT
+								value = 0.5
+							}
+						}
 					}
-					army_size_percentage = 1
 				}
 			}
 		}	
@@ -213,7 +214,15 @@ hawaiian_missions = {#Credits to James Beaumont
 		position = 3
 		required_missions = { hawaii_ahupuaa_system }
 		trigger = { 
-			num_of_generals_with_traits = 1
+			if = {
+				limit = {
+					has_dlc = "Rights of Man"
+				}
+				num_of_generals_with_traits = 1
+			}
+			else = {
+				num_of_generals = 2
+			}
 		}
 		effect = {
 			add_army_tradition = 15
@@ -234,7 +243,17 @@ hawaiian_missions = {#Credits to James Beaumont
 			}
 		}
 		trigger = {
+			1240 = { 
+				country_or_subject_holds = ROOT 
+			}
 			OR = {
+				calc_true_if = {
+					amount = 2
+					all_province = {
+						area = northern_polynesia_area
+						owned_by = ROOT
+					}
+				}
 				all_rival_country = { 
 					NOT = {
 						army_strength = {
@@ -243,16 +262,6 @@ hawaiian_missions = {#Credits to James Beaumont
 						}
 					}
 				}
-				calc_true_if = {
-					amount = 2
-					all_province = {
-						area = northern_polynesia_area
-						owned_by = ROOT
-					}
-				}
-			}
-			1240 = { 
-				country_or_subject_holds = ROOT 
 			}
 		}	
 		effect = {
@@ -323,7 +332,7 @@ maori_missions = {#Credits to James Beaumont
 				else = {
 					add_casus_belli = {
 						target = FROM
-						type = cb_force_tributary
+						type = cb_force_tributary_mission
 						months = 300
 					}
 				}
@@ -369,30 +378,42 @@ maori_missions = {#Credits to James Beaumont
 			}
 		}
 		effect = {
-			random_known_country = {
-				limit = { 
-					is_rival = ROOT 
-					primary_culture = maori
+			if = {
+				limit = {
+					any_known_country = {
+						is_rival = ROOT 
+						primary_culture = maori
+					}
 				}
-				if = { 
+				random_known_country = {
 					limit = { 
-						NOT = { 
-							has_dlc = "Mandate of Heaven" 
-						} 
+						is_rival = ROOT 
+						primary_culture = maori
 					}
-					reverse_add_casus_belli = {
-						target = ROOT
-						type = cb_vassalize_mission
-						months = 300
-					}
-				} 		
-				else = {
-					reverse_add_casus_belli = {
-						target = ROOT
-						type = cb_force_tributary
-						months = 300
+					if = { 
+						limit = { 
+							NOT = { 
+								has_dlc = "Mandate of Heaven" 
+							} 
+						}
+						reverse_add_casus_belli = {
+							target = ROOT
+							type = cb_vassalize_mission
+							months = 300
+						}
+					} 		
+					else = {
+						reverse_add_casus_belli = {
+							target = ROOT
+							type = cb_force_tributary_mission
+							months = 300
+						}
 					}
 				}
+			}
+			else = {
+				add_yearly_manpower = 0.15
+				add_adm_power = 100
 			}
 		}
 	}
@@ -505,16 +526,6 @@ samoan_missions = {
 		trigger = { 
 			OR = {
 				AND = {
-					marriage_with = TOG
-					prestige = TOG
-					legitimacy = TOG
-					army_strength = {
-						who = TOG
-						value = 0.5
-					}
-				}
-				
-				AND = {
 					TOG = {
 						exists = no
 					}
@@ -526,6 +537,15 @@ samoan_missions = {
 					exists = yes
 					is_subject_of = SAM
 				}
+				AND = {
+					marriage_with = TOG
+					prestige = TOG
+					legitimacy = TOG
+					army_strength = {
+						who = TOG
+						value = 0.5
+					}
+				}				
 			}
 		}
 		effect = {
@@ -564,7 +584,7 @@ samoan_missions = {
 				add_prestige = 10
 				add_casus_belli = {
 					target = TOG
-					type = cb_force_tributary
+					type = cb_force_tributary_mission
 					months = 300
 				}
 			}
@@ -641,7 +661,7 @@ samoan_missions = {
 				else = {
 					reverse_add_casus_belli = {
 						target = ROOT
-						type = cb_force_tributary
+						type = cb_force_tributary_mission
 						months = 300
 					}
 				}
@@ -690,15 +710,6 @@ tongan_missions = {
 		trigger = { 
 			OR = {
 				AND = {
-					marriage_with = SAM
-					prestige = SAM
-					legitimacy = SAM
-					army_strength = {
-						who = SAM
-						value = 0.5
-					}
-				}
-				AND = {
 					SAM = {
 						exists = no
 					}
@@ -709,6 +720,15 @@ tongan_missions = {
 				SAM = {
 					exists = yes
 					is_subject_of = TOG
+				}
+				AND = {
+					marriage_with = SAM
+					prestige = SAM
+					legitimacy = SAM
+					army_strength = {
+						who = SAM
+						value = 0.5
+					}
 				}
 			}
 		}
@@ -748,7 +768,7 @@ tongan_missions = {
 				add_prestige = 10
 				add_casus_belli = {
 					target = SAM
-					type = cb_force_tributary
+					type = cb_force_tributary_mission
 					months = 300
 				}
 			}
@@ -797,7 +817,7 @@ tongan_missions = {
 				else = {
 					reverse_add_casus_belli = {
 						target = ROOT
-						type = cb_force_tributary
+						type = cb_force_tributary_mission
 						months = 300
 					}
 				}
@@ -850,7 +870,7 @@ tongan_missions = {
 				else = {
 					reverse_add_casus_belli = {
 						target = ROOT
-						type = cb_force_tributary
+						type = cb_force_tributary_mission
 						months = 300
 					}
 				}

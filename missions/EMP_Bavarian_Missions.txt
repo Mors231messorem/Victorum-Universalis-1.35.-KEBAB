@@ -1,5 +1,4 @@
-
-
+#VU updated for 1.35 by San Felipe
 emp_bav_prestige_branch = {
 	slot = 2
 	generic = no

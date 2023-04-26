@@ -1,10 +1,17 @@
-#Updated and scriptified by Dub.
+#VU updated for 1.35 by San Felipe
 tur_conquerors_of_the_near_east = {
 	slot = 1 #upper left column
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = yes
 	potential = {
-		tag = TUR
+		OR = {
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
+			tag = RUM
+		}
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
@@ -248,7 +255,14 @@ tur_eastern_balkans = {
 	ai = yes
 	
 	potential = {
-		tag = TUR
+		OR = {
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
+			tag = RUM
+		}
+		NOT = { map_setup = map_setup_random }
 	}
 	
 	has_country_shield = yes
@@ -347,7 +361,14 @@ tur_conquest_of_middle_east = {
 	ai = yes
 	
 	potential = {
-		tag = TUR
+		OR = {
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
+			tag = RUM
+		}
+		NOT = { map_setup = map_setup_random }
 	}
 	
 	has_country_shield = yes
@@ -368,7 +389,7 @@ tur_conquest_of_middle_east = {
 		}
 	}
 	consolidate_asia_minor = {
-		icon = mission_consolidate_asia_minor
+		icon = mission_ottoman_harem
 		required_missions = { army_reforms_of_mehemed_II }
 		position = 3
 		completed_by = 1469.1.1
@@ -435,7 +456,7 @@ tur_conquest_of_middle_east = {
 		}
 	}
 	conquer_mesopotamia = {
-		icon = mission_non-western_cavalry_raid
+		icon = mission_persian_soldiers
 		required_missions = { safeguard_eastern_anatolia }
 		completed_by = 1536.1.1
 		provinces_to_highlight = {
@@ -459,7 +480,7 @@ tur_conquest_of_middle_east = {
 		}
 	}
 	conquer_haasa = {
-		icon = mission_invade_island
+		icon = mission_bedouins
 		required_missions = { conquer_mesopotamia }
 		completed_by = 1549.1.1
 		provinces_to_highlight = {
@@ -505,7 +526,14 @@ tur_conquest_of_middle_east = {
 tur_black_sea = {
 	slot = 4
 	potential = {
-		tag = TUR
+		OR = {
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
+			tag = RUM
+		}
+		NOT = { map_setup = map_setup_random }
 	}
 	
 	has_country_shield = yes
@@ -572,7 +600,14 @@ tur_eastern_mediterrenean_missions = {
 	ai = yes
 	
 	potential = {
-		tag = TUR
+		OR = {
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
+			tag = RUM
+		}
+		NOT = { map_setup = map_setup_random }
 	}
 	
 	has_country_shield = yes
@@ -608,7 +643,7 @@ tur_eastern_mediterrenean_missions = {
 		}
 	}
 	conquer_egypt = {
-		icon = mission_conquer_egypt
+		icon = mission_egyptian_mamluk_soldier
 		required_missions = { conquer_levant }
 		position = 6
 		completed_by = 1517.1.1
@@ -722,7 +757,14 @@ tur_eastern_mediterrenean_missions = {
 tur_conquer_western_mediterrenean = {
 	slot = 2
 	potential = {
-		tag = TUR
+		OR = {
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
+			tag = RUM
+		}
+		NOT = { map_setup = map_setup_random }
 	}
 	
 	has_country_shield = yes
@@ -838,7 +880,14 @@ tur_conquer_western_mediterrenean = {
 tur_indian_ocean = {
 	slot = 4
 	potential = {
-		tag = TUR
+		OR = {
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
+			tag = RUM
+		}
+		NOT = { map_setup = map_setup_random }
 	}
 	
 	has_country_shield = yes

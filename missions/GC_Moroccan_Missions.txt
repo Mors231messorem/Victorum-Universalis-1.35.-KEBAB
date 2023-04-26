@@ -1,7 +1,4 @@
-#Updated by C1CK
-#Was Mostly up-to-date except for a few colonial missions and a possible oversight, where subjugate Granada requires you to war Castille for land
-#Has no changes besides updating claims for BT
-#Fixed by Dub.
+#VU updated for 1.35 by San Felipe
 gc_morocco_1 = {
 	slot = 1
 	generic = no
@@ -72,7 +69,7 @@ gc_morocco_1 = {
 			}
 		}
 	}
-	gc_mor_saharan_route = { #Updated by C1CK
+	gc_mor_saharan_route = {
 		icon = mission_saharan_route
 		required_missions = { gc_mor_imperial_cities }
 		
@@ -115,7 +112,7 @@ gc_morocco_1 = {
 					}
 				}
 				set_country_flag = mor_sudanese_expedition
-				country_event = { id = flavor_mor.9 } #This event is all messed up, but I don't quite know what the purpose is anyway
+				country_event = { id = flavor_mor.9 }
 			}
 			add_country_modifier = {
 				name = mor_saharan_trade
@@ -595,21 +592,29 @@ gc_morocco_3 = {
 	}
 	has_country_shield = yes
 	
-	gc_mor_ceuta = {
-		icon = mission_reconquer_ceuta
+	gc_mor_wattasid = {
+		icon = mission_ottoman_harem
 		required_missions = {  }
-		provinces_to_highlight = {
-			province_id = 1751
-			NOT = { owned_by = ROOT }
-		}
-		
 		trigger = {
-			1751 = {
-				owned_by = ROOT
+			stability = 1
+			NOT = { num_of_rebel_armies = 1 }
+			NOT = { num_of_rebel_controlled_provinces = 1 }
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = gc_mor_wattasid_tt
+					has_country_flag = wattasid_resolution
+				}
+				is_year = 1500
 			}
 		}
-		
 		effect = {
+			northern_morocco_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 			barbary_coast_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
@@ -624,45 +629,16 @@ gc_morocco_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			#tafilalt_area = { #Tafilalt starts owned by MOR and subjects, doesn't seem neccesary in BT
-			#	limit = {
-			#		NOT = { is_permanent_claim = ROOT	}
-			#		NOT = { is_core = ROOT	}
-			#	}
-			#	add_permanent_claim = ROOT
-			#}
-			southern_morocco_area = { #Tagmudant
+			tafilalt_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
-			if = {
-				limit = {
-					exists = GRA
-					GRA = {
-						is_subject = no
-						religion_group = muslim
-					}
-				}
-				add_casus_belli = {
-					type = cb_vassalize_mission
-					months = 300
-					target = GRA
-				}
-			}
-			else = {
-				upper_andalucia_area = {
-					limit = {
-						NOT = { is_permanent_claim = ROOT	}
-						NOT = { is_core = ROOT	}
-					}
-					add_permanent_claim = ROOT
-				}		
-			}
 		}
 	}
+	
 	gc_mor_algiers = {
 		icon = mission_conquer_algiers
 		required_missions = { gc_mor_ceuta }
@@ -826,7 +802,7 @@ gc_morocco_3 = {
 			}
 		}
 	}
-	gc_mor_north_sea = { #Updated by C1CK
+	gc_mor_north_sea = {
 		icon = mission_corsairs_of_the_north_sea
 		required_missions = { gc_mor_iceland }
 		
@@ -885,11 +861,79 @@ gc_morocco_4 = {
 	}
 	has_country_shield = yes
 	
-	gc_mor_protect_granada = { #Updated by C1CK
-		icon = mission_protect_granada
-		required_missions = { gc_mor_ceuta }
+	gc_mor_ceuta = {
+		icon = mission_reconquer_ceuta
+		required_missions = { gc_mor_wattasid }
 		position = 2
+		provinces_to_highlight = {
+			province_id = 1751
+			NOT = { owned_by = ROOT }
+		}
 		
+		trigger = {
+			1751 = {
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			barbary_coast_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			hautes_plaines_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			#tafilalt_area = { #Tafilalt starts owned by MOR and subjects, doesn't seem neccesary in BT
+			#	limit = {
+			#		NOT = { is_permanent_claim = ROOT	}
+			#		NOT = { is_core = ROOT	}
+			#	}
+			#	add_permanent_claim = ROOT
+			#}
+			southern_morocco_area = { #Tagmudant
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = {
+					exists = GRA
+					GRA = {
+						is_subject = no
+						religion_group = muslim
+					}
+				}
+				add_casus_belli = {
+					type = cb_vassalize_mission
+					months = 300
+					target = GRA
+				}
+			}
+			else = {
+				upper_andalucia_area = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT	}
+						NOT = { is_core = ROOT	}
+					}
+					add_permanent_claim = ROOT
+				}		
+			}
+		}
+	}
+	
+	gc_mor_protect_granada = {
+		icon = mission_protect_granada
+		required_missions = { gc_mor_ceuta }		
 		provinces_to_highlight = {
 			OR = {
 				area = upper_andalucia_area
@@ -903,7 +947,7 @@ gc_morocco_4 = {
 			}
 		}
 		
-		trigger = { #Updated triggers for 1444 Granada
+		trigger = {
 			upper_andalucia_area = {
 				type = all
 				OR = {
@@ -930,67 +974,34 @@ gc_morocco_4 = {
 			}
 			upper_andalucia_area = {
 				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
+			        NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}  
 				}
 				add_permanent_claim = ROOT
 			}
 			northern_andalusia_area = {
 				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
+			        NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}	   
 				}
 				add_permanent_claim = ROOT
 			}
 			murcia_area = {
 				limit = {
-					NOT = { is_permanent_claim = ROOT	}
-					NOT = { is_core = ROOT	}
+			        NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
 				}
 				add_permanent_claim = ROOT
 			}
 		}
 	}
-	gc_mor_reclaim_andalucia = {
-		icon = mission_reclaim_andalucia
-		required_missions = { gc_mor_protect_granada }
-		
-		provinces_to_highlight = {
-			OR = {
-				area = lower_andalucia_area
-				area = upper_andalucia_area
-				area = northern_andalusia_area
-				area = murcia_area
-			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		
-		trigger = {
-			lower_andalucia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			upper_andalucia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			northern_andalusia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			murcia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		
-		effect = {
-			add_country_modifier = {
-				name = "mor_andalucia"
-				duration = 7300
-			}
-		}
-	}
+	
 	gc_mor_tunis = {
 		icon = mission_conquer_tunis
 		required_missions = { gc_mor_pirates }
@@ -1131,7 +1142,7 @@ gc_morocco_5 = {
 			}
 		}
 	}
-	gc_mor_new_world = { #Updated by C1CK
+	gc_mor_new_world = {
 		icon = mission_new_world_power
 		required_missions = { gc_mor_brazil }
 		
@@ -1198,6 +1209,46 @@ gc_morocco_5 = {
 			add_country_modifier = {
 				name = "mor_new_world_power"
 				duration = -1
+			}
+		}
+	}
+	gc_mor_reclaim_andalucia = {
+		icon = mission_reclaim_andalucia
+		required_missions = { gc_mor_protect_granada }
+		
+		provinces_to_highlight = {
+			OR = {
+				area = lower_andalucia_area
+				area = upper_andalucia_area
+				area = northern_andalusia_area
+				area = murcia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			lower_andalucia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_andalucia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			northern_andalusia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			murcia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "mor_andalucia"
+				duration = 7300
 			}
 		}
 	}

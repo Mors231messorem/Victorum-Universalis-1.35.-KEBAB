@@ -1,4 +1,4 @@
-#Updated and scriptified by Dub.
+#VU updated for 1.35 by San Felipe
 provence_missions_1 = {
 	slot = 1
 	generic = no
