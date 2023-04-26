@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 byz_pp_balkans_north_italy = {
 	slot = 2
 	generic = no
@@ -8,6 +9,7 @@ byz_pp_balkans_north_italy = {
 	potential = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
@@ -93,6 +95,9 @@ byz_pp_balkans_north_italy = {
 			}
 			add_permanent_claim = 3000
 			add_permanent_claim = 7711
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 	
@@ -363,6 +368,9 @@ byz_pp_balkans_north_italy = {
 				duration = 5475
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 
 	recover_northern_balkans = { #Replaces Istria
@@ -439,6 +447,9 @@ byz_pp_balkans_north_italy = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	
 	destroy_venice_pp = { #New
@@ -490,6 +501,9 @@ byz_pp_balkans_north_italy = {
 				duration = 7300
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 }
 
@@ -503,6 +517,7 @@ byz_pp_italian = {
 	potential = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 
@@ -645,6 +660,9 @@ byz_pp_italian = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 
 	recover_lombardia = {
@@ -786,6 +804,9 @@ byz_pp_italian = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 
@@ -1382,6 +1403,9 @@ byz_pp_italian = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 
 	recover_germania_inferior = {
@@ -1934,6 +1958,7 @@ byz_pp_maritime = {
 	potential = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 
@@ -2032,6 +2057,9 @@ byz_pp_maritime = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 
 	recover_tripoli = {
@@ -2085,6 +2113,9 @@ byz_pp_maritime = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 
@@ -2172,6 +2203,9 @@ byz_pp_maritime = {
 				change_culture = karchidoniac
 				#change_religion = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 
@@ -2339,6 +2373,9 @@ byz_pp_maritime = {
 					duration = 5475
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 
@@ -2652,6 +2689,9 @@ byz_pp_religion = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	recover_antioch = {
 		icon = mission_recover_antioch
@@ -2723,6 +2763,9 @@ byz_pp_religion = {
 				change_culture = cypriot
 				#change_religion = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 
@@ -2803,6 +2846,9 @@ byz_pp_religion = {
 				#change_religion = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 
 	recover_alexandria = {
@@ -2871,6 +2917,9 @@ byz_pp_religion = {
 				#change_religion = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 
 	the_pentarchy_pp = {
@@ -2917,6 +2966,9 @@ byz_pp_religion = {
 				change_religion = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 
 	convert_rome = { #New/From Events
@@ -2944,6 +2996,18 @@ byz_pp_religion = {
 				name = "conversion_of_rome"
 				duration = 7300
 			}
+			hidden_effect = {
+				every_country = {
+					limit = { 
+						religion = catholic 
+						knows_country = BYZ
+					}
+					country_event = { id = flavor_byz.2 }
+				}
+			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 }
@@ -2958,6 +3022,7 @@ byz_pp_east = {
 	potential = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 
@@ -3024,6 +3089,9 @@ byz_pp_east = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	#Trebizond
 	recover_central_anatolia = { 
@@ -3080,6 +3148,9 @@ byz_pp_east = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 
@@ -3198,6 +3269,9 @@ byz_pp_east = {
 				duration = -1
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 
 	recover_the_caucasus = {
@@ -3293,5 +3367,9 @@ byz_pp_east = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
+	
 }

@@ -1,8 +1,4 @@
-#Updated by C1CK 31-01-2020
-#Lots of stuff was broken here, and many others no longer really making sense with BTs changes
-#This one actually has changes, besides updating claims, I've also; extended the # of nodes you need trade power in for consulate of the sea, Crowns of Iberia now needs Granada, Portuguese union now grants claims on Rif and Wejda, Occitan mission now grants perm. claims on Poitou, Naples mission now grants perm. claims on the former vanilla lands of Northern Greece Area, Athens mission now grants perm. claims on Cyprus and Aegean Archipelago as it does in vanilla, Constantinople mission now gives claims to East Pontus, Mare Nostrum now requires Rif area + Wejda, Tunisia mission grants perm. claims on the Tunisian parts of the Gulf of Gabes, Alexandria mission requires all of the Libyan desert, Mare Nostrum now grants perm. claims on the remaining land in; Maghreb, Levant, Anatolia, Balkans, and Carniola.
-#These guys could do with a completely new tree for BT tbh...
-
+#VU updated for 1.35 by San Felipe
 gc_aragon_1 = {
 	slot = 1
 	generic = no
@@ -31,10 +27,11 @@ gc_aragon_1 = {
 			}
 		}
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
 	
-	gc_ara_consultate_of_the_sea = { #Updated by C1CK (This is now much harder, but it does gate a very strong perm. modifier so it's fine)
+	gc_ara_consultate_of_the_sea = {
 		icon = mission_consulate_of_the_sea
 		required_missions = { }
 		provinces_to_highlight = {
@@ -138,7 +135,7 @@ gc_aragon_1 = {
 			}
 		}
 	}
-	gc_ara_industry = { #Updated by C1CK
+	gc_ara_industry = {
 		icon = mission_industria_sedera
 		required_missions = { gc_ara_valencian_silk  }
 		position = 5
@@ -217,9 +214,10 @@ gc_aragon_2 = {
 			}
 		}
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
-	gc_ara_genoa = { #Updated by C1CK
+	gc_ara_genoa = {
 		icon = mission_dominate_genoa
 		required_missions = { gc_ara_consultate_of_the_sea }
 		position = 2
@@ -317,7 +315,7 @@ gc_aragon_2 = {
 			}
 		}
 	}
-	gc_ara_crowns_of_iberia = { #Updated by C1CK (Now requires Granada, otherwise the triggers are a mess since the borders don't follow areas. Feels fair enough considering this missions want you to unify Iberia - Portugal)
+	gc_ara_crowns_of_iberia = {
 		icon = mission_empire
 		required_missions = { gc_ara_navarra }
 		
@@ -358,7 +356,7 @@ gc_aragon_2 = {
 			}
 		}
 	}
-	gc_ara_portugal = { #Updated by C1CK (Now grant perm. claims on Rif and Wejda, to complete the conquest of the Maghreb coastline)
+	gc_ara_portugal = {
 		icon = mission_union_with_portugal
 		required_missions = { gc_ara_crowns_of_iberia }
 		
@@ -412,9 +410,10 @@ gc_aragon_3 = {
 			}
 		}
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
-	gc_ara_venice = { #Updated by C1CK
+	gc_ara_venice = {
 		icon = mission_control_venice
 		required_missions = { gc_ara_genoa }
 		position = 3
@@ -517,7 +516,7 @@ gc_aragon_3 = {
 			give_permaclaims_for_mission = { mission=gc_ara_occitania }
 		}
 	}
-	gc_ara_occitania = { #Updated by C1CK (Poitou is now perm. claims)
+	gc_ara_occitania = {
 		icon = mission_invade_occitania
 		required_missions = { gc_ara_provence }
 		provinces_to_highlight = {
@@ -589,9 +588,10 @@ gc_aragon_4 = {
 			}
 		}
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
-	gc_ara_naples = { #Updated by C1CK (Readded the former vanilla lands of Northern Greece Area to this)
+	gc_ara_naples = {
 		icon = mission_unite_home_region
 		required_missions = {  }
 		
@@ -620,7 +620,7 @@ gc_aragon_4 = {
 			give_permaclaims_for_mission = { mission=gc_ara_italy_3 }
 		}
 	}
-	gc_ara_athens = { #Updated by C1CK (Updated to account for above) (Added Aegean Islands and Cyprus claims to here, as they were missing from the tree)
+	gc_ara_athens = {
 		icon = mission_assemble_an_army
 		required_missions = { gc_ara_naples }
 		
@@ -828,6 +828,7 @@ gc_aragon_5 = {
 			}
 		}
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 	}
 	has_country_shield = yes
 	
@@ -872,7 +873,7 @@ gc_aragon_5 = {
 			give_permaclaims_for_mission = { mission=gc_ara_mare_nostrum_1 }
 		}
 	}
-	gc_ara_tunis = { #Updated by C1CK (Now Grants perm. claims on Libyan desert coastline)
+	gc_ara_tunis = {
 		icon = mission_conquer_tunis
 		required_missions = { gc_ara_barbary_ports }
 		
@@ -898,7 +899,7 @@ gc_aragon_5 = {
 			give_permaclaims_for_mission = { mission=gc_ara_alexandria }
 		}
 	}
-	gc_ara_alexandria = { #Updated by C1CK (Now needs all of the Libyan desert coastline)
+	gc_ara_alexandria = {
 		icon = mission_occupy_alexandria
 		required_missions = { gc_ara_tunis }
 		

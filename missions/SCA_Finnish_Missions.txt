@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 fin_missions_1 = {
 	slot = 1
 	generic = no

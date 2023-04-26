@@ -1,4 +1,4 @@
-#Updated and scriptified by Dub.
+#VU updated for 1.35 by San Felipe
 gc_por_1 = {
 	slot = 1
 	generic = no
@@ -1067,7 +1067,6 @@ gc_por_3 = {
 						duration = 7300
 					}
 				}
-		 
 			}
 			1185 = {
 				if = {
@@ -1076,9 +1075,7 @@ gc_por_3 = {
 					add_province_modifier = {
 						name = "por_african_gold_modifier"
 						duration = 7300
-	
 					}
-		  
 				}
 			}
 			1184 = {
@@ -1088,9 +1085,7 @@ gc_por_3 = {
 					add_province_modifier = {
 						name = "por_african_gold_modifier"
 						duration = 7300
-	
 					}
-		  
 				}
 			}
 			1186 = {
@@ -1100,7 +1095,6 @@ gc_por_3 = {
 					add_province_modifier = {
 						name = "por_african_gold_modifier"
 						duration = 7300
-	
 					}
 				}
 			}
@@ -1118,15 +1112,12 @@ gc_por_3 = {
 				}
 				calc_true_if = {
 					desc = por_indian_investment_tooltip
-					 
 					india_superregion = {
 						type = all
 						has_trade_company_investment_in_area = {
 							investor = ROOT
 							count_one_per_area = yes
-		
 						}
-				
 					}
 					amount = 5
 				}
@@ -1358,7 +1349,6 @@ gc_por_4 = {
 				limit = { has_dlc = "Rule Britannia" }
 				change_innovativeness = 2
 			}
-															
 		}
 	}
 	
@@ -1374,7 +1364,6 @@ gc_por_4 = {
 		trigger = {
 			owns_core_province = 596
 		}
- 
 		effect = {
 			if = {
 				limit = {
@@ -1476,18 +1465,8 @@ gc_por_4 = {
 					owner = {
 						is_subject = no
 						has_opinion = {
-					  
-			 
-				 
-									  
-						  
-		 
-								  
-		
-					  
 							who = ROOT
 							value = 50
-		
 						}
 					}
 				}
@@ -1632,7 +1611,6 @@ gc_por_4 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
- 
 		effect = {
 			iberia_region = {
 				limit = {
@@ -1657,11 +1635,8 @@ gc_por_4 = {
 			iberia_region = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
-															
-																 
 			}
 		}
- 
 		effect = {
 			if = {
 				limit = {
@@ -1795,7 +1770,6 @@ gc_por_5_dom = {
 }
 
 
-
 gc_por_5 = {
 	slot = 5
 	generic = no
@@ -1851,7 +1825,7 @@ gc_por_5 = {
 			}
 		}
 	}
-	
+
 	gc_por_oman = {
 		icon = mission_portuguese_oman
 		required_missions = { gc_por_conquers_hormuz }
@@ -1867,7 +1841,6 @@ gc_por_5 = {
 					NOT = { owned_by = ROOT }
 				}
 			}
-						
 		}
 		
 		trigger = {
@@ -1979,20 +1952,17 @@ gc_por_5_continued = {
 		}
 		
 		trigger = {
-		 
 			custom_trigger_tooltip = {
 			tooltip = miss_discover_malaya
 				malaya_region = {
 					has_discovered = ROOT
 				}
 			}
-		 
 			custom_trigger_tooltip = {
 				tooltip = miss_colonize_malaya
 				malaya_region = {
 					owned_by = ROOT
 					is_city = yes
-	  
 				}
 			}
 		}
@@ -2064,7 +2034,6 @@ gc_por_5_continued = {
 					OR = {
 						has_building = workshop
 						has_building = counting_house
-	   
 					}
 				}
 				trading_bonus = {

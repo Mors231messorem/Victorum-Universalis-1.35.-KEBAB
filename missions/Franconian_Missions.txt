@@ -1,4 +1,4 @@
-# Priority is to have a working tree, more tinkering may be needed
+#VU updated for 1.35 by San Felipe
 franconia_conquest_group_1 = {
 	slot = 1
 	generic = no

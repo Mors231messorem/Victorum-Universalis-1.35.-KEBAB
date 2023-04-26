@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 lxa_1 = {
 	slot = 1
 	generic = no
@@ -30,6 +31,7 @@ lxa_1 = {
 				add_casus_belli = {
 					target = DAI
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -100,6 +102,7 @@ lxa_1 = {
 				add_casus_belli = {
 					target = AYU
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -121,7 +124,7 @@ lxa_1 = {
 		}
 	}
 	lxa_ayu = {
-		icon = mission_indian_soldier_elephant
+		icon = mission_unite_home_region
 		required_missions = { lxa_lna }
 		provinces_to_highlight = {
 			OR = {
@@ -147,7 +150,7 @@ lxa_1 = {
 		}
 	}
 	lxa_civil_war = {
-		icon = mission_unite_home_region
+		icon = mission_se_along_the_river
 		required_missions = {  }
 		provinces_to_highlight = {
 			OR = {
@@ -207,7 +210,7 @@ lxa_2 = {
 	}
 	has_country_shield = yes
 	lxa_raid_angkor = {
-		icon = mission_war_chest
+		icon = mission_sw_torquoise_mining
 		required_missions = { }
 		provinces_to_highlight = {
 			is_capital = yes
@@ -238,6 +241,7 @@ lxa_2 = {
 				add_casus_belli = {
 					target = KHM
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -267,7 +271,7 @@ lxa_2 = {
 	}
 	
 	lxa_khm = {
-		icon = mission_kowtow
+		icon = mission_ne_palisades
 		required_missions = { lxa_raid_angkor }
 		provinces_to_highlight = {
 			OR = {

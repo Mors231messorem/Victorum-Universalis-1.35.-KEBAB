@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 byz_western = {
 	slot = 1 #upper left column
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.

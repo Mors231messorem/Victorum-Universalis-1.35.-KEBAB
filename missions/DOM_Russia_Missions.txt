@@ -1,4 +1,4 @@
-##Made by Ogele 'Comrade Flan'
+#VU updated for 1.35 by San Felipe
 #Slot 1 and 2
 #Special to Muscovy only
 mos_rus_handle_succession = {

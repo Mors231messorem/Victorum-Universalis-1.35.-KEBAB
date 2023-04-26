@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 #First slot
 mutapa_vassal_missions_slot = {
 	slot = 1

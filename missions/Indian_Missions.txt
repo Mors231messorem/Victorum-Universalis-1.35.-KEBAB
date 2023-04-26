@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 gen_north_india_2 = {
 	slot = 2
 	generic = yes

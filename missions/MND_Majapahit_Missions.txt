@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 mnd_maj_1 = {
 	slot = 1
 	generic = no
@@ -11,7 +12,7 @@ mnd_maj_1 = {
 	}
 	has_country_shield = yes
 	mnd_maj_subjects = {
-		icon = mission_mnd_maj_enforce_loyalty
+		icon = mission_kowtow
 		required_missions = { }
 		provinces_to_highlight = {
 			owner = {
@@ -65,7 +66,10 @@ mnd_maj_1 = {
 			capital_scope = {
 				development = 50
 			}
-			num_of_times_used_transfer_development = 3
+			OR = {
+				num_of_times_used_transfer_development = 2
+				capital_scope = { num_of_times_improved = 5 }
+			}
 		}
 		effect = {
 			add_country_modifier = {
@@ -75,7 +79,7 @@ mnd_maj_1 = {
 		}
 	}
 	mnd_maj_chakravarti = {
-		icon = mission_mnd_maj_end_disaster
+		icon = mission_che_the_cave_country
 		required_missions = { mnd_maj_negara_agung }
 		provinces_to_highlight = {
 		}
@@ -117,7 +121,7 @@ mnd_maj_1 = {
 		}
 	}
 	mnd_maj_rein_in_malacca = {
-		icon = mission_mnd_maj_prepare_eastern_campaigns
+		icon = mission_mnd_khm_restored_empire
 		required_missions = { mnd_maj_enforce_loyalty }
 		provinces_to_highlight = {
 			OR = {
@@ -189,7 +193,7 @@ mnd_maj_2 = {
 	has_country_shield = yes
 
 	mnd_maj_stability = {
-		icon = mission_kowtow
+		icon = mission_mnd_khm_protect_the_cham
 		required_missions = { }
 		provinces_to_highlight = {
 		}
@@ -420,7 +424,7 @@ mnd_maj_3 = {
 	has_country_shield = yes
 
 	mnd_maj_religion = {
-		icon = mission_hands_praying
+		icon = mission_buddhist_monk_praying
 		required_missions = { }
 		provinces_to_highlight = {
 			owned_by = ROOT
@@ -604,6 +608,12 @@ mnd_maj_3 = {
 						religion = hinduism
 					}
 					custom_tooltip = propagate_religion_maj_tt
+					enable_propagate_religion_in_abrahamic_provinces= yes
+				}
+				else = {
+					hidden_effect = {
+						enable_propagate_religion_in_abrahamic_provinces= yes
+					}
 				}
 				every_province = {
 					limit = {
@@ -837,8 +847,8 @@ mnd_maj_4 = {
 				}
 				SUN = {
 					change_primary_culture = javanese
-					add_accepted_culture = sundanese
-				}
+					add_accepted_culture_or_dip_power = { culture = sundanese }
+				}				
 			}
 			if = {
 				limit = {
@@ -902,6 +912,7 @@ mnd_maj_4 = {
 						has_dlc = "El Dorado"
 						has_dlc = "Mare Nostrum"
 						has_dlc = "Golden Century"
+						has_dlc = "Lions of the North"
 					}
 				}
 				add_country_modifier = {
@@ -930,6 +941,7 @@ mnd_maj_4 = {
 						has_dlc = "El Dorado"
 						has_dlc = "Mare Nostrum"
 						has_dlc = "Golden Century"
+						has_dlc = "Lions of the North"
 					}
 				}
 				1371 = {
@@ -968,7 +980,7 @@ mnd_maj_4 = {
 		}
 	}
 	mnd_maj_blockade_china = {
-		icon = mission_junk_boat
+		icon = mission_invade_island
 		required_missions = { mnd_maj_privateer_china }
 		provinces_to_highlight = {
 			OR = {

@@ -101,7 +101,7 @@ vassal = {
 vassal = {
 	first = ASK
 	second = ASA
-	start_date = 1444.11.11
+	start_date = 1471.7.1
 	end_date = 1573.7.1 #Annexed
 }
 

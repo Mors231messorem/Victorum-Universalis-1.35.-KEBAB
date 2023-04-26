@@ -1,15 +1,13 @@
+#VU updated for 1.35 by San Felipe
 bur_conquest = {
-
 	slot = 1
 	generic = no
 	ai = yes
 	
 	potential = {
+		NOT = { has_dlc = "Emperor" }
 		tag = BUR
 		NOT = { map_setup = map_setup_random }
-		NOT = {
-			has_dlc = "Emperor"
-		}
 	}
 	has_country_shield = yes
 	
@@ -38,6 +36,9 @@ bur_conquest = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Makes sense for Burgundy to want to do that
+		}
 	}
 	
 	bur_lorraine = {
@@ -47,23 +48,38 @@ bur_conquest = {
 		
 		provinces_to_highlight = {
 			area = lorraine_area
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = { owned_by = ROOT }
 		}
 		
 		trigger = {
 			lorraine_area = {
 				type = all
-				country_or_non_sovereign_subject_holds = ROOT
+				owned_by = ROOT
 			}
 		}
 		
 		effect = {
-			luxemburg_liege_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
+			93 = {
 				add_permanent_claim = ROOT
+			}
+			1878 = {
+				add_permanent_claim = ROOT
+			}
+			2974 = {
+				add_permanent_claim = ROOT
+			}
+			1742 = {
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 25	#Although Burgundy should want that, they should not suicide themselves into the HRE
+			modifier = {	#Unless they are part of it or it doesn't exist
+				factor = 5
+				OR = {
+					is_part_of_hre = yes
+					NOT = { hre_size = 1 }
+				}
 			}
 		}
 	}
@@ -74,13 +90,26 @@ bur_conquest = {
 		position = 3
 		
 		provinces_to_highlight = {
-			area = luxemburg_liege_area
+			OR = {
+				province_id = 93
+				province_id = 1878
+				province_id = 2974
+				province_id = 1742
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		
 		trigger = {
-			luxemburg_liege_area = {
-				type = all
+			93 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1878 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2974 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1742 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
@@ -91,6 +120,13 @@ bur_conquest = {
 				name = "bur_diplo_mod"
 				duration = 5475
 			}
+			frisia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			north_brabant_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -98,12 +134,15 @@ bur_conquest = {
 				}
 				add_permanent_claim = ROOT
 			}
-			frisia_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
+		}
+		ai_weight = {
+			factor = 25	#Although Burgundy should want that, they should not suicide themselves into the HRE
+			modifier = {	#Unless they are part of it or it doesn't exist
+				factor = 5
+				OR = {
+					is_part_of_hre = yes
+					NOT = { hre_size = 1 }
 				}
-				add_permanent_claim = ROOT
 			}
 		}
 	}
@@ -137,8 +176,17 @@ bur_conquest = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 25	#Although Burgundy should want that, they should not suicide themselves into the HRE
+			modifier = {	#Unless they are part of it or it doesn't exist
+				factor = 5
+				OR = {
+					is_part_of_hre = yes
+					NOT = { hre_size = 1 }
+				}
+			}
+		}
 	}
-	
 }
 
 bur_arles = {
@@ -148,11 +196,9 @@ bur_arles = {
 	ai = yes
 	
 	potential = {
+		NOT = { has_dlc = "Emperor" }
 		tag = BUR
 		NOT = { map_setup = map_setup_random }
-		NOT = {
-			has_dlc = "Emperor"
-		}
 	}
 	has_country_shield = yes
 
@@ -162,12 +208,18 @@ bur_arles = {
 		position = 1
 		
 		provinces_to_highlight = {
-			province_id = 191
+			OR = {
+				province_id = 191
+				province_id = 181
+			}
 			NOT = { owned_by = ROOT }
 		}
 		
 		trigger = {
 			191 = {
+				owned_by = ROOT
+			}
+			181 = {
 				owned_by = ROOT
 			}
 		}
@@ -180,13 +232,15 @@ bur_arles = {
 				}
 				add_permanent_claim = ROOT
 			}
-			savoy_dauphine_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
+			205 = {
 				add_permanent_claim = ROOT
 			}
+			4719 = {
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Integrating vassal
 		}
 	}
 	
@@ -198,7 +252,8 @@ bur_arles = {
 		provinces_to_highlight = {
 			OR = {
 				area = romandie_area
-				area = savoy_dauphine_area
+				province_id = 205
+				province_id = 4719
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -208,13 +263,22 @@ bur_arles = {
 				type = all
 				owned_by = ROOT
 			}
-			savoy_dauphine_area = {
-				type = all
+			205 = {
+				owned_by = ROOT
+			}
+			4719 = {
 				owned_by = ROOT
 			}
 		}
 		
 		effect = {
+			savoy_dauphine_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			provence_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -222,12 +286,18 @@ bur_arles = {
 				}
 				add_permanent_claim = ROOT
 			}
-			dauphine_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
+			102 = {
 				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 25	#Although Burgundy should want that, they should not suicide themselves into the HRE
+			modifier = {	#Unless they are part of it or it doesn't exist
+				factor = 5
+				OR = {
+					is_part_of_hre = yes
+					NOT = { hre_size = 1 }
+				}
 			}
 		}
 	}
@@ -240,22 +310,34 @@ bur_arles = {
 		provinces_to_highlight = {
 			OR = {
 				area = provence_area
-				area = dauphine_area
+				area = savoy_dauphine_area
+				province_id = 102
 			}
-			NOT = { owned_by = ROOT }
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			NOT = {
+				ROOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 8 #out of 9 (so you can leave out Avignon)
+						OR = {
+							area = provence_area
+							area = savoy_dauphine_area
+							province_id = 102
+						}
+					}
+				}
+			}
 		}
 		
 		trigger = {
-			provence_area = {
-				type = all
-				owned_by = ROOT
-			}
-			dauphine_area = {
-				type = all
-				owned_by = ROOT
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 8 #out of 9 (so you can leave out Avignon)
+				OR = {
+					area = provence_area
+					area = savoy_dauphine_area
+					province_id = 102
+				}
 			}
 		}
-		
 		effect = {
 			if = {
 				limit = {
@@ -277,6 +359,20 @@ bur_arles = {
 				}
 				add_claim = ROOT
 			}
+			lombardy_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
+			po_valley_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_claim = ROOT
+			}
 			piedmont_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -284,6 +380,9 @@ bur_arles = {
 				}
 				add_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 }

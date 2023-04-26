@@ -1,8 +1,10 @@
+#VU updated for 1.35 by San Felipe
 papal_missions_slot = {
 	slot = 1
 	generic = no
 	ai = yes
 	potential = {
+		NOT = { has_dlc = "Emperor" }
 		tag = PAP
 		NOT = { map_setup = map_setup_random }
 		NOT = {
@@ -84,6 +86,7 @@ papal_missions_slot_2 = {
 	generic = no
 	ai = yes
 	potential = {
+		NOT = { has_dlc = "Emperor" }
 		tag = PAP
 		NOT = { map_setup = map_setup_random }
 		NOT = {

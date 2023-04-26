@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 mnd_pegu_1 = {
 	slot = 1
 	generic = no
@@ -13,7 +14,7 @@ mnd_pegu_1 = {
 	has_country_shield = yes
 	
 	mnd_peg_sadhuim = {
-		icon = mission_rice_field
+		icon = mission_mnd_khm_restore_angkor
 		required_missions = { }
 		provinces_to_highlight = {
 			OR = {
@@ -46,7 +47,7 @@ mnd_pegu_1 = {
 					has_dlc = "Dharma"
 					586 = {
 						NOT = {
-							province_has_center_of_trade_of_level = 2
+							province_has_center_of_trade_of_level = 3
 						}
 					}
 				}
@@ -278,7 +279,7 @@ mnd_pegu_3 = {
 					override_country_name = HARIPHUNCHAI
 					set_country_flag = is_hariphunchai
 					change_primary_culture = mon
-					add_accepted_culture = northern_thai
+					add_accepted_culture_or_dip_power = { culture = northern_thai }
 				}
 			}
 			4841 = {
@@ -296,6 +297,7 @@ mnd_pegu_3 = {
 				add_casus_belli = {
 					target = AYU
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -331,7 +333,7 @@ mnd_pegu_3 = {
 		}
 	}
 	mnd_peg_dvarati = {
-		icon = mission_kowtow
+		icon = mission_mnd_maj_subjugate_makassar
 		required_missions = { mnd_peg_hariphunchai }
 		provinces_to_highlight = {
 			OR = {
@@ -374,7 +376,7 @@ mnd_pegu_3 = {
 					override_country_name = DVARAVATI
 					set_country_flag = is_dvaravati
 					change_primary_culture = mon
-					add_accepted_culture = central_thai
+					add_accepted_culture_or_dip_power = { culture = central_thai }
 				}
 			}
 		}
@@ -444,6 +446,7 @@ mnd_pegu_4 = {
 				add_casus_belli = {
 					target = LNA
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -498,7 +501,7 @@ mnd_pegu_4 = {
 	}
 	
 	mnd_peg_pagan = {
-		icon = mission_mnd_dai_temples
+		icon = mission_mnd_dai_examination_system
 		required_missions = { mnd_peg_irrawaddy }
 		provinces_to_highlight = {
 			province_id = 2399

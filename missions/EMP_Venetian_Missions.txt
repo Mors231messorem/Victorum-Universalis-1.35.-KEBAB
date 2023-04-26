@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 emp_ven_slot_1 = {
 	slot = 1
 	generic = no
@@ -138,13 +139,54 @@ emp_ven_slot_2 = {
 		icon = expand_the_doges_palace
 		position = 3
 		required_missions = { emp_ven_patronize_the_scuole_grandi }
-		
+		provinces_to_highlight = {
+			province_id = 112
+			OR = {
+				NOT = { is_core = ROOT }
+				NOT = { owned_by = ROOT }
+			}
+		}
 		trigger = {
 			treasury = 3000
 			legitimacy_equivalent = 90
+			owns_core_province = 112
 		}
 		effect = {
 			add_prestige = 50
+			if = {
+				limit = {
+					has_dlc = "Leviathan"
+				}
+				if = {
+					limit = {
+						112 = {
+							NOT = {
+								has_great_project = {
+									type = doges_palace
+									tier = 3
+								}
+							}
+						}
+					}
+					112 = {
+						add_great_project_tier = {
+							type = doges_palace
+							tier = 1
+						}
+					}
+					add_treasury = -3000
+				}
+				else =  {
+					112 = {
+						add_base_tax = 2
+					}
+				}
+			}
+			else = {
+				112 = {
+					add_base_tax = 2
+				}
+			}
 		}
 	}
 	
@@ -301,30 +343,8 @@ emp_ven_slot_3 = {
 		position = 3
 		required_missions = { emp_ven_land_grants_for_free_companies emp_ven_contest_genoese_trade }
 		
-		provinces_to_highlight = {
-			OR = {
-				area = emilia_romagna_area
-				area = emilia_area
-				province_id = 109
-				province_id = 7081
-			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
 		trigger = {
-			emilia_romagna_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			emilia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			7081 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			109 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			grown_by_states = 2
 		}
 		effect = {
 			lombardy_area = {

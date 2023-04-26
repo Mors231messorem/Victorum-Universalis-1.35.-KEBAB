@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 mnd_plb_1 = {
 	slot = 1
 	generic = no
@@ -55,7 +56,7 @@ mnd_plb_1 = {
 		}
 		
 		effect = {
-			620 = {
+			2677 = {
 				if = {
 					limit = {
 						NOT = { is_permanent_claim = ROOT }
@@ -73,7 +74,7 @@ mnd_plb_1 = {
 					add_permanent_claim = ROOT
 				}
 			}
-			2676 = {
+			620 = {
 				if = {
 					limit = {
 						NOT = { is_permanent_claim = ROOT }
@@ -82,7 +83,7 @@ mnd_plb_1 = {
 					add_permanent_claim = ROOT
 				}
 			}
-			2677 = {
+			2676 = {
 				if = {
 					limit = {
 						NOT = { is_permanent_claim = ROOT }
@@ -109,10 +110,10 @@ mnd_plb_1 = {
 		required_missions = { plb_a_place_where_the_water_leaks }
 		provinces_to_highlight = {
 			OR = {
-				province_id = 620
-				province_id = 659
-				province_id = 2676
 				province_id = 2677
+				province_id = 659
+				province_id = 620
+				province_id = 2676
 				province_id = 4816
 			}
 		}
@@ -122,34 +123,34 @@ mnd_plb_1 = {
 				limit = {
 					has_reform = pirate_republic_reform 
 				}
-				620 = {
+				2677 = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
 				659 = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
-				2676 = {
+				620 = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
-				2677 = {
+				2676 = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
 				4816 = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
 			}
-			else = {
+			else_if = {
 				has_estate_privilege = estate_burghers_orang_laut_alliances 
-				620 = {
+				2677 = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
 				659 = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
-				2676 = {
+				620 = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
-				2677 = {
+				2676 = {
 					country_or_non_sovereign_subject_holds = ROOT
 				}
 				4816 = {
@@ -163,22 +164,22 @@ mnd_plb_1 = {
 				name = plb_sea_people
 				duration = 7300
 			}
+			2675 = {
+				add_permanent_claim = ROOT
+			}
 			618 = {
 				add_permanent_claim = ROOT
 			}
-			2673 = {
-				add_permanent_claim = ROOT
-			}
-			2674 = {
-				add_permanent_claim = ROOT
-			}
-			2675 = {
+			4810 = {
 				add_permanent_claim = ROOT
 			}
 			4809 = {
 				add_permanent_claim = ROOT
 			}
-			4810 = {
+			2674 = {
+				add_permanent_claim = ROOT
+			}
+			2673 = {
 				add_permanent_claim = ROOT
 			}
 		}
@@ -190,32 +191,32 @@ mnd_plb_1 = {
 		required_missions = { plb_orang_laut }
 		provinces_to_highlight = {
 			OR = {
-				province_id = 618
-				province_id = 2673
-				province_id = 2674
 				province_id = 2675
-				province_id = 4809
+				province_id = 618
 				province_id = 4810
+				province_id = 4809
+				province_id = 2674
+				province_id = 2673
 			}
 		}
 		
 		trigger = {
+			2675 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 			618 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			2673 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			2674 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			2675 = {
+			4810 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			4809 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			4810 = {
+			2674 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2673 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			navy_size_percentage = 0.9
@@ -336,7 +337,7 @@ mnd_plb_2 = {
 					loyalty = 75
 				}
 			}
-			else = {
+			else_if = {
 				limit = {
 					has_estate = estate_church
 				}

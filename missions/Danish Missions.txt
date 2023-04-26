@@ -1,6 +1,4 @@
-##########################################################################
-## NEW Current LoTN Entries written by PDX and integrated by San Felipe ## 
-##########################################################################
+#VU updated for 1.35 by San Felipe
 danish_missions_kalmar = {
 	slot = 1
 	generic = no

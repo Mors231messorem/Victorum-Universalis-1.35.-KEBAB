@@ -1,13 +1,15 @@
-#Updated and scriptified by Dub.
+#VU updated for 1.35 by San Felipe
 gc_spain_1 = {
 	slot = 1
 	generic = no
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -115,9 +117,11 @@ gc_spain_1_b = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -435,9 +439,11 @@ gc_spain_2 = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -653,9 +659,11 @@ gc_spain_2_b = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -826,9 +834,11 @@ gc_spain_3 = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {

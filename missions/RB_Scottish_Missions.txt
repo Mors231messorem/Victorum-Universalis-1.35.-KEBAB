@@ -1,7 +1,4 @@
-#Updated by C1CK 28-01-2020
-#Was Mostly up-to-date except for unaccounted Ireland Region, new Northumbria area, and Orkney seemingly forgotten about. Also as usual Jan Mayen was needed for missions that only want the Faroes and Iceland
-#Has no changes besides updating claims for BT
-
+#VU updated for 1.35 by San Felipe
 sco_rb_adm_missions = {
 	slot = 1
 	generic = no
@@ -12,6 +9,7 @@ sco_rb_adm_missions = {
 	potential = {
 		tag = SCO
 		has_dlc = "Rule Britannia"
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
@@ -135,7 +133,7 @@ sco_rb_adm_missions = {
 				duration = 7300
 			}
 			249 = {
-				add_base_tax = 6
+				add_base_production = 6
 				add_base_manpower = 2
 				add_base_tax = 2
 				add_province_modifier = {
@@ -157,10 +155,11 @@ sco_rb_conquest_missions = {
 	potential = {
 		tag = SCO
 		has_dlc = "Rule Britannia"
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
-	sco_auld_alliance = { #Updated by C1CK
+	sco_auld_alliance = {
 		icon = mission_alliances
 		required_missions = {  }
 		trigger = {
@@ -185,34 +184,34 @@ sco_rb_conquest_missions = {
 			set_country_flag = auld_alliance_mission_flag
 			kingdom_of_the_isles_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			highlands_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
-			1978 = { #Shetlands
+			1978 = {
 				if = {
 					limit = {
 						NOT = {
-							owned_by = ROOT
+							is_permanent_claim = ROOT
 							is_core = ROOT
 						}
 					}
 					add_permanent_claim = ROOT
 				}
 			}
-			369 = { #Orkney, added since SCO do not start owning this -C1CK
+			369 = {
 				if = {
 					limit = {
 						NOT = {
-							owned_by = ROOT
+							is_permanent_claim = ROOT
 							is_core = ROOT
 						}
 					}
@@ -221,43 +220,38 @@ sco_rb_conquest_missions = {
 			}
 			#scottish_marches_area = { #Cut since this is now entirely in SCO -C1CK
 			#	limit = {
-			#		NOT = { owned_by = ROOT	}
+			#		NOT = { is_permanent_claim = ROOT	}
 			#		NOT = { is_core = ROOT	}
 			#	}
 			#	add_permanent_claim = ROOT
 			#}
 			northern_england_area = { #Northumbria, Replacing Scottish Marches -C1CK
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			ulster_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 		}
 	}
-	sco_advance_frontier = { #Updated by C1CK
+	sco_advance_frontier = {
 		icon = mission_assemble_an_army
 		required_missions = { sco_auld_alliance }
 		provinces_to_highlight = {
-			#area = scottish_marches_area #Replacing Scottish Marches -C1CK
-			area = northern_england_area #Northumbria
+			area = northern_england_area
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		trigger = {
-			#scottish_marches_area = { #Replacing Scottish Marches -C1CK
-			#	type = all
-			#	country_or_non_sovereign_subject_holds = ROOT
-			#}
-			northern_england_area = { #Northumbria
+			northern_england_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -272,14 +266,7 @@ sco_rb_conquest_missions = {
 				}
 				add_prestige = 10
 			}
-			#scottish_marches_area = { #Cut since this is now entirely in SCO -C1CK
-			#	limit = { owned_by = ROOT }
-			#	add_province_modifier = {
-			#		name = faster_integration
-			#		duration = 7300
-			#	}
-			#}
-			northern_england_area = { #Northumbria, Replacing Scottish Marches -C1CK
+			northern_england_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = faster_integration
@@ -288,21 +275,21 @@ sco_rb_conquest_missions = {
 			}
 			yorkshire_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			east_midlands_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			west_midlands_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
@@ -339,21 +326,21 @@ sco_rb_conquest_missions = {
 		effect = {
 			east_anglia_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			greater_london_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 		}
 	}
-	sco_conquer_london = { #Updated by C1CK
+	sco_conquer_london = {
 		icon = mission_rb_scottish_conquer_london
 		required_missions = { sco_conquer_midlands }
 		provinces_to_highlight = {
@@ -379,28 +366,28 @@ sco_rb_conquest_missions = {
 			country_event = { id = flavor_sco.11 }
 			south_east_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			cornwall_area = { #Added by C1CK
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			wales_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 		}
 	}
-	sco_british_empire = { #Updated by C1CK
+	sco_british_empire = {
 		icon = mission_rb_rule_britannia_scottish_version
 		required_missions = { sco_conquer_london sco_conquer_ireland }
 		provinces_to_highlight = {
@@ -442,6 +429,7 @@ sco_rb_conquest_missions_2 = {
 	potential = {
 		tag = SCO
 		has_dlc = "Rule Britannia"
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
@@ -464,21 +452,21 @@ sco_rb_conquest_missions_2 = {
 		effect = {
 			munster_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			connacht_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			leinster_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
@@ -533,6 +521,7 @@ sco_rb_colonial = {
 		tag = SCO
 		has_dlc = "Rule Britannia"
 		is_random_new_world = no
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
@@ -572,6 +561,7 @@ sco_rb_colonial = {
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
+			has_discovered = ROOT
 		}
 		trigger = {
 			custom_trigger_tooltip = {
@@ -601,10 +591,11 @@ sco_rb_colonial_2 = {
 		tag = SCO
 		has_dlc = "Rule Britannia"
 		is_random_new_world = no
+		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
 	
-	claiming_orkney = { #Updated by C1CK
+	claiming_orkney = {
 		icon = mission_sea_battles
 		required_missions = { sco_auld_alliance }
 		position = 2
@@ -612,7 +603,7 @@ sco_rb_colonial_2 = {
 			OR = {
 				area = highlands_area
 				area = kingdom_of_the_isles_area
-				province_id = 1978 #Shetlands
+				province_id = 1978
 				province_id = 369 #Orkney
 			}
 			NOT = {
@@ -628,7 +619,7 @@ sco_rb_colonial_2 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			1978 = { #Shetlands
+			1978 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			369 = { #Orkney
@@ -647,27 +638,27 @@ sco_rb_colonial_2 = {
 			}
 			iceland_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 			subarctic_islands_area = {
 				limit = {
-					NOT = { owned_by = ROOT	}
+					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
 				add_permanent_claim = ROOT
 			}
 		}
 	}
-	sco_north_atlantic = { #Updated by C1CK
+	sco_north_atlantic = {
 		icon = mission_rb_cod_wars
 		required_missions = { claiming_orkney }
 		provinces_to_highlight = {
 			OR = {
+			    area = subarctic_islands_area
 				area = iceland_area
-				area = subarctic_islands_area
 			}
 			NOT = {
 				province_id = 5591 #Jan Mayen, Don't think this should be required
@@ -675,16 +666,16 @@ sco_rb_colonial_2 = {
 			}
 		}
 		trigger = {
-			iceland_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 			subarctic_islands_area = {
 				type = all
 				OR = {
 					province_id = 5591 #Jan Mayen, Don't think this should be required
 					country_or_non_sovereign_subject_holds = ROOT
 				}
+			}
+			iceland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
@@ -714,8 +705,8 @@ sco_rb_colonial_2 = {
 		position = 4
 		provinces_to_highlight = {
 			OR = {
-				colonial_region = colonial_acadia
 				colonial_region = colonial_canada
+				colonial_region = colonial_acadia
 				colonial_region = colonial_newfoundland
 				colonial_region = colonial_hudson_bay
 			}
@@ -735,6 +726,7 @@ sco_rb_colonial_2 = {
 						colonial_region = colonial_newfoundland
 						colonial_region = colonial_hudson_bay
 					}
+					is_city = yes
 				}
 			}
 		}

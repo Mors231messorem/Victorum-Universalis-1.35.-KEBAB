@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 bah_indigenization = {
 	slot = 1
 	generic = no
@@ -59,6 +60,9 @@ bah_indigenization = {
 				duration = 7300
 			}
 		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
 	}
 	empower_deccani_nobles = {
 		icon = mission_deccanis
@@ -68,10 +72,6 @@ bah_indigenization = {
 			OR = {
 				province_id = 544
 				province_id = 569
-			}
-			NOT = { 
-				owned_by = ROOT 
-				has_building = workshop
 			}
 		}
 		trigger = {
@@ -92,8 +92,11 @@ bah_indigenization = {
 			create_general = {
 				tradition = 75
 			}
-			544 = { add_base_manpower = 2 }
-			569 = { add_base_manpower = 2 }
+			544 = { add_base_manpower = 1 }
+			569 = { add_base_manpower = 1 }
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 	marathi_fiefs = {
@@ -123,6 +126,9 @@ bah_indigenization = {
 				skill = 3
 			}
 		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
 	}
 	metropolis_of_the_deccan = {
 		icon = mission_metropolis_of_the_deccan
@@ -136,7 +142,7 @@ bah_indigenization = {
 		}
 		trigger = {
 			capital_scope = {
-				development = 40 #14 more than at start
+				development = 20 #7 more than at start
 				province_has_center_of_trade_of_level = 3
 				if = {
 					limit = {
@@ -160,6 +166,9 @@ bah_indigenization = {
 					duration = 10950
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 }
@@ -185,21 +194,26 @@ bah_gharbians = {
 		icon = mission_recover_konkan_ports
 		required_missions = {  }
 		provinces_to_highlight = {
-			recover_konkan_coast_provinces = yes
+			OR = {
+				province_id = 530
+				province_id = 2089
+				province_id = 4429
+			}
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_highlighted 
-                provinces=recover_konkan_coast_provinces
-                owner_type=owned_by
-            }
+			owns = 530
+			owns = 2089
+			owns = 4429
 		}
 		effect = {
 			add_country_modifier = {
 				name = "bah_access_to_the_sea"
 				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reconquest
 		}
 	}
 
@@ -243,6 +257,9 @@ bah_gharbians = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reconquest
+		}
 	}
 	mahmud_gawans_madrassah = {
 		icon = mission_gawans_madrasar
@@ -254,7 +271,7 @@ bah_gharbians = {
 		}
 		trigger = {
 			capital_scope = {
-				development = 34 #8 more than at start
+				development = 17 #4 more than at start
 				has_building = temple
 			}
 		}
@@ -276,6 +293,9 @@ bah_gharbians = {
 				skill = 4
 				discount = yes
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 	persianate_empire = {
@@ -308,7 +328,7 @@ bah_gharbians = {
 				government_rank = 3
 			}
 			else = {
-				total_development = 2000
+				total_development = 1000
 			}
 			estate_influence = {
 				estate = estate_church
@@ -352,9 +372,9 @@ bah_gharbians = {
 		effect = {
 			add_prestige = 20
 			capital_scope = {
-				add_base_tax = 4
-				add_base_production = 4
-				add_base_manpower = 4
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
 			}
 			add_estate_loyalty_modifier = {
 				estate = estate_church
@@ -366,6 +386,9 @@ bah_gharbians = {
 				name = "bah_persianate_empire"
 				duration = -1
 			}
+		}
+		ai_weight = {
+			factor = 0	#Way too far fetched
 		}
 	}
 }
@@ -391,19 +414,61 @@ bah_persian_branch = {
 		icon = mission_secure_khandesh
 		required_missions = {  }
 		provinces_to_highlight = {
-			mission_secure_khandesh_provinces = yes
+			area = khandesh_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=mission_secure_khandesh_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			khandesh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
-			give_permaclaims_for_mission = { mission=conquer_gujarat }
-			give_permaclaims_for_mission = { mission=conquer_malwa }
+			ahmedabad_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			patan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			tapti_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			saurashtra_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			malwa_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			gird_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Plausible
 		}
 	}
 
@@ -412,59 +477,122 @@ bah_persian_branch = {
 		position = 4
 		required_missions = { secure_khandesh }
 		provinces_to_highlight = {
-			conquer_gujarat_provinces = yes
+			OR = {
+				area = ahmedabad_area
+				area = patan_area
+				area = tapti_area
+				area = saurashtra_area
+				province_id = 529
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=conquer_gujarat_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			ahmedabad_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			patan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tapti_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			saurashtra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			529 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = "bah_conquest_of_gujarat"
 				duration = 10950
 			}
-			give_permaclaims_for_mission = { mission=arabian_sea_trade_ports }
+			400 = { add_permanent_claim = ROOT }
+			431 = { add_permanent_claim = ROOT }
+			504 = { add_permanent_claim = ROOT }
+			2999 = { add_permanent_claim = ROOT }
+		}
+		ai_weight = {
+			factor = 100	#Nice to have
 		}
 	}
 	arabian_sea_trade_ports = {
 		icon = mission_arabian_sea_trade
 		required_missions = { conquer_gujarat }
 		provinces_to_highlight = {
-			arabian_sea_trade_ports_provinces = yes
+			OR = {
+				province_id = 400
+				province_id = 431
+				province_id = 504
+				province_id = 2999
+			}
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_highlighted 
-                provinces=arabian_sea_trade_ports_provinces
-                owner_type=owned_by
-            }
+			owns = 400
+			owns = 431
+			owns = 504
+			owns = 2999
 		}
 		effect = {
 			add_country_modifier = {
 				name = "direct_link_with_iran"
 				duration = 10950
 			}
-			give_permaclaims_for_mission = { mission=persian_gulf }
+			basra_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			khuzestan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			persian_gulf_coast = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 25	#Leaving India now, which is... well, in that case it is okay
 		}
 	}
 	persian_gulf = {
 		icon = mission_dominate_persian_gulf
 		required_missions = { arabian_sea_trade_ports }
 		provinces_to_highlight = {
-			persian_gulf_provinces = yes
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			OR = {
+				area = basra_area
+				area = khuzestan_area
+				area = persian_gulf_coast
+			}
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=persian_gulf_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			basra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			khuzestan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			persian_gulf_coast = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			408 = {
@@ -496,6 +624,9 @@ bah_persian_branch = {
 			2221 = {
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 0	#But this one goes a little bit too far for the AI
 		}
 	}
 }
@@ -539,14 +670,14 @@ bah_vijayanagari_branch = {
 				}
 				tooltip = {
 					541 = {
-						add_base_tax = -4
-						add_base_production = -4
-						add_base_manpower = -4
+						add_base_tax = -2
+						add_base_production = -2
+						add_base_manpower = -2
 					}
 					capital_scope = {
-						add_base_tax = 4
-						add_base_production = 4
-						add_base_manpower = 4
+						add_base_tax = 2
+						add_base_production = 2
+						add_base_manpower = 2
 					}
 				}
 			}
@@ -554,27 +685,65 @@ bah_vijayanagari_branch = {
 				name = "spoils_of_vijayanagar"
 				duration = 7300
 			}
-			give_permaclaims_for_mission = { mission=southern_frontier }
+			rayalaseema_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Historical Rival basically
 		}
 	}
 
 
 	southern_frontier = {
-		icon = mission_southern_frontier
+		icon = mission_southern_frontier_dharma
 		required_missions = { city_of_victory }
 		provinces_to_highlight = {
-			southern_frontier_provinces = yes
+			area = rayalaseema_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=southern_frontier_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			rayalaseema_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
-			give_permaclaims_for_mission = { mission=bijapur_karnatak }
+			mysore_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			kongu_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			malabar_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			kanara_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Historical Rival conquest
 		}
 	}
 
@@ -583,7 +752,12 @@ bah_vijayanagari_branch = {
 		position = 4
 		required_missions = { southern_frontier }
 		provinces_to_highlight = {
-			bijapur_karnatak_provinces = yes
+			OR = {
+				area = mysore_area
+				area = kongu_area
+				area = malabar_area
+				area = kanara_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
@@ -593,22 +767,36 @@ bah_vijayanagari_branch = {
 				}
 				owns = 569 #Bijapur
 			}
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=bijapur_karnatak_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			mysore_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kongu_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			malabar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			kanara_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			569 = {
-				add_base_tax = 4
-				add_base_production = 4
-				add_base_manpower = 4
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
 			}
 			add_country_modifier = {
 				name = "bijapur_karnatak_modifier"
 				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 500	#Historical Rival conquest
 		}
 	}
 }
@@ -635,21 +823,30 @@ bah_delhi_branch = {
 		position = 5
 		required_missions = { conquer_gujarat }
 		provinces_to_highlight = {
-			conquer_malwa_provinces = yes
+			OR = {
+				area = malwa_area
+				area = gird_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=conquer_malwa_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			malwa_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			gird_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = "bah_conquest_of_malwa"
 				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 
@@ -678,19 +875,22 @@ bah_delhi_branch = {
 				add_loot_from_rich_province_general_effect = {
 					LOOTER = ROOT
 				}
-				add_base_tax = -6
-				add_base_production = -6
-				add_base_manpower = -6
+				add_base_tax = -3
+				add_base_production = -3
+				add_base_manpower = -3
 			}
 			capital_scope = {
-				add_base_tax = 6
-				add_base_production = 6
-				add_base_manpower = 6
+				add_base_tax = 3
+				add_base_production = 3
+				add_base_manpower = 3
 				add_province_modifier = {
 					name = "monuments_of_delhi"
 					duration = -1
 				}
 			}
+		}
+		ai_weight = {
+			factor = 50	#Little too ambitious
 		}
 	}
 }
@@ -739,21 +939,23 @@ bah_coromandel_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Integrate vassal
+		}
 	}
 
 	conquer_andhra = {
 		icon = mission_conquer_andhra_bah
 		required_missions = { rein_in_the_velamas }
 		provinces_to_highlight = {
-			conquer_andhra_provinces = yes
+			area = andhra_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=conquer_andhra_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			andhra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			542 = {
@@ -764,6 +966,9 @@ bah_coromandel_branch = {
 					duration = 7300
 				}
 			}
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 	growth_of_golconda = {
@@ -781,17 +986,15 @@ bah_coromandel_branch = {
 			if = {
 				limit = {
 					NOT = {
-						has_fulfiled_province_requirement_for_mission_trigger = {
-							tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-							provinces=conquer_andhra_provinces
-							owner_type=country_or_non_sovereign_subject_holds
+						andhra_area = {
+							type = all
+							country_or_non_sovereign_subject_holds = ROOT
 						}
 					}
 				}
-				has_fulfiled_province_requirement_for_mission_trigger = {
-					tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-					provinces=conquer_andhra_provinces
-					owner_type=country_or_non_sovereign_subject_holds
+				andhra_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
 				}
 			}
 		}
@@ -801,34 +1004,71 @@ bah_coromandel_branch = {
 				duration = 10950
 			}
 			542 = {
-				if = {
-					limit = { NOT = { has_province_flag = hyderabad_restored } }
-					rename_capital = "Hyderabad"
-					change_province_name = "Hyderabad"
-					#Moved down here to allow for simpler checking of province flags.
-					add_base_tax = 4
-					add_base_production = 4
-					#It felt weird with a 14/14/2 province, so some extra manpower here isn't a bad idea I think. Mughals Deccan Viceroyalty gives this +4 anyway and this allows for safeguarding against duplicate dev if Bahmanis creates Hyderabad before Mughals do.
-					add_base_manpower = 4
-					set_province_flag = hyderabad_restored
-				}
+				rename_capital = "Hyderabad"
+				change_province_name = "Hyderabad"
 			}
-			give_permaclaims_for_mission = { mission=golconda_karnatak }
+			north_carnatic_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			south_carnatic_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			tanjore_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			madura_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 	golconda_karnatak = {
 		icon = mission_coromandel_expansion
 		required_missions = { growth_of_golconda }
 		provinces_to_highlight = {
-			golconda_karnatak_provinces = yes
+			OR = {
+				area = north_carnatic_area
+				area = south_carnatic_area
+				area = tanjore_area
+				area = madura_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=golconda_karnatak_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			north_carnatic_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			south_carnatic_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			tanjore_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			madura_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			add_estate_loyalty_modifier = {
@@ -841,6 +1081,9 @@ bah_coromandel_branch = {
 				name = "coromandel_trade"
 				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 500	#Historical Rival conquest
 		}
 	}
 	coromandel_entrepot = {
@@ -889,6 +1132,9 @@ bah_coromandel_branch = {
 				}
 				add_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 }

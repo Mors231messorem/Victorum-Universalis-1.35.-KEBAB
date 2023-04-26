@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 #Gotland Monarchy missions
 got_monarchy_slot_1 = {
 	slot = 1
@@ -2134,6 +2135,7 @@ got_pirate_slot_4 = {
 				}
 			}
 			calc_true_if = {
+				desc = got_pirate_raid_the_baltics_at
 				all_province = {
 					OR = {
 						region = scandinavia_region
@@ -2519,7 +2521,7 @@ got_pirate_slot_5 = {
 					limit = {
 						25 = { is_core = RUG }
 					}
-					25 = { add_core = RUT }
+					25 = { add_core = RUG }
 				}
 				release = RUG
 				RUG = {

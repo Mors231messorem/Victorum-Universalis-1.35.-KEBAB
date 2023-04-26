@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 pom_1 = {
 	slot = 1
 	generic = no
@@ -657,7 +658,6 @@ pom_2 = {
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 4
 				OR = {
 					lower_saxony_area = {
 						type = all
@@ -666,8 +666,10 @@ pom_2 = {
 					holstein_area = {
 						type = all
 						country_or_non_sovereign_subject_holds = ROOT
+					
 					}
 				}
+				value = 4
 			}
 		}
 		effect = {

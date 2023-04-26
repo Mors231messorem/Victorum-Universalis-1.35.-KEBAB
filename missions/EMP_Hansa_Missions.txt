@@ -1,7 +1,4 @@
-##########################################################################
-## NEW Current LoTN Entries written by PDX and integrated by San Felipe ## 
-##########################################################################
-
+#VU updated for 1.35 by San Felipe
 hanseatic_expansion_tree = {
 	slot = 2
 	generic = no

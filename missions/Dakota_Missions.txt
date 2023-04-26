@@ -1,5 +1,4 @@
-#mission tree for the primary_culture = dakota tribes
-
+#VU updated for 1.35 by San Felipe
 sioux_1 = {
 	slot = 1
 	generic = no
@@ -283,7 +282,7 @@ sioux_1 = {
 
 sioux_2 = {
 	slot = 2
-	generic = no
+	generic = yes
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Leviathan"
@@ -329,7 +328,7 @@ sioux_2 = {
 			}
 			else = {
 				any_country = {
-					religion_group = pagan
+					religion = totemism
 					total_development = 20
 					NOT = { alliance_with = ROOT }
 					NOT = {
@@ -452,7 +451,7 @@ sioux_2 = {
 			}
 			else = {
 				any_country = {
-					religion_group = pagan
+					religion = totemism
 					total_development = 150
 					war_with = ROOT
 				}

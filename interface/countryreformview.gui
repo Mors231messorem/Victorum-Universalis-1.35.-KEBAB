@@ -579,31 +579,31 @@ guiTypes = {
 		}
 	}
 
-windowType = {
+    windowType = {
 		name = "gov_view_reform_level_entry_3"
-		backGround=""
-		position = { x=0 y=0 }
-		size = { x=510 y=260 }
+		backGround = ""
+		position = { x = 0 y = 0 }
+		size = { x = 500 y = 260 }
 		moveable = 0
 		dontRender = ""
-		horizontalBorder= ""
-		verticalBorder= ""
+		horizontalBorder = ""
+		verticalBorder = ""
 		fullScreen = no
 
-			iconType = {
+		iconType = {
 			name = "reform_level_title_banner"
-			position = { x=-10 y=-4 }
+			position = { x = -10 y = -4 }
 			Orientation = "UPPER_LEFT"
-			quadTextureSprite ="GFX_government_reform_banner"
+			quadTextureSprite = "GFX_government_reform_banner"
 		}
 
 		instantTextBoxType = {
 			name = "reform_level_title"
-			position = { x=19 y=5 }
+			position = { x = 19 y = 5 }
 			format = left
 			textureFile = ""
 			font = "vic_22"
-			borderSize = { x=0 y=0 }
+			borderSize = { x = 0 y = 0 }
 			text = "REFORM_LEVEL_TITLE"
 			maxWidth = 300
 			maxHeight = 300
@@ -611,48 +611,48 @@ windowType = {
 		}
 
 		listboxType = {
-			name ="reform_level_1"
-			position = { x=2 y=23 }
-			backGround=""
-			size = { x=500 y=500 }
+			name = "reform_level_1"
+			position = { x = 2 y = 23 }
+			backGround = ""
+			size = { x = 500 y = 500 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 2
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
-			borderSize = { x=0 y=0 }
+			borderSize = { x = 0 y = 0 }
 		}
 
 		listboxType = {
-			name ="reform_level_2"
-			position = { x=2 y=103 }
-			backGround=""
-			size = { x=500 y=500 }
+			name = "reform_level_2"
+			position = { x = 2 y = 103 }
+			backGround = ""
+			size = { x = 500 y = 500 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 2
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
-			borderSize = { x=0 y=0 }
+			borderSize = { x = 0 y = 0 }
 		}
 
 		listboxType = {
-			name ="reform_level_3"
-			position = { x=2 y=183 }
-			backGround=""
-			size = { x=500 y=500 }
+			name = "reform_level_3"
+			position = { x = 2 y = 183 }
+			backGround = ""
+			size = { x = 500 y = 500 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 2
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
-			borderSize = { x=0 y=0 }
+			borderSize = { x = 0 y = 0 }
 		}
 
 		instantTextBoxType = {
 			name = "selected_reform_title"
-			position = { x=270 y=32 }
+			position = { x = 270 y = 32 }
 			format = left
 			textureFile = ""
 			font = "vic_22"
-			borderSize = { x=0 y=0 }
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 300
 			maxHeight = 300
@@ -661,11 +661,11 @@ windowType = {
 
 		instantTextBoxType = {
 			name = "selected_reform_description"
-			position = { x=271 y=56 }
+			position = { x = 271 y = 56 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
-			borderSize = { x=0 y=0 }
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 236
 			maxHeight = 300
@@ -674,18 +674,18 @@ windowType = {
 
 		iconType = {
 			name = "modifier_icon_1"
-			position = { x=270 y=49 }
+			position = { x = 270 y = 49 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-			quadTextureSprite ="GFX_event_bg_transparency"
+			quadTextureSprite = "GFX_event_bg_transparency"
 		}
 
 		instantTextBoxType = {
 			name = "modifier_desc_1"
-			position = { x=298 y=53 }
+			position = { x = 298 y = 53 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x=4 y=4}
+			borderSize = { x = 4 y = 4 }
 			text = ""
 			maxWidth = 64
 			maxHeight = 32
@@ -694,18 +694,18 @@ windowType = {
 
 		iconType = {
 			name = "modifier_icon_2"
-			position = { x=350 y=49 }
+			position = { x = 350 y = 49 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-			quadTextureSprite ="GFX_event_bg_transparency"
+			quadTextureSprite = "GFX_event_bg_transparency"
 		}
 
 		instantTextBoxType = {
 			name = "modifier_desc_2"
-			position = { x=378 y=53 }
+			position = { x = 378 y = 53 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x=4 y=4}
+			borderSize = { x = 4 y = 4 }
 			text = ""
 			maxWidth = 64
 			maxHeight = 32
@@ -714,18 +714,18 @@ windowType = {
 
 		iconType = {
 			name = "modifier_icon_3"
-			position = { x=430 y=49 }
+			position = { x = 430 y = 49 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-			quadTextureSprite ="GFX_event_bg_transparency"
+			quadTextureSprite = "GFX_event_bg_transparency"
 		}
 
 		instantTextBoxType = {
 			name = "modifier_desc_3"
-			position = { x=458 y=53 }
+			position = { x = 458 y = 53 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x=4 y=4}
+			borderSize = { x = 4 y = 4 }
 			text = ""
 			maxWidth = 64
 			maxHeight = 32
@@ -734,18 +734,18 @@ windowType = {
 
 		iconType = {
 			name = "modifier_icon_4"
-			position = { x=270 y=79 }
+			position = { x = 270 y = 79 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-			quadTextureSprite ="GFX_event_bg_transparency"
+			quadTextureSprite = "GFX_event_bg_transparency"
 		}
 
 		instantTextBoxType = {
 			name = "modifier_desc_4"
-			position = { x=298 y=83 }
+			position = { x = 298 y = 83 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x=4 y=4}
+			borderSize = { x = 4 y = 4 }
 			text = ""
 			maxWidth = 64
 			maxHeight = 32
@@ -754,18 +754,18 @@ windowType = {
 
 		iconType = {
 			name = "modifier_icon_5"
-			position = { x=350 y=79 }
+			position = { x = 350 y = 79 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-			quadTextureSprite ="GFX_event_bg_transparency"
+			quadTextureSprite = "GFX_event_bg_transparency"
 		}
 
 		instantTextBoxType = {
 			name = "modifier_desc_5"
-			position = { x=378 y=83 }
+			position = { x = 378 y = 83 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x=4 y=4}
+			borderSize = { x = 4 y = 4 }
 			text = ""
 			maxWidth = 64
 			maxHeight = 32
@@ -774,18 +774,18 @@ windowType = {
 
 		iconType = {
 			name = "modifier_icon_6"
-			position = { x=430 y=79 }
+			position = { x = 430 y = 79 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-			quadTextureSprite ="GFX_event_bg_transparency"
+			quadTextureSprite = "GFX_event_bg_transparency"
 		}
 
 		instantTextBoxType = {
 			name = "modifier_desc_6"
-			position = { x=458 y=83 }
+			position = { x = 458 y = 83 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x=4 y=4}
+			borderSize = { x = 4 y = 4 }
 			text = ""
 			maxWidth = 64
 			maxHeight = 32
@@ -793,31 +793,31 @@ windowType = {
 		}
 	}
 
-windowType = {
+	windowType = {
 		name = "gov_view_reform_level_entry_4"
-		backGround=""
-		position = { x=0 y=0 }
-		size = { x=520 y=340 }
+		backGround = ""
+		position = { x = 0 y = 0 }
+		size = { x = 500 y = 340 }
 		moveable = 0
 		dontRender = ""
-		horizontalBorder= ""
-		verticalBorder= ""
+		horizontalBorder = ""
+		verticalBorder = ""
 		fullScreen = no
 
 		iconType = {
 			name = "reform_level_title_banner"
-			position = { x=-10 y=-4 }
+			position = { x = -10 y = -4 }
 			Orientation = "UPPER_LEFT"
-			quadTextureSprite ="GFX_government_reform_banner"
+			quadTextureSprite = "GFX_government_reform_banner"
 		}
 
 		instantTextBoxType = {
 			name = "reform_level_title"
-			position = { x=19 y=5 }
+			position = { x = 19 y = 5 }
 			format = left
 			textureFile = ""
 			font = "vic_22"
-			borderSize = { x=0 y=0 }
+			borderSize = { x = 0 y = 0 }
 			text = "REFORM_LEVEL_TITLE"
 			maxWidth = 300
 			maxHeight = 300
@@ -825,60 +825,60 @@ windowType = {
 		}
 
 		listboxType = {
-			name ="reform_level_1"
-			position = { x=2 y=23 }
-			backGround=""
-			size = { x=500 y=500 }
+			name = "reform_level_1"
+			position = { x = 2 y = 23 }
+			backGround = ""
+			size = { x = 500 y = 500 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 2
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
-			borderSize = { x=0 y=0 }
+			borderSize = { x = 0 y = 0 }
 		}
 
 		listboxType = {
-			name ="reform_level_2"
-			position = { x=2 y=103 }
-			backGround=""
-			size = { x=500 y=500 }
+			name = "reform_level_2"
+			position = { x = 2 y = 103 }
+			backGround = ""
+			size = { x = 500 y = 500 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 2
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
-			borderSize = { x=0 y=0 }
+			borderSize = { x = 0 y = 0 }
 		}
 
 		listboxType = {
-			name ="reform_level_3"
-			position = { x=2 y=183 }
-			backGround=""
-			size = { x=500 y=500 }
+			name = "reform_level_3"
+			position = { x = 2 y = 183 }
+			backGround = ""
+			size = { x = 500 y = 500 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 2
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
-			borderSize = { x=0 y=0 }
+			borderSize = { x = 0 y = 0 }
 		}
 
 		listboxType = {
-			name ="reform_level_4"
-			position = { x=2 y=263 }
-			backGround=""
-			size = { x=500 y=500 }
+			name = "reform_level_4"
+			position = { x = 2 y = 263 }
+			backGround = ""
+			size = { x = 500 y = 500 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 2
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
-			borderSize = { x=0 y=0 }
+			borderSize = { x = 0 y = 0 }
 		}
 
 		instantTextBoxType = {
 			name = "selected_reform_title"
-			position = { x=270 y=32 }
+			position = { x = 270 y = 32 }
 			format = left
 			textureFile = ""
 			font = "vic_22"
-			borderSize = { x=0 y=0 }
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 300
 			maxHeight = 300
@@ -887,11 +887,11 @@ windowType = {
 
 		instantTextBoxType = {
 			name = "selected_reform_description"
-			position = { x=271 y=56 }
+			position = { x = 271 y = 56 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
-			borderSize = { x=0 y=0 }
+			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 236
 			maxHeight = 300
@@ -900,18 +900,18 @@ windowType = {
 
 		iconType = {
 			name = "modifier_icon_1"
-			position = { x=270 y=49 }
+			position = { x = 270 y = 49 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-			quadTextureSprite ="GFX_event_bg_transparency"
+			quadTextureSprite = "GFX_event_bg_transparency"
 		}
 
 		instantTextBoxType = {
 			name = "modifier_desc_1"
-			position = { x=298 y=53 }
+			position = { x = 298 y = 53 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x=4 y=4}
+			borderSize = { x = 4 y = 4 }
 			text = ""
 			maxWidth = 64
 			maxHeight = 32
@@ -920,18 +920,18 @@ windowType = {
 
 		iconType = {
 			name = "modifier_icon_2"
-			position = { x=350 y=49 }
+			position = { x = 350 y = 49 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-			quadTextureSprite ="GFX_event_bg_transparency"
+			quadTextureSprite = "GFX_event_bg_transparency"
 		}
 
 		instantTextBoxType = {
 			name = "modifier_desc_2"
-			position = { x=378 y=53 }
+			position = { x = 378 y = 53 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x=4 y=4}
+			borderSize = { x = 4 y = 4 }
 			text = ""
 			maxWidth = 64
 			maxHeight = 32
@@ -940,18 +940,18 @@ windowType = {
 
 		iconType = {
 			name = "modifier_icon_3"
-			position = { x=430 y=49 }
+			position = { x = 430 y = 49 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-			quadTextureSprite ="GFX_event_bg_transparency"
+			quadTextureSprite = "GFX_event_bg_transparency"
 		}
 
 		instantTextBoxType = {
 			name = "modifier_desc_3"
-			position = { x=458 y=53 }
+			position = { x = 458 y = 53 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x=4 y=4}
+			borderSize = { x = 4 y = 4 }
 			text = ""
 			maxWidth = 64
 			maxHeight = 32
@@ -960,18 +960,18 @@ windowType = {
 
 		iconType = {
 			name = "modifier_icon_4"
-			position = { x=270 y=79 }
+			position = { x = 270 y = 79 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-			quadTextureSprite ="GFX_event_bg_transparency"
+			quadTextureSprite = "GFX_event_bg_transparency"
 		}
 
 		instantTextBoxType = {
 			name = "modifier_desc_4"
-			position = { x=298 y=83 }
+			position = { x = 298 y = 83 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x=4 y=4}
+			borderSize = { x = 4 y = 4 }
 			text = ""
 			maxWidth = 64
 			maxHeight = 32
@@ -980,18 +980,18 @@ windowType = {
 
 		iconType = {
 			name = "modifier_icon_5"
-			position = { x=350 y=79 }
+			position = { x = 350 y = 79 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-			quadTextureSprite ="GFX_event_bg_transparency"
+			quadTextureSprite = "GFX_event_bg_transparency"
 		}
 
 		instantTextBoxType = {
 			name = "modifier_desc_5"
-			position = { x=378 y=83 }
+			position = { x = 378 y = 83 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x=4 y=4}
+			borderSize = { x = 4 y = 4 }
 			text = ""
 			maxWidth = 64
 			maxHeight = 32
@@ -1000,18 +1000,18 @@ windowType = {
 
 		iconType = {
 			name = "modifier_icon_6"
-			position = { x=430 y=79 }
+			position = { x = 430 y = 79 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-			quadTextureSprite ="GFX_event_bg_transparency"
+			quadTextureSprite = "GFX_event_bg_transparency"
 		}
 
 		instantTextBoxType = {
 			name = "modifier_desc_6"
-			position = { x=458 y=83 }
+			position = { x = 458 y = 83 }
 			textureFile = ""
 			font = "vic_18"
-			borderSize = {x=4 y=4}
+			borderSize = { x = 4 y = 4 }
 			text = ""
 			maxWidth = 64
 			maxHeight = 32

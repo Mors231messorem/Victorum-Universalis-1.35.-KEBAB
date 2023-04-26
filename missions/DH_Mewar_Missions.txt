@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 mer_western_expansion = {
 	slot = 1
 	generic = no
@@ -46,8 +47,37 @@ mer_western_expansion = {
 			owns = 4464 #Bundi
 		}
 		effect = {
-			give_permaclaims_for_mission = { mission=mer_conquer_kathiawar }
-			give_permaclaims_for_mission = { mission=mer_avanti }
+			patan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			saurashtra_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			ahmedabad_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			malwa_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Vassal integration
 		}
 	}
 	mer_conquer_kathiawar = {
@@ -55,15 +85,26 @@ mer_western_expansion = {
 		position = 2
 		required_missions = { mer_marwar_rivalry }
 		provinces_to_highlight = {
-			mer_conquer_kathiawar_provinces = yes
+			OR = {
+				area = patan_area
+				area = saurashtra_area
+				area = ahmedabad_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=mer_conquer_kathiawar_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			patan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			saurashtra_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			ahmedabad_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			add_army_tradition = 30
@@ -71,6 +112,9 @@ mer_western_expansion = {
 				name = "united_saurashtra"
 				duration = 10950
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 }
@@ -115,14 +159,16 @@ mer_ujjain = {
 		effect = {
 			set_capital = 4461
 			4461 = {
-				add_base_tax = 3
-				add_base_production = 3
+				add_base_production = 2
 				add_base_manpower = 2
 				add_province_modifier = {
 					name = "capital_of_rajputana"
 					duration = -1
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 }
@@ -149,22 +195,51 @@ mer_delhi = {
 		position = 2
 		required_missions = { mer_marwar_rivalry }
 		provinces_to_highlight = {
-			mer_avanti_provinces = yes
+			area = malwa_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=mer_avanti_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			malwa_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = "masters_of_malwa"
 				duration = 7300
 			}
-			give_permaclaims_for_mission = { mission=mer_unite_rajputana }
+			gird_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			jaipur_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			jangladesh_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			marwar_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 
@@ -172,15 +247,31 @@ mer_delhi = {
 		icon = mission_unite_rajputana
 		required_missions = { mer_avanti }
 		provinces_to_highlight = {
-			mer_unite_rajputana_provinces = yes
+			OR = {
+				area = gird_area
+				area = jaipur_area
+				area = jangladesh_area
+				area = marwar_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=mer_unite_rajputana_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			gird_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jaipur_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jangladesh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			marwar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			create_general = { tradition = 75 }
@@ -188,25 +279,93 @@ mer_delhi = {
 				name = "mer_united_rajputana"
 				duration = 7300
 			}
-			give_permaclaims_for_mission = { mission=mer_reclaim_delhi }
-			give_permaclaims_for_mission = { mission=mer_conquer_punjab }
-			give_permaclaims_for_mission = { mission=mer_conquer_sindh }
-			give_permaclaims_for_mission = { mission=mer_hills_of_gondwana }
+			sirhind_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			upper_doab_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lahore_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			multan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			northern_sindh_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sindh_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			bundelkhand_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			baghelkhand_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			gondwana_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	mer_reclaim_delhi = {
 		icon = mission_reclaim_dehli
 		required_missions = { mer_unite_rajputana }
 		provinces_to_highlight = {
-			mer_reclaim_delhi_provinces = yes
+			OR = {
+				area = sirhind_area
+				area = upper_doab_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=mer_reclaim_delhi_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			sirhind_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			upper_doab_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			country_event  = { id = mer_mission_events.1 }
@@ -215,53 +374,157 @@ mer_delhi = {
 				add_loot_from_rich_province_general_effect = {
 					LOOTER = ROOT
 				}
-				add_base_tax = -4
-				add_base_production = -4
-				add_base_manpower = -4
+				add_base_tax = -2
+				add_base_production = -2
+				add_base_manpower = -2
 			}
 			capital_scope = {
-				add_base_tax = 4
-				add_base_production = 4
-				add_base_manpower = 4
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
 				add_province_modifier = {
 					name = "monuments_of_delhi"
 					duration = -1
 				}
 			}
-			give_permaclaims_for_mission = { mission=mer_restore_kanyakubja }
+			katehar_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			oudh_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lower_doab_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	mer_restore_kanyakubja = {
 		icon = mission_conquer_kannauj
 		required_missions = { mer_reclaim_delhi }
 		provinces_to_highlight = {
-			mer_restore_kanyakubja_provinces = yes
+			OR = {
+				area = katehar_area
+				area = oudh_area
+				area = lower_doab_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT  }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=mer_restore_kanyakubja_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			katehar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			oudh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lower_doab_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
-			give_permaclaims_for_mission = { mission=mer_magadha }
+			purvanchal_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			bihar_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			mithila_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			jharkhand_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			gaur_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			north_bengal_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	mer_magadha = {
 		icon = mission_magadna_and_varanasi
 		required_missions = { mer_restore_kanyakubja }
 		provinces_to_highlight = {
-			mer_magadha_provinces = yes
+			OR = {
+				area = north_bengal_area
+				area = gaur_area
+				area = jharkhand_area
+				area = mithila_area
+				area = bihar_area
+				area = purvanchal_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=mer_magadha_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			north_bengal_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			gaur_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jharkhand_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			mithila_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bihar_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			purvanchal_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			add_country_modifier = {
@@ -282,6 +545,9 @@ mer_delhi = {
 				}
 				add_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 }
@@ -316,37 +582,37 @@ mer_fortify_rajputana_tree = {
 			}
 			OR = {
 				NOT = { country_or_non_sovereign_subject_holds = ROOT  }
-				NOT = { fort_level = 1 }
+				NOT = { fort_level = 2 }
 			}
 		}
 		trigger = {
 			OR = {
 				518 = {
-					fort_level = 1
+					fort_level = 2
 					owned_by = ROOT
 				}
 				2058 = {
-					fort_level = 1
+					fort_level = 2
 					owned_by = ROOT
 				}
 			}
 			OR = {
 				514 = {
-					fort_level = 1
+					fort_level = 2
 					owned_by = ROOT
 				}
 				2067 = {
-					fort_level = 1
+					fort_level = 2
 					owned_by = ROOT
 				}
 			}
 			OR = {
 				4465 = {
-					fort_level = 1
+					fort_level = 2
 					owned_by = ROOT
 				}
 				525 = {
-					fort_level = 1
+					fort_level = 2
 					owned_by = ROOT
 				}
 			}
@@ -357,27 +623,32 @@ mer_fortify_rajputana_tree = {
 				duration = 7300
 			}
 		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
 	}
 	mer_jawar_silver_mine = {
 		icon = mission_jawal_silver_mine
 		required_missions = { mer_fortify_rajputana }
 		provinces_to_highlight = {
 			province_id = 2058
-			NOT = { development = 22 }
+			NOT = { development = 11 }
 		}
 		trigger = {
 			owns = 2058
 			2058 = {
-				development = 22
+				development = 11
 				NOT = { num_free_building_slots = 1 }
 			}
 		}
 		effect = {
 			add_treasury = 300
 			2058 = {
-				add_base_tax = 2
 				add_base_production = 2
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 }
@@ -404,21 +675,30 @@ mer_gurjaratra = {
 		position = 4
 		required_missions = { mer_unite_rajputana }
 		provinces_to_highlight = {
-			mer_conquer_punjab_provinces = yes
+			OR = {
+				area = lahore_area
+				area = multan_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=mer_conquer_punjab_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			lahore_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			multan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = "mer_plains_of_punjab"
 				duration = 10950
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 }
@@ -449,6 +729,15 @@ mer_city_of_lakes = {
 			province_id = 2058
 		}
 		trigger = {
+			if = {
+				limit = {
+					518 = {
+						owned_by = ROOT
+						is_capital = yes
+					}
+				}
+				is_at_war = no
+			}
 			2058 = {
 				owned_by = ROOT
 				is_state_core = root
@@ -471,7 +760,6 @@ mer_city_of_lakes = {
 				set_capital = 2058
 			}
 			2058 = {
-				add_base_tax = 2
 				add_base_production = 2
 				add_province_modifier = {
 					name = "city_of_lakes"
@@ -480,6 +768,9 @@ mer_city_of_lakes = {
 				change_province_name = Udaipur
 				rename_capital = Udaipur
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 }
@@ -506,15 +797,21 @@ mer_indus = {
 		icon = mission_conquer_sindh_mer
 		required_missions = { mer_unite_rajputana }
 		provinces_to_highlight = {
-			mer_conquer_sindh_provinces = yes
+			OR = {
+				area = sindh_area
+				area = northern_sindh_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT  }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=mer_conquer_sindh_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			sindh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			northern_sindh_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			add_prestige = 15
@@ -526,6 +823,9 @@ mer_indus = {
 					key = mer_sindh_conquest
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 }
@@ -572,14 +872,17 @@ mer_restore_kannauj_empire = {
 				set_government_rank = 3
 			}
 			4497 = {
-				add_base_production = 6
-				add_base_manpower = 6
-				add_base_tax = 6
+				add_base_production = 3
+				add_base_manpower = 3
+				add_base_tax = 3
 				add_province_modifier = {
 					name = "kannauj_restored_modifier"
 					duration = -1
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 }
@@ -606,15 +909,26 @@ mer_gondwana = {
 		position = 4
 		required_missions = { mer_unite_rajputana }
 		provinces_to_highlight = {
-			mer_hills_of_gondwana_provinces = yes
+			OR = {
+				area = gondwana_area
+				area = baghelkhand_area
+				area = bundelkhand_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT  }
 		}
 		trigger = {
-			has_fulfiled_province_requirement_for_mission_trigger = {
-                tooltip=country_holds_or_non_sovereign_subject_holds_highlighted 
-                provinces=mer_hills_of_gondwana_provinces
-                owner_type=country_or_non_sovereign_subject_holds
-            }
+			gondwana_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			baghelkhand_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			bundelkhand_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			upper_mahanadi_area = {
@@ -635,6 +949,9 @@ mer_gondwana = {
 				name = "mer_tribal_recruitment"
 				duration = 10950
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 }
@@ -696,6 +1013,9 @@ mer_trade = {
 				duration = 10950
 			}
 		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
 	}
 }
 
@@ -740,6 +1060,9 @@ mer_army_tree = {
 				duration = 10950
 			}
 		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
 	}
 	mer_integrate_purbias = {
 		icon = mission_integrate_the_purbias
@@ -755,7 +1078,7 @@ mer_army_tree = {
 			}
 			estate_loyalty = {
 				estate = estate_rajput
-				loyalty = 70
+				loyalty = 60
 			}
 			has_global_modifier_value = {
 				which = discipline
@@ -769,6 +1092,9 @@ mer_army_tree = {
 				name = "mer_purbias"
 				duration = 10950
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 	mer_new_rajput_army = {
@@ -799,6 +1125,9 @@ mer_army_tree = {
 				name = "mer_rajput_army"
 				duration = 10950
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 }

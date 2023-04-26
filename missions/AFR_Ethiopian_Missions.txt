@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 #Ethiopian Contact with Europeans + Modernizing
 ethiopia_european_slot = {
 	slot = 1

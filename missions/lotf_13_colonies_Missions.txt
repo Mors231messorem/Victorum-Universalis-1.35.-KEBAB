@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 13_colonies_missions_empty1 = {  
 	slot = 1
 	generic = no

@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 cha_1 = {
 	slot = 1
 	generic = no
@@ -8,7 +9,7 @@ cha_1 = {
 	has_country_shield = yes
 	
 	cha_reconquer_indrapura = {
-		icon = mission_asian_cannon
+		icon = mission_chinese_general_riding
 		required_missions = { }
 		provinces_to_highlight = {
 			OR = {
@@ -46,6 +47,9 @@ cha_1 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 	cha_conquer_vietnam = {
 		icon = mission_indian_soldier_elephant
@@ -74,9 +78,12 @@ cha_1 = {
 				duration = -1
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 	cha_subjugate_highlands = {
-		icon = mission_kowtow
+		icon = mission_ne_palisades
 		required_missions = { }
 		provinces_to_highlight = {
 			area = degar_highlands_area
@@ -98,9 +105,12 @@ cha_1 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 	cha_prey_on_khmer = {
-		icon = mission_war_chest
+		icon = mission_se_along_the_river
 		required_missions = { cha_subjugate_highlands }
 		provinces_to_highlight = {
 			area = mekong_area
@@ -130,6 +140,7 @@ cha_1 = {
 				add_casus_belli = {
 					target = KHM
 					type = cb_vassalize_mission
+					months = 120
 				}
 			}
 			else = {
@@ -155,6 +166,9 @@ cha_1 = {
 					add_permanent_claim = ROOT
 				}
 			}
+		}
+		ai_weight = {
+			factor = 75	#Default
 		}
 	}
 }
@@ -215,6 +229,9 @@ cha_2 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 	cha_navy = {
 		icon = mission_junk_boat
@@ -230,9 +247,12 @@ cha_2 = {
 				duration = 7300
 			}
 		}
+		ai_weight = {
+			factor = 75	#Default
+		}
 	}
 	cha_tondo_expedition = {
-		icon = mission_asian_cannon
+		icon = mission_unite_home_region
 		required_missions = { cha_navy }
 		provinces_to_highlight = {
 			area = southern_luzon_area
@@ -251,9 +271,12 @@ cha_2 = {
 				duration = -1
 			}
 		}
+		ai_weight = {
+			factor = 0	#Should not colonize
+		}
 	}
 	cha_expedition_to_the_east = {
-		icon = mission_invade_island
+		icon = mission_ne_great_lakes_conquest
 		required_missions = { cha_tondo_expedition }
 		provinces_to_highlight = {
 		}
@@ -264,6 +287,9 @@ cha_2 = {
 		}
 		effect = {
 			add_dip_power = 200
+		}
+		ai_weight = {
+			factor = 0	#Should not colonize
 		}
 	}
 }

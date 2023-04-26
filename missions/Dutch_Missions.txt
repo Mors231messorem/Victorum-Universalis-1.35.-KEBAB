@@ -1,3 +1,4 @@
+#VU updated for 1.35 by San Felipe
 ned_reconquest_group = {
 	slot = 1
 	generic = no
@@ -64,6 +65,9 @@ ned_reconquest_group = {
 				duration = 5475
 			}
 		}
+		ai_weight = {
+			factor = 500	#Historical mission
+		}
 	}
 	
 	ned_lowlands_two = {
@@ -94,6 +98,9 @@ ned_reconquest_group = {
 		effect = {
 			add_adm_power = 100
 			add_treasury = 250
+		}
+		ai_weight = {
+			factor = 500	#Historical mission
 		}
 	}
 	
@@ -158,6 +165,9 @@ ned_colonial_group = {
 				duration = 5475
 			}
 		}
+		ai_weight = {
+			factor = 500	#Historical mission
+		}
 	}
 	
 	ned_american_discovery = {
@@ -188,6 +198,9 @@ ned_colonial_group = {
 				name = "por_brazil_colonial"
 				duration = 5475
 			}
+		}
+		ai_weight = {
+			factor = 500	#Historical mission
 		}
 	}
 	
@@ -220,6 +233,9 @@ ned_colonial_group = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Historical mission
 		}
 	}
 }
@@ -281,6 +297,9 @@ ned_colonial_group_two = {
 				duration = 5475
 			}
 		}
+		ai_weight = {
+			factor = 500	#Historical mission
+		}
 	}
 	
 	ned_india_ceylon = {
@@ -308,6 +327,9 @@ ned_colonial_group_two = {
 				duration = "5475"
 			}
 		}
+		ai_weight = {
+			factor = 500	#Historical mission
+		}
 	}
 	
 	ned_spice_australia = {
@@ -322,16 +344,13 @@ ned_colonial_group_two = {
 				colonial_australia = {
 					has_discovered = ROOT
 				}
-				#colonial_indonesia = { #To disable if the trade company is reenabled
-				#	has_discovered = ROOT
-				#}
+				trade_company_indonesia = {
+					has_discovered = ROOT
+				}
+				trade_company_moluccas = {
+					has_discovered = ROOT
+				}
 				trade_company_polynesia = { #To disable if moluccas trade charter gets back in
-					has_discovered = ROOT
-				}
-				trade_company_indonesia = { #Cut for now
-					has_discovered = ROOT
-				}
-				trade_company_moluccas = { #Cut for now
 					has_discovered = ROOT
 				}
 			}
@@ -369,6 +388,13 @@ ned_colonial_group_two = {
 				}
 				add_permanent_claim = ROOT
 			}
+			taiwan_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			riau_islands_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
@@ -383,13 +409,9 @@ ned_colonial_group_two = {
 				}
 				add_permanent_claim = ROOT
 			}
-			taiwan_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
+		}
+		ai_weight = {
+			factor = 500	#Historical mission
 		}
 	}
 	
@@ -414,6 +436,9 @@ ned_colonial_group_two = {
 				name = "por_johor_dominance"
 				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 500	#Historical mission
 		}
 	}
 }
@@ -480,6 +505,9 @@ ned_colonial_group_three = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Historical mission
+		}
 	}
 	
 }
@@ -502,10 +530,7 @@ ned_colonial_group_four = {
 		position = 9
 		
 		provinces_to_highlight = {
-			OR = {
-			    area = taiwan_area
-				area = south_china_sea_islands_area
-			}
+			OR = { area = taiwan_area area = south_china_sea_islands_area }
 			NOT = { owned_by = ROOT }
 			has_discovered = ROOT
 		}
@@ -547,6 +572,9 @@ ned_colonial_group_four = {
 				add_base_production = 1
 				add_base_manpower = 1
 			}
+		}
+		ai_weight = {
+			factor = 500	#Historical mission
 		}
 	}
 }
