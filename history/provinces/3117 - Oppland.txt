@@ -19,7 +19,7 @@ discovered_by = western
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 #1st Shattering unused
 #1st Performance Start Unused
 
@@ -35,7 +35,7 @@ discovered_by = eastern
 	controller = DAN
 	add_core = DAN
 	religion = protestant
-} # 'Handfästningen'(Unknown date)
+} # 'Handfï¿½stningen'(Unknown date)
 1630.1.1 = { trade_goods = copper } # Approximate date
 1814.1.14 = {
 	owner = SWE

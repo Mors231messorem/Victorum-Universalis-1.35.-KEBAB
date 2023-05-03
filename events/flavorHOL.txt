@@ -1,8 +1,9 @@
-########################################
-# Flavor events for Holland/The Netherlands
-#
-# written by Sara Wendel-Örtqvist & Johan Andersson
-########################################
+#VU updated by San Felipe for 1.35
+#####################################################
+# Flavor events for Holland/The Netherlands         #
+#                                                   #
+# written by Sara Wendel-Örtqvist & Johan Andersson #
+#####################################################
 
 namespace = flavor_hol
 normal_or_historical_nations = yes
@@ -198,7 +199,7 @@ country_event = {
 	
 	trigger = {
 		tag = NED
-		NOT = {	has_reform = dutch_republic }
+		NOT = {	has_government_attribute = has_dutch_election }
 		NOT = { has_reform = celestial_empire }
 		is_revolutionary = no
 		is_subject = no
@@ -209,11 +210,11 @@ country_event = {
 	}
 	
 	option = {
-		name = "flavor_hol.EVTOPTA3502" #Confederacy with traces of Monarchism
+		name = "flavor_hol.EVTOPTB3502" #Confederacy on Republican Model
 		ai_chance = { factor = 100 }
 		if = {
 			limit = { NOT = { government = republic } }
-			change_government_to_republic = yes
+			change_government = republic
 		}
 		if = {
 			limit = {
@@ -224,19 +225,19 @@ country_event = {
 		add_government_reform = dutch_republic
 	}
 	option = {
-		name = "flavor_hol.EVTOPTB3502" #Confederacy on Republican Model
+		name = "flavor_hol.EVTOPTA3502" #Confederacy with traces of Monarchism
 		ai_chance = { factor = 0 }
-		trigger = { 
-			always = no
-			NOT = { government = republic } 
-			NOT = { has_dlc = "Dharma" }
-			NOT = { has_dlc = "Emperor" }
+		if = {
+			limit = { NOT = { government = monarchy } }
+			change_government = monarchy
 		}
 		if = {
-			limit = { NOT = { government = republic } }
-			change_government = republic
+			limit = {
+				has_reform = parliamentary_reform
+			}
+			remove_government_reform = parliamentary_reform
 		}
-		#set_legacy_government = administrative_republic
+		add_government_reform = stadthalter_monarchy_reform
 	}
 	option = {
 		name = "flavor_hol.EVTOPTC3502" #Centralized Monarchy
@@ -417,7 +418,7 @@ country_event = {
 		tag = NED
 		is_year = 1600
 		NOT = { is_year = 1700 }
-		has_reform = dutch_republic
+		has_government_attribute = has_dutch_election
 	}
 	
 	mean_time_to_happen = {
@@ -452,7 +453,7 @@ country_event = {
 		revolution_target_exists = yes
 		OR = {
 			government = monarchy
-			has_reform = dutch_republic
+			has_government_attribute = has_dutch_election
 		}
 		NOT = { stability = 3 }
 	}
@@ -799,32 +800,13 @@ country_event = {
 		is_year = 1590
 		NOT = { is_year = 1640 }
 		is_free_or_tributary_trigger = yes
-		OR = {
-			AND = {
-				exists = POR
-				POR = {
-					NOT = { alliance_with = NED }
-					any_owned_province = {
-						OR = {
-							continent = north_america
-							continent = south_america
-							continent = africa
-						}
-					}
-				}
-			}
-			AND = {
-				NOT = { exists = POR }
-				exists = IBE
-				IBE = {
-					NOT = { alliance_with = NED }
-					any_owned_province = {
-						OR = {
-							continent = north_america
-							continent = south_america
-							continent = africa
-						}
-					}
+		POR = {
+			NOT = { alliance_with = NED }
+			any_owned_province = {
+				OR = {
+					continent = north_america
+					continent = south_america
+					continent = africa
 				}
 			}
 		}
@@ -836,54 +818,23 @@ country_event = {
 	
 	option = {
 		name = flavor_hol.8.a #Sounds like a grand plan!
-		if = {
-			limit = { exists = POR }
-			every_province = {
-				limit = {
-					OR = {
-						owned_by = POR
-						owner = { is_colonial_nation_of = POR }
-					}
-					OR = {
-						continent = south_america
-						continent = africa
-					}
+		every_province = {
+			limit = {
+				OR = {
+					owned_by = POR
+					owner = { is_colonial_nation_of = POR }
 				}
-
-
-
-				add_claim = NED
-			}
-			POR = {
-				add_opinion = { who = NED modifier = ned_grand_design }
-				every_ally = {
-					add_opinion = { who = NED modifier = ned_grand_design }
+				OR = {
+					continent = south_america
+					continent = africa
 				}
 			}
+			add_claim = NED
 		}
-		if = {
-			limit = { 
-				NOT = { exists = POR }
-				exists = IBE
-			}
-			every_province = {
-				limit = {
-					OR = {
-						owned_by = IBE
-						owner = { is_colonial_nation_of = IBE }
-					}
-					OR = {
-						continent = south_america
-						continent = africa
-					}
-				}
-				add_claim = NED
-			}
-			IBE = {
+		POR = {
+			add_opinion = { who = NED modifier = ned_grand_design }
+			every_ally = {
 				add_opinion = { who = NED modifier = ned_grand_design }
-				every_ally = {
-					add_opinion = { who = NED modifier = ned_grand_design }
-				}
 			}
 		}
 	}
@@ -945,10 +896,6 @@ country_event = {
 				region = malaya_region
 				region = moluccas_region
 				region = indonesia_region
-				region = riau_islands_region
-				region = nusa_tenggara_region
-				region = borneo_region
-				region = celebes_region
 				region = coromandel_region
 				region = deccan_region
 				region = west_india_region
@@ -956,6 +903,10 @@ country_event = {
 				region = bengal_region
 				region = burma_region
 				region = indo_china_region
+				region = riau_islands_region
+				region = nusa_tenggara_region
+				region = borneo_region
+				region = celebes_region
 				region = south_china_sea_islands_region
 			}
 			is_owned_by_trade_company = yes
@@ -1006,10 +957,6 @@ country_event = {
 				region = malaya_region
 				region = moluccas_region
 				region = indonesia_region
-				region = riau_islands_region
-				region = nusa_tenggara_region
-				region = borneo_region
-				region = celebes_region
 				region = coromandel_region
 				region = deccan_region
 				region = west_india_region
@@ -1017,6 +964,10 @@ country_event = {
 				region = bengal_region
 				region = burma_region
 				region = indo_china_region
+				region = riau_islands_region
+				region = nusa_tenggara_region
+				region = borneo_region
+				region = celebes_region
 				region = south_china_sea_islands_region
 			}
 			is_owned_by_trade_company = yes
@@ -1064,10 +1015,6 @@ country_event = {
 				region = malaya_region
 				region = moluccas_region
 				region = indonesia_region
-				region = riau_islands_region
-				region = nusa_tenggara_region
-				region = borneo_region
-				region = celebes_region
 				region = coromandel_region
 				region = deccan_region
 				region = west_india_region
@@ -1075,6 +1022,10 @@ country_event = {
 				region = bengal_region
 				region = burma_region
 				region = indo_china_region
+				region = riau_islands_region
+				region = nusa_tenggara_region
+				region = borneo_region
+				region = celebes_region
 				region = south_china_sea_islands_region
 			}
 		}
@@ -1165,8 +1116,8 @@ country_event = {
 	trigger = {
 		OR = {
 			tag = GBR
-			tag = UNK
 			tag = ENG
+			tag = UNK
 		}
 		is_year = 1600
 		NOT = { is_year = 1700 }
@@ -1186,7 +1137,7 @@ country_event = {
 		}
 		NED = {
 			is_subject = no
-			has_reform = dutch_republic
+			has_government_attribute = has_dutch_election
 			num_of_cities = 6 #If too small this won't make much sense.
 			OR = {
 				religion = protestant

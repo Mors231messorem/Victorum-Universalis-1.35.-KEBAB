@@ -116,29 +116,29 @@ enlightened_despotism_reform = {
 	}
 }
 
-kingdom_of_portugal = {
-	icon = kingdom_of_portugal
-	allow_normal_conversion = yes
-	potential = {
-		OR = {
-			tag = POR
-			has_reform = kingdom_of_portugal
-		}
-	}
-	trigger = {
-		NOT = { is_year = 1481 }
-	}
-	valid_for_nation_designer = yes
-	nation_designer_cost = 20
-	modifiers = {
-		min_autonomy = 10
-		papal_influence = 1.0
-		land_morale = 0.05
-	}
-	ai = {
-		factor = 100
-	}
-}
+#kingdom_of_portugal = {
+#	icon = kingdom_of_portugal
+#	allow_normal_conversion = yes
+#	potential = {
+#		OR = {
+#			tag = POR
+#			has_reform = kingdom_of_portugal
+#		}
+#	}
+#	trigger = {
+#		NOT = { is_year = 1481 }
+#	}
+#	valid_for_nation_designer = yes
+#	nation_designer_cost = 20
+#	modifiers = {
+#		min_autonomy = 10
+#		papal_influence = 1.0
+#		land_morale = 0.05
+#	}
+#	ai = {
+#		factor = 100
+#	}
+#}
 
 kingdom_of_portugal_and_azures = {
 	icon = portuguese_thassalocracy

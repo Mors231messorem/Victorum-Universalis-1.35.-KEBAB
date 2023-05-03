@@ -3,35 +3,35 @@
  #Reorganised format as of 11.5 -
  # Note main folder contains all NEW localisations. Entries which replace vanilla content are found in the replace subfolder.
  #
- #bt_core_content - contains all Draiocht's core content, including everything not otherwise listed.
- #bt_countries - contains all Draiocht's tags and national ideas, including - 1) Tags   2) National Ideas
- #(THIS FILE) bt_provinces - contains all province names, including adjectives (which are still incomplete)
- #bt_regional_names - contains all Draiocht's regional localisations, including - 1) Regions   2) Trade Nodes   3) Colonial Regions   4) Areas   5) Colonial Nation Names
- #others_work_in_bt - contains all localisations NOT written by Draiocht, including HR's work from BT, all of Dub's work, and many contributors' work
+ #vu_core_content - contains all Darth Modus's core content, including everything not otherwise listed.
+ #vu_countries - contains all Darth Modus's tags and national ideas, including - 1) Tags   2) National Ideas
+ #(THIS FILE) vu_provinces - contains all province names, including adjectives (which are still incomplete)
+ #vu_regional_names - contains all Darth Modus's regional localisations, including - 1) Regions   2) Trade Nodes   3) Colonial Regions   4) Areas   5) Colonial Nation Names
+ #others_work_in_vu - contains all localisations NOT written by Darth Modus, including HR's work from VU, all of Dub's work, and many contributors' work
 
  #All NEW province localisations moved to a single file now.
 
- #First is BtP province localisations. Credit to HR with some updating & changes by Draiocht
- #BtP adjectives start at 312. Credit to HR with some updating & changes by Draiocht
- #New Beyond Typus provinces start at 620 and continue
+ #First is VU province localisations. Credit to HR with some updating & changes by Darth Modus
+ #VU adjectives start at 312. Credit to HR with some updating & changes by Darth Modus
+ #New Victorum Universalis provinces start at 620 and continue
 
  ############################################################
- #btp_prov_names_l_english (Province Names) - These are HR's provinces
+ #VU_prov_names_l_english (Province Names) - These are HR's provinces
  ############################################################
  #PROV3004:0 "Tyrconnell"
  PROV3005:0 "Oriel"
- PROV3006:0 "Ulster"          #Changed in BT
+ PROV3006:0 "Ulster"          #Changed in VU
  #PROV3007:0 "Offaly"
- PROV3008:0 "Galloway"          #Changed in BT (Repurposed an old BtP provinces replaced by new Paradox provinces)
+ PROV3008:0 "Galloway"          #Changed in VU (Repurposed an old VU provinces replaced by new Paradox provinces)
  PROV3009:0 "Wexford"
- #PROV3010:0 "Ormond"          #Changed in BT
- PROV3011:0 "100-PleaseReportErrorToDraiocht"
+ #PROV3010:0 "Ormond"          #Changed in VU
+ PROV3011:0 "100-PleaseReportErrorToDarth Modus"
  #PROV3012:0 "Thomond"
- PROV3013:0 "101-PleaseReportErrorToDraiocht"
+ PROV3013:0 "101-PleaseReportErrorToDarth Modus"
  PROV3014:0 "Mayo"
  PROV3015:0 "Loch Neagh"
  #PROV3016:0 "Mann"
- PROV3017:0 "102-PleaseReportErrorToDraiocht"
+ PROV3017:0 "102-PleaseReportErrorToDarth Modus"
  #PROV3018:0 "Argyll"
  PROV3019:0 "Strathclyde"
  #PROV3020:0 "Dumfries"
@@ -46,11 +46,11 @@
  PROV3029:0 "Paramaribo" #Formerly SPARE Sussex
  PROV3030:0 "Commewijne" #Formerly SPARE Dorset
  PROV3031:0 "Maripasoula" #Formerly SPARE Somerset
- #PROV3032:0 "103-PleaseReportErrorToDraiocht"
+ #PROV3032:0 "103-PleaseReportErrorToDarth Modus"
  PROV3033:0 "Mana" #Formerly SPARE Powys
- PROV3034:0 "Brecon"          #Changed in BT
+ PROV3034:0 "Brecon"          #Changed in VU
  PROV3035:0 "Apuruaque" #Formerly SPARE Dyfed
- PROV3036:0 "Cardigan"          #Changed in BT
+ PROV3036:0 "Cardigan"          #Changed in VU
  PROV3037:0 "Camopi" #Formerly SPARE Girgenti
  #PROV3038:0 "Molise"
  PROV3039:0 "Capua"
@@ -122,27 +122,27 @@
  PROV3108:0 "Setúbal"
  PROV3109:0 "Carandaí"
  PROV3110:0 "Channel Islands"
- PROV3111:0 "Ilulissat"         #Formerly Amerloq in BtP
- PROV3112:0 "Nuuk"         #Formerly Kikertarsocitsiak in BtP
- PROV3113:0 "Paamiut"         #Formerly Mellembygden in BtP
+ PROV3111:0 "Ilulissat"         #Formerly Amerloq in VU
+ PROV3112:0 "Nuuk"         #Formerly Kikertarsocitsiak in VU
+ PROV3113:0 "Paamiut"         #Formerly Mellembygden in VU
  PROV3114:0 "Ísafjörður"
  PROV3115:0 "Austfirðir"
  PROV3116:0 "Bratsberg"
  PROV3117:0 "Oppland"
  PROV3118:0 "Møre"
  PROV3119:0 "Tromsø"
- PROV3120:0 "Jönköping"          #Changed in BT
- PROV3121:0 "Öland"          #Changed in BT
+ PROV3120:0 "Jönköping"          #Changed in VU
+ PROV3121:0 "Öland"          #Changed in VU
  PROV3122:0 "Södermanland"
  PROV3123:0 "Uppland"
  PROV3124:0 "Ångermanland"
- PROV3125:0 "106-PleaseReportErrorToDraiocht"
- PROV3126:0 "107-PleaseReportErrorToDraiocht"
+ PROV3125:0 "106-PleaseReportErrorToDarth Modus"
+ PROV3126:0 "107-PleaseReportErrorToDarth Modus"
  PROV3127:0 "Vaasa"
  PROV3128:0 "Satakunta"
  PROV3129:0 "Pirkanmaa"
  PROV3130:0 "Tavastia"
- PROV3131:0 "108-PleaseReportErrorToDraiocht"
+ PROV3131:0 "108-PleaseReportErrorToDarth Modus"
  PROV3132:0 "Viborg"
  PROV3133:0 "Ribe"
  PROV3134:0 "Aabenraa"
@@ -158,15 +158,15 @@
  PROV3144:0 "Olomouc"
  PROV3145:0 "Trencín"
  PROV3146:0 "Ung"
- PROV3147:0 "109-PleaseReportErrorToDraiocht"
+ PROV3147:0 "109-PleaseReportErrorToDarth Modus"
  PROV3148:0 "Szolnok"
- PROV3149:0 "110-PleaseReportErrorToDraiocht"
+ PROV3149:0 "110-PleaseReportErrorToDarth Modus"
  PROV3150:0 "Fejér"
  PROV3151:0 "Zala"
  PROV3152:0 "Szatmár"
- PROV3153:0 "111-PleaseReportErrorToDraiocht"
+ PROV3153:0 "111-PleaseReportErrorToDarth Modus"
  PROV3154:0 "Alba"
- PROV3155:0 "112-PleaseReportErrorToDraiocht"
+ PROV3155:0 "112-PleaseReportErrorToDarth Modus"
  PROV3156:0 "Suceava"
  PROV3157:0 "Bacau"
  PROV3158:0 "Vaslui"
@@ -192,7 +192,7 @@
  PROV3178:0 "Achaea"
  PROV3179:0 "Argolis"
  PROV3180:0 "Chania"
- PROV3181:0 "Valona"          #Changed in BT
+ PROV3181:0 "Valona"          #Changed in VU
  PROV3182:0 "Scutari"
  PROV3183:0 "Bitola"
  PROV3184:0 "Tupã"
@@ -247,7 +247,7 @@
  PROV3233:0 "Navahrudak"
  PROV3234:0 "Barysaw"           #replaced in 1.22 by 4242
  PROV3235:0 "Slutsk"
- PROV3236:0 "113-PleaseReportErrorToDraiocht"
+ PROV3236:0 "113-PleaseReportErrorToDarth Modus"
  PROV3237:0 "Stryi"
  PROV3238:0 "Lutsk"
  PROV3239:0 "Zaslav"
@@ -259,7 +259,7 @@
  PROV3245:0 "Kerch"
  PROV3246:0 "Romny"
  PROV3247:0 "Sloboda"
- PROV3248:0 "Rhizaeum"            #BTPL reoverhauling the Causcaus, changed from BtP
+ PROV3248:0 "Rhizaeum"            #VU reoverhauling the Causcaus, changed from VU
  PROV3249:0 "Chapecó"
  PROV3250:0 "Klarjeti"
  PROV3251:0 "Meskheti"
@@ -284,7 +284,7 @@
  PROV3271:0 "Bely"
  PROV3272:0 "Velikiye Luki"
  PROV3273:0 "Rusa"          #Staraya not really neccessary
- PROV3274:0 "115-PleaseReportErrorToDraiocht"
+ PROV3274:0 "115-PleaseReportErrorToDarth Modus"
  PROV3275:0 "Rostov"
  PROV3276:0 "Sergiyev Posad"
  PROV3277:0 "Serpukhov"
@@ -293,10 +293,10 @@
  PROV3280:0 "Mari"
  PROV3281:0 "Vyatka"
  PROV3282:0 "Pudozh"
- PROV3283:0 "116-PleaseReportErrorToDraiocht"
+ PROV3283:0 "116-PleaseReportErrorToDarth Modus"
  PROV3284:0 "Ust-Vashka"
  PROV3285:0 "Nenets"
- PROV3286:0 "117-PleaseReportErrorToDraiocht"
+ PROV3286:0 "117-PleaseReportErrorToDarth Modus"
  PROV3287:0 "Khazar Sea"
  PROV3288:0 "Khvalyn Sea"
  PROV3289:0 "Mazandaran Sea"
@@ -316,19 +316,19 @@
  PROV3303:0 "Beloye"
 
  ############################################################
- #btp_prov_names_adj_l_english (Adjectives) - These are HR's provinces
+ #VU_prov_names_adj_l_english (Adjectives) - These are HR's provinces
  ############################################################
- PROV_ADJ3004:0 "Tyrconnellian"          #Changed in BT
- PROV_ADJ3005:0 "Orielian"          #Changed in BT
- PROV_ADJ3006:0 "Ulsterian"          #Changed in BT
- PROV_ADJ3007:0 "Offalian"          #Changed in BT
+ PROV_ADJ3004:0 "Tyrconnellian"          #Changed in VU
+ PROV_ADJ3005:0 "Orielian"          #Changed in VU
+ PROV_ADJ3006:0 "Ulsterian"          #Changed in VU
+ PROV_ADJ3007:0 "Offalian"          #Changed in VU
  PROV_ADJ3008:0 "Galloway"
- PROV_ADJ3009:0 "Wexfordian"          #Changed in BT
- PROV_ADJ3010:0 "Ormondian"          #Changed in BT
+ PROV_ADJ3009:0 "Wexfordian"          #Changed in VU
+ PROV_ADJ3010:0 "Ormondian"          #Changed in VU
  #PROV_ADJ3011:0 "Desmondian"           #Province cut
- PROV_ADJ3012:0 "Thomondian"          #Changed in BT
+ PROV_ADJ3012:0 "Thomondian"          #Changed in VU
  #PROV_ADJ3013:0 "Sligonian"           #Province cut
- PROV_ADJ3014:0 "Mayonese"          #Changed in BT
+ PROV_ADJ3014:0 "Mayonese"          #Changed in VU
  PROV_ADJ3015:0 "Lough Neagh"
  PROV_ADJ3016:0 "Manx"
  #PROV_ADJ3017:0 "Caithnessian"           #Province cut
@@ -348,9 +348,9 @@
  PROV_ADJ3031:0 "Maripasoulan"
  #PROV_ADJ3032:0 "Devonian"           #Province cut
  PROV_ADJ3033:0 "Manan"
- PROV_ADJ3034:0 "Breconian"          #Changed in BT
+ PROV_ADJ3034:0 "Breconian"          #Changed in VU
  PROV_ADJ3035:0 "Apuruaque"
- PROV_ADJ3036:0 "Cardigan"          #Changed in BT
+ PROV_ADJ3036:0 "Cardigan"          #Changed in VU
  PROV_ADJ3037:0 "Camopin"
  PROV_ADJ3038:0 "Molisian"
  PROV_ADJ3039:0 "Capuan"
@@ -423,17 +423,17 @@
  PROV_ADJ3108:0 "Setúbal"
  PROV_ADJ3109:0 "Marcher"
  PROV_ADJ3110:0 "Channel Islander"
- PROV_ADJ3111:0 "Ilulissatian"          #Changed in BT
- PROV_ADJ3112:0 "Nuukian"          #Changed in BT
- PROV_ADJ3113:0 "Paamiutian"          #Changed in BT
+ PROV_ADJ3111:0 "Ilulissatian"          #Changed in VU
+ PROV_ADJ3112:0 "Nuukian"          #Changed in VU
+ PROV_ADJ3113:0 "Paamiutian"          #Changed in VU
  PROV_ADJ3114:0 "Ísafjörðer"
  PROV_ADJ3115:0 "Austfirðer"
  PROV_ADJ3116:0 "Bratsberger"
  PROV_ADJ3117:0 "Opplander"
  PROV_ADJ3118:0 "Romsdaler"
  PROV_ADJ3119:0 "Tromsø"
- PROV_ADJ3120:0 "Jönköpinger"          #Changed in BT
- PROV_ADJ3121:0 "Ölander"          #Changed in BT
+ PROV_ADJ3120:0 "Jönköpinger"          #Changed in VU
+ PROV_ADJ3121:0 "Ölander"          #Changed in VU
  PROV_ADJ3122:0 "Södermanlander"
  PROV_ADJ3123:0 "Upplander"
  PROV_ADJ3124:0 "Ångermanlander"
@@ -493,7 +493,7 @@
  PROV_ADJ3178:0 "Achaean"
  PROV_ADJ3179:0 "Argolisian"
  PROV_ADJ3180:0 "Chanian"
- PROV_ADJ3181:0 "Valonian"          #Changed in BT
+ PROV_ADJ3181:0 "Valonian"          #Changed in VU
  PROV_ADJ3182:0 "Scutarian"
  PROV_ADJ3183:0 "Bitolan"
  PROV_ADJ3184:0 "Kotoran"
@@ -560,7 +560,7 @@
  PROV_ADJ3245:0 "Kerch"
  PROV_ADJ3246:0 "Romny"
  PROV_ADJ3247:0 "Sloboda"
- PROV_ADJ3248:0 "Rhizaeumi"          #Changed in BT
+ PROV_ADJ3248:0 "Rhizaeumi"          #Changed in VU
  PROV_ADJ3249:0 "Tao"
  PROV_ADJ3250:0 "Klarjeti"
  PROV_ADJ3251:0 "Meskheti"
@@ -2009,7 +2009,7 @@
  ############################################################################################################
  ############################################################################################################
  ############################################################################################################
- #New Beyond Typus Provinces
+ #New Victorum Universalis Provinces
  ############################################################################################################
  ############################################################################################################
  ############################################################################################################
@@ -5654,7 +5654,7 @@
  PROV8119:0 "Dokkum"
  PROV8120:0 "Twente"
  PROV8121:0 "Almadén"
- #Provinces for BT13.0
+ #Provinces for VU 13.0
  PROV8122:0 "North Devon"
  PROV8123:0 "Surrey"
  PROV8124:0 "Berkshire"
@@ -6514,7 +6514,7 @@
  PROV8763:0 "Itaperuna"
  PROV_ADJ8763:0 "Itaperuna"
 
- # Beyond Typus province adjectives. Please note these are extremely incomplete, but appear? to only be seen when the province in question is selected as a capital for a custom nation. So I'm treating them as a secondary concern for the moment. -Draiocht
+ # Victorum Universalis province adjectives. Please note these are extremely incomplete, but appear? to only be seen when the province in question is selected as a capital for a custom nation. So I'm treating them as a secondary concern for the moment. -Darth Modus
  PROV_ADJ4140:0 "Vozian"
  PROV_ADJ4846:0 "Woolna"
  PROV_ADJ4847:0 "Warnindilyakwan"
@@ -6716,20 +6716,20 @@
  PROV_ADJ5043:0 "Cocopahan"
  PROV_ADJ5044:0 "Kucadikadian"
  PROV_ADJ5045:0 "Wintuan"
- PROV_ADJ5046:0 "Please Report Error567 to Draiocht"
- PROV_ADJ5047:0 "Please Report Error567 to Draiocht"
- PROV_ADJ5048:0 "Please Report Error567 to Draiocht"
- PROV_ADJ5049:0 "Please Report Error567 to Draiocht"
- PROV_ADJ5050:0 "Please Report Error567 to Draiocht"
- PROV_ADJ5051:0 "Please Report Error567 to Draiocht"
- PROV_ADJ5052:0 "Please Report Error567 to Draiocht"
- PROV_ADJ5053:0 "Please Report Error567 to Draiocht"
- PROV_ADJ5054:0 "Please Report Error567 to Draiocht"
- PROV_ADJ5055:0 "Please Report Error567 to Draiocht"
- PROV_ADJ5056:0 "Please Report Error567 to Draiocht"
- PROV_ADJ5057:0 "Please Report Error567 to Draiocht"
- PROV_ADJ5058:0 "Please Report Error567 to Draiocht"
- PROV_ADJ5059:0 "Please Report Error567 to Draiocht"
+ PROV_ADJ5046:0 "Please Report Error567 to Darth Modus"
+ PROV_ADJ5047:0 "Please Report Error567 to Darth Modus"
+ PROV_ADJ5048:0 "Please Report Error567 to Darth Modus"
+ PROV_ADJ5049:0 "Please Report Error567 to Darth Modus"
+ PROV_ADJ5050:0 "Please Report Error567 to Darth Modus"
+ PROV_ADJ5051:0 "Please Report Error567 to Darth Modus"
+ PROV_ADJ5052:0 "Please Report Error567 to Darth Modus"
+ PROV_ADJ5053:0 "Please Report Error567 to Darth Modus"
+ PROV_ADJ5054:0 "Please Report Error567 to Darth Modus"
+ PROV_ADJ5055:0 "Please Report Error567 to Darth Modus"
+ PROV_ADJ5056:0 "Please Report Error567 to Darth Modus"
+ PROV_ADJ5057:0 "Please Report Error567 to Darth Modus"
+ PROV_ADJ5058:0 "Please Report Error567 to Darth Modus"
+ PROV_ADJ5059:0 "Please Report Error567 to Darth Modus"
  PROV_ADJ5062:0 "Tieler"
  PROV_ADJ5097:0 "Berentian"
  PROV_ADJ5098:0 "Apeldoorner"

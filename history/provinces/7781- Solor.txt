@@ -1,4 +1,4 @@
-#BT Scandinavia and Baltics reoverhaul
+#7781- Solor
 
 owner = NOR
 controller = NOR
@@ -15,16 +15,6 @@ hre = no
 
 discovered_by = western
 discovered_by = eastern
-
-
-#Province history completed by - Draiocht
-#1st Shattering unused
-#1st Performance Start Unused
-
-#1291 - 1444
-
-#2nd Shattering unused
-#2nd Performance Start Unused
 
 #1444 on
 1531.11.5 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # The Return of Christian II

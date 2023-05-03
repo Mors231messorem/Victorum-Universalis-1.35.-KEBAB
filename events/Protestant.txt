@@ -37,7 +37,7 @@ country_event = {
 	mean_time_to_happen = {
 		months = 4000
 		
-		#Some new BT controls to finally get ahold of when the Reformation hits... bit heavy handed, but what can you do? Especially now that ages are controled by it.
+		#Some new VU controls to finally get ahold of when the Reformation hits... bit heavy handed, but what can you do? Especially now that ages are controled by it.
 		# modifier = {
 			# factor = 99.0
 			# NOT = { is_year = 1490 }
@@ -216,7 +216,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPTB2001.btpl"
+		name = "EVTOPTB2001.vu"
 		trigger = {
 			stability = -2
 		}

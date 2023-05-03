@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = salish
 religion = totemism 
-capital = "Kwúbe"			#Cocrete would seem the best candidate, but little evidence of native settlement. Newhalem also seems feasible, but only etymology found is an asinine story about a goat. History seems poor here in general, as I'm also finding no good non-anglicised spelling for Skagit. Going with Mount Baker for lack of better options.
+capital = "Kwï¿½be"			#Cocrete would seem the best candidate, but little evidence of native settlement. Newhalem also seems feasible, but only etymology found is an asinine story about a goat. History seems poor here in general, as I'm also finding no good non-anglicised spelling for Skagit. Going with Mount Baker for lack of better options.
 trade_goods = unknown
 hre = no 
 base_tax = 1 
@@ -13,18 +13,18 @@ native_ferocity = 1
 native_hostileness = 3 
 
 discovered_by = north_american
-#discovered_by = bt_athabaskan_tech
-#discovered_by = bt_northwest_tech
+#discovered_by = vu_athabaskan_tech
+#discovered_by = vu_northwest_tech
 
 
-1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+1444.11.12 = { #VictorumUniversalis batch edit shortcut native start date begin
 	owner = SAL
 	controller = SAL
 	add_core = SAL
 	is_city = yes
 	trade_goods = naval_supplies
 }
-1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+1444.11.14 = { #VictorumUniversalis batch edit shortcut native start date end
 	owner = XXX
 	controller = XXX
 	remove_core = SAL

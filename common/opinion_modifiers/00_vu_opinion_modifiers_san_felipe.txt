@@ -81,3 +81,11 @@ great_britain_sided_against_belgians = {
 	years = 25
 	yearly_decay = 1
 }
+
+opinion_spa_bloody_mary_good = {
+    opinion = 25
+}
+
+opinion_spa_bloody_mary_bad = {
+    opinion = -25
+}

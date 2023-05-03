@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = quileute
 religion = totemism 
-capital = "C'íc'abus"			#The last stronghold of the Chimakum before their extinction
+capital = "C'ï¿½c'abus"			#The last stronghold of the Chimakum before their extinction
 trade_goods = unknown
 hre = no 
 base_tax = 1			#Population 400 identified in 1789. Note this immediately followed a major war with the Lushootseed and Wakashans, as well as a major smallpox outbreak, so population impossible to accurately guess. anything in the 2k-10k seems plausible pre-1700.
@@ -13,18 +13,18 @@ native_ferocity = 1
 native_hostileness = 3 
 
 discovered_by = north_american
-#discovered_by = bt_athabaskan_tech
-#discovered_by = bt_northwest_tech
+#discovered_by = vu_athabaskan_tech
+#discovered_by = vu_northwest_tech
 
 
-1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+1444.11.12 = { #VictorumUniversalis batch edit shortcut native start date begin
 	owner = YYH			#Chimakum/Quileut
 	controller = YYH
 	add_core = YYH
 	is_city = yes
 	trade_goods = naval_supplies
 }
-1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+1444.11.14 = { #VictorumUniversalis batch edit shortcut native start date end
 	owner = XXX
 	controller = XXX
 	remove_core = YYH

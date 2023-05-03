@@ -33,14 +33,14 @@ estate_burghers = {
 	# These scale with loyalty & power
 	country_modifier_happy = {
 		trade_efficiency = 0.2
-		development_cost = -0.1			#Turned on in VU. Was off in BT
+		development_cost = -0.1			#Turned on in VU. Was off in VU
 	}
 	country_modifier_neutral = {
-		trade_efficiency = 0.2			#Turned on in VU. Was off in BT
+		trade_efficiency = 0.2			#Turned on in VU. Was off in VU
 	}	
 	country_modifier_angry = {
-		trade_efficiency = -0.1			#Was -0.2 in BT
-		development_cost = 0.1			#Turned on in VU. Was off in BT
+		trade_efficiency = -0.1			#Was -0.2 in VU
+		development_cost = 0.1			#Turned on in VU. Was off in VU
 		global_unrest = 2               #Added in VU
 	}
 	land_ownership_modifier = {

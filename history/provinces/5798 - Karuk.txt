@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = shastan			#Karuk. A possible language isolate, or possibly Algonquian according to some? Best Info I've seen places them with Sapir's unproven but compelling Hokan group, so that is where they go.
 religion = totemism 
-capital = "Ithivthanéen'aachip" 			#meaning thcenterre of the World and the Karuk homeland. Or Karúk'aasak 'at the rock at Katimin Spring'.
+capital = "Ithivthanï¿½en'aachip" 			#meaning thcenterre of the World and the Karuk homeland. Or Karï¿½k'aasak 'at the rock at Katimin Spring'.
 trade_goods = unknown
 hre = no 
 base_tax = 1 			#A small group. Population estimates range from 800 to 2,700 Karuk, a few hundred Chimariko, and a few hundred Konomihu 
@@ -13,7 +13,7 @@ native_ferocity = 1
 native_hostileness = 3 
 
 discovered_by = north_american
-#discovered_by = bt_northwest_tech
+#discovered_by = vu_northwest_tech
 
 
 1828.1.1 = {

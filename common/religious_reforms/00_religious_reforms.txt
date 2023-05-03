@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 # Do not change tags in here without changing every other reference to them.
 # Do not change tags in here without changing every other reference to them.
 # If adding new groups or ideas, make sure they are unique.
@@ -51,6 +52,7 @@ inti_reforms = {
 		NOT = { num_of_rebel_controlled_provinces = 1 }
 		stability = 1
 		authority = 100
+		num_of_cities = 10
 	}
 	
 	inti_reform_1 = {

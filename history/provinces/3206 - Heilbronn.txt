@@ -20,13 +20,13 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
+1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = WUR
 	controller = WUR
 	add_core = WUR
 	remove_core = HEL
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
+1444.11.18 = { #VictorumUniversalis batch edit shortcut second performance start ends
 	owner = HEL
 	controller = HEL
 	add_core = HEL
@@ -39,5 +39,5 @@ discovered_by = eastern
 	controller = WUR
 	add_core = WUR
 	remove_core = HEL
-} # House Würtemberg reconquers the coutnry and installs the protestant religion
+} # House Wï¿½rtemberg reconquers the coutnry and installs the protestant religion
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

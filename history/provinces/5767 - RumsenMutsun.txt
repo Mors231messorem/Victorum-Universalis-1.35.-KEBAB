@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = utian
 religion = totemism 
@@ -28,5 +28,5 @@ discovered_by = north_american
 	base_tax = 3
 	base_production = 3
 	base_manpower = 2
-} # Don Gaspar de Portolá and the Mission San Carlos Borromeo de Carmelo, later Monterrey, modern Monterey. Capital of California
+} # Don Gaspar de Portolï¿½ and the Mission San Carlos Borromeo de Carmelo, later Monterrey, modern Monterey. Capital of California
 1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence

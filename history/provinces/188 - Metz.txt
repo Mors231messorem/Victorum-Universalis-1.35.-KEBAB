@@ -27,13 +27,13 @@ center_of_trade = 2
 extra_cost = 8
 
 
-1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
+1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = LOR
 	controller = LOR
 	add_core = LOR
 	remove_core = MTZ
 } 
-1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
+1444.11.18 = { #VictorumUniversalis batch edit shortcut second performance start ends
 	owner = MTZ
 	controller = MTZ
 	add_core = MTZ

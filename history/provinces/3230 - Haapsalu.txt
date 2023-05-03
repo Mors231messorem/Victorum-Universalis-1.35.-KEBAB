@@ -13,7 +13,7 @@ base_tax = 1
 base_production = 1 
 trade_goods = cloth
 base_manpower = 1 
-capital = "Old Perona"			#Vana-Pärnu, or DE Alt-Pernau
+capital = "Old Perona"			#Vana-Pï¿½rnu, or DE Alt-Pernau
 is_city = yes
 center_of_trade = 1
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
@@ -25,12 +25,12 @@ add_permanent_province_modifier = {
     duration = -1
 }
 
-1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
+1444.11.16 = { #VictorumUniversalis batch edit shortcut no vassal start date begin
 	owner = LIV
 	controller = LIV
 	add_core = LIV
 }
-1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+1444.11.18 = { #VictorumUniversalis batch edit shortcut no vassal start date end
 	owner = OSL
 	controller = OSL
 	remove_core = LIV

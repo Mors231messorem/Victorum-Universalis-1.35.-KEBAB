@@ -1,4 +1,4 @@
-#New Beyond Typus Province
+#New Victorum Universalis Province
 
 owner = OKA			#appears to actually be a Lithuanian-founded vassal principality, but I've given Lithuania enough vassals for now.
 controller = OKA

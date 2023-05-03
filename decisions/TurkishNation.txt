@@ -20,6 +20,7 @@ country_decisions = {
 			NOT = { tag = PAP }
 			NOT = { tag = BYZ }
 			NOT = { tag = RUS }
+			#VU Tzarist Russia
 			NOT = { tag = TZR }
 			NOT = { tag = PRU }
 			NOT = { tag = ENG }
@@ -69,16 +70,22 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = RUM
+			on_change_tag_effect = yes
+			restore_country_name = yes
 			if = {
 				limit = {
+			  
 					NOT = { government = monarchy }
 					is_revolutionary = no
+	  
+								 
 				}
 				change_government_to_monarchy = yes
 			}
 			if = {
 				limit = { is_revolutionary = no }
-				add_government_reform = ottoman_government
+				add_government_reform = sultanate_of_rum_reform
+	 
 			}
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -104,6 +111,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = formed_rum_flag
+			swap_non_generic_missions = yes
 		}
 		ai_will_do = {
 			factor = 1

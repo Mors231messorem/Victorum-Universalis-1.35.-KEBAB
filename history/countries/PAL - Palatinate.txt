@@ -114,7 +114,7 @@ capital = 77	# Pfalz
 1449.8.14 = {
 	heir = {
 		name = "Philipp"
-		monarch_name = "Philipp der Edelmï¿½tige"
+		monarch_name = "Philipp der Edelmütige"
 		dynasty = "von Wittelsbach"
 		birth_date = 1448.7.14
 		death_date = 1508.2.28
@@ -129,7 +129,7 @@ capital = 77	# Pfalz
 
 1476.12.13 = {
 	monarch = {
-		name = "Philipp der Edelmï¿½tige"
+		name = "Philipp der Edelmütige"
 		dynasty = "von Wittelsbach"
 		birth_date = 1448.7.14
 		adm = 3

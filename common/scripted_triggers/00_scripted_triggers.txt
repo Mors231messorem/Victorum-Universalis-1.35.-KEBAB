@@ -708,10 +708,10 @@ has_manufactory_no_custom_tooltip_trigger = { #Province Scope
 		limit = {
 			OR = {
 				trade_goods = grain
-				#Start of BT additions
+				#Start of VU additions
 				trade_goods = fruit
 			    trade_goods = beer
-				#End of BT additions
+				#End of VU additions
 				trade_goods = livestock
 				trade_goods = wine
 			}
@@ -813,10 +813,10 @@ root_can_build_manufactory_here_trigger = {
 		AND = {
             OR = {
                 trade_goods = grain
-				#Start of BT additions
+				#Start of VU additions
 				trade_goods = fruit
 				trade_goods = beer
-				#End of BT additions
+				#End of VU additions
                 trade_goods = livestock
                 trade_goods = wine
             }
@@ -848,10 +848,10 @@ has_nobles_trade_good_trigger = {
 		trade_goods = iron
 		trade_goods = livestock
 		trade_goods = grain
-		#Start of BT additions
+		#Start of VU additions
 		trade_goods = fruit
 		trade_goods = beer
-		#End of BT additions
+		#End of VU additions
 		trade_goods = gems
 		#Start of VU additions by San Felipe
 		trade_goods = diamonds
@@ -2491,7 +2491,7 @@ province_is_buddhist_or_accepts_buddhism = {
 			}
 		}
 		custom_trigger_tooltip = {
-			tooltip = province_is_buddhist_or_accepts_buddhism_bt
+			tooltip = province_is_buddhist_or_accepts_buddhism_vu
 			owner = {
 				OR = {
 					has_harmonized_with = buddhism
@@ -2575,7 +2575,7 @@ province_is_buddhist_or_accepts_buddhism_or_is_dharmic = {
 			}
 		}
 		custom_trigger_tooltip = {
-			tooltip = province_is_buddhist_or_accepts_buddhism_bt
+			tooltip = province_is_buddhist_or_accepts_buddhism_vu
 			owner = {
 				OR = {
 					has_harmonized_with = buddhism

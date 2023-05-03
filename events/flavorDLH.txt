@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 ########################################
 # Flavor Events for Delhi
 #
@@ -321,7 +322,6 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	#NB: Need to keep an eye on this whether it can fire more than once for several nations that form Delhi. Additionally, Hindustan has the Peacock throne event that also gives 4/4/4 to Delhi.
 	option = { # keep capital in Delhi
 		name = "flavor_dlh.EVTOPTA8"
 		capital_scope = {

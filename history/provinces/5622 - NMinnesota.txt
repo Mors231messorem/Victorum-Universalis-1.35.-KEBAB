@@ -1,4 +1,4 @@
-#New Beyond Typus Province
+#New Victorum Universalis Province
 
 culture = cheyenne
 religion = totemism
@@ -15,4 +15,4 @@ native_hostileness = 3
 discovered_by = north_american
 
 
-1732.1.1 = { discovered_by = FRA } # La Vérendrye
+1732.1.1 = { discovered_by = FRA } # La Vï¿½rendrye

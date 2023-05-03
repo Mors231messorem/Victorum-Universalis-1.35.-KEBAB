@@ -1,20 +1,20 @@
-namespace = BtPLegacyItalyHRE
+namespace = VULegacyItalyHRE
 
 #Written by Driaocht 18-11-16
-#Please note this is currently a pretty bandaid fix, but it is better than what we had, given BT's Italy.
+#Please note this is currently a pretty bandaid fix, but it is better than what we had, given VU's Italy.
 #I'll try to find the time to do a proper job later.
 
 #Italy removed from the HRE part 1
 country_event = {
-	id = BtPLegacyItalyHRE.1
-	title = "BtPLegacyItalyHRE.EVTNAME1"
-	desc = "BtPLegacyItalyHRE.EVTDESC1"
+	id = VULegacyItalyHRE.1
+	title = "VULegacyItalyHRE.EVTNAME1"
+	desc = "VULegacyItalyHRE.EVTDESC1"
 	picture = HRE_eventPicture
 
 	is_triggered_only = yes
 	
 	option = {	#leave the Empire
-		name = "BtPLegacyItalyHRE.EVTOPTA1"
+		name = "VULegacyItalyHRE.EVTOPTA1"
 		ai_chance = { factor = 30 }
 		set_country_flag = left_the_empire
 		set_in_empire = no
@@ -25,7 +25,7 @@ country_event = {
 				NOT = { has_country_flag = shadow_kingdom }
 				NOT = { has_country_flag = had_shadow_kingdom_info }
 			}
-			country_event = { id = BtPLegacyItalyHRE.5 } #Info Event
+			country_event = { id = VULegacyItalyHRE.5 } #Info Event
 			set_country_flag = had_shadow_kingdom_info
 		}
 		every_country = {
@@ -35,7 +35,7 @@ country_event = {
 				NOT = { has_country_flag = shadow_kingdom }
 				NOT = { has_country_flag = had_shadow_kingdom_info }
 			}
-			country_event = { id = BtPLegacyItalyHRE.5 } #Info Event
+			country_event = { id = VULegacyItalyHRE.5 } #Info Event
 		}
 		every_neighbor_country = {
 			limit = {
@@ -44,7 +44,7 @@ country_event = {
 				NOT = { has_country_flag = shadow_kingdom }
 				NOT = { has_country_flag = had_shadow_kingdom_info }
 			}
-			country_event = { id = BtPLegacyItalyHRE.5 } #Info Event
+			country_event = { id = VULegacyItalyHRE.5 } #Info Event
 		}
 		if = {
 			limit = { is_elector = yes }
@@ -55,12 +55,12 @@ country_event = {
 	}
 	
 	option = {	#Lobby to remain
-		name = "BtPLegacyItalyHRE.EVTOPTB1"
+		name = "VULegacyItalyHRE.EVTOPTB1"
 		ai_chance = {
 			factor = 5
 			modifier = {
 				factor = 5
-				has_country_modifier = bt_ghibelline_nation
+				has_country_modifier = vu_ghibelline_nation
 			}
 			modifier = {
 				factor = 10
@@ -79,12 +79,12 @@ country_event = {
 				capital_scope = { province_id = 4738 }
 			}
 		}
-		custom_tooltip = bt_lobby_to_remain_in_the_hre
+		custom_tooltip = vu_lobby_to_remain_in_the_hre
 		hidden_effect = {
-			set_country_flag = bt_lobbied_to_stay_in_the_empire
+			set_country_flag = vu_lobbied_to_stay_in_the_empire
 			emperor = {
 				country_event = {
-					id = BtPLegacyItalyHRE.2
+					id = VULegacyItalyHRE.2
 					days = 5
 				}
 			}
@@ -94,68 +94,68 @@ country_event = {
 
 #Italy removed from the HRE part 2
 country_event = {
-	id = BtPLegacyItalyHRE.2
-	title = "BtPLegacyItalyHRE.EVTNAME2"
-	desc = "BtPLegacyItalyHRE.EVTDESC2"
+	id = VULegacyItalyHRE.2
+	title = "VULegacyItalyHRE.EVTNAME2"
+	desc = "VULegacyItalyHRE.EVTDESC2"
 	picture = HRE_eventPicture
 
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	trigger = { NOT = { has_country_flag = bt_emperor_lobbied_to_retain_italy } }			#Only hits emeperor once.
+	trigger = { NOT = { has_country_flag = vu_emperor_lobbied_to_retain_italy } }			#Only hits emeperor once.
 
 	option = {	#Yes
-		name = "BtPLegacyItalyHRE.EVTOPTA2"
+		name = "VULegacyItalyHRE.EVTOPTA2"
 		ai_chance = { factor = 25 }
-		custom_tooltip = bt_allow_italy_to_reamain_in_hre
+		custom_tooltip = vu_allow_italy_to_reamain_in_hre
 		if = {
 			limit = {
 				any_known_country = {
 					NOT = { culture_group = germanic }
 					NOT = { capital_scope = { area = trentino_area } }
 					NOT = { capital_scope = { province_id = 4738 } }
-					has_country_flag = bt_lobbied_to_stay_in_the_empire
+					has_country_flag = vu_lobbied_to_stay_in_the_empire
 				}
 			}
 			add_country_modifier = {
-				name = bt_violated_league_war_treaty
+				name = vu_violated_league_war_treaty
 					duration = 7300
 			}
 		}
 		hidden_effect = {
-			set_country_flag = bt_emperor_lobbied_to_retain_italy
+			set_country_flag = vu_emperor_lobbied_to_retain_italy
 			every_country = {
 				limit = {
 					is_part_of_hre = yes
 					capital_scope = { region = italy_region }
-					has_country_flag = bt_lobbied_to_stay_in_the_empire
+					has_country_flag = vu_lobbied_to_stay_in_the_empire
 					any_neighbor_country = { is_part_of_hre = yes }
 				}
-				country_event = { id = BtPLegacyItalyHRE.3 }
+				country_event = { id = VULegacyItalyHRE.3 }
 				clr_country_flag = shadow_kingdom
-				clr_country_flag = bt_lobbied_to_stay_in_the_empire
+				clr_country_flag = vu_lobbied_to_stay_in_the_empire
 				clr_country_flag = had_shadow_kingdom_info
 			}
 			every_country = {
 				limit = {
 					is_part_of_hre = yes
 					capital_scope = { region = italy_region }
-					has_country_flag = bt_lobbied_to_stay_in_the_empire
+					has_country_flag = vu_lobbied_to_stay_in_the_empire
 					NOT = { any_neighbor_country = { is_part_of_hre = yes } }
 				}
-				country_event = { id = BtPLegacyItalyHRE.4 }
+				country_event = { id = VULegacyItalyHRE.4 }
 				clr_country_flag = shadow_kingdom
-				clr_country_flag = bt_lobbied_to_stay_in_the_empire
+				clr_country_flag = vu_lobbied_to_stay_in_the_empire
 			}
 		}
 	}
 	
 	option = {	#No
-		name = "BtPLegacyItalyHRE.EVTOPTB2"
+		name = "VULegacyItalyHRE.EVTOPTB2"
 		ai_chance = { factor = 75 }
-		custom_tooltip = bt_release_all_of_italy_from_hre
+		custom_tooltip = vu_release_all_of_italy_from_hre
 		hidden_effect = {
-			set_country_flag = bt_emperor_lobbied_to_retain_italy
+			set_country_flag = vu_emperor_lobbied_to_retain_italy
 			every_country = {
 				limit = {
 					is_part_of_hre = yes
@@ -163,9 +163,9 @@ country_event = {
 					NOT = { capital_scope = { area = trentino_area } }
 					NOT = { capital_scope = { province_id = 4738 } }
 				}
-				country_event = { id = BtPLegacyItalyHRE.4 }
+				country_event = { id = VULegacyItalyHRE.4 }
 				clr_country_flag = shadow_kingdom
-				clr_country_flag = bt_lobbied_to_stay_in_the_empire
+				clr_country_flag = vu_lobbied_to_stay_in_the_empire
 			}
 			italy_region = {
 				limit = {
@@ -177,7 +177,7 @@ country_event = {
 				}
 				set_in_empire = no
 				owner = {
-					country_event = { id = BtPLegacyItalyHRE.5 } #Info Event
+					country_event = { id = VULegacyItalyHRE.5 } #Info Event
 					set_country_flag = had_shadow_kingdom_info
 				}
 			}
@@ -187,15 +187,15 @@ country_event = {
 
 #Italy removed from the HRE part 3
 country_event = {
-	id = BtPLegacyItalyHRE.3
-	title = "BtPLegacyItalyHRE.EVTNAME3"
-	desc = "BtPLegacyItalyHRE.EVTDESC3"
+	id = VULegacyItalyHRE.3
+	title = "VULegacyItalyHRE.EVTNAME3"
+	desc = "VULegacyItalyHRE.EVTDESC3"
 	picture = HRE_eventPicture
 
 	is_triggered_only = yes
 	
 	option = {
-		name = "BtPLegacyItalyHRE.EVTOPTA3"
+		name = "VULegacyItalyHRE.EVTOPTA3"
 		add_opinion = {
 			who = emperor
 			modifier = stayed_in_the_empire
@@ -212,9 +212,9 @@ country_event = {
 
 #Italy removed from the HRE part 4
 country_event = {
-	id = BtPLegacyItalyHRE.4
-	title = "BtPLegacyItalyHRE.EVTNAME4"
-	desc = "BtPLegacyItalyHRE.EVTDESC4"
+	id = VULegacyItalyHRE.4
+	title = "VULegacyItalyHRE.EVTNAME4"
+	desc = "VULegacyItalyHRE.EVTDESC4"
 	picture = HRE_eventPicture
 
 	is_triggered_only = yes
@@ -222,7 +222,7 @@ country_event = {
 	trigger = { NOT = { emperor = { overlord_of = ROOT } } }
 	
 	option = {
-		name = "BtPLegacyItalyHRE.EVTOPTA4"
+		name = "VULegacyItalyHRE.EVTOPTA4"
 		set_in_empire = no
 		every_country = {
 			limit = {
@@ -231,7 +231,7 @@ country_event = {
 				NOT = { has_country_flag = shadow_kingdom }
 				NOT = { has_country_flag = had_shadow_kingdom_info }
 			}
-			country_event = { id = BtPLegacyItalyHRE.5 } #Info Event
+			country_event = { id = VULegacyItalyHRE.5 } #Info Event
 		}
 		every_neighbor_country = {
 			limit = {
@@ -240,7 +240,7 @@ country_event = {
 				NOT = { has_country_flag = shadow_kingdom }
 				NOT = { has_country_flag = had_shadow_kingdom_info }
 			}
-			country_event = { id = BtPLegacyItalyHRE.5 } #Info Event
+			country_event = { id = VULegacyItalyHRE.5 } #Info Event
 		}
 		if = {
 			limit = { is_elector = yes }
@@ -253,9 +253,9 @@ country_event = {
 
 #Italy removed from the HRE part 5
 country_event = {
-	id = BtPLegacyItalyHRE.5
-	title = "BtPLegacyItalyHRE.EVTNAME5"
-	desc = "BtPLegacyItalyHRE.EVTDESC5"
+	id = VULegacyItalyHRE.5
+	title = "VULegacyItalyHRE.EVTNAME5"
+	desc = "VULegacyItalyHRE.EVTDESC5"
 	picture = HRE_eventPicture
 
 	is_triggered_only = yes
@@ -309,15 +309,15 @@ country_event = {
 
 #Switzerland removed from the HRE
 country_event = {
-	id = BtPLegacyItalyHRE.6
-	title = "BtPLegacyItalyHRE.EVTNAME6"
-	desc = "BtPLegacyItalyHRE.EVTDESC6"
+	id = VULegacyItalyHRE.6
+	title = "VULegacyItalyHRE.EVTNAME6"
+	desc = "VULegacyItalyHRE.EVTDESC6"
 	picture = HRE_eventPicture
 
 	is_triggered_only = yes
 	
 	option = {
-		name = "BtPLegacyItalyHRE.EVTOPTA6"
+		name = "VULegacyItalyHRE.EVTOPTA6"
 		set_in_empire = no
 		if = {
 			limit = { is_elector = yes }

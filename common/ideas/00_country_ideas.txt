@@ -2054,7 +2054,7 @@ GEN_Ideas = {
 	}
 }
 
-#VU San Felipe fix. BT had already moved this to zz_group_ideas. So, I had turned it off here as it is now redundant.
+#VU San Felipe fix. VU had already moved this to zz_group_ideas. So, I had turned it off here as it is now redundant.
 #SCO_Ideas = {
 #	start = {
 #		leader_land_shock = 1
@@ -13618,7 +13618,7 @@ LEI_ideas = {
 	trigger = {
 	    OR = {
 			tag = LEI
-			tag = LGN # changed from LAI; BT
+			tag = LGN # changed from LAI; VU
 		}
 	}
 	free = yes		#will be added at load.

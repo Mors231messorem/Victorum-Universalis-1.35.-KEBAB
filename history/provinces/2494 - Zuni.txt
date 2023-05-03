@@ -2,7 +2,7 @@
  
 culture = navajo
 religion = totemism
-capital = "Chííhénee"			#Need a proper name, obviously, but so remote, who will care? Around the Gila Cliff Dwellings area and upper Gila River
+capital = "Chï¿½ï¿½hï¿½nee"			#Need a proper name, obviously, but so remote, who will care? Around the Gila Cliff Dwellings area and upper Gila River
 trade_goods = unknown
 hre = no
 base_tax = 1 
@@ -17,26 +17,26 @@ native_hostileness = 3
 discovered_by = north_american
 
 
-1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+1444.11.12 = { #VictorumUniversalis batch edit shortcut native start date begin
 	owner = QQH			#Apache (Chiracahua)
 	controller = QQH
 	add_core = QQH
 	is_city = yes
 	trade_goods = naval_supplies
 }
-1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+1444.11.14 = { #VictorumUniversalis batch edit shortcut native start date end
 	owner = XXX
 	controller = XXX
 	remove_core = QQH
 	is_city = no
 	trade_goods = unknown
 }
-1541.1.1 = { discovered_by = SPA } # Francisco Vásquez de Coronado
+1541.1.1 = { discovered_by = SPA } # Francisco Vï¿½squez de Coronado
 1629.1.1 = {
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	capital = "Mogollón"		#Just the name of the governer... information is really tough to find for Oasis America
+	capital = "Mogollï¿½n"		#Just the name of the governer... information is really tough to find for Oasis America
 } #Vague date, just picking one as the Spanish established control in the area
 1680.8.21 = {
 	owner = PUE

@@ -22,7 +22,7 @@ discovered_by = eastern
 center_of_trade = 4
 extra_cost = 15
 
-	#Draiocht added this, was a major center of culture, politics, trade, and learning			#hehe, in vanilla now, but I beat them to it =p  -Draiocht
+	#Darth Modus added this, was a major center of culture, politics, trade, and learning			#hehe, in vanilla now, but I beat them to it =p  -Darth Modus
 
 1524.1.1 = { religion = protestant }
 1650.1.1 = { culture = prussian }

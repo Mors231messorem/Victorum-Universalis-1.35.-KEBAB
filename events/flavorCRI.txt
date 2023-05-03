@@ -338,7 +338,7 @@ country_event = {
 				add_core = TUR
 			}
 		}
-		#BT provinces
+		#VU provinces
 		if = {
 			limit = {
 				3245 = {

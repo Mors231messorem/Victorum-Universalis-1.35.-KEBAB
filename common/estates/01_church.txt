@@ -42,21 +42,21 @@ estate_church = {
 	country_modifier_happy = {
 		global_tax_modifier = 0.2
 		papal_influence = 1
-		devotion = 0.5			#Was 1.0 in BT
-		church_power_modifier = 0.1			#Was 0.2 in BT
+		devotion = 0.5			#Was 1.0 in VU
+		church_power_modifier = 0.1			#Was 0.2 in VU
 		monthly_fervor_increase = 1
-		stability_cost_modifier = -0.1			#Re-added in VU. Was removed in BT
+		stability_cost_modifier = -0.1			#Re-added in VU. Was removed in VU
 	}
 	country_modifier_neutral = {
-		global_tax_modifier = 0.2			#Re-added in VU. Was removed in BT
+		global_tax_modifier = 0.2			#Re-added in VU. Was removed in VU
 	}	
 	country_modifier_angry = {
-		global_tax_modifier = -0.1  #Was -0.2 in BT
+		global_tax_modifier = -0.1  #Was -0.2 in VU
 		papal_influence = -1
-		devotion = 0.5			#Was 1.0 in BT
-		church_power_modifier = -0.25			#Was -0.2 in BT
+		devotion = 0.5			#Was 1.0 in VU
+		church_power_modifier = -0.25			#Was -0.2 in VU
 		monthly_fervor_increase = -1
-		stability_cost_modifier = 0.1			#Was 0.33 in BT BT
+		stability_cost_modifier = 0.1			#Was 0.33 in VU
 		global_unrest = 2
 	}
 	land_ownership_modifier = {

@@ -1,4 +1,4 @@
-#Västergötland, contains Göteborg, Skara, Skövde etc.
+#Vï¿½stergï¿½tland, contains Gï¿½teborg, Skara, Skï¿½vde etc.
 #Region - Scandinavia
 #Area - Gotaland
 
@@ -21,13 +21,13 @@ discovered_by = western
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
-1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
+#Province history completed by - Darth Modus
+1291.5.21 = { #VictorumUniversalis batch edit shortcut the first shattering begins
 	owner = GTA
 	controller = GTA
 	remove_core = SWE
 } #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
+1291.5.23 = { #VictorumUniversalis batch edit shortcut the first shattering ends
 	owner = SWE
 	controller = SWE
 	add_core = SWE
@@ -36,12 +36,12 @@ discovered_by = eastern
 
 #1291 - 1444
 
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = GTA
 	controller = GTA
 	remove_core = SWE
 } #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
 	owner = SWE
 	controller = SWE
 	add_core = SWE
@@ -53,5 +53,5 @@ discovered_by = eastern
 1598.8.15 = { controller = PLC } # Sigismund tries to reconquer his crown
 1598.12.15 = { controller = SWE } # Duke Karl get it back
 1612.5.24 = { controller = DAN } # The War of Kalmar-Captured by Christian IV
-1613.1.20 = { controller = SWE }# The Peace of Knäred
-1621.1.1 = { capital = "Göteborg" }
+1613.1.20 = { controller = SWE }# The Peace of Knï¿½red
+1621.1.1 = { capital = "Gï¿½teborg" }

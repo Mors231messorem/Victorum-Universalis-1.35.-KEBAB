@@ -1,4 +1,4 @@
-#New Beyond Typus Provinces
+#New Victorum Universalis Provinces
 
 latent_trade_goods = {
 	coal

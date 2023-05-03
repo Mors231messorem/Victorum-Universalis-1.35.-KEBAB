@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = mikmaq					# 
 religion = totemism 
@@ -39,7 +39,7 @@ discovered_by = north_american
 	culture = cosmopolitan_french
 	religion = catholic
 	trade_goods = fish
-	capital = "Gaspé"
+	capital = "Gaspï¿½"
 } # First permanent fishing posts on the Gaspe peninsula
 
 1707.5.12 = { discovered_by = GBR } 

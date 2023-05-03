@@ -1,4 +1,4 @@
-#BT Balkans reoverhaul
+#7149 - Kopsis
 
 owner = TUR			#KPS when I have time to add tags
 controller = TUR

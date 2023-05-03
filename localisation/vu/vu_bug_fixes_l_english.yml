@@ -6,8 +6,8 @@
  reevaluate_priorities_title:0 "Reevaluate Goals"
  reevaluate_priorities_desc:0 "For a long time, our ambitions were limited but short sightedness and the laziness of our advisors. Now, we can transcend their petty oversights and realize our true potential!"
  #
- bt_pomeranian_nation_title:0 "Unite the Duchy of Pomerania"
- bt_pomeranian_nation_desc:0 "Through our strong military and our influential diplomacy, we have united the fragmented duchy of Pomerania under our control. Our ancestors divided our lands upon succession, creating a myriad of realms, but no longer will our dynasty fracture our lands. We control territory with such opportunity, harbouring numerous Hanseatic Towns, and vital access to the Baltic Sea that all of Germany envies."         #Credit to JP
+ vu_pomeranian_nation_title:0 "Unite the Duchy of Pomerania"
+ vu_pomeranian_nation_desc:0 "Through our strong military and our influential diplomacy, we have united the fragmented duchy of Pomerania under our control. Our ancestors divided our lands upon succession, creating a myriad of realms, but no longer will our dynasty fracture our lands. We control territory with such opportunity, harbouring numerous Hanseatic Towns, and vital access to the Baltic Sea that all of Germany envies."         #Credit to JP
  #
  #lotf
  lotf_royal_ties: "American Royal Ties"

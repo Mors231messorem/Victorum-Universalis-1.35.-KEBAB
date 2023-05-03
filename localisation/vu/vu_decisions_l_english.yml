@@ -7,8 +7,8 @@
  malay_islam_decision_title:0 "Embrace Islam"
  malay_islam_decision_desc:0 "Islam is quickly becoming the dominant religion in Nusantara. We should consider whether the words of the Prophet resonate in our hearts."
  #
- bt_italian_maritime_republic_merchant_enclaves_title:0 "Invest in Mediterranean Trade"
- bt_italian_maritime_republic_merchant_enclaves_desc:0 "As a preeminent Maritime Republic, we have long flexed our might in the realm of Mediterranean trade, but with a concerted effort we can take this a step further. By removing the tax on certain goods and reinvesting the tax on others we should be able to virtually monopolize several trade routes in the eastern Mediterranean near our enclaves, and ensure the goods find their way into our ports, not those of our rivals."
+ vu_italian_maritime_republic_merchant_enclaves_title:0 "Invest in Mediterranean Trade"
+ vu_italian_maritime_republic_merchant_enclaves_desc:0 "As a preeminent Maritime Republic, we have long flexed our might in the realm of Mediterranean trade, but with a concerted effort we can take this a step further. By removing the tax on certain goods and reinvesting the tax on others we should be able to virtually monopolize several trade routes in the eastern Mediterranean near our enclaves, and ensure the goods find their way into our ports, not those of our rivals."
  #
  #Formable Nations
  german_nation_militarily_title:0 "Form German Nation Militarily"
@@ -23,10 +23,10 @@
  piedmontese_nation_desc: "The fertile fields, mighty mountains, and venerable valleys of Piedmont are the apple of the eyes of many nations across Europe. France, Austria, German states and more all seek to take our land and use its bountiful resources for themselves. No longer! We alone can claim to be rulers of all Piedmont, from Aosta to Turin to Nizza. Viva Piemonte!"
  #
  #New start dates support
- BT_NATIVE_START:0 "Beyond Typus - Native Start"
- BT_NATIVE_START_DESC:0 "This start sacrifices performance for an increase in detail in the New World with regards to native tags."
- BT_PERFORMANCE_START:0 "BT - Performance Start (WIP)"
- BT_PERFORMANCE_START_DESC:0 "This start is aimed towards people with toasters or potatoes. It aims to remove all BT-added tags from the map by ceding it to their owners. May introduce bugs with regards to missions. It is currently a work in progress."
+ VU_NATIVE_START:0 "Victorum Universalis - Native Start"
+ VU_NATIVE_START_DESC:0 "This start sacrifices performance for an increase in detail in the New World with regards to native tags."
+ VU_PERFORMANCE_START:0 "VU - Performance Start (WIP)"
+ VU_PERFORMANCE_START_DESC:0 "This start is aimed towards people with toasters or potatoes. It aims to remove all VU-added tags from the map by ceding it to their owners. May introduce bugs with regards to missions. It is currently a work in progress."
  #
  #VU - By Mellstrom
  sussy_pirate_nation_title: "Gather Some Sussy Pirates"
@@ -50,8 +50,8 @@
  tir_na_ngael_nation_desc:0 "The Gaelic peoples continue to maintain close ties on either side of the Sea of Moyle, but seperated by geography and under the yoke of Germanic powers, the Gaels have slowly drifted apart. Now, however, we are finally poised to reunite all Gaels under the authority of the same High King in a true Tír na nGael, the country of the Gaels!"
  albion_nation_title:0 "Form Ynys y Cedyrn"
  albion_nation_desc:0 "Ever since the Saxons invaded and stole our ancient homeland from us, we have dreamed of recovering all of the Isle of Britain. Our ancient legends tell of Arthur's return to lead us to victory against the Saxons, but we cannot wait on legends to save us, for the glory of all Britons, let us found Ynys y Cedyrn, the Isle of the Mighty, and reclaim the whole of our beautiful island and beyond!"
- btpl_scottish_nation_title:0 "Form Scotland"
- btpl_scottish_nation_desc:0 "Hundreds of years of invasions and immigration has done nothing but make our great nation stronger. We may hold land on the fringes of Europe, but we are anything but irrelevant, and above all, we are free under Scotland the brave!"
+ vu_scottish_nation_title:0 "Form Scotland"
+ vu_scottish_nation_desc:0 "Hundreds of years of invasions and immigration has done nothing but make our great nation stronger. We may hold land on the fringes of Europe, but we are anything but irrelevant, and above all, we are free under Scotland the brave!"
  united_kingdom_nation_title:0 "Form United Kingdom"
  united_kingdom_nation_desc:0 "We have established a firm hegemony over all of the British Isles, but autonomous and sometimes rebellious vassals frustrate our plans whilst uneccessary local governments divert our taxes and complicate administration. We should unite our various kingdoms, once and for all, into a single, strong, and unified nation!"
  duchy_warsaw_nation_title:0 "Form Duchy of Warsaw"
@@ -64,36 +64,36 @@
  assyria_nation_desc:0 "Assyrian lands and cultures have been in steady decline over past millennia since the collapse in 609BC but now this can be changed as new light shines to unite the region and restore the once mighty empire under local rule."
  assyria_nation_tooltip:0 "5 Random owned provinces will adopt our religion and culture"
  #Non-European Old World
- btpl_kabylia_nation_title:0 "Form Kabylia"
- btpl_kabylia_nation_desc:0 "Uniting the rich, fertile hills of Kabylia is the first step in establishing a strong Berber nation in the Maghreb!"
+ vu_kabylia_nation_title:0 "Form Kabylia"
+ vu_kabylia_nation_desc:0 "Uniting the rich, fertile hills of Kabylia is the first step in establishing a strong Berber nation in the Maghreb!"
  #Cut for now, replaced in 1.24
- #bt_yemen_formation_title:0 "Form Yemen"
- #bt_yemen_formation_desc:0 "We have achieved a position of hegemony over the mountainous corner of southeastern Arabia, and can rightfully call ourselves Yemen, the primary nation of all Yemeni people."          #Bad placeholder localisation
- #bt_armenia_formation_title:0 "Form Armenia"
- #bt_armenia_formation_desc:0 "Armenia, an ancient kingdom by any standard, once stretched over vast swaths of the Caucasus, Mesopotamia, and Anatolia. Armenians have since been displaced and marginalized, but we now stand ready to take the first step towards restoring Armenians to their rightful place of prestige. We now own enough of Greater Armenia to call our nation 'Armenia'!"         #This is crap, but I'm not feeling particularly creative at the moment
- bt_najd_formation_title:0 "Form Najd"
- bt_najd_formation_desc:0 "We have achieved a position of hegemony over the arid deserts of central Arabia, and can rightfully call ourselves Najd, the primary nation of the Bedouins."          #Bad placeholder localisation
- bt_sennar_formation_title:0 "Form Sennar"
- bt_sennar_formation_desc:0 "Our newly acquired city of Sennar is quickly becoming our de facto capital, and the Islamic religion of our neighbours and new subjects is also quickly spreading amongst our nobility. We ought to make these changes formal and found the Sultanate of Sennar!"          #Bad placeholder localisation
+ #vu_yemen_formation_title:0 "Form Yemen"
+ #vu_yemen_formation_desc:0 "We have achieved a position of hegemony over the mountainous corner of southeastern Arabia, and can rightfully call ourselves Yemen, the primary nation of all Yemeni people."          #Bad placeholder localisation
+ #vu_armenia_formation_title:0 "Form Armenia"
+ #vu_armenia_formation_desc:0 "Armenia, an ancient kingdom by any standard, once stretched over vast swaths of the Caucasus, Mesopotamia, and Anatolia. Armenians have since been displaced and marginalized, but we now stand ready to take the first step towards restoring Armenians to their rightful place of prestige. We now own enough of Greater Armenia to call our nation 'Armenia'!"         #This is crap, but I'm not feeling particularly creative at the moment
+ vu_najd_formation_title:0 "Form Najd"
+ vu_najd_formation_desc:0 "We have achieved a position of hegemony over the arid deserts of central Arabia, and can rightfully call ourselves Najd, the primary nation of the Bedouins."          #Bad placeholder localisation
+ vu_sennar_formation_title:0 "Form Sennar"
+ vu_sennar_formation_desc:0 "Our newly acquired city of Sennar is quickly becoming our de facto capital, and the Islamic religion of our neighbours and new subjects is also quickly spreading amongst our nobility. We ought to make these changes formal and found the Sultanate of Sennar!"          #Bad placeholder localisation
  celtic_nation_title:0 "Unite the Celts"
  celtic_nation_desc:0 "For too long the Celtic peoples have been pushed towards the brink of extinction. We must unite our nation if we are to repel our bellicose neighbors and return the Celts to glory."
  reform_irish_government_title:0 "Reform our Government"
  reform_irish_government_desc:0 "It has become clear that our current form of Government is no longer fit for purpose, we must reform to survive."
  irish_nation_title:0 "Claim High Kingship"
- irish_nation_desc:0 "The High Kingship, our most sacred title, has effectively been defunct since the Saxons and Normans invaded. We have followed in the footsteps of our greatest High King, Brian Boru, by uniting Ireland to expel them and the title is indisputably ours. We must now achieve what even he could not and consolidate our power so that we may never suffer foreign domination again."            #Changed from BtP. Event text now in English instead of Irish, just for consistancy
+ irish_nation_desc:0 "The High Kingship, our most sacred title, has effectively been defunct since the Saxons and Normans invaded. We have followed in the footsteps of our greatest High King, Brian Boru, by uniting Ireland to expel them and the title is indisputably ours. We must now achieve what even he could not and consolidate our power so that we may never suffer foreign domination again."            #Changed from VU. Event text now in English instead of Irish, just for consistancy
  move_capital_dublin_title:0 "Establish a Great Capital in Dublin"
  move_capital_dublin_desc:0 "Dublin has for centuries been the largest and wealthiest city in Ireland. If we are to be taken seriously in Europe, we must establish our Capital there and develop it into a city on a par with the greatest in Europe."
  move_capital_dublin_anglo_irish_title:0 "Establish a Great Capital in Dublin"
  move_capital_dublin_anglo_irish_desc:0 "Dublin has for centuries been the largest and wealthiest city in Ireland. If we are to be taken seriously in Europe, we must establish our Capital there and develop it into a city on a par with the greatest in Europe."
  anglo_irish_culture_shift_title:0 "More Irish than the Irish themselves"
  anglo_irish_culture_shift_desc:0 "Over the centuries our customs and traditions have become indistinguishable from those of the Gaelic Irish. Our foreign roots have become a hindrance to our ambitions for power. We should make it known that our kinship is with our fellow Irishmen."
- form_ulster_title:0 "Restore Ulster" #Changed from BtP to remove ambiguity with the reformation.
+ form_ulster_title:0 "Restore Ulster" #Changed from VU to remove ambiguity with the reformation.
  form_ulster_desc:0 "We have achieved a position of dominance in the province and are now de facto Kings of Ulster. We must seize this opportunity to consolidate by curbing the power of the countless Petty Kings in our realm. This will cause serious upset in the province, but necessity compels."
- form_leinster_title:0 "Restore Leinster" #Changed from BtP to remove ambiguity with the reformation.
+ form_leinster_title:0 "Restore Leinster" #Changed from VU to remove ambiguity with the reformation.
  form_leinster_desc:0 "We have achieved a position of dominance in the province and are now de facto Kings of Leinster. We must seize this opportunity to consolidate by curbing the power of the countless Petty Kings in our realm. This will cause serious upset in the province, but necessity compels."
- form_munster_title:0 "Restore Munster" #Changed from BtP to remove ambiguity with the reformation.
+ form_munster_title:0 "Restore Munster" #Changed from VU to remove ambiguity with the reformation.
  form_munster_desc:0 "We have achieved a position of dominance in the province and are now de facto Kings of Munster. We must seize this opportunity to consolidate by curbing the power of the countless Petty Kings in our realm. This will cause serious upset in the province, but necessity compels."
- form_connacht_title:0 "Restore Connacht" #Changed from BtP to remove ambiguity with the reformation.
+ form_connacht_title:0 "Restore Connacht" #Changed from VU to remove ambiguity with the reformation.
  form_connacht_desc:0 "We have achieved a position of dominance in the province and are now de facto Kings of Connacht. We must seize this opportunity to consolidate by curbing the power of the countless Petty Kings in our realm. This will cause serious upset in the province, but necessity compels."
  form_duchy_connacht_title:0 "Form the Duchy of Connacht"
  form_duchy_connacht_desc:0 "To secure our hold on our new lands, we should expand our governance and reform the ancient province of Connacht into a modern Duchy. Our subjects will be angered at this upset of the established order, however."
@@ -106,7 +106,7 @@
  anglo_irish_nation_title:0 "Form Kingdom of Ireland"
  anglo_irish_nation_desc:0 "We have become the undisputed rulers of Ireland. We should make it clear that we rule in our own name by severing our feudal ties to England, and proclaiming a new centralised, unified Kingdom of Ireland."
  england_demand_fealty_of_ireland_title:0 "Demand Fealty from Ireland"
- england_demand_fealty_of_ireland_desc:0 "Under the Laudabiliter issued by pope Adrian IV in 1155, Ireland is legally the possession of the English Throne. For many years our attention has been directed elsewhere and we have been content to give our vassals in Ireland unprecendented autonomy, but now seems at opportune time to restate and reaffirm our claim to Ireland and demand a formal pledge of fealty from one of our wayward vassals."            #Changed from BtP, rephrased in BT to accompany some balance changes
+ england_demand_fealty_of_ireland_desc:0 "Under the Laudabiliter issued by pope Adrian IV in 1155, Ireland is legally the possession of the English Throne. For many years our attention has been directed elsewhere and we have been content to give our vassals in Ireland unprecendented autonomy, but now seems at opportune time to restate and reaffirm our claim to Ireland and demand a formal pledge of fealty from one of our wayward vassals."            #Changed from VU, rephrased in VU to accompany some balance changes
  emilian_nation_title:0 "Granducato di Emilia-Romagna"
  emilian_nation_desc:0 "All of Emilia is now under our control. By founding a new Grand Duchy we will consolidate our hold on the region and cement our right to rule."
  lombardy_venetia_monarchy_nation_title:0 "Regno Lombardo-Veneto"
@@ -126,7 +126,7 @@
  #Other Decisions
  ###########################
  #European
- #New details to BtP Stuff
+ #New details to VU Stuff
  embrace_irish_traditions_title:0 "Embrace Irish Culture"
  embrace_irish_traditions_desc:0 "When our ancestors were installed by the Anglo-Norman aristocracy hundreds of years ago, we were meant to represent English interests and curb local power, but Ireland has become our home. Gaelic traditions are observed, Irish is the language we hear spoken most often, and our closest allies and friends are the Gaels, not some distant English overlord. We should make this official!"
  create_the_kingdom_of_ireland_as_england_title:0 "Create the Kingdom of Ireland"
@@ -139,25 +139,25 @@
  religious_conversions_suomenusko_desc:0 "As northern scandinavian pagans following Suomenusko fath grow ever-stronger, it is time for us to abandon our current faith and adopt their ways of life instead."
  distribute_vodka_to_masses_title:0 "Distribute Vodka to Peasants"
  distribute_vodka_to_masses_desc:0 "Spend some of our vodka production and distribute it to poor pesants across our nation. This will hopefully keep the population drunk and calm. Such promotion of alcoholism will have negative impact on our population but such population will be much easier to rule over. Ditributing vodka for free will also satisfy nobles."
- #Beyond Typus and BTPL Decisions
+ #Victorum Universalis and VU Decisions
  #sweads_and_geats_one_big_happy_family_title:0 "Unify Swedish Culture"         #removed in 11.5
  #sweads_and_geats_one_big_happy_family_desc:0 "The two primary peoples of Sweden, the Swedes in the north and the Geats in the south, have lived together under the Swedish banner for many years and despite occasional friction, the two groups largely accept one another and recognise each other as kin. It is time we made it official and formally proclaim Swedes and Geats to be one and the same people, for the glory of Sweden!"         #removed in 11.5
  recognise_marcharid_of_brittany_title:0 "Recognize young Marc'harid of Brittany as heir"
  recognise_marcharid_of_brittany_desc:0 "Historically, women were able to inherit the duchy of Brittany, and our regnal histories proudly feature the names Janed, Alis, Bertha, and Hawiz, but per the Treaty of Guérande, which ended the War of the Breton Succession, we observe primarily Salic inheritance laws, forbidding women to inherit unless there is no surviving male in the entire line. Unfortunately, Fransez's infant son died in 1440 and his simple brother Pêr is also childless. The Montfort branch of the house of de Dreux is facing extinction, and some feel it may be wise after all to recognise Fransez's eldest daughter, Marc'harid, as heir to the duchy. She is a capable young woman, and her grandfather is the King of Scotland, which may facilitate good relations with them. Unfortunately, France would certainly view this as a violation of the treaty and would be very upset with us, and some factions inside the duchy may even view this as a violation of the law."
- #bt_enforce_temporal_authority_title:0 "Enforce Temporal Authority"
- #bt_enforce_temporal_authority_desc:0 "The Papal States consist of many de facto independent rulers who barely acknowledge papal authority and contribute nothing to the Patrimonium Sancti Petri as a whole. We should begin the slow process of reintegrating these various smaller states into a united and strong state by clarifying the temporal as well as the spiritual authority of the Holy See and consolidating the Patrimonium Sancti Petri!"
- bt_declare_for_the_guelphs_title:0 "Declare Loyalty to the Guelph Cause"
- bt_declare_for_the_guelphs_desc:0 "The time has come for us to take a side in the protracted conflict for control of Italy! We should proclaim our loyalty to the Holy Father in Rome, who is rightful leader of both souls and bodies in Italy."
- bt_declare_for_the_ghibellines_title:0 "Declare Loyalty to the Ghibelline Cause"
- bt_declare_for_the_ghibellines_desc:0 "The time has come for us to take a side in the protracted conflict for control of Italy! We should proclaim our loyalty to the Emperor, the Pope may be the head of the Roman Church, but the Emperor is the rightful Roman Emperor."
- bt_betray_the_guelphs_title:0 "Betray the Guelphs"
- bt_betray_the_guelphs_desc:0 "While it may seem blasphemous, it has become clear that our place is not at the Pope's side in the Guelph-Ghibelline dispute. Let's betray the autocratic Holy See and proclaim our loyalty to the Holy Roman Emperor!"
- bt_betray_the_ghibellines_title:0 "Betray the Ghibellines"
- bt_betray_the_ghibellines_desc:0 "While it may seem traitorous, it has become clear that our place is not at the Emperor's side in the Guelph-Ghibelline dispute. Let's betray the foreign throne and proclaim our loyalty to the Holy Father!"
- bt_abandon_guelph_ghibelline_dispute_title:0 "Withdraw from the Guelph-Ghibelline Dispute"
- bt_abandon_guelph_ghibelline_dispute_desc:0 "This slow civil war has dragged on long enough! We should just be done with the constant fighting and recognise that our only path forward is neither under a corrupt church nor a greedy foreign king, but rather united against both!"
- bt_ai_ottoman_nudging_dhimmi_title:0 "Dhimmi Interaction"          #Shouldn't be ever seen, minimal concern on translations
- bt_ai_ottoman_nudging_dhimmi_desc:0 "This nation is interacting with its Dhimmi estates."          #Shouldn't be ever seen, minimal concern on translations
+ #vu_enforce_temporal_authority_title:0 "Enforce Temporal Authority"
+ #vu_enforce_temporal_authority_desc:0 "The Papal States consist of many de facto independent rulers who barely acknowledge papal authority and contribute nothing to the Patrimonium Sancti Petri as a whole. We should begin the slow process of reintegrating these various smaller states into a united and strong state by clarifying the temporal as well as the spiritual authority of the Holy See and consolidating the Patrimonium Sancti Petri!"
+ vu_declare_for_the_guelphs_title:0 "Declare Loyalty to the Guelph Cause"
+ vu_declare_for_the_guelphs_desc:0 "The time has come for us to take a side in the protracted conflict for control of Italy! We should proclaim our loyalty to the Holy Father in Rome, who is rightful leader of both souls and bodies in Italy."
+ vu_declare_for_the_ghibellines_title:0 "Declare Loyalty to the Ghibelline Cause"
+ vu_declare_for_the_ghibellines_desc:0 "The time has come for us to take a side in the protracted conflict for control of Italy! We should proclaim our loyalty to the Emperor, the Pope may be the head of the Roman Church, but the Emperor is the rightful Roman Emperor."
+ vu_betray_the_guelphs_title:0 "Betray the Guelphs"
+ vu_betray_the_guelphs_desc:0 "While it may seem blasphemous, it has become clear that our place is not at the Pope's side in the Guelph-Ghibelline dispute. Let's betray the autocratic Holy See and proclaim our loyalty to the Holy Roman Emperor!"
+ vu_betray_the_ghibellines_title:0 "Betray the Ghibellines"
+ vu_betray_the_ghibellines_desc:0 "While it may seem traitorous, it has become clear that our place is not at the Emperor's side in the Guelph-Ghibelline dispute. Let's betray the foreign throne and proclaim our loyalty to the Holy Father!"
+ vu_abandon_guelph_ghibelline_dispute_title:0 "Withdraw from the Guelph-Ghibelline Dispute"
+ vu_abandon_guelph_ghibelline_dispute_desc:0 "This slow civil war has dragged on long enough! We should just be done with the constant fighting and recognise that our only path forward is neither under a corrupt church nor a greedy foreign king, but rather united against both!"
+ vu_ai_ottoman_nudging_dhimmi_title:0 "Dhimmi Interaction"          #Shouldn't be ever seen, minimal concern on translations
+ vu_ai_ottoman_nudging_dhimmi_desc:0 "This nation is interacting with its Dhimmi estates."          #Shouldn't be ever seen, minimal concern on translations
  #
  #Byzantine Stuff - all pretty horrible & needs to be redone.
  restore_constantinople_decision_title:0 "Restore Constantinople"
@@ -202,10 +202,10 @@
  VU_NAME_AVAR_KHAGANATE:0 "Avar Khaganate"
  VU_NAME_AVAR_KHAGANATE_ADJ:0 "Avarian"
  #
- bt_enforce_temporal_authority_action:0 "Enforce Temporal Authority"
- bt_enforce_temporal_authority_action_title:0 "Enforce Temporal Authority"
- bt_enforce_temporal_authority_action_desc:0 "In order to enforce your temporal authority over your Autonomous Papal State, neither of you may be at war, you must share a border, and your state must have at least §Y+175§! opinion of you. Doing so, however, will anger the autonomous state as it chafes against the reduced autonomy, and other autonomous papal states will look upon this move with suspicion and hostility.\n\nEnforcing Temporal Authority will have the following effects:\n -[From.GetName] becomes a normal §Yvassal§! of [Root.GetName]\n -[From.GetName] losses §Y-5 trust§! with [Root.GetName]\n -[From.GetName] will receive §Y-60 opinion§! of [Root.GetName]\n -All other Autonomous Papal States loss §Y-3 trust§! with [Root.GetName]\n -All other Autonomous Papal States will recieve §Y-30 opinion§! of [Root.GetName]"
- bt_enforce_temporal_authority_action_tooltip:0 "The Papacy may enforce its temporal authority over an autonomous subject state, making it a normal vassal"
+ vu_enforce_temporal_authority_action:0 "Enforce Temporal Authority"
+ vu_enforce_temporal_authority_action_title:0 "Enforce Temporal Authority"
+ vu_enforce_temporal_authority_action_desc:0 "In order to enforce your temporal authority over your Autonomous Papal State, neither of you may be at war, you must share a border, and your state must have at least §Y+175§! opinion of you. Doing so, however, will anger the autonomous state as it chafes against the reduced autonomy, and other autonomous papal states will look upon this move with suspicion and hostility.\n\nEnforcing Temporal Authority will have the following effects:\n -[From.GetName] becomes a normal §Yvassal§! of [Root.GetName]\n -[From.GetName] losses §Y-5 trust§! with [Root.GetName]\n -[From.GetName] will receive §Y-60 opinion§! of [Root.GetName]\n -All other Autonomous Papal States loss §Y-3 trust§! with [Root.GetName]\n -All other Autonomous Papal States will recieve §Y-30 opinion§! of [Root.GetName]"
+ vu_enforce_temporal_authority_action_tooltip:0 "The Papacy may enforce its temporal authority over an autonomous subject state, making it a normal vassal"
  vu_release_silesian_duchy:0 "Release Silesian Duchy"
  vu_release_silesian_duchy_title:0 "Release Silesian Duchy"
  vu_release_silesian_duchy_desc:0 "It is time to abandon our Silesian Duchy and grant it full sovereignty."

@@ -6,13 +6,13 @@
 # Dependencies #
 ################
 
-dependency = {
-	subject_type = "tributary_state"
-	first = GOL
-	second = YLT
-	start_date = 1444.1.1
-	end_date = 1483.1.1
-}
+#dependency = {
+#	subject_type = "tributary_state"
+#	first = GOL
+#	second = YLT
+#	start_date = 1444.1.1
+#	end_date = 1483.1.1
+#}
 
 dependency = {
 	subject_type = "tributary_state"
@@ -338,7 +338,7 @@ alliance = {
 	end_date = 1800.11.22
 }
 
-# The Second Coalition, Treaty of Lunéville
+# The Second Coalition, Treaty of Lunï¿½ville
 alliance = {
 	first = RUS
 	second = HAB
@@ -539,13 +539,13 @@ vassal = {
 	first = TVE
 	second = ZBT
 	start_date = 1444.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }	#Tver's autonomous vassal principality
 
 vassal = {
 	first = TVE
 	second = ZBT
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1460.1.1
 }	#Tver's autonomous vassal principality
 
@@ -562,14 +562,14 @@ vassal = {
 	first = RYA
 	second = PRS
 	start_date = 1444.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 #Ryazan's autonomous vassal principality and bitter rival for most of its existance. Weakened greatly by this point.
 vassal = {
 	first = RYA
 	second = PRS
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1483.1.1
 }
 

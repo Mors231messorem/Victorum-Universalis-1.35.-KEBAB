@@ -29,13 +29,13 @@ discovered_by = eastern
 
 
 #Province history completed by - Chairman Meow (JP)
-1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
+1291.5.21 = { #VictorumUniversalis batch edit shortcut the first shattering begins
 	owner = TTO
 	controller = TTO
 	add_core = TTO
 	remove_core = NAP
 }
-1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
+1291.5.23 = { #VictorumUniversalis batch edit shortcut the first shattering ends
 	owner = NAP
 	controller = NAP
 	add_core = NAP
@@ -49,24 +49,24 @@ discovered_by = eastern
 	add_core = TTO
 #	remove_core = NAP
 } # Titles granted to Giannantonio, becoming most powerful person in Naples and gaining Bari.
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = TTO
 	controller = TTO
 	#add_core = TTO
 	remove_core = NAP
 }
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
 	owner = NAP
 	controller = NAP
 	add_core = NAP
 } # Hashtagged as TAN exists in 1444 so not sure it is necessary.
 #Remember to add performance start details below if Taranto ever added to main start.
-#1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
+#1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 #	owner = XXX
 #	controller = XXX
 #	add_core = XXX
 #} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-#1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
+#1444.11.18 = { #VictorumUniversalis batch edit shortcut second performance start ends
 #	owner = XXX
 #	controller = XXX
 #	remove_core = XXX

@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 # New disaster events for Commonwealth
 # Initially added by docRobert
 
@@ -1621,7 +1622,7 @@ country_event = { # Secularization of Teutonic Order
 				}
 				change_government_to_monarchy = yes
 			}
-			add_government_reform = prussian_monarchy
+			#add_government_reform = prussian_monarchy
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
@@ -1691,7 +1692,7 @@ country_event = { # Secularization of Teutonic Order
 				}
 				change_government_to_monarchy = yes
 			}
-			add_government_reform = prussian_monarchy
+			#add_government_reform = prussian_monarchy
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas

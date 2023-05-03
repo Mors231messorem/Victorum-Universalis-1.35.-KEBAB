@@ -1289,42 +1289,42 @@ irish_highkingdom_reform = {
 	}
 }
 
-scottish_monarchy_reform = {
-	icon = "scottish_kingdom"
-	allow_normal_conversion = yes
-	potential = {
-		OR = {
-			primary_culture = scottish
-			primary_culture = highland_scottish
-		}
-	}
-	nation_designer_trigger = {
-		OR = {
-			primary_culture = scottish
-			primary_culture = highland_scottish
-		}
-	}
-	valid_for_nation_designer = yes
-	nation_designer_cost = 10
-	modifiers = {
-		nobles_influence_modifier = -0.1
-		diplomatic_reputation = 1 
-		defensiveness = 0.1
-	}
-	
-	conditional = {
-		allow = { 
-			OR = {
-				has_dlc = "Common Sense"
-				has_dlc = "Domination"
-			}
-		}
-		has_parliament = yes
-	}
-	ai = {
-		factor = 1
-	}
-}
+#scottish_monarchy_reform = {
+#	icon = "scottish_kingdom"
+#	allow_normal_conversion = yes
+#	potential = {
+#		OR = {
+#			primary_culture = scottish
+#			primary_culture = highland_scottish
+#		}
+#	}
+#	nation_designer_trigger = {
+#		OR = {
+#			primary_culture = scottish
+#			primary_culture = highland_scottish
+#		}
+#	}
+#	valid_for_nation_designer = yes
+#	nation_designer_cost = 10
+#	modifiers = {
+#		nobles_influence_modifier = -0.1
+#		diplomatic_reputation = 1 
+#		defensiveness = 0.1
+#	}
+#	
+#	conditional = {
+#		allow = { 
+#			OR = {
+#				has_dlc = "Common Sense"
+#				has_dlc = "Domination"
+#			}
+#		}
+#		has_parliament = yes
+#	}
+#	ai = {
+#		factor = 1
+#	}
+#}
 
 sharifate_reform = {
 	icon = "caliphate"
@@ -2810,7 +2810,7 @@ mughal_government = {
 		slavic = {
 			province_warscore_cost = -0.15
 		}
-		#BT culture groups
+		#VU culture groups
 		#Khoisan removed, as it is in a colonial region.
 		turkish_g = {
 			siege_ability = 0.1			#Current modifier courtesy of Imperatrix Helena
@@ -6631,7 +6631,7 @@ courts_of_navarra = {
 
 ####################################################################################################
 ####################################################################################################
-####################	New Beyond Typus Reforms	####################
+####################	New Victorum Universalis Reforms	####################
 ####################################################################################################
 ####################################################################################################
 
@@ -6675,32 +6675,6 @@ provincial_kingdom_reform = { #T2
 		global_manpower_modifier = 0.25
 		global_institution_spread = -0.05
 		max_absolutism = -10
-	}
-}
-
-tanistry_reform = { #T3
-	icon = "crown"
-	allow_normal_conversion = no
-	potential = {
-		OR = {
-			culture_group = gaelic
-			#BT Bugfixes added Celtic versions of Gaelic.
-			primary_culture = celtic_irish_culture
-			primary_culture = celtic_highland_scottish_culture
-		}
-		has_reform = tanistry_reform
-	}
-	lock_level_when_selected = yes
-	legacy_equivalent = high_kingship_legacy
-	valid_for_nation_designer = yes
-	nation_designer_cost = 75
-	nation_designer_trigger = { culture_group = gaelic }
-	modifiers = {
-		prestige = 1.0
-		legitimacy = 1.0
-		#monarch_admin_power = 1
-		#monarch_diplomatic_power = 1			#Might redo the system later and replace the complicated events with something simpler, using the new 1.26 modifiers here. Not for the moment, though.
-		#monarch_military_power = 1
 	}
 }
 
@@ -6774,7 +6748,7 @@ anglo_irish_monarchy_reform = { #T3
 
 
 #Ayyubids mission reward
-bt_ayyubid_sultanate_reform = {
+vu_ayyubid_sultanate_reform = {
 	lock_level_when_selected = yes
 	allow_normal_conversion = yes
 	icon = "ottoman_government"
@@ -6785,13 +6759,13 @@ bt_ayyubid_sultanate_reform = {
 				tag = HSN
 				NOT = { map_setup = map_setup_random }
 				OR = {
-					has_reform = bt_ayyubid_sultanate_reform
-					have_had_reform = bt_ayyubid_sultanate_reform
+					has_reform = vu_ayyubid_sultanate_reform
+					have_had_reform = vu_ayyubid_sultanate_reform
 				}
 			}
 			AND = {
 				is_playing_custom_nation = yes
-				have_had_reform = bt_ayyubid_sultanate_reform
+				have_had_reform = vu_ayyubid_sultanate_reform
 			}
 		}
 	}
@@ -6820,67 +6794,6 @@ bt_ayyubid_sultanate_reform = {
 		has_harem = yes
 	}
 }
-
-##############################
-# Removed Government Reforms #
-##############################
-#prussian_monarchy = {
-#	icon = "prussian_monarchy"
-#	allow_normal_conversion = yes
-#	potential = {
-#		OR = {
-#			AND = {
-#				tag = PRU
-#				NOT = { map_setup = map_setup_random }
-#			}
-#			AND = {
-#				tag = GER
-#				have_had_reform = prussian_monarchy
-#				have_had_reform = prussian_republic_reform
-#				have_had_reform = prussian_theocratic_reform
-#				was_tag = TEU
-#			}
-#			AND = {
-#				is_playing_custom_nation = yes
-#				have_had_reform = prussian_monarchy
-#				have_had_reform = prussian_republic_reform
-#				have_had_reform = prussian_theocratic_reform
-#			}
-#			has_unlocked_government_reform = {
-#				government_reform = prussian_monarchy
-#			}
-#		}
-#	}
-#	trigger = {
-#		OR = {
-#			is_playing_custom_nation = yes
-#			religion = protestant
-#			religion = reformed
-#			religion = hussite
-#			religion = anglican
-#			has_unlocked_government_reform_tooltip = {
-#				government_reform = prussian_monarchy
-#			}
-#		}
-#	}
-#	valid_for_nation_designer = yes
-#	nation_designer_cost = 100
-#	legacy_equivalent = prussian_monarchy_legacy
-#
-#	modifiers = {
-#		war_exhaustion = -0.02
-#		global_unrest = -2
-#		global_autonomy = -0.075
-#		max_absolutism = 10
-#		monarch_military_power = 3
-#		nobles_loyalty_modifier = 0.1
-#		governing_capacity_modifier = -0.5
-#	}
-#
-#	conditional = {
-#		allow = { has_dlc = "Rights of Man" }
-#	}
-#}
 
 mansabdari_reform = {
 	icon = "noble_muslim"

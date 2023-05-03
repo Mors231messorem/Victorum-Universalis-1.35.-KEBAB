@@ -6,7 +6,7 @@ add_core = DNE
 is_city = yes
 culture = slavey
 religion = totemism 
-capital = "K’agee" 
+capital = "Kï¿½agee" 
 trade_goods = fur
 hre = no 
 base_tax = 1 
@@ -19,21 +19,21 @@ native_hostileness = 3
 center_of_trade = 1
 
 discovered_by = north_american
-#discovered_by = bt_athabaskan_tech
+#discovered_by = vu_athabaskan_tech
 
 add_permanent_province_modifier = {
     name = vu_malaria_present
     duration = -1
 }
 
-#1444.11.15 = { #BeyondTypus batch edit shortcut no native start date begin
+#1444.11.15 = { #VictorumUniversalis batch edit shortcut no native start date begin
 #	owner = XXX
 #	controller = XXX
 #	remove_core = DNE
 #	is_city = no
 #	trade_goods = unknown
 #}
-#1444.11.17 = { #BeyondTypus batch edit shortcut no native start date end
+#1444.11.17 = { #VictorumUniversalis batch edit shortcut no native start date end
 #	owner = DNE
 #	controller = DNE
 #	add_core = DNE

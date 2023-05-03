@@ -19,19 +19,19 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#Province history completed by - Nikicaga & Draiocht
+#Province history completed by - Nikicaga & Darth Modus
 #First shattering unused
-1291.5.24 = { #BeyondTypus batch edit shortcut first performance start begins
+1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
 	owner = MLO
 	controller = MLO
 	add_core = MLO
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1291.5.26 = { #BeyondTypus batch edit shortcut first performance start ends
+1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
 	owner = BGM
 	controller = BGM
 	remove_core = MLO
 } #Return to proper mod added owners and cuts vanilla core, typically.
-#proclaims John of Bohemia it's lord - Nikicaga.       Yeah, I know, but he was essentially the de facto emperor, both his father and son would be emperor, as well, so this was more support for the Ghibelline cause than Bohemia as such. - Draiocht
+#proclaims John of Bohemia it's lord - Nikicaga.       Yeah, I know, but he was essentially the de facto emperor, both his father and son would be emperor, as well, so this was more support for the Ghibelline cause than Bohemia as such. - Darth Modus
 
 1332.9.27 = {
 	owner = MLO
@@ -56,13 +56,13 @@ discovered_by = eastern
 }	#to Venice
 1433.1.1 = { hre = no } # Treaty between Doge Francesco Foscari and Emperor Sigismund of the HRE
 
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = BGM
 	controller = BGM
 	add_core = BGM
 	remove_core = VEN
 } #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
 	owner = VEN
 	controller = VEN
 	add_core = VEN

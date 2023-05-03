@@ -267,7 +267,7 @@ country_event = {
 					limit = {
 						any_neighbor_country = {
 							has_reform = steppe_horde
-							total_own_and_non_tributary_subject_development = 500 #BT Dev Doubling
+							total_own_and_non_tributary_subject_development = 500 #VU Dev Doubling
 							is_subject = no
 							#NOT = { truce_with = ROOT }
 							NOT = { alliance_with = ROOT }
@@ -277,7 +277,7 @@ country_event = {
 					random_neighbor_country = {
 						limit = {
 							has_reform = steppe_horde
-							total_own_and_non_tributary_subject_development = 500 #BT Dev Doubling
+							total_own_and_non_tributary_subject_development = 500 #VU Dev Doubling
 							is_subject = no
 							#NOT = { truce_with = ROOT }
 							NOT = { alliance_with = ROOT }

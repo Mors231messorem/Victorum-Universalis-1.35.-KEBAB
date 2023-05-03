@@ -7,7 +7,7 @@ primary_culture = wallonian
 add_accepted_culture = flemish
 add_accepted_culture = hessian
 add_accepted_culture = limburgish
-capital = 93	# Li?ge
+capital = 93	# Liège
 
 1389.1.1 = {
 	monarch = {
@@ -63,7 +63,7 @@ capital = 93	# Li?ge
 
 1506.12.19 = {
 	monarch = {
-		name = "?rard I"
+		name = "Érard I"
 		culture = hessian
 		birth_date = 1472.5.31
 		dip = 2
@@ -106,7 +106,7 @@ capital = 93	# Li?ge
 
 1563.7.22 = {
 	monarch = {
-		name = "G?rard I"
+		name = "Gérard I"
 		culture = flemish
 		birth_date = 1517.1.1
 		dip = 2

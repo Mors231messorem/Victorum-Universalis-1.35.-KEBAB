@@ -1,6 +1,6 @@
 #Updated by C1CK
 #Worked fine, except for when it strayed into Russia and Ruthenia
-#Has no changes besides updating claims for BT
+#Has no changes besides updating claims for VU
 
 tatar_missions_1 = {
 	slot = 1
@@ -882,7 +882,7 @@ tatar_missions_2 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			#vladimir_area = { #This is no longer vladimir in BT
+			#vladimir_area = { #This is no longer vladimir in VU
 			#	limit = {
 			#		NOT = { is_permanent_claim = ROOT	}
 			#		NOT = { is_core = ROOT	}
@@ -915,7 +915,7 @@ tatar_missions_2 = {
 				area = suzdal_area #Zalesye
 				area = tver_area
 				area = yaroslavl_area
-				#area = vladimir_area #This is no longer vladimir in BT
+				#area = vladimir_area #This is no longer vladimir in VU
 				area = beloozero_area #Bezhetsk
 				area = novgorod_area
 			}
@@ -944,7 +944,7 @@ tatar_missions_2 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			#vladimir_area = { #This is no longer vladimir in BT
+			#vladimir_area = { #This is no longer vladimir in VU
 			#	type = all
 			#	country_or_non_sovereign_subject_holds = ROOT
 			#}

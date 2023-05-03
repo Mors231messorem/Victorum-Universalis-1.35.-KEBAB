@@ -15,7 +15,7 @@ historical_idea_groups = {
 	maritime_ideas
 	humanist_ideas
 	spy_ideas
-}	#Ideas changed by Draiocht. designed with a Acendancy-ruled, English-allied, ANI
+}	#Ideas changed by Darth Modus. designed with a Acendancy-ruled, English-allied, ANI
 
 historical_units = {
 	western_medieval_infantry

@@ -1,6 +1,6 @@
 #ROOT: Tag insulted
 #FROM: Tag insulting
-insult_typus_mercator = {
+insult_victorum_mercator = {
 	trigger = {
 		primary_culture = flemish
 		FROM = {

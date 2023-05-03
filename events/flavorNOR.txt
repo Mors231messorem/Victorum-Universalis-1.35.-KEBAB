@@ -1,8 +1,9 @@
-########################################
-# Flavor Events for Norway
-#
-# written by Sara Wendel-Örtqvist
-########################################
+#VU updated by San Felipe for 1.35
+###################################
+# Flavor Events for Norway        #
+#                                 #
+# written by Sara Wendel-Örtqvist #
+###################################
 #Adjusted by Dub to account for the new Dano-Norwegian mission trees.
 namespace = flavor_nor
 normal_or_historical_nations = yes
@@ -770,11 +771,9 @@ country_event = {
 			limit = {
 				is_subject = yes
 			}
-			overlord = {
-				add_opinion = {
-					who = ROOT
-					modifier = hanseatic_kalmar_conflict
-				}
+			add_opinion = {
+				who = overlord
+				modifier = hanseatic_kalmar_conflict
 			}
 		}
 	}
@@ -2495,7 +2494,7 @@ country_event = {
 					trade_goods = copper
 				}
 			}
-			custom_tooltip = MONOPOLY_INCOME_IRON_DESC
+			custom_tooltip = MONOPOLY_INCOME_IRON_AND_COPPER_DESC
 		}
 		add_country_modifier = {
 			name = nor_gold_for_the_state

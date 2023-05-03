@@ -1,4 +1,4 @@
-#Västerbotten-Ångermanland, from Sundsvall/Härnösand over Umeå to Torneå
+#Vï¿½sterbotten-ï¿½ngermanland, from Sundsvall/Hï¿½rnï¿½sand over Umeï¿½ to Torneï¿½
 #Region - Scandinavia
 #Area - Norrland
 
@@ -12,14 +12,14 @@ base_tax = 1
 base_production = 1 
 trade_goods = fur
 base_manpower = 1 
-capital = "Umeå"
+capital = "Umeï¿½"
 is_city = yes
 
 discovered_by = western
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 #1st Shattering unused
 #1st Performance Start Unused
 

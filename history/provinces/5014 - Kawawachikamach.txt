@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = innu
 religion = totemism 
-capital = "Ashuanipi"           #Was 'Kawâwâchikamach' the 'the winding river', a modern (1990s) name, but at least plausible and native. Decided to use Ashuanipi instead though, and possibly reuse Kawâwâchikamach farther north as I open the wastelands
+capital = "Ashuanipi"           #Was 'Kawï¿½wï¿½chikamach' the 'the winding river', a modern (1990s) name, but at least plausible and native. Decided to use Ashuanipi instead though, and possibly reuse Kawï¿½wï¿½chikamach farther north as I open the wastelands
 trade_goods = unknown
 hre = no 
 base_tax = 1 

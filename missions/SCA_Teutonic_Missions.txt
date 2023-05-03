@@ -1856,7 +1856,7 @@ teu_pru_dummy_hre_mission_slot_2 = {
 				name = teu_pru_integration_of_the_ruthenians
 				duration = -1
 			}
-			custom_tooltip = teu_pru_conquer_poland_bt
+			custom_tooltip = teu_pru_conquer_poland_vu
 		}
 	}
 	
@@ -2679,7 +2679,7 @@ teu_pru_conquest_hre_mission_slot = {
 				}
 				accepted_culture = sorbian
 				custom_trigger_tooltip = {
-					tooltip = teu_pru_conquer_silesia_bt
+					tooltip = teu_pru_conquer_silesia_vu
 					NOT = {
 						north_german_region = {
 							culture = sorbian
@@ -3671,7 +3671,7 @@ teu_pru_secondary_kingdom_of_prussia_mission_slot = {
 				name = teu_pru_integration_of_the_ruthenians
 				duration = -1
 			}
-			custom_tooltip = teu_pru_conquer_poland_bt
+			custom_tooltip = teu_pru_conquer_poland_vu
 		}
 	}
 	
@@ -4176,7 +4176,7 @@ teu_pru_military_mission_slot = {
 					OR = {
 						land_forcelimit = ROOT
 						custom_trigger_tooltip = {
-							tooltip = teu_pru_proof_of_strength_bt
+							tooltip = teu_pru_proof_of_strength_vu
 							total_development = ROOT
 						}
 					}
@@ -5511,7 +5511,7 @@ teu_crusader_development_mission_slot = {
 				}
 			}
 			else = {
-				custom_tooltip = teu_crusader_embrace_religious_ideas_bt
+				custom_tooltip = teu_crusader_embrace_religious_ideas_vu
 			}
 		}
 	}
@@ -5670,7 +5670,7 @@ teu_crusader_development_mission_slot = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = teu_crusader_destroy_the_heresies_bt
+				tooltip = teu_crusader_destroy_the_heresies_vu
 				NOT = {
 					europe = {
 						owner = {
@@ -7394,7 +7394,7 @@ teu_dummy_mission_slot_5 = {
 				}
 			}
 			else = {
-				custom_tooltip = teu_crusader_embrace_religious_ideas_bt
+				custom_tooltip = teu_crusader_embrace_religious_ideas_vu
 			}
 		}
 	}
@@ -7655,7 +7655,7 @@ teu_dummy_mission_slot_5 = {
 						}
 					}
 					custom_trigger_tooltip = {
-						tooltip = teu_crusader_destroy_the_heresies_bt
+						tooltip = teu_crusader_destroy_the_heresies_vu
 						NOT = {
 							europe = {
 								owner = {

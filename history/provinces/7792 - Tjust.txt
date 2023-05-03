@@ -1,4 +1,4 @@
-#BT Scandinavia and Baltics reoverhaul
+#7792 - Tjust
 
 owner = SWE
 controller = SWE
@@ -6,7 +6,7 @@ add_core = SWE
 add_core = GTA
 culture = swedish
 religion = catholic
-capital = "Västervik"
+capital = "Vï¿½stervik"
 base_tax = 2
 base_production = 2
 base_manpower = 1
@@ -19,15 +19,12 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-
-
-#Province history completed by - Draiocht
-1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
+1291.5.21 = { #VictorumUniversalis batch edit shortcut the first shattering begins
 	owner = GTA
 	controller = GTA
 	remove_core = SWE
 } #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
+1291.5.23 = { #VictorumUniversalis batch edit shortcut the first shattering ends
 	owner = SWE
 	controller = SWE
 	add_core = SWE
@@ -36,12 +33,12 @@ discovered_by = eastern
 
 #1291 - 1444
 
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = GTA
 	controller = GTA
 	remove_core = SWE
 } #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
 	owner = SWE
 	controller = SWE
 	add_core = SWE
@@ -53,4 +50,4 @@ discovered_by = eastern
 1598.8.15 = { controller = PLC } # Sigismund tries to reconquer his crown
 1598.12.15 = { controller = SWE } # Duke Karl get it back
 1612.5.24 = { controller = DAN } # The War of Kalmar-Captured by Christian IV
-1613.1.20 = { controller = SWE }# The Peace of Knäred
+1613.1.20 = { controller = SWE }# The Peace of Knï¿½red

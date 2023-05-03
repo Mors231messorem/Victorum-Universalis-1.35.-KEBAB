@@ -1,4 +1,4 @@
-# No previous file - Beyond Typus new
+# No previous file - Victorum Universalis new
 
 culture = ineri
 religion = animism

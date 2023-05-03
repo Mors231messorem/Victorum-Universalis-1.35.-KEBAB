@@ -275,7 +275,7 @@ wine = {
 			NOT = { area = eastern_cape_area }
 			NOT = { area = northern_cape_area }
 			NOT = { area = xhosa_area }
-			NOT = { area = bt_natal_area }
+			NOT = { area = vu_natal_area }
 			NOT = { area = cuyo_area }
 			NOT = { area = nehuenken_area }
 			NOT = { area = california_area }
@@ -557,7 +557,7 @@ fish = {
 				has_terrain = coastal_desert
 			}
 		}
-		modifier = { #BEYONDTYPUS changed this number from 1.2 to 2.0 was too low there are few furs in glacial areas which was the primary alternative choice
+		modifier = { #VictorumUniversalis changed this number from 1.2 to 2.0 was too low there are few furs in glacial areas which was the primary alternative choice
 			factor = 2.0
 			has_terrain = glacier
 		}
@@ -680,7 +680,7 @@ fur = {
 			factor = 0.5
 			NOT = { native_size = 1 }
 		}
-		modifier = { #BEYONDTYPUS change there are few furs or any animals for that matter in glacial areas fish and whale bone much more common goods and also usually in abundance   - laternote there are seals, of course, but we only want so many seal fur provinces
+		modifier = { #VictorumUniversalis change there are few furs or any animals for that matter in glacial areas fish and whale bone much more common goods and also usually in abundance   - laternote there are seals, of course, but we only want so many seal fur provinces
 			factor = 0.65
 			has_terrain = glacier
 		}
@@ -1364,7 +1364,7 @@ iron = {
 	}
 	chance = {
 		factor = 10
-		modifier = { #BEYONDTYPUS added copper terrain criteria if not in Africa iron producing areas Siberian Steppe border loses iron otherwise no change
+		modifier = { #VictorumUniversalis added copper terrain criteria if not in Africa iron producing areas Siberian Steppe border loses iron otherwise no change
 			factor = 0
 			OR = {
 				has_terrain = steppe
@@ -2057,9 +2057,9 @@ tobacco = {
 			NOT = { region = la_plata_region }
 			NOT = { region = northeast_america_region }
 			NOT = { region = southeast_america_region }
-			NOT = { area = huronia_area }			#BT New
-			NOT = { area = upper_canada_area }			#BT New
-			NOT = { area = lower_canada_area }			#BT New
+			NOT = { area = huronia_area }			#VU New
+			NOT = { area = upper_canada_area }			#VU New
+			NOT = { area = lower_canada_area }			#VU New
 			NOT = { region = brazil_region }
 			NOT = { region = carribeans_region }
 			NOT = { area = appalachia_area }
@@ -2490,11 +2490,11 @@ glass = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { development = 12 }	#Lower average dev in BT, so lowering from 18 to 12
+			NOT = { development = 12 }	#Lower average dev in VU, so lowering from 18 to 12
 		}
 		modifier = {
 			factor = 2.0
-			development = 16	#Lower average dev in BT, so lowering from 22 to 16
+			development = 16	#Lower average dev in VU, so lowering from 22 to 16
 		}
 	}
 }
@@ -2515,11 +2515,11 @@ paper = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { development = 99 }	#Lower average dev in BT, so lowering from 18 to 12
+			NOT = { development = 99 }	#Lower average dev in VU, so lowering from 18 to 12
 		}
 		modifier = {
 			factor = 2.0
-			development = 100	#Lower average dev in BT, so lowering from 22 to 16
+			development = 100	#Lower average dev in VU, so lowering from 22 to 16
 		}
 	}
 }

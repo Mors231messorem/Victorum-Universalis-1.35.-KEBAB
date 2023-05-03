@@ -268,7 +268,7 @@ tur_conquest_of_europe = {
 				tooltip = {
 					country_event_with_insight = {
 						id = flavor_tur.200
-						insight_tooltip = tur_venetian_relations_bt
+						insight_tooltip = tur_venetian_relations_vu
 					}
 				}
 				custom_tooltip = mission_alternatively_tt
@@ -305,7 +305,7 @@ tur_conquest_of_europe = {
 						limit = { VEN = { alliance_with = ROOT } }
 						country_event_with_insight = {
 							id = flavor_tur.200
-							insight_tooltip = tur_venetian_relations_bt
+							insight_tooltip = tur_venetian_relations_vu
 						}
 					}
 					else = {
@@ -376,7 +376,7 @@ tur_conquest_of_europe = {
 					always = no
 				}
 				custom_trigger_tooltip = {
-					tooltip = tur_the_bospborus_control_bt
+					tooltip = tur_the_bospborus_control_vu
 					always = no
 				}
 				aegean_archipelago_area = {
@@ -1389,7 +1389,7 @@ tur_african_conquest = {
 				}
 			}
 			else = {
-				custom_tooltip = tur_subjugate_romania_bt
+				custom_tooltip = tur_subjugate_romania_vu
 			}
 			add_country_modifier = {
 				name = tur_romanian_tribute
@@ -2510,7 +2510,7 @@ tur_egyptian_conquest = {
 					NOT = { mission_completed = tur_conquer_egypt }
 					NOT = { has_country_flag = tur_decided_to_go_eyalet }
 				}
-				custom_tooltip = tur_handle_the_egyptian_eyalet_bt
+				custom_tooltip = tur_handle_the_egyptian_eyalet_vu
 			}
 			else_if = {
 				limit = {
@@ -4236,7 +4236,7 @@ tur_non_muslim_path = {
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = tur_spread_the_true_faith_bt
+					tooltip = tur_spread_the_true_faith_vu
 					check_variable = {
 						which = num_converted_religion
 						value = 150
@@ -4606,7 +4606,7 @@ tur_persian_conquest = {
 					has_government_attribute = has_eyalets
 				}
 				custom_trigger_tooltip = {
-					tooltip = tur_creation_of_persian_eyalet_bt
+					tooltip = tur_creation_of_persian_eyalet_vu
 					always = no
 				}
 			}
@@ -4978,7 +4978,7 @@ tur_stagnation_slot_1 = {
 					NOT = { num_of_rebel_controlled_provinces = 1 }
 					monthly_mil = 9
 					custom_trigger_tooltip = {
-						tooltip = tur_oppose_the_janissaries_bt
+						tooltip = tur_oppose_the_janissaries_vu
 						had_country_flag = {
 							flag = tur_has_janissary_coup
 							days = 365
@@ -5105,7 +5105,7 @@ tur_stagnation_slot_1 = {
 				limit = { has_disaster = tur_disaster_ottoman_power_struggle }
 				if = {
 					limit = { NOT = { has_country_flag = tur_unlocked_second_janissary_slaughter } }
-					custom_tooltip = tur_establish_the_new_army_bt
+					custom_tooltip = tur_establish_the_new_army_vu
 					hidden_effect = {
 						set_country_flag = tur_unlocked_second_janissary_slaughter
 					}
@@ -5314,7 +5314,7 @@ tur_stagnation_slot_2 = {
 				limit = { has_disaster = tur_disaster_ottoman_power_struggle }
 				if = {
 					limit = { NOT = { has_country_flag = tur_unlocked_second_janissary_slaughter } }
-					custom_tooltip = tur_establish_the_new_army_bt
+					custom_tooltip = tur_establish_the_new_army_vu
 					hidden_effect = {
 						set_country_flag = tur_unlocked_second_janissary_slaughter
 					}
@@ -5780,7 +5780,7 @@ tur_stagnation_slot_5 = {
 			custom_tooltip = tur_the_reign_of_women_tt
 			if = {
 				limit = { NOT = { has_country_modifier = tur_weakened_the_harem } }
-				custom_tooltip = tur_the_reign_of_women_bt
+				custom_tooltip = tur_the_reign_of_women_vu
 			}
 			else = {
 				custom_tooltip = tur_the_reign_of_women_ct

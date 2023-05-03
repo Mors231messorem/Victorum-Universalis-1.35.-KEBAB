@@ -19,14 +19,14 @@ papal_missions_slot = {
 		completed_by = 1626.1.1
 		provinces_to_highlight = {
 			owner = {
-				is_subject_of_type = papal_subject_bt
+				is_subject_of_type = papal_subject_vu
 			}
 		}
 		trigger = {
 			NOT = {
 				calc_true_if = {
 						all_country = {
-							is_subject_of_type = papal_subject_bt
+							is_subject_of_type = papal_subject_vu
 						}
 						amount = 2
 				}

@@ -74,7 +74,7 @@ emp_ita_development_branch = {
 						area = abruzzo_area
 					}
 					development = 25
-					value = 8 #Up from Vanilla's 5, as well as number of grasslands in BT Southern Italy
+					value = 8 #Up from Vanilla's 5, as well as number of grasslands in VU Southern Italy
 				}
 			}
 		}

@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = esselen
 religion = totemism 
@@ -26,4 +26,4 @@ discovered_by = north_american
 	trade_goods = fish 
 	culture = castillian
 	religion = catholic
-}	#Father Presidente Junípero Serra founds Mission San Antonio de Padua
+}	#Father Presidente Junï¿½pero Serra founds Mission San Antonio de Padua

@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7042 - Grosetto
 
 owner = SIE
 controller = SIE

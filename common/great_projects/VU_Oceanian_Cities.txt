@@ -7,12 +7,12 @@ vu_sydney_harbour = {
 	move_days_per_unit_distance = 1
 	starting_tier = 0
 	type = monument
-	build_trigger = { is_year = 1788 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+	build_trigger = { is_year = 1788 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
     
 	tier_0 = {
 		upgrade_time = { months = 0 }

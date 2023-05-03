@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = shoshone
 religion = totemism 
-capital = "Mahaguadüka" 
+capital = "Mahaguadï¿½ka" 
 trade_goods = unknown
 hre = no 
 base_tax = 1 
@@ -15,14 +15,14 @@ native_hostileness = 3
 discovered_by = north_american
 
 
-1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+1444.11.12 = { #VictorumUniversalis batch edit shortcut native start date begin
 	owner = YYN			#Paiute
 	controller = YYN
 	add_core = YYN
 	is_city = yes
 	trade_goods = wool
 }
-1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+1444.11.14 = { #VictorumUniversalis batch edit shortcut native start date end
 	owner = XXX
 	controller = XXX
 	remove_core = YYN

@@ -1,6 +1,4 @@
-
-#Beyond Typus work done by all contributors other than Draiocht
-#Province Scope unless otherwise specified
+#VU updated to 1.35 by San Felipe
 
 #############################################################
 #############################################################
@@ -12,8 +10,8 @@
 
 #Written by Dub
 
-#BT Italy stem duchy check.
-bt_italy_stem_duchy_check = {
+#VU Italy stem duchy check.
+vu_italy_stem_duchy_check = {
 	#Majors, just for backup
 	NOT = { tag = HLR } #HRE
 	NOT = { tag = PAP } #Popeman
@@ -118,7 +116,7 @@ has_fulfiled_num_of_province_requirement_for_mission_trigger = {
 	}
 }
 
-bt_grand_trunk_road_provinces_highlight_trigger = { #This occurs in three mission trees: Bengal, Delhi and generic Indian. I figured I'd put it in a scripted trigger to allow for easier additions in new trees and eventual modification.
+vu_grand_trunk_road_provinces_highlight_trigger = { #This occurs in three mission trees: Bengal, Delhi and generic Indian. I figured I'd put it in a scripted trigger to allow for easier additions in new trees and eventual modification.
 	OR = {
 		area = lahore_area
 		area = sirhind_area
@@ -142,7 +140,7 @@ bt_grand_trunk_road_provinces_highlight_trigger = { #This occurs in three missio
 	}
 }
 
-bt_grand_trunk_road_mission_trigger = { #This occurs in three mission trees: Bengal, Delhi and generic Indian. I figured I'd put it in a scripted trigger to allow for easier additions in new trees and eventual modification.
+vu_grand_trunk_road_mission_trigger = { #This occurs in three mission trees: Bengal, Delhi and generic Indian. I figured I'd put it in a scripted trigger to allow for easier additions in new trees and eventual modification.
 	507 = {
 		is_strongest_trade_power = ROOT
 	}
@@ -210,13 +208,13 @@ bt_grand_trunk_road_mission_trigger = { #This occurs in three mission trees: Ben
 	}
 }
 
-#These are the triggers for the BT missions. All the triggers are preceded with what nation's missions use the province designation trigger.
+#These are the triggers for the VU missions. All the triggers are preceded with what nation's missions use the province designation trigger.
 
 #Aq Qoyunlu
 destroy_ayyubids_provinces = {
 	OR = {
 		province_id = 4295
-		province_id = 5331 #BT added, as Hisn Kayfa starts with 2 provinces
+		province_id = 5331 #VU added, as Hisn Kayfa starts with 2 provinces
 	}
 }
 defeat_black_sheep_provinces = {
@@ -226,7 +224,7 @@ defeat_black_sheep_provinces = {
 		area = tabriz_area
 		area = shahrizor_area
 		area = al_jazira_area
-		#BT additions:
+		#VU additions:
 		area = mardin_area
 		province_id = 420 #Da Ganja!
 		province_id = 2314
@@ -242,7 +240,7 @@ conquer_the_caucasus_akk_provinces = {
 		area = shirvan_area
 		area = imereti_area
 		area = samtskhe_area
-		#BT additions:
+		#VU additions:
 		province_id = 2204
 		province_id = 3253
 	}
@@ -273,7 +271,7 @@ invade_persia_akk_2_provinces = { #So vanilla has split the claims for the next 
 		area = farsistan_area
 		area = kerman_area
 		area = mogostan_area
-		#BT additions:
+		#VU additions:
 		area = persian_gulf_islands_area
 	}
 }
@@ -297,10 +295,10 @@ yem_gen_recon_one_provinces = {
 }
 yem_gen_recon_two_provinces = {
 	OR = {
-		#BT removed, this is so much more than just Yemen now.
+		#VU removed, this is so much more than just Yemen now.
 		#area = tihama_al_yemen_area
 		area = upper_yemen_area
-		#BT added, only the province concerned in vanilla.
+		#VU added, only the province concerned in vanilla.
 		province_id = 2346
 		province_id = 4279 #Moved to Upper Yemen.
 	}
@@ -353,7 +351,7 @@ subjugate_bohemia_provinces = {
 	OR = {
 		area = bohemia_area
 		area = erzgebirge_area
-		#BT additions
+		#VU additions
 		area = moravia_area
 		area = bohemian_forest_area
 		#VU amendments
@@ -393,7 +391,7 @@ austrian_croatia_provinces = {
 	OR = {
 		area = east_adriatic_coast_area
 		area = croatia_area
-		#BT additions
+		#VU additions
 		area = slavonia_area
 		province_id = 7739 #Vukovar
 	}
@@ -411,10 +409,10 @@ conquer_transylvania_provinces = {
 		area = eastern_alfold_area
 	}
 }
-austrian_italian_ambition_provinces = { #Why the hell did Draiocht change my trigger without telling me? This one's pretty disgusting right now. Readjusting back to Lombardy-Veneto.
+austrian_italian_ambition_provinces = { #Why the hell did Darth Modus change my trigger without telling me? This one's pretty disgusting right now. Readjusting back to Lombardy-Veneto.
 	OR = {
 		area = venetia_area
-		#BT additions
+		#VU additions
 		area = lombardy_area
 		area = friuli_area
 		area = carnia_area
@@ -437,7 +435,7 @@ reclaim_neumark_provinces = {
 }
 pru_conquer_pomerania_provinces = {
 	area = hinter_pommern_area
-	#BT removed, vorpommern_area as it wasn't historically owned by Prussia until 1815. Instead, the previous mission gives claims to it.
+	#VU removed, vorpommern_area as it wasn't historically owned by Prussia until 1815. Instead, the previous mission gives claims to it.
 }
 connect_the_prussian_lands_provinces = { #This is me saying "Fuck it" and adding all of Prussia to this mission, because there's no way to guarantee East Prussia is owned by Brandenburg/Prussia at this point.
 	OR = {
@@ -484,7 +482,7 @@ defeat_the_livonian_order_provinces = { #Unchanged, though it creates errors in 
 
 #Ottomans
 conquer_southern_greece_provinces = {
-		#BT overhauled to all provinces in Southern Greece, excluding Cephalonia & Corfu
+		#VU overhauled to all provinces in Southern Greece, excluding Cephalonia & Corfu
 	OR = {
 		area = morea_area
 		area = western_aegean_area
@@ -502,7 +500,7 @@ conquer_southern_greece_provinces = {
 conquer_serbia_provinces = {
 	OR = {
 		area = rascia_area
-		#BT overhauled to include all Serbian provinces at game start
+		#VU overhauled to include all Serbian provinces at game start
 		area = serbia_area
 		#area = syrmia_area
 		province_id = 3187 #Podrinje
@@ -517,7 +515,7 @@ conquer_serbia_provinces = {
 conquer_bosnia_provinces = {
 	OR = {
 		area = bosnia_area
-		#BT additions
+		#VU additions
 		area = krajina_area
 		area = herzegovina_area
 		province_id = 7709 #Pljevlja
@@ -530,7 +528,7 @@ conquer_bosnia_provinces = {
 conquer_hungary_provinces = {
 	OR = {
 		area = alfold_area
-		#BT additions, attempting to simulate historical Suleiman borders
+		#VU additions, attempting to simulate historical Suleiman borders
 		area = slavonia_area
 		area = banat_area
 		area = syrmia_area
@@ -557,7 +555,7 @@ vassalize_transylvania_provinces = {
 	OR = {
 		area = transylvania_area
 		area = southern_transylvania_area
-		#BT additions
+		#VU additions
 		province_id = 1952
 	}
 	NOT = {
@@ -565,7 +563,7 @@ vassalize_transylvania_provinces = {
 	}
 }
 consolidate_asia_minor_provinces = {
-	#BT completely changed to allow for a simpler trigger - all Anatolian provinces except Trebizond, plus Malatya & Antep, as they are controlled by Turkish beyliks.
+	#VU completely changed to allow for a simpler trigger - all Anatolian provinces except Trebizond, plus Malatya & Antep, as they are controlled by Turkish beyliks.
 	OR = {
 		region = anatolia_region
 		province_id = 2303
@@ -579,7 +577,7 @@ safeguard_eastern_anatolia_provinces = {
 	OR = {
 		area = north_kurdistan_area
 		area = erzurum_area
-		#BT adjusted to mardin area
+		#VU adjusted to mardin area
 		area = mardin_area
 		#area = dulkadir_area
 		province_id = 4303 #Tao
@@ -589,7 +587,7 @@ conquer_mesopotamia_provinces = {
 	OR = {
 		area = iraq_arabi_area
 		area = al_jazira_area
-		#BT additions
+		#VU additions
 		area = shahrizor_area
 		area = rakka_area
 	}
@@ -604,12 +602,12 @@ conquer_haasa_provinces = { #Unchanged
 	}
 }
 conquer_trebizond_provinces = {
-	#BT adjusted to whole Pontus area.
+	#VU adjusted to whole Pontus area.
 	area = pontus_area
 }
 take_kaffa_provinces = {
 	OR = {
-		#BT adjusted to historical Ottoman holdings.
+		#VU adjusted to historical Ottoman holdings.
 		province_id = 2447 #Matrega
 		province_id = 3245 #Cerco
 		province_id = 285 #Caffa
@@ -618,7 +616,7 @@ take_kaffa_provinces = {
 	}
 }
 conquer_levant_provinces = {
-	#BT adjusted to include all of the Levant region, which means Ottomans finally get a claim to Cyprus!
+	#VU adjusted to include all of the Levant region, which means Ottomans finally get a claim to Cyprus!
 	region = mashriq_region
 }
 conquer_egypt_provinces = {
@@ -628,9 +626,9 @@ conquer_egypt_provinces = {
 		area = said_area
 		area = vostani_area
 		area = al_wahat_area
-		#BT moved to Tripolitania
+		#VU moved to Tripolitania
 		#area = cyrenaica_area
-		#BT additions
+		#VU additions
 		area = lower_nubia_area
 		province_id = 4322
 	}
@@ -645,15 +643,15 @@ defeat_the_knights_provinces = {
 	province_id = 320
 }
 take_crete_from_venice_provinces = {
-	#BT adjusted to Crete area.
+	#VU adjusted to Crete area.
 	area = eastern_mediterrenean_islands_area
 }
 conquer_tripolitania_provinces = {
 	OR = {
 		area = tripolitania_area
-		#BT moved to Tunisia
+		#VU moved to Tunisia
 		#area = djerba_area
-		#BT additions
+		#VU additions
 		area = cyrenaica_area
 	}
 	NOT = {
@@ -663,7 +661,7 @@ conquer_tripolitania_provinces = {
 }
 conquer_tunisia_provinces = {
 	OR = {
-		#BT adjusted to encompass historical regions of Tunisia under Suleiman
+		#VU adjusted to encompass historical regions of Tunisia under Suleiman
 		area = tunisia_area
 		#area = east_aures_area
 		area = djerba_area
@@ -692,7 +690,7 @@ conquer_hedjaz_provinces = {
 		area = mecca_area
 		area = tabuk_area
 		area = medina_area
-		#BT additions
+		#VU additions
 		area = tihama_al_yemen_area
 	}
 	NOT = {
@@ -701,10 +699,10 @@ conquer_hedjaz_provinces = {
 }
 conquer_mocha_provinces = {
 	OR = {
-		#BT moved to Hejaz, replaced by single province below
+		#VU moved to Hejaz, replaced by single province below
 		#area = tihama_al_yemen_area
 		area = yemen_area
-		#BT additions
+		#VU additions
 		province_id = 2346
 	}
 }
@@ -730,13 +728,13 @@ vassalize_the_teutonic_order_provinces = { #Unchanged
 }
 vassalize_lithuania_provinces = {
 	OR = {
-		#BT removed, doesn't even exist in BT.
+		#VU removed, doesn't even exist in VU.
 		#area = minsk_area
 		area = west_dniepr_area
 		area = pripyat_area
-		#BT removed - no way Smolensk could be considered an integral part of Lithuania since Muscovy's conquest in 1510. It should however be granted as permanent claims after mission completion.
+		#VU removed - no way Smolensk could be considered an integral part of Lithuania since Muscovy's conquest in 1510. It should however be granted as permanent claims after mission completion.
 		#area = smolensk_area
-		#BT additions
+		#VU additions
 		area = samogitia_area
 		area = lithuania_area
 		area = mazovia_area
@@ -792,7 +790,7 @@ swe_turns_have_tabled_provinces = {
 }
 swe_expand_finland_provinces = { #Kexholm County + Ingria
 	OR = {
-		area = west_karelia_area #Apparently this is the Ingria of BT.
+		area = west_karelia_area #Apparently this is the Ingria of VU.
 		area = north_karelia_area
 	}
 }
@@ -2741,7 +2739,6 @@ has_weak_noble_reform_2 = {
 		has_reform = mint_towns_reform
 		has_reform = quash_noble_power_reform
 		has_reform = poligar_reform
-		has_reform = nobi_jongmobub_reform
 	}
 }
 
@@ -4039,7 +4036,6 @@ has_plantage_goods = {
 }
 
 
-#Beyond Typus work by Draiocht
 #Province Scope unless otherwise specified
 
 ##################################################################################################
@@ -4050,8 +4046,8 @@ has_plantage_goods = {
 ##################################################################################################
 ##################################################################################################
 
-#BT's heavy handed historical colony events candidate
-bt_historical_colony_events_for_the_ai_candidate = {
+#VU's heavy handed historical colony events candidate
+vu_historical_colony_events_for_the_ai_candidate = {
 	is_empty = yes
 	range = ROOT
 	has_discovered = ROOT
@@ -4064,7 +4060,7 @@ bt_historical_colony_events_for_the_ai_candidate = {
 }
 
 #Check for more colonies than colonists, or more than 8 colonies.
-bt_more_colonies_than_colonists_check = {
+vu_more_colonies_than_colonists_check = {
 	NOT = {
 		OR = {
 			AND = {
@@ -4097,7 +4093,7 @@ bt_more_colonies_than_colonists_check = {
 }
 
 #Generic shortcut for form nation potential, based on copy-pasted default from vanilla - Vanilla stole my idea here in 1.26 and made a 'was_never_end_game_tag_trigger', but rather than run about updating, I'm just going to copy their additions into mine already here.
-bt_generic_can_form_potential_check = {
+vu_generic_can_form_potential_check = {
 	#Generic Requirements all or (almost all to the point of looking like an oversight when missing) vanilla decisions have. Note colonial nations do have some quirks.
 	normal_or_historical_nations = yes
 	OR ={
@@ -4108,7 +4104,7 @@ bt_generic_can_form_potential_check = {
 		ai = no
 		AND = {
 			ai = yes
-			num_of_cities = 3	#BT Bugfixes reverting to 3	because this caused issues for Pomeranian minors' railroading since they all start below 6 cities and therefore will never feel the need to form Pomerania and thus won't desire Pomeranian cities.	#3 is common in vanilla, but more provinces in BT
+			num_of_cities = 3	#VU Bugfixes reverting to 3	because this caused issues for Pomeranian minors' railroading since they all start below 6 cities and therefore will never feel the need to form Pomerania and thus won't desire Pomeranian cities.	#3 is common in vanilla, but more provinces in VU
 		}
 	}
 	is_colonial_nation = no
@@ -4190,15 +4186,15 @@ bt_generic_can_form_potential_check = {
 }
 
 #A check for HRE formables to make sure of a smooth progression from minor to mid to major to Germany or united HRE. This should prevent lateral progression
-bt_hre_stem_duchy_check = {
+vu_hre_stem_duchy_check = {
 	#Majors, just for backup
 	NOT = { tag = HLR }
 	NOT = { tag = GER }
 	NOT = { tag = PRU }
 	NOT = { tag = HAB }
-	NOT = { tag = LOT }	#BTP add Lothringia
+	NOT = { tag = LOT }	#VU add Lothringia
 	#Stem Duchies
-	NOT = { tag = FRE }	#BTP add united Frisia
+	NOT = { tag = FRE }	#VU add united Frisia
 	NOT = { tag = SAX }
 	NOT = { tag = MKL }
 	NOT = { tag = POM }
@@ -4207,8 +4203,8 @@ bt_hre_stem_duchy_check = {
 	NOT = { tag = BOH }
 	NOT = { tag = BAV }
 	#Carinthia
-	NOT = { tag = FKN }	#BTP add Franconia
-	NOT = { tag = SWA }	#BTP add Swabia
+	NOT = { tag = FKN }	#VU add Franconia
+	NOT = { tag = SWA }	#VU add Swabia
 	NOT = { tag = BUR }
 	#Upper Lorraine
 	#Lower Lorraine
@@ -4239,10 +4235,10 @@ bt_hre_stem_duchy_check = {
 }
 
 #Is Guelph Ghibelline drama enabled and possible for the tag
-bt_guelph_ghibelline_drama_enabled = {
+vu_guelph_ghibelline_drama_enabled = {
 	capital_scope = { region = italy_region }			#Obvious
 	NOT = { has_global_flag = italy_out_of_HRE }			#This is the vanilla Shadow Kingdom flag
-	NOT = { has_global_flag = bt_ghibelline_victory_in_italy }			#New BT flag for a Ghibelline victory
+	NOT = { has_global_flag = vu_ghibelline_victory_in_italy }			#New VU flag for a Ghibelline victory
 	exists = PAP			#Papal States still kicking
 	hre_size = 20			#HRE still kicking
 	NOT = { is_emperor = yes }			#The tag isn't actually the emperor
@@ -4251,27 +4247,27 @@ bt_guelph_ghibelline_drama_enabled = {
 }
 
 #Generic checks for vague nation size
-bt_is_very_small_nation = {
+vu_is_very_small_nation = {
 	NOT = { total_development = 30 }
 	NOT = { num_of_cities = 4 }
 }
 
-bt_is_small_nation = {
+vu_is_small_nation = {
 	NOT = { total_development = 80 }
 	NOT = { num_of_cities = 10 }
 }
 
-bt_is_large_nation = {
+vu_is_large_nation = {
 	total_development = 200
 	num_of_cities = 10
 }
 
-bt_is_very_large_nation = {
+vu_is_very_large_nation = {
 	total_development = 500
 	num_of_cities = 25
 }
 
-bt_downstream_of_india = {
+vu_downstream_of_india = {
 	home_trade_node = {
 		OR = {
 			#North American nodes
@@ -4306,9 +4302,9 @@ bt_downstream_of_india = {
 }
 
  ##################################################
- ############### BT's regional triggers ###############			#Incomplete and probably broken. Abandoning this smart way of doing things for the moment in favour of a cheap and easy way.
+ ############### VU's regional triggers ###############			#Incomplete and probably broken. Abandoning this smart way of doing things for the moment in favour of a cheap and easy way.
  ##################################################
- bt_trigger_scotland_areas = {
+ vu_trigger_scotland_areas = {
 	OR = {
 		area = kingdom_of_the_isles_area
 		area = highlands_area
@@ -4317,7 +4313,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_england_areas = {
+ vu_trigger_england_areas = {
 	OR = {
 		area = greater_london_area
 		area = south_east_area
@@ -4331,7 +4327,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_italy_areas = {			#Specifically continental northern Italy now. About 95 provinces.
+ vu_trigger_italy_areas = {			#Specifically continental northern Italy now. About 95 provinces.
 	OR = {
 		area = venetia_area
 		area = lombardy_area
@@ -4351,7 +4347,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_central_italy_areas = {			#broken off from previous Italy grouping, this corresponds mostly to the Papal states in Lazio, Umbria and Marche. About 19 provinces.
+ vu_trigger_central_italy_areas = {			#broken off from previous Italy grouping, this corresponds mostly to the Papal states in Lazio, Umbria and Marche. About 19 provinces.
 	OR = {
 		area = lazio_area
 		area = umbria_area
@@ -4362,7 +4358,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_northeastern_italy_areas = {			#broken off from previous Italy grouping, corresponds to the central and northeastern portions. Currently used for BYZ mission only
+ vu_trigger_northeastern_italy_areas = {			#broken off from previous Italy grouping, corresponds to the central and northeastern portions. Currently used for BYZ mission only
 	OR = {
 		area = lazio_area
 		area = umbria_area
@@ -4381,7 +4377,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_sicily_areas = {			#Corresponding to Kingdom of Naples. 39 provinces
+ vu_trigger_sicily_areas = {			#Corresponding to Kingdom of Naples. 39 provinces
 	OR = {
 		area = sicily_area
 		area = naples_area
@@ -4394,7 +4390,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_historical_greece_areas = {
+ vu_trigger_historical_greece_areas = {
 	OR = {
 		area = morea_area
 		area = western_aegean_area
@@ -4403,7 +4399,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_modern_greece_areas = {
+ vu_trigger_modern_greece_areas = {
 	OR = {
 		area = morea_area
 		area = western_aegean_area
@@ -4424,7 +4420,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_southern_russia_areas = {			#More or less Moscovy
+ vu_trigger_southern_russia_areas = {			#More or less Moscovy
 	OR = {
 		area = moscow_area
 		area = suzdal_area
@@ -4437,7 +4433,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_northern_russia_areas = {			#More or less Novgorod
+ vu_trigger_northern_russia_areas = {			#More or less Novgorod
 	OR = {
 		area = novgorod_area
 		area = north_karelia_area
@@ -4450,7 +4446,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_wild_fields_areas = {
+ vu_trigger_wild_fields_areas = {
 	OR = {
 		area = zaporizhia_area
 		area = yedisan_area
@@ -4461,7 +4457,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_bulgaria_areas = {
+ vu_trigger_bulgaria_areas = {
 	OR = {
 		area = bulgaria_area
 		area = danubian_plain_area
@@ -4469,7 +4465,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_thrace_areas = {
+ vu_trigger_thrace_areas = {
 	OR = {
 		area = northern_thrace_area
 		area = upper_thrace_area
@@ -4477,7 +4473,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_macedonia_areas = {
+ vu_trigger_macedonia_areas = {
 	OR = {
 		area = macedonia_area
 		area = northern_macedonia_area
@@ -4485,7 +4481,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_second_partition_of_poland_areas = {
+ vu_trigger_second_partition_of_poland_areas = {
 	region = ruthenia_region
 	NOT = {
 		area = volhynia_area
@@ -4503,7 +4499,7 @@ bt_downstream_of_india = {
 	}
  }
  
- bt_trigger_third_partition_of_poland_areas = {
+ vu_trigger_third_partition_of_poland_areas = {
 	OR = {
 		region = ruthenia_region
 		area = lithuania_area
@@ -4516,3 +4512,35 @@ bt_downstream_of_india = {
 	}
  }
  
+ #religion_group = xxxx
+ #religion = xxxx
+ #culture_group = xxxx
+ #has_owner_religion = yes #Means if the province has the same religion
+ 
+ vu_christian_cities_trigger = {
+    religion_group = christian
+    has_owner_religion = yes
+ }
+ 
+ vu_indios_cities_trigger = {
+	religion_group = pagan
+	NOT = { culture_group = andean_group }
+    has_owner_religion = yes
+ }
+ 
+ vu_andean_cities_trigger = {
+    OR = {
+	    culture_group = andean_group
+		culture_group = chibchan
+	    religion = inti
+	}
+    has_owner_religion = yes
+ }
+ 
+ vu_post_colonial_usa_cities_trigger = {
+	owner = { 
+	    religion_group = christian
+		tag = USA 
+	}
+	has_owner_religion = yes
+ }

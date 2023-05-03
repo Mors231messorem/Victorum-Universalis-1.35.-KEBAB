@@ -564,7 +564,7 @@ adal_unification_missions_slot = {
 				}
 				tag = SOM
 				custom_trigger_tooltip = {
-					tooltip = ada_justification_for_unity_bt
+					tooltip = ada_justification_for_unity_vu
 					any_known_country = {
 						primary_culture = somali
 						ROOT = {

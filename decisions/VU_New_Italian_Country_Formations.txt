@@ -1,12 +1,13 @@
+#VU updated to 1.35 by San Felipe
 country_decisions = {
 	lombard_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			bt_italy_stem_duchy_check = yes
+			vu_generic_can_form_potential_check = yes
+			vu_italy_stem_duchy_check = yes
 			NOT = { tag = MLO }
 			NOT = { tag = LOM }
-			NOT = { has_country_flag = formed_lombardy_flag_btp }
+			NOT = { has_country_flag = formed_lombardy_flag_vu }
 			primary_culture = lombard
 		}
 		provinces_to_highlight = {
@@ -87,7 +88,7 @@ country_decisions = {
 			swap_ideas = yes
 			#Romagna no unique missions yet has.
 			#swap_non_generic_missions = yes
-			set_country_flag = formed_lombardy_flag_btp
+			set_country_flag = formed_lombardy_flag_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -99,10 +100,10 @@ country_decisions = {
 	# romagnol_nation = {
 		# major = yes
 		# potential = {
-			# bt_generic_can_form_potential_check = yes
-			# bt_italy_stem_duchy_check = yes
+			# vu_generic_can_form_potential_check = yes
+			# vu_italy_stem_duchy_check = yes
 			# NOT = { tag = RMG }
-			# NOT = { has_country_flag = formed_romagna_flag_btp }
+			# NOT = { has_country_flag = formed_romagna_flag_vu }
 			# primary_culture = romagnan
 		# }
 		# provinces_to_highlight = {
@@ -169,7 +170,7 @@ country_decisions = {
 			# #swap_ideas = yes
 			# #Romagna no unique missions yet has.
 			# #swap_non_generic_missions = yes
-			# set_country_flag = formed_romagna_flag_btp
+			# set_country_flag = formed_romagna_flag_vu
 		# }
 		# ai_will_do = {
 			# factor = 1
@@ -180,10 +181,10 @@ country_decisions = {
 	umbrian_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			bt_italy_stem_duchy_check = yes
+			vu_generic_can_form_potential_check = yes
+			vu_italy_stem_duchy_check = yes
 			NOT = { tag = UMB }
-			NOT = { has_country_flag = formed_umbria_flag_btp }
+			NOT = { has_country_flag = formed_umbria_flag_vu }
 			primary_culture = umbrian
 		}
 		provinces_to_highlight = {
@@ -250,7 +251,7 @@ country_decisions = {
 			swap_ideas = yes
 			#Umbria no unique missions yet has.
 			#swap_non_generic_missions = yes
-			set_country_flag = formed_umbria_flag_btp
+			set_country_flag = formed_umbria_flag_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -261,11 +262,11 @@ country_decisions = {
 	piedmontese_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			bt_italy_stem_duchy_check = yes
+			vu_generic_can_form_potential_check = yes
+			vu_italy_stem_duchy_check = yes
 			NOT = { tag = PIE }
 			NOT = { tag = SAV }
-			NOT = { has_country_flag = formed_piedmont_flag_btp }
+			NOT = { has_country_flag = formed_piedmont_flag_vu }
 			primary_culture = piedmontese
 		}
 		provinces_to_highlight = {
@@ -338,7 +339,7 @@ country_decisions = {
 			swap_ideas = yes
 			#Piedmont no unique missions yet has.
 			#swap_non_generic_missions = yes
-			set_country_flag = formed_piedmont_flag_btp
+			set_country_flag = formed_piedmont_flag_vu
 		}
 		ai_will_do = {
 			factor = 1

@@ -990,7 +990,7 @@ nor_colonize_middle_america_slot = {
 					}
 				}
 				else = {
-					custom_tooltip = nor_colonize_greenland_bt
+					custom_tooltip = nor_colonize_greenland_vu
 				}
 				if = {
 					limit = {
@@ -1146,7 +1146,7 @@ nor_circumnavigate_the_world_slot = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = nor_circumnavigate_the_world_bt
+				tooltip = nor_circumnavigate_the_world_vu
 				OR = {
 					AND = {
 						OR = {

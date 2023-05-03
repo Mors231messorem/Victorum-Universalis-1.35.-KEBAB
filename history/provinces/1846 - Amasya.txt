@@ -32,7 +32,7 @@ discovered_by = nomad_group
 	controller = TUR
 	add_core = TUR
 }	#Everyone does seem to seem to agree it was definitely under the Ottomans by the fall of Trebizond against Mehmed II in 1475, scratch that, apparently vanilla gives Trebizond to Ottomans in '61. Copying that until I redo all the history
-#Leaving this for now, might come back later (BT5.0 or later) and fix things, good enough for now
+#Leaving this for now, might come back later (VU 5.0 or later) and fix things, good enough for now
 1481.6.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Civil war, Bayezid & Jem
 1482.7.26 = { revolt = {} controller = TUR } # Jem escapes to Rhodes
 1509.1.1 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # Civil war

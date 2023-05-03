@@ -1,4 +1,4 @@
-#BT Balkans reoverhaul
+#7114 - Salona
 
 owner = TUR
 controller = TUR			#Some lobbying for Byzantine ownership on the basis of Galaxidi, but I'm giving Salona precedence for now, as a more important center.

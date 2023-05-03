@@ -1,17 +1,17 @@
-namespace = bt_sacking_events
+namespace = vu_sacking_events
 normal_or_historical_nations = yes
 
 #Sack of Lubeck
 country_event = {
-	id = bt_sacking_events.1
-	title = bt_sacking_events.1.t
-	desc = bt_sacking_events.1.d
+	id = vu_sacking_events.1
+	title = vu_sacking_events.1.t
+	desc = vu_sacking_events.1.d
 	picture = WOUNDED_SOLDIERS_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = bt_sacking_events.1.a
+		name = vu_sacking_events.1.a
 		45 = {
 			add_loot_from_rich_province_general_effect = {
 				LOOTER = owner #DAN
@@ -27,15 +27,15 @@ country_event = {
 	}
 }
 country_event = { #Sack of Copenhagen
-	id = bt_sacking_events.2
-	title = bt_sacking_events.2.t
-	desc = bt_sacking_events.2.d
+	id = vu_sacking_events.2
+	title = vu_sacking_events.2.t
+	desc = vu_sacking_events.2.d
 	picture = WOUNDED_SOLDIERS_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = bt_sacking_events.2.a
+		name = vu_sacking_events.2.a
 		12 = {
 			add_loot_from_rich_province_general_effect = {
 				LOOTER = owner #SWE
@@ -50,7 +50,7 @@ country_event = { #Sack of Copenhagen
 		}
 	}
 	option = {
-		name = bt_sacking_events.2.b
+		name = vu_sacking_events.2.b
 		highlight = yes
 		trigger = {
 			ruler_has_personality = cruel_personality

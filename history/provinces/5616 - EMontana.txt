@@ -1,4 +1,4 @@
-#New Beyond Typus Province
+#New Victorum Universalis Province
 
 culture = nakota
 religion = totemism
@@ -7,7 +7,7 @@ trade_goods = unknown
 base_manpower = 1
 base_tax = 1
 base_production = 1
-capital = "Tabéh' a Wakpá" 		#Wolf Creek
+capital = "Tabï¿½h' a Wakpï¿½" 		#Wolf Creek
 native_size = 10
 native_ferocity = 3
 native_hostileness = 5

@@ -1,5 +1,4 @@
-#When adding effects directly in on_actions always consider if it would be best to do so through a scripted effect. on_actions with a lot of script in them are harder to get an overview of.
-#zz_vu_on_actions file merged into base vanilla on actions by letole, BT additions by the BT team VU Additions written by San Felipe, GE Additions written by Jay Double U
+#VU updated to 1.35 by San Felipe 
 # country
 on_startup = {
 	if = {
@@ -174,10 +173,10 @@ on_startup = {
 			desc = until_end_of_age_desc
 		}
 	}
-	#BT & VU additions integrated by San Felipe
+	#VU additions integrated by San Felipe
 	if = {
 		limit = {
-			has_global_flag = beyond_typus_mod_enabled
+			has_global_flag = victorum_universalis_mod_enabled
 		}
 		if = {
 			limit = { started_in = 1459.1.1 }
@@ -190,16 +189,16 @@ on_startup = {
 				NOT = { started_in = 1648.1.1 }
 			}
 			clr_global_flag = italy_out_of_HRE
-		}	#BT calls the Peace of Westphalia then end of the Italian HRE, not 1495, so delaying the global flag here without having to mess with the HAB history file for now.
-		# if = { #Dirty fix for the huge loan sizes in BT due to dev doubling since there's no defines value to change. #Didn't work. Deprecated.
+		}	#VU calls the Peace of Westphalia then end of the Italian HRE, not 1495, so delaying the global flag here without having to mess with the HAB history file for now.
+		# if = { #Dirty fix for the huge loan sizes in VU due to dev doubling since there's no defines value to change. #Didn't work. Deprecated.
 			# limit = {
-				# has_global_flag = beyond_typus_mod_enabled
-				# NOT = { has_global_flag = bt_loan_size_fixed }
+				# has_global_flag = victorum_universalis_mod_enabled
+				# NOT = { has_global_flag = vu_loan_size_fixed }
 			# }
 			# every_country = {
 				# loan_size = 6
 			# }
-			# set_global_flag = bt_loan_size_fixed
+			# set_global_flag = vu_loan_size_fixed
 		# }
 	}
 	if = {
@@ -1829,32 +1828,32 @@ on_new_monarch = {
 		50 = dynastic_events.5
 		25 = harem_events.7		#Failed Policy of Fratricide
 	}
-	#BT additions integrated by San Felipe
+	#VU additions integrated by San Felipe
 	if = {
 		limit = {
 			has_reform = tanistry_reform
-			NOT = { has_country_flag = bt_abolition_of_tanistry_succession }
+			NOT = { has_country_flag = vu_abolition_of_tanistry_succession }
 		}
-		set_country_flag = bt_tanistry_king_just_died
-		clr_country_flag = bt_tanistry_high_queen_reigning
-		remove_country_modifier = bt_uncertainty_about_a_high_queen
-		country_event = { id = BeyondTypusCelticFlavour.1 days = 1 }				#New Tanist election
-		country_event = { id = BeyondTypusCelticFlavour.6 days = 1 }			#High Queen comes to power, will only fire for female rulers
+		set_country_flag = vu_tanistry_king_just_died
+		clr_country_flag = vu_tanistry_high_queen_reigning
+		remove_country_modifier = vu_uncertainty_about_a_high_queen
+		country_event = { id = VictorumUniversalisCelticFlavour.1 days = 1 }				#New Tanist election
+		country_event = { id = VictorumUniversalisCelticFlavour.6 days = 1 }			#High Queen comes to power, will only fire for female rulers
 	}
 	if = { #If Sweden fell under the Danish PU elsehow and the event that was supposed to fire the end of Karl Knutsson Bonde's reign never fired.
 		limit = {
 			tag = SWE
 			junior_union_with = DAN
-			has_global_flag = bt_kalmar_union_power_struggle_pt_I
+			has_global_flag = vu_kalmar_union_power_struggle_pt_I
 		}
 		disband_rebels = pretender_rebels
 		disband_rebels = catholic_rebels
 		disband_rebels = noble_rebels
-		clr_global_flag = bt_kalmar_union_power_struggle_pt_I
+		clr_global_flag = vu_kalmar_union_power_struggle_pt_I
 	}
 	if = { #Kalmar Union power struggle flavour event.
 		limit = {
-			has_global_flag = bt_kalmar_union_power_struggle_pt_I
+			has_global_flag = vu_kalmar_union_power_struggle_pt_I
 			tag = SWE
 			war_with = DAN
 		}
@@ -1864,7 +1863,7 @@ on_new_monarch = {
 		disband_rebels = pretender_rebels
 		disband_rebels = catholic_rebels
 		disband_rebels = noble_rebels
-		clr_global_flag = bt_kalmar_union_power_struggle_pt_I
+		clr_global_flag = vu_kalmar_union_power_struggle_pt_I
 	}
 	#VU additions integrated by San Felipe
 	if = {
@@ -2153,18 +2152,18 @@ on_diplomatic_annex = {
 	events = {
 		610
 	}
-	#BT additions integrated by San Felipe
+	#VU additions integrated by San Felipe
 	if = {
 		limit = {
 			has_reform = tanistry_reform
-			NOT = { has_country_flag = bt_abolition_of_tanistry_succession }
+			NOT = { has_country_flag = vu_abolition_of_tanistry_succession }
 		}
-		set_country_flag = bt_tanistry_king_just_died
-		clr_country_flag = bt_tanistry_high_queen_reigning
-		remove_country_modifier = bt_uncertainty_about_a_high_queen
-		remove_country_modifier = bt_tanistry_underaged_heir
-		remove_country_modifier = bt_tanistry_female_heir
-		remove_country_modifier = bt_tanistry_waiting_on_heir
+		set_country_flag = vu_tanistry_king_just_died
+		clr_country_flag = vu_tanistry_high_queen_reigning
+		remove_country_modifier = vu_uncertainty_about_a_high_queen
+		remove_country_modifier = vu_tanistry_underaged_heir
+		remove_country_modifier = vu_tanistry_female_heir
+		remove_country_modifier = vu_tanistry_waiting_on_heir
 	}
 }
 	
@@ -2302,15 +2301,15 @@ on_queen_death = {
 		remove_country_modifier = bav_building_wife_church
 	}
 	clr_ruler_flag = marriage_length
-	#BT additions integrated by San Felipe
+	#VU additions integrated by San Felipe
 	if = {
 		limit = {
 			has_reform = tanistry_reform
-			NOT = { has_country_flag = bt_abolition_of_tanistry_succession }
+			NOT = { has_country_flag = vu_abolition_of_tanistry_succession }
 		}
-		remove_country_modifier = bt_tanistry_underaged_heir
-		remove_country_modifier = bt_tanistry_female_heir
-		country_event = { id = BeyondTypusCelticFlavour.8 days = 1 }			#Tanist dies, new tanist event
+		remove_country_modifier = vu_tanistry_underaged_heir
+		remove_country_modifier = vu_tanistry_female_heir
+		country_event = { id = VictorumUniversalisCelticFlavour.8 days = 1 }			#Tanist dies, new tanist event
 	}
 }
 
@@ -2334,15 +2333,15 @@ on_new_heir = {
 		}
 		clr_country_flag = had_bmv
 	}
-	#BT additions integrated by San Felipe
+	#VU additions integrated by San Felipe
 	if = {
 		limit = {
 			has_reform = tanistry_reform
-			has_country_modifier = bt_tanistry_waiting_on_heir
-			NOT = { has_country_flag = bt_abolition_of_tanistry_succession }
+			has_country_modifier = vu_tanistry_waiting_on_heir
+			NOT = { has_country_flag = vu_abolition_of_tanistry_succession }
 		}
-		country_event = { id = BeyondTypusCelticFlavour.2 days = 1 }			#Male heir born/introduced			- doesn't seem to work, I'll look into this later, added a 1 day MTTH in the meantime
-		country_event = { id = BeyondTypusCelticFlavour.3 days = 1 }			#Female heir born/introduced			- doesn't seem to work, I'll look into this later, added a 1 day MTTH in the meantime
+		country_event = { id = VictorumUniversalisCelticFlavour.2 days = 1 }			#Male heir born/introduced			- doesn't seem to work, I'll look into this later, added a 1 day MTTH in the meantime
+		country_event = { id = VictorumUniversalisCelticFlavour.3 days = 1 }			#Female heir born/introduced			- doesn't seem to work, I'll look into this later, added a 1 day MTTH in the meantime
 	}
 }
 
@@ -5491,8 +5490,8 @@ on_lose_great_power_status = {
 on_province_religion_converted = {
 	on_province_religion_changed_effect = yes
 	on_province_religion_converted_effect = yes
-	#BT
-	#BT added if Culture's Iberian and gets converted to muslim, it turns into Andalusi culture.
+	#VU
+	#VU added if Culture's Iberian and gets converted to muslim, it turns into Andalusi culture.
 	#if = {
 	#	limit = {
 	#		religion_group = muslim
@@ -5577,7 +5576,7 @@ on_province_owner_change = {
 				has_province_modifier = grain_bonus_prod
 				has_province_modifier = beer_modifier_bonus
 				has_province_modifier = honey_modifier_bonus
-				#BT additions integrated by San Felipe
+				#VU additions integrated by San Felipe
 				has_province_modifier = fruit_bonus_prod
 			}
 			FROM = { has_reform = monastic_breweries_reform }
@@ -5587,7 +5586,7 @@ on_province_owner_change = {
 		remove_province_modifier = grain_bonus_prod
 		remove_province_modifier = beer_modifier_bonus
 		remove_province_modifier = honey_modifier_bonus
-		#BT additions integrated by San Felipe
+		#VU additions integrated by San Felipe
 		remove_province_modifier = fruit_bonus_prod
 	}
 
@@ -5599,7 +5598,7 @@ on_province_owner_change = {
 					has_province_modifier = grain_bonus_prod
 					has_province_modifier = beer_modifier_bonus
 					has_province_modifier = honey_modifier_bonus
-					#BT additions integrated by San Felipe
+					#VU additions integrated by San Felipe
 					has_province_modifier = fruit_bonus_prod
 				}
 			}
@@ -5648,7 +5647,7 @@ on_province_owner_change = {
 					hidden = yes
 				}
 			}
-			#BT additions integrated by San Felipe
+			#VU additions integrated by San Felipe
 			if = {
 				limit = {
 					trade_goods = apiculture
@@ -5659,7 +5658,7 @@ on_province_owner_change = {
 					hidden = yes
 				}
 			}
-			#BT additions integrated by San Felipe
+			#VU additions integrated by San Felipe
 			if = {
 				limit = {
 					trade_goods = fruit
@@ -5672,7 +5671,7 @@ on_province_owner_change = {
 			}
 		}
 	}
-	#BT additions integrated by San Felipe
+	#VU additions integrated by San Felipe
 	if = {
 		limit = {
 			has_province_modifier = dtt_bread_bonus_prod
@@ -5689,7 +5688,7 @@ on_province_owner_change = {
 		}
 		remove_province_modifier = dtt_bread_bonus_prod
 	}
-	#BT additions integrated by San Felipe
+	#VU additions integrated by San Felipe
 	if = {
 		limit = {
 			NOT = {
@@ -5719,7 +5718,7 @@ on_province_owner_change = {
 			}
 		}
 	}
-	#End of BT additions integrated by San Felipe
+	#End of VU additions integrated by San Felipe
 	if = {
 		limit = {
 			owned_by = SRU
@@ -6722,7 +6721,7 @@ on_minority_expelled = {
 	FROM = {
 		remove_province_modifier = religious_zeal_at_conv
 		add_permanent_province_modifier = {
-			name = expelled_minority_home #Removed BT's version - bt_minorities_expelled since this is basically the same thing
+			name = expelled_minority_home #Removed VU's version - vu_minorities_expelled since this is basically the same thing
 			duration = 5475 #15 years - lowered from vanilla's 7300
 		}
 	}
@@ -6836,7 +6835,7 @@ on_country_released = {
 on_trade_good_changed = {
 	on_trade_good_changed_estate_privileges_effect = yes
 	on_trade_good_changed_government_effect = yes
-	#BT & VU additions integrated by San Felipe
+	#VU additions integrated by San Felipe
 	if = {
 		limit = {
 			OR = {

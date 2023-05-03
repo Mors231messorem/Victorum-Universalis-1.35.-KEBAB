@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = shuswap
 religion = totemism 
-capital = "K'q'emcín" 			#Lytton
+capital = "K'q'emcï¿½n" 			#Lytton
 trade_goods = unknown
 hre = no 
 base_tax = 2			#Imperfect borders here, as the province includes core-ish territory from 3 different groups (Stolo, Lillooet, and Okanogan), but I decided on this compromise for a variety of reasons. Anyhow, between the 3 groups, population would have been rather high for the New World.
@@ -13,8 +13,8 @@ native_ferocity = 1
 native_hostileness = 3 
 center_of_trade = 1
 discovered_by = north_american
-#discovered_by = bt_athabaskan_tech
-#discovered_by = bt_northwest_tech
+#discovered_by = vu_athabaskan_tech
+#discovered_by = vu_northwest_tech
 
 
 1808.1.1 = { discovered_by = GBR }			#Simon Fraser

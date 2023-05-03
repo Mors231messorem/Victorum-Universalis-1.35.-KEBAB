@@ -1,12 +1,10 @@
-
-#Apparently AI won't use these.... that kinda stinks. Ah well.
-
-bt_enforce_temporal_authority_action = {
+#VU updated to 1.35 by San Felipe 
+vu_enforce_temporal_authority_action = {
 
 	category = papacy
 
 	alert_index = 5
-	alert_tooltip = bt_enforce_temporal_authority_action_tooltip
+	alert_tooltip = vu_enforce_temporal_authority_action_tooltip
 	
 	require_acceptance = no
 
@@ -15,7 +13,7 @@ bt_enforce_temporal_authority_action = {
 		is_subject = no
 		FROM = {
 			is_subject_of = ROOT
-			is_subject_of_type = papal_subject_bt
+			is_subject_of_type = papal_subject_vu
 		}
 	}
 	
@@ -39,18 +37,18 @@ bt_enforce_temporal_authority_action = {
 			}
 			add_opinion = {
 				who = ROOT
-				modifier = bt_temporal_authority_enforced
+				modifier = vu_temporal_authority_enforced
 			}
 		}
 		every_subject_country = {
-			limit = { is_subject_of_type = papal_subject_bt }
+			limit = { is_subject_of_type = papal_subject_vu }
 			add_trust = {
 				who = ROOT
 				value = -3
 			}
 			add_opinion = {
 				who = ROOT
-				modifier = bt_temporal_authority_enforced_on_other
+				modifier = vu_temporal_authority_enforced_on_other
 			}
 		}
 	}

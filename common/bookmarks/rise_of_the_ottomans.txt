@@ -1,5 +1,5 @@
-bookmark =
-{
+#VU updated by San Felipe for 1.35
+bookmark = {
 	name = "RISE_OF_THE_OTTOMANS"
 	desc = "RISE_OF_THE_OTTOMANS_DESC"
 	date = 1444.11.11

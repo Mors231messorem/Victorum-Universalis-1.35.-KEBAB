@@ -1,9 +1,9 @@
-# New BT Addon Triggered Modifiers
+# New VU Addon Triggered Modifiers
 
 ###########################################
 # ADM National focus bonus. I actually stole the concept from No Face's National Focus Modifiers mod, but I wanted to put my own spin on it and it has been out of date for several months.
 ###########################################
-btaddon_triggered_modifier_adm_focus = {
+vu_addon_triggered_modifier_adm_focus = {
 	potential = {
 		OR = {
 			national_focus = ADM
@@ -16,7 +16,7 @@ btaddon_triggered_modifier_adm_focus = {
 	}
 	trigger = {
 		custom_trigger_tooltip = {
-			tooltip = bt_tooltip_national_focus_is_adm
+			tooltip = vu_tooltip_national_focus_is_adm
 			national_focus = ADM
 		}
 	}
@@ -32,7 +32,7 @@ btaddon_triggered_modifier_adm_focus = {
 ###########################################
 # DIP National focus bonus. I actually stole the concept from No Face's National Focus Modifiers mod, but I wanted to put my own spin on it and it has been out of date for several months.
 ###########################################
-btaddon_triggered_modifier_dip_focus = {
+vu_addon_triggered_modifier_dip_focus = {
 	potential = {
 		OR = {
 			national_focus = DIP
@@ -45,7 +45,7 @@ btaddon_triggered_modifier_dip_focus = {
 	}
 	trigger = {
 		custom_trigger_tooltip = {
-			tooltip = bt_tooltip_national_focus_is_dip
+			tooltip = vu_tooltip_national_focus_is_dip
 			national_focus = DIP
 		}
 	}
@@ -57,7 +57,7 @@ btaddon_triggered_modifier_dip_focus = {
 ###########################################
 # MIL National focus bonus. I actually stole the concept from No Face's National Focus Modifiers mod, but I wanted to put my own spin on it and it has been out of date for several months.
 ###########################################
-btaddon_triggered_modifier_mil_focus = {
+vu_addon_triggered_modifier_mil_focus = {
 	potential = {
 		OR = {
 			national_focus = MIL
@@ -70,7 +70,7 @@ btaddon_triggered_modifier_mil_focus = {
 	}
 	trigger = {
 		custom_trigger_tooltip = {
-			tooltip = bt_tooltip_national_focus_is_mil
+			tooltip = vu_tooltip_national_focus_is_mil
 			national_focus = MIL
 		}
 	}
@@ -82,7 +82,7 @@ btaddon_triggered_modifier_mil_focus = {
 ###########################################
 # Temporary band-aid fix to avoid modding the gov files or religion files with coming changes in 1.26
 ###########################################
-btaddon_bandaid_horde_fix = {
+vu_addon_bandaid_horde_fix = {
 	potential = {
 		religion = tengri_pagan_reformed
 		has_reform = steppe_horde

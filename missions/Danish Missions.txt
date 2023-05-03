@@ -476,7 +476,7 @@ danish_missions_baltic = {
 #}
 #
 #
-#bt_danish_trade_2 = {
+#vu_danish_trade_2 = {
 #	slot = 1
 #	generic = no
 #	ai = yes
@@ -577,7 +577,7 @@ danish_missions_baltic = {
 #	}
 #}
 #
-#bt_danish_colonialism = { #VU - Turned off for now due to overlapping with SCA_Danish_Missions by San Felipe
+#vu_danish_colonialism = { #VU - Turned off for now due to overlapping with SCA_Danish_Missions by San Felipe
 #	slot = 1
 #	generic = no
 #	ai = yes
@@ -730,7 +730,7 @@ danish_missions_baltic = {
 #	}
 #}
 #
-#bt_danish_trade = {
+#vu_danish_trade = {
 #	slot = 2
 #	generic = no
 #	ai = yes
@@ -807,7 +807,7 @@ danish_missions_baltic = {
 #					owns = 45
 #				}
 #				country_event = {
-#					id = bt_sacking_events.1
+#					id = vu_sacking_events.1
 #				}
 #			}
 #			if = {
@@ -850,7 +850,7 @@ danish_missions_baltic = {
 #	}
 #}
 #
-#bt_danish_internal_missions = {
+#vu_danish_internal_missions = {
 #	slot = 2
 #	generic = no
 #	ai = yes
@@ -957,7 +957,7 @@ danish_missions_baltic = {
 #	}
 #}
 #
-#bt_danish_colonialism_2 = { #VU - Turned off for now due to overlapping with SCA_Danish_Missions by San Felipe
+#vu_danish_colonialism_2 = { #VU - Turned off for now due to overlapping with SCA_Danish_Missions by San Felipe
 #	slot = 2
 #	generic = no
 #	ai = yes
@@ -999,7 +999,7 @@ danish_missions_baltic = {
 #	}
 #}
 #
-#bt_danish_resist_prussia = {
+#vu_danish_resist_prussia = {
 #	slot = 3
 #	generic = no
 #	ai = yes

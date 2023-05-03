@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 namespace = emp_mission_events
 
 # The Pope cedes Avignon to Provence
@@ -478,11 +479,24 @@ country_event = {
 		hidden_effect = {
 			release = ALE
 		}
-		vassalize = ALE
+		if = {
+			limit = { has_dlc = "Domination" } 
+			create_subject = {
+				subject_type = appanage
+				subject = ALE 
+			}
+		}
+		else = { vassalize = ALE } 
 		hidden_effect = {
 			ALE = {
 				change_government = monarchy
-				add_government_reform = feudalism_reform
+				if = { 
+					limit = { 
+						FRA = { has_reform = feudal_france_reform }
+					}
+					add_government_reform = appanage_reform
+				}
+				else = { add_government_reform = feudalism_reform }
 			}
 		}
 		if = {
@@ -670,11 +684,6 @@ country_event = {
 		name = OH_NO
 		tooltip = {
 			from = { vassalize = root }
-								  
-															 
-								  
-				 
 		}
 	}
-	 
 }

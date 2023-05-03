@@ -913,7 +913,7 @@ country_event = {
 			siege = 0
 		}
 		add_country_modifier = {
-			name = bt_daring_navigator
+			name = vu_daring_navigator
 			duration = 3650
 		}
 	}

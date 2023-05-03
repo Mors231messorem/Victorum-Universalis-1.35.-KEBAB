@@ -1825,7 +1825,7 @@
  alcheringa_events.10.d:0 "Dreaming Stories across Australia vary wildly but one thing that is persistent is the belief in the Rainbow Serpent. Through the study of all aspects of the Dreaming we have truly understood the nature of the Rainbow Serpent."
  alcheringa_events.10.a:0 "Wonderful"
  province_is_buddhist_or_accepts_buddhism_at:0 "The Religion of §Y[Root.GetName]§! is either §YTheravada§!, §YVajrayana§! or §YMahayana§! and is either the State, the Syncretic or the Harmonized Religion of the owner."
- province_is_buddhist_or_accepts_buddhism_bt:0 "The Religion of §Y[Root.GetName]§! is §YConfucian§! and the owner has harmonized either §YTheravada§!, §YVajrayana§! or §YMahayana§!."
+ province_is_buddhist_or_accepts_buddhism_vu:0 "The Religion of §Y[Root.GetName]§! is §YConfucian§! and the owner has harmonized either §YTheravada§!, §YVajrayana§! or §YMahayana§!."
  province_is_buddhist_or_accepts_buddhism_ct:0 "The Religion of §Y[Root.GetName]§! is §YTengri§! and the owner has either §YTheravada§!, §YVajrayana§! or §YMahayana§! as their Syncretic Religion."
  province_is_buddhist_or_accepts_buddhism_dt:0 "The Religion of §Y[Root.GetName]§! and of the owner §YShinto§!."
  province_is_buddhist_or_accepts_buddhism_et:0 "The Religion of §Y[Root.GetName]§! and of the owner is §YHindu§! and the owner is following the §YBuddha§! Deity."

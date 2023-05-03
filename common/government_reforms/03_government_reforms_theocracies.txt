@@ -1186,7 +1186,7 @@ monastic_breweries_reform = {
 					limit = {
 						trade_goods = fruit
 					}
-					add_province_modifier = { #New for BT.
+					add_province_modifier = { #New for VU.
 						name = fruit_bonus_prod
 						duration = -1
 						hidden = yes
@@ -2039,7 +2039,7 @@ all_under_tengri_reform = {
 
 ####################################################################################################
 ####################################################################################################
-####################	Legacy Governments From Beyond Typus and Beyond the Pale	####################
+####################	Legacy Governments From Victorum Universalis and Beyond the Pale	####################
 ####################################################################################################
 ####################################################################################################
 

@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = coast_penutian
 religion = totemism 
@@ -13,7 +13,7 @@ native_ferocity = 1
 native_hostileness = 3  
 
 discovered_by = north_american
-#discovered_by = bt_northwest_tech
+#discovered_by = vu_northwest_tech
 
 
 1828.1.1 = {

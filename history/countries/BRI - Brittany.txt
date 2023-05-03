@@ -109,6 +109,16 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 
 #Succession War#					#Will probably be represented via events ?
 
+1345.9.16 = {
+	monarch = {
+		name = "Jean V"
+		dynasty = "de Dreux"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
 1365.4.12 = {
 	monarch = {
 		name = "Jean IV"
@@ -118,6 +128,20 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 		mil = 4			#An experienced war leader.
 	}
 	add_ruler_personality = tactical_genius_personality
+}
+
+1361.7.3 = {
+	queen = {
+		country_of_origin = ENG
+		name = "Mary"
+		dynasty = "Lancaster"
+		birth_date = 1344.10.10
+		death_date = 1361.9.1
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
 }
 
 1365.4.12 = { capital = 171 } 		#Vannes
@@ -215,6 +239,7 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 		dip = 4			#Called 'the well loved/liked' he was apparently quite popular, deserving more than vanilla 3
 		mil = 3			#Participated at the end of the 100 year war, according to FR wiki, to somewhat impressive effect, with his uncle and future inheritor Arthur performing most impressively. Deserves more than vanilla 2
 	}
+	clear_scripted_personalities = yes
 	add_ruler_personality = charismatic_negotiator_personality			#Only works when the clear command is removed... need to figure out why later
 }
 
@@ -339,6 +364,7 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 		dip = 3			#Strong independant policies and alliances.
 		mil = 2			#Nothing in particular.
 	}
+	clear_scripted_personalities = yes
 	queen = {
 		country_of_origin = BRI
 		name = "Marguerite"
@@ -395,14 +421,64 @@ historical_friend = BUR			#Brittany allied several times with Burgundy, often se
 		female = yes
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = just_personality 		#Righteous would also be valid
+	add_ruler_personality = just_personality # Righteous would also be valid
+}
+
+1499.10.14 = {
+	heir = {
+		name = "Claude"
+		monarch_name = "Claude I"
+		dynasty = "de Valois"
+		birth_date = 1499.10.14
+		death_date = 1525.7.20
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+		female = yes
+	}
+}
+
+1514.1.10 = {
+	monarch = {
+		name = "Claude I"
+		dynasty = "de Valois"
+		birth_date = 1499.10.14
+		adm = 2
+		dip = 2
+		mil = 2
+		female = yes
+	}
+}
+
+1518.2.28 = {
+	heir = {
+		name = "François"
+		monarch_name = "François III"
+		dynasty = "de Valois"
+		birth_date = 1518.2.28
+		death_date = 1536.8.10
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1524.7.21 = {
+	monarch = {
+		name = "François III"
+		dynasty = "de Valois"
+		birth_date = 1518.2.28
+		adm = 3
+		dip = 2
+		mil = 1
+	}
 }
 
 #Personal Union in 1491 and annexion in 1532#
 
 1589.8.3 = { set_legacy_government = administrative_monarchy }
 
-1661.3.9 = {
-	government = monarchy
-	add_government_reform = autocracy_reform 
-}
+1661.3.9 = { government = monarchy
+add_government_reform = autocracy_reform }

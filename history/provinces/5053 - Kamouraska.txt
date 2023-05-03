@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = abenaki					#Maliseet
 religion = totemism 
-capital = "Ska Môraskua" 				
+capital = "Ska Mï¿½raskua" 				
 trade_goods = unknown
 hre = no 
 base_tax = 1

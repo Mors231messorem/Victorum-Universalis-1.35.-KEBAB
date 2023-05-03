@@ -1,8 +1,9 @@
-########################################
-# Flavor Events for Polynesia
-#
-# written by Javier Salazar Vilches
-########################################
+#VU updated by San Felipe for 1.35
+#####################################
+# Flavor Events for Polynesia       #
+#                                   #
+# written by Javier Salazar Vilches #
+#####################################
 namespace = polynesian
 
 # Polynesian Generic Events 1-15
@@ -1694,7 +1695,6 @@ country_event = { #Royal Mound Desecrated
 					type = noble_rebels
 					size = 1
 					unrest = 1
-	  
 				}
 			}
 		}

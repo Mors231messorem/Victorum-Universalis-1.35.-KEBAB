@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7038 - Bonifacio
 
 owner = GEN
 controller = GEN
@@ -22,13 +22,13 @@ discovered_by = eastern
 
 
 #Province history completed by - 
-1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
+1291.5.21 = { #VictorumUniversalis batch edit shortcut the first shattering begins
 	owner = COR
 	controller = COR
 	remove_core = GEN
 	remove_core = PIS
 } #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
+1291.5.23 = { #VictorumUniversalis batch edit shortcut the first shattering ends
 	owner = GEN
 	controller = GEN
 	add_core = GEN
@@ -38,13 +38,13 @@ discovered_by = eastern
 1406.1.1 = {
 	remove_core = PIS
 }	#Proper fall of Pisa, loses overseas cores
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = COR
 	controller = COR
 	remove_core = GEN
 	remove_core = PIS
 } #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
 	owner = GEN
 	controller = GEN
 	add_core = GEN

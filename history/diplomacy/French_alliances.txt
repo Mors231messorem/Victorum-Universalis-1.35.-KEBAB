@@ -1,7 +1,7 @@
+#VU updated by San Felipe
 #Vanilla EU4
-## Restored French vassals 1.30 ##
-## Turned the vassals into appanages 1.35 ##
-# France-Orleans
+#EU4 1.35 turned French vassals into appanages ##
+#France-Orleans
 dependency = {
 	subject_type = appanage
 	first = FRA
@@ -19,14 +19,14 @@ dependency = {
 	end_date = 1532.8.3
 }
 
-# France-Auvergne
-dependency = {
-	subject_type = appanage
-	first = FRA
-	second = AUV
-	start_date = 1444.1.1
-	end_date = 1532.8.3
-}
+## France-Auvergne
+#dependency = {
+#	subject_type = appanage
+#	first = FRA
+#	second = AUV
+#	tart_date = 1444.11.11
+#	end_date = 1532.08.03
+#}
 
 # France-Foix
 dependency = {
@@ -792,7 +792,7 @@ royal_marriage = {
 guarantee = {
 	first = FOI
 	second = AOR
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1589.8.2
 }
 
@@ -800,7 +800,7 @@ guarantee = {
 		 
 	first = FRA
 	second = TOA
-	start_date = 1444.11.1 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.1 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1513.1.1			#Occupied by English, who later restored it to direct French authority.
 }
 
@@ -842,7 +842,7 @@ dependency = {
 	subject_type = "vassal"
 	first = FRA
 	second = RHM
-	start_date = 1444.11.1 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.1 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1589.1.1
 }
 
@@ -851,7 +851,7 @@ dependency = {
 	subject_type = "vassal"
 	first = BFR
 	second = RHM
-	start_date = 1589.1.2 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1589.1.2 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1607.1.1
 }
 
@@ -860,7 +860,7 @@ dependency = {
 	subject_type = "vassal"
 	first = FRA
 	second = LAO
-	start_date = 1444.11.1 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.1 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1589.1.1
 }
 
@@ -869,7 +869,7 @@ dependency = {
 	subject_type = "vassal"
 	first = BFR
 	second = LAO
-	start_date = 1589.1.2 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1589.1.2 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1607.1.1
 }
 
@@ -878,7 +878,7 @@ dependency = {
 	subject_type = "vassal"
 	first = FRA
 	second = LGR
-	start_date = 1444.11.1 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.1 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1589.1.1
 }
 
@@ -886,7 +886,7 @@ dependency = {
 	subject_type = "vassal"
 	first = BFR
 	second = LGR
-	start_date = 1589.1.2 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1589.1.2 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1607.1.1
 }
 
@@ -903,42 +903,42 @@ dependency = {
 guarantee = {
 	first = BUR
 	second = CMB
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
 
 guarantee = {
 	first = BUR
 	second = TOA
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
 
 guarantee = {
 	first = BUR
 	second = SPO
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
 
 guarantee = {
 	first = BUR
 	second = UTR
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
 
 vassal = {
 	first = BUR
 	second = BSA
-	start_date = 1444.1.1 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
 
 vassal = {
 	first = BUR
 	second = LXL
-	start_date = 1444.1.1 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
 
@@ -946,27 +946,27 @@ union = {
 				  
 	first = BUR
 	second = LUX
-	start_date = 1444.1.1 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
 union = {
 	first = BUR
 	second = HAI
-	start_date = 1444.1.1 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
 
 union = {
 	first = BUR
 	second = PIC
-	start_date = 1444.1.1 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
 
 union = {
 	first = BUR
 	second = ATS
-	start_date = 1444.1.1 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.1.1 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1477.1.5
 }
 

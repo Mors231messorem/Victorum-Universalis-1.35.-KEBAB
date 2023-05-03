@@ -1,5 +1,5 @@
 
-#Beyond Typus work done by all contributors other than Draiocht
+#Victorum Universalis work done by all contributors other than Darth Modus
 #	Example:
 # 
 #	example_effect = {
@@ -1435,7 +1435,7 @@ GE_calculate_goods_produced_effect = {
 ##################################################################################################
 
 #Tanistry script, high legitimacy. This effect creates an heir with an avg. age in the early 30s, but a decreasing chance for an older or younger heir, and a 4 percent chance of a remarkable (read very high stat) ruler who is either very young, or very old, elected despite their age because of merit.
-bt_tanistry_heir_high_legitimacy = {
+vu_tanistry_heir_high_legitimacy = {
 	random_list = {
 		2 = {
 			define_heir = {
@@ -1693,7 +1693,7 @@ bt_tanistry_heir_high_legitimacy = {
 }
 
 #Tanistry script, low legitimacy. This effect creates an heir with an avg. age in the early 30s, but a decreasing chance for an older or younger heir, and a 4 percent chance of a remarkable (read very high stat) ruler who is either very young, or very old, elected despite their age because of merit.
-bt_tanistry_heir_low_legitimacy = {
+vu_tanistry_heir_low_legitimacy = {
 	random_list = {
 		2 = {
 			define_heir = {
@@ -1951,7 +1951,7 @@ bt_tanistry_heir_low_legitimacy = {
 }
 
 #Tanistry script, female. Note - use with caution, this is for very rare events with prereqs etc., if exploited, it could be game breakingingly OPed, not to mention absurd. Mostly for the hardline feminists who don't understand history (or Irish kingship, for that matter =p), but it is somewhat more plausible here than some other places, as Ireland did have some strong women and comparative gender equality.
-bt_tanistry_heir_female = {
+vu_tanistry_heir_female = {
 	random_list = {
 		5 = {
 			define_heir = {

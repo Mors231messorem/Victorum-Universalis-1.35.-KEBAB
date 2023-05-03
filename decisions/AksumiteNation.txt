@@ -1,3 +1,4 @@
+#VU updated to 1.35 by San Felipe 
 country_decisions = {
 	aksumite_nation = {
 		major = yes
@@ -114,6 +115,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = AKS
+			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 3 } }

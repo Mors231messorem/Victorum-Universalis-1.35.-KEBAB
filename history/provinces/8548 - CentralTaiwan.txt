@@ -1,4 +1,4 @@
-#New BT Province
+#8548 - CentralTaiwan
 
 culture = formosan_culture
 religion = animism

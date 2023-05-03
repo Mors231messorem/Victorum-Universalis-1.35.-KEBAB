@@ -1,4 +1,5 @@
-#VU - This is now a dummy file and its contents have been moved to VU_Replace_Vanilla_Country_Formations.
+#VU updated to 1.35 by San Felipe 
+#Moving forming decisions to VU_Replace_Vanilla_Country_Formations
 
 #country_decisions = {
 #
@@ -229,7 +230,7 @@
 #		}
 #		effect = {
 #			add_country_modifier = {
-#				name = "btp_kingdom_of_god"
+#				name = "vu_kingdom_of_god"
 #				duration = -1
 #			}
 #			country_event  = { id = catholic_flavor.2 }

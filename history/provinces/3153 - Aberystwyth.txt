@@ -21,12 +21,12 @@ discovered_by = eastern
 
 #Histories
 
-1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
+1444.11.16 = { #VictorumUniversalis batch edit shortcut no vassal start date begin
 	owner = ENG
 	controller = ENG
 	add_core = ENG
 }
-1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+1444.11.18 = { #VictorumUniversalis batch edit shortcut no vassal start date end
 	owner = WLS
 	controller = WLS
 	remove_core = ENG

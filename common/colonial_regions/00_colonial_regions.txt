@@ -53,7 +53,7 @@ colonial_alaska = {
 			OR = {
 				primary_culture = welsh
 				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
+				#VU Bugfixes added Celtic versions of Brythonic.
 				primary_culture = celtic_welsh_culture
 				primary_culture = celtic_cornish_culture
 			}
@@ -98,7 +98,7 @@ colonial_alaska = {
 		trigger = { 
 			OR = {
 				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
+				#VU Bugfixes added Celtic versions of Gaelic.
 				primary_culture = celtic_irish_culture
 				primary_culture = celtic_highland_scottish_culture
 			} 
@@ -297,7 +297,7 @@ colonial_canada = {
 			OR = {
 				primary_culture = welsh
 				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
+				#VU Bugfixes added Celtic versions of Brythonic.
 				primary_culture = celtic_welsh_culture
 				primary_culture = celtic_cornish_culture
 			}
@@ -342,7 +342,7 @@ colonial_canada = {
 		trigger = { 
 			OR = {
 				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
+				#VU Bugfixes added Celtic versions of Gaelic.
 				primary_culture = celtic_irish_culture
 				primary_culture = celtic_highland_scottish_culture
 			} 
@@ -556,7 +556,7 @@ colonial_eastern_america = {
 			OR = {
 				primary_culture = welsh
 				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
+				#VU Bugfixes added Celtic versions of Brythonic.
 				primary_culture = celtic_welsh_culture
 				primary_culture = celtic_cornish_culture
 			}
@@ -601,7 +601,7 @@ colonial_eastern_america = {
 		trigger = { 
 			OR = {
 				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
+				#VU Bugfixes added Celtic versions of Gaelic.
 				primary_culture = celtic_irish_culture
 				primary_culture = celtic_highland_scottish_culture
 			} 
@@ -797,7 +797,7 @@ colonial_louisiana = {
 			OR = {
 				primary_culture = welsh
 				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
+				#VU Bugfixes added Celtic versions of Brythonic.
 				primary_culture = celtic_welsh_culture
 				primary_culture = celtic_cornish_culture
 			}
@@ -842,7 +842,7 @@ colonial_louisiana = {
 		trigger = { 
 			OR = {
 				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
+				#VU Bugfixes added Celtic versions of Gaelic.
 				primary_culture = celtic_irish_culture
 				primary_culture = celtic_highland_scottish_culture
 			} 
@@ -1056,7 +1056,7 @@ colonial_california = {
 			OR = {
 				primary_culture = welsh
 				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
+				#VU Bugfixes added Celtic versions of Brythonic.
 				primary_culture = celtic_welsh_culture
 				primary_culture = celtic_cornish_culture
 			}
@@ -1101,7 +1101,7 @@ colonial_california = {
 		trigger = { 
 			OR = {
 				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
+				#VU Bugfixes added Celtic versions of Gaelic.
 				primary_culture = celtic_irish_culture
 				primary_culture = celtic_highland_scottish_culture
 			} 
@@ -1304,7 +1304,7 @@ colonial_mexico = {
 			OR = {
 				primary_culture = welsh
 				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
+				#VU Bugfixes added Celtic versions of Brythonic.
 				primary_culture = celtic_welsh_culture
 				primary_culture = celtic_cornish_culture
 			}
@@ -1349,7 +1349,7 @@ colonial_mexico = {
 		trigger = { 
 			OR = {
 				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
+				#VU Bugfixes added Celtic versions of Gaelic.
 				primary_culture = celtic_irish_culture
 				primary_culture = celtic_highland_scottish_culture
 			} 
@@ -1488,7 +1488,7 @@ colonial_mexico = {
 	}
 }
 
-# The Carribean	-note in BT this is limited to the lesser antilles plus Jamaica and Puerto Rico. Cuba, Florida, and Hispaniola all get their own CR
+# The Carribean	-note in VU this is limited to the lesser antilles plus Jamaica and Puerto Rico. Cuba, Florida, and Hispaniola all get their own CR
 colonial_the_carribean = {
 	color = { 254 117 9 }
 
@@ -1540,7 +1540,7 @@ colonial_the_carribean = {
 			OR = {
 				primary_culture = welsh
 				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
+				#VU Bugfixes added Celtic versions of Brythonic.
 				primary_culture = celtic_welsh_culture
 				primary_culture = celtic_cornish_culture
 			}
@@ -1585,7 +1585,7 @@ colonial_the_carribean = {
 		trigger = { 
 			OR = {
 				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
+				#VU Bugfixes added Celtic versions of Gaelic.
 				primary_culture = celtic_irish_culture
 				primary_culture = celtic_highland_scottish_culture
 			} 
@@ -1787,7 +1787,7 @@ colonial_colombia = {
 			OR = {
 				primary_culture = welsh
 				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
+				#VU Bugfixes added Celtic versions of Brythonic.
 				primary_culture = celtic_welsh_culture
 				primary_culture = celtic_cornish_culture
 			}
@@ -1832,7 +1832,7 @@ colonial_colombia = {
 		trigger = { 
 			OR = {
 				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
+				#VU Bugfixes added Celtic versions of Gaelic.
 				primary_culture = celtic_irish_culture
 				primary_culture = celtic_highland_scottish_culture
 			} 
@@ -2025,7 +2025,7 @@ colonial_peru = {
 			OR = {
 				primary_culture = welsh
 				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
+				#VU Bugfixes added Celtic versions of Brythonic.
 				primary_culture = celtic_welsh_culture
 				primary_culture = celtic_cornish_culture
 			}
@@ -2070,7 +2070,7 @@ colonial_peru = {
 		trigger = { 
 			OR = {
 				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
+				#VU Bugfixes added Celtic versions of Gaelic.
 				primary_culture = celtic_irish_culture
 				primary_culture = celtic_highland_scottish_culture
 			} 
@@ -2266,7 +2266,7 @@ colonial_la_plata = {
 			OR = {
 				primary_culture = welsh
 				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
+				#VU Bugfixes added Celtic versions of Brythonic.
 				primary_culture = celtic_welsh_culture
 				primary_culture = celtic_cornish_culture
 			}
@@ -2311,7 +2311,7 @@ colonial_la_plata = {
 		trigger = { 
 			OR = {
 				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
+				#VU Bugfixes added Celtic versions of Gaelic.
 				primary_culture = celtic_irish_culture
 				primary_culture = celtic_highland_scottish_culture
 			} 
@@ -2518,7 +2518,7 @@ colonial_brazil = {
 			OR = {
 				primary_culture = welsh
 				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
+				#VU Bugfixes added Celtic versions of Brythonic.
 				primary_culture = celtic_welsh_culture
 				primary_culture = celtic_cornish_culture
 			}
@@ -2563,7 +2563,7 @@ colonial_brazil = {
 		trigger = { 
 			OR = {
 				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
+				#VU Bugfixes added Celtic versions of Gaelic.
 				primary_culture = celtic_irish_culture
 				primary_culture = celtic_highland_scottish_culture
 			} 
@@ -2743,7 +2743,7 @@ colonial_australia = {
 			OR = {
 				primary_culture = welsh
 				primary_culture = cornish
-				#BT Bugfixes added Celtic versions of Brythonic.
+				#VU Bugfixes added Celtic versions of Brythonic.
 				primary_culture = celtic_welsh_culture
 				primary_culture = celtic_cornish_culture
 			}
@@ -2788,7 +2788,7 @@ colonial_australia = {
 		trigger = { 
 			OR = {
 				culture_group = gaelic
-				#BT Bugfixes added Celtic versions of Gaelic.
+				#VU Bugfixes added Celtic versions of Gaelic.
 				primary_culture = celtic_irish_culture
 				primary_culture = celtic_highland_scottish_culture
 			} 

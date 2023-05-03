@@ -9,7 +9,7 @@ capital = "Zakynthos"
 base_tax = 1
 base_production = 1
 base_manpower = 1
-trade_goods = pottery		#The gold in this province was easter egg from BT... duh
+trade_goods = pottery		#The gold in this province was easter egg from VU... duh
 is_city = yes
 hre = no
 

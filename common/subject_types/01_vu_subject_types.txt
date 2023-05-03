@@ -151,7 +151,7 @@ default_II = { #Copied default because I'm not 100 percent certain I can refer t
 	subject_opinion_modifier = null
 }
 
-viceroyalty_bt = {
+viceroyalty_vu = {
 	copy_from = default
 	
 	# Graphics:
@@ -200,7 +200,7 @@ viceroyalty_bt = {
 }
 
 #Basically a non-voluntary tributary, but who gives no tribute.... in other words, pretty much worthless. Papal States' goal will be to convert these to vassals via decision, or possibly an event or two.
-papal_subject_bt = {
+papal_subject_vu = {
 	#Note from tributary state entry - If similar subject added check if it needs to be added to these scripted triggers: is_subject_except_tributary_trigger, is_free_or_tributary_trigger . Thanks Paradox person!
 	copy_from = default
 	
@@ -229,22 +229,22 @@ papal_subject_bt = {
 
 	can_fight = {
 		independent_nations = yes
-		same_overlord = papal_holding_bt
+		same_overlord = papal_holding_vu
 		other_overlord = all
 	}
 	can_rival = {
 		independent_nations = yes
-		same_overlord = papal_holding_bt
+		same_overlord = papal_holding_vu
 		other_overlord = all
 	}
 	can_ally = {
 		independent_nations = yes
-		same_overlord = papal_holding_bt
+		same_overlord = papal_holding_vu
 		other_overlord = all
 	}
 	can_marry = {
 		independent_nations = yes
-		same_overlord = papal_holding_bt
+		same_overlord = papal_holding_vu
 		other_overlord = all
 	}
 	
@@ -265,11 +265,11 @@ papal_subject_bt = {
 	modifier_subject = { modifier = subject_nation }
 	modifier_overlord = clear
 
-	overlord_opinion_modifier = bt_is_papal_subject
-	subject_opinion_modifier = bt_is_papal_subject
+	overlord_opinion_modifier = vu_is_papal_subject
+	subject_opinion_modifier = vu_is_papal_subject
 }
 
-fiefdom_bt = {
+fiefdom_vu = {
 	copy_from = default
 	
 	# Graphics:
@@ -311,7 +311,7 @@ fiefdom_bt = {
 	subject_opinion_modifier = is_vassal
 }
 
-hanseatic_league_member_bt = {
+hanseatic_league_member_vu = {
 	copy_from = default
 	
 	# Graphics:

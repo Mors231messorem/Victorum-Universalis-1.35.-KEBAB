@@ -1,4 +1,4 @@
-# No previous file - Beyond Typus new
+# No previous file - Victorum Universalis new
 
 culture = east_taino
 religion = animism
@@ -25,7 +25,7 @@ native_hostileness = 3
 	culture = cosmopolitan_french
 	religion = catholic
 	is_city = yes
-	capital = "Saint Barthélemy"
+	capital = "Saint Barthï¿½lemy"
 	trade_goods = cocoa
 } # Very problematic settlement by Jacques Gentes, despite great resistance from the Caribs, under the authority of French Hospitaller De Poincy
 1673.6.1 = {
@@ -46,5 +46,5 @@ native_hostileness = 3
 	controller = FRA
 	add_core = FRA
 	remove_core = SWE
-	capital = "Saint Barthélemy"
+	capital = "Saint Barthï¿½lemy"
 } #Sold to France again

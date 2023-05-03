@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 owner = ZIA				#Tanoan tag, turning PEU into a formable eventually, following Neprut's lead
 controller = ZIA
@@ -6,7 +6,7 @@ is_city = yes
 add_core = ZIA
 culture = pueblo
 religion = totemism 
-capital = "Ìalopháymup'ohéothèolbo"
+capital = "ï¿½alophï¿½ymup'ohï¿½othï¿½olbo"
 trade_goods = bison_hides
 hre = no 
 base_tax = 1 

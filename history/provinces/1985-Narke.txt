@@ -1,4 +1,4 @@
-#Närke
+#Nï¿½rke
 #Region - Scandinavia
 #Area - Svealand
 
@@ -12,7 +12,7 @@ base_tax = 2
 base_production = 1 
 trade_goods = lead
 base_manpower = 1 
-capital = "Örebro"
+capital = "ï¿½rebro"
 is_city = yes
 center_of_trade = 1
 
@@ -20,7 +20,7 @@ discovered_by = western
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 #1st Shattering unused
 #1st Performance Start Unused
 

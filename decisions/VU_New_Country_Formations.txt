@@ -8,7 +8,7 @@ country_decisions = {
 #I'm also making allow requirements more consistant and stable. General 2 to 3 specific provinces for the main capitals of the tag and 2/3rds of the kingdom's traditional territory, plus 150 dev (50% discount from default 300 to achieve rank 2), and 25 prestige (also 50% discount).
 #For empires, I'm typically going for 3 to 5 specific provinces and 3/4ths of the empire's traditional territory, as well as 500 dev (50% discount from default 1000 to achieve rank 3) and 40 prestige (default 75). Note I am making a few exceptions to all these rules on a case by case basis.
 
-#Note this is the file specifically for new tags in BT & BtP, or for vanilla tags which lack a vanilla decision. Vanilla decisions are moved to BtPLReplaceVanillaCountryFormations.txt and a couple really odd or unique new ones are going in BtPLNewCountryFormationsSpecial.txt.
+#Note this is the file specifically for new tags in VU, or for vanilla tags which lack a vanilla decision. Vanilla decisions are moved to VU_Replace_Vanilla_Country_Formations.txt and a couple really odd or unique new ones are going in VU_New_Country_Formations_Special.txt.
 
 #################################################################################################
 ################################		Austrian Empire 	   ##################################
@@ -136,12 +136,12 @@ country_decisions = {
 ###################################################################################################
 ################################		Belgium			 ##############################################			#Note needs work
 ###################################################################################################
-	#More or less HR's work with only a few adjustments from Draiocht
+	#More or less HR's work with only a few adjustments from Darth Modus
 	belgian_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_belgian_flag_btp }
+			vu_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_belgian_flag_vu }
 			NOT = { tag = BEL }
 			NOT = { tag = NED }
 			NOT = { tag = FRA }
@@ -261,7 +261,7 @@ country_decisions = {
 				add_permanent_claim = BEL
 			}
 			swap_ideas = yes
-			set_country_flag = formed_belgian_flag_btp
+			set_country_flag = formed_belgian_flag_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -272,12 +272,12 @@ country_decisions = {
 ###################################################################################################
 ################################			Emilia			 ##############################################			#Note needs work
 ###################################################################################################
-	#More or less HR's work with only a few adjustments from Draiocht
+	#More or less HR's work with only a few adjustments from Darth Modus
 	emilian_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_emilia_flag_btp }
+			vu_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_emilia_flag_vu }
 			NOT = { tag = EMR }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -330,7 +330,7 @@ country_decisions = {
 			add_prestige = 10
 			#No Emilian ideas yet.
 			swap_ideas = yes
-			set_country_flag = formed_emilia_flag_btp
+			set_country_flag = formed_emilia_flag_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -344,7 +344,7 @@ country_decisions = {
 	french_nation_diplomatically = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
+			vu_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_france_flag }
 			NOT = { tag = FRA }
 			NOT = { tag = BFR }
@@ -726,8 +726,8 @@ country_decisions = {
 	iberian_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_iberia_flag_btp }
+			vu_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_iberia_flag_vu }
 			NOT = { tag = IBE }
 			NOT = { tag = SPA }
 			NOT = { tag = BSP }
@@ -791,7 +791,7 @@ country_decisions = {
 			}
 			#No Iberian ideas yet.
 			# swap_ideas = yes
-			set_country_flag = formed_iberia_flag_btp
+			set_country_flag = formed_iberia_flag_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -802,12 +802,12 @@ country_decisions = {
 ###################################################################################################
 ################################			Illyria			 ##############################################			#Note needs work
 ###################################################################################################
-	#More or less HR's work with only a few adjustments from Draiocht
+	#More or less HR's work with only a few adjustments from Darth Modus
 	illyrian_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_illyria_flag_btp }
+			vu_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_illyria_flag_vu }
 			NOT = { tag = ILY }
 			OR = {
 				culture_group = south_slavic
@@ -888,7 +888,7 @@ country_decisions = {
 			add_prestige = 25
 			#No Illyrian ideas yet.
 			# swap_ideas = yes
-			set_country_flag = formed_illyria_flag_btp
+			set_country_flag = formed_illyria_flag_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -899,10 +899,10 @@ country_decisions = {
 ###################################################################################################
 ################################			Kabylia			 ##############################################
 ###################################################################################################
-	btpl_kabylia_nation = {
+	vu_kabylia_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
+			vu_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_kabylia_flag }
 			NOT = { tag = KBA }
 			OR = {
@@ -957,12 +957,12 @@ country_decisions = {
 ###################################################################################################
 ############			LombardyVenetia (merged both of HR's decisions into one without gov type limits)			 ###########################			#Note needs work
 ###################################################################################################
-	#More or less HR's work with only a few adjustments from Draiocht
+	#More or less HR's work with only a few adjustments from Darth Modus
 	lombardy_venetia_monarchy_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_lombardy_venetia_flag_btp }
+			vu_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_lombardy_venetia_flag_vu }
 			NOT = { tag = LVN }
 			NOT = { tag = ITL }
 			NOT = { tag = ITA }
@@ -1115,7 +1115,7 @@ country_decisions = {
 			swap_ideas = yes
 			#Lombardy-Venetia no unique missions yet has.
 			#swap_non_generic_missions = yes
-			set_country_flag = formed_lombardy_venetia_flag_btp
+			set_country_flag = formed_lombardy_venetia_flag_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -1126,12 +1126,12 @@ country_decisions = {
 ###################################################################################################
 #######################################			Moravia			 ############################################			#Note needs work
 ###################################################################################################
-	#More or less HR's work with only a few adjustments from Draiocht
+	#More or less HR's work with only a few adjustments from Darth Modus
 	moravian_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_moravia_flag_btp }
+			vu_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_moravia_flag_vu }
 			NOT = { tag = GMV }
 			NOT = { tag = PLC }
 			culture_group = west_slavic
@@ -1228,7 +1228,7 @@ country_decisions = {
 			add_prestige = 50
 			#No Moravian ideas yet
 			# swap_ideas = yes
-			set_country_flag = formed_moravia_flag_btp
+			set_country_flag = formed_moravia_flag_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -1239,11 +1239,11 @@ country_decisions = {
 ###################################################################################################
 ################################			Najd			 ##############################################
 ###################################################################################################
-	bt_najd_formation = {
+	vu_najd_formation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_najd_bt }
+			vu_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_najd_vu }
 			NOT = { tag = NAJ }
 			NOT = { tag = ALH }
 			primary_culture = bedouin_arabic
@@ -1304,7 +1304,7 @@ country_decisions = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
-			set_country_flag = formed_najd_bt
+			set_country_flag = formed_najd_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -1312,18 +1312,18 @@ country_decisions = {
 	}
 	
 ###################################################################################################
-################################			Pomerania			 ##############################################			#Done by JP 2019-4 & adjusted a bit by Draiocht
+################################			Pomerania			 ##############################################			#Done by JP 2019-4 & adjusted a bit by Darth Modus
 ###################################################################################################
-#Moved to BtPLReplaceVanillaCountryFormations due to appearing in vanilla in 1.30.
+#Moved to VU_Replace_Vanilla_Country_Formations due to appearing in vanilla in 1.30.
 
 ###################################################################################################
 ################################			Sennar			 ##############################################
 ###################################################################################################
-	bt_sennar_formation = {
+	vu_sennar_formation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_sennar_bt }
+			vu_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_sennar_vu }
 			NOT = { tag = NUB }
 			OR = {
 				tag = FNJ
@@ -1403,7 +1403,7 @@ country_decisions = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
-			set_country_flag = formed_sennar_bt
+			set_country_flag = formed_sennar_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -1417,7 +1417,7 @@ country_decisions = {
 	duchy_warsaw_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
+			vu_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_duchy_of_warsaw }
 			OR = {
 				tag = MAZ
@@ -1544,7 +1544,7 @@ country_decisions = {
 	denmark_norway_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
+			vu_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_denmark_norway }
 			OR = {
 				tag = DAN
@@ -1715,7 +1715,7 @@ country_decisions = {
 	novgorod_rus_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
+			vu_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_novgorod_rus }
 			OR = {
 				tag = NOV
@@ -1856,7 +1856,7 @@ country_decisions = {
 	assyria_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
+			vu_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_neo_assyria }
 			NOT = { tag = PER }
 			OR = {

@@ -52,7 +52,7 @@ give_cores_for_mission = {
 	}
 }
 
-bt_grand_trunk_road_mission_effect = { #This occurs in three mission trees: Bengal, Delhi and generic Indian. I figured I'd put it in a scripted effect to allow for easier additions in new trees and eventual modification.
+vu_grand_trunk_road_mission_effect = { #This occurs in three mission trees: Bengal, Delhi and generic Indian. I figured I'd put it in a scripted effect to allow for easier additions in new trees and eventual modification.
 	custom_tooltip = dlh_grand_trunk_road.tooltip
 	hidden_effect = {
 		every_owned_province = {

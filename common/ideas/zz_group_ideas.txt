@@ -242,7 +242,7 @@ cossack_ideas = {
 	}
 }
 
-#BT Moved here due to it now being culture-wide.
+#VU Moved here due to it now being culture-wide.
 SCO_Ideas = {
 	start = {
 		leader_land_shock = 1
@@ -2421,7 +2421,7 @@ malagasy_ideas = {
 		legitimacy = 1
 	}
 	malagasy_pirate_ports = {
-		#Effects from BTS Ideas
+		#Effects from VU Ideas
 		#embargo_efficiency = 0.1
 		#privateer_efficiency = 0.15
 	}

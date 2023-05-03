@@ -5,7 +5,7 @@ controller = ATS
 add_core = ATS
 culture = picard_culture
 religion = catholic
-capital = "Béthune"
+capital = "Bï¿½thune"
 base_tax = 5
 base_production = 5
 base_manpower = 3
@@ -19,6 +19,6 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 
 #1444 on

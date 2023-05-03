@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 # Do not change tags in here without changing every other reference to them.
 # If adding new dieties, make sure they are uniquely named.
 
@@ -7,8 +8,11 @@ odin = {
 	core_creation = -0.10
 	
 	potential = { religion = norse_pagan_reformed }
+	trigger = {}
 	sprite = 7
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -27,8 +31,11 @@ freya = {
 	global_tax_modifier = 0.1
 	
 	potential = { religion = norse_pagan_reformed }
+	trigger = {}
 	sprite = 8
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -47,8 +54,11 @@ tor = {
 	defensiveness = 0.1
 	
 	potential = { religion = norse_pagan_reformed }
+	trigger = {}
 	sprite = 9
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -79,8 +89,11 @@ tyr = {
 	discipline = 0.05
 	
 	potential = { religion = norse_pagan_reformed }
+	trigger = {}
 	sprite = 10
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -99,8 +112,11 @@ njord = {
 	global_trade_goods_size_modifier = 0.1
 	
 	potential = { religion = norse_pagan_reformed }
+	trigger = {}
 	sprite = 11
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -121,11 +137,14 @@ njord = {
 
 snotra = {
 	technology_cost = -0.05
-	spy_offence = 0.2
+	build_cost = -0.1
 	
 	potential = { religion = norse_pagan_reformed }
+	trigger = {}
 	sprite = 12
 	
+	effect = {}
+	removed_effect = {}
 	ai_will_do = {
 		factor = 1
 		modifier = {

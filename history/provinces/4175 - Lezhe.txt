@@ -1,11 +1,11 @@
-#4175 - repurposed by Draiocht
+#4175 - repurposed by Darth Modus
 #Vanilla 4175 info
 
 owner = VEN
 controller = VEN
 culture = albanian
 religion = orthodox
-capital = "Lezhë"			
+capital = "Lezhï¿½"			
 trade_goods = wine
 hre = no
 base_tax = 3

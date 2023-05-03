@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 ########################################
 # Flavor Events for Bengal
 #
@@ -327,8 +328,8 @@ country_event = {
 		tag = BNG
 		OR = {
 			exists = GBR
-			exists = UNK
 			exists = ENG
+			exists = UNK
 		}
 		is_year = 1640 #Around the time the English started to try to get an Imperial Farman to establish themselves in Bengal.
 		owns_core_province = 561
@@ -336,8 +337,8 @@ country_event = {
 			region = bengal_region
 			OR = {
 				has_discovered = GBR
-				has_discovered = UNK
 				has_discovered = ENG
+				has_discovered = UNK
 			}
 		}
 	}
@@ -363,8 +364,8 @@ country_event = {
 			limit = {
 				OR = {
 					tag = GBR
-					tag = UNK
 					tag = ENG
+					tag = UNK
 				}
 			}
 			add_opinion = { who = BNG modifier = opinion_irritated }
@@ -410,8 +411,8 @@ country_event = {
 				exists = yes
 				OR = {
 					tag = GBR
-					tag = UNK
 					tag = ENG
+					tag = UNK
 				}
 			}
 			add_claim = 561
@@ -435,8 +436,8 @@ country_event = {
 				exists = yes
 				OR = {
 					tag = GBR
-					tag = UNK
 					tag = ENG
+					tag = UNK
 				}
 			}
 			country_event = { id = flavor_bng.11 }

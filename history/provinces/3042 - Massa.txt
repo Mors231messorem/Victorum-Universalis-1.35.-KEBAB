@@ -26,13 +26,13 @@ discovered_by = eastern
 
 #Second Shattering not used
 
-1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
+1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = LUC
 	controller = LUC
 	add_core = LUC
 	remove_core = MSS
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
+1444.11.18 = { #VictorumUniversalis batch edit shortcut second performance start ends
 	owner = MSS
 	controller = MSS
 	add_core = MSS

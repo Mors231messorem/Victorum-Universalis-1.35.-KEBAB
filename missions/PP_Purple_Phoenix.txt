@@ -404,7 +404,7 @@ byz_pp_balkans_north_italy = {
 			}
 		}
 		effect = {
-			custom_tooltip = bt_venice_perm_claims
+			custom_tooltip = vu_venice_perm_claims
 			hidden_effect = {
 				italy_region = {
 					limit = {
@@ -544,11 +544,11 @@ byz_pp_italian = {
 				name = "roman_italy"
 				duration = 5475
 			}
-			custom_tooltip = bt_mission_tooltip_northern_italy_minus_lombardy_perm_claims
+			custom_tooltip = vu_mission_tooltip_northern_italy_minus_lombardy_perm_claims
 			hidden_effect = {
 				italy_region = {
 					limit = {
-						bt_trigger_northeastern_italy_areas = yes
+						vu_trigger_northeastern_italy_areas = yes
 						NOT = { owned_by = ROOT	}
 						NOT = { is_core = ROOT	}
 					}
@@ -565,15 +565,15 @@ byz_pp_italian = {
 		}
 		provinces_to_highlight = {
 			region = italy_region
-			bt_trigger_northeastern_italy_areas = yes
+			vu_trigger_northeastern_italy_areas = yes
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			custom_trigger_tooltip = {
-				tooltip = bt_mission_tooltip_northern_italy_conquest_minus_lombardy
+				tooltip = vu_mission_tooltip_northern_italy_conquest_minus_lombardy
 				#italy_region = {
 				#	type = all
-				#	#bt_trigger_northeastern_italy_areas = yes #Caused bug with mission being impossible to complete
+				#	#vu_trigger_northeastern_italy_areas = yes #Caused bug with mission being impossible to complete
 				#	country_or_non_sovereign_subject_holds = ROOT
 				#}
 				emilia_area = {

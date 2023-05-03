@@ -58,7 +58,7 @@ oyo_cavalry_missions_slot = {
 				}
 				AND = {
 					custom_trigger_tooltip = {
-						tooltip = oyo_trade_with_the_muslims_bt
+						tooltip = oyo_trade_with_the_muslims_vu
 						any_known_country = {
 							any_owned_province = {
 								province_has_center_of_trade_of_level = 1

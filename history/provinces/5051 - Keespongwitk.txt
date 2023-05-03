@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = mikmaq
 religion = totemism 
@@ -42,7 +42,7 @@ discovered_by = north_american
 
 1623.1.1 = {
 	capital = "Fort Lomeron"
-} # Charles de Saint-Étienne de la Tour founds a fort
+} # Charles de Saint-ï¿½tienne de la Tour founds a fort
 
 1632.3.29 = {
 	remove_core = SCO

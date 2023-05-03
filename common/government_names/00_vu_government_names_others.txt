@@ -178,7 +178,7 @@ scottish_vassal_monarchy = {
 	}
 
 	heir_female = {
-		1 = HEIRESSBTP
+		1 = HEIRESS_VU
 		2 = PRINCESS
 		3 = PRINCESS
 	}
@@ -366,7 +366,7 @@ althing_noble_republic = {
 }
 
 ######
-# BT # 
+# VU # 
 ######
 
 gov_puppet_kingdom_of_ireland = { #For released anglo-Ireland under England or similar.
@@ -375,27 +375,27 @@ gov_puppet_kingdom_of_ireland = { #For released anglo-Ireland under England or s
 	}	
 	
 	ruler_male = {
-		2 = BTLORDLIEUTENANT
+		2 = VULORDLIEUTENANT
 	}
 	
 	ruler_female = {
-		2 = BTLORDLIEUTENANTFEMALE	
+		2 = VULORDLIEUTENANTFEMALE	
 	}
 	
 	consort_male = {
-		2 = BTLORDLIEUTENANT
+		2 = VULORDLIEUTENANT
 	}
 
 	consort_female = {
-		2 = BTLORDLIEUTENANTFEMALE
+		2 = VULORDLIEUTENANTFEMALE
 	}
 	
 	heir_male = {
-		2 = BTHEIRAPPARENT
+		2 = VUHEIRAPPARENT
 	}
 
 	heir_female = {
-		2 = BTHEIRAPPARENT
+		2 = VUHEIRAPPARENT
 	}
 
 	trigger = {
@@ -412,7 +412,7 @@ gov_transitional_government_ireland = { #Something to do with viceroyalty anglo-
 	
 	ruler_male = {
 		1 = DUKE
-		2 = BTTRANSITIONALKING
+		2 = VUTRANSITIONALKING
 		3 = EMPEROR
 	}
 	
@@ -441,7 +441,7 @@ gov_transitional_government_ireland = { #Something to do with viceroyalty anglo-
 	}
 
 	heir_female = {
-		1 = HEIRESSBTP
+		1 = HEIRESS_VU
 		2 = PRINCESS
 		3 = PRINCESS
 	}
@@ -593,7 +593,7 @@ gov_norman_lordship = { #Starting Old English minors.
 	}
 
 	heir_female = {
-		1 = HEIRESSBTP
+		1 = HEIRESS_VU
 	}
 	
 	trigger = {
@@ -627,7 +627,7 @@ gov_norman_duchy = { #Norma Duchy formables Munser, Leinster, Ulster & Connacht,
 	}
 
 	heir_female = {
-		1 = HEIRESSBTP
+		1 = HEIRESS_VU
 	}
 	
 	trigger = {
@@ -673,7 +673,7 @@ gov_anglo_irish_monarchy = { #Anglo-Ireland, pretty much.
 	}
 
 	heir_female = {
-		1 = HEIRESSBTP
+		1 = HEIRESS_VU
 		2 = PRINCESS
 		3 = PRINCESS
 	}

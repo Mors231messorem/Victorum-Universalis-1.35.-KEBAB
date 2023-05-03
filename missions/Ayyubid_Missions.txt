@@ -72,7 +72,7 @@ hsn_economic_group = {
 		
 		effect = {
 			add_country_modifier = {
-				name = "bt_hsn_hospitals"
+				name = "vu_hsn_hospitals"
 				duration = 7300
 			}
 		}		
@@ -111,7 +111,7 @@ hsn_economic_group_2 = {
 		
 		effect = {
 			add_country_modifier = {
-				name = "bt_hsn_nobility_crushed"
+				name = "vu_hsn_nobility_crushed"
 				duration = 7300
 			}
 		}		
@@ -151,13 +151,13 @@ hsn_religious_group = {
 					piety = 0.5
 				}
 				add_country_modifier = {
-					name = "bt_hsn_pious_nation"
+					name = "vu_hsn_pious_nation"
 					duration = 7300
 				}
 			}
 			else = {
 				add_country_modifier = {
-					name = "bt_hsn_unpious_nation"
+					name = "vu_hsn_unpious_nation"
 					duration = 7300
 				}
 			}
@@ -257,7 +257,7 @@ hsn_revenge_on_crusaders_group = {
 		effect = {
 			add_prestige = 15
 			add_country_modifier = {
-				name = "bt_hsn_crusaders_conquered"
+				name = "vu_hsn_crusaders_conquered"
 				duration = 5475
 			}
 			aegean_archipelago_area = {
@@ -388,10 +388,10 @@ hsn_conquest_group = {
 					name = "adu_summer_capital"
 					duration = -1
 				}
-				set_province_flag = bt_damascus_restored
+				set_province_flag = vu_damascus_restored
 			}
 			country_event = {
-				id = bt_ayyubid_mission_events.1
+				id = vu_ayyubid_mission_events.1
 			}
 			give_permaclaims_for_mission = { mission=hsn_destroy_mamluks }
 		}
@@ -420,7 +420,7 @@ hsn_conquest_group = {
 			add_prestige = 25
 			add_legitimacy = 25
 			add_country_modifier = {
-				name = "bt_hsn_egypt_reclaimed" #+10% governing capacity
+				name = "vu_hsn_egypt_reclaimed" #+10% governing capacity
 				duration = -1
 			}
 		}
@@ -463,7 +463,7 @@ hsn_conquest_group = {
 		}
 		
 		effect = {
-			country_event = { id = bt_ayyubid_mission_events.2 } #New capital event, choose between the three above.
+			country_event = { id = vu_ayyubid_mission_events.2 } #New capital event, choose between the three above.
 		}
 		
 	}
@@ -492,8 +492,8 @@ hsn_conquest_group = {
 			}
 			add_prestige = 25
 			add_legitimacy = 25
-			add_government_reform = bt_ayyubid_sultanate_reform
-			override_country_name = AYB #Using BT's old country names still in the localisation files.
+			add_government_reform = vu_ayyubid_sultanate_reform
+			override_country_name = AYB #Using VU's old country names still in the localisation files.
 		}
 	}
 }	
@@ -572,14 +572,14 @@ hsn_conquest_group_east = {
 				add_base_tax = 5
 				add_base_production = 5
 				add_base_manpower = 3
-				set_province_flag = bt_baghdad_restored
+				set_province_flag = vu_baghdad_restored
 			}
 			basra_area = {
 				limit = {
 					religion = shiite
 				}
 				add_province_modifier = {
-					name = "bt_hsn_influx_of_sunni_population"
+					name = "vu_hsn_influx_of_sunni_population"
 					duration = 7300
 				}
 			}
@@ -588,7 +588,7 @@ hsn_conquest_group_east = {
 					religion = shiite
 				}
 				add_province_modifier = {
-					name = "bt_hsn_influx_of_sunni_population"
+					name = "vu_hsn_influx_of_sunni_population"
 					duration = 7300
 				}
 			}
@@ -618,7 +618,7 @@ hsn_conquest_group_east = {
 		
 		effect = {
 			add_country_modifier = {
-				name = "bt_hsn_new_caliphate"
+				name = "vu_hsn_new_caliphate"
 				duration = 7300
 			}
 			add_prestige = 15
@@ -663,7 +663,7 @@ hsn_tech_internal_group = {
 		effect = {
 			add_innovativeness_big_effect = yes
 			add_country_modifier = {
-				name = "bt_hsn_madrasas"
+				name = "vu_hsn_madrasas"
 				duration = 7300
 			}
 		}

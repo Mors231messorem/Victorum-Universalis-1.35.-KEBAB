@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 ########################################
 # Event for Switzerland
 #
@@ -380,7 +381,7 @@ country_event = {
 		if = {
 			limit = { 
 				tag = SWI
-				#mission_completed = emp_swi_start
+				mission_completed = emp_swi_start
 			}
 			inherit = TTL
 		}
@@ -745,7 +746,10 @@ country_event = {
 			limit = {
 				GNV = { exists = no }
 			}
-			create_vassal = GNV
+			create_subject = {
+				who = GNV
+				subject_type = vassal
+			}
 		}
 		GNV = {
 			change_government = theocracy
@@ -842,11 +846,11 @@ country_event = {
 			}
 			change_religion = reformed
 		}
-		change_government_to_theocracy = yes
+		change_government = theocracy
 		add_government_reform = united_cantons_reform
 		#set_legacy_government = theocratic_government
 		define_ruler = {
-			name = "John"
+			name = "Jean"
 			dynasty = "Calvin"
 			culture = normand
 			religion = reformed
@@ -1052,7 +1056,7 @@ country_event = {
 			factor = 100
 		}
 		SWI = {
-			change_government_to_republic = yes
+			change_government = republic
 			add_government_reform = military_dictatorship_reform
 			#set_legacy_government = republican_dictatorship
 		}

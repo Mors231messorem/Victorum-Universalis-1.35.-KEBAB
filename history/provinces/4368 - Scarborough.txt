@@ -24,13 +24,13 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = DUR
 	controller = DUR
 	remove_core = ENG
 	add_local_autonomy = -90
 }
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
 	owner = ENG
 	controller = ENG
 	add_core = ENG

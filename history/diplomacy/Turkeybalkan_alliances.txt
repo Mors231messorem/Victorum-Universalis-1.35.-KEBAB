@@ -86,13 +86,13 @@ vassal = {
 	first = BYZ
 	second = LES
 	start_date = 1444.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 vassal = {
 	first = BYZ
 	second = LES
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1453.5.29
 }
 
@@ -192,14 +192,14 @@ vassal = {
 	first = TRE
 	second = FEO
 	start_date = 1444.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 #Evidence I found says feo was a vassal state of the empire of Trebizond, and Trenizond's last remaining holding before the Ottomans completely took over.
 vassal = {
 	first = TRE
 	second = FEO
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1461.1.1
 }
 

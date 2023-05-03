@@ -98,7 +98,7 @@ dan_secure_baltic_mission_slot = {
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = dan_eliminate_the_hanse_bt
+					tooltip = dan_eliminate_the_hanse_vu
 					45 = {
 						trade_share = {
 							country = ROOT
@@ -326,7 +326,7 @@ dan_secure_baltic_mission_slot = {
 					is_random_new_world = yes
 				}
 				custom_trigger_tooltip = {
-					tooltip = dan_push_westwards_bt
+					tooltip = dan_push_westwards_vu
 					new_world = {
 						has_discovered = ROOT
 						has_port = yes
@@ -1877,7 +1877,7 @@ dan_sweden_and_great_power_mission_slot = {
 			}
 			else = {
 				custom_trigger_tooltip = {
-					tooltip = dan_a_danish_great_power_bt
+					tooltip = dan_a_danish_great_power_vu
 					NOT = {
 						any_known_country = {
 							total_own_and_non_tributary_subject_development = ROOT

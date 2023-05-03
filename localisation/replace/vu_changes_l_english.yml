@@ -46,9 +46,9 @@
 
  #Trade Nodes
  wien:0 "Vienna"
- pest:0 "Belgrade"            #Changed in BT12 from Danube.
+ pest:0 "Belgrade"            #Changed in VU 12 from Danube.
  alexandria:0 "Alexandria"
- 
+
  #Trade Goods
  grain:0 "Wheat"
  grainDESC:0 "Wheat is one of the world's most commonly consumed cereal grains. It comes from a type of grass (Triticum) that is grown in countless varieties worldwide. White and whole-wheat flour are key ingredients in baked goods, such as bread. Other wheat-based foods include pasta, noodles, semolina, bulgur, and couscous."
@@ -76,7 +76,7 @@
  regional_market_desc:0 "This province contains a Regional Bazaar where people and traders from across the region gather to seek out bargain items, either to keep or re-sell to eager customers."
  world_trade_center:0 "Grand Emporium"
  world_trade_center_desc:0 "This province contains a Grand Emporium and is one of the most important trade centers in the world. There are few goods that cannot be found here and the city itself is famous worldwide!"
- 
+
  #Technology - Added Techs and Ideas
  adm_tech_cs_33_name:0 "Four Field Rotation"
  adm_tech_cs_34_name:0 "Railroads"
@@ -748,7 +748,7 @@
  #TCP - Tag Changes
  ZUL:0 "Zulu"
  ZUL_ADJ:0 "Zulu"
-  
+
  #Tag Changes
  CNN:0 "Connacht"
  CNN_ADJ:0 "Connachtan"
@@ -797,7 +797,7 @@
  HRZ:0 "Hum"            #Duchy of Saint Sava
  HRZ_ADJ:0 "Human"          #Yup, going with this
 
- #Institution Overhauls, formerly part of Misc Addon but annexed to BT proper in 10.0 with dev doubling
+ #Institution Overhauls, formerly part of Misc Addon but annexed to VU proper in 10.0 with dev doubling
  tooltip_development_10:0 "Developed province (10 or above)"
  tooltip_development_20:0 "Highly developed province (20 or above)"
  tooltip_development_5_post_1500:0 "Lightly developed (5 or above) after 1500"
@@ -937,8 +937,8 @@
  eng_rb_british_burma_desc:0 "With our establishments firmly in place along the Indian sub-continent, tales of a nearby land known as Burma have started to circulate amongst our local gentry, most likely spread by our Indian subjects. These tales involve vast jungle canopies and strange animals that roam within them, only to be surpassed in size and scope by tall triangular shaped temple roofs known as "Pagodas". These temples are not only only held in admiration and respect by locals and Buddhist monks alike but because of the Golden pagan images and statues of Buddha himself that can be found within them. Explorers are already preparing to leave and journey from nearby ports such as Bombay and Calcutta, hoping to venture into Burma's jungles and find artifacts of great value. We as the acting government must not only make sure that our brave countrymen are well taken care of and supplied but also to guarantee them any military assistance if necessary; Burma must fall to British rule!"
  eng_rb_british_malaya_title:0 "Welcome to Singapore"
  eng_rb_british_malaya_desc:0 "With Burma now under our control and trade booming in India and back home, our military and economic advisors have suggested that the next step we must take should be the conquest of the nearby Islamic kingdoms on the Malayan Peninsula. An island roughly the size of the Isle of Man lies south of the Peninsula and our naval strategist have concluded with the Royal Army that a fortified settlement or base should be established there as soon as possible for this island has direct control over the Malacca straits, including all the trade that flows to India, coming in from China and East Asia. Just thinking of the potential profits one could make here should make one rather light-headed."
- eng_rb_british_borneo_title:0 "Sultan of Brunei"
- eng_rb_british_borneo_desc:0 "Scouts from our new bases in Singapore and Malacca have sighted white buildings with golden roofs sitting along the northern shores of the island of Borneo. They have informed us of the strange Islamic-like colours that fly above these strange roofs and when asking a local fisherman who lives their, they replied "the Great Sultan of Brunei". If these sightings are indeed true and if there is such a ruler with the title, then we must as a nation endeavor to not only take this nation by force "if needs be" and its riches but also the posthumous title that goes with it."
+ eng_rb_british_borneo_title:0 "Sultanate of Brunei"
+ eng_rb_british_borneo_desc:0 "Sailors aboard merchant vessels sailing along our newly found South China Sea trade routes have reported to local officials sightings what seem to be white golden roofed buildings standing along the northern shores of the island of Borneo. They have informed us of the strange Islamic banners flying above these strange roofs. When local fishermen were asked "who lives there" they replied "the Great Sultan of Brunei" and his many wives reside in those buildings. If these sightings are indeed true and if there is such a ruler with the title, then we must naturally endeavor as a civilised nation to not only investigate these occurences but if necessary take this nation, her spoils and convert its people to Christianity, whilst seizing the said posthumous title of 'Sultan' that goes with it."
  eng_rb_british_kowloon_title:0 "Gold, Silk, Tea & Opium"
  eng_rb_british_kowloon_desc:0 "With over 200 million inhabitants and vast sways of land as far as the eyes can see, China has a long history of being invaded by covetous foreign neighbors, who are not drawn purely on China's abundant riches but its potential to be a great market for their goods, since one does not have to sell much in China in order to get rich. The trade that flows out of Chinese ports such as Canton can not be understated, for the Pearl River Estuary is the main financial artery into and out of China and is always busily crowded with ships "Junks" that are laden with gold, silks, tea, china-wares and other precious goods and commodities. Through our observations and analysis of China's situation. The Admiralty has concluded that Britain must take a slice of the pie, which can be done through the seizure of a remote and relatively ignored island known as Kowloon. Kowloon it-self has no fresh water source and is very sparsely populated with people primarily concentrated within the small fishing village of Hong Kong. This may present a problem in the future, for the only way to grow any potential settlement there is to venture forth onto the mainland and seize a chunk of the adjacent shore. China though has vast armies can still pack quite a punch en-mass despite being technologically backwards. This is why the military board has suggested that in order for us to take Kowloon and any nearby land that we must carry out a different tactic, one involving a certain drug known as Opium! The Chinese are addicted to this stuff and hopefully will be too stoned to do anything or stand up to our armies when battle on land or at sea commences. Our government has also ordered us to take any peace offer involving the island of Kowloon and the nearby adjacent lands, even if it only means renting the island for 100 years, since the money we'll make off trade there will more than surpass any maintenance costs that this potential new colony will incur."
  eng_rb_take_palestine_title:0 "Holy Lands"
@@ -978,8 +978,8 @@
  eng_hre_emperor_desc:0 "Our fortunes are on the rise. Kings bow before our majesty, nations cave before our forces. There is only one throne greater than ours left to topple."
  eng_take_abyssinia_title:0 "The Mines of Solomon"
  eng_take_abyssinia_desc:0 "Tales of this mysterious land go back to ancient times when it is said the Queen of Sheba's armies once guarded the legendary "Mines of Solomon" and that one of God's treasures, the "Arc of the Covenant" also resides in these lands. With Somaliland in the north secured, maybe it is time for us to send an expeditionary force into the forested hills and jungle mountains of Abyssinia."
- england_discovers_india_title:0 "It's Just Business"
- england_discovers_india_desc:0 "India since immemorial continues to lure traders from across the known world, thus making them and the Indian sub-continent very rich indeed. However, our geographical position in Europe and the long over-land trade routes that go through Muslim lands puts not only our nation's merchants in danger from attacks but barely keeps the whole enterprise at break-even when considering distances traveled, since goods are either lost, plundered or have gone off before they even reach our ports. This not only gives our competitors and those closer to India in terms of geography the upper edge when it comes to profits. This cannot go on if we are to maintain the people's support in this enterprise. We must therefore outfit an expedition in order to find alternative sea route to India and the spice islands. Now, recent plundering of our enemies ships have led to us to discover Portuguese charts that seem to show a southern route from the North West coast of Africa, down to the tip or "Cape of Good Hope", around that and into the Indian Ocean before sailing up the coast of East Africa to the Horn, before setting a course East till land is sighted. Thankfully, the French have not yet had any word of this discovery, so we must be quick to grab this opportunity before they do!"
+ #england_discovers_india_title:0 "It's Just Business"
+ #england_discovers_india_desc:0 "India since immemorial continues to lure traders from across the known world, thus making them and the Indian sub-continent very rich indeed. However, our geographical position in Europe and the long over-land trade routes that go through Muslim lands puts not only our nation's merchants in danger from attacks but barely keeps the whole enterprise at break-even when considering distances traveled, since goods are either lost, plundered or have gone off before they even reach our ports. This not only gives our competitors and those closer to India in terms of geography the upper edge when it comes to profits. This cannot go on if we are to maintain the people's support in this enterprise. We must therefore outfit an expedition in order to find alternative sea route to India and the spice islands. Now, recent plundering of our enemies ships have led to us to discover Portuguese charts that seem to show a southern route from the North West coast of Africa, down to the tip or "Cape of Good Hope", around that and into the Indian Ocean before sailing up the coast of East Africa to the Horn, before setting a course East till land is sighted. Thankfully, the French have not yet had any word of this discovery, so we must be quick to grab this opportunity before they do!"
  eng_rb_establish_trade_in_american_cot_virginia_company_title:0 "Glory, God & Gold"
  eng_rb_establish_trade_in_american_cot_virginia_company_desc:0 ""In sixteen hundred seven, we sailed the open sea! For glory, God and gold and the Virginia Company! For the New World is like heaven and we'll all be rich and free! Or so we have been told by the Virginia Company! So we have been told by the Virginia Company! For glory, God and gold and the Virginia Company!" So the song goes, as eager men "young and old" embark on ships headed for the New World, to the newly discovered lands of Virginia. Glory and Gold they say awaits them there and that God is with them, but who knows what they'll really find? One things for certain though. It won't be these men claiming Glory and Gold but ENGLAND herself and nothing, not even some young naive princess of a savage tribe will stop us!"
  eng_rb_establish_trade_in_american_cot_title:1 "Hudson Bay Company"
@@ -1115,7 +1115,7 @@
  eng_brittany_claims:0 "Grants permanent claims on the provinces required for the mission §YConquer Brittany§!"
  treaty_port:0 "Treaty Port"
  desc_treaty_port:0 "This is a port ceded by the Chinese government from where [From.Owner.GetAdjective] merchants can trade freely with the Chinese mainland."
- 
+
  #BYZ Modifiers
  greece_is_ours:0 "Greece is Ours"
  desc_greece_is_ours:0 "Let it be known that we have successfully retaken Greece from the heathens and infidels. Tear down those minarets and cleanse the Acropolis of the barbarian filth."
@@ -1205,7 +1205,7 @@
  canal_events.24.t:0 "Suez Canal - Second Phase Finished"
  canal_events.24.d:0 "By what has been considered an unprecedented construction effort in the region, the construction of the Suez Canal - Second Phase connecting the Great Bitter Lake to the Mediterranean Sea has now been completed in [Root.GetName]. Not only this, but we have now finally completed our goal of linking both the Red and Mediterranean seas. Our fleets can now move between these two key areas quicker and safer, giving us opportunity for both unique military maneuvers and trade projects."
  dlc018_reason_second_suez_canal:0 "The §YWealth of Nations Expansion§! adds the ability to build the §YSuez Canal - Second Phase§!, as well as various diplomatic and trade actions and activities."
- dlc018_reason_second_suez_canal_reason:1 "\nWe're recommending this expansion as you've picked the §YMamluks§!, who start as the owners of §YSuez§!." 
+ dlc018_reason_second_suez_canal_reason:1 "\nWe're recommending this expansion as you've picked the §YMamluks§!, who start as the owners of §YSuez§!."
  #
  #GREAT WORKS - Added in VU and by San Felipe
  MODIFIER_YEARS_OF_NATIONALISM:0 "Years of Separatism"
@@ -1263,7 +1263,7 @@
  SOCIALIST_FEDERATION:0 "Socialist Federation"
  GENERAL_SECRETARY:0 "General Secretary"
  GENERAL_SECRETARY_F:0 "General Secretary"
- 
+
  #VU addition by San Felipe
  scottish_monarchy_legacy:0 "Scottish Monarchy"
  scottish_monarchy_legacy_desc:0 "The Scottish Monarchy is a feudal monarchy, with a privy council called regularly that advise the ruling monarch on administrative, economic and the social affairs of Scotland. It is based on the King's Council or curia regis."
@@ -1271,7 +1271,7 @@
  scottish_monarchy_desc:0 "The Scottish Monarchy is a feudal monarchy, with a privy council called regularly that advise the ruling monarch on administrative, economic and the social affairs of Scotland. It is based on the King's Council or curia regis."
  scottish_monarchy_ruler:0 "King of Scots"
  scottish_monarchy_ruler_female:0 "Queen of Scots"
- 
+
 
  #SOCIAL REFORMS - Added in VU by San Felipe
  #HEADER_SOCIAL_REFORMS:0 "Decisions and Social Reforms"
@@ -1410,19 +1410,19 @@
  ha_bolt_action:0 "Xoloti Bolt Action Infantry"
  mauser_gewehr_98:0 "Mauser Infantry"
  mauser_gewehr_98DESCR:0 "The Gewehr 98 is a German bolt-action Mauser rifle firing cartridges from a 5-round internal clip-loaded magazine that was the German service rifle from 1898 to 1935."
- 
+
  ironclad:0 "Ironclad"
  ironcladDESCR:0 "An ironclad was a steam-propelled warship protected by iron or steel armour plates. The ironclad was developed as a result of the vulnerability of wooden warships to explosive or incendiary shells."
-  
- destroyer:0 "Destroyer" 
+
+ destroyer:0 "Destroyer"
  destroyerDESCR:0 "Prior to World War II, destroyers were light vessels with little endurance for unattended ocean operations. Typically a number of destroyers and a single destroyer tender operated together."
- 
+
  sloop_of_war:0 "Sloop of War"
  sloop_of_warDESCR:0 "a sloop-of-war in the Royal Navy was a warship with a single gun deck that carried up to eighteen guns. The rating system covered all vessels with 20 guns and above; thus, the term sloop-of-war encompassed all the unrated combat vessels, including the very small gun-brigs and cutters."
- 
+
  steam_frigate:0 "Steam Frigate"
  steam_frigateDESCR:0 "Steam frigates, also known as screw frigates, and the smaller steam corvettes and steam sloops were steam-powered warships. The first such ships were steam-powered versions of the traditional frigates, corvettes, and sloops."
- 
+
  torpedo_boat:0 "Torpedo Boat"
  torpedo_boatDESCR:0 "A torpedo boat is a relatively small and fast naval ship designed to carry torpedoes into battle. The first designs rammed enemy ships with explosive spar torpedoes, and later designs launched self-propelled Whitehead torpedoes. They were created to counter battleships and other slow and heavily armed ships by using speed, agility, and the power of their torpedo weapons."
 
@@ -2044,7 +2044,7 @@
  gettysburg_national_cemetery_title: "Strengthen Gettysburg National Cemetery"
  construct_gettysburg_national_cemetery_title: "Strengthen Gettysburg National Cemetery"
  construct_gettysburg_national_cemetery_desc: "Gettysburg National Cemetery."
- # 
+ #
  great_project_fort_san_augustine: "Castillo de San Marcos"
  fort_san_augustine: "Castillo de San Marcos"
  fort_san_augustine_title: "Strengthen Castillo de San Marcos"
@@ -3209,7 +3209,7 @@
  establish_usa_colony_desc:0 "The fertile temperate woodlands of the eastern coast of North America would make a fine location for a new colony. Let us establish a new settlement on these distant shores at once!"
  establish_carribean_colony_title:0 "Establish a colony in the Antilles"
  establish_carribean_colony_desc:0 "The tiny islands of the Caribbean produce sugar, exotic timber, spices, coffee, tobacco and more far in excess of what their modest sizes would suggest and the region's central location makes it an ideal trade hub. We should establish a presence there without delay to take advantage of this potential!"
- 
+
  miss_colonize_caribbean:0 "§Y[Root.GetName]§! or their subjects own at least 5 province in the Antilles colonial region."
  miss_discover_caribbean:0 "§Y[Root.GetName]§! has discovered any province in the Caribbean."
 
@@ -3222,7 +3222,7 @@
  desc_grain_bonus_prod:0 "Our breweries are boosting the production of Beer in this province."
  english_monarchy:0 "British Monarchy"
  english_monarchy_desc:0 "The British Monarchy is a representative monarchy, with a parliament called regularly by the ruling monarch. It is based on the privileges defined in Magna Carta."
-  
+
  #VU new ages changes by letole
  obj_discover_america_desc:0 "As a nation with a capital in the Old World, discover at least one province in the New World and have §YQuest for the New World§!."
  obj_3_trade_companies: "Five Trade Companies"
@@ -3230,13 +3230,13 @@
 
  #Mission Corrections (probably temporary, no real need to translate)
  fra_carib_colony.tooltip:0 "§Y[Root.GetName]§! or their subjects own at least §Y5§! fully colonized provinces in the Colonial Antilles"
- 
+
  #VU Monument Categorisation
  TIER_0_DESCRIPTION:0 "Insignificant"
  TIER_1_DESCRIPTION:0 "Significant"
  TIER_2_DESCRIPTION:0 "Great"
  TIER_3_DESCRIPTION:0 "Magnificent"
- 
+
  #OK Buildings
  #Production
  building_workshop:0 "Workshop"
@@ -3262,8 +3262,7 @@
  #Taxation
  building_temple:0 "Temple"
  building_cathedral:0 "Cathedral"
- 
+
  #VU German Nation
  german_nation_title:0 "Form German Nation Diplomatically"
  german_nation_desc:0 "Regardless of the absence of a strong, central authority, our nation is prospering. The Hanseatic League, formed by hundreds of towns in northern Germany, has contributed to the prosperity of our nation. Intellectual growth, combined with sea and overland trading, has also helped spur the development and transform our country into a wealthy manufacturing center."
- 

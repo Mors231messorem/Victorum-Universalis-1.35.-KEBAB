@@ -30,13 +30,13 @@ center_of_trade = 2
 extra_cost = 20
 
 
-1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
+1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = CRO
 	controller = CRO
 	add_core = CRO
 	remove_core = RIJ
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
+1444.11.18 = { #VictorumUniversalis batch edit shortcut second performance start ends
 	owner = RIJ
 	controller = RIJ
 	add_core = RIJ

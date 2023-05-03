@@ -1,14 +1,15 @@
-########################################
-# Events for Various Leagues
-#
-# written by Johan Andersson
-########################################
+#VU updated by San Felipe for 1.35
+##############################
+# Events for Various Leagues #
+#                            #
+# written by Johan Andersson #
+##############################
 
 namespace = league_events
 
-###############################
-# League of Augsburg
-###############################
+######################
+# League of Augsburg #
+######################
 country_event = {
 	id = league_events.1
 	title = league_events.1.t

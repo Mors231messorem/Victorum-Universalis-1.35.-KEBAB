@@ -46,13 +46,13 @@ discovered_by = eastern
 	base_production = 8
 	base_manpower = 4
 }	#Finally fully part of Florence, Pisa lost its independent history and would be relegated to the role of a mid sized port for Florence, and after a while, not even that, as Livorno grew. Note Livorno is also in this province, so not moving dev around for that.
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = PIS
 	controller = PIS
 	add_core = PIS
 	remove_core = LAN
 }
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
 	owner = LAN
 	controller = LAN
 	add_core = LAN
@@ -74,7 +74,7 @@ discovered_by = eastern
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-} # The Treaty of Lunéville
+} # The Treaty of Lunï¿½ville
 1801.3.21 = {	owner = ETR
 	controller = ETR
 	add_core = ETR

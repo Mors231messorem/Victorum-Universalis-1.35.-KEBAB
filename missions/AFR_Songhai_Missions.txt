@@ -105,7 +105,7 @@ songhai_military_slot = {
 			}
 			else = {
 				custom_trigger_tooltip = {
-					tooltip = son_win_battles_bt
+					tooltip = son_win_battles_vu
 					always = no
 				}
 			}
@@ -1111,7 +1111,7 @@ songhai_question_mark_slot = {
 				limit = {
 					has_dlc = "Cradle of Civilization"
 				}
-				custom_tooltip = son_invite_foreign_scholars_bt
+				custom_tooltip = son_invite_foreign_scholars_vu
 				if = {	# trigger_switch didn't show the tooltip :/
 					limit = {
 						has_country_modifier = hanafi_scholar_modifier
@@ -1454,7 +1454,7 @@ songhai_jihad_slot = {
 				limit = {
 					has_dlc = "Cradle of Civilization"
 				}
-				custom_tooltip = son_invite_foreign_scholars_bt
+				custom_tooltip = son_invite_foreign_scholars_vu
 				if = {	# trigger_switch didn't show the tooltip :/
 					limit = {
 						has_country_modifier = hanafi_scholar_modifier

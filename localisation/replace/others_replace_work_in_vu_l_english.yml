@@ -84,7 +84,7 @@
  TURKISH_SULTANATE_CROWN_PRINCE:0 "Efendi" #Turkish Crown-Prince
 
 
- #This file contains localisation work not done by Draiocht, organised by contributor.
+ #This file contains localisation work not done by Darth Modus, organised by contributor.
 
  ##################################################################################################
  ##################################################################################################
@@ -811,7 +811,7 @@
  ##################################################################################################
  ##################################################################################################
  ##################################################################################################
- #Rename Tags BT13.0
+ #Rename Tags VU 13.0
  #Welsh Marches tag semi repurposed to represent the Mortimer and later York Earls of March. Subsidary titles include Earl of Shropshire, Lord of Wigmore, of Radnor, of Montgomery, of Denbigh and of Trim.
  WMC:1 "March"
  WMC_ADJ:1 "Marcher"
@@ -823,7 +823,7 @@
  ALS_ADJ:1 "Alsatian"
  #HRZ:1 "Saint Sava"
  #HRZ_ADJ:1 "Saint Savan
- #Rename Provinces BT13.0
+ #Rename Provinces VU 13.0
  PROV4373:2 "South Devon"
  PROV_ADJ4373:2 "South Devon"
  PROV4369:2 "Pembroke"
@@ -900,7 +900,7 @@
  PROV245:2 "York"
  PROV4370:2 "Cambridge"
  PROV69:2 "Ravensberg"
- #Rename Areas in BT13.0
+ #Rename Areas in VU 13.0
  wales_area:2 "Gwynedd"
  wales_area_name:2 "Gwynedd"
  wales_area_adj:2 "Gwynedd"
@@ -922,11 +922,11 @@
  #upper_swabia_area:2 "Upper Swabia"
  #lower_swabia_area:2 "Lower Swabia"
  lower_rhineland_area:2 "South Rhine"
- #Rename Cultures in BT13.0
+ #Rename Cultures in VU 13.0
  schlesian:2 "High Silesian"
  saxon:2 "High Saxon"
  lower_saxon:2 "Low Saxon"
- #Rename Trade Companies in BT13.0
+ #Rename Trade Companies in VU 13.0
  #Rename Superregions
  south_america_superregion:2 "South America"
  africa_superregion:2 "Africa"

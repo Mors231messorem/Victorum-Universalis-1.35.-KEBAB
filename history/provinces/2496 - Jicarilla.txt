@@ -18,21 +18,21 @@ native_hostileness = 3
 
 discovered_by = north_american
 
-#1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+#1444.11.12 = { #VictorumUniversalis batch edit shortcut native start date begin
 #	owner = QQF			#Apache (Jicarilla)
 #	controller = QQF
 #	add_core = QQF
 #	is_city = yes
 #	trade_goods = wool
 #}
-#1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+#1444.11.14 = { #VictorumUniversalis batch edit shortcut native start date end
 #	owner = XXX
 #	controller = XXX
 #	remove_core = QQF
 #	is_city = no
 #	trade_goods = unknown
 #}
-#This is still vanilla, I'll handle it later, when I do the plains and Texas -Draiocht
+#This is still vanilla, I'll handle it later, when I do the plains and Texas -Darth Modus
 1710.1.1 = {
 	owner = COM
 	controller = COM

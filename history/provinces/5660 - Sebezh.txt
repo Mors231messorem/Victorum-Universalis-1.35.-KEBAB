@@ -1,4 +1,4 @@
-#New Beyond Typus Province
+#New Victorum Universalis Province
 
 owner = PSK
 controller = PSK
@@ -38,7 +38,7 @@ discovered_by = ottoman
 	add_local_autonomy = -15
 } # Moscovy builds a fort and claims the region
 1547.4.16 = { owner = RUS controller = RUS add_core = RUS remove_core = MOS }	#Ivan IV (the Terrible) crowned 'Tsar of all Russians'
-1616.1.1 = { controller = PLC }	#Polish–Muscovite War
+1616.1.1 = { controller = PLC }	#Polishï¿½Muscovite War
 1618.12.11 = {
 	owner = PLC
 	add_core = PLC

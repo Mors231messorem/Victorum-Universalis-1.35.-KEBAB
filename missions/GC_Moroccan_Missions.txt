@@ -662,7 +662,7 @@ gc_morocco_3 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
-			#tafilalt_area = { #Tafilalt starts owned by MOR and subjects, doesn't seem neccesary in BT
+			#tafilalt_area = { #Tafilalt starts owned by MOR and subjects, doesn't seem neccesary in VU
 			#	type = all
 			#	country_or_non_sovereign_subject_holds = ROOT	
 			#}
@@ -891,7 +891,7 @@ gc_morocco_4 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			#tafilalt_area = { #Tafilalt starts owned by MOR and subjects, doesn't seem neccesary in BT
+			#tafilalt_area = { #Tafilalt starts owned by MOR and subjects, doesn't seem neccesary in VU
 			#	limit = {
 			#		NOT = { is_permanent_claim = ROOT	}
 			#		NOT = { is_core = ROOT	}

@@ -1,11 +1,11 @@
-#New Beyond Typus Province
+#New Victorum Universalis Province
 
 owner = TLC
 controller = TLC
 add_core = TLC
 culture = berber
 religion = sunni
-capital = "Ténès"
+capital = "Tï¿½nï¿½s"
 trade_goods = grain
 hre = no
 base_tax = 3 

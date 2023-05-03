@@ -253,7 +253,7 @@ kilwa_internal_missions_slot = {
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = zan_establish_contact_with_persia_bt
+					tooltip = zan_establish_contact_with_persia_vu
 					2218 = {
 						owner = {
 							OR = {
@@ -664,7 +664,7 @@ kilwa_trade_conquest_missions_slot = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = zan_centralize_trade_bt
+				tooltip = zan_centralize_trade_vu
 				OR = {
 					1191 = { OR = { is_strongest_trade_power = ROOT trade_share = { country = ROOT share = 30 } } }
 					4346 = { OR = { is_strongest_trade_power = ROOT trade_share = { country = ROOT share = 30 } } }

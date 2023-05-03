@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = paiute_culture
 religion = totemism 
-capital = "Küpadökadö" 
+capital = "Kï¿½padï¿½kadï¿½" 
 trade_goods = unknown
 hre = no 
 base_tax = 1 

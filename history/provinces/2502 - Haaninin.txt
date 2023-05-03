@@ -6,7 +6,7 @@ add_core = KIO
 is_city = yes
 culture = kiowa
 religion = totemism
-capital = "Cáuiqop"			#Kiowa mountain, probably/possibly Bearpaw mountains
+capital = "Cï¿½uiqop"			#Kiowa mountain, probably/possibly Bearpaw mountains
 trade_goods = fur
 hre = no
 base_tax = 1 
@@ -19,14 +19,14 @@ native_hostileness = 2
 discovered_by = north_american
 
 
-1444.11.15 = { #BeyondTypus batch edit shortcut no native start date begin
+1444.11.15 = { #VictorumUniversalis batch edit shortcut no native start date begin
 	owner = XXX
 	controller = XXX
 	remove_core = KIO
 	is_city = no
 	trade_goods = unknown
 }
-1444.11.17 = { #BeyondTypus batch edit shortcut no native start date end
+1444.11.17 = { #VictorumUniversalis batch edit shortcut no native start date end
 	owner = KIO
 	controller = KIO
 	add_core = KIO

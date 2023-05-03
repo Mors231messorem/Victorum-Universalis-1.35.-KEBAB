@@ -9,7 +9,7 @@ religion = catholic
 hre = yes 
 base_tax = 14
 base_production = 14
-trade_goods = cloth			# very rich, glasswork and jewelry are traditional, and the wine came from nearby regions anyway. Also well known for fashion -yes, even in the middle ages, and weaving. Draiocht changed from glass to cloth, as much for secondary bonus as for history, though also because Italy has a lot of glass already
+trade_goods = cloth			# very rich, glasswork and jewelry are traditional, and the wine came from nearby regions anyway. Also well known for fashion -yes, even in the middle ages, and weaving. Darth Modus changed from glass to cloth, as much for secondary bonus as for history, though also because Italy has a lot of glass already
 base_manpower = 9
 fort_15th = yes
 capital = "Firenze" 
@@ -46,7 +46,7 @@ discovered_by = ottoman
 	owner = FRA
 	controller = FRA
 	add_core = FRA
-} # The Treaty of Lunéville
+} # The Treaty of Lunï¿½ville
 1801.3.21 = {
 	owner = ETR
 	controller = ETR

@@ -538,7 +538,7 @@ gc_tunis_5 = {
 			if = {
 				limit = {
 					has_dlc = "Dharma"
-					358 = { #Alexandria ain't a CoT in BT, so this is true 99% of the time unless another mission adds a CoT here.
+					358 = { #Alexandria ain't a CoT in VU, so this is true 99% of the time unless another mission adds a CoT here.
 						NOT = {
 							province_has_center_of_trade_of_level = 3
 						}

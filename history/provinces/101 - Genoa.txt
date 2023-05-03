@@ -28,7 +28,7 @@ discovered_by = ottoman
 center_of_trade = 4
 extra_cost = 20
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 #First Shattering not used
 #First Performance Start not used
 

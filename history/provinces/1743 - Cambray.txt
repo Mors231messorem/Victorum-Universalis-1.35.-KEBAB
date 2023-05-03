@@ -18,13 +18,13 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
+1444.11.16 = { #VictorumUniversalis batch edit shortcut no vassal start date begin
 	owner = BUR
 	controller = BUR
 	add_core = BUR
 	remove_core = CMB
 }
-1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+1444.11.18 = { #VictorumUniversalis batch edit shortcut no vassal start date end
 	owner = CMB
 	controller = CMB
 	add_core = CMB

@@ -1,8 +1,9 @@
-########################################
-# Events for Malacca
-#
-# written by Henrik Lohmander
-########################################
+#VU updated by San Felipe for 1.35
+###############################
+# Events for Malacca          #
+#                             #
+# written by Henrik Lohmander #
+###############################
 
 namespace = flavor_mlc
 normal_or_historical_nations = yes

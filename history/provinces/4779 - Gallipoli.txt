@@ -1,4 +1,4 @@
-#BT Balkans reoverhaul
+#4779 - Gallipoli
 
 owner = BYZ
 controller = BYZ
@@ -25,9 +25,7 @@ discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 
-
-
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 
 #1st Shattering unused
 #1st Performance Start Unused

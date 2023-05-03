@@ -1,16 +1,17 @@
+#VU updated to 1.35 by San Felipe
 country_decisions = {
 
-#These are 'special' formation decisions for unique cases like the UK and the special Irish and Celtic tags from BtP.
+#These are 'special' formation decisions for unique cases like the UK and the special Irish and Celtic tags from VU.
 
 ############################################################################################
-################################### BtP Native tag desicions #################################### 
+################################### VU Native tag desicions #################################### 
 ############################################################################################
 	form_connacht = {
 		major = yes
 		potential = {
 			NOT = { tag = CNN }
-			NOT = { has_country_flag = formed_connacht_flag_btp }
-			NOT = { has_country_flag = formed_irish_provincial_kingdom_btp }
+			NOT = { has_country_flag = formed_connacht_flag_vu }
+			NOT = { has_country_flag = formed_irish_provincial_kingdom_vu }
 			OR = {
 				primary_culture = irish
 				AND = {
@@ -57,8 +58,8 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 10
-			set_country_flag = formed_connacht_flag_btp
-			set_country_flag = formed_irish_provincial_kingdom_btp
+			set_country_flag = formed_connacht_flag_vu
+			set_country_flag = formed_irish_provincial_kingdom_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -70,8 +71,8 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { tag = MNS }
-			NOT = { has_country_flag = formed_munster_flag_btp }
-			NOT = { has_country_flag = formed_irish_provincial_kingdom_btp }
+			NOT = { has_country_flag = formed_munster_flag_vu }
+			NOT = { has_country_flag = formed_irish_provincial_kingdom_vu }
 			OR = {
 				primary_culture = irish
 				AND = {
@@ -118,8 +119,8 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 10
-			set_country_flag = formed_munster_flag_btp
-			set_country_flag = formed_irish_provincial_kingdom_btp
+			set_country_flag = formed_munster_flag_vu
+			set_country_flag = formed_irish_provincial_kingdom_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -131,8 +132,8 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { tag = LEI }
-			NOT = { has_country_flag = formed_leinster_flag_btp }
-			NOT = { has_country_flag = formed_irish_provincial_kingdom_btp }
+			NOT = { has_country_flag = formed_leinster_flag_vu }
+			NOT = { has_country_flag = formed_irish_provincial_kingdom_vu }
 			OR = {
 				primary_culture = irish
 				AND = {
@@ -179,8 +180,8 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 10
-			set_country_flag = formed_leinster_flag_btp
-			set_country_flag = formed_irish_provincial_kingdom_btp
+			set_country_flag = formed_leinster_flag_vu
+			set_country_flag = formed_irish_provincial_kingdom_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -192,8 +193,8 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { tag = ULS }
-			NOT = { has_country_flag = formed_ulster_flag_btp }
-			NOT = { has_country_flag = formed_irish_provincial_kingdom_btp }
+			NOT = { has_country_flag = formed_ulster_flag_vu }
+			NOT = { has_country_flag = formed_irish_provincial_kingdom_vu }
 			OR = {
 				primary_culture = irish
 				AND = {
@@ -240,8 +241,8 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 10
-			set_country_flag = formed_ulster_flag_btp
-			set_country_flag = formed_irish_provincial_kingdom_btp
+			set_country_flag = formed_ulster_flag_vu
+			set_country_flag = formed_irish_provincial_kingdom_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -252,8 +253,8 @@ country_decisions = {
 	celtic_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_tir_na_gceilteach_btp }
+			vu_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_tir_na_gceilteach_vu }
 			NOT = { tag = CEL }
 			NOT = { tag = GBR }
 			NOT = { tag = UNK }
@@ -349,7 +350,7 @@ country_decisions = {
 					area = brittany_area
 					area = lower_brittany_area
 				}
-				value = 6			#BT Bugfixes adjusted to 6 out of 15. Reason being that only Lower Brittany is Celtic in 1444, and it contains 6 provinces.
+				value = 6			#VU Bugfixes adjusted to 6 out of 15. Reason being that only Lower Brittany is Celtic in 1444, and it contains 6 provinces.
 			}
 			num_of_cities = 70			#Additonally, must have at least 25 more provinces than the minimum, located anywhere. That is roughly all of any 3 of the 4 major Celtic countries.
 			total_development = 500			#Special discount. Normal requirement for rank 3 is 2000 dev, so this is 75 percent discounted. Note base dev in 1444 of all Celtic countries is around 508 (and England is another 362).
@@ -472,7 +473,7 @@ country_decisions = {
 			}
 			add_prestige = 50
 			swap_ideas = yes
-			set_country_flag = formed_tir_na_gceilteach_btp
+			set_country_flag = formed_tir_na_gceilteach_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -480,14 +481,14 @@ country_decisions = {
 	}
 
 ############################################################################################
-################################# BtP Anlgo-Irish tag desicions ################################## 
+################################# VU Anlgo-Irish tag desicions ################################## 
 ############################################################################################
 	form_duchy_connacht = {
 		major = yes
 		potential = {
 			NOT = { tag = CNN }
-			NOT = { has_country_flag = formed_connacht_flag_btp }
-			NOT = { has_country_flag = formed_irish_provincial_kingdom_btp }
+			NOT = { has_country_flag = formed_connacht_flag_vu }
+			NOT = { has_country_flag = formed_irish_provincial_kingdom_vu }
 			primary_culture = anglo_irish
 			has_reform = norman_lordship_reform
 			any_owned_province = { area = connacht_area }
@@ -522,8 +523,8 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 10
-			set_country_flag = formed_connacht_flag_btp
-			set_country_flag = formed_irish_provincial_kingdom_btp
+			set_country_flag = formed_connacht_flag_vu
+			set_country_flag = formed_irish_provincial_kingdom_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -535,8 +536,8 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { tag = MNS }
-			NOT = { has_country_flag = formed_munster_flag_btp }
-			NOT = { has_country_flag = formed_irish_provincial_kingdom_btp }
+			NOT = { has_country_flag = formed_munster_flag_vu }
+			NOT = { has_country_flag = formed_irish_provincial_kingdom_vu }
 			primary_culture = anglo_irish
 			has_reform = norman_lordship_reform
 			any_owned_province = { area = munster_area }
@@ -574,8 +575,8 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 10
-			set_country_flag = formed_munster_flag_btp
-			set_country_flag = formed_irish_provincial_kingdom_btp
+			set_country_flag = formed_munster_flag_vu
+			set_country_flag = formed_irish_provincial_kingdom_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -587,8 +588,8 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { tag = LEI }
-			NOT = { has_country_flag = formed_leinster_flag_btp }
-			NOT = { has_country_flag = formed_irish_provincial_kingdom_btp }
+			NOT = { has_country_flag = formed_leinster_flag_vu }
+			NOT = { has_country_flag = formed_irish_provincial_kingdom_vu }
 			primary_culture = anglo_irish
 			has_reform = norman_lordship_reform
 			any_owned_province = { area = leinster_area }
@@ -626,8 +627,8 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 10
-			set_country_flag = formed_leinster_flag_btp
-			set_country_flag = formed_irish_provincial_kingdom_btp
+			set_country_flag = formed_leinster_flag_vu
+			set_country_flag = formed_irish_provincial_kingdom_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -639,8 +640,8 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { tag = ULS }
-			NOT = { has_country_flag = formed_ulster_flag_btp }
-			NOT = { has_country_flag = formed_irish_provincial_kingdom_btp }
+			NOT = { has_country_flag = formed_ulster_flag_vu }
+			NOT = { has_country_flag = formed_irish_provincial_kingdom_vu }
 			primary_culture = anglo_irish
 			has_reform = norman_lordship_reform
 			any_owned_province = { area = ulster_area }
@@ -678,8 +679,8 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 10
-			set_country_flag = formed_ulster_flag_btp
-			set_country_flag = formed_irish_provincial_kingdom_btp
+			set_country_flag = formed_ulster_flag_vu
+			set_country_flag = formed_irish_provincial_kingdom_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -690,9 +691,9 @@ country_decisions = {
 	anglo_irish_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
+			vu_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_ireland_flag }
-			NOT = { has_country_flag = formed_kingdom_of_ireland_flag_btp }			#remove this after 9.0.
+			NOT = { has_country_flag = formed_kingdom_of_ireland_flag_vu }			#remove this after 9.0.
 			NOT = { tag = ANI }
 			NOT = { tag = IRE }
 			NOT = { tag = SCO }
@@ -764,7 +765,7 @@ country_decisions = {
 					NOT = { historical_rival_with = ENG }
 					has_opinion = { who = ENG value = 1 }
 				}
-				add_historical_friend = ENG #Eh, Draiocht? It says you are adding a historical rival. Not a friend.
+				add_historical_friend = ENG #Eh, Darth Modus? It says you are adding a historical rival. Not a friend.
 			}			#Add England as a historical friend if relations are positive (and not already rival or friends)
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -787,14 +788,14 @@ country_decisions = {
 	}
 
 ############################################################################################
-################################## Driaocht's New Celtic Tags ################################### 
+################################## VU's New Celtic Tags ################################### 
 ############################################################################################
 
 	tir_na_ngael_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_tir_na_ngael_flag_bt }
+			vu_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_tir_na_ngael_flag_vu }
 			NOT = { tag = TNA }
 			NOT = { tag = GBR }
 			NOT = { tag = UNK }
@@ -902,7 +903,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			swap_ideas = yes
-			set_country_flag = formed_tir_na_ngael_flag_bt
+			set_country_flag = formed_tir_na_ngael_flag_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -913,8 +914,8 @@ country_decisions = {
 	albion_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
-			NOT = { has_country_flag = formed_ynys_y_cedyrn_flag_bt }
+			vu_generic_can_form_potential_check = yes
+			NOT = { has_country_flag = formed_ynys_y_cedyrn_flag_vu }
 			NOT = { tag = YYK }
 			NOT = { tag = GBR }
 			NOT = { tag = UNK }
@@ -969,7 +970,7 @@ country_decisions = {
 				duration = 7300
 			}
 			add_prestige = 35		#Extra prestige for Albion. Long live King Arthur!
-			set_country_flag = formed_ynys_y_cedyrn_flag_bt
+			set_country_flag = formed_ynys_y_cedyrn_flag_vu
 		}
 		ai_will_do = {
 			factor = 1
@@ -983,7 +984,7 @@ country_decisions = {
 	united_kingdom_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
+			vu_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_united_kingdom_flag }
 			NOT = { tag = UNK }
 			NOT = { tag = CEL }
@@ -1093,7 +1094,7 @@ country_decisions = {
 					tag = TNA
 					tag = YYK
 				}
-			}	#The BT Celtic tags will go for HR's Celtic nation from BtP by default
+			}	#The VU Celtic tags will go for HR's Celtic nation from VU by default
 			modifier = {
 				factor = 0
 				NOT = { is_year = 1800 }

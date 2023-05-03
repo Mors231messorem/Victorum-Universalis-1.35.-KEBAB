@@ -1,11 +1,11 @@
-#BT reoverhaul
+#7772 - Mandal
 
 owner = NOR
 controller = NOR
 add_core = NOR
 culture = norwegian
 religion = catholic
-capital = "Vesterrisør"
+capital = "Vesterrisï¿½r"
 base_tax = 1
 base_production = 1
 base_manpower = 1
@@ -13,13 +13,12 @@ trade_goods = fish
 is_city = yes
 hre = no
 
-
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 #1st Shattering unused
 #1st Performance Start Unused
 
@@ -29,11 +28,11 @@ discovered_by = eastern
 #2nd Performance Start Unused
 
 #1444 on
-#1500.1.1 = { capital = "Arendal" }			#In BT barely in Agder
+#1500.1.1 = { capital = "Arendal" }			#In VU barely in Agder
 1531.11.5 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # The Return of Christian II
 1532.7.15 = { revolt = {} controller = NOR } # The Capture of Christian II
 1536.1.1 = { religion = protestant} # Unknown date
-1536.1.1 = { owner = DAN controller = DAN add_core = DAN } # 'Handfästningen'(Unknown date)
+1536.1.1 = { owner = DAN controller = DAN add_core = DAN } # 'Handfï¿½stningen'(Unknown date)
 1641.7.15 = { capital = "Kristiansand" }
 1814.1.14 = {
 	owner = SWE

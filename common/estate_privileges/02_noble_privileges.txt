@@ -1076,7 +1076,7 @@ estate_nobles_strong_duchies = {
 			}
 		}
 		NOT = { has_estate_privilege = estate_nobles_french_strong_duchies }
-		NOT = { has_estate_privilege = estate_nobles_british_strong_marches } # BT
+		NOT = { has_estate_privilege = estate_nobles_british_strong_marches } # VU
 		NOT = {
 			AND = {
 			    OR = {
@@ -1085,7 +1085,7 @@ estate_nobles_strong_duchies = {
 				    tag = FSE
 				    tag = NPF
 				    tag = OFR
-					has_reform = english_monarchy # BT
+					has_reform = english_monarchy # VU
 					has_reform = scottish_monarchy # VU
 				}
 				NOT = { has_estate_privilege = estate_nobles_strong_duchies }

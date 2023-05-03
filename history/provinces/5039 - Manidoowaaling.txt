@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 owner = OTT
 controller = OTT
@@ -18,7 +18,7 @@ native_hostileness = 3
 
 discovered_by = north_american
 
-1611.6.13 = { discovered_by = FRA } # Samuel de Champlain via Étienne Brûlé
+1611.6.13 = { discovered_by = FRA } # Samuel de Champlain via ï¿½tienne Brï¿½lï¿½
 
 #1648.1.1 = {
 #	owner = FRA

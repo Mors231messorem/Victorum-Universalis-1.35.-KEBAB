@@ -388,6 +388,10 @@ vu_extra_slot_missions = {
 
 	potential = {
 	   always = yes
+	   NOT = { tag = AVE }
+	   NOT = { tag = ENG }
+	   NOT = { tag = GBR }
+	   NOT = { tag = UNK }
 	}
 	build_roads_mission = {
 		icon = mission_colonial
@@ -635,6 +639,10 @@ vu_extra_slot_missions_2 = {
 
 	potential = {
 	   always = yes
+	   NOT = { tag = AVE }
+	   NOT = { tag = ENG }
+	   NOT = { tag = GBR }
+	   NOT = { tag = UNK }
 	}
 	naval_expansion_mission = {
 		icon = mission_establish_high_seas_navy

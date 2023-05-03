@@ -396,14 +396,14 @@ french_missions_colonial = {
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = BT_fra_carib_colony.tooltip_2
+					tooltip = vu_fra_carib_colony.tooltip_2
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 5
 						colonial_region = colonial_hispaniola
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = BT_fra_carib_colony.tooltip_3
+					tooltip = vu_fra_carib_colony.tooltip_3
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 5
 						colonial_region = colonial_cuba

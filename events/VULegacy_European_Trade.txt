@@ -1,7 +1,7 @@
-namespace = BtPLegacy_european_trade
+namespace = VULegacy_european_trade
 
 #Written by Driaocht 16-10-25
-#Modified by Draiocht 16-12-1
+#Modified by Darth Modus 16-12-1
 
 ##############################################
 ### Migration of Trade Power in the Low Countries ###
@@ -9,13 +9,13 @@ namespace = BtPLegacy_european_trade
 
 # Brugge to Antwerp
 country_event = {
-	id = BtPLegacy_european_trade.1
-	title = "BtPLegacy_european_trade.EVTNAME1"
-	desc = "BtPLegacy_european_trade.EVTDESC1"
+	id = VULegacy_european_trade.1
+	title = "VULegacy_european_trade.EVTNAME1"
+	desc = "VULegacy_european_trade.EVTDESC1"
 	picture = CITY_VIEW_eventPicture
 
 	fire_only_once = yes
-	
+
 	trigger = {
 		is_year = 1499
 		owns = 90			#Owns Brugge
@@ -25,9 +25,9 @@ country_event = {
 	mean_time_to_happen = {
 		months = 6
 	}
-	
+
 	option = { # No, keep trade in Brugge
-		name = "BtPLegacy_european_trade.EVTOPTA1"
+		name = "VULegacy_european_trade.EVTOPTA1"
 		ai_chance = {
 			factor = 1
 			modifier = {
@@ -51,10 +51,10 @@ country_event = {
 			limit = { monthly_income = 25 }				#Caps out at 3000 cost for high income nations
 			add_treasury = -3000
 		}
-		add_country_modifier = { name = "btpl_clearing_the_inlet" duration = 7300 }
+		add_country_modifier = { name = "vu_clearing_the_inlet" duration = 7300 }
 	}
 	option = { # Oh well, crap happens
-		name = "BtPLegacy_european_trade.EVTOPTB1"
+		name = "VULegacy_european_trade.EVTOPTB1"
 		ai_chance = {
 			factor = 98
 		}
@@ -64,11 +64,11 @@ country_event = {
 			add_base_production = -10
 			add_base_manpower = -4
 		}
-		1744 = { owner = { country_event = { id = BtPLegacy_european_trade.2 days = 1 } } }
+		1744 = { owner = { country_event = { id = VULegacy_european_trade.2 days = 1 } } }
 		add_prestige = -10
 	}
 	option = { # Force the industry and port to move to Sluis, nearer to the sea
-		name = "BtPLegacy_european_trade.EVTOPTC1"
+		name = "VULegacy_european_trade.EVTOPTC1"
 		ai_chance = {
 			factor = 1
 		}
@@ -83,16 +83,16 @@ country_event = {
 
 # Antwerp from Brugge
 country_event = {
-	id = BtPLegacy_european_trade.2
-	title = "BtPLegacy_european_trade.EVTNAME2"
-	desc = "BtPLegacy_european_trade.EVTDESC2"
+	id = VULegacy_european_trade.2
+	title = "VULegacy_european_trade.EVTNAME2"
+	desc = "VULegacy_european_trade.EVTDESC2"
 	picture = CITY_VIEW_eventPicture
 
 	major = yes
 	is_triggered_only = yes
-	
+
 	option = { # Wonderful
-		name = "BtPLegacy_european_trade.EVTOPTA2"
+		name = "VULegacy_european_trade.EVTOPTA2"
 		1744 = {
 			center_of_trade = 3
 			add_base_tax = 11
@@ -130,13 +130,13 @@ country_event = {
 
 # Antwerp to Amsterdam
 country_event = {
-	id = BtPLegacy_european_trade.3
-	title = "BtPLegacy_european_trade.EVTNAME3"
-	desc = "BtPLegacy_european_trade.EVTDESC3"
+	id = VULegacy_european_trade.3
+	title = "VULegacy_european_trade.EVTNAME3"
+	desc = "VULegacy_european_trade.EVTDESC3"
 	picture = CITY_VIEW_eventPicture
 
 	fire_only_once = yes
-	
+
 	trigger = {
 		is_year = 1576
 		owns = 1744			#Owns Antwerp
@@ -174,7 +174,7 @@ country_event = {
 
 	mean_time_to_happen = {
 		months = 30
-		
+
 		modifier = { #Slower for the AI
 			factor = 2
 			ai = yes
@@ -184,9 +184,9 @@ country_event = {
 			is_year = 1619
 		}
 	}
-	
+
 	option = { # No, keep trade in Antwerp
-		name = "BtPLegacy_european_trade.EVTOPTA3"
+		name = "VULegacy_european_trade.EVTOPTA3"
 		ai_chance = {
 			factor = 1
 			modifier = {
@@ -210,18 +210,18 @@ country_event = {
 			limit = { monthly_income = 25 }				#Caps out at 6000 cost for high income nations
 			add_treasury = -6000
 		}
-		add_country_modifier = { name = "btpl_stabilising_the_economy" duration = 7300 }
+		add_country_modifier = { name = "vu_stabilising_the_economy" duration = 7300 }
 		if = {
 			limit = { NOT = { has_dlc = "Common Sense" } }
 			1744 = { add_province_modifier = { name = "severe_tax_reduction" duration = 3650 } }
 		}
 		if = {
 			limit = { has_dlc = "Common Sense" }
-			1744 = { add_province_modifier = { name = "btpl_investing_in_antwerp" duration = 7300 } }
+			1744 = { add_province_modifier = { name = "vu_investing_in_antwerp" duration = 7300 } }
 		}
 	}
 	option = { # Oh well, crap happens
-		name = "BtPLegacy_european_trade.EVTOPTB3"
+		name = "VULegacy_european_trade.EVTOPTB3"
 		ai_chance = {
 			factor = 99
 		}
@@ -230,9 +230,9 @@ country_event = {
 			add_base_tax = -11
 			add_base_production = -11
 			add_base_manpower = -5
-			
+
 		}
-		97 = { owner = { country_event = { id = BtPLegacy_european_trade.4 days = 1 } } }
+		97 = { owner = { country_event = { id = VULegacy_european_trade.4 days = 1 } } }
 		add_prestige = -10
 		if = {
 			limit = {
@@ -248,16 +248,16 @@ country_event = {
 
 # Amsterdam from Antwerp
 country_event = {
-	id = BtPLegacy_european_trade.4
-	title = "BtPLegacy_european_trade.EVTNAME4"
-	desc = "BtPLegacy_european_trade.EVTDESC4"
+	id = VULegacy_european_trade.4
+	title = "VULegacy_european_trade.EVTNAME4"
+	desc = "VULegacy_european_trade.EVTDESC4"
 	picture = CITY_VIEW_eventPicture
 
 	major = yes
 	is_triggered_only = yes
-	
+
 	option = { # Wonderful
-		name = "BtPLegacy_european_trade.EVTOPTA4"
+		name = "VULegacy_european_trade.EVTOPTA4"
 		97 = {
 			center_of_trade = 3
 			add_base_tax = 12
@@ -270,13 +270,13 @@ country_event = {
 
 # Amsterdam boost - I lowered Amsterdams dev in 1444 because it was a nothing town, but I want to encourage its historical rise to power
 country_event = {
-	id = BtPLegacy_european_trade.5
-	title = "BtPLegacy_european_trade.EVTNAME5"
-	desc = "BtPLegacy_european_trade.EVTDESC5"
+	id = VULegacy_european_trade.5
+	title = "VULegacy_european_trade.EVTNAME5"
+	desc = "VULegacy_european_trade.EVTDESC5"
 	picture = CITY_VIEW_eventPicture
 
 	fire_only_once = yes
-	
+
 	trigger = {
 		is_year = 1620
 		owns = 97			#Owns Amsterdam
@@ -286,7 +286,7 @@ country_event = {
 
 	mean_time_to_happen = {
 		months = 120
-		
+
 		modifier = { #If it hasnt fired by this, make it more likely
 			factor = 0.5
 			is_year = 1640
@@ -300,9 +300,9 @@ country_event = {
 			is_year = 1680
 		}
 	}
-	
+
 	option = { # Wonderful
-		name = "BtPLegacy_european_trade.EVTOPTA5"
+		name = "VULegacy_european_trade.EVTOPTA5"
 		add_mercantilism = 15
 		97 = {
 			add_base_tax = 6
@@ -324,9 +324,9 @@ country_event = {
 
 #Venetian GCoT remove - leaving this code in and untouched from pre-Dharma period, though it will only activate if the player does not have Dharma.
 province_event = {
-	id = BtPLegacy_european_trade.6
-	title = "BtPLegacy_european_trade.EVTNAME6"
-	desc = "BtPLegacy_european_trade.EVTDESC6"
+	id = VULegacy_european_trade.6
+	title = "VULegacy_european_trade.EVTNAME6"
+	desc = "VULegacy_european_trade.EVTDESC6"
 	picture = CITY_VIEW_eventPicture
 
 	trigger = {
@@ -350,9 +350,9 @@ province_event = {
 	mean_time_to_happen = {
 		days = 3
 	}
-	
+
 	option = { # No other option
-		name = "BtPLegacy_european_trade.EVTOPTA6"
+		name = "VULegacy_european_trade.EVTOPTA6"
 		if = {
 			limit = { development = 30 }
 			add_base_tax = -3
@@ -370,9 +370,9 @@ province_event = {
 
 #Genovese GCoT remove - leaving this code in and untouched from pre-Dharma period, though it will only activate if the player does not have Dharma.
 province_event = {
-	id = BtPLegacy_european_trade.7
-	title = "BtPLegacy_european_trade.EVTNAME7"
-	desc = "BtPLegacy_european_trade.EVTDESC7"
+	id = VULegacy_european_trade.7
+	title = "VULegacy_european_trade.EVTNAME7"
+	desc = "VULegacy_european_trade.EVTDESC7"
 	picture = CITY_VIEW_eventPicture
 
 	trigger = {
@@ -396,9 +396,9 @@ province_event = {
 	mean_time_to_happen = {
 		days = 3
 	}
-	
+
 	option = { # No other option
-		name = "BtPLegacy_european_trade.EVTOPTA7"
+		name = "VULegacy_european_trade.EVTOPTA7"
 		if = {
 			limit = { development = 30 }
 			add_base_tax = -3
@@ -416,9 +416,9 @@ province_event = {
 
 #Hanseatic GCoT remove - leaving this code in and untouched from pre-Dharma period, though it will only activate if the player does not have Dharma.
 province_event = {
-	id = BtPLegacy_european_trade.8
-	title = "BtPLegacy_european_trade.EVTNAME8"
-	desc = "BtPLegacy_european_trade.EVTDESC8"
+	id = VULegacy_european_trade.8
+	title = "VULegacy_european_trade.EVTNAME8"
+	desc = "VULegacy_european_trade.EVTDESC8"
 	picture = CITY_VIEW_eventPicture
 
 	trigger = {
@@ -442,9 +442,9 @@ province_event = {
 	mean_time_to_happen = {
 		days = 3
 	}
-	
+
 	option = { # No other option
-		name = "BtPLegacy_european_trade.EVTOPTA8"
+		name = "VULegacy_european_trade.EVTOPTA8"
 		if = {
 			limit = { development = 30 }
 			add_base_tax = -3
@@ -460,13 +460,13 @@ province_event = {
 	}
 }
 
-#Removal of a new GCoT - cutting for Dharma, as new 3rd tier trade centres are added outside of the old 3 in BT
+#Removal of a new GCoT - cutting for Dharma, as new 3rd tier trade centres are added outside of the old 3 in VU
 #province_event = {
-#	id = BtPLegacy_european_trade.9
-#	title = "BtPLegacy_european_trade.EVTNAME9"
-#	desc = "BtPLegacy_european_trade.EVTDESC9"
+#	id = VULegacy_european_trade.9
+#	title = "VULegacy_european_trade.EVTNAME9"
+#	desc = "VULegacy_european_trade.EVTDESC9"
 #	picture = CITY_VIEW_eventPicture
-#	
+#
 #	major = yes
 #
 #	trigger = {
@@ -487,9 +487,9 @@ province_event = {
 #	mean_time_to_happen = {
 #		days = 30
 #	}
-#	
+#
 #	option = { # No other option
-#		name = "BtPLegacy_european_trade.EVTOPTA9"
+#		name = "VULegacy_european_trade.EVTOPTA9"
 #		if = {
 #			limit = { development = 30 }
 #			add_base_tax = -2
@@ -507,9 +507,9 @@ province_event = {
 
 #Creation of a new GCoT - leaving this code in and untouched from pre-Dharma period, though it will only activate if the player does not have Dharma.
 province_event = {
-	id = BtPLegacy_european_trade.10
-	title = "BtPLegacy_european_trade.EVTNAME10"
-	desc = "BtPLegacy_european_trade.EVTDESC10"
+	id = VULegacy_european_trade.10
+	title = "VULegacy_european_trade.EVTNAME10"
+	desc = "VULegacy_european_trade.EVTDESC10"
 	picture = CITY_VIEW_eventPicture
 
 	trigger = {
@@ -528,7 +528,7 @@ province_event = {
 
 	mean_time_to_happen = {
 		months = 2400			#200 years, reduced to either around 40y with full bonuses or 500y with full penalties
-		
+
 		modifier = {
 			factor = 1.2
 			owner = { NOT = { stability = -2 } }
@@ -594,9 +594,9 @@ province_event = {
 			province_id = 97			#Amsterdam
 		}
 	}
-	
+
 	option = { # Yay
-		name = "BtPLegacy_european_trade.EVTOPTA10"
+		name = "VULegacy_european_trade.EVTOPTA10"
 		add_base_tax = 1
 		add_base_production = 1
 		add_center_of_trade_level = 1

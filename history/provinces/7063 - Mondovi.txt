@@ -47,7 +47,7 @@ discovered_by = eastern
 1538.6.17 = { owner = FRA } # Treaty of Nice
 1559.1.1 = { owner = SAV controller = SAV remove_core = FRA }	#Peace of Cateau-Cambrésis
 1648.1.1 = { hre = no }	#Peace of Westphalia, the 'Kingdom of Italy' definitively leaves the Holy Roman Empire
-#1713.4.12 = { owner = SIC controller = SIC add_core = SIC } # Treaty of Utrecht gives Sicily to Savoy, who becomes the King of Sicily  -BT is calling this still Savoy, rather than Sicily.
+#1713.4.12 = { owner = SIC controller = SIC add_core = SIC } # Treaty of Utrecht gives Sicily to Savoy, who becomes the King of Sicily  -VU is calling this still Savoy, rather than Sicily.
 1720.2.17 = { owner = SPI controller = SPI add_core = SPI remove_core = SAV } # Treaty of the Hague, Victor Amadeus II trades Sicily for Sardinia, founding the Kingdom of Piedmont-Sardinia
 1792.9.1 = { controller = FRA } # Conquered by Napoleon without a siege at the beginning of the War of the First Coalition
 1796.4.26 = { owner = FRA add_core = FRA add_local_autonomy = 65 } # The Republic of Alba proclaimed in the town of Alba. Calling it high autonomy because I don't want to mess with client states in history

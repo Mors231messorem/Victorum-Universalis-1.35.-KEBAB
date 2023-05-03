@@ -23,7 +23,7 @@ country_event = {
 		adm_tech = 20
 		any_owned_province = {
 			culture = greek
-			bt_trigger_historical_greece_areas = yes
+			vu_trigger_historical_greece_areas = yes
 		}
    	}
 	
@@ -37,7 +37,7 @@ country_event = {
 		set_global_flag = greek_cores
 		every_province = {
 			limit = {
-				bt_trigger_historical_greece_areas = yes
+				vu_trigger_historical_greece_areas = yes
 			}
 			add_core = GRE
 		}
@@ -70,7 +70,7 @@ country_event = {
 			every_known_country = {
 				limit = {
 					any_owned_province = {
-						bt_trigger_historical_greece_areas = yes
+						vu_trigger_historical_greece_areas = yes
 					}
 				}
 				set_country_flag = greek_information
@@ -88,7 +88,7 @@ country_event = {
 		tooltip = {
 			every_province = {
 				limit = {
-					bt_trigger_historical_greece_areas = yes
+					vu_trigger_historical_greece_areas = yes
 				}
 				add_core = GRE
 			}
@@ -114,7 +114,7 @@ country_event = {
 		tooltip = {
 			every_province = {
 				limit = {
-					bt_trigger_historical_greece_areas = yes
+					vu_trigger_historical_greece_areas = yes
 				}
 				add_core = GRE
 			}

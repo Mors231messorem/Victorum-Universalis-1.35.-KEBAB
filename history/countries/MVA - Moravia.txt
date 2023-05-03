@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = margrave_reform
+add_government_reform = margraviate_reform
 primary_culture = moravian
 religion = catholic
 government_rank = 1

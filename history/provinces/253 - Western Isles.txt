@@ -22,7 +22,7 @@ discovered_by = eastern
 1493.1.1 = {
 	owner = SCO
 	controller = SCO
-	add_core = SCO			#BT removed core from base, but added when Scotland Gained control
+	add_core = SCO			#VU removed core from base, but added when Scotland Gained control
 	capital = "Stornoway"
 }
 1560.8.1 = { religion = reformed }

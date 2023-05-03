@@ -137,7 +137,7 @@ liv_teutonic_mission_slot = {
 							}
 						}
 						custom_trigger_tooltip = {
-							tooltip = liv_handle_teutonic_order_bt
+							tooltip = liv_handle_teutonic_order_vu
 							AND = {
 								OR = {
 									is_rival = ROOT
@@ -1532,7 +1532,7 @@ liv_lva_livonian_teutonic_mission_slot = {
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = liv_lva_prussian_alliance_bt
+					tooltip = liv_lva_prussian_alliance_vu
 					any_subject_country = {
 						tag = PRU
 						NOT = { liberty_desire = 10 }
@@ -2531,7 +2531,7 @@ liv_purge_reformation_mission_slot = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = teu_crusader_destroy_the_heresies_bt
+				tooltip = teu_crusader_destroy_the_heresies_vu
 				NOT = {
 					europe = {
 						owner = {
@@ -2842,7 +2842,7 @@ liv_end_the_orthodoxy_mission_slot = {
 						}
 					}
 					calc_true_if = {
-						desc = liv_heal_the_schism_bt
+						desc = liv_heal_the_schism_vu
 						all_province = {
 							region = russia_region
 							religion = catholic
@@ -3788,7 +3788,7 @@ liv_dummy_mission_slot_2 = {
 						}
 					}
 					custom_trigger_tooltip = {
-						tooltip = teu_crusader_destroy_the_heresies_bt
+						tooltip = teu_crusader_destroy_the_heresies_vu
 						NOT = {
 							europe = {
 								owner = {
@@ -4218,7 +4218,7 @@ liv_dummy_mission_slot_4 = {
 							}
 						}
 						custom_trigger_tooltip = {
-							tooltip = liv_lva_prussian_alliance_bt
+							tooltip = liv_lva_prussian_alliance_vu
 							any_subject_country = {
 								tag = PRU
 								NOT = { liberty_desire = 10 }

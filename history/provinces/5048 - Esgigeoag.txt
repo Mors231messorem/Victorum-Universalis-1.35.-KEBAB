@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = mikmaq
 religion = totemism 
@@ -41,7 +41,7 @@ discovered_by = north_american
 	trade_goods = fish
 	culture = cosmopolitan_french
 	religion = catholic
-	capital = "Fort St. François à Canso"
+	capital = "Fort St. Franï¿½ois ï¿½ Canso"
 } # First settlement
 
 1654.11.1 = {

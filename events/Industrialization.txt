@@ -1,7 +1,8 @@
+#VU updated by San Felipe for 1.35
 ########################################
-# Events for Industrializing countries
-#
-# written by Henrik Lohmander
+# Events for Industrializing countries #
+#                                      #
+# written by Henrik Lohmander          #
 ########################################
 
 namespace = industrialization_events
@@ -107,8 +108,8 @@ country_event = {
 	desc = {
 		trigger = {
 			NOT = { tag = GBR }
-			NOT = { tag = UNK }
 			NOT = { tag = ENG }
+			NOT = { tag = UNK }
 		}
 		desc = industrialization_events.2.d
 	}
@@ -116,8 +117,8 @@ country_event = {
 		trigger = {
 			OR = {
 				tag = GBR
-				tag = UNK
 				tag = ENG
+				tag = UNK
 			}
 		}
 		desc = industrialization_events.2.d.england
@@ -216,8 +217,8 @@ country_event = {
 	desc = {
 		trigger = {
 			NOT = { tag = GBR }
-			NOT = { tag = UNK }
 			NOT = { tag = ENG }
+			NOT = { tag = UNK }
 		}
 		desc = industrialization_events.3.d
 	}
@@ -225,8 +226,8 @@ country_event = {
 		trigger = {
 			OR = {
 				tag = GBR
-				tag = UNK
 				tag = ENG
+				tag = UNK
 			}
 		}
 		desc = industrialization_events.3.d.england

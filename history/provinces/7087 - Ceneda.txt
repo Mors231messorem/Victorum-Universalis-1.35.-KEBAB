@@ -25,14 +25,14 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-#Province history completed by - Nikicaga & Draiocht
+#Province history completed by - Nikicaga & Darth Modus
 #First shattering unused
-1291.5.24 = { #BeyondTypus batch edit shortcut first performance start begins
+1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
 	owner = VEN
 	controller = VEN
 	add_core = VEN
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1291.5.26 = { #BeyondTypus batch edit shortcut first performance start ends
+1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
 	owner = CEN
 	controller = CEN
 	remove_core = VEN
@@ -42,12 +42,12 @@ discovered_by = eastern
 1433.1.1 = { hre = no } # Treaty between Doge Francesco Foscari and Emperor Sigismund of the HRE
 
 #Second shattering unused
-1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
+1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = VEN
 	controller = VEN
 	add_core = VEN
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
+1444.11.18 = { #VictorumUniversalis batch edit shortcut second performance start ends
 	owner = CEN
 	controller = CEN
 	remove_core = VEN

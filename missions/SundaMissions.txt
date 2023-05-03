@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 sun_1 = {
 	slot = 1
 	generic = no
@@ -39,13 +40,13 @@ sun_1 = {
 		}
 	}
 	sun_develop_cities = {
-		icon = mission_market_place_with_asian_traders
+		icon = mission_asian_trader
 		required_missions = { sun_consider_islam }
 		provinces_to_highlight = {
 			OR = {
 				province_id = 624
-				province_id = 630
 				province_id = 4791
+				province_id = 630
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -61,12 +62,12 @@ sun_1 = {
 				development = 20
 				religion = ROOT
 			}
-			630 = {
+			4791 = {
 				owned_by = ROOT
 				development = 20
 				religion = ROOT
 			}
-			4791 = {
+			630 = {
 				owned_by = ROOT
 				development = 20
 				religion = ROOT
@@ -175,7 +176,15 @@ sun_1 = {
 				limit = {
 					has_dlc = "Leviathan"
 				}
-				religion = buddhism
+				custom_trigger_tooltip = {
+					tooltip = follows_buddha_tt
+					OR = {
+						religion = buddhism
+						religion = mahayana
+						religion = vajrayana
+						has_personal_deity = buddha
+					}
+				}
 				2690 = { 
 					has_great_project = {
 						type = borobudur_temple
@@ -241,7 +250,7 @@ sun_2 = {
 	has_country_shield = yes
 	
 	sun_majapahit_relations = {
-		icon = mission_restore_pagodas # TODO
+		icon = mission_oceania_build_army_mission
 		required_missions = { }
 		provinces_to_highlight = {
 			owned_by = MAJ
@@ -266,6 +275,9 @@ sun_2 = {
 							has_guaranteed = MAJ
 						}
 					}
+				}
+				else = {
+					has_guaranteed = MAJ
 				}
 			}
 		}
@@ -347,7 +359,7 @@ sun_2 = {
 		}
 	}
 	sun_conquer_lampung = {
-		icon = mission_asian_cannon
+		icon = mission_ne_palisades
 		required_missions = { }
 		provinces_to_highlight = {
 			area = south_sumatra_area
@@ -382,6 +394,7 @@ sun_2 = {
 						add_casus_belli = {
 							target = PREV
 							type = cb_vassalize_mission
+							months = 120
 						}
 					}
 				}
@@ -419,7 +432,7 @@ sun_2 = {
 		}
 	}
 	sun_subjugate_sumatra = {
-		icon = mission_kowtow
+		icon = mission_ne_great_lakes_conquest
 		required_missions = { sun_conquer_lampung }
 		provinces_to_highlight = {
 			OR = {

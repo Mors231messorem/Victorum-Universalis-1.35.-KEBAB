@@ -1,25 +1,25 @@
-french_feudalism = {
-	icon = feudalism
-	allow_normal_conversion = yes
-	potential = {
-		OR = {
-			culture_group = french
-			has_reform = french_absolutism
-		}
-	}
-	trigger = {
-		OR = {
-			culture_group = french
-			has_reform = french_absolutism
-		}
-	}
-	lock_level_when_selected = no
-	valid_for_nation_designer = yes
-	nation_designer_cost = 0
-	modifiers = {
-		min_autonomy = 10
-	}
-}
+#french_feudalism = {
+#	icon = feudalism
+#	allow_normal_conversion = yes
+#	potential = {
+#		OR = {
+#			culture_group = french
+#			has_reform = french_absolutism
+#		}
+#	}
+#	trigger = {
+#		OR = {
+#			culture_group = french
+#			has_reform = french_absolutism
+#		}
+#	}
+#	lock_level_when_selected = no
+#	valid_for_nation_designer = yes
+#	nation_designer_cost = 0
+#	modifiers = {
+#		min_autonomy = 10
+#	}
+#}
 
 ancien_regime_reform = {
 	icon = French_Reformed #ancien_regime
@@ -207,7 +207,7 @@ independent_vassals_reform = {
 			primary_culture = cosmopolitan_french
 			has_reform = independent_vassals_reform
 		}
-		has_reform = french_feudalism
+		has_reform = feudal_france_reform
 	}
 	modifiers = {
 		reduced_liberty_desire = 5
@@ -306,7 +306,7 @@ compagnies_dordonnance_reform = {
 			primary_culture = cosmopolitan_french
 			has_reform = compagnies_dordonnance_reform
 		}
-		has_reform = french_feudalism
+		has_reform = feudal_france_reform
 	}
 	modifiers = {
 		infantry_power = 0.05
@@ -416,7 +416,7 @@ parisian_court_reform = {
 			has_reform = parisian_court_reform
 		}
 		OR = {
-			has_reform = french_feudalism
+			has_reform = feudal_france_reform
 			has_reform = ancien_regime_reform
 		}
 	}

@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7085 - Vicenza
 
 owner = PDV #controlled by Padua since 1266
 controller = PDV
@@ -10,7 +10,7 @@ base_tax = 6
 base_production = 7
 base_manpower = 4
 trade_goods = gold			#one fifth of Italy's gold is made in Vicenza, also famous silver mines. Could also ve wool, silk, cloth, Olives and even marble and sulphur. Damn Vicenza is rich. Further proof for gold... -Nikicaga
-#The surrounding country is predominantly agricultural .... Major products are wine, wheat. There are also quarries of marble, sulphur, copper, and silver mines -wiki quote added by Draiocht
+#The surrounding country is predominantly agricultural .... Major products are wine, wheat. There are also quarries of marble, sulphur, copper, and silver mines -wiki quote added by Darth Modus
 is_city = yes
 hre = yes
 
@@ -20,14 +20,14 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#Province history completed by - Nikicaga & Draiocht
+#Province history completed by - Nikicaga & Darth Modus
 #First shattering unused
-1291.5.24 = { #BeyondTypus batch edit shortcut first performance start begins
+1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
 	owner = VEN
 	controller = VEN
 	add_core = VEN
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1291.5.26 = { #BeyondTypus batch edit shortcut first performance start ends
+1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
 	owner = CEN
 	controller = CEN
 	remove_core = VEN
@@ -51,13 +51,13 @@ discovered_by = eastern
 } # City appeals to Venice to liberate it from Visconti
 1433.1.1 = { hre = no } # Treaty between Doge Francesco Foscari and Emperor Sigismund of the HRE
 
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = PDV
 	controller = PDV
 	add_core = PDV
 	remove_core = VEN
 } #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
 	owner = VEN
 	controller = VEN
 	add_core = VEN

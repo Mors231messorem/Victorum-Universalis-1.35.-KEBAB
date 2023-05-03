@@ -30,13 +30,13 @@ march = {
 	first = ENG
 	second = WMC
 	start_date = 1444.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 march = {
 	first = ENG
 	second = WMC
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1535.2.4
 }
 
@@ -44,13 +44,13 @@ march = {
 	first = ENG
 	second = KOI
 	start_date = 1444.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 march = {
 	first = ENG
 	second = KOI
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1707.5.12
 }
 
@@ -58,13 +58,13 @@ march = {
 	first = ENG
 	second = JER
 	start_date = 1444.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 march = {
 	first = ENG
 	second = JER
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1707.5.12
 }
 
@@ -76,13 +76,13 @@ union = {
 	first = ENG
 	second = WLS
 	start_date = 1444.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 union = {
 	first = ENG
 	second = WLS
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1542.1.22
 }
 

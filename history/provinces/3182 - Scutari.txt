@@ -1,4 +1,4 @@
-#3182 - BtP Province repurposed by Draiocht due to 1.19 changes
+#3182 - Scutari
 
 owner = VEN
 controller = VEN

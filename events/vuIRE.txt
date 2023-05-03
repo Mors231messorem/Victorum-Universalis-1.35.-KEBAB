@@ -1,15 +1,15 @@
-namespace = btpIRE
+namespace = vuIRE
 # England Demands Fealty
 country_event = {
-	id = btpIRE.1
-	title = "btpIRE.EVTNAME1"
-	desc = "btpIRE.EVTDESC1"
+	id = vuIRE.1
+	title = "vuIRE.EVTNAME1"
+	desc = "vuIRE.EVTDESC1"
 	picture = COURT_eventPicture
 
 	is_triggered_only = yes
 	
 	option = {
-		name = "btpIRE.EVTOPTA1"
+		name = "vuIRE.EVTOPTA1"
 		ai_chance = {
 			factor = 65
 			modifier = {
@@ -37,11 +37,11 @@ country_event = {
 				ruler_has_personality = fierce_negotiator_personality
 			}	#Fierce Negotiaters don't accept defeat so easily
 		}
-		ENG = { country_event = { id = btpIRE.2 } }
+		ENG = { country_event = { id = vuIRE.2 } }
 	}
 	
 	option = {
-		name = "btpIRE.EVTOPTB1"
+		name = "vuIRE.EVTOPTB1"
 		ai_chance = {
 			factor = 35
 			modifier = {
@@ -81,15 +81,15 @@ country_event = {
 
 #Old English refuse, does England blink?
 country_event = {
-	id = btpIRE.2
-	title = "btpIRE.EVTNAME2"
-	desc = "btpIRE.EVTDESC2"
+	id = vuIRE.2
+	title = "vuIRE.EVTNAME2"
+	desc = "vuIRE.EVTDESC2"
 	picture = COURT_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "btpIRE.EVTOPTA2"
+		name = "vuIRE.EVTOPTA2"
 		ai_chance = {
 			factor = 90
 			modifier = {
@@ -101,7 +101,7 @@ country_event = {
 				army_strength = { who = FROM value = 1.0 }
 			}	#England rethinks it when facing matched armies
 		}
-#Draiocht- I like the concept here, of encouraging a growing Irish rebellion, more serious than just one OPM, but it application it is too buggy right now. Dublin did historically break from England once or twice in favour of local rebellions, but practically guarenteed to be fully ceded to another OPM is too much
+#Darth Modus- I like the concept here, of encouraging a growing Irish rebellion, more serious than just one OPM, but it application it is too buggy right now. Dublin did historically break from England once or twice in favour of local rebellions, but practically guarenteed to be fully ceded to another OPM is too much
 #		random = {
 #			chance = 50
 #			random_province = {
@@ -110,7 +110,7 @@ country_event = {
 #				add_core = FROM
 #			}
 #		}	#No longer must be Dublin, and no longer guarenteed
-#Draiocht - Maybe another event or decision, alongside this one, to represent the major religiously motivated rebellions later, of the sort that led to the foundation of the KoI under the England Throne. Another idea is to force other OPM in Ireland to join the war
+#Darth Modus - Maybe another event or decision, alongside this one, to represent the major religiously motivated rebellions later, of the sort that led to the foundation of the KoI under the England Throne. Another idea is to force other OPM in Ireland to join the war
 		ENG = {
 			declare_war_with_cb = {
 				who = FROM
@@ -121,7 +121,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "btpIRE.EVTOPTB2"
+		name = "vuIRE.EVTOPTB2"
 		ai_chance = {
 			factor = 10
 		}
@@ -132,9 +132,9 @@ country_event = {
 }
 
 country_event = {
-	id = btpIRE.3
-	title = "btpIRE.EVTNAME3"
-	desc = "btpIRE.EVTDESC3"
+	id = vuIRE.3
+	title = "vuIRE.EVTNAME3"
+	desc = "vuIRE.EVTDESC3"
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	trigger = {
@@ -148,7 +148,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "btpIRE.EVTOPTA3"
+		name = "vuIRE.EVTOPTA3"
 		add_prestige = 10
 		if = {
 			limit = { has_dlc = "Res Publica" }
@@ -156,11 +156,11 @@ country_event = {
 			add_government_reform = transitional_government_reform
 			hidden_effect = {
 				country_event = {
-					id = btpIRE.4
+					id = vuIRE.4
 					days = 1095
 				}
 				set_country_flag = independent_ireland_reorganisation_underway
-				clr_country_flag = bt_is_a_puppet_state
+				clr_country_flag = vu_is_a_puppet_state
 			}
 		}
 		if = {
@@ -173,15 +173,15 @@ country_event = {
 }
 
 country_event = {
-	id = btpIRE.4
-	title = "btpIRE.EVTNAME4"
-	desc = "btpIRE.EVTDESC4"
+	id = vuIRE.4
+	title = "vuIRE.EVTNAME4"
+	desc = "vuIRE.EVTDESC4"
 	picture = ELECTION_REPUBLICAN_eventPicture
 	
 	is_triggered_only = yes
 	
 	option = {			#Status Quo Accendancy ruled
-		name = "btpIRE.EVTOPTA4"
+		name = "vuIRE.EVTOPTA4"
 		ai_chance = {
 			factor = 30
 			modifier = {
@@ -200,7 +200,7 @@ country_event = {
 		}
 	}
 	option = {			#Return to the High Kingship system
-		name = "btpIRE.EVTOPTB4"
+		name = "vuIRE.EVTOPTB4"
 		ai_chance = {
 			factor = 30
 			modifier = {
@@ -241,7 +241,7 @@ country_event = {
 			}
 			change_religion = catholic
 			add_country_modifier = {
-				name = "religious_shift_tension_bt"
+				name = "religious_shift_tension_vu"
 				duration = 10950			#30 years
 			}
 		}	#Converts religion to Catholic if at least half of Ireland is still Catholic
@@ -251,14 +251,14 @@ country_event = {
 				NOT = { culture = irish }
 			}
 			add_province_modifier = {
-				name = culture_shift_tension_bt
+				name = culture_shift_tension_vu
 				duration = 10950			#30 years
 			}
 		}
 		country_event = { id = ideagroups.1 } #Swap Ideas
 	}
 	option = {			#An.... almost realistic historical option to represent what the Republic actually did in real life (though obviously hundreds of years later) Note the Northern Ireland split is too much work for me to program right now.
-		name = "btpIRE.EVTOPTC4"
+		name = "vuIRE.EVTOPTC4"
 		ai_chance = {
 			factor = 40
 			modifier = {
@@ -287,7 +287,7 @@ country_event = {
 			}
 			change_religion = catholic
 			add_country_modifier = {
-				name = "religious_shift_tension_bt"
+				name = "religious_shift_tension_vu"
 				duration = 10950			#30 years
 			}
 		}	#Converts religion to Catholic if at least half of Ireland is still Catholic
@@ -297,7 +297,7 @@ country_event = {
 				NOT = { culture = irish }
 			}
 			add_province_modifier = {
-				name = culture_shift_tension_bt
+				name = culture_shift_tension_vu
 				duration = 10950			#30 years
 			}
 		}

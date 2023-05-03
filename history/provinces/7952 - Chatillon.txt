@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#7952 - Chatillon
 
 owner = BUR
 controller = BUR
@@ -18,8 +18,5 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-
-#Province history completed by - Draiocht
-#1444 on
 1477.1.5 = { owner = HAB controller = HAB add_core = HAB }	#from vanilla. Mary of Burgundy, an heiress, passes all Burgundian holdings in the Low Countries to the Habsburgs
 1481.1.1 = { owner = FRA controller = FRA add_core = FRA } # Provence added to France after the death of Duke Charles

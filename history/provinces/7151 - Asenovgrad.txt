@@ -1,4 +1,4 @@
-#BT Balkans reoverhaul
+#7151 - Asenovgrad
 
 owner = BYZ
 controller = BYZ
@@ -19,7 +19,6 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
-
 
 #Province history completed by - Nikicaga
 

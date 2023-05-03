@@ -397,6 +397,8 @@ add_government_reform = prussian_monarchy }
 
 1745.1.1 = { leader = {	name = "F.W. von Seydlitz"	type = general	fire = 1	shock = 6	manuever = 4	siege = 0	death_date = 1760.5.1 } }
 
+1750.1.1 = { set_legacy_government = constitutional_republic }
+
 1750.1.1 = { leader = {	name = "Ferdinand von Preuﬂen"	type = general	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1786.8.17 } }
 
 1750.1.1 = { leader = {	name = "F.A. von Finck"		type = general	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1759.11.19 } }

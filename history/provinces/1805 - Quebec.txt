@@ -1,4 +1,4 @@
-#base wasteland made colonisable in BT
+#1805 - Quebec
 
 culture = inuit			#mostly
 religion = totemism 

@@ -1,5 +1,5 @@
 
-#Beyond Typus work done by all contributors other than Draiocht
+#Victorum Universalis work done by all contributors other than Darth Modus
 # Do not change tags in here without changing every other reference to them.
 # Do not change tags in here without changing every other reference to them.
 # If adding new groups or ideas, make sure they are unique.
@@ -7,7 +7,7 @@
 ##################################################################################################
 ##################################################################################################
 ##################################################################################################
-# HR's work (original BtP dev)
+# HR's work (original VU dev)
 ##################################################################################################
 ##################################################################################################
 ##################################################################################################
@@ -38,7 +38,7 @@ ANI_ideas = {
 		advisor_cost = -0.15
 	}
 	koi_trim_castle = {
-		defensiveness = 0.1			#added by Draiocht
+		defensiveness = 0.1			#added by Darth Modus
 		fort_maintenance_modifier = -0.1			#halved because of defensiveness bonus
 	}
 	koi_urban_culture = {
@@ -51,12 +51,12 @@ ANI_ideas = {
 		global_unrest = -1			#reduced to 1 to match the English Bill of Rights, only the American one gets -2, also moved back to 6th place
 	}
 	koi_mixed_heritage = {
-		religious_unity = 0.25			#changed by Draiocht because of culture changes in 1.18 and the Ireland overhaul in BT 3.0, was formerly more accepted cultures and the second idea, now religious and the last. All other ideas moved forward
-		tolerance_heretic = 2				#changed by Draiocht because of culture changes in 1.18 and the Ireland overhaul in BT 3.0, was formerly more accepted cultures and the second idea, now religious and the last. All other ideas moved forward
+		religious_unity = 0.25			#changed by Darth Modus because of culture changes in 1.18 and the Ireland overhaul in VU 3.0, was formerly more accepted cultures and the second idea, now religious and the last. All other ideas moved forward
+		tolerance_heretic = 2				#changed by Darth Modus because of culture changes in 1.18 and the Ireland overhaul in VU 3.0, was formerly more accepted cultures and the second idea, now religious and the last. All other ideas moved forward
 	}
 }
 
-#Let's be honest here, this is majorly OPed ;D. Might rebalance later. -Draiocht
+#Let's be honest here, this is majorly OPed ;D. Might rebalance later. -Darth Modus
 CEL_ideas = {
 	start = {
 		infantry_power = 0.15
@@ -435,7 +435,7 @@ PIE_ideas = {
 PMO_ideas = {
 	start = {
 		production_efficiency = 0.15 #Culture was well known for being masters of basket weaving and jewelry
-		movement_speed = 0.05 #Re-adding previous movement speed buff that supposedly existed in BT 9.0. Apparently was +15%, but I nerfed it a bit.
+		movement_speed = 0.05 #Re-adding previous movement speed buff that supposedly existed in VU 9.0. Apparently was +15%, but I nerfed it a bit.
 	}
 
 	bonus = {

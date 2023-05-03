@@ -1,9 +1,9 @@
 
-###########################################
-# Beyond Typus Core Triggered Province Modifiers
-###########################################
+##########################################################
+# Victorum Universalis Core Triggered Province Modifiers #
+##########################################################
 
-bt_conquest_of_the_great_fire = {
+vu_conquest_of_the_great_fire = {
 	potential = { religion_group = zoroastrian_group }
 	trigger = { religion_group = zoroastrian_group }
 	
@@ -15,15 +15,15 @@ bt_conquest_of_the_great_fire = {
 	on_deactivation = { }
 }
 
-bt_guelph_province_in_guelph_state = {
+vu_guelph_province_in_guelph_state = {
 	potential = { 
 		owner = { 
-			has_country_modifier = bt_guelph_nation 
+			has_country_modifier = vu_guelph_nation 
 		} 
 	}
 	trigger = { 
 		owner = { 
-			has_country_modifier = bt_guelph_nation 
+			has_country_modifier = vu_guelph_nation 
 		} 
 	}
 
@@ -35,15 +35,15 @@ bt_guelph_province_in_guelph_state = {
 	on_deactivation = { }
 }
 
-bt_guelph_province_in_ghibelline_state = {
+vu_guelph_province_in_ghibelline_state = {
 	potential = { 
 		owner = {
-			has_country_modifier = bt_guelph_nation 
+			has_country_modifier = vu_guelph_nation 
 		}
 	}
 	trigger = { 
 		owner = {
-			has_country_modifier = bt_guelph_nation 
+			has_country_modifier = vu_guelph_nation 
 		}
 	}
 
@@ -55,15 +55,15 @@ bt_guelph_province_in_ghibelline_state = {
 	on_deactivation = { }
 }
 
-bt_ghibelline_province_in_ghibelline_state = {
+vu_ghibelline_province_in_ghibelline_state = {
 	potential = { 
 		owner = {
-			has_country_modifier = bt_ghibelline_nation 
+			has_country_modifier = vu_ghibelline_nation 
 		}
 	}
 	trigger = { 
 		owner = {
-			has_country_modifier = bt_ghibelline_nation 
+			has_country_modifier = vu_ghibelline_nation 
 		}
 	}
 
@@ -75,15 +75,15 @@ bt_ghibelline_province_in_ghibelline_state = {
 	on_deactivation = { }
 }
 
-bt_ghibelline_province_in_guelph_state = {
+vu_ghibelline_province_in_guelph_state = {
 	potential = { 
 		owner = {
-		has_country_modifier = bt_ghibelline_nation 
+		has_country_modifier = vu_ghibelline_nation 
 		}
 	}
 	trigger = { 
 		owner = {
-			has_country_modifier = bt_ghibelline_nation 
+			has_country_modifier = vu_ghibelline_nation 
 		}
 	}
 

@@ -1,4 +1,4 @@
-#BT Scandinavia and Baltics reoverhaul
+#4745 - Rugen
 
 owner = RUG
 controller = RUG			#Danish vassal until 1325

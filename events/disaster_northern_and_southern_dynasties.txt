@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 namespace = dai_disaster
 
 # Start event - Pick a side
@@ -10,7 +11,7 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	option = { # Le (or Trinh if later) dynasty in the south
+	option = { # Le (or Nguyen if later) dynasty in the south
 		name = dai_disaster.1.a
 		trigger = {
 			num_of_owned_provinces_with = {
@@ -41,10 +42,10 @@ country_event = {
 		else_if = {
 			limit = {
 				NOT = { current_age = age_of_reformation }
-				NOT = { dynasty = Trinh }
+				NOT = { dynasty = Nguyen }
 			}
 			define_ruler = {
-				dynasty = Trinh
+				dynasty = Nguyen
 			}
 		}
 		country_event = {
@@ -83,10 +84,10 @@ country_event = {
 		else_if = {
 			limit = {
 				NOT = { current_age = age_of_reformation }
-				NOT = { dynasty = Nguyen }
+				NOT = { dynasty = Trinh }
 			}
 			define_ruler = {
-				dynasty = Nguyen
+				dynasty = Trinh
 			}
 		}
 		country_event = {
@@ -246,6 +247,7 @@ country_event = {
 			has_country_flag = dai_southern_dynasty
 		}
 		change_tag = ANN
+		on_change_tag_effect = yes
 		end_disaster = northern_and_southern_dynasties
 		hidden_effect = {
 			TOK = {
@@ -286,6 +288,7 @@ country_event = {
 			has_country_flag = dai_northern_dynasty
 		}
 		change_tag = TOK
+		on_change_tag_effect = yes
 		end_disaster = northern_and_southern_dynasties
 		hidden_effect = {
 			ANN = {

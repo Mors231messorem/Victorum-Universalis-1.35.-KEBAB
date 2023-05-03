@@ -18,12 +18,12 @@ discovered_by = western
 discovered_by = nomad_group
 
 
-1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
+1444.11.16 = { #VictorumUniversalis batch edit shortcut no vassal start date begin
 	owner = TVE
 	controller = TVE
 	add_core = TVE
 }
-1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+1444.11.18 = { #VictorumUniversalis batch edit shortcut no vassal start date end
 	owner = ZBT
 	controller = ZBT
 	remove_core = TVE

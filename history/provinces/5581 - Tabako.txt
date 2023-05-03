@@ -1,4 +1,4 @@
-# No previous file - Beyond Typus new
+# No previous file - Victorum Universalis new
 
 owner = KRN
 controller = KRN
@@ -79,7 +79,7 @@ discovered_by = south_american
 	add_core = FRA
 	culture = cosmopolitan_french
 	religion = catholic
-	capital = "Trois Rivières"
+	capital = "Trois Riviï¿½res"
 } # Taken by the French
 1763.12.1 = {
 	discovered_by = GBR

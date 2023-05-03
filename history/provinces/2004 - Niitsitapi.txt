@@ -22,7 +22,7 @@ native_hostileness = 3
 
 discovered_by = north_american
 
-#1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+#1444.11.12 = { #VictorumUniversalis batch edit shortcut native start date begin
 #	owner = QQM			#Kaina
 #	controller = QQM
 #	add_core = QQM
@@ -31,7 +31,7 @@ discovered_by = north_american
 #	trade_goods = fur
 #}
 
-#1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+#1444.11.14 = { #VictorumUniversalis batch edit shortcut native start date end
 #	owner = XXX
 #	controller = XXX
 #	remove_core = QQM
@@ -39,7 +39,7 @@ discovered_by = north_american
 #	trade_goods = unknown
 #}
 
-#1444.11.16 = { #BeyondTypus batch edit shortcut no native start date end
+#1444.11.16 = { #VictorumUniversalis batch edit shortcut no native start date end
 #	owner = BLA
 #	controller = BLA
 #	add_core = BLA

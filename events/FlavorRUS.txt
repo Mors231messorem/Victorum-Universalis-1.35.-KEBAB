@@ -2223,7 +2223,7 @@ country_event = {
 	#A new age for Russia
 	option = {
 		name = flavor_rus.44.a
-		custom_tooltip = rus_the_age_of_revolution_bt
+		custom_tooltip = rus_the_age_of_revolution_vu
 		set_country_flag = rus_has_rev_missions
 		swap_non_generic_missions = yes
 		

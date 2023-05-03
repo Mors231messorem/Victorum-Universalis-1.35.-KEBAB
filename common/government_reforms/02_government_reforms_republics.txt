@@ -4254,7 +4254,7 @@ millenarian_theocracy_reform = {
 
 ####################################################################################################
 ####################################################################################################
-####################	Legacy Governments From Beyond Typus and Beyond the Pale	####################
+####################	Legacy Governments From Victorum Universalis and Beyond the Pale	####################
 ####################################################################################################
 ####################################################################################################
 
@@ -4262,7 +4262,7 @@ puppet_kingdom_reform = {
 	icon = "nobleman"
 	allow_normal_conversion = no
 	potential = {
-		has_country_flag = bt_is_a_puppet_state
+		has_country_flag = vu_is_a_puppet_state
 		has_reform = puppet_kingdom_reform
 	}
 	lock_level_when_selected = yes

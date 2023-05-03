@@ -26,7 +26,7 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-#Province history completed by - Draiocht and docRobert
+#Province history completed by - Darth Modus and docRobert
 #1st Shattering unused
 #1st Performance Start Unused
 
@@ -42,7 +42,7 @@ discovered_by = eastern
 1627.8.1 = { controller = HAB }
 1629.5.22 = { controller = SHL }
 1644.1.12 = { controller = SWE } #Torstenssons War-Captured by Lennart Torstensson
-1645.8.13 = { controller = SHL } #The Peace of Brömsebro
+1645.8.13 = { controller = SHL } #The Peace of Brï¿½msebro
 1657.10.23 = { controller = SWE } #Karl X Gustavs First Danish War-Captured by Wrangel
 1658.2.26 = { owner = SHL controller = SHL } #The Peace of Roskilde
 1720.6.3 = { add_core = DNR owner = DNR controller = DNR add_core = DAN } #Treaty of Friedriksborg, Schleswig incorporated

@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7004 - Metera
 
 owner = NAP
 controller = NAP
@@ -21,76 +21,48 @@ discovered_by = eastern
 
 
 #Province history completed by - Chairman_Meow (JP)
-1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
+1291.5.21 = { #VictorumUniversalis batch edit shortcut the first shattering begins
 	owner = MTA
 	controller = MTA
 	add_core = MTA
 	remove_core = NAP
 }
-1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
+1291.5.23 = { #VictorumUniversalis batch edit shortcut the first shattering ends
 	owner = NAP
 	controller = NAP
 	add_core = NAP
 	remove_core = MTA
 }
-#First performance start unused
-#Not messing with vassals of vassals at the moment, but leaving this here for the future
-#1433.1.1 = {
-#	owner = TTO
-#	controller = TTO
-#	add_core = TTO
-#	remove_core = NAP
-#} #County of Matera given to Giovanni Antonio.
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+
+1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = MTA
 	controller = MTA
 	add_core = MTA
 	remove_core = NAP
 }
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
 	owner = NAP
 	controller = NAP
 	add_core = NAP
 } # Hashtagged as TAN exists in 1444 so not sure it is necessary.
-#Remember to add performance start details below if Taranto ever added to main start.
-#1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-#1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #Return to proper mod added owners and cuts vanilla core, typically.
-#1465.3.30 = {
-#	owner = NAP
-#	add_core = NAP
-#	controller = NAP
-#	remove_core = TTO
-#} # Giovanni Antonio's heir, Isabella of Clermont dies. She is married to the King of Naples, who succeeds his wife in Giovanni's lands
+
 1494.1.1 = {
 	add_core = FRA
 } # Angevin claims
+
 1495.2.22 = {
 	controller = FRA
 } # Charles VIII invades Naples
+
 1495.7.7 = {
 	controller = NAP
 } # Charles VIII leaves Italy
-#Not messing with vassals of vassals at the moment, but leaving this here for the future
+
 1497.10.1 = {
-#	controller = MTA
-#	owner = MTA
 	add_core = MTA
-#	remove_core = NAP
 } # County of Matera granted to Giovanni Carlo Tramontano
-#1514.12.29 = {
-#	owner = ARA
-#	controller = ARA
-#	add_core = ARA
-#	remove_core = MTA
-#} # Giovanni Carlo dies and his lands are returned to the Kingdom
+
 1516.1.23 = {
 	owner = SPA
 	controller = SPA

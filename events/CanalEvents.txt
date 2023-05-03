@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 namespace = canal_events
 
 ########################################
@@ -1369,7 +1370,7 @@ province_event = {
 
 
 # Canal Project Delayed - Overlord Notification
-province_event = {
+country_event = {
 	id = canal_events.28
 	title = "canal_events.28.t"
 	desc = "canal_events.28.d"
@@ -1384,7 +1385,7 @@ province_event = {
 }
 
 # Canal Project Ahead of Time - Overlord Notification
-province_event = {
+country_event = {
 	id = canal_events.29
 	title = "canal_events.29.t"
 	desc = "canal_events.29.d"

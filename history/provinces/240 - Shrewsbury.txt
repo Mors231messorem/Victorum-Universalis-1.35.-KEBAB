@@ -25,13 +25,13 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-1444.11.16 = { #BT Performance Start Begin
+1444.11.16 = { #VU Performance Start Begin
 	owner = ENG
 	controller = ENG
 	add_core = ENG
 	remove_core = WMC
 }
-1444.11.18 = { #BT Performance Start Begin
+1444.11.18 = { #VU Performance Start Begin
 	owner = WMC
 	controller = WMC
 	#remove_core = ENG
