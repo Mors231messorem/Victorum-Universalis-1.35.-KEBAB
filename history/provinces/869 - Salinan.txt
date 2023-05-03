@@ -15,14 +15,14 @@ native_hostileness = 3
 discovered_by = north_american
 
 
-1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+1444.11.12 = { #VictorumUniversalis batch edit shortcut native start date begin
 	owner = YYS			#Miwok
 	controller = YYS
 	add_core = YYS
 	is_city = yes
 	trade_goods = fur
 }
-1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+1444.11.14 = { #VictorumUniversalis batch edit shortcut native start date end
 	owner = XXX
 	controller = XXX
 	remove_core = YYS
@@ -39,7 +39,7 @@ discovered_by = north_american
 	trade_goods = fish 
 	culture = castillian
 	religion = catholic
-}	#Father Presidente Junípero Serra founds Mission San Antonio de Padua
+}	#Father Presidente Junï¿½pero Serra founds Mission San Antonio de Padua
 1791.10.9 = {
 	capital = "Soledad"
 }	#Mission Mission Nuestra Senora de la Soledad

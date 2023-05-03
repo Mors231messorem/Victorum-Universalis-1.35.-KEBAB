@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 ##############################
 # Coptic Flavor Events       #
 #                            #
@@ -26,10 +27,7 @@ country_event = {
 
 	trigger = {
 		owns = 1227
-		
 		religion = coptic
-					   
-   
 		has_dlc = "Rights of Man"
 	}
 
@@ -78,15 +76,10 @@ country_event = {
 	trigger = {
 		owns = 358
 		OR = {
-		  
 			NOT = { has_mission = coptic_conquest_of_alexandria }
-	
 			has_country_flag = alexandria_mission_flag
 		}
-		
 		religion = coptic
-					   
-   
 		has_dlc = "Rights of Man"
 		NOT = { has_global_flag = coptic_alexandria_liberated } #Cancels Mission 
 	}
@@ -181,16 +174,11 @@ country_event = {
 
 	trigger = {
 		OR = {
-		  
 			NOT = { has_mission = coptic_conquest_of_yerevan }
-	
 			has_country_flag = yerevan_mission_flag
 		}
 		owns = 419
-		
 		religion = coptic
-					   
-   
 		has_dlc = "Rights of Man"
 		NOT = { has_global_flag = coptic_yerevan_liberated }
 	}
@@ -245,16 +233,11 @@ country_event = {
 
 	trigger = {
 		OR = {
-		  
 			NOT = { has_mission = coptic_conquest_of_antioch }
-	
 			has_country_flag = antioch_mission_flag
 		}
 		owns = 2313
-		
 		religion = coptic
-					   
-   
 		has_dlc = "Rights of Man"
 		NOT = { has_global_flag = coptic_conquest_of_antioch }
 	}
@@ -304,19 +287,14 @@ country_event = {
 
 	trigger = {
 		OR = {
-		  
 			NOT = { has_mission = coptic_conquest_of_qasr_ibrim }
-	
 			has_country_flag = qasr_ibrim_flag
 		}
 		owns = 1234
 		1234 = {
 			religion = coptic
 		}
-		
 		religion = coptic
-					   
-   
 		has_dlc = "Rights of Man"
 		NOT = { has_global_flag = coptic_qasr_ibrim_liberated }
 	}

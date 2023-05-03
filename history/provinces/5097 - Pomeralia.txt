@@ -16,7 +16,7 @@ base_manpower = 2
 is_city = yes
 
 add_permanent_province_modifier = {
-	name = bt_kornhaus_der_hansa
+	name = vu_kornhaus_der_hansa
 	duration = -1
 }
 

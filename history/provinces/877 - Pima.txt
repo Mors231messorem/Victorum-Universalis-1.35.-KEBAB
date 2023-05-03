@@ -16,21 +16,21 @@ native_hostileness = 3
 discovered_by = north_american
 
 
-1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+1444.11.12 = { #VictorumUniversalis batch edit shortcut native start date begin
 	owner = PIM			#Pima
 	controller = PIM
 	add_core = PIM
 	is_city = yes
 	trade_goods = salt 		#Vanilla. Whatever, a lot of salt here
 }
-1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+1444.11.14 = { #VictorumUniversalis batch edit shortcut native start date end
 	owner = XXX
 	controller = XXX
 	remove_core = PIM
 	is_city = no
 	trade_goods = unknown
 }
-1541.1.1 = { discovered_by = SPA } # Francisco Vásquez de Coronado
+1541.1.1 = { discovered_by = SPA } # Francisco Vï¿½squez de Coronado
 1731.1.1 = {
 	owner = SPA
 	controller = SPA

@@ -388,7 +388,7 @@ rig_empire_mission_slot = {
 				}
 				has_reform = reformer_state_reform
 				custom_trigger_tooltip = {
-					tooltip = rig_sell_indulgences_bt
+					tooltip = rig_sell_indulgences_vu
 					check_variable = {
 						which = raided_churches
 						value = 5
@@ -663,7 +663,7 @@ rig_religion_mission_slot = {
 			religious_unity = 1
 			OR = {
 				calc_true_if = {
-					desc = rig_establish_religious_dominance_bt
+					desc = rig_establish_religious_dominance_vu
 					all_known_country = {
 						is_part_of_hre = yes
 						religion = ROOT
@@ -762,7 +762,7 @@ rig_religion_mission_slot = {
 				}
 			}
 			calc_true_if = {
-				desc = rig_defend_the_catholic_league_bt
+				desc = rig_defend_the_catholic_league_vu
 				amount = 150
 				all_province = {
 					OR = {
@@ -1368,7 +1368,7 @@ rig_develop_and_teuton_mission_slot = {
 				}
 				add_dip_power = 100
 			}
-			else = { custom_tooltip = rig_rule_over_the_knights_bt }
+			else = { custom_tooltip = rig_rule_over_the_knights_vu }
 			if = {
 				limit = { exists = TEU }
 				if = {

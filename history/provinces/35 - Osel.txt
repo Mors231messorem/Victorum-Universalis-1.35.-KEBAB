@@ -1,4 +1,4 @@
-#Ösel and Dagö, incl. Sonnenburg and Arensburg.
+#ï¿½sel and Dagï¿½, incl. Sonnenburg and Arensburg.
 #Region - Baltic
 #Area - Estonia
 
@@ -20,19 +20,19 @@ discovered_by = western
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 #1st Shattering unused
 #1st Performance Start Unused
 
 #1291 - 1444
 
 #2nd Shattering unused
-1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
+1444.11.16 = { #VictorumUniversalis batch edit shortcut no vassal start date begin
 	owner = LIV
 	controller = LIV
 	add_core = LIV
 }
-1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+1444.11.18 = { #VictorumUniversalis batch edit shortcut no vassal start date end
 	owner = OSL
 	controller = OSL
 	remove_core = LIV
@@ -53,7 +53,7 @@ discovered_by = eastern
 	controller = SWE
 	add_core = SWE
 	remove_core = DAN
-} # The Peace of Brömsebro
+} # The Peace of Brï¿½msebro
 1710.9.20 = { controller = RUS }
 1721.8.30 = {
 	owner = RUS

@@ -1,14 +1,10 @@
+#VU updated to 1.35 by San Felipe 
 country_decisions = {
 
 	form_colonial_assembly = {
 		major = yes
 		potential = {
-			OR = {
-				has_reform = colonial_government
-				has_reform = crown_colony_government
-				has_reform = private_enterprise_colony_government
-				has_reform = self_governing_colony_government
-			}
+			has_reform = colonial_government
 			NOT = { has_country_flag = colonial_assembly }
 			OR = {
 				current_age = age_of_absolutism

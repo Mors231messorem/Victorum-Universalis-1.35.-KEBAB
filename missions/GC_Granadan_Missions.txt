@@ -44,7 +44,7 @@ granada_development_missions = {
 		}
 		
 		effect = {
-			capital_scope = { #Not dev-doubled, simply shuffled from 2/0/4, sending Granada from 11/11/6 to 12/12/10. Keep in mind Granada has a lot more dev in BT.
+			capital_scope = { #Not dev-doubled, simply shuffled from 2/0/4, sending Granada from 11/11/6 to 12/12/10. Keep in mind Granada has a lot more dev in VU.
 				add_base_tax = 1
 				add_base_production = 1
 				add_base_manpower = 4
@@ -1709,7 +1709,7 @@ andalusia_slot_5_missions = {
 					name = "adu_summer_capital"
 					duration = -1
 				}
-				set_province_flag = bt_damascus_restored
+				set_province_flag = vu_damascus_restored
 			}
 			erzurum_area = { #Upper Euphrates
 				limit = {

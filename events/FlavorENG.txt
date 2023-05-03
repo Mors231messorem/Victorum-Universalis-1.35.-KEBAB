@@ -1355,7 +1355,7 @@ country_event = {
 }
 
 # Hugh O'Neills Irish Rebellion
-country_event = { #BT NOTE: Needs to be adapted to BT's Ireland viceroyalty somehow.
+country_event = { #VU Needs to be adapted to VU's Ireland viceroyalty somehow.
 	id = flavor_eng.9122
 	title = "flavor_eng.EVTNAME9122"
 	desc = "flavor_eng.EVTDESC9122"
@@ -1403,7 +1403,7 @@ country_event = { #BT NOTE: Needs to be adapted to BT's Ireland viceroyalty some
 		months = 1200
 		modifier = {
 			factor = 0.5
-			mission_completed = conquer_ireland
+			mission_completed = eng_irish_conquest
 		}
 	}
 
@@ -2959,7 +2959,7 @@ country_event = {
 		4370 = {
 			owned_by = ROOT
 		}
-		mission_completed = eng_universities #Fixed incorrect mission title
+		mission_completed = gbr_ave_renovate_universities #Fixed incorrect mission title
 	}
 	
 	immediate = {

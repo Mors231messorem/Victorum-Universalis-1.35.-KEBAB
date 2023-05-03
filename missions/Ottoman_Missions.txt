@@ -132,7 +132,7 @@ tur_conquerors_of_the_near_east = {
 				add_claim = ROOT
 			}
 			
-			if = { #BT re-adding vassalization for Wallachia.
+			if = { #VU re-adding vassalization for Wallachia.
 				limit = {
 					exists = WAL
 					is_subject = no
@@ -340,7 +340,7 @@ tur_eastern_balkans = {
 				}
 				add_claim = ROOT
 			}
-			#BT added
+			#VU added
 			carpathian_ruthenia_area = {
 				limit = {
 					NOT = { owned_by = ROOT	}
@@ -740,7 +740,7 @@ tur_eastern_mediterrenean_missions = {
 			add_claim = 122 #Dubious
 			add_claim = 126
 			add_claim = 142
-			#BT added Cephalonia as it's a separate provinces in BT
+			#VU added Cephalonia as it's a separate provinces in VU
 			add_claim = 4698
 			add_country_modifier = {
 				name = "mediterranean_ambition"

@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = takic
 religion = totemism 
-capital = "Kúpa" 			#Also Wilákalpa 
+capital = "Kï¿½pa" 			#Also Wilï¿½kalpa 
 trade_goods = unknown
 hre = no 
 base_tax = 2 			#Population estimates are consistantly under 800 for 1770, but note in the 15th century, Lake Cahuila would have made the area much, much richer. Any numbers would be pure speculation, but I'd consider this a rich area until the lake dried up.

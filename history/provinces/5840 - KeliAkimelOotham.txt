@@ -1,9 +1,9 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = piman
 religion = totemism 
 capital = "Oyadaibuc" #Supposedly Hila Win is the native name of the town Gila Bend which was founded in 1872. This settlement predates that, courtesy of Perry for pointing it out.
-#capital = "Hila Wín"
+#capital = "Hila Wï¿½n"
 trade_goods = unknown
 hre = no 
 base_tax = 1 

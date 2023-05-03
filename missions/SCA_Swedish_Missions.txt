@@ -807,7 +807,7 @@ swe_diplomacy_mission_slot = {
 				OR = {
 					overlord = {
 						calc_true_if = {
-						desc = swe_swedish_allies_bt
+						desc = swe_swedish_allies_vu
 							all_known_country = {
 								OR = {
 									is_rival = PREV
@@ -1434,7 +1434,7 @@ swe_kalmar_union_mission_slot = {
 							exists = PLC
 						}
 						custom_trigger_tooltip = {
-							tooltip = swe_the_livonian_order_bt
+							tooltip = swe_the_livonian_order_vu
 							alliance_with = PLC
 							reverse_has_opinion = { who = PLC value = 100 }
 							PLC = {
@@ -1461,7 +1461,7 @@ swe_kalmar_union_mission_slot = {
 							exists = POL
 						}
 						custom_trigger_tooltip = {
-							tooltip = swe_the_livonian_order_bt
+							tooltip = swe_the_livonian_order_vu
 							alliance_with = POL
 							reverse_has_opinion = { who = POL value = 100 }
 							POL = {
@@ -1608,7 +1608,7 @@ swe_kalmar_union_mission_slot = {
 							exists = PLC
 						}
 						custom_trigger_tooltip = {
-							tooltip = swe_the_teutonic_order_bt
+							tooltip = swe_the_teutonic_order_vu
 							alliance_with = PLC
 							reverse_has_opinion = { who = PLC value = 100 }
 							PLC = {
@@ -1634,7 +1634,7 @@ swe_kalmar_union_mission_slot = {
 							exists = POL
 						}
 						custom_trigger_tooltip = {
-							tooltip = swe_the_teutonic_order_bt
+							tooltip = swe_the_teutonic_order_vu
 							alliance_with = POL
 							reverse_has_opinion = { who = POL value = 100 }
 							POL = {
@@ -2013,7 +2013,7 @@ swe_kalmar_union_mission_slot = {
 			}
 			else = {
 				mil_power_cost = 800
-				custom_tooltip = swe_the_carolean_units_bt
+				custom_tooltip = swe_the_carolean_units_vu
 			}
 			country_event = {
 				id = flavor_swe.103
@@ -3183,7 +3183,7 @@ swe_religion_mission_slot = {
 							}
 						}
 						custom_trigger_tooltip = {
-							tooltip = swe_protestant_sword_bt
+							tooltip = swe_protestant_sword_vu
 							any_ally = {
 								is_part_of_hre = yes
 								religion = protestant
@@ -3968,7 +3968,7 @@ swe_protestant_mission_slot = {
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = swe_protestant_sword_bt
+					tooltip = swe_protestant_sword_vu
 					any_ally = {
 						is_part_of_hre = yes
 						religion = protestant
@@ -5498,7 +5498,7 @@ swe_sca_competent_fleet_slot = {
 					set_country_flag = unlock_norwegian_naval_doctrine
 				}
 				else = {
-					custom_tooltip = swe_sca_hire_norwegian_sailors_bt
+					custom_tooltip = swe_sca_hire_norwegian_sailors_vu
 				}
 			}
 		}

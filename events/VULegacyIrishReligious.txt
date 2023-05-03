@@ -1,12 +1,12 @@
-namespace = BtPLegacyIrishReligious
+namespace = VULegacyIrishReligious
 
 #Written by Driaocht 16-10-26
 
 # Keeping AI Ireland Catholic
 province_event = {
-	id = BtPLegacyIrishReligious.1
-	title = "BtPLegacyIrishReligious.EVTNAME1"
-	desc = "BtPLegacyIrishReligious.EVTDESC1"
+	id = VULegacyIrishReligious.1
+	title = "VULegacyIrishReligious.EVTNAME1"
+	desc = "VULegacyIrishReligious.EVTDESC1"
 	picture = RELIGIOUS_TURMOIL_eventPicture
 
 	trigger = {
@@ -26,7 +26,7 @@ province_event = {
 	}
 	
 	option = { # Push forward
-		name = "BtPLegacyIrishReligious.EVTOPTA1"
+		name = "VULegacyIrishReligious.EVTOPTA1"
 		#trigger = { owner = { adm_power = 20 } }			#Removing this trigger... if a tag wants to go into neg adm power, why not let them?
 		ai_chance = {
 			factor = 35
@@ -42,7 +42,7 @@ province_event = {
 		owner = { add_adm_power = -20 }
 	}
 	option = { # Oh well
-		name = "BtPLegacyIrishReligious.EVTOPTB1"
+		name = "VULegacyIrishReligious.EVTOPTB1"
 		ai_chance = {
 			factor = 65
 			modifier = {
@@ -63,9 +63,9 @@ province_event = {
 
 #Removing modifiers once conversion is complete or if 'Irish Caothlic' for whatever reason no longer applies
 province_event = {
-	id = BtPLegacyIrishReligious.2
-	title = "BtPLegacyIrishReligious.EVTNAME2"
-	desc = "BtPLegacyIrishReligious.EVTDESC2"
+	id = VULegacyIrishReligious.2
+	title = "VULegacyIrishReligious.EVTNAME2"
+	desc = "VULegacyIrishReligious.EVTDESC2"
 	picture = RELIGIOUS_CONVERSION_eventPicture
 
 	trigger = {
@@ -84,7 +84,7 @@ province_event = {
 	}
 	
 	option = { # Good to know
-		name = "BtPLegacyIrishReligious.EVTOPTA2"
+		name = "VULegacyIrishReligious.EVTOPTA2"
 		if = {
 			limit = { has_province_modifier = irish_catholicism_not_allowed }
 			remove_province_modifier = irish_catholicism_not_allowed
@@ -112,9 +112,9 @@ province_event = {
 #Trying, trying, and trying to fix the centre of reformation problem in ireland (where a CoR in England or Scotland converts all of Ireland in 5 years and there is nothing to be done.) This is imperfect, as this trigger can cause the occasional conversion of an Irish province that should convert (like from a valid event). 
 #Unfortunately, I don't see a way around it and I'm tired of seeing a Reformed Ireland in 9 games out of 10 (and in the other 1, a Catholic Scotland and England). Hopefully this finally resolves the issue and isn't railroady massive overkill.
 province_event = {
-	id = BtPLegacyIrishReligious.3
-	title = "BtPLegacyIrishReligious.EVTNAME3"
-	desc = "BtPLegacyIrishReligious.EVTDESC3"
+	id = VULegacyIrishReligious.3
+	title = "VULegacyIrishReligious.EVTNAME3"
+	desc = "VULegacyIrishReligious.EVTDESC3"
 	picture = RELIGIOUS_CONVERSION_eventPicture
 
 	trigger = {
@@ -137,7 +137,7 @@ province_event = {
 	}
 	
 	option = { # Return to Catholicism
-		name = "BtPLegacyIrishReligious.EVTOPTA3"
+		name = "VULegacyIrishReligious.EVTOPTA3"
 		ai_chance = { factor = 90 }
 		change_religion = catholic
 		remove_province_modifier = religious_zeal_at_conv
@@ -148,7 +148,7 @@ province_event = {
 		}
 	}
 	option = { # An ahistorical push towards the reformation, or if the state can't do anything.
-		name = "BtPLegacyIrishReligious.EVTOPTB3"
+		name = "VULegacyIrishReligious.EVTOPTB3"
 		ai_chance = {
 			factor = 10
 			modifier = {
@@ -173,9 +173,9 @@ province_event = {
 
 #Another little event to try to keep Ireland Catholic when it should be, but without railroading. This one will hit in all provinces converted by sources OTHER THAN missionaries (id est, CoRs & events) when owned by a non Catholic
 province_event = {
-	id = BtPLegacyIrishReligious.4
-	title = "BtPLegacyIrishReligious.EVTNAME4"
-	desc = "BtPLegacyIrishReligious.EVTDESC4"
+	id = VULegacyIrishReligious.4
+	title = "VULegacyIrishReligious.EVTNAME4"
+	desc = "VULegacyIrishReligious.EVTDESC4"
 	picture = RELIGIOUS_CONVERSION_eventPicture
 
 	trigger = {
@@ -200,7 +200,7 @@ province_event = {
 	}
 	
 	option = { # Return to Catholicism
-		name = "BtPLegacyIrishReligious.EVTOPTA4"
+		name = "VULegacyIrishReligious.EVTOPTA4"
 		ai_chance = {
 			factor = 65
 			modifier = {
@@ -220,7 +220,7 @@ province_event = {
 		}
 	}
 	option = { # An ahistorical push towards the reformation
-		name = "BtPLegacyIrishReligious.EVTOPTB4"
+		name = "VULegacyIrishReligious.EVTOPTB4"
 		ai_chance = {
 			factor = 35
 			modifier = {

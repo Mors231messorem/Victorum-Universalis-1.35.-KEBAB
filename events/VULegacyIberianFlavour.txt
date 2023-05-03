@@ -1,9 +1,9 @@
-namespace = BtPLegacyIberianFlavour
+namespace = VULegacyIberianFlavour
 #Deprecated in 1.30 due to effect being moved to vanilla event concerning the same thing.
 # country_event = {
-	# id = BtPLegacyIberianFlavour.1
-	# title = BtPLegacyIberianFlavour.EVTNAME1
-	# desc = BtPLegacyIberianFlavour.EVTDESC1
+	# id = VULegacyIberianFlavour.1
+	# title = VULegacyIberianFlavour.EVTNAME1
+	# desc = VULegacyIberianFlavour.EVTDESC1
 	# picture = GOOD_WITH_MONARCH_eventPicture
 	
 	# fire_only_once = yes
@@ -18,16 +18,16 @@ namespace = BtPLegacyIberianFlavour
 		# NAP = {
 			# junior_union_with = ARA
 		# }
-		# NOT = { has_global_flag = bt_two_sicilies_divided_happened }
+		# NOT = { has_global_flag = vu_two_sicilies_divided_happened }
 	# }
 	
 	# immediate = {
-		# set_global_flag = bt_two_sicilies_divided_happened
+		# set_global_flag = vu_two_sicilies_divided_happened
 	# }
 	
 	
 	# option = { #Divide the Sicilies
-		# name = BtPLegacyIberianFlavour.1.a
+		# name = VULegacyIberianFlavour.1.a
 		# ai_chance = { 
 			# factor = 90 
 			# modifier = {
@@ -49,7 +49,7 @@ namespace = BtPLegacyIberianFlavour
 	# }
 	
 	# option = { #Do not
-		# name = BtPLegacyIberianFlavour.1.b
+		# name = VULegacyIberianFlavour.1.b
 		# ai_chance = { factor = 10 }
 		
 		# NAP = {

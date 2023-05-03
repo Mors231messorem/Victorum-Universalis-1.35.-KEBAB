@@ -1,4 +1,4 @@
-#BT Balkans reoverhaul
+#7157 - Ludogorie
 
 owner = BUL
 controller = BUL

@@ -29,7 +29,7 @@ country_decisions = {
 			}
 			if = {
 				limit = { culture_group = gaelic }
-				373 = { rename_capital = "Baile Átha Cliath" }
+				373 = { rename_capital = "Baile ï¿½tha Cliath" }
 			}
 			if = {
 				limit = { NOT = { culture_group = gaelic } }
@@ -57,7 +57,7 @@ country_decisions = {
 		}
 	}
 	
-	#Note I merged the old 'move_capital_dublin' and 'move_capital_dublin_anglo_irish' decisions into one, as there was only a few minor differences which can be fixed with a few ors and ifs  -Draiocht
+	#Note I merged the old 'move_capital_dublin' and 'move_capital_dublin_anglo_irish' decisions into one, as there was only a few minor differences which can be fixed with a few ors and ifs  -Darth Modus
 
 	england_demand_fealty_of_ireland = {
 		potential = {
@@ -105,7 +105,7 @@ country_decisions = {
 					is_free_or_tributary_trigger = yes
 					is_at_war = no
 				}
-				country_event = { id = btpIRE.1 days = 3 }
+				country_event = { id = vuIRE.1 days = 3 }
 				hidden_effect = { add_country_modifier = { name = "irish_fealty_negotiations_ongoing" duration = 30 } }
 			}
 		}
@@ -128,7 +128,7 @@ country_decisions = {
 						}
 					}
 				}
-			}	#Draiocht added a few conditions and details. Need a ruler personality trait or claim to justify, also to prevent instant spam
+			}	#Darth Modus added a few conditions and details. Need a ruler personality trait or claim to justify, also to prevent instant spam
 			modifier = {
 				factor = 0
 				NOT = { stability = 1 }
@@ -267,12 +267,12 @@ country_decisions = {
 					add_historical_friend = ROOT
 					change_primary_culture = ROOT
 					change_religion = ROOT
-					set_country_flag = formed_kingdom_of_ireland_flag_btp
-					set_country_flag = bt_is_a_puppet_state
+					set_country_flag = formed_kingdom_of_ireland_flag_vu
+					set_country_flag = vu_is_a_puppet_state
 				}
 			}
 			create_subject = {
-				subject_type = viceroyalty_bt
+				subject_type = viceroyalty_vu
 				subject = ANI
 			}
 			add_country_modifier = {

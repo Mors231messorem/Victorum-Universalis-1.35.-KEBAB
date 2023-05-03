@@ -1,9 +1,10 @@
+#VU updated to 1.35 by San Felipe 
 country_decisions = {
 
 	malayan_nation = {
 		major = yes
 		potential = {
-		    bt_generic_can_form_potential_check = yes
+		    vu_generic_can_form_potential_check = yes
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_malaya_flag }
@@ -86,6 +87,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = MSA
+			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {

@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = paiute_culture
 religion = totemism 
@@ -19,14 +19,14 @@ native_hostileness = 3
 discovered_by = north_american
 
 
-1444.11.15 = { #BeyondTypus batch edit shortcut no native start date begin
+1444.11.15 = { #VictorumUniversalis batch edit shortcut no native start date begin
 	owner = XXX
 	controller = XXX
 	remove_core = SHO
 	is_city = no
 	trade_goods = unknown
 }
-1444.11.17 = { #BeyondTypus batch edit shortcut no native start date end
+1444.11.17 = { #VictorumUniversalis batch edit shortcut no native start date end
 	owner = SHO
 	controller = SHO
 	add_core = SHO

@@ -1,4 +1,4 @@
-#New Beyond Typus Provinces
+#New Victorum Universalis Provinces
 
 culture = maori
 religion = animism

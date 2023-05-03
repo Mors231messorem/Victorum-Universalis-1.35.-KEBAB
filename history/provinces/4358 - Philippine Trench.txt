@@ -1,6 +1,6 @@
 discovered_by = chinese
 1444.1.1 = { discovered_by = RYU }
-#This thing sticks out in BT.
+#This thing sticks out in VU.
 #discovered_by = indian
 #discovered_by = muslim
 #discovered_by = ottoman

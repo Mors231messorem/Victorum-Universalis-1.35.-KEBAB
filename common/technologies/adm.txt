@@ -1,9 +1,11 @@
+#VU updated by San Felipe for 1.35
 monarch_power = ADM
 
 # applied when a country is ahead of time in this technology
 ahead_of_time = {
 	production_efficiency = 0.2
 	yearly_corruption = -0.05
+	monthly_russian_modernization = 0.05
 }
 
 # Pre-era techs
@@ -24,7 +26,6 @@ technology = { #Tribal Government
 	native_sweat_lodge = yes
 	native_great_trail = yes
 	native_ceremonial_fire_pit = yes
-
 }
 
 technology = { #Advanced Tribes
@@ -62,7 +63,6 @@ technology = { #Medieval Administration
 
 	production_efficiency	=	0.02
 	may_support_rebels = yes
-
 	# abyssian007 edit make the road available at a tech level
 }
 
@@ -115,7 +115,6 @@ technology = { #Renaissance Thought
 	
 	#Noble Republic
 	allowed_idea_groups = 2
-	
 	#Sculpture Workshop TGE Manufactory
 	sculpture_workshop = yes
 }
@@ -129,7 +128,6 @@ technology = { #Courthouse
 	}
 
 	governing_capacity = 200   #Dev doubled but cap gains not?
-	
 	#Courthouse Building
 	courthouse = yes
 

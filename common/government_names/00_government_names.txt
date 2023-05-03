@@ -2371,7 +2371,6 @@ turkish_monarchy = {
 	}
 
 	trigger = {
-		
 		government = monarchy
 		primary_culture = turkish
 	}

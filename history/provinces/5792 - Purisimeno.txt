@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 owner = CHS			#Chumash
 controller = CHS
@@ -19,14 +19,14 @@ native_hostileness = 3
 discovered_by = north_american
 
 
-1444.11.15 = { #BeyondTypus batch edit shortcut no native start date begin
+1444.11.15 = { #VictorumUniversalis batch edit shortcut no native start date begin
 	owner = XXX
 	controller = XXX
 	remove_core = CHS
 	is_city = no
 	trade_goods = unknown
 }
-1444.11.17 = { #BeyondTypus batch edit shortcut no native start date end
+1444.11.17 = { #VictorumUniversalis batch edit shortcut no native start date end
 	owner = CHS
 	controller = CHS
 	add_core = CHS
@@ -38,12 +38,12 @@ discovered_by = north_american
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	capital = "La Purisima Concepción"
+	capital = "La Purisima Concepciï¿½n"
 	is_city = yes
 	trade_goods = fish 
 	culture = castillian
 	religion = catholic
-}	#Mission La Purisima Concepción
+}	#Mission La Purisima Concepciï¿½n
 1810.9.16 = { 
 	owner = MEX 
 	add_core = MEX 

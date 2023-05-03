@@ -65,14 +65,14 @@ spa_colonial_group = {
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = bt_mission_tooltip_hispaniola_colonisation
+					tooltip = vu_mission_tooltip_hispaniola_colonisation
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 5
 						colonial_region = colonial_hispaniola
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = bt_mission_tooltip_cuba_colonisation
+					tooltip = vu_mission_tooltip_cuba_colonisation
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 5
 						colonial_region = colonial_cuba

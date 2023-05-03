@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = yuman
 religion = totemism 
-capital = "'Wíkwatha Ksik'ita" 
+capital = "'Wï¿½kwatha Ksik'ita" 
 trade_goods = unknown
 hre = no 
 base_tax = 1 
@@ -15,5 +15,5 @@ native_hostileness = 3
 discovered_by = north_american
 
 
-1776.1.1 = { discovered_by = SPA } #Dominguez–Escalante expedition
+1776.1.1 = { discovered_by = SPA } #Dominguezï¿½Escalante expedition
 #Prescott area

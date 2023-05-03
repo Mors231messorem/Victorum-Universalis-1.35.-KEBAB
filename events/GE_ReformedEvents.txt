@@ -276,7 +276,7 @@ country_event = {
 	
 
 	trigger = {
-		has_reform = ajuraan_theocracy_reform
+		has_reform = ajuuraan_theocracy_reform
 		has_heir = no
 	}
 	
@@ -5128,7 +5128,7 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			#Removed for BT since Sicily is part of Naples
+			#Removed for VU since Sicily is part of Naples
 			sicily_area = {
 				add_province_modifier = {
 					name = Kingdom_Of_Sicily

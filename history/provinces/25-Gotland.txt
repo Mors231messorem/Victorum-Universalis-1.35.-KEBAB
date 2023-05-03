@@ -30,14 +30,14 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 #1st Shattering unused
-1291.5.24 = { #BeyondTypus batch edit shortcut first performance start begins
+1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
 	owner = SWE
 	controller = SWE
 	add_core = SWE
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1291.5.26 = { #BeyondTypus batch edit shortcut first performance start ends
+1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
 	owner = GOT
 	controller = GOT
 	remove_core = SWE
@@ -76,12 +76,12 @@ discovered_by = eastern
 } # Eric settles at Visborg Castle, living off piracy
 
 #2nd Shattering unused
-1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
+1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = DAN
 	controller = DAN
 	add_core = DAN
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
+1444.11.18 = { #VictorumUniversalis batch edit shortcut second performance start ends
 	owner = GOT
 	controller = GOT
 } #Return to proper mod added owners and cuts vanilla core, typically.

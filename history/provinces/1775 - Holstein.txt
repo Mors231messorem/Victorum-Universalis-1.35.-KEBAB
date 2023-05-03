@@ -26,7 +26,7 @@ discovered_by = eastern
 
 
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 #1st Shattering unused
 #1st Performance Start Unused
 

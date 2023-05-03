@@ -10,13 +10,13 @@ guarantee = {
 	first = LIT
 	second = CRI
 	start_date = 1444.1.1
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
 }	#Agreement between Crimea and Lithuania against Great Horde, Crimea gaining protection in exchange for the Yedisan area.
 
 guarantee = {
 	first = LIT
 	second = CRI
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1475.1.1 #Khanate becomes a protectorate of the Ottoman Empire, essentially.
 }	#Agreement between Crimea and Lithuania against Great Horde, Crimea gaining protection in exchange for the Yedisan area.
 
@@ -54,14 +54,14 @@ vassal = {
 	first = LIT
 	second = KIE
 	start_date = 1444.1.1
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
 }
 
 #Kiev Principality under Lithuania
 vassal = {
 	first = LIT
 	second = KIE
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1471.1.1 #Principality of Kiev fully annexed to Lithuania with the death of Prince Simeon Olelkovich
 }
 
@@ -86,14 +86,14 @@ vassal = {
 	first = LIT
 	second = SMG
 	start_date = 1444.1.1
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
 }
 
 #Duchy of Samogitia under Lithuania
 vassal = {
 	first = LIT
 	second = SMG
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1500.1.1 #Generic End Date, replace when I have time to do proper later starts history work
 }
 
@@ -101,13 +101,13 @@ vassal = {
 	first = LIT
 	second = VTN
 	start_date = 1444.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 vassal = {
 	first = LIT
 	second = VTN
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1494.1.1
 }
 
@@ -115,13 +115,13 @@ vassal = {
 	first = LIT
 	second = OKA
 	start_date = 1444.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 vassal = {
 	first = LIT
 	second = OKA
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1494.1.1
 }
 
@@ -129,13 +129,13 @@ vassal = {
 	first = LIT
 	second = BLV
 	start_date = 1444.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 vassal = {
 	first = LIT
 	second = BLV
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1494.1.1
 }
 
@@ -143,13 +143,13 @@ vassal = {
 	first = LIT
 	second = MSL
 	start_date = 1444.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 vassal = {
 	first = LIT
 	second = MSL
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1494.1.1
 }
 
@@ -165,13 +165,13 @@ vassal = {
 	first = LIV
 	second = KUR
 	start_date = 1435.12.4
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 vassal = {
 	first = LIV
 	second = KUR
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1560.5.20
 }
 
@@ -179,13 +179,13 @@ vassal = {
 	first = LIV
 	second = OSL
 	start_date = 1435.12.4
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 vassal = {
 	first = LIV
 	second = OSL
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1560.5.20
 }
 
@@ -193,13 +193,13 @@ vassal = {
 	first = LIV
 	second = DRP
 	start_date = 1435.12.4
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 vassal = {
 	first = LIV
 	second = DRP
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1558.7.18
 }
 
@@ -207,13 +207,13 @@ vassal = {
 	first = LIV
 	second = RIG
 	start_date = 1435.12.4
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 vassal = {
 	first = LIV
 	second = RIG
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1561.1.1
 }
 
@@ -412,84 +412,84 @@ union = {
 vassal = {
 	first = TEU
 	second = PMS
-	start_date = 1291.5.19 #BeyondTypus batch edit shortcut Start Date
-	end_date = 1291.5.21 #BeyondTypus batch edit shortcut the first shattering begins
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
 }
 
 vassal = {
 	first = TEU
 	second = PMS
-	start_date = 1291.5.26 #BeyondTypus batch edit shortcut first performance start ends
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
 }
 
 vassal = {
 	first = TEU
 	second = PMS
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1525.1.1
 }
 
 vassal = {
 	first = TEU
 	second = KLL
-	start_date = 1291.5.19 #BeyondTypus batch edit shortcut Start Date
-	end_date = 1291.5.21 #BeyondTypus batch edit shortcut the first shattering begins
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
 }
 
 vassal = {
 	first = TEU
 	second = KLL
-	start_date = 1291.5.26 #BeyondTypus batch edit shortcut first performance start ends
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
 }
 
 vassal = {
 	first = TEU
 	second = KLL
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1525.1.1
 }
 
 vassal = {
 	first = TEU
 	second = SGA
-	start_date = 1291.5.19 #BeyondTypus batch edit shortcut Start Date
-	end_date = 1291.5.21 #BeyondTypus batch edit shortcut the first shattering begins
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
 }
 
 vassal = {
 	first = TEU
 	second = SGA
-	start_date = 1291.5.26 #BeyondTypus batch edit shortcut first performance start ends
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
 }
 
 vassal = {
 	first = TEU
 	second = SGA
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1525.1.1
 }
 
 vassal = {
 	first = TEU
 	second = WRM
-	start_date = 1291.5.19 #BeyondTypus batch edit shortcut Start Date
-	end_date = 1291.5.21 #BeyondTypus batch edit shortcut the first shattering begins
+	start_date = 1291.5.19 #VictorumUniversalis batch edit shortcut Start Date
+	end_date = 1291.5.21 #VictorumUniversalis batch edit shortcut the first shattering begins
 }
 
 vassal = {
 	first = TEU
 	second = WRM
-	start_date = 1291.5.26 #BeyondTypus batch edit shortcut first performance start ends
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
+	start_date = 1291.5.26 #VictorumUniversalis batch edit shortcut first performance start ends
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
 }
 
 vassal = {
 	first = TEU
 	second = WRM
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1466.10.19
 }
 

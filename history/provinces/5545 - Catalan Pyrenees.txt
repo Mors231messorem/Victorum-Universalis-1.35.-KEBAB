@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#5545 - Catalan Pyrenees
 
 discovered_by = western
 discovered_by = muslim

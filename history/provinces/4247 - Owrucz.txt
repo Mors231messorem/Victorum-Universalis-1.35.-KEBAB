@@ -1,4 +1,4 @@
-#3240 - Iskorosten (using old BtP file)
+#4247 - Owrucz
 #Region - Ruthenia
 #Area - West Dniepr
 

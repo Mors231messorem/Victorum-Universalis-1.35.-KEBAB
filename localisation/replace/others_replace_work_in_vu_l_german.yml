@@ -1,6 +1,6 @@
 ﻿l_german:
 
- #This file contains localisation work not done by Draiocht, organised by contributor. - Translation finished
+ #This file contains localisation work not done by Darth Modus, organised by contributor. - Translation finished
 
  ##################################################################################################
  ##################################################################################################
@@ -248,7 +248,7 @@
  batak:0 "Batakisch"
  degar:0 "Degarisch"
  khun:0 "Luenisch"
- tai:0 "Taisch"         #Changed by Draiocht from Thailändisch, as that invokes Thailand, whereas these people mostly live in China and are only distantly related.
+ tai:0 "Taisch"         #Changed by Darth Modus from Thailändisch, as that invokes Thailand, whereas these people mostly live in China and are only distantly related.
  orang_asli:0 "Aslisch"
  bimanese:0 "Bimanesisch"
  timorese:0 "Timoresisch"

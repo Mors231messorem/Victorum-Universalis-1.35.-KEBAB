@@ -24,33 +24,33 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
+1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = BUR
 	controller = BUR
 	add_core = BUR
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
+1444.11.18 = { #VictorumUniversalis batch edit shortcut second performance start ends
 	owner = HAI
 	controller = HAI
 	remove_core = BUR
 } #Return to proper mod added owners and cuts vanilla core, typically.
 
-#New history by Draiocht
+#New history by Darth Modus
 1477.1.5 = { owner = HAB controller = HAB add_core = HAB }	#from vanilla. Mary of Burgundy, an heiress, passes all Burgundian holdings in the Low Countries to the Habsburgs
 #Charles V inherited the Seventeen provinces in 1506, would later go on to inherit Spain, then finally the HRE
 1516.1.23 = { owner = SPA controller = SPA add_core = SPA } #Only later grouped with Spain, but for engine/gameplay reasons, calling it Spain upon the countries creation.
 1519.1.12 = { remove_core = HAB hre = yes } # Charles V elected emperor and gains total control over his Burgundian inheritance.
-#Draiocht note - Base files say 'Flanders incorporated into the Holy Roman Empire' in 1548. I can neither easily find info on this, nor disprove it, unless it is refering to the 'Pragmatic Sanction of 1549'. While it is true that this act centralised the Low Countries and organised them within a HRE structure, it also appears to have explicitly outlined the Low Countries as 'not part of the HRE'.
+#Darth Modus note - Base files say 'Flanders incorporated into the Holy Roman Empire' in 1548. I can neither easily find info on this, nor disprove it, unless it is refering to the 'Pragmatic Sanction of 1549'. While it is true that this act centralised the Low Countries and organised them within a HRE structure, it also appears to have explicitly outlined the Low Countries as 'not part of the HRE'.
 1549.11.4 = { owner = NED controller = NED add_core = NED remove_core = SPA hre = no }	#From vanilla, appears to be the creation date for the Netherlands according to Paradox, though still as a vassal of SPA. Calling this date good enough, and also removing province from HRE at this point.
 1566.1.1 = { unrest = 5 religion = reformed }	#Beeldenstorm causes religious tension between Reformist Spanish Netherlands and 'protector of the Counter-Reformation' Philip II.
 1579.1.6 = { owner = SPA controller = SPA add_core = SPA religion = catholic unrest = 0 add_local_autonomy = 50 }	#Union of Arras signed in the south, giving direct Spanish control at the cost of higher autonomy. Under the Spanish, Catholicism regains dominance.
-#End of new history by Draiocht, back to vanilla
+#End of new history by Darth Modus, back to vanilla
 
 1635.5.1 = { controller = FRA } # French troops capture parts of the Southern Lowlands
-1648.1.30 = { controller = SPA } # Peace of Münster/Westphalia
+1648.1.30 = { controller = SPA } # Peace of Mï¿½nster/Westphalia
 1650.1.1 = { trade_goods = iron textile = no } # Focus more and more on iron & coal industry
 1665.9.17 = { add_claim = FRA } # Louis XIV's father-in-law, Philip IV of Spain, dies
-1667.9.25 = { controller = FRA } # Maréchal captures alot of cities in the region for Louis XIV
+1667.9.25 = { controller = FRA } # Marï¿½chal captures alot of cities in the region for Louis XIV
 1668.5.2 = { controller = SPA } # Peace of Aachen
 1672.5.5 = { controller = FRA } # France blitzes through the Lowlands in the Franco-Dutch War
 1678.9.19 = { controller = SPA } # Peace of Nijmegen (France-Spain)
@@ -60,7 +60,7 @@ discovered_by = eastern
 1715.9.1 = { remove_claim = FRA } # Louis XIV passes away
 1744.4.1 = { controller = FRA } # France captures Hainaut in the Austrian War of Succession
 1744.7.1 = { controller = HAB } # France withdraws
-1746.10.11 = { controller = FRA } # Maréchal Saxe launches a succesful offensive
+1746.10.11 = { controller = FRA } # Marï¿½chal Saxe launches a succesful offensive
 1748.10.18 = { controller = HAB } # Peace of Aachen
 1789.5.5 = { base_tax = 12 
 base_production = 12 } # The General Estates

@@ -1,11 +1,11 @@
-namespace = BtPLegacy_flavour_misc
-#Written by Draiocht 16-9-27
+namespace = VULegacy_flavour_misc
+#Written by Darth Modus 16-9-27
 
 # Faroese Event
 province_event = {
-	id = BtPLegacy_flavour_misc.1
-	title = "BtPLegacyMisc.EVTNAME1"
-	desc = "BtPLegacyMisc.EVTDESC1"
+	id = VULegacy_flavour_misc.1
+	title = "VULegacyMisc.EVTNAME1"
+	desc = "VULegacyMisc.EVTDESC1"
 	picture = COLONIZATION_eventPicture
 	
 	trigger = {
@@ -44,7 +44,7 @@ province_event = {
 	}
 
 	option = { # okay
-		name = "BtPLegacyMisc.EVTOPTA1"
+		name = "VULegacyMisc.EVTOPTA1"
 		add_local_autonomy = 25
 		change_culture = faroese
 	}
@@ -52,9 +52,9 @@ province_event = {
 
 #Fixing stragglers from Celtic reunification (provinces)
 province_event = {
-	id = BtPLegacy_flavour_misc.2
-	title = "BtPLegacyMisc.EVTNAME2"
-	desc = "BtPLegacyMisc.EVTDESC2"
+	id = VULegacy_flavour_misc.2
+	title = "VULegacyMisc.EVTNAME2"
+	desc = "VULegacyMisc.EVTDESC2"
 	picture = STREET_SPEECH_eventPicture
 	
 	trigger = {
@@ -73,7 +73,7 @@ province_event = {
 	mean_time_to_happen = { days = 1 }
 
 	option = { # okay
-		name = "BtPLegacyMisc.EVTOPTA2"
+		name = "VULegacyMisc.EVTOPTA2"
 		custom_tooltip = merges_celtic_cultures_tooltip_b
 		hidden_effect = {
 			if = {
@@ -110,9 +110,9 @@ province_event = {
 
 #Fixing stragglers from Celtic reunification (country)
 country_event = {
-	id = BtPLegacy_flavour_misc.3
-	title = "BtPLegacyMisc.EVTNAME3"
-	desc = "BtPLegacyMisc.EVTDESC3"
+	id = VULegacy_flavour_misc.3
+	title = "VULegacyMisc.EVTNAME3"
+	desc = "VULegacyMisc.EVTDESC3"
 	picture = STREET_SPEECH_eventPicture
 	
 	trigger = {
@@ -138,7 +138,7 @@ country_event = {
 	mean_time_to_happen = { days = 1 }
 
 	option = { # okay
-		name = "BtPLegacyMisc.EVTOPTA3"
+		name = "VULegacyMisc.EVTOPTA3"
 		custom_tooltip = merges_celtic_cultures_tooltip_c
 		hidden_effect = {
 			if = {
@@ -210,9 +210,9 @@ country_event = {
 
 # Norse-Gael assimilation Event
 province_event = {
-	id = BtPLegacy_flavour_misc.4
-	title = "BtPLegacyMisc.EVTNAME4"
-	desc = "BtPLegacyMisc.EVTDESC4"
+	id = VULegacy_flavour_misc.4
+	title = "VULegacyMisc.EVTNAME4"
+	desc = "VULegacyMisc.EVTDESC4"
 	picture = COLONIZATION_eventPicture
 	
 	trigger = {
@@ -251,7 +251,7 @@ province_event = {
 	}
 
 	option = { # okay
-		name = "BtPLegacyMisc.EVTOPTA4"
+		name = "VULegacyMisc.EVTOPTA4"
 		add_local_autonomy = -10
 		change_culture = highland_scottish
 		if = {
@@ -271,9 +271,9 @@ province_event = {
 
 # Eris's Advisors #1 (Pal Gazulli)
 country_event = {
-	id = BtPLegacy_flavour_misc.5
-	title = "BtPLegacyMisc.EVTNAME5"
-	desc = "BtPLegacyMisc.EVTDESC5"
+	id = VULegacy_flavour_misc.5
+	title = "VULegacyMisc.EVTNAME5"
+	desc = "VULegacyMisc.EVTDESC5"
 	picture = ADVISOR_eventPicture
 
 	fire_only_once = yes
@@ -317,9 +317,9 @@ country_event = {
 
 # Eris's Advisors #2 (Anthony Cooke)
 country_event = {
-	id = BtPLegacy_flavour_misc.6
-	title = "BtPLegacyMisc.EVTNAME6"
-	desc = "BtPLegacyMisc.EVTDESC6"
+	id = VULegacy_flavour_misc.6
+	title = "VULegacyMisc.EVTNAME6"
+	desc = "VULegacyMisc.EVTDESC6"
 	picture = ADVISOR_eventPicture
 
 	fire_only_once = yes
@@ -375,9 +375,9 @@ country_event = {
 #deserk's Sale events cut, as vanilla replaces them in 1.28
 # Moriscos in Sale event I
 #country_event = {
-#	id = BtPLegacy_flavour_misc.7
-#	title = "BtPLegacyMisc.EVTNAME7"
-#	desc = "BtPLegacyMisc.EVTDESC7"
+#	id = VULegacy_flavour_misc.7
+#	title = "VULegacyMisc.EVTNAME7"
+#	desc = "VULegacyMisc.EVTDESC7"
 #	picture = ECONOMY_eventPicture
 #	
 #	is_triggered_only = yes
@@ -398,7 +398,7 @@ country_event = {
 #	}
 #
 #	option = {		# They are a welcome addition
-#		name = "BtPLegacyMisc.EVTOPTB7"
+#		name = "VULegacyMisc.EVTOPTB7"
 #		ai_chance = { factor = 1 }
 #		add_prestige = -10
 #		random_country = {
@@ -419,9 +419,9 @@ country_event = {
 
 # Moriscos in Sale event II
 #country_event = {
-#	id = BtPLegacy_flavour_misc.8
-#	title = "BtPLegacyMisc.EVTNAME8"
-#	desc = "BtPLegacyMisc.EVTDESC8"
+#	id = VULegacy_flavour_misc.8
+#	title = "VULegacyMisc.EVTNAME8"
+#	desc = "VULegacyMisc.EVTDESC8"
 #	picture = SHIP_SAILING_eventPicture
 #	
 #	fire_only_once = yes
@@ -438,7 +438,7 @@ country_event = {
 #	}
 #
 #	option = {		# Okay
-#		name = "BtPLegacyMisc.EVTOPTA8"
+#		name = "VULegacyMisc.EVTOPTA8"
 #		ai_chance = { factor = 75 }
 #		5219 = {
 #			remove_core = ROOT
@@ -454,7 +454,7 @@ country_event = {
 #	}
 #	
 #	option = {		# Nope
-#		name = "BtPLegacyMisc.EVTOPTB8"
+#		name = "VULegacyMisc.EVTOPTB8"
 #		ai_chance = { factor = 25 }
 #		spawn_rebels = {
 #			type = particularist_rebels
@@ -463,12 +463,12 @@ country_event = {
 #	}
 #}
 
-#JP's idea, Dub help out with some cleaning up, and Draiocht added some details, credit all around. Note there is now a workshop mod doing this, but this idea of JP's predates it's posting and nothing from it was used here to the best of my knowledge.
+#JP's idea, Dub help out with some cleaning up, and Darth Modus added some details, credit all around. Note there is now a workshop mod doing this, but this idea of JP's predates it's posting and nothing from it was used here to the best of my knowledge.
 # East Frisia to the HRE
 country_event = {
-	id = BtPLegacy_flavour_misc.9
-	title = "BtPLegacyMisc.EVTNAME9"
-	desc = "BtPLegacyMisc.EVTDESC9"
+	id = VULegacy_flavour_misc.9
+	title = "VULegacyMisc.EVTNAME9"
+	desc = "VULegacyMisc.EVTDESC9"
 	picture = HRE_eventPicture
 
 	fire_only_once = yes
@@ -507,7 +507,7 @@ country_event = {
 	}
 
 	option = {		# Okay
-		name = "BtPLegacyMisc.EVTOPTA9"
+		name = "VULegacyMisc.EVTOPTA9"
 		ai_chance = { factor = 99 }
 		EFR = { set_in_empire = yes }
 		add_opinion = {
@@ -524,7 +524,7 @@ country_event = {
 	}
 	
 	option = {		# Nope
-		name = "BtPLegacyMisc.EVTOPTB9"
+		name = "VULegacyMisc.EVTOPTB9"
 		ai_chance = { factor = 1 }
 		add_prestige = 20
 		if = {

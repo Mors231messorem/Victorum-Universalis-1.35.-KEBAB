@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#8060 - Trujillo
 
 owner = CAS
 controller = CAS
@@ -24,7 +24,3 @@ add_permanent_province_modifier = {
     name = navalbase_modifier
     duration = -1
 }
-
-#Province history completed by - Draiocht
-
-#1444 on

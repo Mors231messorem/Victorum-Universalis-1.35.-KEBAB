@@ -13,9 +13,9 @@ native_ferocity = 1
 native_hostileness = 3
 
 discovered_by = north_american
-#discovered_by = bt_athabaskan_tech
-#discovered_by = bt_inuit_tech
-#discovered_by = bt_northwest_tech
+#discovered_by = vu_athabaskan_tech
+#discovered_by = vu_inuit_tech
+#discovered_by = vu_northwest_tech
 
 
 1763.1.1 = { discovered_by = RUS } # Stephan Glotov
@@ -28,4 +28,4 @@ discovered_by = north_american
 	is_city = yes
 	trade_goods = fur
 }
-1788.1.1 = { discovered_by = SPA } # Esteban José Martínez and Gonzalo López de Haro
+1788.1.1 = { discovered_by = SPA } # Esteban Josï¿½ Martï¿½nez and Gonzalo Lï¿½pez de Haro

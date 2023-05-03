@@ -19,26 +19,12 @@ native_hostileness = 9			#Probably one of the 5 most aggressive native tribes to
 discovered_by = north_american
 discovered_by = mesoamerican
 
-#1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
-#	owner = YYV			#Seri
-#	controller = YYV
-#	add_core = YYV
-#	is_city = yes
-#	trade_goods = fish
-#}
-#1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
-#	owner = XXX
-#	controller = XXX
-#	remove_core = YYV
-#	is_city = no
-#	trade_goods = unknown
-#}
 1539.1.1 = { discovered_by = SPA } # Francisco de Ulloa 'reached nearly as far north as the 30th parallel'
 1769.1.1 = {
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	capital = "Punta Chueca"			#No idea when this was founded, but have to choose something. One of the iffy-er choices in BT
+	capital = "Punta Chueca"			#No idea when this was founded, but have to choose something. One of the iffy-er choices in VU 
 	is_city = yes
 	trade_goods = fish
 } # The Seri strongly opposed the settlement of Europeans and resisted fiercely until 1769.

@@ -537,7 +537,7 @@ swedish_missions_baltic = {
 #					owns = 12
 #				}
 #				country_event = {
-#					id = bt_sacking_events.2
+#					id = vu_sacking_events.2
 #				}
 #			}
 #			scandinavia_region = {
@@ -551,7 +551,7 @@ swedish_missions_baltic = {
 #	}
 #}
 #
-#bt_swedish_colonialism = { #VU - Turned off for now due to overlapping in SCA_Swedish_Missions by San Felipe
+#vu_swedish_colonialism = { #VU - Turned off for now due to overlapping in SCA_Swedish_Missions by San Felipe
 #	slot = 1
 #	generic = no
 #	ai = yes
@@ -666,7 +666,7 @@ swedish_missions_baltic = {
 #	}
 #}
 #
-#bt_swedish_balticum_intermarum = {
+#vu_swedish_balticum_intermarum = {
 #	slot = 3
 #	generic = no
 #	ai = yes
@@ -851,7 +851,7 @@ swedish_missions_baltic = {
 #	}
 #}
 #
-#bt_swedish_hre_intervention = {
+#vu_swedish_hre_intervention = {
 #	slot = 3
 #	generic = no
 #	ai = yes
@@ -902,7 +902,7 @@ swedish_missions_baltic = {
 #	}
 #}
 #
-#bt_swedish_hre_intervention_2 = {
+#vu_swedish_hre_intervention_2 = {
 #	slot = 2
 #	generic = no
 #	ai = yes
@@ -937,7 +937,7 @@ swedish_missions_baltic = {
 #	}
 #}
 #
-#bt_swedish_colonialism_2 = {
+#vu_swedish_colonialism_2 = {
 #	slot = 2
 #	generic = no
 #	ai = yes
@@ -968,7 +968,7 @@ swedish_missions_baltic = {
 #	}
 #}
 #
-#bt_swedish_internal_missions = {
+#vu_swedish_internal_missions = {
 #	slot = 4
 #	generic = no
 #	ai = yes
@@ -1209,7 +1209,7 @@ swedish_missions_baltic = {
 #	}
 #}
 #
-#bt_swedish_hre_intervention_3 = {
+#vu_swedish_hre_intervention_3 = {
 #	slot = 4
 #	generic = no
 #	ai = yes
@@ -1290,7 +1290,7 @@ swedish_missions_baltic = {
 #	}
 #	swedish_pommerania = {
 #		icon = mission_hanseatic_city
-#		required_missions = { bt_swedish_hre_intervention_3 }
+#		required_missions = { vu_swedish_hre_intervention_3 }
 #		provinces_to_highlight = {
 #			OR = {
 #				area = vorpommern_area

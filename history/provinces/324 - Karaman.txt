@@ -21,7 +21,7 @@ discovered_by = ottoman
 discovered_by = nomad_group
 
 
-#copied from Karaman, for now, may return later (BT5.0 or later) with more details
+#copied from Karaman, for now, may return later (VU 5.0 or later) with more details
 1483.1.1 = {
 	owner = TUR
 	controller = TUR

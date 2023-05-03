@@ -2226,7 +2226,7 @@ hanseatic_united_tree_2 = {
 #		
 #		effect = {
 #			newfoundland_area = { add_base_production = 1 }
-#			5013 = { center_of_trade = 1 } #Beothuk shifted within BT
+#			5013 = { center_of_trade = 1 } #Beothuk shifted within VU
 #		}
 #	}
 #
@@ -2489,7 +2489,7 @@ hanseatic_united_tree_2 = {
 #					limit = { is_in_trade_league_with = root }
 #					ROOT = {
 #						create_subject = {
-#						subject_type = hanseatic_league_member_bt
+#						subject_type = hanseatic_league_member_vu
 #						subject = PREV
 #						}
 #					}
@@ -2527,7 +2527,7 @@ hanseatic_united_tree_2 = {
 #					}
 #					ROOT = {
 #						create_subject = {
-#						subject_type = hanseatic_league_member_bt
+#						subject_type = hanseatic_league_member_vu
 #						subject = PREV
 #						}
 #					}

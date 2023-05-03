@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus or Beyond the Pale Legacy province
+# No previous file for Victorum Universalis or Beyond the Pale Legacy province
 
 owner = CYP
 controller = CYP			#Kingdom of Cyprus got control in 1361

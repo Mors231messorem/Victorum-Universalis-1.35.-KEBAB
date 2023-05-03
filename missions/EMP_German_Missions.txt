@@ -849,7 +849,7 @@ emp_germany_hlr_4 = {
 			#	value = 5
 			#	region = poland_region
 			#	has_terrain = farmlands
-			#} ##Dropped as BT has only THREE farmlands in all of Poland + Galicia
+			#} ##Dropped as VU has only THREE farmlands in all of Poland + Galicia
 		}
 		effect = {
 			baltic_region = {

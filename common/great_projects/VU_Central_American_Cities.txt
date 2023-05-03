@@ -7,12 +7,13 @@ vu_tijuana_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1889 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1889 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -56,12 +57,13 @@ vu_los_algodones_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1894 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1894 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -105,12 +107,13 @@ vu_hermosillo_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1700 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1700 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -154,12 +157,13 @@ vu_ciudad_juarez_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1659 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1659 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -203,12 +207,13 @@ vu_monterrey_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1596 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1596 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -252,12 +257,13 @@ vu_los_mochis_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1893 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1893 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -301,12 +307,13 @@ vu_la_paz_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1533 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1533 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -351,12 +358,13 @@ vu_puerto_vallarta_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1851 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1851 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -400,12 +408,13 @@ vu_colima_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1523 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1523 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -449,12 +458,13 @@ vu_guadalahara_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1542 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1542 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -498,12 +508,13 @@ vu_tampico_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1823 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1823 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -548,12 +559,13 @@ vu_mexico_city_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1521 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1521 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -597,12 +609,13 @@ vu_texcoco_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1521 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1521 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -646,12 +659,13 @@ vu_tlacopan_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1527 NOT = { OR = { culture_group = hindusthani culture_group = western_aryan culture_group = dravidian culture_group = central_indic culture_group = thai_group culture_group = berber_group culture_group = maghrebi culture_group = iranian culture_group = turko_semitic culture_group = tartar culture_group = mesopotamian_group culture_group = egyptian_group culture_group = saharan_group culture_group = khoisan_group culture_group = mande culture_group = sahelian culture_group = west_african culture_group = southern_african culture_group = kongo_group culture_group = southwestern_bantu culture_group = east_angolan culture_group = great_lakes_group culture_group = african culture_group = cushitic culture_group = sudanese culture_group = je_tupi culture_group = je culture_group = mataco culture_group = araucanian culture_group = carribean culture_group = eskaleut culture_group = central_algonquian culture_group = plains_algonquian culture_group = eastern_algonquian culture_group = iroquoian culture_group = siouan culture_group = caddoan culture_group = muskogean culture_group = sonoran culture_group = apachean culture_group = na_dene culture_group = penutian culture_group = salish_group culture_group = southern_uto_aztecan culture_group = pacific_na_dene culture_group = hokan culture_group = dorset culture_group = chumash_group culture_group = mosan_culture_group culture_group = chimakuan culture_group = wakashan_group culture_group = ktunaxa_group culture_group = pacific_algonquian_group culture_group = septrional_creoles culture_group = andean_group culture_group = maranon culture_group = chibchan culture_group = arawakan_g culture_group = cariban_g culture_group = central_american culture_group = aridoamerican culture_group = maya culture_group = otomanguean culture_group = aboriginal_australian culture_group = pacific culture_group = papuan_group culture_group = kamchatkan_g } } }
+    build_trigger = { is_year = 1527 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { culture_group = hindusthani culture_group = western_aryan culture_group = dravidian culture_group = central_indic culture_group = thai_group culture_group = berber_group culture_group = maghrebi culture_group = iranian culture_group = turko_semitic culture_group = tartar culture_group = mesopotamian_group culture_group = egyptian_group culture_group = saharan_group culture_group = khoisan_group culture_group = mande culture_group = sahelian culture_group = west_african culture_group = southern_african culture_group = kongo_group culture_group = southwestern_bantu culture_group = east_angolan culture_group = great_lakes_group culture_group = african culture_group = cushitic culture_group = sudanese culture_group = je_tupi culture_group = je culture_group = mataco culture_group = araucanian culture_group = carribean culture_group = eskaleut culture_group = central_algonquian culture_group = plains_algonquian culture_group = eastern_algonquian culture_group = iroquoian culture_group = siouan culture_group = caddoan culture_group = muskogean culture_group = sonoran culture_group = apachean culture_group = na_dene culture_group = penutian culture_group = salish_group culture_group = southern_uto_aztecan culture_group = pacific_na_dene culture_group = hokan culture_group = dorset culture_group = chumash_group culture_group = mosan_culture_group culture_group = chimakuan culture_group = wakashan_group culture_group = ktunaxa_group culture_group = pacific_algonquian_group culture_group = septrional_creoles culture_group = andean_group culture_group = maranon culture_group = chibchan culture_group = arawakan_g culture_group = cariban_g culture_group = central_american culture_group = aridoamerican culture_group = maya culture_group = otomanguean culture_group = aboriginal_australian culture_group = pacific culture_group = papuan_group culture_group = kamchatkan_g } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { culture_group = hindusthani culture_group = western_aryan culture_group = dravidian culture_group = central_indic culture_group = thai_group culture_group = berber_group culture_group = maghrebi culture_group = iranian culture_group = turko_semitic culture_group = tartar culture_group = mesopotamian_group culture_group = egyptian_group culture_group = saharan_group culture_group = khoisan_group culture_group = mande culture_group = sahelian culture_group = west_african culture_group = southern_african culture_group = kongo_group culture_group = southwestern_bantu culture_group = east_angolan culture_group = great_lakes_group culture_group = african culture_group = cushitic culture_group = sudanese culture_group = je_tupi culture_group = je culture_group = mataco culture_group = araucanian culture_group = carribean culture_group = eskaleut culture_group = central_algonquian culture_group = plains_algonquian culture_group = eastern_algonquian culture_group = iroquoian culture_group = siouan culture_group = caddoan culture_group = muskogean culture_group = sonoran culture_group = apachean culture_group = na_dene culture_group = penutian culture_group = salish_group culture_group = southern_uto_aztecan culture_group = pacific_na_dene culture_group = hokan culture_group = dorset culture_group = chumash_group culture_group = mosan_culture_group culture_group = chimakuan culture_group = wakashan_group culture_group = ktunaxa_group culture_group = pacific_algonquian_group culture_group = septrional_creoles culture_group = andean_group culture_group = maranon culture_group = chibchan culture_group = arawakan_g culture_group = cariban_g culture_group = central_american culture_group = aridoamerican culture_group = maya culture_group = otomanguean culture_group = aboriginal_australian culture_group = pacific culture_group = papuan_group culture_group = kamchatkan_g } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -695,12 +709,13 @@ vu_tacuba_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1521 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1521 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -744,12 +759,13 @@ vu_puebla_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1531 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1531 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -793,12 +809,13 @@ vu_veracruz_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1519 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1519 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -842,12 +859,13 @@ vu_oaxaca_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1521 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1521 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -892,12 +910,13 @@ vu_villa_del_espiritu_santo_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1522 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1522 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -941,12 +960,13 @@ vu_villahermosa_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1564 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1564 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -990,12 +1010,13 @@ vu_cempeche_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1540 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1540 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -1039,12 +1060,13 @@ vu_cancun_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1700 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1700 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -1089,12 +1111,13 @@ vu_merida_mex = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1542 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1542 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -1138,12 +1161,13 @@ vu_belize_city_blz = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1638 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1638 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -1187,12 +1211,13 @@ vu_guatemala_city_gt = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1776 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1776 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -1237,12 +1262,13 @@ vu_san_pedro_sula_hond = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1536 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1536 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -1286,12 +1312,13 @@ vu_san_salvador_elsl = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1525 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1525 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -1335,12 +1362,13 @@ vu_managua_nic = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1819 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1819 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }
@@ -1384,12 +1412,13 @@ vu_panama_city_pan = {
     move_days_per_unit_distance = 10
     starting_tier = 0
     type = monument
-    build_trigger = { is_year = 1519 NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    build_trigger = { is_year = 1519 vu_christian_cities_trigger = yes }
     on_built = {}
     on_destroyed = {}
-    can_use_modifiers_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    can_use_modifiers_trigger = { vu_christian_cities_trigger = yes }
     can_upgrade_trigger = {	development = 30 province_has_center_of_trade_of_level = 3 }
-    keep_trigger = { NOT = { OR = { technology_group = north_american technology_group = mesoamerican technology_group = south_american technology_group = andean technology_group = high_american technology_group = nomad_group technology_group = sub_saharan technology_group = aboriginal_tech technology_group = rapanuan technology_group = polynesian_tech technology_group = chinese technology_group = central_african technology_group = east_african technology_group = japanese technology_group = indian technology_group = muslim technology_group = ottoman technology_group = eastern } } }
+    keep_trigger = { vu_christian_cities_trigger = yes }
+	
     tier_0 = {
         upgrade_time = { months = 0 }
         cost_to_upgrade = { factor = 0 }

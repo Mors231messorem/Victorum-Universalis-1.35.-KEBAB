@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#6935 - San Gimignano
 
 owner = SGM
 controller = SGM
@@ -19,7 +19,7 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-1199.1.1 = { #BeyondTypus batch edit shortcut first performance start begins
+1199.1.1 = { #VictorumUniversalis batch edit shortcut first performance start begins
 	owner = SGM
 	controller = SGM
 	add_core = SGM

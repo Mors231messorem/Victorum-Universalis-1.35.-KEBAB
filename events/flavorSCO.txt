@@ -545,7 +545,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "flavor_sco.EVTOPBT9" #Ignore him
+		name = "flavor_sco.EVTOPTB9" #Ignore him
 		add_prestige = -1
 	}
 }

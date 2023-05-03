@@ -133,7 +133,7 @@ country_event = {
 			#define_consort = {
 		    #    name = "Fernando"
 			#    age = 17
-			#    dynasty = "de Trastámara"
+			#    dynasty = "de Trastï¿½mara"
 			#    culture = aragonese
 			#    dip = 3
 			#    adm = 3
@@ -259,7 +259,7 @@ country_event = {
 		name = "flavor_spa.EVTOPTA3150"
 		define_advisor = {
 			type = inquisitor
-			name = "Tomás de Torquemada"
+			name = "Tomï¿½s de Torquemada"
 			location = 215 # Castilla La Vieja 
 			discount = yes
 			skill = 1
@@ -392,7 +392,7 @@ country_event = {
 			siege = 0
 		}
 		add_country_modifier = {
-			name = bt_daring_navigator
+			name = vu_daring_navigator
 			duration = 3650
 		}
 	}
@@ -666,7 +666,7 @@ country_event = {
 }
 
 
-# Casa de Contratación
+# Casa de Contrataciï¿½n
 country_event = {
 	id = flavor_spa.1003
 	title = "flavor_spa.EVTNAME1003"
@@ -1476,7 +1476,7 @@ country_event = {
 	}
 }
 
-# José Monino
+# Josï¿½ Monino
 country_event = {
 	id = flavor_spa.3094
 	title = "flavor_spa.EVTNAME3094"
@@ -1513,7 +1513,7 @@ country_event = {
 		}
 		define_advisor = {
 			type = statesman
-			name = "José Monino"
+			name = "Josï¿½ Monino"
 			#culture = andalusi_culture
 			culture = andalucian
 			discount = yes
@@ -1601,7 +1601,7 @@ country_event = {
 	}
 }
 
-# Tomás Luis de Victoria
+# Tomï¿½s Luis de Victoria
 country_event = {
 	id = flavor_spa.1101
 	title = "flavor_spa.EVTNAME1101"
@@ -1883,7 +1883,7 @@ country_event = {
 	
 	
 
-	option = {		# Allow Sepúlveda's arguments to shape our policies
+	option = {		# Allow Sepï¿½lveda's arguments to shape our policies
 		name = "flavor_spa.2.a"
 		ai_chance = {
 			factor = 15
@@ -2184,7 +2184,7 @@ country_event = {
 	}
 }
 
-# Sólo Madrid es corte
+# Sï¿½lo Madrid es corte
 country_event = {
 	id = flavor_spa.6
 	title = "flavor_spa.6.t"
@@ -2251,7 +2251,7 @@ country_event = {
 			add_base_production = 4
 			add_base_manpower = 2
 			change_trade_goods = cloth
-		}	#Draiocht lowered 1444 dev in Madrid, this increases it back to a Euro Capital level
+		}	#Darth Modus lowered 1444 dev in Madrid, this increases it back to a Euro Capital level
 	}
 	option = {		# X remains a fine capital.
 		name = "flavor_spa.6.b"
@@ -2358,7 +2358,7 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = nationalist_rebels
-				leader = "Abén Umayyad"
+				leader = "Abï¿½n Umayyad"
 				friend = GRA
 				size = 2
 				win = yes

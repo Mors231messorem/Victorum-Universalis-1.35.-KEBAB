@@ -1,5 +1,5 @@
 ﻿l_english:
- #BTP European changes
+ #VU  European changes
  PROV2:0 "Linköping"
  PROV3:0 "Kalmar"                 #1.19 Scandinavia overhaul - removed
  PROV4:0 "Västmanland"                 #1.19 Scandinavia overhaul - removed
@@ -1503,17 +1503,17 @@
  #####Anatolia#####
  #5132 --> 4308 (Denizli to Denizli) -same thing
  #5160 --> 4309 (Aydin to Aydin) -same thing
- #5133 --> 4311 (Kutahya to Karahisar) -keeping BT version as is. IMHO it is better
- #5149 --> 4312 (Boli to Sultanonu) -keeping BT version as is. IMHO it is better
+ #5133 --> 4311 (Kutahya to Karahisar) -keeping VU  version as is. IMHO it is better
+ #5149 --> 4312 (Boli to Sultanonu) -keeping VU  version as is. IMHO it is better
  #5166 --> 4313 (Cankiri to Kangiri) -same thing
- #5153 --> 4314 (Kochisar to Kirshehir) -keeping BT version as is. IMHO it is better
+ #5153 --> 4314 (Kochisar to Kirshehir) -keeping VU  version as is. IMHO it is better
  #5136 --> 324 (Karaman to Karaman) -reorganising IDs based on vanilla changes
  #324 --> 4307 (Aksaray to Aksaray) -reorganising IDs based on vanilla changes
- #5169 --> 4315 (Gumushane to Tokat) -keeping BT version as is. IMHO it is better
+ #5169 --> 4315 (Gumushane to Tokat) -keeping VU  version as is. IMHO it is better
  #
  #####Levant#####
  #5183 --> 4298 ('Aintab to Ayntab) -same thing
- #5179 --> 4297 (Wadi I Biqa to Homs) -Take another look at this. Homs/Hims is already in BT as 1849, which is vanilla Hama. Perhaps redo this to include both Hama, Homs, and the mountain province? <----------
+ #5179 --> 4297 (Wadi I Biqa to Homs) -Take another look at this. Homs/Hims is already in VU  as 1849, which is vanilla Hama. Perhaps redo this to include both Hama, Homs, and the mountain province? <----------
  #5159 --> 4271 (Idlib to Suwayda) -Take another look at this. I might add Suwayda later, as it is a good idea if we wanted a Druze province. <----------
  #5182 --> 405 (Tadmor to Tadmor) -reorganising IDs based on vanilla changes
  #405 --> 407 (Ar-Raqqah to Ar-Raqqah) -reorganising IDs based on vanilla changes
@@ -1525,18 +1525,18 @@
  #5263 --> 4317 (Damanhur to Bahirya) -same thing
  #5265 --> 4318 (Atfihia to Atfih) -same thing
  #5268 --> 4320 (Girga to Girga) -same thing
- #5269 --> 4319 (Luxor to Isna) -same gist, but different capital... take another look at this but keeping old BT version for now. <----------
+ #5269 --> 4319 (Luxor to Isna) -same gist, but different capital... take another look at this but keeping old VU  version for now. <----------
  #5275 -- > 4323 (Dakhla to Farafreh) -same gist, same difference.
- #5270 --> 4321 (Eastern Desert --> Eastern Desert) -same thing, note vanilla is now wasteland while BT remains colonisable. It is a borderland wasteland, but the Nubian desert is more wasteland-esque than this, and Paradox has it inhabited by Beja, so sticking with BT's setup.
- #5276 --> 4322 (Eastern Desert --> Eastern Desert) -same thing, note vanilla is now wasteland while BT remains colonisable. It is a borderland wasteland, but the Nubian desert is more wasteland-esque than this, and Paradox has it inhabited by Beja, so sticking with BT's setup.
+ #5270 --> 4321 (Eastern Desert --> Eastern Desert) -same thing, note vanilla is now wasteland while VU  remains colonisable. It is a borderland wasteland, but the Nubian desert is more wasteland-esque than this, and Paradox has it inhabited by Beja, so sticking with VU 's setup.
+ #5276 --> 4322 (Eastern Desert --> Eastern Desert) -same thing, note vanilla is now wasteland while VU  remains colonisable. It is a borderland wasteland, but the Nubian desert is more wasteland-esque than this, and Paradox has it inhabited by Beja, so sticking with VU 's setup.
  #
  #####Armenia#####
  #407 --> 2308 (Urfa to Urfa) -reorganising IDs based on vanilla changes
  #5295 --> 4292 (Mardin to Mardin) -same thing
  #2308 --> 5295 (Mardin to Cizre) -reorganising IDs based on vanilla changes
- #5148 --> 4310 (Kharput to Divrigi) -keeping BT version as is. IMHO it is better
+ #5148 --> 4310 (Kharput to Divrigi) -keeping VU  version as is. IMHO it is better
  #5292 --> 4295 (Hesn Kayfa to Hisn Kayfa) -same thing
- #5294 --> 4296 (Siirt to Bitlis) -same gist, but different details. take another look at this but keeping old BT version for now. <----------
+ #5294 --> 4296 (Siirt to Bitlis) -same gist, but different details. take another look at this but keeping old VU  version for now. <----------
  #3255 --> 4304 (Khoy to Khoy) -same thing
  #5291 --> 4302 (Karakalisa to Bayazid) -I have no idea. Keeping Current for now, but look into this. <----------
  #3249 --> 4303 (Tao to Tao) -same thing
@@ -1555,20 +1555,20 @@
  #5260 --> 4273 (Al Ghazala to Al Kariatan) -I have no idea. Keeping Current for now, but look into this. <----------
  #5254 --> 4276 (Otaibah to Jabal Tubaiq)
  #5252 --> 4274 (Sudair to Sudayr) -same thing
- #5257 --> 4275 (Khurais to Al Yamamah) -This place is an absolute mess in both vanilla and BT. Whatever will have to do.
+ #5257 --> 4275 (Khurais to Al Yamamah) -This place is an absolute mess in both vanilla and VU . Whatever will have to do.
  #5248 --> 4286 (Al Fugaira to Ash Sharqiyah) -same gist I think, whatever is fine for now.
- #5247 --> 4285 (Al Ayn to Baraimi) -keeping BT version as is. Might bear some looking into eventually, but I'm tentatively thinking I prefer my version
+ #5247 --> 4285 (Al Ayn to Baraimi) -keeping VU  version as is. Might bear some looking into eventually, but I'm tentatively thinking I prefer my version
  #5245 --> 4287 (Ibra to Ibra) -same thing
- #5236 --> 4282 (Qa'lat Bisah to Sahda) - Vanilla province moved a bit as vanilla Ahqaf already replaced in BT to be Sahda. In any case I'm happy enough with this for now.
- #5258 --> 4283 (Mirbat to Shihr) -Moving around the south coast and Yemen quite a bit so hard to make 1-to-1 comparisons, but I'll try to take another look at all of these as well. In the meantime, I think I prefer BT's setup.
- #5242 --> 4284 (Thamud to Al Ghaydah) -Moving around the south coast and Yemen quite a bit so hard to make 1-to-1 comparisons, but I'll try to take another look at all of these as well. In the meantime, I think I prefer BT's setup.
+ #5236 --> 4282 (Qa'lat Bisah to Sahda) - Vanilla province moved a bit as vanilla Ahqaf already replaced in VU  to be Sahda. In any case I'm happy enough with this for now.
+ #5258 --> 4283 (Mirbat to Shihr) -Moving around the south coast and Yemen quite a bit so hard to make 1-to-1 comparisons, but I'll try to take another look at all of these as well. In the meantime, I think I prefer VU 's setup.
+ #5242 --> 4284 (Thamud to Al Ghaydah) -Moving around the south coast and Yemen quite a bit so hard to make 1-to-1 comparisons, but I'll try to take another look at all of these as well. In the meantime, I think I prefer VU 's setup.
  #5238 --> 4279 (Al Hudaydah to Zabid) -I have no idea. Keeping Current for now, but look into this. <----------
  #5259 --> 4280 (Ta'izz to Taiz) -same thing
  #5240 --> 4281 (Dhamar to Damar) -same thing
  #
  #####Other#####
- #5506 --> 1329 (Red sea overhaul) -Vanilla now has BT's setup, so going vanilla. Note these are sea provinces <---
- #1329 --> 4333 (Red sea overhaul) -Vanilla now has BT's setup, so going vanilla. Note these are sea provinces <---
+ #5506 --> 1329 (Red sea overhaul) -Vanilla now has VU 's setup, so going vanilla. Note these are sea provinces <---
+ #1329 --> 4333 (Red sea overhaul) -Vanilla now has VU 's setup, so going vanilla. Note these are sea provinces <---
  #
 
  #1.25 Changes

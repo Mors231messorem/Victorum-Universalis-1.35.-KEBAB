@@ -1,11 +1,11 @@
-namespace = BtPLegacyHellasAnatolia
-#Written by Draiocht 16-12-8
+namespace = VULegacyHellasAnatolia
+#Written by Darth Modus 16-12-8
 
 # Constantinople recovers under Byzantines 
 province_event = {
-	id = BtPLegacyHellasAnatolia.1
-	title = "BtPLegacyHellasAnatolia.EVTNAME1"
-	desc = "BtPLegacyHellasAnatolia.EVTDESC1"
+	id = VULegacyHellasAnatolia.1
+	title = "VULegacyHellasAnatolia.EVTNAME1"
+	desc = "VULegacyHellasAnatolia.EVTDESC1"
 	picture = CITY_VIEW_eventPicture
 	
 	major = yes
@@ -39,7 +39,7 @@ province_event = {
 	}
 
 	option = { # Huzzah
-		name = "BtPLegacyHellasAnatolia.EVTOPTA1"
+		name = "VULegacyHellasAnatolia.EVTOPTA1"
 		owner = {
 			add_legitimacy = 10
 			add_prestige = 10

@@ -5,7 +5,7 @@ controller = GRA
 add_core = GRA
 culture = andalusi_arabic
 religion = sunni
-capital = "Huéscar"
+capital = "Huï¿½scar"
 base_tax = 1
 base_production = 2
 base_manpower = 1
@@ -19,7 +19,7 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 
 1434.1.1 = {
 	owner = CAS

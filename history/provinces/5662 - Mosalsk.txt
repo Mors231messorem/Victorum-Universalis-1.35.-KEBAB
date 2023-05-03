@@ -1,4 +1,4 @@
-#New Beyond Typus Province
+#New Victorum Universalis Province
 
 owner = MSL
 controller = MSL
@@ -20,12 +20,12 @@ discovered_by = muslim
 discovered_by = ottoman
 
 
-1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
+1444.11.16 = { #VictorumUniversalis batch edit shortcut no vassal start date begin
 	owner = LIT
 	controller = LIT
 	add_core = LIT
 }
-1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+1444.11.18 = { #VictorumUniversalis batch edit shortcut no vassal start date end
 	owner = MSL
 	controller = MSL
 	remove_core = LIT

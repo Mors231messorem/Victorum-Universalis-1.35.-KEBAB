@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7062 - Ceva
 
 owner = CEV
 controller = CEV
@@ -25,7 +25,7 @@ discovered_by = eastern
 #1630.1.1 = { } #Great Plague of Milan kills half of the city's population
 1648.1.1 = { hre = no }	#Peace of Westphalia, the 'Kingdom of Italy' definitively leaves the Holy Roman Empire
 1648.2.1 = { fort_16th = no fort_17th = yes }
-#1713.4.12 = { owner = SIC controller = SIC add_core = SIC } # Treaty of Utrecht gives Sicily to Savoy, who becomes the King of Sicily  -BT is calling this still Savoy, rather than Sicily.
+#1713.4.12 = { owner = SIC controller = SIC add_core = SIC } # Treaty of Utrecht gives Sicily to Savoy, who becomes the King of Sicily  -VU is calling this still Savoy, rather than Sicily.
 1720.2.17 = { owner = SPI controller = SPI add_core = SPI remove_core = SAV } # Treaty of the Hague, Victor Amadeus II trades Sicily for Sardinia, founding the Kingdom of Piedmont-Sardinia
 1792.9.1 = { controller = FRA } # Conquered by Napoleon without a siege at the beginning of the War of the First Coalition
 1796.4.26 = { owner = FRA add_core = FRA add_local_autonomy = 65 } # The Republic of Alba proclaimed in the town of Alba. Calling it high autonomy because I don't want to mess with client states in history

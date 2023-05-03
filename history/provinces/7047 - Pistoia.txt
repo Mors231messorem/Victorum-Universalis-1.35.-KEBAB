@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7047 - Pistoia
 
 owner = PST
 controller = PST
@@ -18,7 +18,6 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
 
 #Province history completed by - Nikicaga
 #First Shattering not used

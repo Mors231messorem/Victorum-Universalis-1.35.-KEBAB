@@ -14,11 +14,11 @@ fixed_capital = 7027
 #History, currently empty.
 1291.5.20 = {
 	add_country_modifier = {
-		name = bt_ghibelline_nation
+		name = vu_ghibelline_nation
 		duration = -1
 	}
 }
 
 1648.1.1 = {
-	remove_country_modifier = bt_ghibelline_nation
+	remove_country_modifier = vu_ghibelline_nation
 }

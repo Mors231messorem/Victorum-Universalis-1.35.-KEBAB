@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = yuman
 religion = totemism 
@@ -28,14 +28,14 @@ discovered_by = north_american
 discovered_by = mesoamerican
 
 
-1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+1444.11.12 = { #VictorumUniversalis batch edit shortcut native start date begin
 	owner = YYU			#Cocopah
 	controller = YYU
 	add_core = YYU
 	is_city = yes
 	trade_goods = fish
 }
-1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+1444.11.14 = { #VictorumUniversalis batch edit shortcut native start date end
 	owner = XXX
 	controller = XXX
 	remove_core = YYU

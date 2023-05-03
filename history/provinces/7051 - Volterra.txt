@@ -21,24 +21,24 @@ discovered_by = eastern
 
 #Province history completed by - Nikicaga
 #First Shattering not used
-1291.5.24 = { #BeyondTypus batch edit shortcut first performance start begins
+1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
 	owner = LAN
 	controller = LAN
 	add_core = LAN
 }
-1291.5.26 = { #BeyondTypus batch edit shortcut first performance start ends
+1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
 	owner = VLR
 	controller = VLR
 	remove_core = LAN
 }
 #1361 Belforti driven out, becomes Florentine. Calling it a vassal at this point.
 #Second Shattering not used
-1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
+1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = LAN
 	controller = LAN
 	add_core = LAN
 }
-1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
+1444.11.18 = { #VictorumUniversalis batch edit shortcut second performance start ends
 	owner = VLR
 	controller = VLR
 	remove_core = LAN

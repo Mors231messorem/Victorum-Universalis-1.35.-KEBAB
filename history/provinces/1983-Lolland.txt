@@ -10,7 +10,7 @@ base_tax = 3
 base_production = 3 
 trade_goods = naval_supplies
 base_manpower = 2 
-capital = "Nykøbing"			#Draiocht added accent
+capital = "Nykï¿½bing"			#Darth Modus added accent
 is_city = yes
 fort_15th = yes
 center_of_trade = 1
@@ -26,7 +26,7 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht and docRobert
+#Province history completed by - Darth Modus and docRobert
 #1st Shattering unused
 #1st Performance Start Unused
 

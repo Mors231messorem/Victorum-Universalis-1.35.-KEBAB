@@ -1,6 +1,6 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
-capital = "Île de la Possession"
+capital = "ï¿½le de la Possession"
 trade_goods = unknown
 hre = no
 base_tax = 1 

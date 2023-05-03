@@ -1,11 +1,11 @@
-namespace = PriceChanges_BeyondTypus
+namespace = PriceChanges_VictorumUniversalis
 
 ##Dub's 1st beer event, all credit to Dub
 ##Reinheitsgebot
 #province_event = {
-#	id = PriceChanges_BeyondTypus.1
-#	title = "PriceChanges_BeyondTypus.EVTNAME1"
-#	desc = "PriceChanges_BeyondTypus.EVTDESC1"
+#	id = PriceChanges_VictorumUniversalis.1
+#	title = "PriceChanges_VictorumUniversalis.EVTNAME1"
+#	desc = "PriceChanges_VictorumUniversalis.EVTDESC1"
 #	picture = TRADEGOODS_eventPicture
 #
 #	fire_only_once = yes
@@ -44,9 +44,9 @@ namespace = PriceChanges_BeyondTypus
 #	}
 #
 #	option = { #Ok.
-#		name = "PriceChanges_BeyondTypus.EVTOPTA1"
+#		name = "PriceChanges_VictorumUniversalis.EVTOPTA1"
 #		ai_chance = { factor = 1 }
-#		set_global_flag = BT_reinheitsgebot_happened
+#		set_global_flag = VU_reinheitsgebot_happened
 #		owner = {
 #			add_prestige = 10
 #		}
@@ -54,7 +54,7 @@ namespace = PriceChanges_BeyondTypus
 #		owner = {
 #			change_price = {
 #				trade_goods = beer
-#				key = BT_reinheitsgebot
+#				key = VU_reinheitsgebot
 #				value = 0.1 #2.5 -> 2.75
 #				duration = -1
 #			}
@@ -65,9 +65,9 @@ namespace = PriceChanges_BeyondTypus
 #Dub's 2nd beer event, all credit to Dub
 #Top or Bottom
 province_event = {
-	id = PriceChanges_BeyondTypus.2
-	title = "PriceChanges_BeyondTypus.EVTNAME2"
-	desc = "PriceChanges_BeyondTypus.EVTDESC2"
+	id = PriceChanges_VictorumUniversalis.2
+	title = "PriceChanges_VictorumUniversalis.EVTNAME2"
+	desc = "PriceChanges_VictorumUniversalis.EVTDESC2"
 	picture = TRADEGOODS_eventPicture
 
 	fire_only_once = yes
@@ -92,7 +92,7 @@ province_event = {
 				}
 			}
 		}
-		has_global_flag = beerislove_happened #Used to be BT_reinheitsgebot_happened #Happens after the Reinheitsgebot
+		has_global_flag = beerislove_happened #Used to be VU_reinheitsgebot_happened #Happens after the Reinheitsgebot
 		province_without_special_goods_produced_trigger = yes #Can't fire for a province with special goods.
 	}
 
@@ -113,19 +113,19 @@ province_event = {
 	}
 
 	option = { #Ok.
-		name = "PriceChanges_BeyondTypus.EVTOPTA2"
+		name = "PriceChanges_VictorumUniversalis.EVTNAME2"
 		ai_chance = { factor = 1 }
 		owner = {
 			add_prestige = 10
 			change_price = {
 				trade_goods = beer
-				key = BT_lager_beer
+				key = VU_lager_beer
 				value = 0.1 #2.75 -> 3
 				duration = -1
 			}
 		}
 		add_province_modifier = {
-				name = "bt_birthplace_lager"
+				name = "vu_birthplace_lager"
 				duration = -1
 		}
 	}
@@ -134,9 +134,9 @@ province_event = {
 #Dub's 3rd beer event, all credit to Dub
 #New World Distilleries
 province_event = {
-	id = PriceChanges_BeyondTypus.3
-	title = "PriceChanges_BeyondTypus.EVTNAME3"
-	desc = "PriceChanges_BeyondTypus.EVTDESC3"
+	id = PriceChanges_VictorumUniversalis.3
+	title = "PriceChanges_VictorumUniversalis.EVTNAME3"
+	desc = "PriceChanges_VictorumUniversalis.EVTDESC3"
 	picture = TRADEGOODS_eventPicture
 
 	major = yes
@@ -164,22 +164,22 @@ province_event = {
 	}
 
 	option = { #Ok.
-		name = "PriceChanges_BeyondTypus.EVTOPTA3"
+		name = "PriceChanges_VictorumUniversalis.EVTOPTA3"
 		ai_chance = { factor = 1 }
 		change_trade_goods = beer
 		add_base_production = 2
 		if = {
-			limit = { NOT = { has_global_flag = BT_new_world_distilleries_happened } }
-			set_global_flag = BT_new_world_distilleries_happened
+			limit = { NOT = { has_global_flag = VU_new_world_distilleries_happened } }
+			set_global_flag = VU_new_world_distilleries_happened
 		}
 	}
 }
 
 # Dub's Prussian Blue event, all credit to Dub
 country_event = {
-	id = PriceChanges_BeyondTypus.4
-	title = "PriceChanges_BeyondTypus.EVTNAME4"
-	desc = "PriceChanges_BeyondTypus.EVTDESC4"
+	id = PriceChanges_VictorumUniversalis.4
+	title = "PriceChanges_VictorumUniversalis.EVTNAME4"
+	desc = "PriceChanges_VictorumUniversalis.EVTDESC4"
 	picture = TRADE_GOODS_METALS_AND_MINING_EQUIPENT_eventPicture
 
 	fire_only_once = yes
@@ -203,10 +203,10 @@ country_event = {
 	}
 
 	option = { # Wonderful
-		name = "PriceChanges_BeyondTypus.EVTOPTA4"
+		name = "PriceChanges_VictorumUniversalis.EVTOPTA4"
 		change_price = {
 			trade_goods = dyes
-			key = BT_PRUSSIAN_BLUE
+			key = VU_PRUSSIAN_BLUE
 			value = -0.25
 			duration = -1
 		}
@@ -214,7 +214,7 @@ country_event = {
 			change_trade_goods = dyes
 			#Not adding the province modifier atm, I like the idea, but Berlin could use a dev boost anyway and this wouldn't retroactively apply to saved games anyway. Might add this in 10.0 and even more likely when HRE is overhauled.
 			add_province_modifier = {
-				name = "bt_prussian_blue"
+				name = "vu_prussian_blue"
 				duration = -1
 			}
 		}
@@ -224,9 +224,9 @@ country_event = {
 
 # Dub's 1st apiculture event, all credit to Dub
 country_event = {
-	id = PriceChanges_BeyondTypus.5
-	title = "PriceChanges_BeyondTypus.EVTNAME5"
-	desc = "PriceChanges_BeyondTypus.EVTDESC5"
+	id = PriceChanges_VictorumUniversalis.5
+	title = "PriceChanges_VictorumUniversalis.EVTNAME5"
+	desc = "PriceChanges_VictorumUniversalis.EVTDESC5"
 	picture = TRADEGOODS_eventPicture
 
 	fire_only_once = yes
@@ -244,7 +244,7 @@ country_event = {
 	}
 
 	option = {
-		name = "PriceChanges_BeyondTypus.EVTOPTA5"
+		name = "PriceChanges_VictorumUniversalis.EVTOPTA5"
 		add_innovativeness_big_effect = yes
 		every_owned_province = {
 			limit = {
@@ -252,10 +252,10 @@ country_event = {
 			}
 			add_base_production = 2
 		}
-		set_global_flag = bt_bee_biology_researched
+		set_global_flag = vu_bee_biology_researched
 		change_price = {
 			trade_goods = apiculture
-			key = BT_BEE_BIOLOGY
+			key = VU_BEE_BIOLOGY
 			value = 0.125 #4.0 -> 4.5
 			duration = -1
 		}
@@ -264,9 +264,9 @@ country_event = {
 
 # Dub's 2nd apiculture event, all credit to Dub
 country_event = {
-	id = PriceChanges_BeyondTypus.6
-	title = "PriceChanges_BeyondTypus.EVTNAME6"
-	desc = "PriceChanges_BeyondTypus.EVTDESC6"
+	id = PriceChanges_VictorumUniversalis.6
+	title = "PriceChanges_VictorumUniversalis.EVTNAME6"
+	desc = "PriceChanges_VictorumUniversalis.EVTDESC6"
 	picture = TRADEGOODS_eventPicture
 
 	fire_only_once = yes
@@ -282,7 +282,7 @@ country_event = {
 			}
 		}
 		apiculture = 3
-		has_global_flag = bt_bee_biology_researched
+		has_global_flag = vu_bee_biology_researched
 	}
 
 	mean_time_to_happen = {
@@ -290,7 +290,7 @@ country_event = {
 	}
 
 	option = {
-		name = "PriceChanges_BeyondTypus.EVTOPTA6"
+		name = "PriceChanges_VictorumUniversalis.EVTOPTA6"
 		add_innovativeness_big_effect = yes
 		every_owned_province = {
 			limit = {
@@ -298,21 +298,21 @@ country_event = {
 			}
 			add_base_production = 4
 		}
-		set_global_flag = bt_movable_comb_hives_invented
+		set_global_flag = vu_movable_comb_hives_invented
 		change_price = {
 			trade_goods = apiculture
-			key = BT_MOVABLE_BEE_COMB_HIVE
+			key = VU_MOVABLE_BEE_COMB_HIVE
 			value = -0.50 #4.5 -> 2.5
 			duration = -1
 		}
 	}
 }
 
-#Trade good event by Draiocht
+#Trade good event by Darth Modus
 #country_event = {
-#	id = PriceChanges_BeyondTypus.7
-#	title = "PriceChanges_BeyondTypus.EVTNAME7"
-#	desc = "PriceChanges_BeyondTypus.EVTDESC7"
+#	id = PriceChanges_VictorumUniversalis.7
+#	title = "PriceChanges_VictorumUniversalis.EVTNAME7"
+#	desc = "PriceChanges_VictorumUniversalis.EVTNAME7"
 #	picture = TRADEGOODS_eventPicture
 #
 #	fire_only_once = yes

@@ -1,4 +1,4 @@
-# No previous file - Beyond Typus new
+# No previous file - Victorum Universalis new
 
 owner = KRN
 controller = KRN

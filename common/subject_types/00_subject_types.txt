@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 # OBS! Full modding not supported. Code support still needed to remove/rename the original subject types.
 # Custom ones CAN be created with scriptable diplomatic actions (see "dummy" at the bottom of this file), although this is not currently very functional.
 
@@ -860,10 +861,6 @@ tributary_state = {
 
 	# Triggers:
 	is_potential_overlord = {
-							   
-		  
-									   
-   
 		OR = {
 			AND = {
 				has_dlc = "Mandate of Heaven"

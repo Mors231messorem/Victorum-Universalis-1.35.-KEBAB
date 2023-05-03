@@ -10,13 +10,13 @@ guarantee = {
 	first = ARA
 	second = HRZ
 	start_date = 1444.1.1
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
 }
 
 guarantee = {
 	first = ARA
 	second = HRZ
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1483.1.1
 }
 
@@ -24,13 +24,13 @@ guarantee = {
 	first = ARA
 	second = AOR
 	start_date = 1444.1.1
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
 }
 
 guarantee = {
 	first = ARA
 	second = AOR
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1479.9.4
 }
 
@@ -102,7 +102,7 @@ alliance = {
 # Union #
 #########
 
-# BT addition
+# VU addition
 union = {
 	first = ARA
 	second = SIC
@@ -129,20 +129,20 @@ union = {
 	first = ARA
 	second = SAR
 	start_date = 1421.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }
 
 union = {
 	first = ARA
 	second = COR
 	start_date = 1421.1.1
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
 } #Counts of Cinarca, a personal union under the Crown of Aragon... sort of.
 
 union = {
 	first = ARA
 	second = COR
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1453.1.1			#Bank of Saint George takes posession of the island, and the weak Aragonese influence is broken.
 } #Counts of Cinarca, a personal union under the Crown of Aragon... sort of.
 
@@ -157,11 +157,11 @@ union = {
 union = {
 	first = ARA
 	second = SAR
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1516.1.22
 }
 
-# BT Addition
+# VU Addition
 union = {
 	first = ARA
 	second = SIC
@@ -260,7 +260,7 @@ royal_marriage = {
 	end_date = 1665.9.17
 } 
 
-# Louis of Spain and Louise Elisabeth d'Orléans
+# Louis of Spain and Louise Elisabeth d'Orlï¿½ans
 royal_marriage = {
 	first = SPB
 	second = FRA # Was BRF
@@ -464,7 +464,7 @@ royal_marriage = {
 	end_date = 1481.8.29
 } 
 
-# Afonso, Heir to João II, and Isabella of Aragon-Castille
+# Afonso, Heir to Joï¿½o II, and Isabella of Aragon-Castille
 royal_marriage = {
 	first = POR
 	second = CAS
@@ -489,9 +489,9 @@ royal_marriage = {
 }
 
 # Manuel I and Leonor of Spain
-# João III and Catarina of Spain
+# Joï¿½o III and Catarina of Spain
 # Charles V of Spain and Isabella of Portugal
-# King Felipe II of Spain (son of Karl V) ~ Isabel (daughter of King Joäo III of Portugal)
+# King Felipe II of Spain (son of Karl V) ~ Isabel (daughter of King Joï¿½o III of Portugal)
 royal_marriage = {
 	first = POR
 	second = BSP
@@ -516,7 +516,7 @@ royal_marriage = {
 }
 
 # Philip V of Spain and Elisabeth Farnese of Parma
-# Joseph of Portugal and Marianne Victoria of Borbón
+# Joseph of Portugal and Marianne Victoria of Borbï¿½n
 # Ferdinand VI of Spain and Maria Magdalena Barbara
 royal_marriage = {
 	first = POR
@@ -525,7 +525,7 @@ royal_marriage = {
 	end_date = 1777.2.24
 }
 	
-# João VI and Carlotta of Spain
+# Joï¿½o VI and Carlotta of Spain
 royal_marriage = {
 	first = POR
 	second = CSP

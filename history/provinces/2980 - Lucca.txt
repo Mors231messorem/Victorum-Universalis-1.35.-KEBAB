@@ -1,4 +1,4 @@
-# Lucca
+#2980 - Lucca
 #Region - Italy
 #Area - Tuscan
 
@@ -65,7 +65,7 @@ discovered_by = eastern
 #Second Shattering not used
 #First performance start unused
 
-#1495.1.1 = { hre = no }	#Shadow Kingdom. Vanilla calls Northern Italy out of the HRE by 1500, BT is going with 1648, when the Peace of Westphalia definitively ended HRE influence in Italy.
+#1495.1.1 = { hre = no }	#Shadow Kingdom. Vanilla calls Northern Italy out of the HRE by 1500, VU is going with 1648, when the Peace of Westphalia definitively ended HRE influence in Italy.
 1648.1.1 = { hre = no }	#Peace of Westphalia, the 'Kingdom of Italy' definitively leaves the Holy Roman Empire
 1807.1.1 = {
 	owner = FRA

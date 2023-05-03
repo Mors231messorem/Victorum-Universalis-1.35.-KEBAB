@@ -1,4 +1,4 @@
-#New BT Province
+#8549 - EastTaiwan
 
 culture = formosan_culture
 religion = animism

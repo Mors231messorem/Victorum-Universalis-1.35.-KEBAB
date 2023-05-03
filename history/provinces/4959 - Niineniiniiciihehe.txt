@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = wichita
 religion = totemism 
-capital = "Niinéniiniicíihéhe" 
+capital = "Niinï¿½niiniicï¿½ihï¿½he" 
 trade_goods = unknown
 hre = no 
 base_tax = 1 
@@ -14,7 +14,7 @@ native_hostileness = 3
 center_of_trade = 1
 discovered_by = north_american
 
-1541.1.1 = { discovered_by = SPA } # Francisco Vásquez de Coronado
+1541.1.1 = { discovered_by = SPA } # Francisco Vï¿½squez de Coronado
 
 1760.1.1 = {
 	owner = ARP

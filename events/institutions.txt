@@ -1,8 +1,9 @@
-##################################################
-# Institutions 
-#
-# written by Johan Andersson & Henrik Lohmander
-##################################################
+#VU updated by San Felipe for 1.35
+#################################################
+# Institutions                                  #
+#                                               #
+# written by Johan Andersson & Henrik Lohmander #
+#################################################
 
 
 namespace = institution_events
@@ -90,6 +91,7 @@ country_event = {
 					ai = no
 					NOT = { tag = ROOT }
 					NOT = { knows_country = ROOT }
+					is_primitive = no
 				}
 				country_event = { id = institution_events.201 }
 			}
@@ -298,6 +300,7 @@ country_event = {
 					ai = no
 					NOT = { tag = ROOT }
 					NOT = { knows_country = ROOT }
+					is_primitive = no
 				}
 				country_event = { id = institution_events.301 }
 			}
@@ -494,6 +497,7 @@ country_event = {
 					ai = no
 					NOT = { tag = ROOT }
 					NOT = { knows_country = ROOT }
+					is_primitive = no
 				}
 				country_event = { id = institution_events.401 }
 			}
@@ -711,6 +715,7 @@ country_event = {
 					ai = no
 					NOT = { tag = ROOT }
 					NOT = { knows_country = ROOT }
+					is_primitive = no
 				}
 				country_event = { id = institution_events.501 }
 			}
@@ -839,8 +844,9 @@ country_event = {
 			every_country = {
 				limit = {
 					ai = no
-					NOT = { knows_country = ROOT }
 					NOT = { tag = ROOT }
+					NOT = { knows_country = ROOT }
+					is_primitive = no
 				}
 				country_event = { id = institution_events.601 }
 			}
@@ -971,8 +977,9 @@ country_event = {
 			every_country = {
 				limit = {
 					ai = no
-					NOT = { knows_country = ROOT }
 					NOT = { tag = ROOT }
+					NOT = { knows_country = ROOT }
+					is_primitive = no
 				}
 				country_event = { id = institution_events.701 }
 			}
@@ -1104,8 +1111,9 @@ country_event = {
 			every_country = {
 				limit = {
 					ai = no
-					NOT = { knows_country = ROOT }
 					NOT = { tag = ROOT }
+					NOT = { knows_country = ROOT }
+					is_primitive = no
 				}
 				country_event = { id = institution_events.801 }
 			}

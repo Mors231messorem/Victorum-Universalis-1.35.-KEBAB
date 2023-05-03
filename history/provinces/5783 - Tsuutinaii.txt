@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 latent_trade_goods = {
     coal
@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 culture = athabascan
 religion = totemism 
-capital = "Tsúùtínà" 
+capital = "Tsï¿½ï¿½tï¿½nï¿½" 
 trade_goods = unknown
 hre = no 
 base_tax = 1 

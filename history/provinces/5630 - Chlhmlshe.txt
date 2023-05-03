@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = interior_salish
 religion = totemism 
-capital = "Chlhmlshé" 
+capital = "Chlhmlshï¿½" 
 trade_goods = unknown
 hre = no 
 base_tax = 1 

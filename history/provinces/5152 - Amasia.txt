@@ -22,7 +22,7 @@ discovered_by = ottoman
 discovered_by = nomad_group
 
 
-#Copying from 1846, might come back later (BT5.0 or later) and fix things, good enough for now
+#Copying from 1846, might come back later (VU 5.0 or later) and fix things, good enough for now
 1481.6.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Civil war, Bayezid & Jem
 1482.7.26 = { revolt = {} controller = TUR } # Jem escapes to Rhodes
 1509.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Civil war

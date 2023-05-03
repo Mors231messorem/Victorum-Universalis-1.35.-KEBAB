@@ -1,4 +1,4 @@
-#New 1.17 - few conflicts, resolved. (All European tags except HSC replacing a BtP tag, and cutting HSC. Also note RFR's usage being moved around from rev France to an African tag
+#New 1.17 - few conflicts, resolved. (All European tags except HSC replacing a VU tag, and cutting HSC. Also note RFR's usage being moved around from rev France to an African tag
 #Europe
 #ICE SLO ULS DMS SLN KID HSC OKA GUY RFR
 #Africa
@@ -11,7 +11,7 @@
 #New 1.21 - few conflicts, resovled
 #RSO BLO
 
-#New 1.23 - Conflicts ANZ (more or less same tag as BT), MHR (same exact tag as BT), FRS, YZD. Conflicts resolved.
+#New 1.23 - Conflicts ANZ (more or less same tag as VU), MHR (same exact tag as VU), FRS, YZD. Conflicts resolved.
 #ANZ DAW FAD HDR MDA MFL MHR NAJ NJR RAS YAS YEM HSN BTL MLK
 #SME ARL MSY RUM TRS KRY LRI SIS BPI FRS KRM YZD ISF TBR BSR MGR QOM
 
@@ -21,15 +21,15 @@
 #New 1.25 - Conflicts ORD (Same tag as URM), TRY (Same tag as TYC), MCM (same tag as DSM), KOI (same id as KOI, but same tag as IOM), LOI (same tag as ILE). Note Ui Failghe (FLY) is a good addition on Paradox's part, in my opinion. I wonder why HR didn't add it? Bit minor, I suppose.
 #ORD TRY FLY MCM KOI LOI
 
-#New 1.26 - Conflicts KMN (BtP Kammin, new Vanilla Kumaon), TNJ (BT Tungur, new vanilla Tanjore), KAL (BT Kalapuya, new vanilla Kale).
+#New 1.26 - Conflicts KMN (VU Kammin, new Vanilla Kumaon), TNJ (VU Tungur, new vanilla Tanjore), KAL (VU Kalapuya, new vanilla Kale).
 #Whole bunch of them.
 
-#New 1.28 - Conflicts CAL (same ID as Calabria, which is changed to CLB), VAL (same exact tag as Draiocht's Valencia tag), MJO (same tag as MLA in BT), SLE (same tag as RBR in BT), ZNI (same exact tag as Neprut's Zuni tag), MSC (same ID as Muscat, which is changed to MUS), LIP  (same ID as Lippe, which is changed to LPP), TOR (same ID as Tortona, which is changed to TTN),  KER (same thing as BT's old AOM),  YKT (same thing as BT's old YKU), YAQ (same thing as BT's old WWH). Conflicts resolved.
+#New 1.28 - Conflicts CAL (same ID as Calabria, which is changed to CLB), VAL (same exact tag as Darth Modus's Valencia tag), MJO (same tag as MLA in VU), SLE (same tag as RBR in VU), ZNI (same exact tag as Neprut's Zuni tag), MSC (same ID as Muscat, which is changed to MUS), LIP  (same ID as Lippe, which is changed to LPP), TOR (same ID as Tortona, which is changed to TTN),  KER (same thing as VU's old AOM),  YKT (same thing as VU's old YKU), YAQ (same thing as VU's old WWH). Conflicts resolved.
 #CAL TEX VAL ASU MJO SLE TET MRK
 #MAT COI TEO XAL GAM HST CCM OTO YOK LAC KAQ CTM KER
 #ZNI MSC LIP CHT MIS TAI CNP TON YAQ YKT NSS PRY TOR LIB
 
-#New 1.29 - Conflict FRM (Fermo in BT, Fermosa in 1.29. BT's Fermo changed to FMO)
+#New 1.29 - Conflict FRM (Fermo in VU, Fermosa in 1.29. VU's Fermo changed to FMO)
 #FRM SOO NVK SOL EJZ NHX
 
 #New 1.3.4 notes from San Felipe
@@ -42,7 +42,7 @@ RED = "countries/SussyPirates.txt"
 # Europe #
 ##########
 
-#BT - Balkans
+#VU - Balkans
 BDN = "countries/Vidin.txt"
 CUM = "countries/Cumania.txt"
 DRJ = "countries/Dobruja.txt"
@@ -65,7 +65,7 @@ UHU = "countries/UpperHungary.txt"
 VBZ = "countries/Velbazhd.txt"
 YLT = "countries/Yelets.txt"
 
-#BT - Britannia
+#VU - Britannia
 BIF = "countries/Breifne.txt"
 BRC = "countries/Brecon.txt"
 CLN = "countries/Clandeboye.txt"
@@ -82,7 +82,7 @@ LCA = "countries/Lancaster.txt"
 MGH = "countries/Monaghan.txt"
 PEM = "countries/Pembroke.txt"
 TNA = "countries/TirnanGael.txt"
-UNK = "countries/UnitedKingdomBT.txt"
+UNK = "countries/UnitedKingdomVU.txt"
 WCO = "countries/WestConnacht.txt"
 WEX = "countries/Wexford.txt"
 WMC = "countries/WelshMarches.txt"
@@ -93,11 +93,11 @@ YYK = "countries/YnystKedyrn.txt"
 ARC	= "countries/ArchbishopricofCanterbury.txt"
 AFU = "countries/Anglo-French Union.txt"
 
-#BT - Eastern Mediterranean
+#VU - Eastern Mediterranean
 ROC = "countries/RepublicofCyprus.txt"
 
-#BT France
-ANJ = "countries/ProvenceBT.txt"
+#VU France
+ANJ = "countries/ProvenceVU.txt"
 ATS = "countries/Artois.txt"
 BSA = "countries/Besancon.txt"
 CMB = "countries/Cambrai.txt"
@@ -136,7 +136,7 @@ OFR = "countries/Orleanist_France.txt"
 RVF = "countries/Rev_France.txt"
 TFR = "countries/French_Third_Republic.txt"
 
-#BT Germany
+#VU Germany
 #CJK = "countries/Cuijk.txt"
 DRM = "countries/Darmstadt.txt"
 DRT = "countries/Dortmund.txt"
@@ -229,14 +229,14 @@ GEM = "countries/German_Empire.txt"
 AUE = "countries/Austrian_Empire.txt"
 AHE = "countries/Austria_Hungary.txt"
 
-#BT - Greece & Aegean Islands
+#VU - Greece & Aegean Islands
 LES = "countries/Lesbos.txt"
 
-#BT - Holy Orders
+#VU - Holy Orders
 KNT = "countries/KnightsTemplar.txt"
 LTE = "countries/LatinEmpire.txt"
 
-#BT - Iberian Peninsula
+#VU - Iberian Peninsula
 AOR = "countries/Andorra.txt"
 CDB = "countries/Cordoba.txt"
 IBE = "countries/Iberia.txt"
@@ -256,7 +256,7 @@ SPB = "countries/Bourbon_Spain_SPB.txt"
 #VU - Must remember to look at this again later.
 TZR = "countries/Imperial_Russia.txt"
 
-#BT - Ireland
+#VU - Ireland
 ANI = "countries/AngloIreland.txt"
 ANR = "countries/Antrim.txt"
 CEL = "countries/TirNaCeltigh.txt"
@@ -265,7 +265,7 @@ LGN = "countries/Laigin.txt"
 MYO = "countries/Mayo.txt"
 THO = "countries/Thomond.txt"
 
-#BT - Italian Peninsula
+#VU - Italian Peninsula
 ABR = "countries/Abruzzo.txt"
 ADR = "countries/Andria.txt"
 ALP = "countries/AlbaPiedmont.txt"
@@ -365,7 +365,7 @@ SGM = "countries/San_Gimignano.txt"
 SNM = "countries/San_Marino.txt"
 ROR = "countries/Roman_Republic.txt"
 
-#BT - Low Countries
+#VU - Low Countries
 BEL = "countries/Belgium.txt"
 GRN = "countries/Groningen.txt"
 ZDN = "countries/Zenden.txt"
@@ -374,7 +374,7 @@ ZDN = "countries/Zenden.txt"
 LBG = "countries/Limburg.txt"
 ZEE = "countries/Zeeland.txt"
 
-#BT - Poland and Bohemia
+#VU - Poland and Bohemia
 ASC = "countries/Auschwitz.txt"
 BAU = "countries/Breslau.txt"
 BEG = "countries/Brieg.txt"
@@ -400,7 +400,7 @@ TRO = "countries/Troppau.txt"
 #Rus Legacy Tags
 BSV = "countries/Bratslav.txt"
 
-#BT - Russia & Siberia
+#VU - Russia & Siberia
 BLV = "countries/Belyov.txt"
 DRP = "countries/Dorpat.txt"
 DTK = "countries/Drutsk.txt"
@@ -412,7 +412,7 @@ PRS = "countries/Pronsk.txt"
 SLT = "countries/Slutsk.txt"
 SPK = "countries/Serpukhov.txt"
 VLG = "countries/Vologda.txt"
-VOR = "countries/FurtherAustria.txt" #BT
+VOR = "countries/FurtherAustria.txt" #VU
 VTN = "countries/Vorotynsk.txt"
 VYA = "countries/Vyatka.txt"
 ZBT = "countries/Zubtsov.txt"
@@ -427,7 +427,7 @@ DRZ = "countries/Durdzuketia.txt"
 QRC = "countries/Qaracay.txt"
 ASY = "countries/Assyria.txt"
 
-#BT - Scandinavia & Baltics
+#VU - Scandinavia & Baltics
 GTA = "countries/Gotaland.txt"
 KLL = "countries/Kulm.txt"
 PMS = "countries/Pomesania.txt"
@@ -442,20 +442,20 @@ NRE = "countries/NorthSeaEmpire.txt"
 WRM = "countries/Warmia.txt"
 DNR = "countries/DenmarkNorway.txt"
 
-#BT - Switzerland
+#VU - Switzerland
 BSL = "countries/Basel.txt"
 
 ##########
 # Africa #
 ##########
 
-#BT - Africa
+#VU - Africa
 AAB = "countries/AitAbbas.txt"
 ANF = "countries/Anfa.txt"
 AUR = "countries/Aures.txt"
 BSM = "countries/BanuSulaym.txt"
 DBD = "countries/Debdou.txt"
-FNJ = "countries/Btfunj.txt"
+FNJ = "countries/VUfunj.txt"
 GDM = "countries/Nafusi.txt"
 HWW = "countries/Hawwara.txt"
 KEM = "countries/Keme.txt"
@@ -493,7 +493,7 @@ ABD = "countries/Abdallab.txt"
 DKK = "countries/Dahlak_Kebir.txt"
 KUU = "countries/Kunuz.txt"
 KNM = "countries/Kunama.txt"
-MKR = "countries/Btmakuria.txt"
+MKR = "countries/VUmakuria.txt"
 SLK = "countries/Shilluk.txt"
 
 #Namibia
@@ -543,7 +543,7 @@ YAG = "countries/Yahgan.txt"
 # Asia #
 ########
 
-#BT - Middle East
+#VU - Middle East
 ALI = "countries/Alaiye.txt"
 AZD = "countries/Azd.txt"
 CAA = "countries/Cappadocia.txt"
@@ -561,7 +561,7 @@ SRN = "countries/Soran.txt"
 TKK = "countries/Tekke.txt"
 UNZ = "countries/Unaizah.txt"
 
-#BT - Rest of Asia
+#VU - Rest of Asia
 #ARU	= "countries/Aru.txt" - Removed from list because it was added in vanilla EU4 as DLI
 #BEU = "countries/Berau.txt" - Removed from list because it's already in vanilla EU4
 BMA = "countries/Bima.txt"
@@ -660,7 +660,7 @@ KRE = "countries/Korea2.txt"
 # Americas #
 ############
 
-#BT - North America
+#VU - North America
 #ALQ = "countries/Algonquin.txt"
 #BTK = "countries/Beothuk.txt"
 BVR = "countries/Beaver.txt"
@@ -757,7 +757,7 @@ BNI = "countries/Baining.txt"
 CMU = "countries/Chimbu.txt"
 
 ##################
-# BT - Caribbean #
+# VU - Caribbean #
 ##################
 #WWG = "countries/Ciboney.txt"
 #YZJ = "countries/WhatDidIIntendhere.txt"
@@ -812,7 +812,7 @@ WJA = "countries/Wajarre.txt"
 WLP = "countries/Warlpiri.txt"
 #YGU = "countries/Yolngu.txt"
 
-#BT - Pacific
+#VU - Pacific
 #YZW = "countries/HawaiiNation.txt"
 YZZ = "countries/Kalaallisut.txt"
 
@@ -820,7 +820,7 @@ YZZ = "countries/Kalaallisut.txt"
 RAP = "countries/Rapanui.txt"
 
 #############
-# BTP Notes #
+# VU Notes #
 #############
 #San_Felipe replaced KSI with KSA
 #San_Felipe replaced SAG with SGR
@@ -837,31 +837,31 @@ RAP = "countries/Rapanui.txt"
 #San_Felipe changed NOO to NTK fix for 1.31.2 conflict
 #San_Felipe changed SMB to SGA fix for 1.31.2 conflict
 #San_Felipe changed TAN to TTO fix for 1.31.2 conflict
-#Draiocht changed ANT to ANR fix for 1.16 conflict
-#Draiocht removed SLI added in vanilla 1.16 as SLN
-#Draiocht removed IOM added in vanilla 1.25 as KOI (country file IsleofMan to Mann)
-#Draiocht removed IOM added in vanilla 1.16 as KOI
-#Draiocht removed TYC added in vanilla 1.25 as TRY (same country file, Tyrconnell)
-#Draiocht removed ULS added in vanilla 1.16 same tag
-#Draiocht removed KIL added in vanilla 1.16 as KID
-#Draiocht removed URM added in vanilla 1.25 as ORD
-#Draiocht removed DES added in vanilla 1.16 as DMS
-#Draiocht removed DSM added in vanilla 1.25 as MCM (country file DeasMhumhain to MacCarthy)
+#Darth Modus changed ANT to ANR fix for 1.16 conflict
+#Darth Modus removed SLI added in vanilla 1.16 as SLN
+#Darth Modus removed IOM added in vanilla 1.25 as KOI (country file IsleofMan to Mann)
+#Darth Modus removed IOM added in vanilla 1.16 as KOI
+#Darth Modus removed TYC added in vanilla 1.25 as TRY (same country file, Tyrconnell)
+#Darth Modus removed ULS added in vanilla 1.16 same tag
+#Darth Modus removed KIL added in vanilla 1.16 as KID
+#Darth Modus removed URM added in vanilla 1.25 as ORD
+#Darth Modus removed DES added in vanilla 1.16 as DMS
+#Darth Modus removed DSM added in vanilla 1.25 as MCM (country file DeasMhumhain to MacCarthy)
 #Dub removed PGI added in vanilla 1.30 as PGA
 #Dub removed MNT added in vanilla 1.30 as MBZ
-#Draiocht removed ILE added in vanilla 1.25 as LOI (same country file, TheIsles)
+#Darth Modus removed ILE added in vanilla 1.25 as LOI (same country file, TheIsles)
 #Dub removed BLG added in vanilla 1.30 same tag
 #Dub removed SZO added in vanilla 1.30 same tag
 #Dub removed TRN added in vanilla 1.30 as TNT
-#Draiocht removed ICE added in vanilla 1.16 same tag
-#Draiocht removed SVK added in vanilla 1.16 as SLO attention to other refs some go by nyitra
+#Darth Modus removed ICE added in vanilla 1.16 same tag
+#Darth Modus removed SVK added in vanilla 1.16 as SLO attention to other refs some go by nyitra
 #Dub removed LUS added in vanilla 1.30 as SOR
-#Draiocht removed DIT added in vanilla 1.19 as DTT
+#Darth Modus removed DIT added in vanilla 1.19 as DTT
 #Dub removed RPN added in vanilla 1.30 as RUP
 #Dub removed LPP added in vanilla 1.30 same tag
 #Dub removed KNS added in vanilla 1.30 as KNZ
-#Draiocht removed OKA added in vanilla 1.16 same tag
-#Draiocht removed RST added in vanilla 1.22 as RSO
+#Darth Modus removed OKA added in vanilla 1.16 same tag
+#Darth Modus removed RST added in vanilla 1.22 as RSO
 #Dub removed RGN added in vanilla 1.30 as REG
 #Dub removed BMB added in vanilla 1.30 as BAM
 #Dub removed BYR added in vanilla 1.30 as BYT
@@ -871,8 +871,8 @@ RAP = "countries/Rapanui.txt"
 #Dub removed OSN added in vanilla 1.30 same tag
 #Dub removed PDB added in vanilla 1.30 as PAD
 #Dub removed GRL added in vanilla 1.30 as TTL
-#Draiocht removed MLA added in vanilla 1.28 as MJO
-#Draiocht removed VAL added in vanilla 1.28 same tag
+#Darth Modus removed MLA added in vanilla 1.28 as MJO
+#Darth Modus removed VAL added in vanilla 1.28 same tag
 #Dub removed SPO added in vanilla 1.30 as SPL
 #Dub removed PAD added in vanilla 1.30 as PDV
 #Dub removed VRN added in vanilla 1.30 same tag
@@ -880,15 +880,15 @@ RAP = "countries/Rapanui.txt"
 #Dub removed STT added in vanilla 1.30 as STE
 #Dub removed WLG added in vanilla 1.30 as WOL
 #Dub removed RUG added in vanilla 1.30 same tag
-#Draiocht removed RBR added in vanilla 1.28 as SLE
-#Draiocht removed AYB added in vanilla 1.23 as HSN
-#Draiocht removed MHR added in vanilla 1.23 same tag
-#Draiocht removed KTH added in vanilla 1.23 as HDR
-#Draiocht removed RSD added in vanilla 1.23 as RAS
-#Draiocht removed ANZ added in vanilla 1.23 same tag (more or less... interior of Arabia very haphazard and I don't know it very well, but I think it is the same.)
+#Darth Modus removed RBR added in vanilla 1.28 as SLE
+#Darth Modus removed AYB added in vanilla 1.23 as HSN
+#Darth Modus removed MHR added in vanilla 1.23 same tag
+#Darth Modus removed KTH added in vanilla 1.23 as HDR
+#Darth Modus removed RSD added in vanilla 1.23 as RAS
+#Darth Modus removed ANZ added in vanilla 1.23 same tag (more or less... interior of Arabia very haphazard and I don't know it very well, but I think it is the same.)
 #Changed from MSC in 1.28 to avoid conflict with Vanilla
 #Note Haida remains from vanilla - tag HDA
 #Note Salish remains from vanilla - tag SAL
 #Note Chinook remains from vanilla - tag CNK
 #SQU (Squamish) tag not used from Neprut's SE. No need to have two coast Salish tags next to each other and Duwamish/Suquamish alliance has more human interest
-#Draiocht removed YKU. New 1.28 vanilla tag YKT is the same thing
+#Darth Modus removed YKU. New 1.28 vanilla tag YKT is the same thing

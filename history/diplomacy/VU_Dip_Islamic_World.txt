@@ -25,13 +25,13 @@ vassal = {
 	first = KAR
 	second = ALI
 	start_date = 1444.1.1
-	end_date = 1444.11.16 #BeyondTypus batch edit shortcut second performance start begins
+	end_date = 1444.11.16 #VictorumUniversalis batch edit shortcut second performance start begins
 }	#From start date to date Karaman takes over fully, followed by Ottomans
 
 vassal = {
 	first = KAR
 	second = ALI
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1471.1.1
 }	#From start date to date Karaman takes over fully, followed by Ottomans
 
@@ -85,17 +85,17 @@ vassal = {
 ####################		2 - North Africa 		####################
 ############################################################
 ############################################################
-vassal = {
-	first = MAM
-	second = HWW
-	start_date = 1444.1.1
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
-}
+#vassal = {
+#	first = MAM
+#	second = HWW
+#	start_date = 1444.1.1
+#	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
+#}
 
 vassal = {
 	first = MAM
 	second = HWW
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1517.1.1
 }
 
@@ -103,13 +103,13 @@ vassal = {
 	first = MAM
 	second = BEJ
 	start_date = 1444.1.1
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
 }
 
 vassal = {
 	first = MAM
 	second = BEJ
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1517.1.1
 }
 
@@ -117,13 +117,13 @@ vassal = {
 	first = MOR
 	second = DBD
 	start_date = 1444.1.1
-	end_date = 1444.11.13 #BeyondTypus batch edit shortcut the second shattering begins
+	end_date = 1444.11.13 #VictorumUniversalis batch edit shortcut the second shattering begins
 }	#Semi-independent Principality of Debdou
 
 vassal = {
 	first = MOR
 	second = DBD
-	start_date = 1444.11.18 #BeyondTypus batch edit shortcut second performance start ends
+	start_date = 1444.11.18 #VictorumUniversalis batch edit shortcut second performance start ends
 	end_date = 1563.12.31
 }	#Semi-independent Principality of Debdou
 
@@ -183,13 +183,13 @@ vassal = {
 	first = QAR
 	second = BHT
 	start_date = 1435.1.1
-	end_date = 1444.11.16   #BeyondTypus batch edit shortcut no vassal start date begin
+	end_date = 1444.11.16   #VictorumUniversalis batch edit shortcut no vassal start date begin
 }
 
 vassal = {
 	first = QAR
 	second = BHT
-	start_date = 1444.11.18   #BeyondTypus batch edit shortcut no vassal start date end
+	start_date = 1444.11.18   #VictorumUniversalis batch edit shortcut no vassal start date end
 	end_date = 1469.2.4
 }
 

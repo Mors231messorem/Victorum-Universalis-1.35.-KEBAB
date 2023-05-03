@@ -30,7 +30,7 @@ native_hostileness = 1
 	is_city = yes
 	capital = "Azua"
 	trade_goods = copper			#Don't actually know where the copper mines in hispaniola were... and without Spanish I doubt I'll find out anytime soon. Here is as good as anywhere.
-} #First settlements on the island	-(previous from vanilla) Was it? I couldn't find any good info, but what I did find said otherwise. Anyhow, I'll go with it - Draiocht
+} #First settlements on the island	-(previous from vanilla) Was it? I couldn't find any good info, but what I did find said otherwise. Anyhow, I'll go with it - Darth Modus
 1516.1.23 = {
 	discovered_by = SPA
 	owner = SPA

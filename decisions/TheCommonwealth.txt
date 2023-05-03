@@ -23,7 +23,7 @@ country_decisions = {
 				AND = {
 					senior_union_with = LIT
 					LIT = { #This overlaps with allow for AI, is meant to negate do_not_integrate
-						NOT = { num_of_cities = 156 } #Keep this number the same as in allow. Original 38 +10   -Draiocht 1.27 brought this to 48 + 10, but 10.0 brings it to 126 + 30
+						NOT = { num_of_cities = 156 } #Keep this number the same as in allow. Original 38 +10   -Darth Modus 1.27 brought this to 48 + 10, but 10.0 brings it to 126 + 30
 					}
 				}
 			}
@@ -188,7 +188,7 @@ country_decisions = {
 				AND = {
 					senior_union_with = POL
 					POL = { #This overlaps with allow for AI, is meant to negate do_not_integrate
-						NOT = { num_of_cities = 61 } #Keep this number the same as in allow. Original 14 +10   -Draiocht 1.27 brought this to 22 + 10, but 10.0 brings it to 41 + 20
+						NOT = { num_of_cities = 61 } #Keep this number the same as in allow. Original 14 +10   -Darth Modus 1.27 brought this to 22 + 10, but 10.0 brings it to 41 + 20
                         NOT = { liberty_desire = 25 } 
 					}
 				}

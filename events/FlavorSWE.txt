@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 ########################################
 # Major Flavor Events                  #
 ########################################
@@ -10,7 +11,7 @@ normal_or_historical_nations = yes
 country_event = {
 	id = flavor_swe.1
 	title = flavor_swe.1.t
-	desc = flavor_swe.1.swe_debt_with_the_burghers
+	desc = flavor_swe.1.d
 	picture = {
 		trigger = {
 			has_dlc = "Lions of the North"
@@ -1396,6 +1397,7 @@ country_event = {
 			war_with = TZR
 		}
 		is_free_or_tributary_trigger = yes
+		war_with = RUS
 		NOT = { exists = FIN }
 		any_owned_province = {
 			is_core = FIN

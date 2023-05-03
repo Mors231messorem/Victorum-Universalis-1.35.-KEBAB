@@ -1,4 +1,4 @@
-#3181 - BtP Province repurposed by Draiocht due to 1.19 changes
+#3181 - Delvina
 
 owner = TUR
 controller = TUR

@@ -20,6 +20,6 @@
  city_upon_a_hill:0 "English Bill of Rights"
  city_upon_a_hill_desc:0 "A sweeping series of reforms focused on the limits of royal power, in particular focused on the judiciary. This regulation lead to greater consistency in judgments and allowed trade and commerce to flourish."
  
- #Changes to the way BT handles Shadow Kingdom, Guelphs, Ghibbilines, and Italian HRE
+ #Changes to the way VU handles Shadow Kingdom, Guelphs, Ghibbilines, and Italian HRE
  religious_leagues.4.d:0 "The War of Religion in the Empire has ended inconclusively and the two sides have assembled in the city of Münster in Westphalia to sign a compromise peace. According to the terms of the Peace of Westphalia, the confessional faith of each state shall be determined by its ruler, according to the principle of 'Whose realm, his religion'. Additionally, long-standing de-jure claims by the emperor over Italy and Switzerland are to be reexamined."
  

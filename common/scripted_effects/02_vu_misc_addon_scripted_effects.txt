@@ -1,7 +1,7 @@
-#Election scripts by Draiocht, meant to give some tighter control on ruler skills.
+#Election scripts by Darth Modus, meant to give some tighter control on ruler skills.
 
 #Scripted election results, main stat 4 or 5, others 0 to 3... also a 2 percent chance each of a 6/4/4 or a 3/0/0
-bt_script_improved_republic_elections_adm_ruler  = {
+vu_script_improved_republic_elections_adm_ruler  = {
 	random_list = {
 		3 = {
 			define_ruler = {
@@ -279,7 +279,7 @@ bt_script_improved_republic_elections_adm_ruler  = {
 }
 
 #Scripted election results, main stat 4 or 5, others 0 to 3... also a 2 percent chance each of a 6/4/4 or a 3/0/0
-bt_script_improved_republic_elections_dip_ruler  = {
+vu_script_improved_republic_elections_dip_ruler  = {
 	random_list = {
 		3 = {
 			define_ruler = {
@@ -557,7 +557,7 @@ bt_script_improved_republic_elections_dip_ruler  = {
 }
 
 #Scripted election results, main stat 4 or 5, others 0 to 3... also a 2 percent chance each of a 6/4/4 or a 3/0/0
-bt_script_improved_republic_elections_mil_ruler  = {
+vu_script_improved_republic_elections_mil_ruler  = {
 	random_list = {
 		3 = {
 			define_ruler = {

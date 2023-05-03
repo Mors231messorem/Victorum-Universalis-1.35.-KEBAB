@@ -14,7 +14,7 @@ objectTypes = {
 		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }
 		animation = { id = "horse_retreat"	type = "cavalry_rider_retreat_animation" }				
 		
-		scale = 0.35			#BTAddOn changing all unit sizes from scale 0.5 to scale 0.35
+		scale = 0.35			#VUAddOn changing all unit sizes from scale 0.5 to scale 0.35
 		
 	}	
 	
@@ -33,7 +33,7 @@ objectTypes = {
 		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }
 		animation = { id = "horse_retreat"	type = "cavalry_rider_retreat_animation" }				
 		
-		scale = 0.35			#BTAddOn changing all unit sizes from scale 0.5 to scale 0.35
+		scale = 0.35			#VUAddOn changing all unit sizes from scale 0.5 to scale 0.35
 		
 	}
 	
@@ -52,7 +52,7 @@ objectTypes = {
 		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }
 		animation = { id = "horse_retreat"	type = "cavalry_rider_retreat_animation" }				
 		
-		scale = 0.35			#BTAddOn changing all unit sizes from scale 0.5 to scale 0.35
+		scale = 0.35			#VUAddOn changing all unit sizes from scale 0.5 to scale 0.35
 		
 	}
 	
@@ -71,7 +71,7 @@ objectTypes = {
 		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }
 		animation = { id = "horse_retreat"	type = "cavalry_rider_retreat_animation" }				
 		
-		scale = 0.35			#BTAddOn changing all unit sizes from scale 0.5 to scale 0.35
+		scale = 0.35			#VUAddOn changing all unit sizes from scale 0.5 to scale 0.35
 		
 	}
 	
@@ -91,7 +91,7 @@ objectTypes = {
 		animation = { id = "horse_walk"			type = "cavalry_horse_moving_animation" }
 		animation = { id = "horse_retreat"		type = "cavalry_horse_moving_animation" }
 
-		scale = 0.35			#BTAddOn changing all unit sizes from scale 0.5 to scale 0.35
+		scale = 0.35			#VUAddOn changing all unit sizes from scale 0.5 to scale 0.35
 		
 	}
 	

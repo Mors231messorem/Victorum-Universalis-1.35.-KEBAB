@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = tanana
 religion = totemism 
@@ -13,7 +13,7 @@ native_ferocity = 1
 native_hostileness = 3  
 
 discovered_by = north_american
-#discovered_by = bt_athabaskan_tech
+#discovered_by = vu_athabaskan_tech
 
 add_permanent_province_modifier = {
     name = vu_malaria_present

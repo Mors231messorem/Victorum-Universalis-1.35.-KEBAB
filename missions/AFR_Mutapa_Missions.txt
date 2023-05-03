@@ -790,7 +790,7 @@ mutapa_trade_missions_slot = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = zim_zanzibar_greatest_market_bt
+				tooltip = zim_zanzibar_greatest_market_vu
 				OR = {
 					504 = {
 						OR = {

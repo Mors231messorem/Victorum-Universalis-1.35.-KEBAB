@@ -1,14 +1,14 @@
-namespace = BtPLegacyUpperNileEvents
+namespace = VULegacyUpperNileEvents
 
 #Pressure from the Shilluk
 country_event = {
-	id = BtPLegacyUpperNileEvents.1
-	title = "BtPLegacyUpperNileEvents.EVTNAME1"
-	desc = "BtPLegacyUpperNileEvents.EVTDESC1"
+	id = VULegacyUpperNileEvents.1
+	title = "VULegacyUpperNileEvents.EVTNAME1"
+	desc = "VULegacyUpperNileEvents.EVTDESC1"
 	picture = NATIVES_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		tag = FNJ
 		5290 = { owned_by = FNJ }
@@ -18,7 +18,7 @@ country_event = {
 
 	mean_time_to_happen = {
 		months = 24
-		
+
 		modifier = {
 			factor = 0.5
 			is_year = 1505
@@ -28,9 +28,9 @@ country_event = {
 			is_year = 1510
 		}
 	}
-	
+
 	option = { # Allow ourselves to be pushed north
-		name = "BtPLegacyUpperNileEvents.EVTOPTA1"
+		name = "VULegacyUpperNileEvents.EVTOPTA1"
 		ai_chance = { factor = 95 }
 		2800 = {
 			cede_province = FNJ
@@ -49,7 +49,7 @@ country_event = {
 			SLK = {
 				define_ruler = {
 					name = "Nyikaango I"
-					dynasty = "Shilluk" 
+					dynasty = "Shilluk"
 					age = 25
 					claim = 95
 					regency = no
@@ -65,13 +65,13 @@ country_event = {
 		add_mil_power = 100
 		add_army_tradition = 25
 		add_country_modifier = {
-			name = "btpl_funj_momentum"
+			name = "vu_funj_momentum"
 			duration = 7300
 		}
 	}
 
 	option = { # Resist the Shilluk
-		name = "BtPLegacyUpperNileEvents.EVTOPTB1"
+		name = "VULegacyUpperNileEvents.EVTOPTB1"
 		ai_chance = { factor = 5 }
 		add_prestige = 10
 		5290 = { add_core = SLK }
@@ -88,13 +88,13 @@ country_event = {
 
 #Arrival of Abdullah
 country_event = {
-	id = BtPLegacyUpperNileEvents.2
-	title = "BtPLegacyUpperNileEvents.EVTNAME2"
-	desc = "BtPLegacyUpperNileEvents.EVTDESC2"
+	id = VULegacyUpperNileEvents.2
+	title = "VULegacyUpperNileEvents.EVTNAME2"
+	desc = "VULegacyUpperNileEvents.EVTDESC2"
 	picture = HORDE_ON_HORSEBACK_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		tag = ALO
 		2798 = { owned_by = ALO }
@@ -105,7 +105,7 @@ country_event = {
 
 	mean_time_to_happen = {
 		months = 32
-		
+
 		modifier = {
 			factor = 0.5
 			is_year = 1480
@@ -119,9 +119,9 @@ country_event = {
 			is_year = 1490
 		}
 	}
-	
+
 	option = { # Uh oh
-		name = "BtPLegacyUpperNileEvents.EVTOPTA2"
+		name = "VULegacyUpperNileEvents.EVTOPTA2"
 		ai_chance = { factor = 95 }
 		every_province = {
 			limit = { owned_by = ALO }
@@ -136,7 +136,7 @@ country_event = {
 			ABD = {
 				define_ruler = {
 					name = "Abdullah Jamma"
-					dynasty = "Abdallab" 
+					dynasty = "Abdallab"
 					age = 25
 					claim = 95
 					regency = no
@@ -149,11 +149,11 @@ country_event = {
 				add_piety = 0.30
 				add_treasury = 300
 				add_country_modifier = {
-					name = "btpl_abdullahs_coffers"
+					name = "vu_abdullahs_coffers"
 					duration = 1825
 				}
 				add_country_modifier = {
-					name = "btpl_spread_of_islam_in_alodia"
+					name = "vu_spread_of_islam_in_alodia"
 					duration = 7300
 				}
 				capital_scope = {
@@ -173,11 +173,11 @@ country_event = {
 	}
 
 	option = { # Accept it as inevitable
-		name = "BtPLegacyUpperNileEvents.EVTOPTB2"
+		name = "VULegacyUpperNileEvents.EVTOPTB2"
 		ai_chance = { factor = 5 }
 		define_ruler = {
 			name = "Abdullah Jamma"
-			dynasty = "Abdallab" 
+			dynasty = "Abdallab"
 			age = 25
 			claim = 30
 			regency = no
@@ -189,7 +189,7 @@ country_event = {
 		change_religion = sunni
 		add_piety = 0.30
 		add_country_modifier = {
-			name = "btpl_spread_of_islam_in_alodia"
+			name = "vu_spread_of_islam_in_alodia"
 			duration = 3650
 		}
 		add_stability = -3
@@ -200,16 +200,16 @@ country_event = {
 
 #Funj Expand Northwards
 country_event = {
-	id = BtPLegacyUpperNileEvents.3
-	title = "BtPLegacyUpperNileEvents.EVTNAME3"
-	desc = "BtPLegacyUpperNileEvents.EVTDESC3"
+	id = VULegacyUpperNileEvents.3
+	title = "VULegacyUpperNileEvents.EVTNAME3"
+	desc = "VULegacyUpperNileEvents.EVTDESC3"
 	picture = NATIVES_eventPicture
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		tag = FNJ
-		has_country_modifier = btpl_funj_momentum
+		has_country_modifier = vu_funj_momentum
 		OR = {
 			2799 = { owned_by = ALO }
 			2799 = { owned_by = ABD }
@@ -218,7 +218,7 @@ country_event = {
 
 	mean_time_to_happen = {
 		months = 2
-		
+
 		modifier = {
 			factor = 0.5
 			is_year = 1502
@@ -228,13 +228,13 @@ country_event = {
 			is_year = 1504
 		}
 	}
-	
+
 	option = { # Make use of this momentum
-		name = "BtPLegacyUpperNileEvents.EVTOPTA3"
+		name = "VULegacyUpperNileEvents.EVTOPTA3"
 		ai_chance = { factor = 95 }
 		capital_scope = { build_to_forcelimit = { infantry = 1.0 } }
 		add_country_modifier = {
-			name = "btpl_funj_militarisation"
+			name = "vu_funj_militarisation"
 			duration = 7300
 		}
 		every_province = {
@@ -261,13 +261,13 @@ country_event = {
 			}
 		}
 	}
-	
+
 	option = { # We dont need to expand to be great
-		name = "BtPLegacyUpperNileEvents.EVTOPTB3"
+		name = "VULegacyUpperNileEvents.EVTOPTB3"
 		ai_chance = { factor = 5 }
-		remove_country_modifier = btpl_funj_momentum
+		remove_country_modifier = vu_funj_momentum
 		add_country_modifier = {
-			name = "btpl_funj_demilitarisation"
+			name = "vu_funj_demilitarisation"
 			duration = 7300
 		}
 	}

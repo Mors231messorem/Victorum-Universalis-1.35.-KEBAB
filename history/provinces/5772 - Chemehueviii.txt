@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = ute_culture
 religion = totemism 
-capital = "Tantáwats" 
+capital = "Tantï¿½wats" 
 trade_goods = unknown
 hre = no 
 base_tax = 1  			#Estimated population 1,500 in 1770 per Kroeber, including both Kawaiisu of #2478, as well as Chemhuevi of #5072, and the Timbisha of #4955

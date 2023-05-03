@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 ######################################
 # Army Professionalism Events        #
 #                            		 #
@@ -281,7 +282,7 @@ province_event = {
 		name = army_professionalism_events.3.a #Barbarians!
 		trigger = {
 			OR = {
-				NOT = { tag = PAP }
+				owner = { NOT = { tag = PAP } }
 				NOT = { has_dlc = "Emperor" }
 			}
 		}

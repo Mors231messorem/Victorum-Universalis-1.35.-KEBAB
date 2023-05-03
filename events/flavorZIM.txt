@@ -1,8 +1,9 @@
-########################################
-# Events for Mutapa
-#
-# written by Ogulcan Yildirim
-########################################
+#VU updated by San Felipe for 1.35
+###############################
+# Events for Mutapa           #
+#                             #
+# written by Ogulcan Yildirim #
+###############################
 
 namespace = flavor_zim
 normal_or_historical_nations = yes
@@ -114,6 +115,7 @@ country_event = {
 	option = {
 		name = flavor_zim.2.a		
 		change_tag = GZI
+		on_change_tag_effect = yes
 		add_country_modifier = {
 			name = "centralization_modifier"
 			duration = 7300

@@ -762,7 +762,7 @@
  EST_VAL_REGIONAL_FORTS_REFORM:0 "Regional Forts: §Y$VAL$%§!"
  EST_VAL_FEUDAL_LEVIES_REFORM:0 "Feudal Levies: §Y$VAL$%§!"
  EST_VAL_LITHUANIA_LAW_REFORM:0 "Casimir's Code: §Y$VAL$%§!"
- EST_VAL_FRENCH_FEUDALISM:0 "French Feudalism: §Y$VAL$%§!"
+ #EST_VAL_FRENCH_FEUDALISM:0 "French Feudalism: §Y$VAL$%§!"
  EST_VAL_GROWTH_SIGNORIA_REFORM:0 "Growth of the Signoria: §Y$VAL$%§!"
  EST_VAL_GUILD_DOMINANCE_REFORM:0 "Guild Dominance: §Y$VAL$%§!"
  EST_VAL_SUPPORT_BORGHESE_REFORM:0 "Support Borghese: §Y$VAL$%§!"

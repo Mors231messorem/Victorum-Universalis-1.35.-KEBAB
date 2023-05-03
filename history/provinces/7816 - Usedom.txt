@@ -1,4 +1,4 @@
-#BT Scandinavia and Baltics reoverhaul
+#7816 - Usedom
 
 owner = POM
 controller = POM

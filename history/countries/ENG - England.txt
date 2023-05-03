@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = english_monarchy
-#mercantilism = 25			#Other changes in BT made England far too powerful with a mercantilism bonus. Also, does this really apply historical in 1444 anyway?
+#mercantilism = 25			#Other changes in VU made England far too powerful with a mercantilism bonus. Also, does this really apply historical in 1444 anyway?
 technology_group = western
 primary_culture = english
 add_accepted_culture = gascon
@@ -366,6 +366,13 @@ add_country_modifier = {
 	add_heir_personality = infertile_personality
 }
 
+#1422.8.31 = {} #Succession
+
+change_estate_land_share = { #compensates for lack of nobles, distributes 20 between the remaining estates
+	estate = all
+	share = 20
+}
+
 1422.8.31 = {
 	# change_estate_land_share = { #compensates for lack of nobles, distributes 20 between the remaining estates
 		# estate = all
@@ -384,13 +391,34 @@ add_country_modifier = {
 	add_ruler_personality = infertile_personality
 }
 
-#1429.11.6 = { #Coronation			#Paradox goes by coronation, but we need a ruler so I'm going by reign
-
-#Paradox from here on out
+1429.11.6 = { #Coronation
+	monarch = {
+		name = "Henry VI"
+		dynasty = "Lancaster"
+		birth_date = 1421.12.6
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = infertile_personality
+	set_ruler_flag = henry_vi_lancaster
+}
 
 #1434.1.1 = { leader = {	name = "Richard Neville"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1460.12.31 } }
 
-1444.1.1 = { leader = {	name = "John Talbot"	type = general	fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 1453.7.17 } }
+1444.1.1 = {
+	leader = {
+		name = "John Talbot"
+		type = general
+		fire = 2
+		shock = 4
+		manuever = 3
+		siege = 0
+		death_date = 1453.7.17
+	}
+	set_estate_privilege = estate_nobles_english_villeinage
+}
 
 1445.4.23 = {
 	queen = {
@@ -420,6 +448,7 @@ add_country_modifier = {
 		dip = 2
 		mil = 4
 	}
+	remove_estate_privilege = estate_nobles_english_villeinage
 }
 
 1455.1.1 = { leader = {	name = "Edmund Beaufort"	type = general	fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 1461.3.4 } }
@@ -1048,7 +1077,7 @@ add_country_modifier = {
 		mil = 5
 		leader = { name = "Oliver Cromwell"	type = general	fire = 5	shock = 5	manuever = 4	siege = 1 }
 	}
-
+	
 	# Cromwell and the Republic
 	religion = reformed
 	add_government_reform = presidential_despot_reform
@@ -1100,7 +1129,7 @@ add_country_modifier = {
 		dip = 2
 		mil = 0
 	}
-
+	
 	# The Restoration of the Stuarts
 	set_legacy_government = administrative_monarchy
 }

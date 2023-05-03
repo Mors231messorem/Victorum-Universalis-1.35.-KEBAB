@@ -1,4 +1,4 @@
-#BT Balkans reoverhaul
+#7102 - Arcadia
 
 latent_trade_goods = {
 	coal

@@ -185,14 +185,14 @@ gen_north_india_2 = {
 		required_missions = { gen_north_india_warrior_castes }
 		
 		provinces_to_highlight = {
-			bt_grand_trunk_road_provinces_highlight_trigger = yes
+			vu_grand_trunk_road_provinces_highlight_trigger = yes
 		}
 		
 		trigger = {
-			bt_grand_trunk_road_mission_trigger = yes
+			vu_grand_trunk_road_mission_trigger = yes
 		}
 		effect = {
-			bt_grand_trunk_road_mission_effect = yes
+			vu_grand_trunk_road_mission_effect = yes
 		}
 	}
 	

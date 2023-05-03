@@ -17,8 +17,8 @@ native_ferocity = 1
 native_hostileness = 3  
 
 discovered_by = north_american
-#discovered_by = bt_athabaskan_tech
-#discovered_by = bt_inuit_tech
+#discovered_by = vu_athabaskan_tech
+#discovered_by = vu_inuit_tech
 
 extra_cost = 10
 
@@ -27,14 +27,14 @@ extra_cost = 10
 #    duration = -1
 #}
 
-#1444.11.15 = { #BeyondTypus batch edit shortcut no native start date begin
+#1444.11.15 = { #VictorumUniversalis batch edit shortcut no native start date begin
 #	owner = XXX
 #	controller = XXX
 #	remove_core = YPK
 #	is_city = no
 #	trade_goods = unknown
 #}
-#1444.11.17 = { #BeyondTypus batch edit shortcut no native start date end
+#1444.11.17 = { #VictorumUniversalis batch edit shortcut no native start date end
 #	owner = YPK
 #	controller = YPK
 #	add_core = YPK

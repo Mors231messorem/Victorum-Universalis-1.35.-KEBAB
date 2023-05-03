@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 ########################################
 # Events concerning Revolution Spread
 #
@@ -738,7 +739,7 @@ country_event = {
 	option = {
 		name = center_of_revolution.1500.A
 		remove_government_reform = revolutionary_empire_reform
-		change_government_to_monarchy = yes
+		change_government = monarchy
 		kill_ruler = yes
 		if = {
 			limit = { has_heir = yes }
@@ -1419,9 +1420,10 @@ country_event = {
 		if = {
 			limit = { has_reform = junior_revolutionary_republic_reform }
 			add_government_reform = noble_elite_reform
-			add_government_reform = althing_elite_reform
 			add_government_reform = parliamentary_reform
 			add_republican_tradition = -50
+			#VU addition by San Felipe
+			add_government_reform = althing_elite_reform
 		}
 		if = {
 			limit = { has_reform = revolutionary_empire_reform }
@@ -1501,9 +1503,10 @@ country_event = {
 		if = {
 			limit = { has_reform = junior_revolutionary_republic_reform }
 			add_government_reform = noble_elite_reform
-			add_government_reform = althing_elite_reform
 			add_government_reform = parliamentary_reform
 			add_republican_tradition = -50
+			#VU addition by San Felipe
+			add_government_reform = althing_elite_reform
 		}
 		if = {
 			limit = { has_reform = revolutionary_empire_reform }
@@ -2192,7 +2195,7 @@ country_event = {
 				country_event = { id = center_of_revolution.5 days = 1 }
 			}
 		}
-		add_revolutionary_zeal = 5
+		add_revolutionary_zeal_or_absolutism = { amount = 5 }
 
 		ai_chance = {
 			factor = 1
@@ -2234,7 +2237,7 @@ country_event = {
 				country_event = { id = center_of_revolution.5 days = 1 }
 			}
 		}
-		add_revolutionary_zeal = 5
+		add_revolutionary_zeal_or_absolutism = { amount = 5 }
 
 		ai_chance = {
 			factor = 1
@@ -2572,7 +2575,7 @@ country_event = {
 		event_target:reactionary_province = {
 			remove_revolution_from_province_effect = yes
 		}
-		add_revolutionary_zeal = -5
+		add_revolutionary_zeal_or_absolutism = { amount = -5 }
 		ai_chance = {
 			factor = 1
 		}
@@ -2643,7 +2646,7 @@ country_event = {
 
 	option = {
 		name = center_of_revolution.10.A
-		add_revolutionary_zeal = 5
+		add_revolutionary_zeal_or_absolutism = { amount = 5 }
 		add_mil_power = -50
 		tooltip = {
 			event_target:province_to_revolution = {
@@ -2662,7 +2665,7 @@ country_event = {
 	}
 	option = {
 		name = center_of_revolution.10.B
-		add_revolutionary_zeal = -5
+		add_revolutionary_zeal_or_absolutism = { amount = -5 }
 		event_target:neighbour_country = {
 			add_opinion = {
 				who = root

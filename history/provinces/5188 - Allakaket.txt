@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 latent_trade_goods = {
     coal
@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 culture = koyukon
 religion = totemism 
-capital = "Aalaa Kkaakk’et" 
+capital = "Aalaa Kkaakkï¿½et" 
 trade_goods = unknown
 hre = no 
 base_tax = 1 
@@ -17,8 +17,8 @@ native_ferocity = 1
 native_hostileness = 3  
 
 discovered_by = north_american
-#discovered_by = bt_athabaskan_tech
-#discovered_by = bt_inuit_tech
+#discovered_by = vu_athabaskan_tech
+#discovered_by = vu_inuit_tech
 
 add_permanent_province_modifier = {
     name = vu_malaria_present

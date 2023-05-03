@@ -1,11 +1,11 @@
-#7994 - Vitré
+#7994 - Vitrï¿½
 
 owner = BRI
 controller = BRI
 add_core = BRI
 culture = gallo_culture
 religion = catholic
-capital = "Vitré"
+capital = "Vitrï¿½"
 base_tax = 5
 base_production = 5
 base_manpower = 3
@@ -20,6 +20,6 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 
 #1444 on

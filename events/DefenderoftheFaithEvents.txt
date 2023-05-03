@@ -629,7 +629,7 @@ country_event = {
 				religion_group = ROOT
 				NOT = { religion = ROOT }
 				NOT = {
-					total_development = 300 #BT Dev Doubling
+					total_development = 300 #VU Dev Doubling
 				}
 			}
 			country_event = { id = dotf.10 days = 3 }

@@ -45,7 +45,7 @@ france_region = {
 		pyrenees_area
 		savoy_dauphine_area
 		west_burgundy_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		poitou_area			#also added by Paradox in 1.25, same id so no change needed.
 		champagne_area			#also added by Paradox in 1.25, same id so no change needed.
 		lower_normandy_area
@@ -84,11 +84,11 @@ scandinavia_region = {
 		eastern_norway
 		western_norway
 		bothnia_area
-		subarctic_islands_area			#Northern Isles in BT
+		subarctic_islands_area			#Northern Isles in VU
 		#baltic_islands_area			#Cut in 1.20
 		vastra_gotaland_area
 		iceland_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		schleswig_area
 		west_karelia_area
 		southern_norway_area
@@ -101,13 +101,13 @@ low_countries_region = {
 	areas = {
 		wallonia_area
 		flanders_area
-		holland_area			#New in 1.25, but not yet used in BT. Will almost certainly use it later.
+		holland_area			#New in 1.25, but not yet used in VU. Will almost certainly use it later.
 		brabant_area
 		#netherlands_area		#Cut in 1.30.
 		frisia_area
-		luxemburg_liege_area			#Cut in 1.25, but kept in BT for the moment until I can redo the area.
+		luxemburg_liege_area			#Cut in 1.25, but kept in VU for the moment until I can redo the area.
 		north_brabant_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		luxembourg_area
 	}
 }
@@ -126,7 +126,7 @@ italy_region = {
 		apulia_area
 		emilia_romagna_area
 		lazio_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		emilia_area
 		sardinia_area
 		friuli_area
@@ -166,7 +166,7 @@ north_german_region = {
 		holstein_area
 		mecklenburg_area
 		braunschweig_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		north_westphalia_area
 		lusatia_area
 		#VU ADDITIONS
@@ -189,8 +189,8 @@ south_german_region = {
 		hohenzollern_area
 		baden_area
 		wurttemburg_area
-		#BTMovedFromNorthGermany
-		#BTADDITIONS
+		#VU MovedFromNorthGermany
+		#VU ADDITIONS
 		#carniola_area #Temporarily disabled, as it contains only 1 province for the moment
 	}
 }
@@ -208,14 +208,14 @@ russia_region = {
 		north_karelia_area			#Repurposed to Ingria and adding the area marker
 		tver_area
 		yaroslavl_area
-		vladimir_area			#Repurposed to a south of the Svir for BT
+		vladimir_area			#Repurposed to a south of the Svir for VU
 		oka_area
 		arkhangelsk_area			#Repurposed to Onega
 		vologda_area
 		smolensk_area			#moved from Ruthenia
 		galich_area			#moved from Urals
 		laponia_area			#moved from Scandinavia
-		#BTADDITIONS
+		#VU ADDITIONS
 		toropets_area
 	}
 }
@@ -231,7 +231,7 @@ ural_region = {
 		bashkiria_area
 		samara_area
 		tambov_area			#moved from Russia region
-		#BTADDITIONS
+		#VU ADDITIONS
 		vyatka_area
 		pechora_area
 	}
@@ -253,9 +253,9 @@ iberia_region = {
 		beieras_area
 		macaronesia_area
 		basque_area			#Can't figure this one out... appears to be basque country in vanilla??? only area not named area???
-		galicia_area			#New in 1.28, replaces the same-purpose spanish_galicia_area from BT
-		baleares_area			#New in 1.28, replaces the same-purpose balearic_islands_area from BT
-		#BTADDITIONS
+		galicia_area			#New in 1.28, replaces the same-purpose spanish_galicia_area from VU
+		baleares_area			#New in 1.28, replaces the same-purpose balearic_islands_area from VU
+		#VU ADDITIONS
 		#balearic_islands_area			#Replaced by new baleares_area in 1.28 vanilla
 		#spanish_galicia_area			#Replaced by new galicia_area in 1.28 vanilla
 		extremadura_area
@@ -274,21 +274,21 @@ iberia_region = {
 
 british_isles_region = {
 	areas = {
-		east_midlands_area			#New in 1.25. Replacing mercia_area with it in BT
-		west_midlands_area			#New in 1.25.  Replacing lancashire_area with it in BT
-		scottish_marches_area			#New in 1.25.  Replacing western_lowlands_area with it in BT
+		east_midlands_area			#New in 1.25. Replacing mercia_area with it in VU
+		west_midlands_area			#New in 1.25.  Replacing lancashire_area with it in VU
+		scottish_marches_area			#New in 1.25.  Replacing western_lowlands_area with it in VU
 		east_anglia_area
 		wales_area
 		lowlands_area
 		highlands_area
 		kingdom_of_the_isles_area			#New in 1.25. Odd name for an area....
-		#BTADDITIONS
+		#VU ADDITIONS
 		#southern_isles_area			#Cut to be replaced with kingdom_of_the_isles_area added in 1.25
 		#western_lowlands_area			#Cut to be replaced with scottish_marches_area in 1.25
 		cornwall_area
 		yorkshire_area		#also added by Paradox in 1.25, same id so no change needed.
 		lancashire_area			#cut in 1.25, using west_midlands_area as a replacement
-		northern_england_area			#vanilla cut in 1.25, but kept in BT because the new yorkshire_area replacing it was already in BT, and I need an area. This is as good as any and already in triggers
+		northern_england_area			#vanilla cut in 1.25, but kept in VU because the new yorkshire_area replacing it was already in VU, and I need an area. This is as good as any and already in triggers
 		powys_area
 		deheubarth_area
 		grampians_area
@@ -300,10 +300,10 @@ british_isles_region = {
 
 ireland_region = {
 	areas = {
-		leinster_area			#Added by Paradox in 1.25 but already in BT, same id so no change needed.
-		ulster_area			#Added by Paradox in 1.25 but already in BT, same id so no change needed.
-		munster_area			#Added by Paradox in 1.25 but already in BT, same id so no change needed.
-		connacht_area			#Added by Paradox in 1.25 but already in BT, same id so no change needed.
+		leinster_area			#Added by Paradox in 1.25 but already in VU, same id so no change needed.
+		ulster_area			#Added by Paradox in 1.25 but already in VU, same id so no change needed.
+		munster_area			#Added by Paradox in 1.25 but already in VU, same id so no change needed.
+		connacht_area			#Added by Paradox in 1.25 but already in VU, same id so no change needed.
 	}
 }			#New Region by HR
 
@@ -316,7 +316,7 @@ baltic_region = {
 		west_prussia_area
 		east_prussia_area
 		samogitia_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		nadruvia_area
 		masuria_area
 		latgallia_area
@@ -335,7 +335,7 @@ poland_region = {
 		opole_area
 		central_poland_area
 		sandomierz_area			#added by Paradox in 1.27, same id so no change needed.
-		kuyavia_area			#Repurposing this into BT's old Kalisz area
+		kuyavia_area			#Repurposing this into VU's old Kalisz area
 	}
 }
 
@@ -350,7 +350,7 @@ ruthenia_region = {
 		minsk_area
 		podlasie_area
 		volhynia_area			#added by Paradox in 1.27, same id so no change needed.
-		#BTADDITIONS
+		#VU ADDITIONS
 		bryansk_area
 		eastern_volhynia_area
 		severia_area
@@ -369,7 +369,7 @@ crimea_region = {
 		yedisan_area
 		azov_area
 		sloboda_ukraine_area			#Moved from Ruthenia
-		#BTADDITIONS
+		#VU ADDITIONS
 		middle_don_area
 		lower_dnieper_area
 		pryazovia_area
@@ -390,10 +390,10 @@ balkan_region = {
 		morea_area
 		thrace_area
 		albania_area
-		eastern_mediterrenean_islands_area			#Cut in 1.23 vanilla, but keeping it in BT for now
-		aegean_archipelago_area			#Added in 1.23 and moved from Anatolia in BT
-		#BTADDITIONS
-		western_aegean_area			#Cut in 1.23 vanilla, but keeping it in BT for now
+		eastern_mediterrenean_islands_area			#Cut in 1.23 vanilla, but keeping it in VU for now
+		aegean_archipelago_area			#Added in 1.23 and moved from Anatolia in VU
+		#VU ADDITIONS
+		western_aegean_area			#Cut in 1.23 vanilla, but keeping it in VU for now
 		slavonia_area
 		upper_thrace_area
 		northern_macedonia_area
@@ -421,7 +421,7 @@ carpathia_region = {
 		southern_transylvania_area
 		wallachia_area
 		moldavia_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		carpathian_ruthenia_area
 		bukovina_area
 		western_moldovia
@@ -441,7 +441,7 @@ egypt_region = {
 		bahari_area
 		vostani_area
 		said_area
-		#BTMOVEDFROMHORNOFAFRICA
+		#VU MOVEDFROMHORNOFAFRICA
 		dongola_area
 	}
 }
@@ -458,12 +458,12 @@ maghreb_region = {
 		tafilalt_area
 		sus_area
 		marrekesh_area
-		#fez_area			#Removed by Draiocht, seemed to be removed by Paradox shortly thereafter as well, only ref I could find was in the tutorial
+		#fez_area			#Removed by Darth Modus, seemed to be removed by Paradox shortly thereafter as well, only ref I could find was in the tutorial
 		northern_morocco_area
 		western_morocco_area
-		barbary_coast_area			#New in 1.28 vanilla, repurposing this into BT's old Oran area
-		southern_morocco_area			#repurposed into tagmudant for BT
-		ouled_nail_area			#repurposed into Aures area for BT
+		barbary_coast_area			#New in 1.28 vanilla, repurposing this into VU's old Oran area
+		southern_morocco_area			#repurposed into tagmudant for VU
+		ouled_nail_area			#repurposed into Aures area for VU
 		tademait_area
 	}
 }
@@ -476,7 +476,7 @@ mashriq_region = {
 		syrian_desert_area			#Repurposed to Sinai
 		trans_jordan_area
 		syrian_desert_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		cyprus_area
 		tripoli_area
 	}
@@ -490,10 +490,10 @@ anatolia_region = {
 		rum_area
 		kastamonu_area
 		dulkadir_area
-		cukurova_area			#Repurposed into BT's Cilicia
-		ankara_area			#Repurposed into BT's Galatia
-		germiyan_area			#Repurposed into BT's Phrygia
-		#BTADDITIONS
+		cukurova_area			#Repurposed into VU's Cilicia
+		ankara_area			#Repurposed into VU's Galatia
+		germiyan_area			#Repurposed into VU's Phrygia
+		#VU ADDITIONS
 		pontus_area
 		karasi_area
 		pamphylia_area
@@ -555,23 +555,23 @@ caucasia_region = {
 arabia_region = {
 	areas = {
 		tabuk_area
-		medina_area				#Added by BT, then cut by BT before release, then added in 1.23 by Paradox as well, same ID. I'll go ahead and use it
+		medina_area				#Added by VU, then cut by VU before release, then added in 1.23 by Paradox as well, same ID. I'll go ahead and use it
 		mecca_area
-		asir_area			#BT formerly repurposed Sarat into Asir. As 1.23 added Asir, now using that.
-		tihama_al_yemen_area			#Added by BT, then added in 1.23 by Paradox as well, Paradox ID removed 'h' and add _al_yemen
-		upper_yemen_area				#Added by BT, then added in 1.23 by Paradox as well, same ID
+		asir_area			#VU formerly repurposed Sarat into Asir. As 1.23 added Asir, now using that.
+		tihama_al_yemen_area			#Added by VU, then added in 1.23 by Paradox as well, Paradox ID removed 'h' and add _al_yemen
+		upper_yemen_area				#Added by VU, then added in 1.23 by Paradox as well, same ID
 		yemen_area
-		mahra_area			#Added in 1.23 but we really don't need another area here I think, so repurposing this into BT's Al Ahsa's area
+		mahra_area			#Added in 1.23 but we really don't need another area here I think, so repurposing this into VU's Al Ahsa's area
 		hadramut_area
 		bahrain_area
 		oman_area
 		pirate_coast_area
 		dhofar_area
 		mascat_area
-		qasim_area			#Added by Paradox in 1.23. Repurposing this in BT's old Rub al Khali area
-		yamamah_area				#Added by BT, then added in 1.23 by Paradox as well, Paradox ID has an 'h' at the end
+		qasim_area			#Added by Paradox in 1.23. Repurposing this in VU's old Rub al Khali area
+		yamamah_area				#Added by VU, then added in 1.23 by Paradox as well, Paradox ID has an 'h' at the end
 		nafud_area			#Added by Paradox in 1.23. Repurposing this into the old Najd area
-		#BTADDITIONS
+		#VU ADDITIONS
 		persian_gulf_islands_area
 	}
 }
@@ -642,7 +642,7 @@ sahel_region = {
 		bahr_salamat_area
 		central_africa_area
 		ahaggar_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		tanezrouft_area
 	}
 	monsoon = {
@@ -667,7 +667,7 @@ horn_of_africa_region = {
 		damot_area
 		aussa_area
 		shewa_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		medri_bahri_area
 	}
 }
@@ -684,7 +684,7 @@ east_africa_region = {
 		southern_madagascar
 		uticulo_makuana_area
 		#east_african_islands_area			#Cut in 1.20
-		#BT moved from South Africa
+		#VU moved from South Africa
 		quelimane_area
 	}
 	monsoon = {
@@ -843,8 +843,8 @@ south_africa_region = {
 	areas = {
 		south_african_plateau_area
 		cape_of_good_hope_area
-		#BTADDITIONS
-		bt_natal_area
+		#VU ADDITIONS
+		vu_natal_area
 		eastern_cape_area
 		northern_cape_area
 		xhosa_area
@@ -1159,7 +1159,7 @@ coromandel_region = {
 		south_carnatic_area
 		north_carnatic_area
 		indian_ocean_islands_area			#Moved from Malaya
-		#BTADDITIONS
+		#VU ADDITIONS
 		southern_indian_islands_area
 	}
 	monsoon = {
@@ -1198,7 +1198,7 @@ japan_region = {
 		ryukyu_area
 		kyushu_area
 		northern_kyushu
-		btc_south_kyushu_area
+		vu_south_kyushu_area
 		central_kyushu_area
 		shikoku_area
 		eastern_chubu_area
@@ -1429,7 +1429,7 @@ malaya_region = {	#Western Indonesia Malaya.
 		malaya_area
 		malacca_area
 		indonesian_islands_area			#Moved from Indonesia
-		#BTADDITIONS
+		#VU ADDITIONS
 		kedah_area
 	}
 	monsoon = {
@@ -1513,7 +1513,7 @@ oceanea_region = {
 		melanesia_area
 		northern_polynesia_area
 		polynesia_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		#tuamotus_area	#Empty Area
 		#VU Additions by San Felipe
 		vanuatu_area
@@ -1537,7 +1537,7 @@ indo_china_region = {
 		champa_area
 		khorat_area
 		red_river_delta_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		degar_highlands_area
 		sukothai_area
 		prachin_area
@@ -1562,7 +1562,7 @@ canada_region = {
 		laurentian_area
 		huronia_area
 		upper_ontario_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		grand_river_area
 	}
 }
@@ -1575,7 +1575,7 @@ great_lakes_region = {
 		miami_river_area
 		lake_superior_area
 		wisconsin_area
-		#BT Moved from Great Plains region
+		#VU Moved from Great Plains region
 	}
 }
 
@@ -1591,7 +1591,7 @@ northeast_america_region = {
 		south_iroquoisia_area
 		susquehanna_area
 		west_florida_area
-		#maryland_area			#Cut in BT because I can't be bothered to overhaul with the new areas yet
+		#maryland_area			#Cut in VU because I can't be bothered to overhaul with the new areas yet
 	}
 }
 
@@ -1634,7 +1634,7 @@ great_plains_region = {
 		high_plains_area
 		dakota_area
 		south_dakota_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		#southern_rockies
 		lakota_area
 		#west_dakota_area
@@ -1652,7 +1652,7 @@ california_region = {
 		arizona_area
 		#New in 1.28
 		sonora_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		mojave_area
 		utah_area
 	}
@@ -1666,7 +1666,7 @@ cascadia_region = {
 		hecate_strait_area
 		straits_of_georgia_area
 		east_alaska_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		queen_charlotte_sound_area
 		haida_gwaii_area
 		#northern_cascades_area
@@ -1694,7 +1694,7 @@ hudson_bay_region = {
 		saskatchewan_area
 		prairies_area
 		inner_ontario_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		kivalliq_area
 		qikiqtaaluk_area
 		manitoba_area
@@ -1717,14 +1717,14 @@ mexico_region = {
 		durango_area
 		jalisco_area
 		gran_chichimeca_area
-		#nayarit_area			#Cut in BT, probably temporarily.
+		#nayarit_area			#Cut in VU, probably temporarily.
 		zacatecas_area
 		tierra_caliente_area
 		puebla_area
 		huasteca_area
 		mixteca_area
 		guanajuato_area
-		#BTADDITIONS
+		#VU ADDITIONS
 		sinaloa_area
 	}
 	monsoon = {
@@ -1740,7 +1740,7 @@ rio_grande_region = {
 		texas_area
 		chihuahua_area
 		new_mexico_area			#Formerly in Great Plains region
-		#BTADDITIONS
+		#VU ADDITIONS
 		#upper_rio_grande_area
 	}
 	monsoon = {
@@ -1776,8 +1776,8 @@ carribeans_region = {
 		windward_islands_area
 		lucayan_area
 		#New in 1.28
-		dominica_area			#repurposed into BT's old east_hispaniola_area
-		#BTADDITIONS
+		dominica_area			#repurposed into VU's old east_hispaniola_area
+		#VU ADDITIONS
 		leeward_antilles_area
 	}
 	monsoon = {
@@ -1787,10 +1787,9 @@ carribeans_region = {
 }
 
 ###################
-#BT and BtPL Regions
+#VU Regions
 ###################
 
-#BTREGION
 alaska_region = {
 	areas = {
 		alaska_area
@@ -1807,7 +1806,6 @@ alaska_region = {
 	}
 }
 
-#BTREGION
 northwest_territories_region = {
 	areas = {
 		peace_river_area
@@ -1829,9 +1827,9 @@ mesopotamia_region = {
 		kuwait_area
 		north_kurdistan_area
 		mosul_area
-		rakka_area			#Cut in 1.23, but keeping it in BT for now
+		rakka_area			#Cut in 1.23, but keeping it in VU for now
 		shahrizor_area
-		#BTADDITIONS
+		#VU_ADDITIONS
 		mardin_area
 		#Split from iraq_arabi_area and mosul_area
 		lower_mesopotamia_area
@@ -1845,7 +1843,7 @@ new_zealand_region = {
 	areas = {
 		te_ika_a_maui_area
 		te_waipounamu_area
-		#BTADDITIONS
+		#VU_ADDITIONS
 		murihiku_area
 		waitaha_area
 		tokerau_area
@@ -1860,7 +1858,7 @@ borneo_region = {
 		kalimantan_area
 		sabah_area #VU addition 1.31.2
 		kutai_area
-		#BTADDITIONS
+		#VU_ADDITIONS
 		kapuas_area
 	}
 	monsoon = {
@@ -1896,7 +1894,7 @@ sumatran_region = {
 		south_sumatra_area
 		batak_area
 		minangkabau_area
-		#BTADDITIONS
+		#VU_ADDITIONS
 		palembang_area
 	}
 	monsoon = {
@@ -1970,7 +1968,7 @@ north_atlantic_region = {
 		denmark_strait_area
 		davis_strait_area
 		rockall_strait_area
-		#BTADDITIONS
+		#VU_ADDITIONS
 		true_north_atlantic_sea_area
 	}
 }
@@ -1979,7 +1977,7 @@ american_east_coast_region = {
 	areas = {
 		gulf_of_st_lawrence_area
 		gulf_stream_area
-		grand_banks_sea_area			#BT New
+		grand_banks_sea_area			#VU New
 	}
 }
 
@@ -2198,7 +2196,7 @@ south_atlantic_region = {
 }
 
 #############################
-#Beyond Typus Sea Overhaul
+#Victorum Universalis Sea Overhaul
 #############################
 western_arctic_sea_region = {
 	areas = {
@@ -2298,11 +2296,11 @@ unused_region = {
 		#eastern_ireland_area
 		#western_ireland_area
 		#seine_area
-		#brabant_area			#Removed in 1.25 but still used in BT for now
-		#luxemburg_liege_area			#Removed in 1.25 but still used in BT for now
+		#brabant_area			#Removed in 1.25 but still used in VU for now
+		#luxemburg_liege_area			#Removed in 1.25 but still used in VU for now
 		#western_lowlands_area
 		#southern_isles_area
-		#Temp unused for BT
+		#Temp unused for VU
 		#holland_area 				#Reused in 13.0
 		#north_karelia
 		#volga_area
@@ -2315,20 +2313,20 @@ unused_region = {
 		#central_doab_area
 		#nepalese_area
 		#basque_country
-		#oran_area			#repurposing 1.28's new barbary_coast_area into a replacement for this old BT area
+		#oran_area			#repurposing 1.28's new barbary_coast_area into a replacement for this old VU area
 		#magadan_area			#removed in vanilla 1.29
 		###########################
 		#Removed as part of 11.5's area overhaul
 		###########################
-		#pomerelia_area			#vanilla cut in 1.27, but kept in BT until 11.5
-		#ostra_svealand_area			#Vanilla area removed in BT
-		#algiers_area			#Vanilla area removed in BT
-		#gulf_of_arabia_area			#Vanilla area removed in BT
-		#chernigov_area			#Vanilla area removed in BT
-		#ceram_area			#Vanilla area removed in BT
-		#west_mindanao_area			#Vanilla area removed in BT
-		#west_micronesia_area			#Vanilla area removed in BT
-		#eastern_polynesia_area			#Vanilla area removed in BT
+		#pomerelia_area			#vanilla cut in 1.27, but kept in VU until 11.5
+		#ostra_svealand_area			#Vanilla area removed in VU
+		#algiers_area			#Vanilla area removed in VU
+		#gulf_of_arabia_area			#Vanilla area removed in VU
+		#chernigov_area			#Vanilla area removed in VU
+		#ceram_area			#Vanilla area removed in VU
+		#west_mindanao_area			#Vanilla area removed in VU
+		#west_micronesia_area			#Vanilla area removed in VU
+		#eastern_polynesia_area			#Vanilla area removed in VU
 		#east_greenland_area
 		#northern_peloponnesus_area
 		#novogrudok_area
@@ -2383,7 +2381,7 @@ unused_region = {
 		#central_valley_delta_area
 		#klamath_area
 		#eel_river_area
-		#sonora_y_sinaloa_area			#Cut in 1.28 vanilla, but kept in BT as part of an upper-lower Sonora split until cut in 11.5
+		#sonora_y_sinaloa_area			#Cut in 1.28 vanilla, but kept in VU as part of an upper-lower Sonora split until cut in 11.5
 		#southern_colorado_plateau_area
 		#painted_desert_area
 		#upper_gila_area

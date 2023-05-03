@@ -1,8 +1,9 @@
+#VU updated by San Felipe for 1.35
 prussian_militarization_mechanic_1 = {
 	alert_icon_gfx = GFX_alerticons_government_mechanics
 	alert_icon_index = 10
 	available = {
-		#has_dlc = "Domination"
+		has_dlc = "Domination"
 		tag = PRU
 		NOT = { has_country_flag = enable_second_mil_level_flag }
 		NOT = { has_country_flag = enable_third_mil_level_flag }
@@ -68,7 +69,7 @@ prussian_militarization_mechanic_2 = {
 	alert_icon_gfx = GFX_alerticons_government_mechanics
 	alert_icon_index = 10
 	available = {
-		#has_dlc = "Domination"
+		has_dlc = "Domination"
 		tag = PRU
 		has_country_flag = enable_second_mil_level_flag
 	}
@@ -135,7 +136,7 @@ prussian_militarization_mechanic_3 = {
 	alert_icon_gfx = GFX_alerticons_government_mechanics
 	alert_icon_index = 10
 	available = {
-		#has_dlc = "Domination"
+		has_dlc = "Domination"
 		tag = PRU
 		has_country_flag = enable_third_mil_level_flag
 	}

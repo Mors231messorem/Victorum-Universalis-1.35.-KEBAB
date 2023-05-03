@@ -20,14 +20,14 @@ discovered_by = north_american
 
 
 
-1444.11.15 = { #BeyondTypus batch edit shortcut no native start date begin
+1444.11.15 = { #VictorumUniversalis batch edit shortcut no native start date begin
 	owner = XXX
 	controller = XXX
 	remove_core = CHS
 	is_city = no
 	trade_goods = unknown
 }
-1444.11.17 = { #BeyondTypus batch edit shortcut no native start date end
+1444.11.17 = { #VictorumUniversalis batch edit shortcut no native start date end
 	owner = CHS
 	controller = CHS
 	add_core = CHS
@@ -39,12 +39,12 @@ discovered_by = north_american
 	owner = SPA
 	controller = SPA
 	add_core = SPA
-	capital = "Santa Bárbara"
+	capital = "Santa Bï¿½rbara"
 	is_city = yes
 	culture = castillian
 	religion = catholic	
 	trade_goods = grain
-} # El Presidio Real de Santa Bárbara
+} # El Presidio Real de Santa Bï¿½rbara
 1810.9.16 = {
 	owner = MEX
 	add_core = MEX

@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 owner = TLC
 controller = TLC
@@ -26,12 +26,12 @@ discovered_by = eastern
 	add_core = DBD
 	remove_core = TLC
 } #Debdou becomes an autonomous viceroyalty of Morocco
-1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
+1444.11.16 = { #VictorumUniversalis batch edit shortcut no vassal start date begin
 	owner = MOR
 	controller = MOR
 	add_core = MOR
 }
-1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+1444.11.18 = { #VictorumUniversalis batch edit shortcut no vassal start date end
 	owner = TLC
 	controller = TLC
 	remove_core = MOR

@@ -21,7 +21,7 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 #After hosting the Papal residence and conclaves for several decades to 1281 and nearly being the equal of Rome, Martin IV imposed harsh restrictions on the city and then promptly fled. This is the end of Viterbo's golden age.
 1338.1.1 = { add_local_autonomy = 25 }	#Giovanni di Vico comes to power in the vaccum left by Papal authority
 1344.1.1 = { revolt = { type = noble_rebels size = 2 } controller = REB } # Giovanni di Vico declared a rebel.
@@ -32,7 +32,7 @@ discovered_by = eastern
 1396.1.1 = { revolt = {} controller = PAP }	#Papal troops regain the city permanently
 1750.1.1 = { add_core = ITL } 
 1809.4.10 = { controller = FRA } # Occupied by French troops
-1809.10.14 = { owner = FRA add_core = FRA } # Treaty of Schönbrunn
+1809.10.14 = { owner = FRA add_core = FRA } # Treaty of Schï¿½nbrunn
 1814.4.11 = {
 	owner = PAP
 	controller = PAP

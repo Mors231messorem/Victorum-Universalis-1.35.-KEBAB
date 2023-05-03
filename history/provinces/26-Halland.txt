@@ -22,7 +22,7 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 #1st Shattering unused
 #1st Performance Start Unused
 
@@ -37,5 +37,5 @@ discovered_by = eastern
 1536.1.1 = { religion = protestant} # Unknown date
 1565.9.15 = { controller = SWE } # The Nordic Seven-year War
 1569.12.4 = { controller = DAN } # The Nordic Seven-year War
-1645.8.13 = { owner = SWE add_core = SWE  } # The Peace of Brömsebro
+1645.8.13 = { owner = SWE add_core = SWE  } # The Peace of Brï¿½msebro
 1680.1.1 = { culture = swedish } # The population adepted to Swedish ways.

@@ -1,4 +1,4 @@
-namespace = BeyondTypusHeavyHandedAIColonialEvents
+namespace = VictorumUniversalisHeavyHandedAIColonialEvents
 
 # Heavy handed events to force colonisation for the AI's (now enabled) missions.
 #Goes in order of -
@@ -12,28 +12,28 @@ namespace = BeyondTypusHeavyHandedAIColonialEvents
 
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.1
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.1
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_the_carribean
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_the_carribean
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -41,12 +41,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -61,28 +61,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.2
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.2
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_eastern_america
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_eastern_america
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -90,12 +90,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -110,28 +110,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.3
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.3
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_canada
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_canada
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -139,12 +139,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -159,28 +159,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.4
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.4
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_newfoundland
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_newfoundland
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -188,12 +188,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -208,28 +208,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.5
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.5
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_hudson_bay
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_hudson_bay
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -237,12 +237,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -257,13 +257,13 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.6
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.6
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
@@ -275,12 +275,12 @@ province_event = {
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_greenland
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -288,12 +288,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -308,28 +308,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.7
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.7
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_acadia
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_acadia
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -337,12 +337,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -357,28 +357,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.8
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.8
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_cuba
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_cuba
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -386,12 +386,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -406,28 +406,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.9
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.9
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_hispaniola
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_hispaniola
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -435,12 +435,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -455,28 +455,28 @@ province_event = {
 }
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.10
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.10
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_bahamas
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_bahamas
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -484,12 +484,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -504,28 +504,28 @@ province_event = {
 #}
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.11
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.11
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_northwest_territories
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_northwest_territories
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -533,12 +533,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -553,28 +553,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.12
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.12
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_cascadia
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_cascadia
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -582,12 +582,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -602,28 +602,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.13
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.13
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_alaska
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_alaska
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -631,12 +631,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -651,28 +651,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.14
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.14
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_louisiana
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_louisiana
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -680,12 +680,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -700,28 +700,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.15
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.15
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_california
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_california
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -729,12 +729,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -749,28 +749,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.16
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.16
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_mexico
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_mexico
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -778,12 +778,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -798,28 +798,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.17
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.17
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_colombia
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		if = {
 			limit = {
 				owner = { tag = SCO }
-				5141 = { bt_historical_colony_events_for_the_ai_candidate = yes }
+				5141 = { vu_historical_colony_events_for_the_ai_candidate = yes }
 			}
 			5141 = {
 				create_colony = 60
@@ -829,7 +829,7 @@ province_event = {
 				random_province = {
 					limit = {
 						colonial_region = colonial_colombia
-						bt_historical_colony_events_for_the_ai_candidate = yes
+						vu_historical_colony_events_for_the_ai_candidate = yes
 					}
 					create_colony = 60
 					change_native_hostileness = -9
@@ -839,12 +839,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -859,28 +859,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.18
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.18
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_peru
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_peru
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -888,12 +888,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -908,28 +908,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.19
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.19
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_la_plata
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_la_plata
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -937,12 +937,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -957,28 +957,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.20
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.20
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_brazil
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_brazil
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -986,12 +986,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1006,28 +1006,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.21
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.21
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_australia
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_australia
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1035,12 +1035,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1055,28 +1055,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.22
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.22
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_polynesia
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_polynesia
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1084,12 +1084,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1104,28 +1104,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.23
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.23
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_guyana
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_guyana
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1133,12 +1133,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1153,28 +1153,28 @@ province_event = {
 }
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.24
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.24
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_mato_grosso
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_mato_grosso
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -1182,12 +1182,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -1202,28 +1202,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.25
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.25
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_maranhao
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_maranhao
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -1231,12 +1231,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -1251,28 +1251,28 @@ province_event = {
 #}
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.26
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.26
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_central_america
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_central_america
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1280,12 +1280,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1300,28 +1300,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.27
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.27
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_texas
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_texas
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1329,12 +1329,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1349,28 +1349,28 @@ province_event = {
 }
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.28
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.28
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_rio_grande
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_rio_grande
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -1378,12 +1378,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -1398,28 +1398,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.29
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.29
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_amazonia
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_amazonia
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -1427,12 +1427,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -1447,28 +1447,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.30
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.30
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_patagonia
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_patagonia
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -1476,12 +1476,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -1496,28 +1496,28 @@ province_event = {
 #}
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.31
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.31
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_chile
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_chile
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1525,12 +1525,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1545,28 +1545,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.32
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.32
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_bolivia
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_bolivia
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1574,12 +1574,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1594,28 +1594,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.33
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.33
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_venezuela
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_venezuela
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1623,12 +1623,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1643,28 +1643,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.34
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.34
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_ecuador
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_ecuador
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1672,12 +1672,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1692,28 +1692,28 @@ province_event = {
 }
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.35
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.35
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_jamaica
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_jamaica
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -1721,12 +1721,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -1741,28 +1741,28 @@ province_event = {
 #}
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.36
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.36
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_fiji
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_fiji
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1770,12 +1770,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1790,28 +1790,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.37
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.37
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_new_caledonia
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_new_caledonia
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1819,12 +1819,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1839,28 +1839,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.38
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.38
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_vanuatu
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_vanuatu
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1868,12 +1868,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1888,28 +1888,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.39
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.39
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_solomons
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_solomons
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1917,12 +1917,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1937,28 +1937,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.40
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.40
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_papua
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_papua
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -1966,12 +1966,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -1986,28 +1986,28 @@ province_event = {
 }
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.41
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.41
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_madagascar
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_madagascar
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2015,12 +2015,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2035,28 +2035,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.42
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.42
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_gambia
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_gambia
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2064,12 +2064,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2084,28 +2084,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.43
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.43
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_senegal
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_senegal
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2113,12 +2113,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2133,28 +2133,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.44
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.44
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_sierra_leone
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_sierra_leone
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2162,12 +2162,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2182,28 +2182,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.45
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.45
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_liberia
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_liberia
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2211,12 +2211,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2231,28 +2231,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.46
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.46
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_guinea
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_guinea
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2260,12 +2260,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2280,28 +2280,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.47
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.47
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_benin
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_benin
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2309,12 +2309,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2329,28 +2329,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.48
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.48
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_togo
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_togo
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2358,12 +2358,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2378,28 +2378,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.49
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.49
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_ghana
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_ghana
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2407,12 +2407,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2427,28 +2427,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.50
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.50
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_ivory_coast
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_ivory_coast
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2456,12 +2456,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2476,28 +2476,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.51
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.51
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_burkina
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_burkina
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2505,12 +2505,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2525,28 +2525,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.52
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.52
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_mauritania
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_mauritania
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2554,12 +2554,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2574,28 +2574,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.53
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.53
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_mali
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_mali
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2603,12 +2603,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2623,28 +2623,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.54
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.54
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_niger
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_niger
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2652,12 +2652,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2672,28 +2672,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.55
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.55
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_nigeria
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_nigeria
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2701,12 +2701,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2721,28 +2721,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.56
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.56
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_cameroon
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_cameroon
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2750,12 +2750,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2770,28 +2770,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.57
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.57
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_chad
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_chad
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2799,12 +2799,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2819,28 +2819,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.58
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.58
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_central_africa
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_central_africa
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2848,12 +2848,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2868,28 +2868,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.59
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.59
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_sudan
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_sudan
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2897,12 +2897,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2917,28 +2917,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.60
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.60
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_bissau
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_bissau
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2946,12 +2946,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -2966,28 +2966,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.61
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.61
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_gabon
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_gabon
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -2995,12 +2995,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3015,28 +3015,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.62
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.62
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_kongo
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_kongo
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3044,12 +3044,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3064,28 +3064,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.63
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.63
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_ethiopia
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_ethiopia
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3093,12 +3093,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3113,28 +3113,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.64
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.64
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_somalia
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_somalia
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3142,12 +3142,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3162,28 +3162,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.65
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.65
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_buganda
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_buganda
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3191,12 +3191,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3211,28 +3211,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.66
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.66
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_kenya
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_kenya
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3240,12 +3240,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3260,28 +3260,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.67
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.67
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_tanganyika
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_tanganyika
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3289,12 +3289,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3309,28 +3309,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.68
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.68
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_mozambique
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_mozambique
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3338,12 +3338,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3358,28 +3358,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.69
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.69
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_zambezi
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_zambezi
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3387,12 +3387,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3407,28 +3407,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.70
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.70
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_namibia
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_namibia
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3436,12 +3436,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3456,28 +3456,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.71
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.71
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_angola
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_angola
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3485,12 +3485,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3505,28 +3505,28 @@ province_event = {
 #}
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.72
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.72
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_mississippi
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_mississippi
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -3534,12 +3534,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -3554,28 +3554,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.73
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.73
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_florida
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_florida
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -3583,12 +3583,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -3603,28 +3603,28 @@ province_event = {
 }
 
 province_event = {
-	id = BeyondTypusHeavyHandedAIColonialEvents.74
-	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+	id = VictorumUniversalisHeavyHandedAIColonialEvents.74
+	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 	picture = COLONIZATION_eventPicture
-	
+
 	is_triggered_only = yes
-	
+
 	trigger = {
 		owner = { ai = yes }
 		any_province = {
 			colonial_region = colonial_great_lakes
-			bt_historical_colony_events_for_the_ai_candidate = yes
+			vu_historical_colony_events_for_the_ai_candidate = yes
 		}
 	}
 
 	option = { # Success
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 		ai_chance = { factor = 99 }
 		random_province = {
 			limit = {
 				colonial_region = colonial_great_lakes
-				bt_historical_colony_events_for_the_ai_candidate = yes
+				vu_historical_colony_events_for_the_ai_candidate = yes
 			}
 			create_colony = 60
 			change_native_hostileness = -9
@@ -3632,12 +3632,12 @@ province_event = {
 	}
 
 	option = { # Fails
-		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 		ai_chance = {
 			factor = 1
 			modifier = {
 				factor = 100
-				bt_more_colonies_than_colonists_check = yes
+				vu_more_colonies_than_colonists_check = yes
 			}
 			modifier = {
 				factor = 100
@@ -3652,28 +3652,28 @@ province_event = {
 }
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.75
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.75
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_malaysia
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_malaysia
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3681,12 +3681,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3701,28 +3701,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.76
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.76
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_indonesia
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_indonesia
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3730,12 +3730,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3750,28 +3750,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.77
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.77
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_indochina
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_indochina
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3779,12 +3779,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3799,28 +3799,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.78
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.78
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_burma
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_burma
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3828,12 +3828,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3848,28 +3848,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.79
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.79
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_philippines
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_philippines
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3877,12 +3877,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100
@@ -3897,28 +3897,28 @@ province_event = {
 #}
 
 #province_event = {
-#	id = BeyondTypusHeavyHandedAIColonialEvents.80
-#	title = "BeyondTypusHeavyHandedAIColonialEvents.EVTNAME1"
-#	desc = "BeyondTypusHeavyHandedAIColonialEvents.EVTDESC1"
+#	id = VictorumUniversalisHeavyHandedAIColonialEvents.80
+#	title = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTNAME1"
+#	desc = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTDESC1"
 #	picture = COLONIZATION_eventPicture
-#	
+#
 #	is_triggered_only = yes
-#	
+#
 #	trigger = {
 #		owner = { ai = yes }
 #		any_province = {
 #			colonial_region = colonial_formosa
-#			bt_historical_colony_events_for_the_ai_candidate = yes
+#			vu_historical_colony_events_for_the_ai_candidate = yes
 #		}
 #	}
 #
 #	option = { # Success
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTA1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTA1"
 #		ai_chance = { factor = 99 }
 #		random_province = {
 #			limit = {
 #				colonial_region = colonial_formosa
-#				bt_historical_colony_events_for_the_ai_candidate = yes
+#				vu_historical_colony_events_for_the_ai_candidate = yes
 #			}
 #			create_colony = 60
 #			change_native_hostileness = -9
@@ -3926,12 +3926,12 @@ province_event = {
 #	}
 #
 #	option = { # Fails
-#		name = "BeyondTypusHeavyHandedAIColonialEvents.EVTOPTB1"
+#		name = "VictorumUniversalisHeavyHandedAIColonialEvents.EVTOPTB1"
 #		ai_chance = {
 #			factor = 1
 #			modifier = {
 #				factor = 100
-#				bt_more_colonies_than_colonists_check = yes
+#				vu_more_colonies_than_colonists_check = yes
 #			}
 #			modifier = {
 #				factor = 100

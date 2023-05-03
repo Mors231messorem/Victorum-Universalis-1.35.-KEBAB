@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 ludwig_canal = {
 	# province it starts in
 	start = 7572
@@ -474,6 +475,7 @@ kiel_canal = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = { add_prestige = 30 }
 		}
 	}
 

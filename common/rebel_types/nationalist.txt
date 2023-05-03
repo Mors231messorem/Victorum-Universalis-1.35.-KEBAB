@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 ######################################################################
 # Separatist rebels. Freedom!!!
 ######################################################################
@@ -37,7 +38,7 @@ nationalist_rebels = {
 		factor = 10
 		modifier = {
 			factor = 0.01
-			NOT = { nationalism = 1 }
+			NOT = { nationalism_debug = 1 }
 			owner = {
 				OR = {
 					accepted_culture = ROOT
@@ -93,7 +94,7 @@ nationalist_rebels = {
 		}
 		modifier = {
 			factor = 10
-			nationalism = 1
+			nationalism_debug = 1
 		}
 		modifier = {
 			factor = 15
@@ -185,7 +186,7 @@ nationalist_rebels = {
 			}
 		}
 		###########################
-		#BT Added factors
+		#VU Added factors
 		##########################
 		modifier = {
 			factor = 0.001

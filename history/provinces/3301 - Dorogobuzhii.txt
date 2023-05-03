@@ -1,4 +1,4 @@
-#3301 - Vyazma (as of BT 8.0 now Dorogobuzh)
+#3301 - Dorogobuzhii
 
 owner = SMO
 controller = SMO   

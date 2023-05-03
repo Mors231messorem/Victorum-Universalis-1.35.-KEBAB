@@ -32,12 +32,12 @@ discovered_by = eastern
 1345.1.1 = { controller = JER } # England takes it back
 1372.1.1 = { controller = FRA } # Owain Lawgoch employed by the French take it back
 1378.1.1 = { controller = JER } # Richard II of England grants a charter and reasserts English control
-1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
+1444.11.16 = { #VictorumUniversalis batch edit shortcut no vassal start date begin
 	owner = ENG
 	controller = ENG
 	add_core = ENG
 }
-1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+1444.11.18 = { #VictorumUniversalis batch edit shortcut no vassal start date end
 	owner = JER
 	controller = JER
 	remove_core = ENG

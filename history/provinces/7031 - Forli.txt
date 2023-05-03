@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7031 - Forli
 
 owner = FRL
 controller = FRL
@@ -31,13 +31,13 @@ discovered_by = eastern
 #First Shattering not used
 
 #Second Shattering not used
-1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
+1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = PAP
 	controller = PAP
 	add_core = PAP
 	remove_core = FRL
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
+1444.11.18 = { #VictorumUniversalis batch edit shortcut second performance start ends
 	owner = FRL
 	controller = FRL
 	add_core = FRL

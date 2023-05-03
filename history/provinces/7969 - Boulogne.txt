@@ -1,4 +1,4 @@
-#BT's Western Europe Overhaul in 12.0
+#7969 - Boulogne
 
 latent_trade_goods = {
 	coal
@@ -21,6 +21,3 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
-
-#Province history completed by - Draiocht

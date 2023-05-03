@@ -1,6 +1,6 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
-capital = "San Tomás"
+capital = "San Tomï¿½s"
 culture = piman
 religion = animism
 trade_goods = unknown

@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 #Removing Hawaii because it's such a dumb thing currently. This thing should not be playable unless either a pacific tech group is added, or you modify everything so that they can actually do something. As of now, none of that is fulfilled.
 #owner = HAW			#Hawaii
 #controller = HAW
@@ -19,13 +19,13 @@ native_hostileness = 5
 1444.1.1 = { discovered_by = HAW } 
 
 
-1444.11.15 = { #BeyondTypus batch edit shortcut no native start date begin
+1444.11.15 = { #VictorumUniversalis batch edit shortcut no native start date begin
 	owner = XXX
 	controller = XXX
 	is_city = no
 	trade_goods = unknown
 }
-1444.11.17 = { #BeyondTypus batch edit shortcut no native start date end
+1444.11.17 = { #VictorumUniversalis batch edit shortcut no native start date end
 	owner = HAW
 	controller = HAW
 	add_core = HAW

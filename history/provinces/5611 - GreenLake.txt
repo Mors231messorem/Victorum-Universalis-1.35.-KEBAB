@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 latent_trade_goods = {
     oil
@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 culture = cree
 religion = totemism 
-capital = "Akwâkopîwi Sâkahikan"
+capital = "Akwï¿½kopï¿½wi Sï¿½kahikan"
 trade_goods = unknown
 hre = no 
 base_tax = 1 

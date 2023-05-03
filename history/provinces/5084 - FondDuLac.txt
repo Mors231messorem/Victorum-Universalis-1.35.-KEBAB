@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = chipewyan
 religion = totemism 
-capital = "Gáne Kúnan"
+capital = "Gï¿½ne Kï¿½nan"
 trade_goods = unknown
 hre = no 
 base_tax = 1 

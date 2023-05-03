@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = utian
 religion = totemism 
@@ -35,11 +35,11 @@ add_permanent_province_modifier = {
 	capital = "Santa Clara"
 	is_city = yes
 	trade_goods = fish 
-} # Mission Mission Santa Clara de Asís
+} # Mission Mission Santa Clara de Asï¿½s
 1777.11.29 = {
 	culture = castillian
 	religion = catholic
-	capital = "San José"
+	capital = "San Josï¿½"
 }	# First civilian settlement on 29 November 1777
 1786.1.1 = { discovered_by = FRA } # Jean Francois la Perouse
 1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence

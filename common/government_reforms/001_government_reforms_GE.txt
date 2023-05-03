@@ -116,28 +116,29 @@ colonial_mission_reform = {
 	}
 }
 
-ajuraan_theocracy_reform = {
-	icon = muslim_highlighted
-	allow_normal_conversion = yes
-	
-	queen = yes
-	heir = yes
-	royal_marriage = yes
-	
-	potential = {
-		primary_culture = somali
-	}
-	modifiers = {
-		global_trade_power = 0.10
-		trade_range_modifier = 0.25
-	}
-	custom_attributes = {
-		enables_hereditary_theocracy = yes
-	}
-	ai = {
-		factor = 100
-	}
-}
+#VU taken out of 1.35 by San Felipe
+#ajuraan_theocracy_reform = {
+#	icon = muslim_highlighted
+#	allow_normal_conversion = yes
+#	
+#	queen = yes
+#	heir = yes
+#	royal_marriage = yes
+#	
+#	potential = {
+#		primary_culture = somali
+#	}
+#	modifiers = {
+#		global_trade_power = 0.10
+#		trade_range_modifier = 0.25
+#	}
+#	custom_attributes = {
+#		enables_hereditary_theocracy = yes
+#	}
+#	ai = {
+#		factor = 100
+#	}
+#}
 
 dynastic_theocracy_reform = {
 	allow_normal_conversion = yes

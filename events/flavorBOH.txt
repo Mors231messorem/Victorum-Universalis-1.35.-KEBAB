@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 ########################################
 # Events for Bohemia
 #
@@ -625,7 +626,10 @@ country_event = {
 		religion = catholic
 		any_owned_province = {
 			religion = protestant
-			culture = czech
+			OR = {
+				culture = czech
+				culture = czech_new
+			}
 		}
 		is_year = 1580
 	}

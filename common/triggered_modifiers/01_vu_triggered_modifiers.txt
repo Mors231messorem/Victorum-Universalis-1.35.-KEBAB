@@ -1,4 +1,4 @@
-# New BT Triggered Modifiers
+# New VU Triggered Modifiers
 #The idea for a triggered modifier giving more diplo slots to high vassal count tags was JP's idea, and a good one at that. Solves all sort of problems I was going to do funny NI stuff to fix. I Also then further expanded on it with other bonuses
 
 ###########################################
@@ -12,7 +12,7 @@
 ###########################################
 # Vassal upkeep bonus
 ###########################################
-# bt_triggered_modifier_a_big_family = {
+# vu_triggered_modifier_a_big_family = {
 	# potential = {
 		# num_of_subjects = 1
 		# NOT = {
@@ -25,7 +25,7 @@
 						# is_subject_of_type = personal_union
 						# is_subject_of_type = client_vassal
 						# is_subject_of_type = client_march
-						# is_subject_of_type = fiefdom_bt
+						# is_subject_of_type = fiefdom_vu
 					# }				
 				# }
 				# amount = 5
@@ -34,7 +34,7 @@
 	# }
 	# trigger = {
 		# custom_trigger_tooltip = {
-			# tooltip = bt_bunch_o_vassals_tooltip
+			# tooltip = vu_bunch_o_vassals_tooltip
 			# calc_true_if = {
 				# all_known_country = {
 					# is_subject_of = ROOT
@@ -44,7 +44,7 @@
 						# is_subject_of_type = personal_union
 						# is_subject_of_type = client_vassal
 						# is_subject_of_type = client_march
-						# is_subject_of_type = fiefdom_bt
+						# is_subject_of_type = fiefdom_vu
 					# }					
 				# }
 				# amount = 3
@@ -61,7 +61,7 @@
 							# is_subject_of_type = personal_union
 							# is_subject_of_type = client_vassal
 							# is_subject_of_type = client_march
-							# is_subject_of_type = fiefdom_bt
+							# is_subject_of_type = fiefdom_vu
 						# }				
 					# }
 					# amount = 5
@@ -76,13 +76,13 @@
 ###########################################
 # Vassal upkeep bonus II
 ###########################################
-# bt_triggered_modifier_hegemoniacle = {
+# vu_triggered_modifier_hegemoniacle = {
 	# potential = {
 		# num_of_subjects = 3
 	# }
 	# trigger = {
 		# custom_trigger_tooltip = {
-			# tooltip = bt_really_a_bunch_o_vassals_tooltip
+			# tooltip = vu_really_a_bunch_o_vassals_tooltip
 			# calc_true_if = {
 				# all_known_country = {
 					# is_subject_of = ROOT
@@ -92,7 +92,7 @@
 						# is_subject_of_type = personal_union
 						# is_subject_of_type = client_vassal
 						# is_subject_of_type = client_march
-						# is_subject_of_type = fiefdom_bt
+						# is_subject_of_type = fiefdom_vu
 					# }				
 				# }
 				# amount = 5
@@ -106,7 +106,7 @@
 ###########################################
 # Aragon Balancing
 ###########################################
-bt_iberian_crowns = {
+vu_iberian_crowns = {
 	potential = {
 		tag = ARA
 		is_subject = no
@@ -125,7 +125,7 @@ bt_iberian_crowns = {
 			is_subject_of_type = personal_union
 			total_development = 200
 		}
-		#NOT = { has_country_flag = bt_centralising_aragon }			#Currently a dead end, might add later.
+		#NOT = { has_country_flag = vu_centralising_aragon }			#Currently a dead end, might add later.
 	}
 	diplomatic_upkeep = 2 #Added to account for lack of hegemoniacle for Aragon since PUs don't count.
 	reduced_liberty_desire = 45
@@ -136,7 +136,7 @@ bt_iberian_crowns = {
 ###########################################
 # Hanseatic League Balancing
 ###########################################
-bt_hanseatic_domination = {
+vu_hanseatic_domination = {
 	potential = {
 		government = republic
 		is_in_trade_league = yes
@@ -144,7 +144,7 @@ bt_hanseatic_domination = {
 	}
 	trigger = {
 		custom_trigger_tooltip = {
-			tooltip = bt_trade_capital_in_luebeck_node_tooltip
+			tooltip = vu_trade_capital_in_luebeck_node_tooltip
 			OR = {
 				tag = HSA
 				is_in_trade_league_with = HSA
@@ -160,7 +160,7 @@ bt_hanseatic_domination = {
 ###########################################
 # Maritime Republic Bonuses
 ###########################################
-bt_maritime_republic_bonus = {
+vu_hanseatic_domination = {
 	potential = {
 		culture_group = latin
 		government = republic
@@ -169,7 +169,7 @@ bt_maritime_republic_bonus = {
 	trigger = {
 		OR = {
 			custom_trigger_tooltip = {
-				tooltip = bt_trade_capital_in_venice_node_tooltip
+				tooltip = vu_trade_capital_in_venice_node_tooltip
 				OR = {
 					tag = VEN
 					AND = {
@@ -179,7 +179,7 @@ bt_maritime_republic_bonus = {
 				}
 			}
 			custom_trigger_tooltip = {
-				tooltip = bt_trade_capital_in_genoa_node_tooltip
+				tooltip = vu_trade_capital_in_genoa_node_tooltip
 				OR = {
 					tag = GEN
 					AND = {
@@ -199,7 +199,7 @@ bt_maritime_republic_bonus = {
 ###########################################
 # Burgundy Balancing
 ###########################################
-bt_hegemony_of_burgundy = {
+vu_hegemony_of_burgundy = {
 	potential = {
 		tag = BUR
 		is_subject = no

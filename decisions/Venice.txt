@@ -99,7 +99,7 @@ country_decisions = {
 			full_idea_group = maritime_ideas
 			OR = {
 				custom_trigger_tooltip = {
-					tooltip = bt_venetian_genoese_thalassocracy_tooltip
+					tooltip = vu_venetian_genoese_thalassocracy_tooltip
 					AND = {
 						1298 = { # Genua
 							is_strongest_trade_power = ROOT
@@ -125,7 +125,7 @@ country_decisions = {
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = bt_dutch_hansa_thalassocracy_tooltip
+					tooltip = vu_dutch_hansa_thalassocracy_tooltip
 					AND = {
 						1269 = { #Antwerpen
 							is_strongest_trade_power = ROOT
@@ -151,7 +151,7 @@ country_decisions = {
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = bt_oman_zanzibar_thalassocracy_tooltip
+					tooltip = vu_oman_zanzibar_thalassocracy_tooltip
 					AND = {
 						1331 = { #Gulf of Aden
 							is_strongest_trade_power = ROOT
@@ -177,7 +177,7 @@ country_decisions = {
 					}
 				}
 				custom_trigger_tooltip = {
-					tooltip = bt_ming_goes_maritime_thalassocracy_tooltip
+					tooltip = vu_ming_goes_maritime_thalassocracy_tooltip
 					AND = {
 						1816 = { #Beijing
 							is_strongest_trade_power = ROOT

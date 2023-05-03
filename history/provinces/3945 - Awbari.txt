@@ -19,7 +19,7 @@ add_core = FZA
 #discovered_by = ottoman
 
 add_permanent_province_modifier = {
-	name = btpl_oasis
+	name = vu_oasis
 	duration = -1
 }
 

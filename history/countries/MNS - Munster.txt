@@ -6,4 +6,4 @@ religion = catholic
 primary_culture = irish
 capital = 4118	# Cork
 
-#emptied by Draiocht because this tag is a formable with no land
+#emptied by Darth Modus because this tag is a formable with no land

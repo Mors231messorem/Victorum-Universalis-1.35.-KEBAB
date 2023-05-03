@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = yuki_wappo			#Actually appear the Santa Rose area was controlled by the Bitakomtara, a Pomo people, but giving it to Wappo for the moment. Eventually (after dev doubling) I'll probably fix this situation
 religion = totemism 
@@ -25,4 +25,4 @@ discovered_by = north_american
 	trade_goods = wool
 	culture = castillian
 	religion = catholic
-} # Mission Mission San Rafael Arcángel.
+} # Mission Mission San Rafael Arcï¿½ngel.

@@ -18,7 +18,7 @@ native_hostileness = 3
 
 discovered_by = north_american
 
-#1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+#1444.11.12 = { #VictorumUniversalis batch edit shortcut native start date begin
 #	owner = MWK			#Miwok
 #	controller = MWK
 #	add_core = MWK

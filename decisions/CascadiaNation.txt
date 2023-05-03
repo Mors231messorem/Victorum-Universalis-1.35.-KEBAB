@@ -1,3 +1,4 @@
+#VU updated to 1.35 by San Felipe 
 country_decisions = {
 
 	cascadia_nation = {
@@ -73,6 +74,7 @@ country_decisions = {
 				}
 			}
 			change_tag = CSC
+			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { is_former_colonial_nation = yes }
@@ -124,7 +126,6 @@ country_decisions = {
 				change_government = monarchy
 				add_government_reform = feudalism_reform
 			}
-			#swap_ideas = yes #VU - Turned off for now by San Felipe
 			set_country_flag = changed_from_colonial_nation
 		}
 		ai_will_do = {

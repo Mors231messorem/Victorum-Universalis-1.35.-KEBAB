@@ -103,8 +103,8 @@ majapahit_civil_war = {
                         50 = maj_civil_war.4
                         100 = maj_civil_war.5
                         50 = maj_civil_war.6
-#                       50 = maj_civil_war.7			#Error related to this. Cutting it for now -Draiocht
-#                        50 = maj_civil_war.8			#Error related to this. Cutting it for now -Draiocht
+#                       50 = maj_civil_war.7			#Error related to this. Cutting it for now -Darth Modus
+#                        50 = maj_civil_war.8			#Error related to this. Cutting it for now -Darth Modus
 		}
 	}
 }

@@ -61,25 +61,25 @@
 
 
 
-	margrave_reform = {
-		icon = march
-		allow_normal_conversion = yes
-		potential = {
-			is_part_of_hre = yes
-			NOT = { total_development = 250 }
-		}
-		trigger = {
-			is_part_of_hre = yes
-			NOT = { total_development = 175 }
-		}
-		valid_for_nation_designer = yes
-		nation_designer_cost = 10
-		modifiers = {
-			defensiveness = 0.10
-			global_manpower_modifier = 0.15
-			nobles_influence_modifier = 0.10
-		}
-	}
+	#margrave_reform = {
+	#	icon = march
+	#	allow_normal_conversion = yes
+	#	potential = {
+	#		is_part_of_hre = yes
+	#		NOT = { total_development = 250 }
+	#	}
+	#	trigger = {
+	#		is_part_of_hre = yes
+	#		NOT = { total_development = 175 }
+	#	}
+	#	valid_for_nation_designer = yes
+	#	nation_designer_cost = 10
+	#	modifiers = {
+	#		defensiveness = 0.10
+	#		global_manpower_modifier = 0.15
+	#		nobles_influence_modifier = 0.10
+	#	}
+	#}
 
 	theocratic_autocracy = {
 		icon = "pope_highlighted"
@@ -109,61 +109,25 @@
 		}
 	}
 
-	beylik = {
-		icon = beylik
-		allow_normal_conversion = yes
-		potential = {
-			primary_culture = turkish
-			NOT = { tag = TUR }
-			NOT = { tag = RUM }
-		}
-		trigger = {
-			primary_culture = turkish
-		}
-		valid_for_nation_designer = yes
-		nation_designer_cost = 0
-		nation_designer_cost = 0
-		modifiers = {
-			army_tradition = 0.25
-			unjustified_demands = -0.15
-		}
-	}
-
-	prussian_monarchy = {
-		icon = "prussian_monarchy"
-		allow_normal_conversion = yes
-		potential = {
-			OR = {
-				has_reform = prussian_monarchy
-				have_had_reform = prussian_monarchy
-			}
-		}
-		trigger = {
-			OR = {
-				is_playing_custom_nation = yes
-				religion = protestant
-				religion = reformed
-				religion = hussite
-			}
-		}
-		valid_for_nation_designer = yes
-		nation_designer_cost = 100
-		legacy_equivalent = prussian_monarchy_legacy
-
-		modifiers = {
-			war_exhaustion = -0.02
-			global_unrest = -2
-			global_autonomy = -0.075
-			max_absolutism = 10
-			monarch_military_power = 3
-			nobles_loyalty_modifier = 0.1
-			governing_capacity_modifier = -0.5
-		}
-
-		conditional = {
-			allow = { has_dlc = "Rights of Man" }
-		}
-	}
+	#beylik = {
+	#	icon = beylik
+	#	allow_normal_conversion = yes
+	#	potential = {
+	#		primary_culture = turkish
+	#		NOT = { tag = TUR }
+	#		NOT = { tag = RUM }
+	#	}
+	#	trigger = {
+	#		primary_culture = turkish
+	#	}
+	#	valid_for_nation_designer = yes
+	#	nation_designer_cost = 0
+	#	nation_designer_cost = 0
+	#	modifiers = {
+	#		army_tradition = 0.25
+	#		unjustified_demands = -0.15
+	#	}
+	#}
 
 	crown_of_saint_wenceslaus = {
 		icon = crown_of_saint_wenceslaus
@@ -196,24 +160,24 @@
 		}
 	}
 
-	crown_of_saint_wenceslaus_2 = {
-		icon = crown_of_saint_wenceslaus
-		allow_normal_conversion = yes
-		valid_for_nation_designer = no
-		potential = {
-			OR = {
-				tag = BOH
-				has_reform = crown_of_saint_wenceslaus_2
-			}
-		}
-		modifiers = {
-			legitimacy = 0.5
-		}
-		factions = {
-			GE_ultraquists
-			GE_catholics
-		}
-	}
+	#crown_of_saint_wenceslaus_2 = {
+	#	icon = crown_of_saint_wenceslaus
+	#	allow_normal_conversion = yes
+	#	valid_for_nation_designer = no
+	#	potential = {
+	#		OR = {
+	#			tag = BOH
+	#			has_reform = crown_of_saint_wenceslaus_2
+	#		}
+	#	}
+	#	modifiers = {
+	#		legitimacy = 0.5
+	#	}
+	#	factions = {
+	#		GE_ultraquists
+	#		GE_catholics
+	#	}
+	#}
 
 	office_of_lord_regent_reform = {
 		icon = sten_sture
@@ -281,31 +245,31 @@
 		}
 	}
 
-	arch_duchy_reform = {
-		icon = archduchy
-		allow_normal_conversion = yes
-		valid_for_nation_designer = yes
-		nation_designer_cost = 10
-		potential = {
-			OR = {
-				primary_culture = austrian
-				has_reform = arch_duchy_reform
-			}
-		}
-		trigger = {
-			OR = {
-				primary_culture = austrian
-				has_reform = arch_duchy_reform
-			}
-		}
-		modifiers = {
-			prestige = 0.5
-			papal_influence = 0.5
-		}
-		ai = {
-			factor = 100
-		}
-	}
+	#arch_duchy_reform = {
+	#	icon = archduchy
+	#	allow_normal_conversion = yes
+	#	valid_for_nation_designer = yes
+	#	nation_designer_cost = 10
+	#	potential = {
+	#		OR = {
+	#			primary_culture = austrian
+	#			has_reform = arch_duchy_reform
+	#		}
+	#	}
+	#	trigger = {
+	#		OR = {
+	#			primary_culture = austrian
+	#			has_reform = arch_duchy_reform
+	#		}
+	#	}
+	#	modifiers = {
+	#		prestige = 0.5
+	#		papal_influence = 0.5
+	#	}
+	#	ai = {
+	#		factor = 100
+	#	}
+	#}
 
 	habsburg_monarchy_reform = {
 		icon = habsburg_monarchy
@@ -314,7 +278,7 @@
 		potential = {
 			OR = {
 				primary_culture = austrian
-				has_reform = arch_duchy_reform
+				has_reform = austrian_archduchy_reform
 			}
 		}
 		trigger = {
@@ -353,7 +317,7 @@
 			OR = {
 				primary_culture = austrian
 				has_reform = habsburg_monarchy_reform
-				has_reform = arch_duchy_reform
+				has_reform = austrian_archduchy_reform
 			}
 		}
 		trigger = {
@@ -1195,34 +1159,34 @@
 			factor = 101
 		}
 	}
-	tanistry_reform = {
-		icon = dutch_guilds
-		allow_normal_conversion = yes
-		valid_for_nation_designer = no
-		potential = {
-			OR = {
-				primary_culture = irish 
-				has_reform = tanistry_reform
-			}
-		}
-		trigger = {
-			OR = {
-				primary_culture = irish 
-				has_reform = tanistry_reform
-			}
-		}
-		modifiers = {
-			heir_chance = -2
-			same_culture_advisor_cost = -0.15
-		}
-		custom_attributes = {
-			enables_tanistry = yes #elect an heir
-			#enables_disputed_heir = yes #heir will face challenges
-		}
-		ai = {
-			factor = 101
-		}
-	}
+	#tanistry_reform = {
+	#	icon = dutch_guilds
+	#	allow_normal_conversion = yes
+	#	valid_for_nation_designer = no
+	#	potential = {
+	#		OR = {
+	#			primary_culture = irish 
+	#			has_reform = tanistry_reform
+	#		}
+	#	}
+	#	trigger = {
+	#		OR = {
+	#			primary_culture = irish 
+	#			has_reform = tanistry_reform
+	#		}
+	#	}
+	#	modifiers = {
+	#		heir_chance = -2
+	#		same_culture_advisor_cost = -0.15
+	#	}
+	#	custom_attributes = {
+	#		enables_tanistry = yes #elect an heir
+	#		#enables_disputed_heir = yes #heir will face challenges
+	#	}
+	#	ai = {
+	#		factor = 101
+	#	}
+	#}
 	klever_union_reform = {
 		icon = crown
 		allow_normal_conversion = yes
@@ -9085,30 +9049,30 @@
 	}
 #}
 #Korea {
-	hermit_kingdom_reform = {
-		icon = "celestial_empire"
-		allow_normal_conversion = no
-		valid_for_nation_designer = yes
-		nation_designer_cost = 30
-		potential = {
-			OR = {
-				primary_culture = korean 
-				has_reform = hermit_kingdom_reform
-			}
-		}
-		trigger = {
-			OR = {
-				has_reform = hermit_kingdom_reform
-				primary_culture = korean
-			}
-		}
-		modifiers = {
-			defensiveness = 0.2
-		}
-		custom_attributes = {
-			enables_peace_development_reduction = yes
-		}
-	}
+#	hermit_kingdom_reform = {
+#		icon = "celestial_empire"
+#		allow_normal_conversion = no
+#		valid_for_nation_designer = yes
+#		nation_designer_cost = 30
+#		potential = {
+#			OR = {
+#				primary_culture = korean 
+#				has_reform = hermit_kingdom_reform
+#			}
+#		}
+#		trigger = {
+#			OR = {
+#				has_reform = hermit_kingdom_reform
+#				primary_culture = korean
+#			}
+#		}
+#		modifiers = {
+#			defensiveness = 0.2
+#		}
+#		custom_attributes = {
+#			enables_peace_development_reduction = yes
+#		}
+#	}
 	nobi_jongbubub_reform= {
 		icon = "people_walking"
 		allow_normal_conversion = yes

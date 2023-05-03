@@ -1,10 +1,10 @@
-namespace = btpSCO
+namespace = vuSCO
 
 # Margaret of Denmark
 country_event = {
-	id = btpSCO.1
-	title = "btpSCO.EVTNAME1"
-	desc = "btpSCO.EVTDESC1"
+	id = vuSCO.1
+	title = "vuSCO.EVTNAME1"
+	desc = "vuSCO.EVTDESC1"
 	picture = DIPLOMACY_eventPicture
 
 	fire_only_once = yes
@@ -41,7 +41,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "btpSCO.EVTOPTA1" # Make the approach
+		name = "vuSCO.EVTOPTA1" # Make the approach
 		ai_chance = { factor = 85 }
 		tooltip = {
 			create_marriage = SCO
@@ -60,7 +60,7 @@ country_event = {
 		}
 		SCO = {
 			country_event = { 
-				id = btpSCO.2
+				id = vuSCO.2
 				days = 3
 			}
 		}
@@ -68,44 +68,44 @@ country_event = {
 	
 	option = {
 		ai_chance = { factor = 15 }
-		name = "btpSCO.EVTOPTB1" # Do nothing
+		name = "vuSCO.EVTOPTB1" # Do nothing
 		add_prestige = -1
 	}
 }
 
 # Margaret's Dowry
 country_event = {
-	id = btpSCO.2
-	title = "btpSCO.EVTNAME2"
-	desc = "btpSCO.EVTDESC2"
+	id = vuSCO.2
+	title = "vuSCO.EVTNAME2"
+	desc = "vuSCO.EVTDESC2"
 	picture = DIPLOMACY_eventPicture
 
 	is_triggered_only = yes
 	major = yes
 	
 	option = {
-		name = "btpSCO.EVTOPTA2" # Accept
+		name = "vuSCO.EVTOPTA2" # Accept
 		ai_chance = { factor = 95 }
 		hidden_effect = {
 			remove_historical_friend = DAN
 			DAN = {
 				remove_historical_friend = SCO
 				add_country_modifier = {
-					name = "btp_dano_scottish_wedding"
+					name = "vu_dano_scottish_wedding"
 					duration = 9125
 				}
 			}
 			reverse_add_opinion = {
 				who = DAN
-				modifier = btp_opinion_accepted_proposal
+				modifier = vu_opinion_accepted_proposal
 			}
 		}
 		add_opinion = {
 			who = DAN
-			modifier = btp_opinion_accepted_proposal
+			modifier = vu_opinion_accepted_proposal
 		}
 		add_country_modifier = {
-			name = "btp_dano_scottish_wedding"
+			name = "vu_dano_scottish_wedding"
 			duration = 9125
 		}
 		create_marriage = DAN
@@ -146,13 +146,13 @@ country_event = {
 	}
 	
 	option = {
-		name = "btpSCO.EVTOPTB2" # Reject
+		name = "vuSCO.EVTOPTB2" # Reject
 		ai_chance = { factor = 5 }
 		add_prestige = -5
 		DAN = {
 			add_opinion = {
 				who = ROOT
-				modifier = btp_opinion_rejected_proposal
+				modifier = vu_opinion_rejected_proposal
 			}
 		}
 		if = {
@@ -164,9 +164,9 @@ country_event = {
 
 # No true Scotsman
 province_event = {
-	id = btpSCO.3
-	title = "btpSCO.EVTNAME3"
-	desc = "btpSCO.EVTDESC3"
+	id = vuSCO.3
+	title = "vuSCO.EVTNAME3"
+	desc = "vuSCO.EVTDESC3"
 	picture = STREET_SPEECH_eventPicture
 	
 	trigger = {
@@ -196,7 +196,7 @@ province_event = {
 	}
 	
 	option = {
-		name = "btpSCO.EVTOPTA3" # We have no choice but to accept
+		name = "vuSCO.EVTOPTA3" # We have no choice but to accept
 		change_culture = scottish
 		if = {
 			limit = {

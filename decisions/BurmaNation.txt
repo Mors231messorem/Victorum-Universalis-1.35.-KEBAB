@@ -1,9 +1,10 @@
+#VU updated to 1.35 by San Felipe 
 country_decisions = {
 
 	burma_nation = {
 		major = yes
 		potential = {
-			bt_generic_can_form_potential_check = yes
+			vu_generic_can_form_potential_check = yes
 			NOT = { has_country_flag = formed_burma_flag }
 			OR = {
 				primary_culture = burmese

@@ -1,3 +1,4 @@
+#VU updated to 1.35 by San Felipe 
 country_decisions = {
 
 	brazil_nation = {
@@ -72,6 +73,7 @@ country_decisions = {
 				}
 			}
 			change_tag = BRZ
+			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { is_former_colonial_nation = yes }
@@ -163,6 +165,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = BRZ
+			on_change_tag_effect = yes
 			every_subject_country = {
 				limit = {
 					is_colonial_nation = yes
@@ -194,25 +197,43 @@ country_decisions = {
 				}					
 			}
 			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					religion_group = christian
+				}
+				custom_tooltip = brazil_portugal_tooltip
+				hidden_effect = {
+					every_owned_province = {
+						limit = {
+							continent = europe
+						}
+						add_core = POR
+					}
+					release = POR
+					POR = {
+						change_government = monarchy
+						add_government_reform = autocracy_reform
+						swap_non_generic_missions = yes
+					}
+					create_union = POR
+				}
+				hidden_effect = {
+					every_province = {
+						limit = {
+							continent = europe
+							is_core = ROOT
+						}
+						add_core = POR
+						remove_core = BRZ
+					}
+				}
+			}
 			add_stability = -2
 			add_prestige = -25
 			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-			if = {
-				limit = {
-					NOT = { primary_culture = brazilian }
-				}
-				change_primary_culture = brazilian
-				add_accepted_culture = portugese
-			}
-			if = {
-				limit = {
-					primary_culture = brazilian
-				}
-				add_accepted_culture = portugese
-			}
+                limit = { has_custom_ideas = no }
+                country_event = { id = ideagroups.1 } #Swap Ideas
+            }
 			set_country_flag = changed_from_colonial_nation
 			set_country_flag = fled_to_brazil
 		}

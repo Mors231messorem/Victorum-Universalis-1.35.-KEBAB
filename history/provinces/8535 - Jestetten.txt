@@ -29,12 +29,12 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Documented 1105 AD
-1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
+1444.11.16 = { #VictorumUniversalis batch edit shortcut no vassal start date begin
 	owner = SWI
 	controller = SWI
 	add_core = SWI
 }
-1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+1444.11.18 = { #VictorumUniversalis batch edit shortcut no vassal start date end
 	owner = BSL
 	controller = BSL
 	remove_core = SWI

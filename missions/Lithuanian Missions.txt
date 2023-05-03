@@ -1080,11 +1080,11 @@ lithuanian_missions_slot = {
 #			}
 #		}
 #		effect = {
-#			custom_tooltip = bt_wild_fields_perm_claims
+#			custom_tooltip = vu_wild_fields_perm_claims
 #			hidden_effect = {
 #				every_province = {
 #					limit = {
-#						bt_trigger_wild_fields_areas = yes
+#						vu_trigger_wild_fields_areas = yes
 #						NOT = { is_core = ROOT }
 #						NOT = { owned_by = ROOT }
 #					}

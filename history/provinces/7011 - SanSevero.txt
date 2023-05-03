@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7011 - San Severo
 
 owner = KNT			#Knights Templar
 controller = KNT
@@ -18,20 +18,6 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-
-#Province history completed by - Chairman_Meow (JP)
-#1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
-	#Fantasy/alt-history tags/situations for gameplay & multiplayer balance in SE. If you need me to make a new tag, let me know. Please do not alter the above line with date & #ed comment in any way.
-	#owner = XXX
-	#controller = XXX
-	#add_core = XXX
-#}
-#1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
-	#End of shattered history. Please revert owner to default and cut any fantasy cores.
-	#owner = XXX
-	#controller = XXX
-	#remove_core = XXX
-#}
 1300.1.1 = {
 	base_tax = 3
 	base_production = 4
@@ -52,12 +38,12 @@ discovered_by = eastern
 1443.2.23 = { 
 	controller = NAP 
 } # Alfonso V wins the war and Naples united with Aragon in a Personal Union under the Crown of Aragon
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = SIC
 	controller = SIC
 	remove_core = NAP
 }
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
 	owner = NAP
 	controller = NAP
 	add_core = NAP

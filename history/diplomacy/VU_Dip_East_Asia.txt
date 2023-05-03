@@ -202,7 +202,7 @@ union = {
 ############################################################
 ############################################################
 
-#Indochina tributaries.  -- To remove Matryoshka subjects, Draiocht made them all answer to Ming when the former overlords answer to Ming. Precedents abound such as Iceland under Denmark, not Norway.
+#Indochina tributaries.  -- To remove Matryoshka subjects, Darth Modus made them all answer to Ming when the former overlords answer to Ming. Precedents abound such as Iceland under Denmark, not Norway.
 #Jarai
 dependency = {
 	subject_type = "tributary_state"
@@ -426,13 +426,13 @@ dependency = {
 	end_date = 1558.1.1
 }
 
-dependency = {
-	subject_type = "tributary_state"
-	first = MNG
-	second = MYA
-	start_date = 1444.1.1
-	end_date = 1521.1.1
-}
+#dependency = {
+#	subject_type = "tributary_state"
+#	first = MNG
+#	second = MYA
+#	start_date = 1444.1.1
+#	end_date = 1521.1.1
+#}
 
 dependency = {
 	subject_type = "tributary_state"

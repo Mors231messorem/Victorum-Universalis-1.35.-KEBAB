@@ -21,6 +21,6 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 
 1449.1.1 = { owner = FRA controller = FRA add_core = FRA remove_core = ENG }

@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = cree
 religion = totemism 
-capital = "Ûcêpukumû" 
+capital = "ï¿½cï¿½pukumï¿½" 
 trade_goods = unknown
 hre = no 
 base_tax = 1 

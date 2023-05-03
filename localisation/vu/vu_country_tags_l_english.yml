@@ -319,7 +319,7 @@
  HOY:0 "Hoya"
  HOY_ADJ:0 "Hoyan"
  
- #BT Additions
+ #VU Additions
  VOR:0 "Weiteres Österreich"
  VOR_ADJ:0 "Austrian"
  #VU Additions
@@ -910,13 +910,13 @@
  ROH:0 "Rohan"
  ROH_ADJ:0 "Rohan"
 
- #Old World Countries - Neprut's old tags repurposed for BT
+ #Old World Countries - Neprut's old tags repurposed for VU
  GTA:0 "Gotaland"
  GTA_ADJ:0 "Geatish"
  RIF:0 "Riffia"
  RIF_ADJ:0 "Riffian"
 
- #New World Countries - Neprut's old tags repurposed for BT
+ #New World Countries - Neprut's old tags repurposed for VU
  YPK:0 "Yupik"
  YPK_ADJ:0 "Yupik"
  EYK:0 "Eyak"
@@ -1012,7 +1012,7 @@
  HDS:0 "Crow"
  HDS_ADJ:0 "Crow"
 
- #New World Countries - New Beyond Typus tags
+ #New World Countries - New Victorum Universalis tags
  STL:0 "Stólo"
  STL_ADJ:0 "Stólo"
  YYA:0 "Denaina"

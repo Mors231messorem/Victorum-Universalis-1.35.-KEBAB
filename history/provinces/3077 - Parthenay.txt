@@ -1,8 +1,10 @@
 #3077 - Parthenay
 
-owner = PRO
-controller = PRO
+owner = ANJ
+controller = ANJ
+add_core = ANJ
 add_core = PRO
+add_core = FRA
 capital = "Thouars"
 is_city = yes
 culture = poitevin_culture
@@ -13,8 +15,6 @@ base_production = 3
 trade_goods = fruit
 base_manpower = 2 
 add_local_autonomy = 10
-add_core = ANJ
-add_core = FRA
 
 discovered_by = western
 discovered_by = muslim

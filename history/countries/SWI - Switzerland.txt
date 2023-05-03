@@ -5,7 +5,7 @@ technology_group = western
 primary_culture = swiss
 add_accepted_culture = swabian #changed from high_swiss
 religion = catholic
-historical_friend = TTL			#Beyond Typus only
+historical_friend = TTL			#Victorum Universalis only
 capital = 165 # Bern
 add_army_professionalism = 0.1
 

@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7005 - Lecce
 
 owner = LEC
 controller = LEC
@@ -30,12 +30,12 @@ discovered_by = eastern
 
 #Province history completed by - Chairman Meow (JP)
 #First Shattering not used
-1291.5.24 = { #BeyondTypus batch edit shortcut first performance start begins
+1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
 	owner = NAP
 	controller = NAP
 	add_core = NAP
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1291.5.26 = { #BeyondTypus batch edit shortcut first performance start ends
+1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
 	owner = LEC
 	controller = LEC
 	add_core = LEC
@@ -46,65 +46,63 @@ discovered_by = eastern
 	controller = NAP
 	add_core = NAP
 }	#Naples becomes a PU under Aragon, so losing its own vassals.
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = LEC
 	controller = LEC
 	add_core = LEC
 	remove_core = NAP
 }
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
 	owner = NAP
 	controller = NAP
 	add_core = NAP
 } # Hashtagged as LEC exists in 1444 so not sure it is necessary.
-#1446.5.9 = {
-#	owner = TTO
-	add_core = TTO
-#	controller = TTO
-#	remove_core = LEC
-#} # Giannantonio inherits County of Lecce from mother, Mary of Enghien
-#1463.11.15 = {
-#	owner = NAP
-#	add_core = NAP
-#	controller = NAP
-#	remove_core = TTO
-#} # After Giannantonio dies, Lecce was annexed to crown
+
 1494.1.1 = {
 	add_core = FRA
 } # Angevin claims
+
 1495.2.22 = {
 	controller = FRA
 } # Charles VIII invades Naples
+
 1495.7.7 = {
 	controller = NAP
 } # Charles VIII leaves Italy
+
 1502.1.1 = {
 	owner = FRA
 	controller = FRA
 } # France and Aragon partitions Naples
+
 1503.6.1 = {
 	owner = ARA
 	controller = ARA
 	add_core = ARA
 } # France forced to withdraw
+
 1516.1.23 = {
 	owner = SPA
 	controller = SPA
 	add_core = SPA
 	remove_core = ARA
 } # Unification of Spain
+
 1559.1.1 = {
 	remove_core = FRA
 } # Treaty of Cateau-Cambresis
+
 1700.1.1 = {
 	culture = neapolitan
 } # One of the last places with a Griko majority. Using this date as in 16th century, Greeks came from Greece which changed the Griko'a and were more like Italian in culture.
+
 1714.3.7 = {
 	owner = HAB
 	controller = HAB
 	add_core = HAB
 	remove_core = SPA
 } # Treaty of Rastatt
+
 1734.6.2 = {
 	owner = NAP
 	controller = NAP

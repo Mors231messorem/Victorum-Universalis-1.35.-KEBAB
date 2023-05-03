@@ -13,9 +13,9 @@ native_ferocity = 1
 native_hostileness = 3  
 
 discovered_by = north_american
-#discovered_by = bt_athabaskan_tech
-#discovered_by = bt_inuit_tech
-#discovered_by = bt_northwest_tech
+#discovered_by = vu_athabaskan_tech
+#discovered_by = vu_inuit_tech
+#discovered_by = vu_northwest_tech
 
 #add_permanent_province_modifier = {
 #    name = vu_malaria_present
@@ -24,7 +24,7 @@ discovered_by = north_american
 
 1741.1.1 = { discovered_by = RUS } # Vitus Bering
 1778.1.1 = { discovered_by = GBR } # James Cook
-1788.1.1 = { discovered_by = SPA } # Esteban José Martínez and Gonzalo López de Haro
+1788.1.1 = { discovered_by = SPA } # Esteban Josï¿½ Martï¿½nez and Gonzalo Lï¿½pez de Haro
 1790.6.15 = { 
 	owner = SPA
 	controller = SPA

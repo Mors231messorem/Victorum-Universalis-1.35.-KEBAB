@@ -102,7 +102,7 @@ africa_superregion = {
     zimbabwe_region
 }
 
-southern_africa_superregion = { #New in vanilla, deprecated in BT because I don't know if it's worth splitting. //Dub
+southern_africa_superregion = { #New in vanilla, deprecated in VU because I don't know if it's worth splitting. //Dub
 }
 
 south_america_superregion = {

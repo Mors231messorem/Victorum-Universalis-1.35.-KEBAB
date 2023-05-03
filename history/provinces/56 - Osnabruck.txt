@@ -1,10 +1,10 @@
-#56 - Osnabrück
+#56 - Osnabrï¿½ck
 
 owner = OSN
 controller = OSN
 culture = lower_saxon
 religion = catholic
-capital = "Osnabrück"
+capital = "Osnabrï¿½ck"
 trade_goods = fruit
 hre = yes
 base_tax = 6
@@ -18,13 +18,13 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
-1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
+1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = MUN
 	controller = MUN
 	add_core = MUN
 	remove_core = OSN
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
+1444.11.18 = { #VictorumUniversalis batch edit shortcut second performance start ends
 	owner = OSN
 	controller = OSN
 	add_core = OSN

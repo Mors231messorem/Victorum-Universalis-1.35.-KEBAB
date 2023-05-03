@@ -11,21 +11,21 @@ country_decisions = {
 #Maritime Republic Stuff
 #################################################
 
-	bt_italian_maritime_republic_merchant_enclaves = {
+	vu_italian_maritime_republic_merchant_enclaves = {
 		potential = {
 			culture_group = latin
 			government = republic
-			has_country_modifier = bt_maritime_republic_bonus
-			NOT = { has_country_modifier = bt_investing_in_mediterranean_trading_enclaves }
+			has_country_modifier = vu_hanseatic_domination
+			NOT = { has_country_modifier = vu_investing_in_mediterranean_trading_enclaves }
 		}
 		
 		allow = {
-			has_country_modifier = bt_maritime_republic_bonus
+			has_country_modifier = vu_hanseatic_domination
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
 			custom_trigger_tooltip = {
-				tooltip = bt_italian_maritime_republic_merchant_enclaves_tooltip
+				tooltip = vu_italian_maritime_republic_merchant_enclaves_tooltip
 				OR = {
 					377 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Aleppo
 					330 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Pontus
@@ -41,8 +41,8 @@ country_decisions = {
 		}
 		
 		effect = {
-			add_country_modifier = { name = bt_investing_in_mediterranean_trading_enclaves duration = 7300 }
-			custom_tooltip = bt_investing_in_mediterranean_trade_routes_tooltip
+			add_country_modifier = { name = vu_investing_in_mediterranean_trading_enclaves duration = 7300 }
+			custom_tooltip = vu_investing_in_mediterranean_trade_routes_tooltip
 			hidden_effect = {
 				#trade routes
 				if = {
@@ -53,15 +53,15 @@ country_decisions = {
 						}
 						home_trade_node = { province_id = 1298 }
 					}
-					1295 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Valencia
+					1295 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = VU_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Valencia
 				}
 				if = {
 					limit = { 377 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } } }			#Aleppo
-					377 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Aleppo
+					377 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = VU_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Aleppo
 				}
 				if = {
 					limit = { 330 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } } }			#Pontus
-					330 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Pontus
+					330 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = VU_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Pontus
 				}
 				if = {
 					limit = {
@@ -70,7 +70,7 @@ country_decisions = {
 							1322 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Crimea
 						}
 					}
-					1322 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Crimea
+					1322 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = VU_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Crimea
 				}
 				if = {
 					limit = {
@@ -80,7 +80,7 @@ country_decisions = {
 							1320 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }			#Constantinople
 						}
 					}
-					1320 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Constantinople
+					1320 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = VU_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Constantinople
 				}
 				if = {
 					limit = {
@@ -89,7 +89,7 @@ country_decisions = {
 							358 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Cairo
 						}
 					}
-					358 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Cairo
+					358 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = VU_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Cairo
 				}
 				if = {
 					limit = {
@@ -100,7 +100,7 @@ country_decisions = {
 							5493 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Aegean
 						}
 					}
-					5493 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Aegean
+					5493 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = VU_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Aegean
 				}
 				if = {
 					limit = {
@@ -109,7 +109,7 @@ country_decisions = {
 							341 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Tunis
 						}
 					}
-					341 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Tunis
+					341 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = VU_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Tunis
 				}
 				if = {
 					limit = {
@@ -118,7 +118,7 @@ country_decisions = {
 							1309 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Ragusa
 						}
 					}
-					1309 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Ragusa
+					1309 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = VU_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Ragusa
 				}
 				if = {
 					limit = {
@@ -129,15 +129,15 @@ country_decisions = {
 							121 = { any_trade_node_member_province = { OR = { owner = { is_subject_of = ROOT } owned_by = ROOT } } }		#Naples
 						}
 					}
-					121 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = BT_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Naples
+					121 = { add_trade_modifier = { who = ROOT duration = 7300 power = 10 key = VU_TRADING_ENCLAVES_UPSTREAM_KEY } }			#Naples
 				}
 				if = {
 					limit = { home_trade_node = { province_id = 1308 } }
-					1308 = { add_trade_modifier = { who = ROOT duration = 7300 power = 30 key = BT_TRADING_ENCLAVES_CAPITAL_KEY } }			#Venice
+					1308 = { add_trade_modifier = { who = ROOT duration = 7300 power = 30 key = VU_TRADING_ENCLAVES_CAPITAL_KEY } }			#Venice
 				}
 				if = {
 					limit = { home_trade_node = { province_id = 1298 } }
-					1298 = { add_trade_modifier = { who = ROOT duration = 7300 power = 30 key = BT_TRADING_ENCLAVES_CAPITAL_KEY } }			#Genoa
+					1298 = { add_trade_modifier = { who = ROOT duration = 7300 power = 30 key = VU_TRADING_ENCLAVES_CAPITAL_KEY } }			#Genoa
 				}
 			}
 		}
@@ -153,12 +153,12 @@ country_decisions = {
 #Guelph and Ghibelline Stuff
 #################################################
 
-	bt_declare_for_the_guelphs = {
+	vu_declare_for_the_guelphs = {
 		potential = {
-			bt_guelph_ghibelline_drama_enabled = yes
-			NOT = { has_country_modifier = bt_guelph_nation }
-			NOT = { has_country_modifier = bt_ghibelline_nation }
-			NOT = { has_country_modifier = bt_apathetic_guelph_or_ghibellines }
+			vu_guelph_ghibelline_drama_enabled = yes
+			NOT = { has_country_modifier = vu_guelph_nation }
+			NOT = { has_country_modifier = vu_ghibelline_nation }
+			NOT = { has_country_modifier = vu_apathetic_guelph_or_ghibellines }
 		}
 		
 		allow = {
@@ -175,31 +175,31 @@ country_decisions = {
 		
 		effect = {
 			add_country_modifier = {
-				name = "bt_guelph_nation"
+				name = "vu_guelph_nation"
 				duration = -1
 			}
 			every_known_country = {
 				limit = {
 					OR = {
 						tag = PAP
-						has_country_modifier = bt_guelph_nation
+						has_country_modifier = vu_guelph_nation
 					}
 				}
 				add_opinion = {
 					who = ROOT
-					modifier = bt_declared_for_guelphs
+					modifier = vu_declared_for_guelphs
 				}
 			}
 			every_known_country = {
 				limit = {
 					OR = {
 						is_emperor = yes
-						has_country_modifier = bt_ghibelline_nation
+						has_country_modifier = vu_ghibelline_nation
 					}
 				}
 				add_opinion = {
 					who = ROOT
-					modifier = bt_declared_for_guelphs_unhappy
+					modifier = vu_declared_for_guelphs_unhappy
 				}
 			}
 		}
@@ -216,17 +216,17 @@ country_decisions = {
 			}
 			modifier = {
 				factor = 0
-				any_ally = { has_country_modifier = bt_ghibelline_nation }
+				any_ally = { has_country_modifier = vu_ghibelline_nation }
 			}
 		}
 	}
 
-	bt_declare_for_the_ghibellines = {
+	vu_declare_for_the_ghibellines = {
 		potential = {
-			bt_guelph_ghibelline_drama_enabled = yes
-			NOT = { has_country_modifier = bt_guelph_nation }
-			NOT = { has_country_modifier = bt_ghibelline_nation }
-			NOT = { has_country_modifier = bt_apathetic_guelph_or_ghibellines }
+			vu_guelph_ghibelline_drama_enabled = yes
+			NOT = { has_country_modifier = vu_guelph_nation }
+			NOT = { has_country_modifier = vu_ghibelline_nation }
+			NOT = { has_country_modifier = vu_apathetic_guelph_or_ghibellines }
 		}
 		
 		allow = {
@@ -243,31 +243,31 @@ country_decisions = {
 		
 		effect = {
 			add_country_modifier = {
-				name = "bt_ghibelline_nation"
+				name = "vu_ghibelline_nation"
 				duration = -1
 			}
 			every_known_country = {
 				limit = {
 					OR = {
 						is_emperor = yes
-						has_country_modifier = bt_ghibelline_nation
+						has_country_modifier = vu_ghibelline_nation
 					}
 				}
 				add_opinion = {
 					who = ROOT
-					modifier = bt_declared_for_ghibellines
+					modifier = vu_declared_for_ghibellines
 				}
 			}
 			every_known_country = {
 				limit = {
 					OR = {
 						tag = PAP
-						has_country_modifier = bt_guelph_nation
+						has_country_modifier = vu_guelph_nation
 					}
 				}
 				add_opinion = {
 					who = ROOT
-					modifier = bt_declared_for_ghibellines_unhappy
+					modifier = vu_declared_for_ghibellines_unhappy
 				}
 			}
 		}
@@ -284,16 +284,16 @@ country_decisions = {
 			}
 			modifier = {
 				factor = 0
-				any_ally = { has_country_modifier = bt_guelph_nation }
+				any_ally = { has_country_modifier = vu_guelph_nation }
 			}
 		}
 	}
 
-	bt_betray_the_guelphs = {
+	vu_betray_the_guelphs = {
 		potential = {
-			bt_guelph_ghibelline_drama_enabled = yes
-			has_country_modifier = bt_guelph_nation
-			NOT = { has_country_modifier = bt_traitorous_nation }
+			vu_guelph_ghibelline_drama_enabled = yes
+			has_country_modifier = vu_guelph_nation
+			NOT = { has_country_modifier = vu_traitorous_nation }
 		}
 		
 		allow = {
@@ -310,44 +310,44 @@ country_decisions = {
 		
 		effect = {
 			add_country_modifier = {
-				name = "bt_ghibelline_nation"
+				name = "vu_ghibelline_nation"
 				duration = -1
 			}
 			add_country_modifier = {
-				name = "bt_traitorous_nation"
+				name = "vu_traitorous_nation"
 				duration = 9125
 			}
-			remove_country_modifier = bt_guelph_nation
+			remove_country_modifier = vu_guelph_nation
 #Removed, wasn't working for some reason. I've rarely bothered with opinion mods and I don't have time now, so I'll figure it out later
 #			every_known_country = {
-#				limit = { has_opinion_modifier = bt_declared_for_guelphs }
+#				limit = { has_opinion_modifier = vu_declared_for_guelphs }
 #				remove_opinion = {
 #					who = ROOT
-#					modifier = bt_declared_for_guelphs
+#					modifier = vu_declared_for_guelphs
 #				}
 #			}
 			every_known_country = {
 				limit = {
 					OR = {
 						is_emperor = yes
-						has_country_modifier = bt_ghibelline_nation
+						has_country_modifier = vu_ghibelline_nation
 					}
 				}
 				add_opinion = {
 					who = ROOT
-					modifier = bt_declared_for_ghibellines
+					modifier = vu_declared_for_ghibellines
 				}
 			}
 			every_known_country = {
 				limit = {
 					OR = {
 						tag = PAP
-						has_country_modifier = bt_guelph_nation
+						has_country_modifier = vu_guelph_nation
 					}
 				}
 				add_opinion = {
 					who = ROOT
-					modifier = bt_betrayed_guelph_or_ghibellines
+					modifier = vu_betrayed_guelph_or_ghibellines
 				}
 			}
 		}
@@ -360,11 +360,11 @@ country_decisions = {
 		}
 	}
 
-	bt_betray_the_ghibellines = {
+	vu_betray_the_ghibellines = {
 		potential = {
-			bt_guelph_ghibelline_drama_enabled = yes
-			has_country_modifier = bt_ghibelline_nation
-			NOT = { has_country_modifier = bt_traitorous_nation }
+			vu_guelph_ghibelline_drama_enabled = yes
+			has_country_modifier = vu_ghibelline_nation
+			NOT = { has_country_modifier = vu_traitorous_nation }
 		}
 		
 		allow = {
@@ -381,44 +381,44 @@ country_decisions = {
 		
 		effect = {
 			add_country_modifier = {
-				name = "bt_guelph_nation"
+				name = "vu_guelph_nation"
 				duration = -1
 			}
 			add_country_modifier = {
-				name = "bt_traitorous_nation"
+				name = "vu_traitorous_nation"
 				duration = 9125
 			}
-			remove_country_modifier = bt_ghibelline_nation
+			remove_country_modifier = vu_ghibelline_nation
 #Removed, wasn't working for some reason. I've rarely bothered with opinion mods and I don't have time now, so I'll figure it out later
 #			every_known_country = {
-#				limit = { has_opinion_modifier = bt_declared_for_ghibellines }
+#				limit = { has_opinion_modifier = vu_declared_for_ghibellines }
 #				remove_opinion = {
 #					who = ROOT
-#					modifier = bt_declared_for_ghibellines
+#					modifier = vu_declared_for_ghibellines
 #				}
 #			}
 			every_known_country = {
 				limit = {
 					OR = {
 						tag = PAP
-						has_country_modifier = bt_guelph_nation
+						has_country_modifier = vu_guelph_nation
 					}
 				}
 				add_opinion = {
 					who = ROOT
-					modifier = bt_declared_for_guelphs
+					modifier = vu_declared_for_guelphs
 				}
 			}
 			every_known_country = {
 				limit = {
 					OR = {
 						is_emperor = yes
-						has_country_modifier = bt_ghibelline_nation
+						has_country_modifier = vu_ghibelline_nation
 					}
 				}
 				add_opinion = {
 					who = ROOT
-					modifier = bt_betrayed_guelph_or_ghibellines
+					modifier = vu_betrayed_guelph_or_ghibellines
 				}
 			}
 		}
@@ -431,13 +431,13 @@ country_decisions = {
 		}
 	}
 	
-	bt_abandon_guelph_ghibelline_dispute = {
+	vu_abandon_guelph_ghibelline_dispute = {
 		potential = {
 			OR = {
-				has_country_modifier = bt_guelph_nation
-				has_country_modifier = bt_ghibelline_nation
+				has_country_modifier = vu_guelph_nation
+				has_country_modifier = vu_ghibelline_nation
 			}
-			NOT = { has_country_modifier = bt_apathetic_guelph_or_ghibellines }
+			NOT = { has_country_modifier = vu_apathetic_guelph_or_ghibellines }
 		}
 		
 		allow = {
@@ -448,15 +448,15 @@ country_decisions = {
 		
 		effect = {
 			if = {
-				limit = { has_country_modifier = bt_guelph_nation }
-				remove_country_modifier = bt_guelph_nation
+				limit = { has_country_modifier = vu_guelph_nation }
+				remove_country_modifier = vu_guelph_nation
 			}
 			if = {
-				limit = { has_country_modifier = bt_ghibelline_nation }
-				remove_country_modifier = bt_ghibelline_nation
+				limit = { has_country_modifier = vu_ghibelline_nation }
+				remove_country_modifier = vu_ghibelline_nation
 			}
 			add_country_modifier = {
-				name = "bt_apathetic_guelph_or_ghibellines"
+				name = "vu_apathetic_guelph_or_ghibellines"
 				duration = 3650
 			}
 		}

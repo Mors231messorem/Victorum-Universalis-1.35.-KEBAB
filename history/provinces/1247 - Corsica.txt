@@ -29,29 +29,7 @@ discovered_by = muslim
 discovered_by = ottoman
 
 
-#Province history completed by - Draiocht
-#1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#	remove_core = XXX
-#} #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-#1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#	remove_core = XXX
-#} #End of shattered history. Please revert owner to historical and cut any fantasy cores. Also don't forget to readd any cut historical cores
-#1291.5.24 = { #BeyondTypus batch edit shortcut first performance start begins
-#	owner = XXX
-#	controller = XXX
-#	add_core = XXX
-#} #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-#1291.5.26 = { #BeyondTypus batch edit shortcut first performance start ends
-#	owner = XXX
-#	controller = XXX
-#	remove_core = XXX
-#} #Return to proper mod added owners and cuts vanilla core, typically.
+#Province history completed by - Darth Modus
 1298.1.1 = {
 	add_core = ARA
 }	#Massive infighting, civil wars, and proxy wars prompts the Pope to formally bestow the island on James II of Aragon, though the grant had little immediate effect.
@@ -65,12 +43,12 @@ discovered_by = ottoman
 	remove_core = ARA
 }	#Corsica, which is what I'm calling the de jure, lose, half subject of Aragon seperate from Genoa in western Corsica, was effectively a vassal of Aragon, so I'm cutting Aragonese core
 #Second shattering not used
-1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
+1444.11.16 = { #VictorumUniversalis batch edit shortcut no vassal start date begin
 	owner = ARA
 	controller = ARA
 	add_core = ARA
 }
-1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+1444.11.18 = { #VictorumUniversalis batch edit shortcut no vassal start date end
 	owner = COR
 	controller = COR
 	remove_core = ARA
@@ -88,7 +66,7 @@ discovered_by = ottoman
 } #Milan changes sides and conquers Genoa on behalf of France
 1481.1.1 = { revolt = { type = revolutionary_rebels size = 1 } controller = REB }
 1486.1.1 = { revolt = {} controller = MLO }
-#1495.1.1 = { hre = no }	#Shadow Kingdom. Vanilla calls Northern Italy out of the HRE by 1500, BT is going with 1648, when the Peace of Westphalia definitively ended HRE influence in Italy.
+#1495.1.1 = { hre = no }	#Shadow Kingdom. Vanilla calls Northern Italy out of the HRE by 1500, VU is going with 1648, when the Peace of Westphalia definitively ended HRE influence in Italy.
 1499.1.1 = {
 	owner = GEN
 	controller = GEN
@@ -104,7 +82,7 @@ discovered_by = ottoman
 	owner = GEN
 	controller = GEN
 	remove_core = FRA
-} # Treaty of Cateau-Cambrésis
+} # Treaty of Cateau-Cambrï¿½sis
 1729.1.1 = { unrest = 7 } # Revolt against the Genoese
 1732.5.1 = { unrest = 3 } # Charles VI sends military assistance & the rebels surrender
 1733.11.17 = { unrest = 5 } # Mistrust in the Genoese administration resulted in another Corsican revolt

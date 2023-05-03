@@ -572,7 +572,7 @@
  HRZ:0 "Hum"            #Duchy of Saint Sava
  HRZ_ADJ:0 "Humisch"          #Yup, going with this
 
- #Institution Overhauls, formerly part of Misc Addon but annexed to BT proper in 10.0 with dev doubling
+ #Institution Overhauls, formerly part of Misc Addon but annexed to VU proper in 10.0 with dev doubling
  tooltip_development_10:0 "Entwickelte Provinz (10 oder mehr)"
  tooltip_development_20:0 "Hoch entwickelte Provinz (20 oder mehr)"
  tooltip_development_5_post_1500:0 "Schwach entwickelte Provinz (5 oder mehr) nach 1500"

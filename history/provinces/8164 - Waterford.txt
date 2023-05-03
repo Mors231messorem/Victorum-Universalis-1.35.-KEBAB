@@ -39,12 +39,12 @@ discovered_by = eastern
 #1399.1.1 = { unrest = 20 } # Buildup to the Welsh Revolt
 #1400.9.16 = { revolt = { type = nationalist_rebels size = 1 } controller = REB } # The Welsh Revolt
 #1415.1.1 = { unrest = 0 revolt = {} controller = ENG } # English rule is restored
-1444.11.16 = { #BeyondTypus batch edit shortcut no vassal start date begin
+1444.11.16 = { #VictorumUniversalis batch edit shortcut no vassal start date begin
 	owner = ENG
 	controller = ENG
 	add_core = ENG
 }
-1444.11.18 = { #BeyondTypus batch edit shortcut no vassal start date end
+1444.11.18 = { #VictorumUniversalis batch edit shortcut no vassal start date end
 	owner = WLS
 	controller = WLS
 	remove_core = ENG

@@ -1,8 +1,9 @@
-########################################
-# Flavor Events for Vijayanagar
-#
-# written by Sara Wendel-Örtqvist
-########################################
+#VU updated by San Felipe for 1.35
+###################################
+# Flavor Events for Vijayanagar   #
+#                                 #
+# written by Sara Wendel-Örtqvist #
+###################################
 
 namespace = flavor_vij
 normal_or_historical_nations = yes

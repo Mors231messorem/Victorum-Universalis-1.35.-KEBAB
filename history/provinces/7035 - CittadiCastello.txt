@@ -1,11 +1,11 @@
-#BT Italy reoverhaul
+#7035 - CittadiCastello
 
 owner = CDC
 controller = CDC
 add_core = CDC
 culture = umbrian
 religion = catholic
-capital = "Città di Castello"
+capital = "Cittï¿½ di Castello"
 base_tax = 5
 base_production = 5
 base_manpower = 4
@@ -23,12 +23,12 @@ discovered_by = eastern
 #First Shattering not used
 
 #Second Shattering not used
-1444.11.16 = { #BeyondTypus batch edit shortcut second performance start begins
+1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = PAP
 	controller = PAP
 	add_core = PAP
 } #Cut all mod added tags, reverting to nearest or most logical vanilla tag owner. I think it is safe to leave cores, though.
-1444.11.18 = { #BeyondTypus batch edit shortcut second performance start ends
+1444.11.18 = { #VictorumUniversalis batch edit shortcut second performance start ends
 	owner = CDC
 	controller = CDC
 	add_core = CDC

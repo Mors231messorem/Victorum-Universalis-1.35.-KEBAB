@@ -70,7 +70,7 @@ has_river_estuary_trigger = {
 			has_province_modifier = mng_bogue_modifier
 			#VU
 			has_province_modifier = yellow_estuary_modifier
-			#Added estuaries in BT. Thanks for the note in event_modifiers Paradox! =D -Draiocht
+			#Added estuaries in VU
 			has_province_modifier = fraiser_estuary_modifier
 			has_province_modifier = yukon_estuary_modifier
 			has_province_modifier = mackenzie_estuary_modifier
@@ -177,7 +177,7 @@ has_no_river_estuary_trigger = {
 			has_province_modifier = mng_bogue_modifier
 			#VU
 			has_province_modifier = yellow_estuary_modifier
-			#Added estuaries in BT. Thanks for the note in event_modifiers Paradox! =D -Draiocht
+			#Added estuaries in VU
 			has_province_modifier = fraiser_estuary_modifier
 			has_province_modifier = yukon_estuary_modifier
 			has_province_modifier = mackenzie_estuary_modifier
@@ -237,19 +237,19 @@ province_with_special_goods_produced_trigger = {
 		has_active_triggered_province_modifier = cerro_rico_modifier
 		#VU
 		has_province_modifier = cerro_rico_modifier
-		#Added special goods in BT
+		#Added special goods in VU
 		has_province_modifier = grand_banks_of_newfoundland
-		has_province_modifier = bt_forests_of_cadore
-		has_province_modifier = bt_weaker_spice_islands_modifier
-		has_province_modifier = bt_amber_coast
-		has_province_modifier = bt_super_cows
-		has_province_modifier = bt_brauhaus_der_hansa
-		has_province_modifier = bt_kornhaus_der_hansa
-		has_province_modifier = bt_wines_of_bordeaux
-		has_province_modifier = bt_basque_whaling
-		has_province_modifier = bt_la_beauce
-		has_province_modifier = bt_mercury_of_almaden
-		has_province_modifier = bt_birthplace_lager
+		has_province_modifier = vu_forests_of_cadore
+		has_province_modifier = vu_weaker_spice_islands_modifier
+		has_province_modifier = vu_amber_coast
+		has_province_modifier = vu_super_cows
+		has_province_modifier = vu_brauhaus_der_hansa
+		has_province_modifier = vu_kornhaus_der_hansa
+		has_province_modifier = vu_wines_of_bordeaux
+		has_province_modifier = vu_basque_whaling
+		has_province_modifier = vu_la_beauce
+		has_province_modifier = vu_mercury_of_almaden
+		has_province_modifier = vu_birthplace_lager
 		province_id = 50 #Berlin #Gets Prussian Blue if held by Prussia or Prussian-cultured Germany.
 		
 	}
@@ -278,20 +278,19 @@ province_without_special_goods_produced_trigger = {
 		has_latent_trade_goods = coal
 		#VU
 		has_province_modifier = cerro_rico_modifier
-		#Added special goods in BT
+		#Added special goods in VU
 		has_province_modifier = grand_banks_of_newfoundland
-		has_province_modifier = bt_forests_of_cadore
-		has_province_modifier = bt_weaker_spice_islands_modifier
-		has_province_modifier = bt_amber_coast
-		has_province_modifier = bt_super_cows
-		has_province_modifier = bt_brauhaus_der_hansa
-		has_province_modifier = bt_kornhaus_der_hansa
-		has_province_modifier = bt_wines_of_bordeaux
-		has_province_modifier = bt_basque_whaling
-		has_province_modifier = bt_la_beauce
-		has_province_modifier = bt_mercury_of_almaden
-		#has_province_modifier = 
-		has_province_modifier = bt_birthplace_lager
+		has_province_modifier = vu_forests_of_cadore
+		has_province_modifier = vu_weaker_spice_islands_modifier
+		has_province_modifier = vu_amber_coast
+		has_province_modifier = vu_super_cows
+		has_province_modifier = vu_brauhaus_der_hansa
+		has_province_modifier = vu_kornhaus_der_hansa
+		has_province_modifier = vu_wines_of_bordeaux
+		has_province_modifier = vu_basque_whaling
+		has_province_modifier = vu_la_beauce
+		has_province_modifier = vu_mercury_of_almaden
+		has_province_modifier = vu_birthplace_lager
 		province_id = 50 #Berlin #Gets Prussian Blue if held by Prussia or Prussian-cultured Germany.
 	}
 }

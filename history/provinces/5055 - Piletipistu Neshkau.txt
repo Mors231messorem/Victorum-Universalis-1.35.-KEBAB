@@ -1,8 +1,8 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 culture = innu					# 
 religion = totemism 
-capital = "Piletipistu Neshkâu" 				
+capital = "Piletipistu Neshkï¿½u" 				
 trade_goods = unknown
 hre = no 
 base_tax = 1

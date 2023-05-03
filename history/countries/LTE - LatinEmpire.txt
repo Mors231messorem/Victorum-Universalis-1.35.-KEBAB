@@ -9,7 +9,7 @@ historical_friend = VEN
 capital = 151 # Constantinople
 fixed_capital = 151 # Cannot move capital away from this province & no power cost to move to it
 
-#Below follows history for the Latin Empire, in case it is that Draiocht goes back in time, so I did it for him.
+#Below follows history for the Latin Empire, in case it is that Darth Modus goes back in time, so I did it for him.
 #Hopefully it is as complete as it could possibly be.
 
 1204.5.9 = { #Began reign the 9th, coronated the 16th

@@ -1,11 +1,10 @@
-namespace = BtPLegacyCRsSEAFlavour
-#This is Cinnamon Ryce's work for South East Asia.
+namespace = VULegacyCRsSEAFlavour
 
 #Portuguese Envoys in Ayutthaya
 country_event = {
-	id = BtPLegacyCRsSEAFlavour.1
-	title = "BtPLegacyCRsSEAFlavour.1.t"
-	desc = "BtPLegacyCRsSEAFlavour.1.d"
+	id = VULegacyCRsSEAFlavour.1
+	title = "VULegacyCRsSEAFlavour.1.t"
+	desc = "VULegacyCRsSEAFlavour.1.d"
 	picture = DIPLOMACY_eventPicture
 	
 	fire_only_once = yes
@@ -22,7 +21,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "BtPLegacyCRsSEAFlavour.1.a" #Honor to our new friends!
+		name = "VULegacyCRsSEAFlavour.1.a" #Honor to our new friends!
 		POR = {
 			add_opinion = {
 				who = ROOT
@@ -41,7 +40,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "BtPLegacyCRsSEAFlavour.1.b" #They have no place in Malacca
+		name = "VULegacyCRsSEAFlavour.1.b" #They have no place in Malacca
 		POR = {
 			add_opinion = {
 				who = ROOT
@@ -53,9 +52,9 @@ country_event = {
 
 #Return of the Uthong Clan
 country_event = {
-	id = BtPLegacyCRsSEAFlavour.2
-	title = "BtPLegacyCRsSEAFlavour.2.t"
-	desc = "BtPLegacyCRsSEAFlavour.2.d"
+	id = VULegacyCRsSEAFlavour.2
+	title = "VULegacyCRsSEAFlavour.2.t"
+	desc = "VULegacyCRsSEAFlavour.2.d"
 	picture = COURT_eventPicture
 	
 	fire_only_once = yes
@@ -70,7 +69,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "BtPLegacyCRsSEAFlavour.2.a" #Uthong has finally been restored
+		name = "VULegacyCRsSEAFlavour.2.a" #Uthong has finally been restored
 		if = {
 			limit = {
 				has_heir = yes
@@ -120,7 +119,7 @@ country_event = {
 	}
 
 	option = {
-		name = "BtPLegacyCRsSEAFlavour.2.b" #Rally the clans, Uthong cannot rule!
+		name = "VULegacyCRsSEAFlavour.2.b" #Rally the clans, Uthong cannot rule!
 		if = {
 			limit = {
 				has_heir = yes
@@ -161,9 +160,9 @@ country_event = {
 
 #The Capture of Malacca
 country_event = {
-	id = BtPLegacyCRsSEAFlavour.4
-	title = "BtPLegacyCRsSEAFlavour.4.t"
-	desc = "BtPLegacyCRsSEAFlavour.4.d"
+	id = VULegacyCRsSEAFlavour.4
+	title = "VULegacyCRsSEAFlavour.4.t"
+	desc = "VULegacyCRsSEAFlavour.4.d"
 	picture = SIEGE_eventPicture
 
 	fire_only_once = yes	
@@ -192,7 +191,7 @@ country_event = {
 	
 
 	option = {
-		name = "BtPLegacyCRsSEAFlavour.4.a" #Sack the city!
+		name = "VULegacyCRsSEAFlavour.4.a" #Sack the city!
 		ai_chance = {
 			factor = 0.5
 		}
@@ -201,7 +200,7 @@ country_event = {
 	}
 
 	option = {
-		name = "BtPLegacyCRsSEAFlavour.4.b" #Just demand the return of our men
+		name = "VULegacyCRsSEAFlavour.4.b" #Just demand the return of our men
 		ai_chance = {
 			factor = 0
 			modifier = {
@@ -215,9 +214,9 @@ country_event = {
 
 #The Loss of Malacca
 country_event = {
-	id = BtPLegacyCRsSEAFlavour.5
-	title = "BtPLegacyCRsSEAFlavour.5.t"
-	desc = "BtPLegacyCRsSEAFlavour.5.d"
+	id = VULegacyCRsSEAFlavour.5
+	title = "VULegacyCRsSEAFlavour.5.t"
+	desc = "VULegacyCRsSEAFlavour.5.d"
 	picture = COUNTRY_COLLAPSE_eventPicture
 	
 	fire_only_once = yes
@@ -235,7 +234,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "BtPLegacyCRsSEAFlavour.5.a" #These are dark times
+		name = "VULegacyCRsSEAFlavour.5.a" #These are dark times
 		trigger = {
 			owns = 597
 		}
@@ -248,7 +247,7 @@ country_event = {
 		}
         }
 	option = {
-		name = "BtPLegacyCRsSEAFlavour.5.b" #We will hold onto our empire!
+		name = "VULegacyCRsSEAFlavour.5.b" #We will hold onto our empire!
 		add_prestige = -100
                 add_legitimacy = -100
 		add_stability = -1
@@ -280,9 +279,9 @@ country_event = {
 
 #The Luchuan-Pingmian Campaigns
 country_event = {
-	id = BtPLegacyCRsSEAFlavour.6
-	title = "BtPLegacyCRsSEAFlavour.6.t"
-	desc = "BtPLegacyCRsSEAFlavour.6.d"
+	id = VULegacyCRsSEAFlavour.6
+	title = "VULegacyCRsSEAFlavour.6.t"
+	desc = "VULegacyCRsSEAFlavour.6.d"
 	picture = BATTLE_eventPicture
 
 	fire_only_once = yes	
@@ -300,7 +299,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "BtPLegacyCRsSEAFlavour.6.a" #Their banditry ends now!
+		name = "VULegacyCRsSEAFlavour.6.a" #Their banditry ends now!
 		add_casus_belli = {	
 			target = MMA
 			type = cb_border_war
@@ -308,7 +307,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = BtPLegacyCRsSEAFlavour.6.b #We cannot afford any more losses
+		name = VULegacyCRsSEAFlavour.6.b #We cannot afford any more losses
 		ai_chance = {
 			factor = 0
 		}
@@ -318,9 +317,9 @@ country_event = {
 
 #The Fall of Mong Mao
 country_event = {
-	id = BtPLegacyCRsSEAFlavour.7
-	title = "BtPLegacyCRsSEAFlavour.7.t"
-	desc = "BtPLegacyCRsSEAFlavour.7.d"
+	id = VULegacyCRsSEAFlavour.7
+	title = "VULegacyCRsSEAFlavour.7.t"
+	desc = "VULegacyCRsSEAFlavour.7.d"
 	picture = BATTLE_eventPicture
 
 	fire_only_once = yes	
@@ -350,7 +349,7 @@ country_event = {
 	
 
 	option = {
-		name = "BtPLegacyCRsSEAFlavour.7.a" #We stand triumphant!
+		name = "VULegacyCRsSEAFlavour.7.a" #We stand triumphant!
 		MMA = { release = MKA release = MYA }
         2166 = { cede_province = ROOT }
 		hidden_effect = {
@@ -360,7 +359,7 @@ country_event = {
 	}
 
 	option = {
-		name = BtPLegacyCRsSEAFlavour.7.b #We are not finished with this war
+		name = VULegacyCRsSEAFlavour.7.b #We are not finished with this war
 		ai_chance = {
 			factor = 0
 		}
@@ -370,9 +369,9 @@ country_event = {
 
 #Sickness of the King
 country_event = {
-	id = BtPLegacyCRsSEAFlavour.8
-	title = BtPLegacyCRsSEAFlavour.8.t
-	desc = BtPLegacyCRsSEAFlavour.8.d
+	id = VULegacyCRsSEAFlavour.8
+	title = VULegacyCRsSEAFlavour.8.t
+	desc = VULegacyCRsSEAFlavour.8.d
 	picture = COURT_eventPicture
 	
 	trigger = {
@@ -385,7 +384,7 @@ country_event = {
 	}
 	
 	option = {
-		name = BtPLegacyCRsSEAFlavour.8.a #Accept the merchant's offer, convert
+		name = VULegacyCRsSEAFlavour.8.a #Accept the merchant's offer, convert
 		ai_chance = {
 			factor = 1
 		}
@@ -396,7 +395,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = BtPLegacyCRsSEAFlavour.8.b #Don't accept the merchant's offer
+		name = VULegacyCRsSEAFlavour.8.b #Don't accept the merchant's offer
 		ai_chance = {
 			factor = 0
 		}

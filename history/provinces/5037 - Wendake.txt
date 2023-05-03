@@ -1,4 +1,4 @@
-# No previous file for Beyond Typus province
+# No previous file for Victorum Universalis province
 
 owner = HUR
 controller = HUR
@@ -6,10 +6,10 @@ add_core = HUR
 is_city = yes
 culture = huron
 religion = totemism 
-capital = "Ossossané" #Capital of the Confederacy
+capital = "Ossossanï¿½" #Capital of the Confederacy
 trade_goods = tobacco
 hre = no 
-base_tax = 3		#QUOTE The Huron capital, Ossossané, was at one time the largest aboriginal settlement in all of North America outside of Mexico ENDQUOTE citation needed conflicting information found doing compromise for now
+base_tax = 3		#QUOTE The Huron capital, Ossossanï¿½, was at one time the largest aboriginal settlement in all of North America outside of Mexico ENDQUOTE citation needed conflicting information found doing compromise for now
 base_production = 2
 base_manpower = 2
 native_size = 30
@@ -21,7 +21,7 @@ native_hostileness = 3
 discovered_by = north_american
 
 
-1611.6.13 = { discovered_by = FRA } # Samuel de Champlain via Étienne Brûlé
+1611.6.13 = { discovered_by = FRA } # Samuel de Champlain via ï¿½tienne Brï¿½lï¿½
 
 1649.1.1 = {
  	owner = IRO

@@ -26,7 +26,7 @@ country_decisions = {
 			is_at_war = no
 			stability = -2
 			custom_trigger_tooltip = {
-				tooltip = tooltip_bt_marcharid_of_brittany_is_alive
+				tooltip = tooltip_vu_marcharid_of_brittany_is_alive
 				is_year = 1443
 				NOT = { is_year = 1469 }
 			}

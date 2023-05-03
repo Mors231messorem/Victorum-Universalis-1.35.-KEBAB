@@ -27,14 +27,14 @@ discovered_by = eastern
 discovered_by = western
 
 
-#Province history completed by - Draiocht
-1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
+#Province history completed by - Darth Modus
+1291.5.21 = { #VictorumUniversalis batch edit shortcut the first shattering begins
 	owner = FIN
 	controller = FIN
 	remove_core = SWE
 	add_local_autonomy = -50
 } #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
+1291.5.23 = { #VictorumUniversalis batch edit shortcut the first shattering ends
 	owner = SWE
 	controller = SWE
 	add_core = SWE
@@ -44,13 +44,13 @@ discovered_by = western
 
 #1291 - 1444
 
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = FIN
 	controller = FIN
 	remove_core = SWE
 	add_local_autonomy = -50
 } #Fantasy/alt-history tags for gameplay & multiplayer balance in SE. Please also remember to cut any cores from original larger tags then readd below.
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
 	owner = SWE
 	controller = SWE
 	add_core = SWE
@@ -60,9 +60,9 @@ discovered_by = western
 
 #1444 on
 1527.6.1 = { religion = protestant }
-1605.4.8 = { capital = "Uleåborg" }
+1605.4.8 = { capital = "Uleï¿½borg" }
 1742.11.5 = { controller = RUS } # The War of the Hats-Estimated date
-1743.8.7 = { controller = SWE } # The Peace of Åbo
+1743.8.7 = { controller = SWE } # The Peace of ï¿½bo
 1808.9.14 = { controller = RUS } # The Swedish forces are defeated at the battle Oravais
 1809.9.17 = {
 	owner = RUS

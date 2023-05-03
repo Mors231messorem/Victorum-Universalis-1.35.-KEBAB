@@ -119,7 +119,7 @@ march = {
 	end_date = 1830.1.1
 }
 
-#BT cut. Giving the land directly to the Ottomans early on.
+#VU cut. Giving the land directly to the Ottomans early on.
 # Turgut Reis in Djerba
 #march = {
 #	first = TUR

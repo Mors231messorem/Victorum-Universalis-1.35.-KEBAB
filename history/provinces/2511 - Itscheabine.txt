@@ -3,7 +3,7 @@
 is_city = no
 culture = crow_culture
 religion = totemism
-capital = "Mirixubáash"
+capital = "Mirixubï¿½ash"
 trade_goods = unknown
 hre = no
 base_tax = 1 
@@ -16,14 +16,14 @@ native_hostileness = 3
 discovered_by = north_american
 
 
-1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+1444.11.12 = { #VictorumUniversalis batch edit shortcut native start date begin
 	owner = HDS			#Hidatsa tag
 	controller = HDS
 	add_core = HDS
 	is_city = yes
 	trade_goods = grain
 }
-1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+1444.11.14 = { #VictorumUniversalis batch edit shortcut native start date end
 	owner = XXX
 	controller = XXX
 	remove_core = HDS
@@ -40,7 +40,7 @@ discovered_by = north_american
 	owner = ASI
 	controller = ASI
 	add_core = ASI
-	capital = "Bdewékhangthungwang"			#Where did I find this, anyway? Ah well, look into it later.
+	capital = "Bdewï¿½khangthungwang"			#Where did I find this, anyway? Ah well, look into it later.
 } #Great Plain tribes spread over vast territories
 
 1811.1.1 = {

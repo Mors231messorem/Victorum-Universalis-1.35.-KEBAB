@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudal_monarchy #Placeholder for now until somebody comes along and makes them a brand new T1 that fits their situation.
-#I have no idea what Draiocht was thinking when he made them a peasant republic. >.>
+#I have no idea what Darth Modus was thinking when he made them a peasant republic. >.>
 #add_government_reform = peasants_republic			#Not exactly... but whatever
 government_rank = 1
 primary_culture = catalan

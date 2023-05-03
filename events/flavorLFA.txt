@@ -1,8 +1,9 @@
-#################################################
-# Flavor Events for the Lanfang Republic
-#
-# written by Veronica Pazos
-#################################################
+#VU updated by San Felipe for 1.35
+##########################################
+# Flavor Events for the Lanfang Republic #
+#                                        #
+# written by Veronica Pazos              #
+##########################################
 
 namespace = flavor_lfa
 normal_or_historical_nations = yes
@@ -24,8 +25,8 @@ country_event = {
 					is_capital = no
 					NOT = { trade_goods = gold }
 					OR = {
-						area = kalimantan_area
 						area = brunei_area
+						area = kalimantan_area
 					}
 				}
 				save_event_target_as = lfa_gold_province
@@ -38,8 +39,8 @@ country_event = {
 		any_owned_province = {
 			is_capital = no
 			OR = {
-				area = kalimantan_area
 				area = brunei_area
+				area = kalimantan_area
 			}
 			NOT = { trade_goods = gold }
 		}

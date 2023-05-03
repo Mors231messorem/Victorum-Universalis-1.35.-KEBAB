@@ -1,4 +1,4 @@
-#BT Italy reoverhaul
+#7036 - Faligno
 
 owner = PGA
 controller = PGA
@@ -24,25 +24,25 @@ discovered_by = eastern
 #	duration = -1
 #}
 
-#Province history completed by - Nikicaga & Draiocht
-1291.5.21 = { #BeyondTypus batch edit shortcut the first shattering begins
+#Province history completed by - Nikicaga & Darth Modus
+1291.5.21 = { #VictorumUniversalis batch edit shortcut the first shattering begins
 	owner = FLG
 	controller = FLG
 	remove_core = PGA
 }
-1291.5.23 = { #BeyondTypus batch edit shortcut the first shattering ends
+1291.5.23 = { #VictorumUniversalis batch edit shortcut the first shattering ends
 	owner = PGA
 	controller = PGA
 	add_core = PGA
 }
-1291.5.24 = { #BeyondTypus batch edit shortcut first performance start begins
+1291.5.24 = { #VictorumUniversalis batch edit shortcut first performance start begins
 	owner = PAP
 	controller = PAP
 	add_core = PAP
 	remove_core = PGA
 	remove_core = FLG
 }
-1291.5.26 = { #BeyondTypus batch edit shortcut first performance start ends
+1291.5.26 = { #VictorumUniversalis batch edit shortcut first performance start ends
 	owner = PGA
 	controller = PGA
 	remove_core = PAP
@@ -67,13 +67,13 @@ discovered_by = eastern
     base_production = 4
     base_manpower = 2
 } # Sacked by the Papal States and fully annexed after rebellion
-1444.11.13 = { #BeyondTypus batch edit shortcut the second shattering begins
+1444.11.13 = { #VictorumUniversalis batch edit shortcut the second shattering begins
 	owner = FLG
 	controller = FLG
 	add_core = FLG
 	remove_core = PAP
 }
-1444.11.15 = { #BeyondTypus batch edit shortcut the second shattering ends
+1444.11.15 = { #VictorumUniversalis batch edit shortcut the second shattering ends
 	owner = PAP
 	controller = PAP
 	remove_core = FLG

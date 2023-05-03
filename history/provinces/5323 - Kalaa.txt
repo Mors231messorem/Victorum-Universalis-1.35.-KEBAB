@@ -1,11 +1,11 @@
-#New Beyond Typus Province
+#New Victorum Universalis Province
 
 owner = TUN
 controller = TUN
 add_core = TUN
 culture = kabylian
 religion = sunni
-capital = "Kalâa"
+capital = "Kalï¿½a"
 trade_goods = naval_supplies
 hre = no
 base_tax = 5

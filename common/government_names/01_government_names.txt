@@ -1,3 +1,4 @@
+#VU updated by San Felipe for 1.35
 # For specific government types
 # Will pick the first valid one it finds in list
 
@@ -685,7 +686,7 @@ ikko_ikki_peasants = {
 	}
 
 	trigger = {
-		has_reform = ikko_ikki_republic_reform									
+		has_reform = ikko_ikki_republic_reform
 		OR = {
 			religion_group = eastern
 			culture_group = japanese_g

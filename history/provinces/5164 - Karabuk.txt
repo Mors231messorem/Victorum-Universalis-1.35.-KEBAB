@@ -1,11 +1,11 @@
-# No previous file for Beyond Typus or Beyond the Pale Legacy province
+# No previous file for Victorum Universalis or Beyond the Pale Legacy province
 
 owner = CND
 controller = CND
 add_core = CND
 culture = turkish
 religion = sunni
-capital = "Karabük"
+capital = "Karabï¿½k"
 trade_goods = cheese
 hre = no
 base_tax = 2 

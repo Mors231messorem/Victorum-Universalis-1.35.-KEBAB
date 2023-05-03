@@ -2464,7 +2464,7 @@ country_event = {
 					amount = 2
 				}
 			}
-			custom_tooltip = flavor_mal.36.a.bt
+			custom_tooltip = flavor_mal.36.a.vu
 			hidden_effect = {
 				every_country = {
 					limit = {

@@ -36,11 +36,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_great_project_st_basils_cathedral"
-		texturefile = "gfx//interface//great_projects//great_project_st_basils_cathedral.dds"
-	}
-
-	spriteType = {
 		name = "GFX_great_project_peter_and_paul_fortress"
 		texturefile = "gfx//interface//great_projects//great_project_peter_and_paul_fortress.dds"
 	}
@@ -83,11 +78,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_great_project_amalienborg"
 		texturefile = "gfx//interface//great_projects//great_project_amalienborg.dds"
-	}
-
-	spriteType = {
-		name = "GFX_great_project_edinburgh_castle"
-		texturefile = "gfx//interface//great_projects//great_project_edinburgh_castle.dds"
 	}
 
 	spriteType = {

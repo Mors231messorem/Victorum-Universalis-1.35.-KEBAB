@@ -1,4 +1,4 @@
-#New Beyond Typus Province
+#New Victorum Universalis Province
 
 latent_trade_goods = {
 	coal
@@ -11,7 +11,7 @@ trade_goods = unknown
 base_manpower = 1
 base_tax = 1
 base_production = 1
-capital = "Bahásaba "		 #Havre in Assiniboine... slightly offensive I suppose, not to mention anachronistic, but Piegan dictionaries, place name maps, and websites leave much to be desired.
+capital = "Bahï¿½saba "		 #Havre in Assiniboine... slightly offensive I suppose, not to mention anachronistic, but Piegan dictionaries, place name maps, and websites leave much to be desired.
 native_size = 10
 native_ferocity = 3
 native_hostileness = 5

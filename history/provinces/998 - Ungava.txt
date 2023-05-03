@@ -23,14 +23,14 @@ discovered_by = north_american
 #    duration = -1
 #}
 
-#1444.11.12 = { #BeyondTypus batch edit shortcut native start date begin
+#1444.11.12 = { #VictorumUniversalis batch edit shortcut native start date begin
 #	owner = NVT			#Inuit 3
 #	controller = NVT
 #	add_core = NVT
 #	is_city = yes
 #	trade_goods = fish
 #}
-#1444.11.14 = { #BeyondTypus batch edit shortcut native start date end
+#1444.11.14 = { #VictorumUniversalis batch edit shortcut native start date end
 #	owner = XXX
 #	controller = XXX
 #	remove_core = NVT

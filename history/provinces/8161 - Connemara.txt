@@ -30,13 +30,13 @@ discovered_by = eastern
 	capital = "Eanach Dhúin"
 }
 
-1444.11.16 = { #BT Performance Start Begin
+1444.11.16 = { #VU Performance Start Begin
 	owner = GLW
 	controller = GLW
 	add_core = GLW
 	remove_core = WCO
 }
-1444.11.18 = { #BT Performance Start Begin
+1444.11.18 = { #VU Performance Start Begin
 	owner = WCO
 	controller = WCO
 	add_core = WCO

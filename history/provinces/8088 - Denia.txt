@@ -6,7 +6,7 @@ add_core = ARA
 add_core = VAL
 culture = catalan
 religion = catholic
-capital = "Dénia"
+capital = "Dï¿½nia"
 base_tax = 3
 base_production = 3
 base_manpower = 2
@@ -20,6 +20,6 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#Province history completed by - Draiocht
+#Province history completed by - Darth Modus
 
 #1444 on
