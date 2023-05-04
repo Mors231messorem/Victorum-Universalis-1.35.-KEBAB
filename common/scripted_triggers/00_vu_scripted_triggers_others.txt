@@ -4127,7 +4127,7 @@ vu_generic_can_form_potential_check = {
 	NOT = { was_tag = BYZ }
 	NOT = { was_tag = ROM }
 	NOT = { was_tag = HLR }
-	NOT = { was_tag = RUM }
+	NOT = { was_tag = RMM }
 	NOT = { was_tag = QNG }
 	NOT = { was_tag = RUS }
 	NOT = { was_tag = TZR }
@@ -4158,7 +4158,7 @@ vu_generic_can_form_potential_check = {
 	NOT = { tag = BYZ }
 	NOT = { tag = ROM }
 	NOT = { tag = HLR }
-	NOT = { tag = RUM }
+	NOT = { tag = RMM }
 	NOT = { tag = QNG }
 	NOT = { tag = RUS }
 	NOT = { tag = TZR }

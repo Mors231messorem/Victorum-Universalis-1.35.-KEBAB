@@ -7988,7 +7988,7 @@ CAT_ideas = {
  
     trigger = {
 		OR = {
-			tag = CAT
+			tag = CTT
 			tag = VAL
 			tag = MJO
 		}
@@ -12747,7 +12747,7 @@ RUM_ideas = {
 		land_forcelimit_modifier = 0.25
 	}
 	trigger = {
-		tag = RUM
+		tag = RMM
 	}
 	free = yes
 	

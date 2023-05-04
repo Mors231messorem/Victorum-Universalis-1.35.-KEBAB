@@ -1,5 +1,9 @@
 ﻿l_english:
  #VU tags
+ RMM:0 "Rûm"
+ RMM_ADJ:0 "Rûmi"
+ CTT:0 "Catalonia"
+ CTT_ADJ:0 "Catalonian"
  ABT:0 "Albret"
  ABT_ADJ:0 "Albretan"
  POI:0 "Poitou"
