@@ -522,7 +522,7 @@ was_never_end_game_tag_trigger = {	#Country Scope
 		    	NOT = { was_tag = BYZ }
 		    	NOT = { was_tag = ROM }
 		    	NOT = { was_tag = HLR }
-		    	NOT = { was_tag = RUM }
+		    	NOT = { was_tag = RMM }
 		    	NOT = { was_tag = QNG }
 		    	NOT = { was_tag = RUS }
 		    	NOT = { was_tag = TZR }
@@ -566,7 +566,7 @@ was_never_end_game_tag_trigger = {	#Country Scope
 		    	NOT = { tag = BYZ }
 		    	NOT = { tag = ROM }
 		    	NOT = { tag = HLR }
-		    	NOT = { tag = RUM }
+		    	NOT = { tag = RMM }
 		    	NOT = { tag = QNG }
 		    	NOT = { tag = RUS }
 		    	#Start of VU additions by San Felipe
@@ -3231,7 +3231,7 @@ has_strong_mil_national_ideas = {
 			tag = SCA
 			tag = GBR
 			tag = NED
-			tag = RUM
+			tag = RMM
 			tag = MAM
 			tag = ZIM
 			tag = ZUL

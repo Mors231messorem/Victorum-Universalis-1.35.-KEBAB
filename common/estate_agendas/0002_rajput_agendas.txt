@@ -775,8 +775,8 @@ estate_rajput_convert_province_culture = {
 			limit = {
 				has_estate_agenda_auto_completion = {
 					estate = estate_rajput
-									  
-	  
+
+
 				}
 			}
 			has_estate_agenda_auto_completion = {
@@ -1092,9 +1092,9 @@ estate_rajput_vassalise_vulnerable_country = {
 		any_neighbor_country = {
 			NOT = { has_reform = free_city }
 			is_free_or_tributary_trigger = yes
-				   
-										
-	
+
+
+
 			OR = {
 				NOT = { num_of_cities = 4 }
 				NOT = { total_development = 100 }
@@ -1164,9 +1164,9 @@ estate_rajput_vassalise_vulnerable_country = {
 			limit = {
 				NOT = { has_reform = free_city }
 				is_free_or_tributary_trigger = yes
-					
-										 
-	 
+
+
+
 				OR = {
 					NOT = { num_of_cities = 4 }
 					NOT = { total_development = 100 }
@@ -1247,10 +1247,10 @@ estate_rajput_vassalise_vulnerable_country = {
 	fail_if = {
 		OR = {
 			is_subject_other_than_tributary_trigger = yes
-					
-								  
-												  
-	
+
+
+
+
 			event_target:agenda_country = {
 				NOT = { num_of_cities = 1 }
 			}
@@ -1312,7 +1312,7 @@ estate_rajput_expand_into_x = {
 			NOT = { overlord_of = root }
 			NOT = { alliance_with = root }
 			NOT = { ROOT = { truce_with = prev } }
-			NOT = { 
+			NOT = {
 				has_opinion = {
 					who = root
 					value = 25
@@ -1391,7 +1391,7 @@ estate_rajput_expand_into_x = {
 				NOT = { overlord_of = root }
 				NOT = { alliance_with = root }
 				NOT = { ROOT = { truce_with = prev } }
-				NOT = { 
+				NOT = {
 					has_opinion = {
 						who = root
 						value = 25
@@ -1571,7 +1571,7 @@ estate_rajput_complete_conquest_of_x = {
 			NOT = { overlord_of = root }
 			NOT = { alliance_with = root }
 			NOT = { ROOT = { truce_with = prev } }
-			NOT = { 
+			NOT = {
 				has_opinion = {
 					who = root
 					value = 25
@@ -1655,7 +1655,7 @@ estate_rajput_complete_conquest_of_x = {
 				NOT = { overlord_of = root }
 				NOT = { alliance_with = root }
 				NOT = { ROOT = { truce_with = prev } }
-				NOT = { 
+				NOT = {
 					has_opinion = {
 						who = root
 						value = 25
@@ -2236,19 +2236,12 @@ estate_rajput_build_up_manpower_reserves = {
 			limit = {
 				has_estate_agenda_auto_completion = {
 					estate = estate_rajput
-			  
+
 				}
 			}
 			has_estate_agenda_auto_completion = {
-   
-			 
-			
-					  
 				estate = estate_rajput
-			  
-	 
 			}
-							 
 		}
 		else = {
 			if = {
@@ -2338,7 +2331,7 @@ estate_rajput_recover_abysmal_prestige = {
 			limit = {
 				has_estate_agenda_auto_completion = {
 					estate = estate_rajput
-			  
+
 				}
 			}
 			has_estate_agenda_auto_completion = {
@@ -2438,19 +2431,19 @@ estate_rajput_improve_prestige = {
 			limit = {
 				has_estate_agenda_auto_completion = {
 					estate = estate_rajput
-			  
+
 				}
 			}
 			has_estate_agenda_auto_completion = {
-   
-			 
-			
-					  
+
+
+
+
 				estate = estate_rajput
-			  
-	 
+
+
 			}
-				
+
 		}
 		else = {
 			if = {
@@ -2497,4 +2490,3 @@ estate_rajput_improve_prestige = {
         }
     }
 }
-

@@ -995,7 +995,7 @@ ottoman_government = {
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
-				tag = RUM
+				tag = RMM
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
@@ -1951,7 +1951,7 @@ sultanate_of_rum_reform = {
 		religion_group = muslim
 		OR = {
 			AND = {
-				tag = RUM
+				tag = RMM
 				NOT = { map_setup = map_setup_random }
 			}
 			AND = {
@@ -6374,7 +6374,7 @@ nizam_i_cedid_reform = {
 		has_dlc = "Domination"
 		OR = {
 			tag = TUR
-			tag = RUM
+			tag = RMM
 			has_reform = nizam_i_cedid_reform
 		}
 	}

@@ -198,7 +198,6 @@ DTT = "countries/Dithmarschen.txt"
 #Spain
 ARA	= "countries/Aragon.txt"
 CAS	= "countries/Castille.txt"
-CAT	= "countries/Catalunya.txt"
 GRA	= "countries/Granada.txt"
 NAV	= "countries/Navarra.txt"
 POR	= "countries/Portugal.txt"
@@ -322,7 +321,6 @@ MLK = "countries/Kashen.txt"
 SME = "countries/Samtskhe.txt"
 ARL = "countries/Ardabil.txt"
 MSY = "countries/Mushashaiyyah.txt"
-RUM = "countries/Rum.txt"
 	
 #Maghreb
 ALG	= "countries/Algiers.txt"
@@ -1100,3 +1098,7 @@ ISR = "countries/Israel.txt"
 #ISR = countries/Israel.txt
 #TEM = countries/KnightsTemplar.txt
 #TRL = countries/Trapalanda.txt
+
+#VU Removed Tags in 1.35
+#RUM = "countries/Rum.txt"
+#CAT	= "countries/Catalunya.txt"

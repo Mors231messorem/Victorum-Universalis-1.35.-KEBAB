@@ -13,7 +13,7 @@
 
 #New 1.23 - Conflicts ANZ (more or less same tag as VU), MHR (same exact tag as VU), FRS, YZD. Conflicts resolved.
 #ANZ DAW FAD HDR MDA MFL MHR NAJ NJR RAS YAS YEM HSN BTL MLK
-#SME ARL MSY RUM TRS KRY LRI SIS BPI FRS KRM YZD ISF TBR BSR MGR QOM
+#SME ARL MSY TRS KRY LRI SIS BPI FRS KRM YZD ISF TBR BSR MGR QOM
 
 #New 1.24 - Conflict MAS. Conlicts resolved
 #Bunch of them.
@@ -38,9 +38,16 @@
 #New 1.3.4 notes from Mellstrom
 RED = "countries/SussyPirates.txt"
 
+#VU 1.35 - Bugged Tags
+#CAT
+#RUM
+
 ##########
 # Europe #
 ##########
+
+#VU - Anatolia
+RMM = "countries/RumVU.txt"
 
 #VU - Balkans
 BDN = "countries/Vidin.txt"
@@ -244,6 +251,7 @@ JAE = "countries/Jaen.txt"
 MUR = "countries/Murcia.txt"
 SVL = "countries/Seville.txt"
 TLD = "countries/Toledo.txt"
+CTT = "countries/CatalunyaVU.txt"
 
 #VU - Must remember to look at this again later.
 BBS = "countries/Bourbon_Spain_BBS.txt"

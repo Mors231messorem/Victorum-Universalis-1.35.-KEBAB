@@ -959,7 +959,7 @@ CAS = {
 
 
 # Catalunya
-CAT = {
+CTT = {
     color1= { 213 132 76  }
     color2= { 183 176 194  }
     color3= { 137 183 124  }
