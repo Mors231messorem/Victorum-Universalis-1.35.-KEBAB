@@ -4,7 +4,7 @@ country_decisions = {
 		potential = {
 			OR = {
 				tag = TUR
-				tag = RUM
+				tag = RMM
 			}
 			owns = 151
 			NOT = { capital = 151 }

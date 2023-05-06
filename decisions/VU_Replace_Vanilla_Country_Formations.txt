@@ -4117,7 +4117,7 @@ country_decisions = {
 							has_dlc = "Golden Century"
 							OR = {
 								tag = ARA
-								tag = CAT
+								tag = CTT
 								tag = VAL
 							}
 						}
@@ -4289,7 +4289,7 @@ country_decisions = {
 		do_not_integrate = ARA
 		do_not_integrate = LON
 		do_not_integrate = GAL
-		do_not_integrate = CAT
+		do_not_integrate = CTT
 		do_not_integrate = NAV
 		do_not_integrate = MJO
 		do_not_integrate = VAL

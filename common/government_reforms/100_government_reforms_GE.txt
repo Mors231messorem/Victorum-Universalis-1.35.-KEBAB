@@ -115,7 +115,7 @@
 	#	potential = {
 	#		primary_culture = turkish
 	#		NOT = { tag = TUR }
-	#		NOT = { tag = RUM }
+	#		NOT = { tag = RMM }
 	#	}
 	#	trigger = {
 	#		primary_culture = turkish

@@ -4,7 +4,7 @@
 
 owner = ARA
 controller = ARA
-add_core = CAT
+add_core = CTT
 capital = "Perpignan"
 is_city = yes
 culture = catalan

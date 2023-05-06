@@ -15,7 +15,7 @@ country_decisions = {
 				ai = no
 			}
 			NOT = { tag = TUR }
-			NOT = { exists = RUM }
+			NOT = { exists = RMM }
 			NOT = { tag = HLR }
 			NOT = { tag = PAP }
 			NOT = { tag = BYZ }
@@ -56,7 +56,7 @@ country_decisions = {
 			is_subject = no #Cannot even be a tributary
 			is_nomad = no
 			religion_group = muslim
-			NOT = { exists = RUM }
+			NOT = { exists = RMM }
 			NOT = { exists = TUR }
 			NOT = { exists = BYZ }
 			owns_core_province = 151		# Constantinople
@@ -69,7 +69,7 @@ country_decisions = {
 			owns_core_province = 4312		# Eskeshehir
 		}
 		effect = {
-			change_tag = RUM
+			change_tag = RMM
 			on_change_tag_effect = yes
 			restore_country_name = yes
 			if = {
@@ -99,7 +99,7 @@ country_decisions = {
 					NOT = { owned_by = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_permanent_claim = RUM
+				add_permanent_claim = RMM
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"

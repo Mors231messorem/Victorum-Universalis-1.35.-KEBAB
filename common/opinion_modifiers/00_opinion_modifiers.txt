@@ -1429,9 +1429,9 @@ allows_the_patriarchate = {
 }
 
 closed_down_the_patriarchate = {
-	opinion = -100
-	years = 50
-	yearly_decay = 2
+	opinion = -50
+	years = 25
+	yearly_decay = 2.5
 }
 
 por_portuguese_privateers = {
@@ -1951,8 +1951,8 @@ opinion_annex_part_of_empire = {
 
 opinion_annex_vassal = {
 	opinion = -30
-	years = 20
-	yearly_decay = 1
+	years = 15
+	yearly_decay = 5
 }
 
 opinion_denying_the_holy_mother = {
@@ -5194,6 +5194,12 @@ eng_reconcilation_with_the_holy_see = {
 act_of_imperial_diplomacy_opinion = {
 	opinion = 25
 	years = 10
+}
+
+trade_protectorate_called_into_war = {
+	opinion = -50
+	yearly_decay = 2
+	min = -1000
 }
 
 #Idea Group Events

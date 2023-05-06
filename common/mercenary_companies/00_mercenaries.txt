@@ -2231,8 +2231,8 @@ merc_eth_janissaries_company = {
 				OR = {
 					is_subject_of = TUR
 					alliance_with = TUR
-					is_subject_of = RUM
-					alliance_with = RUM
+					is_subject_of = RMM
+					alliance_with = RMM
 				}
 			}
 		}
