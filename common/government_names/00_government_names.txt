@@ -1402,6 +1402,7 @@ japanese_shogunate = {
 		tag = JAP
 		government = monarchy
 		NOT = { has_reform = shogunate }
+		NOT = { has_reform = japanese_divine_empire }
 	}
 }
 
@@ -2290,42 +2291,6 @@ austrian_monarchy = {
 	trigger = {
 		tag = HAB
 		government = monarchy
-	}
-}
-
-ottoman_monarchy = {
-	rank = {
-		1 = TURKISH_SULTANATE_DUKEDOM
-		2 = TURKISH_SULTANATE_KINGDOM
-		3 = TURKISH_SULTANATE_EMPIRE
-	}
-
-	ruler_male = {
-		1 = TURKISH_SULTANATE_DUKE
-		2 = TURKISH_SULTANATE_KING
-		3 = TURKISH_SULTANATE_EMPEROR
-	}
-	
-	consort_female = {
-		1 = TURKISH_SULTANATE_QUEEN_CONSORT_fem
-		2 = TURKISH_SULTANATE_QUEEN_CONSORT_fem
-		3 = TURKISH_SULTANATE_EMPRESS_CONSORT_fem
-	}
-	
-	heir_male = {
-		1 = TURKISH_SULTANATE_CROWN_PRINCE
-		2 = TURKISH_SULTANATE_CROWN_PRINCE
-		3 = TURKISH_SULTANATE_CROWN_PRINCE
-	}
-
-	heir_female = {
-		1 = HEIR_fem
-		2 = HEIR_fem
-		3 = HEIR_fem
-	}
-	trigger = {
-		has_reform = ottoman_government
-		primary_culture = turkish
 	}
 }
 

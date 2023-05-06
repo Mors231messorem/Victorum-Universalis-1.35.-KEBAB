@@ -389,6 +389,10 @@ kiel_canal = {
 			owns_or_vassal_of = 1775
 			owns_or_vassal_of = 4141
 			is_subject = no			
+			OR = { 
+				mission_completed = emp_brapru_kiel_canal
+				adm_tech = 22
+			}
 			adm_tech = 27
 			treasury = 10000
 		}
@@ -656,6 +660,7 @@ suez_canal = { #Phase One
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = { add_prestige = 40 }
 		}
 	}
 
@@ -1015,6 +1020,7 @@ panama_canal = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = { add_prestige = 50 }
 		}
 	}
 

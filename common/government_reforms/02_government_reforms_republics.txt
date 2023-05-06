@@ -38,10 +38,9 @@ oligarchy_reform = {
 	nation_designer_cost = 0
 	potential = {
 		NOT = { culture_group = latin }
-	# The following entries exist in vanilla in the same file. Not sure if intended to be left out or if dominions need an entry too.
-	#	NOT = { has_reform = crown_colony_government }
-	#	NOT = { has_reform = private_enterprise_colony_government }
-	#	NOT = { has_reform = self_governing_colony_government }
+		NOT = { has_reform = crown_colony_government }
+		NOT = { has_reform = private_enterprise_colony_government }
+		NOT = { has_reform = self_governing_colony_government }
 	}
 	nation_designer_trigger = {
 		NOT = { culture_group = latin }
@@ -101,7 +100,6 @@ protectorate_parliament_reform = {
 	legacy_equivalent = protectorate_parliament_legacy
 	modifiers = {
 		global_autonomy = -0.05
-						   
 		land_morale = 0.1
 		max_absolutism = 20
 		republican_tradition = -0.5
@@ -148,7 +146,6 @@ parliamentary_republic_reform = {
 	valid_for_new_country = no
 	nation_designer_cost = 30
 	valid_for_nation_designer = yes
-												   
 	modifiers = {
 		global_autonomy = -0.05
 		land_morale = 0.1
@@ -171,12 +168,10 @@ parliamentary_republic_reform = {
 		has_parliament = yes
 		custom_attributes = {
 			english_parliament = yes
-							   
 		}
 	}
 	duration = 5
 	custom_attributes = {
-							  
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 		cannot_become_dictatorship = yes
@@ -224,7 +219,6 @@ prussian_republic_reform = {
 	}
 	trigger = {
 		OR = {
-								 
 			religion = protestant
 			religion = reformed
 			religion = hussite
@@ -347,6 +341,7 @@ merchants_reform = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 		is_merchant_republic = yes
+		elections_increase_factions_influence = yes
 	}
 	ai = {
 		factor = 0.75 #generic
@@ -527,12 +522,6 @@ noble_elite_reform = {
 	legacy_equivalent = noble_republic
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
-	# Well, you know the drill by now. Not sure if dominions need to be added or not or if leaving the disabled things out is intentional. Asking San-Felipe later.
-	# potential = {
-		# NOT = { has_reform = crown_colony_government }
-		# NOT = { has_reform = private_enterprise_colony_government }
-		# NOT = { has_reform = self_governing_colony_government }
-	# }
 	modifiers = {
 		army_tradition = 0.25 #0.10
 		max_absolutism = -20
@@ -825,7 +814,11 @@ peasants_republic = {
 			has_country_flag = great_peasants_war_peasant_republic
 			have_had_reform = peasants_republic
 			have_had_reform = stateless_society
+			has_reform = peasants_republic
 		}
+	}
+	trigger = {
+		is_not_blocked_by_estate_privilege = { estate = estate_nobles }
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 20
@@ -872,6 +865,7 @@ ikko_ikki_republic_reform = {
 	}
 	trigger = {
 		religion_group = eastern
+		is_not_blocked_by_estate_privilege = { estate = estate_nobles }
 	}
 	valid_for_nation_designer = yes
 	nation_designer_trigger = {
@@ -915,6 +909,9 @@ kongsi_federation = {
 			have_had_reform = kongsi_federation
 		}
 	}
+	trigger = {
+		is_not_blocked_by_estate_privilege = { estate = estate_nobles }
+	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 20
 	nation_designer_trigger = {
@@ -955,7 +952,7 @@ free_city = {
 		trade_efficiency = 0.1
 		development_cost = -0.2
 		diplomatic_upkeep = 1
-		burghers_influence_modifier = 0.1 
+		burghers_influence_modifier = 0.1
 	}
 	fixed_rank = 1
 
@@ -1093,7 +1090,6 @@ veche_republic = {
 	}
 	boost_income = yes
 	fixed_rank = 1
-	
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
@@ -1127,34 +1123,16 @@ veche_republic = {
 	}
 	conditional = {
 		allow = {
-			has_dlc = "Third Rome"
-			NOT = { has_dlc = "Mare Nostrum" }
-			NOT = { has_dlc = "Res Publica" }
-		}
-		government_abilities = {
-			russian_mechanic
-		}
-	}
-	conditional = {
-		allow = {
-			has_dlc = "Third Rome"
 			has_dlc = "Mare Nostrum"
 			NOT = { has_dlc = "Res Publica" }
-		}
-		government_abilities = {
-			russian_mechanic
 		}
 		can_form_trade_league = yes
 		trade_city_reform = trading_city
 	}
 	conditional = {
 		allow = {
-			has_dlc = "Third Rome"
 			NOT = { has_dlc = "Mare Nostrum" }
 			has_dlc = "Res Publica"
-		}
-		government_abilities = {
-			russian_mechanic
 		}
 		can_use_trade_post = yes
 	}
@@ -1358,7 +1336,6 @@ great_veche_republic = {
 	conditional = {
 		allow = { 
 			has_dlc = "Third Rome" 
-									 
 			NOT = { has_dlc = "Domination" }
 		}
 		government_abilities = {
@@ -1452,6 +1429,9 @@ american_republic = {
 			}
 		}
 	}
+	trigger = {
+		is_not_blocked_by_estate_privilege = { estate = estate_nobles }
+	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 15
 	nation_designer_trigger = {
@@ -1499,6 +1479,9 @@ federal_republic = {
 			}
 		}
 	}
+	trigger = {
+		is_not_blocked_by_estate_privilege = { estate = estate_nobles }
+	}
 	legacy_equivalent = federal_republic_legacy
 	valid_for_nation_designer = yes
 	nation_designer_cost = 15
@@ -1539,10 +1522,10 @@ colonial_government = {
 	fixed_rank = 1
 	potential = {
 		is_colonial_nation = yes
-		# Disabled until further notice.
-		# NOT = { has_reform = crown_colony_government }
-		# NOT = { has_reform = private_enterprise_colony_government }
-		# NOT = { has_reform = self_governing_colony_government }
+		Disabled until further notice.
+		NOT = { has_reform = crown_colony_government }
+		NOT = { has_reform = private_enterprise_colony_government }
+		NOT = { has_reform = self_governing_colony_government }
 		NOT = { is_subject_of_type = crown_colony }
 		NOT = { is_subject_of_type = private_enterprise }
 		NOT = { is_subject_of_type = self_governing_colony }
@@ -1611,7 +1594,7 @@ crown_colony_government = {
 		}
 	}
 	trigger = {
-#		is_subject_of_type = crown_colony
+		is_subject_of_type = crown_colony
 	}
 	legacy_equivalent = colonial_government_legacy
 	modifiers = {
@@ -1661,7 +1644,6 @@ private_enterprise_colony_government = {
 	fixed_rank = 1
 	potential = {
 		is_colonial_nation = yes
-
 		OR = {
 			has_reform = crown_colony_government
 			has_reform = private_enterprise_colony_government
@@ -1720,7 +1702,6 @@ self_governing_colony_government = {
 	fixed_rank = 1
 	potential = {
 		is_colonial_nation = yes
-
 		OR = {
 			has_reform = crown_colony_government
 			has_reform = private_enterprise_colony_government
@@ -2111,6 +2092,9 @@ cossacks_reform = {
 			have_had_reform = cossacks_reform
 		}
 	}
+	trigger = {
+		is_not_blocked_by_estate_privilege = { estate = estate_nobles }
+	}
 	
 	raze_province = yes
 	government_abilities = {
@@ -2122,7 +2106,6 @@ cossacks_reform = {
 			has_itinerant_capital = yes
 		}
 	}
-	
 	valid_for_new_country = yes
 
 	nation_designer_trigger = {
@@ -2965,14 +2948,11 @@ union_of_states_reform = {
 	conditional = {
 		allow = {
 			has_dlc = "Res Publica"
-			 
 		}
 		can_use_trade_post = yes
 	}
 	trigger = {
 		NOT = { has_government_attribute = is_pirate_republic_reform }
-			   
-						  
 	}
 	boost_income = yes
 	ai = {
@@ -2984,7 +2964,6 @@ union_of_states_reform = {
 		modifier = {
 			factor = 2
 			OR = {
-						  
 				has_reform = merchants_reform
 				has_reform = venice_merchants_reform
 			}
@@ -3894,7 +3873,6 @@ bureaucratic_aparatus_reform = {
 		min_autonomy_in_territories = -0.10
 	}
 }
-
 
 universal_suffrage_reform = {
 	icon = "paper_with_seal"

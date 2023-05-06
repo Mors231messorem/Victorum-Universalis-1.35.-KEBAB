@@ -1100,5 +1100,5 @@ ISR = "countries/Israel.txt"
 #TRL = countries/Trapalanda.txt
 
 #VU Removed Tags in 1.35
-#RUM = "countries/Rum.txt"
-#CAT	= "countries/Catalunya.txt"
+RUM = "countries/Rum.txt"
+CAT	= "countries/Catalunya.txt"
