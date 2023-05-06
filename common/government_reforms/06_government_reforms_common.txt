@@ -57,13 +57,19 @@ parliamentary_reform = {
 	
 	trigger = {		
 		if = {
-			limit = { has_dlc = "Common Sense" }
+			limit = {
+				OR = {
+					has_dlc = "Common Sense"
+					has_dlc = "Domination"
+				}
+			}
 			OR = {
 				NOT = { has_estate = estate_nobles }
 				crown_stronger_than_estate = { estate = estate_nobles }
 				has_reform = parliamentary_reform
 			}
-		}
+			is_not_blocked_by_estate_privilege = { estate = estate_nobles }
+		}	
 		NOT = { has_reform = elective_monarchy }
 		NOT = { has_reform = polish_great_sejm }
 		NOT = { has_reform = polish_elective_monarchy }
@@ -1102,16 +1108,6 @@ strengthen_clergy_reform = {
 			NOT = { has_dlc = "Emperor" }
 		}
 		has_no_religion_specific_government_available = yes	#This way modders don't have to change this reform explicitly
-		#NOT = { religion = jewish }
-		#NOT = { religion = zoroastrian }
-		#NOT = { religion = hinduism }
-		#NOT = { religion = sikhism }
-		#NOT = { religion_group = muslim }
-		#NOT = { religion_group = christian }
-		#NOT = { religion_group = eastern }
-		#NOT = { religion = tengri_pagan_reformed }
-		#NOT = { religion = shamanism }
-		#NOT = { religion = norse_pagan_reformed }
 	}
 	modifiers = {
 		church_influence_modifier = 0.1
@@ -1231,6 +1227,8 @@ separate_clergy_from_state_affairs_reform = {
 		}
 		NOT = { has_idea_group = religious_ideas }
 		NOT = { has_idea_group = theocracy_ideas }
+		is_not_blocked_by_estate_privilege = { estate = estate_church }
+		is_not_blocked_by_estate_privilege = { estate = estate_brahmins }
 	}
 	modifiers = {
 		tolerance_of_heathens_capacity = 1
@@ -2077,6 +2075,7 @@ mansure_army_reform = {
 				has_not_modifier_locking_military_tier = yes
 			}
 		}
+		is_not_blocked_by_estate_privilege = { estate = estate_janissaries }
 	}
 	modifiers = {
 		drill_decay_modifier = -0.5
@@ -3082,7 +3081,7 @@ swiss_mercenary_reform = {
 
 # Hungarian
 expanded_black_army_reform = {
-	icon = "black_army"
+	icon = "black_army_reform"
 	allow_normal_conversion = yes
 	potential = {
 		has_dlc = "Domination"
@@ -3746,7 +3745,6 @@ lockean_proviso_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		NOT = { has_government_attribute = is_pirate_republic_reform }
-		has_idea_group = economic_ideas
 	}
 	trigger = {
 		OR = { 
@@ -3819,7 +3817,7 @@ war_economy_reform = {
 }
 
 thalassocracy_reform = {
-	icon = "admiralty"
+	icon = "admiralty_reform"
 	allow_normal_conversion = yes
 	potential = {
 		has_unlocked_government_reform = {
@@ -3904,7 +3902,7 @@ jap_gokaido_reform = {
 	icon = "jap_gokaido_reform"
 	allow_normal_conversion = no
 	potential = {
-		culture_group = japanese 
+		culture_group = japanese_g
 	}
 	trigger = {
 		OR = {
@@ -3948,8 +3946,8 @@ reform_the_samurai_reform = {
 	icon = "reform_the_samurai_reform"
 	allow_normal_conversion = yes
 	potential = {
-		culture_group = japanese 
-		tag = JAP 
+		culture_group = japanese_g
+		tag = JAP
 		OR = {
 			have_had_reform = reform_the_samurai_reform
 			has_reform = reform_the_samurai_reform
@@ -3998,6 +3996,7 @@ tercios_reform = {
 				tooltip = has_unlocked_this_reform_tt
 				has_country_flag = enable_tercios_reform_flag
 			}
+			has_reform = tercios_reform
 		}
 		NOT = { religion_group = muslim } 
 	}

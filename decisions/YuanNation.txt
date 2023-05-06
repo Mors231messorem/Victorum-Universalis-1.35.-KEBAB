@@ -15,10 +15,11 @@ country_decisions = {
 				ai = no
 			}
 			NOT = { exists = YUA }
-			NOT = { tag = MUG }
+			NOT = { tag = MUG } #Delhi is just simply too far away from Beijing to even remotely consider it as a reason for it being able to reform into the Yuan
 			NOT = { tag = QNG }
 			NOT = { tag = MNG }
 			NOT = { tag = MCH }
+			NOT = { tag = TIM } #Herat is just simply too far away from Beijing to even remotely consider it as a reason for it being able to reform into the Yuan
 						 
 			OR = {
 				primary_culture = altaic_new 

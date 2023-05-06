@@ -15,9 +15,7 @@ theocracy_mechanic = {
 	different_religion_group_acceptance = -50
 	religion = yes
 	heir = yes
-#	can_customise_heir = no	# This is new I think?
-# If something is no longer present in the other files just disable it rather than delete.
-# You never know if it's gonna come in handy.
+	can_customise_heir = no
 	basic_reform = yes # = invisible/does not take up a slot
 	valid_for_nation_designer = no
 	custom_attributes = {
@@ -180,7 +178,7 @@ prussian_theocratic_reform = {
 		}
 	}
 	trigger = {
-		OR = {	 
+		OR = {
 			religion = protestant
 			religion = reformed
 			religion = hussite
@@ -271,7 +269,6 @@ holy_horde_reform = {
 	icon = "holy_horde"
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
-					  
 	potential = {
 		OR = {
 			has_unlocked_government_reform = {
@@ -510,6 +507,7 @@ ikko_ikki_reform = {
 	}
 	trigger = {
 		religion_group = eastern
+		is_not_blocked_by_estate_privilege = { estate = estate_nobles }
 	}
 	valid_for_nation_designer = yes
 	nation_designer_trigger = {
@@ -1486,11 +1484,17 @@ theocratic_democracy_reform = {
 	trigger = {
 		NOT = { has_government_attribute = monastic_order }
 		if = {
-			limit = { has_dlc = "Common Sense" }
+			limit = { 
+				OR = {
+					has_dlc = "Common Sense"
+					has_dlc = "Domination"
+				}
+			}
 			OR = {
 				NOT = { has_estate = estate_nobles }
 				crown_stronger_than_estate = { estate = estate_nobles }
 			}
+			is_not_blocked_by_estate_privilege = { estate = estate_nobles }
 		}
 	}
 
@@ -1566,11 +1570,17 @@ regionally_elected_commanders = {
 			tag = KOJ
 		}
 		if = {
-			limit = { has_dlc = "Common Sense" }
+			limit = {
+				OR = {
+					has_dlc = "Common Sense"
+					has_dlc = "Domination"
+				}
+			}
 			OR = {
 				NOT = { has_estate = estate_nobles }
 				crown_stronger_than_estate = { estate = estate_nobles }
 			}
+			is_not_blocked_by_estate_privilege = { estate = estate_nobles }
 		}
 	}
 
