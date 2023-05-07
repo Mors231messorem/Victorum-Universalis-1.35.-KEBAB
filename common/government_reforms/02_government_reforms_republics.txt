@@ -555,7 +555,7 @@ althing_elite_reform = {
 	}
 	modifiers = {
 		army_tradition = 0.25 #0.10
-		max_absolutism = -20
+		max_absolutism = 20
 		nobles_influence_modifier = 0.05
 		maratha_exclusive_influence_modifier = 0.05
 		rajput_exclusive_influence_modifier = 0.05
@@ -2122,7 +2122,7 @@ cossacks_reform = {
 	modifiers = {
 		cavalry_power = 0.2
 		cavalry_cost = -0.2
-		cav_to_inf_ratio = 0.2
+		cav_to_inf_ratio = 0.25
 		governing_capacity = 50
 		special_unit_forcelimit = 0.25
 	}

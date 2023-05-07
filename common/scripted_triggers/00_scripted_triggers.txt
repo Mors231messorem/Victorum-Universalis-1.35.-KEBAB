@@ -517,6 +517,7 @@ was_never_end_game_tag_trigger = {	#Country Scope
 			tooltip = was_never_end_game_tag_trigger_tt
 			#End of 1.34.* LoTN additions
 		    AND = {
+				NOT = { was_tag = FRA }
 		    	NOT = { was_tag = MUG }
 		    	NOT = { was_tag = TUR }
 		    	NOT = { was_tag = BYZ }
@@ -561,7 +562,8 @@ was_never_end_game_tag_trigger = {	#Country Scope
 		    	NOT = { was_tag = RZI }
 		    	NOT = { was_tag = MAL }
 				NOT = { was_tag = SCA }
-		    	NOT = { tag = MUG }
+				NOT = { tag = FRA }
+				NOT = { tag = MUG }
 		    	NOT = { tag = TUR }
 		    	NOT = { tag = BYZ }
 		    	NOT = { tag = ROM }
@@ -586,6 +588,7 @@ was_never_end_game_tag_trigger = {	#Country Scope
 		    	NOT = { tag = BBS }
 		    	NOT = { tag = CSP }
 		    	NOT = { tag = GBR }
+				NOT = { tag = AVE }
 				NOT = { tag = UNK }
 		    	#End of VU additions
 		    	NOT = { tag = ITA }
@@ -1036,39 +1039,27 @@ same_govt_as_root_trigger = {
 		OR = {
 			AND = {
 				government = theocracy
-			
 				root = { government = theocracy }
-	 
 			}
 			AND = {
 				government = monarchy
-			
 				root = { government = monarchy }
-	 
 			}
 			AND = {
 				government = republic
-			
 				root = { government = republic }
-	 
 			}
 			AND = {
 				government = dictatorship
-			
 				root = { government = dictatorship }
-	 
 			}
 			AND = {
 				government = tribal
-			
 				root = { government = tribal }
-	 
 			}
 			AND = {
 				government = native
-			
 				root = { government = native }
-	 
 			}
 		}
 	}
@@ -1101,7 +1092,6 @@ has_trade_building_trigger = {
 
 has_production_building_trigger = {
 	custom_trigger_tooltip = {
-						 
 		tooltip = has_production_building_trigger_tt
 		OR = {
 			has_building = workshop
@@ -1971,42 +1961,56 @@ has_completed_idea_group_of_category = {
 	]
 }
 
-num_of_completed_idea_groups_by_category = {
+num_of_completed_idea_groups_adm = {
 	calc_true_if = {
-		[[adm_ideas]
-			full_idea_group = innovativeness_ideas
-			full_idea_group = religious_ideas
-			full_idea_group = economic_ideas
-			full_idea_group = expansion_ideas
-			full_idea_group = administrative_ideas
-			full_idea_group = humanist_ideas
-			full_idea_group = infrastructure_ideas
-		]
-		[[dip_ideas]
-			full_idea_group = spy_ideas
-			full_idea_group = diplomatic_ideas
-			full_idea_group = trade_ideas
-			full_idea_group = exploration_ideas
-			full_idea_group = maritime_ideas
-			full_idea_group = influence_ideas
-			full_idea_group = court_ideas
-		]
-		[[mil_ideas]
-			full_idea_group = aristocracy_ideas
-			full_idea_group = offensive_ideas
-			full_idea_group = defensive_ideas
-			full_idea_group = quality_ideas
-			full_idea_group = quantity_ideas
-			full_idea_group = naval_ideas
-			full_idea_group = theocracy_gov_ideas
-			full_idea_group = indigenous_ideas
-			full_idea_group = horde_gov_ideas
-			full_idea_group = plutocracy_ideas
-			full_idea_group = mercenary_ideas
-		]
+		desc = num_of_completed_idea_groups_adm_tt
+		full_idea_group = innovativeness_ideas
+		full_idea_group = religious_ideas
+		full_idea_group = economic_ideas
+		full_idea_group = expansion_ideas
+		full_idea_group = administrative_ideas
+		full_idea_group = humanist_ideas
+		full_idea_group = infrastructure_ideas
 		amount = $amount$
 	}
 }
+
+num_of_completed_idea_groups_dip = {
+	calc_true_if = {
+		desc = num_of_completed_idea_groups_dip_tt
+		full_idea_group = spy_ideas
+		full_idea_group = diplomatic_ideas
+		full_idea_group = trade_ideas
+		full_idea_group = exploration_ideas
+		full_idea_group = maritime_ideas
+		full_idea_group = influence_ideas
+		full_idea_group = court_ideas
+		amount = $amount$
+	}
+}
+
+num_of_completed_idea_groups_mil = {
+	calc_true_if = {
+		desc = num_of_completed_idea_groups_mil_tt
+		full_idea_group = aristocracy_ideas
+		full_idea_group = offensive_ideas
+		full_idea_group = defensive_ideas
+		full_idea_group = quality_ideas
+		full_idea_group = quantity_ideas
+		full_idea_group = naval_ideas
+		full_idea_group = theocracy_gov_ideas
+		full_idea_group = indigenous_ideas
+		full_idea_group = horde_gov_ideas
+		full_idea_group = plutocracy_ideas
+		full_idea_group = mercenary_ideas
+		amount = $amount$
+	}
+}
+
+num_of_completed_idea_groups_by_category = {
+	num_of_completed_idea_groups_$type$ = { amount = $amount$ }
+}
+
 has_religion_of_increased_opinion_for_scope = {
 	OR = {
 		AND = { religion = catholic $who$ = { has_country_flag = has_increased_catholic_opinion } }
@@ -4103,4 +4107,52 @@ has_not_modifier_locking_military_tier = {
 		tooltip = has_modifier_locking_military_tier_tt
 		NOT = { has_modifier_locking_military_tier = yes }
 	}
+}
+
+has_not_locked_first_tier_reform = {
+	NOT = { has_reform = shogunate }
+	NOT = { has_reform = daimyo }
+	NOT = { has_reform = feudal_france_reform }
+	NOT = { has_reform = appanage_reform }
+	NOT = { has_reform = absolutist_france_reform }
+	NOT = { has_reform = celestial_empire }
+	NOT = { has_reform = kalmar_union }
+	NOT = { has_reform = elective_monarchy }
+	NOT = { has_reform = english_monarchy }
+	NOT = { has_reform = british_monarchy }
+	NOT = { has_reform = angevin_monarchy }
+	NOT = { has_reform = absolute_british_monarchy }
+	NOT = { has_reform = ottoman_government }
+	NOT = { has_reform = byzantine_autocracy_reform }
+	NOT = { has_reform = reformed_byzantine_monarchy_reform }
+	NOT = { has_reform = caliphate_reform }
+	NOT = { has_reform = modernized_ottoman_government }
+	NOT = { has_reform = reorganized_ottoman_government }
+	NOT = { has_reform = eyalet_government }
+	NOT = { has_reform = barbary_eyalet_government }
+	NOT = { has_reform = mughal_government }
+	NOT = { has_reform = revolutionary_empire_reform }
+	NOT = { has_reform = polish_great_sejm }
+	NOT = { has_reform = polish_elective_monarchy }
+	NOT = { has_reform = polish_autocratic_monarchy }
+	NOT = { has_reform = norwegian_parliamentary_monarchy }
+	NOT = { has_reform = protectorate_parliament_reform }
+	NOT = { has_reform = parliamentary_republic_reform }
+	NOT = { has_reform = pirate_republic_reform }
+	NOT = { has_reform = presidential_despot_reform }
+	NOT = { has_reform = military_dictatorship_reform }
+	NOT = { has_reform = revolutionary_republic_reform }
+	NOT = { has_reform = junior_revolutionary_republic_reform }
+	NOT = { has_reform = free_city }
+	NOT = { has_reform = trading_city }
+	NOT = { has_reform = colonial_government }
+	NOT = { has_reform = crown_colony_government }
+	NOT = { has_reform = private_enterprise_colony_government }
+	NOT = { has_reform = self_governing_colony_government }
+	NOT = { has_reform = trade_company_government }
+	NOT = { has_reform = english_parliamentary_republic_government }
+	NOT = { has_reform = papacy_reform }
+	NOT = { has_reform = caliphate_theocracy_reform }
+	NOT = { has_reform = fifth_monarchists_reform }
+	NOT = { has_reform = great_mongol_state_reform }	
 }

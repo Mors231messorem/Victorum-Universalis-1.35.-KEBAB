@@ -332,15 +332,15 @@ innovativeness_ideas = {
 	ai_will_do = {
 		factor = 0.3
 		modifier = {
-			factor = 2
+			factor = 1.25
 			has_reform = steppe_horde
 		}
 		modifier = {
-			factor = 2
+			factor = 0.25
 			NOT = { monthly_adm = 8 }
 		}
 		modifier = {
-			factor = 2
+			factor = 1.25
 			innovativeness = 40
 			NOT = { is_year = 1650 }
 		}
