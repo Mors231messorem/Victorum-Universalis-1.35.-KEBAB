@@ -171,6 +171,7 @@ ENG_ideas = {
 	}
 	british_bill_of_rights = {
 		years_of_nationalism = -5
+		num_of_parliament_issues = 1
 	}
 }
 
@@ -9416,6 +9417,10 @@ TBK_ideas = {
 	}
 	tbk_healthy_priest_kings = {
 		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
 	}
 	tbk_office_of_the_mulwa = {
 		tolerance_own = 2
