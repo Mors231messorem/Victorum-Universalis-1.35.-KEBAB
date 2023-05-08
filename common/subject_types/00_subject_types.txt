@@ -179,6 +179,9 @@ default = {
 	allow_settlement_growth = yes
 	change_colonial_type = no
 	upgrade_subject_type = no
+	seize_court_resources = no
+	request_extra_levies = no
+	grant_administrative_autonomy = no
 
 	# (special)
 	sword_hunt = no
@@ -436,6 +439,9 @@ appanage = {
 	}
 	
 	# Subject Interactions
+	seize_court_resources = no
+	request_extra_levies = no
+	grant_administrative_autonomy = yes
 	#(disable)
 	scutage = yes
 	grant_core_claim = yes
@@ -692,8 +698,8 @@ private_enterprise = {
 	is_colony_subtype = yes
 	count = colony
 
-	forcelimit_to_overlord = 0.0 			#Changed from 0.0 so it works as an opposite to crown colonies
-	manpower_to_overlord = 0.0 				#Changed from 0.0
+	forcelimit_to_overlord = 0.0
+	manpower_to_overlord = 0.0
 	naval_forcelimit_to_overlord = 0.3
 	sailors_to_overlord = 0.3
 
@@ -749,107 +755,6 @@ self_governing_colony = {
 		modifier = self_governing_colony_subject
 	}
 }
-
-#VU addition by San Felipe with input from Letole & Piano
-#Reworked by OnlyKarlos as part of the colonial rework
-#self_governing_dominion_vu = {
-#
-#	copy_from = self_governing_colony
-#
-#	sprite = GFX_dominion_icon
-#
-#	change_colonial_type = yes
-#	upgrade_subject_type = yes
-#	is_colony_subtype = yes
-#	count = colony
-#	
-#	# Properties:
-#	forcelimit_to_overlord = 0.0 			#Changed from 0.05 to reflect a dominion's much greater autonomy
-#	manpower_to_overlord = 0.0 				#Changed from 0.05
-#	naval_forcelimit_to_overlord = 0.0 		#Changed from 0.05
-#	sailors_to_overlord = 0.0 				#Changed from 0.05
-#
-#	# Subject Interactions:
-#	customize_subject = yes
-#	replace_governor = no
-#	block_settlement_growth = no
-#	allow_settlement_growth = no
-#	press_sailors = no
-#	enforce_culture = yes #Although it doesn't make much sense, it functions as a workaround to colonial nations switching to native cultures
-#	transfer_trade_power = no
-#	
-#	is_potential_overlord = {
-#        is_subject = no
-#        OR = {
-#            is_year = 1750
-#        }
-#    }
-#	
-#	can_fight = {
-#        independent_nations = yes
-#        same_overlord = tributary_state
-#        other_overlord = all
-#    }
-#	
-#	# Modifiers:			
-#	modifier_overlord = {
-#		modifier = self_governing_dominion_vu_overlord
-#	}
-#	
-#	modifier_subject = {
-#		modifier = self_governing_dominion_vu_subject
-#	}
-#}
-
-#VU addition by San Felipe with input from Letole & Piano
-#Temporarily removed by OnlyKarlos as part of the colonial rework
-#self_governing_super_dominion_vu = {
-#
-#	copy_from = self_governing_dominion_vu
-#
-#	sprite = GFX_super_dominion_icon
-#
-#	change_colonial_type = yes
-#	upgrade_subject_type = yes
-#	is_colony_subtype = yes
-#	count = colony
-#	
-#	# Properties:
-#	forcelimit_to_overlord = 0.075
-#	manpower_to_overlord = 0.075
-#	naval_forcelimit_to_overlord = 0.075
-#	sailors_to_overlord = 0.075
-#	transfer_trade_power = no
-#
-#	# Subject Interactions:
-#	customize_subject = yes
-#	replace_governor = yes
-#	block_settlement_growth = no
-#	allow_settlement_growth = no
-#	press_sailors = no
-#	
-#	is_potential_overlord = {
-#        is_subject = no
-#        OR = {
-#            is_year = 1600
-#        }
-#    }
-#	
-#	can_fight = {
-#        independent_nations = yes
-#        same_overlord = tributary_state
-#        other_overlord = all
-#    }
-#	
-#	# Modifiers:		
-#	modifier_overlord = {
-#		modifier = self_governing_super_dominion_vu_overlord
-#	}
-#	
-#	modifier_subject = {
-#		modifier = self_governing_super_dominion_vu_subject
-#	}
-#}
 
 
 tributary_state = {
@@ -1004,7 +909,7 @@ eyalet = {
 	opinion_cost_to_join_offensive_wars = 40
 	opinion_cost_to_join_defensive_wars = 20
 	opinion_on_subject_integration = 0
-
+    counts_for_borders = yes
 	max_government_rank = 2
 
 	liberty_desire_development_ratio = 0.1
@@ -1047,6 +952,9 @@ eyalet = {
 				religion = PREV
 			}
 		}
+	}
+	modifier_subject = {
+		modifier = eyalet_modifier
 	}
 
 	overlord_opinion_modifier = is_eyalet
@@ -1101,7 +1009,9 @@ core_eyalet = {
 			}
 		}
 	}
-
+	modifier_subject = {
+		modifier = eyalet_modifier
+	}
 	overlord_opinion_modifier = is_eyalet
 	subject_opinion_modifier = is_eyalet
 }
@@ -1242,7 +1152,7 @@ trade_protectorate = {
 	can_be_co_belligerented = yes    #Enemies can force this subject to join its overlord into the defense war. Only used when the subject has the "joins_overlords_wars = no". By default it's "no".
 	can_be_called_to_wars = yes    #Overlord can ask subject to join wars like it could ask allies to join. You would require favors  to call them to wars. Only used when the subject has the "joins_overlords_wars = no". By default it's "no"
 	opinion_cost_to_join_offensive_wars = 50   #Defines how much opinion the subject loses of the overlord to call the subject into an offensive war. Applied if you do not have Leviathan
-	opinion_cost_to_join_defensive_wars = 20   #Defines how much opinion the subject loses of the overlord to call the subject into a defensive war. Applied if you do not have Leviathan
+	opinion_cost_to_join_defensive_wars = 25   #Defines how much opinion the subject loses of the overlord to call the subject into a defensive war. Applied if you do not have Leviathan
 	opinion_cost_instead_of_favors_cost = yes   #Determines if the subject requires favors or opinion to join a the war. If set "yes" then it requires the aforementioned opinion costs - regardless if Leviathan is active or not. "No" is the default setting
 	opinion_on_subject_integration = 0 #Determines how much opinion they actually lose when a fellow subject gets integrated.
 	overlord_can_attack = yes
@@ -1327,3 +1237,104 @@ dummy =
 {
 	copy_from = default
 }
+
+#VU addition by San Felipe with input from Letole & Piano
+#Reworked by OnlyKarlos as part of the colonial rework
+#self_governing_dominion_vu = {
+#
+#	copy_from = self_governing_colony
+#
+#	sprite = GFX_dominion_icon
+#
+#	change_colonial_type = yes
+#	upgrade_subject_type = yes
+#	is_colony_subtype = yes
+#	count = colony
+#	
+#	# Properties:
+#	forcelimit_to_overlord = 0.0 			#Changed from 0.05 to reflect a dominion's much greater autonomy
+#	manpower_to_overlord = 0.0 				#Changed from 0.05
+#	naval_forcelimit_to_overlord = 0.0 		#Changed from 0.05
+#	sailors_to_overlord = 0.0 				#Changed from 0.05
+#
+#	# Subject Interactions:
+#	customize_subject = yes
+#	replace_governor = no
+#	block_settlement_growth = no
+#	allow_settlement_growth = no
+#	press_sailors = no
+#	enforce_culture = yes #Although it doesn't make much sense, it functions as a workaround to colonial nations switching to native cultures
+#	transfer_trade_power = no
+#	
+#	is_potential_overlord = {
+#        is_subject = no
+#        OR = {
+#            is_year = 1750
+#        }
+#    }
+#	
+#	can_fight = {
+#        independent_nations = yes
+#        same_overlord = tributary_state
+#        other_overlord = all
+#    }
+#	
+#	# Modifiers:			
+#	modifier_overlord = {
+#		modifier = self_governing_dominion_vu_overlord
+#	}
+#	
+#	modifier_subject = {
+#		modifier = self_governing_dominion_vu_subject
+#	}
+#}
+
+#VU addition by San Felipe with input from Letole & Piano
+#Temporarily removed by OnlyKarlos as part of the colonial rework
+#self_governing_super_dominion_vu = {
+#
+#	copy_from = self_governing_dominion_vu
+#
+#	sprite = GFX_super_dominion_icon
+#
+#	change_colonial_type = yes
+#	upgrade_subject_type = yes
+#	is_colony_subtype = yes
+#	count = colony
+#	
+#	# Properties:
+#	forcelimit_to_overlord = 0.075
+#	manpower_to_overlord = 0.075
+#	naval_forcelimit_to_overlord = 0.075
+#	sailors_to_overlord = 0.075
+#	transfer_trade_power = no
+#
+#	# Subject Interactions:
+#	customize_subject = yes
+#	replace_governor = yes
+#	block_settlement_growth = no
+#	allow_settlement_growth = no
+#	press_sailors = no
+#	
+#	is_potential_overlord = {
+#        is_subject = no
+#        OR = {
+#            is_year = 1600
+#        }
+#    }
+#	
+#	can_fight = {
+#        independent_nations = yes
+#        same_overlord = tributary_state
+#        other_overlord = all
+#    }
+#	
+#	# Modifiers:		
+#	modifier_overlord = {
+#		modifier = self_governing_super_dominion_vu_overlord
+#	}
+#	
+#	modifier_subject = {
+#		modifier = self_governing_super_dominion_vu_subject
+#	}
+#}

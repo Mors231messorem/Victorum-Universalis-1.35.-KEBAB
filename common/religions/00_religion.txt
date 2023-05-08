@@ -346,6 +346,7 @@ christian = {
 			expel_heretics_aspect
 			diplomats_of_the_reformation_aspect
 			icons_of_the_church_aspect
+			spread_the_book_of_common_prayer
 		}
 		aspects_name = ANGLICAN_ASPECTS
 		
@@ -355,7 +356,7 @@ christian = {
 	}
 	
 	hussite = {
-		color = { 0.5 0.8 1.0 }
+		color = { 244 55 9 }
 		icon = 22
 		
 		allowed_conversion = {
@@ -3542,6 +3543,12 @@ dharmic = {
 						cost = 50
 
 						development_cost = -0.1
+					}
+					divine_justice = {
+						type = DIP
+						cost = 50
+
+						trade_efficiency = 0.1
 					}
 					the_unchanging_writing = {
 						type = MIL
