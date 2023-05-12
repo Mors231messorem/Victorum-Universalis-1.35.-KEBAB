@@ -13,7 +13,10 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 6
 discovered_by = north_american
-
+add_permanent_province_modifier = {
+    name = rich_black_soil
+    duration = -1
+}
 1444.1.1 = { tribal_owner = PEO }
 1659.1.1 = { discovered_by = FRA } # M?dard Chouart Des Groseilliers
 1664.1.1 = { discovered_by = ENG }
