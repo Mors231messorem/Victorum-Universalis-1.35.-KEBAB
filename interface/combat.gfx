@@ -2733,50 +2733,6 @@ spriteTypes = {
         texturefile = "gfx/interface/port_moresby.dds"
     }
     spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_perth"
-        texturefile = "gfx/interface/perth.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_sydney"
-        texturefile = "gfx/interface/sydney.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_adelaide"
-        texturefile = "gfx/interface/adelaide.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_port_melbourne"
-        texturefile = "gfx/interface/melbourne.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_brisbane"
-        texturefile = "gfx/interface/brisbane.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_darwin"
-        texturefile = "gfx/interface/darwin.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_auckland"
-        texturefile = "gfx/interface/auckland.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_wellington"
-        texturefile = "gfx/interface/wellington.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_christchurch"
-        texturefile = "gfx/interface/christchurch.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_nelson"
-        texturefile = "gfx/interface/nelson.dds"
-    }
-    spriteType = {                                                        
-        name = "GFX_combat_terrain_urban_whanganui"
-        texturefile = "gfx/interface/whanganui.dds"
-    }
-    spriteType = {                                                        
         name = "GFX_combat_terrain_urban_suva"
         texturefile = "gfx/interface/suva.dds"
     }
@@ -4781,10 +4737,6 @@ spriteTypes = {
         texturefile = "gfx/interface/kuala_lumpur.dds"
     }
     spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_canberra"
-        texturefile = "gfx/interface/canberra.dds"
-    }
-    spriteType = {                                                       
         name = "GFX_combat_terrain_urban_ulaanbaatar"
         texturefile = "gfx/interface/ulaanbaatar.dds"
     }
@@ -5387,10 +5339,6 @@ spriteTypes = {
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_semarang"
         texturefile = "gfx/interface/semarang.dds"
-    }
-    spriteType = {                                                       
-        name = "GFX_combat_terrain_urban_hobart"
-        texturefile = "gfx/interface/hobart.dds"
     }
     spriteType = {                                                       
         name = "GFX_combat_terrain_urban_shizuoka"

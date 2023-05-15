@@ -2,7 +2,7 @@
 
 owner = WAL
 controller = WAL 
-culture = transylvanian_saxons
+culture = romanian
 religion = catholic
 capital = "Sinaia"
 trade_goods = vodka
