@@ -129,6 +129,8 @@ mos_rus_conquer_west = {
 				area = curonia_area
 				area = estonia_ingria_area
 				area = livonia_area
+				area = latgallia_area 
+				area = north_livonia_area 
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -142,6 +144,14 @@ mos_rus_conquer_west = {
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
 			livonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			latgallia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT	
+			}
+			north_livonia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT	
 			}
@@ -464,6 +474,27 @@ mos_rus_eastern_europe = {
 				}"
 			}
 			ruthenia_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_russian_claim = yes
+			}
+			estonia_ingria_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_russian_claim = yes
+			}
+			north_livonia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_russian_claim = yes
+			}
+			latgallia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -1688,6 +1719,10 @@ mos_rus_russian_consolidation = {
 				area = zaporizhia_area
 				area = yedisan_area
 				area = crimea_area
+				area = pryazovia_area
+				area = lower_dnieper_area
+				area = maeotida_area
+				area = sloboda_ukraine_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -1698,6 +1733,10 @@ mos_rus_russian_consolidation = {
 					area = zaporizhia_area
 					area = yedisan_area
 					area = crimea_area
+					area = pryazovia_area
+					area = lower_dnieper_area
+					area = maeotida_area
+					area = sloboda_ukraine_area
 				}
 				value = 10
 			}
@@ -3116,6 +3155,7 @@ mos_rus_siberian_conquest = {
 				area = tunguska_area
 				area = central_siberia_area
 				area = tannu_uriankhai_area
+				area = kara_area
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -3126,6 +3166,7 @@ mos_rus_siberian_conquest = {
 					area = tunguska_area
 					area = central_siberia_area
 					area = tannu_uriankhai_area
+					area = kara_area
 				}
 				value = 15
 			}
@@ -3214,6 +3255,20 @@ mos_rus_siberian_conquest = {
 				add_russian_claim = yes
 			}
 			ilan_hala_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_russian_claim = yes
+			}
+			east_heilongjiang_area  = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_russian_claim = yes
+			}
+			heilongjiang_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT	}
 					NOT = { is_core = ROOT	}

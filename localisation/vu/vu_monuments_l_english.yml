@@ -1181,11 +1181,11 @@
  #
  #VU - Oceanian_Cities
  #
- great_project_vu_sydney_harbour: "Settlement"
- vu_sydney_harbour: "Settlement"
- vu_sydney_harbour_title: "Establish a settlement."
- construct_vu_sydney_harbour_title: "Establish a settlement."
- construct_vu_sydney_harbour_desc: "This settlement is an established, thriving and bustling New World city; Costs 4000."
+ great_project_vu_sydney_harbour: "Sydney Harbour"
+ vu_sydney_harbour: "Sydney Harbour"
+ vu_sydney_harbour_title: "Establish Sydney Harbour."
+ construct_vu_sydney_harbour_title: "Establish Sydney Harbour."
+ construct_vu_sydney_harbour_desc: "Sydney Harbour is an established, thriving and bustling Australian city; Costs 4000."
  #
  #lotf
  west_point: "West Point"

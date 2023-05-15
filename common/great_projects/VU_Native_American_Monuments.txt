@@ -1,4 +1,31 @@
 #VU 1.35 by Quonton
+vu_black_hills = {
+	start = 8764
+	date = 1444.01.01 
+	time = { months = 0 }
+	build_cost = 0
+	can_be_moved = no
+	move_days_per_unit_distance = 1
+	starting_tier = 0
+	type = monument
+	build_trigger = {}
+	on_built = {}
+	on_destroyed = {}
+	can_use_modifiers_trigger = { religion = totemism has_owner_religion = yes }
+	can_upgrade_trigger = {	always = no}
+	keep_trigger = { always = yes }
+
+	tier_0 = {
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = { factor = 0 }
+		province_modifiers = { local_development_cost = -0.1 local_defensiveness = 0.2 local_religious_unity_contribution = 0.1 } #local_missionary_strength = -0.2 local_culture_conversion_cost = 2 local_culture_conversion_time = 2 local_years_of_nationalism = 25
+		area_modifier = {  }
+		country_modifiers = { tolerance_own = 1 core_creation = -0.1 governing_cost = -0.1 legitimacy = 0.5 relation_with_same_culture = 50 relation_with_same_culture_group = 25 diplomatic_reputation = 1}
+		on_upgraded = { }
+	}
+}
+
+
 vu_montezuma_castle = {
 	start = 4634
 	date = 1050.01.01 
@@ -70,7 +97,7 @@ vu_pipestone = {
 		cost_to_upgrade = { factor = 0 }
 		province_modifiers = { local_development_cost = -0.1 	tax_income = 12 }
 		area_modifier = {  }
-		country_modifiers = { tolerance_own = 1 relation_with_same_culture = 50 relation_with_same_culture_group = 25 diplomatic_reputation = 1}
+		country_modifiers = { caravan_power = 0.25 trade_steering = 0.2 relation_with_same_culture = 50 relation_with_same_culture_group = 25 diplomatic_reputation = 1}
 		on_upgraded = { }
 	}
 }

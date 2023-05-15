@@ -33,7 +33,7 @@ categories =  {
 		terrain_override = {
 			#Unaltered Vanilla
 			259 558 2060 2063 2075 872 2380 4384 2141 2144 2979 4196 7541 
-			7610 7660 7663 8439 8515 8516 8518
+			7610 7660 7663 8439 8515 8516 8518 5609 5604 1107 2738 5600 1084 1085 1086 1087 4859 1094 4846 1090 1177 5351 5356 5358 5371 4781 5368
 			
 			#Victorum Universalis
 			5697 5698 5704 6465 6486 6496 8419 8421 620 3094 4410 4454 4455 6735 8127 8107 7903 8115 4767 181 8442 8458 8461 8467 8471 8472 8477 8478 8508 4392 7694 7934 7959 
@@ -359,7 +359,7 @@ categories =  {
         local_build_cost = 0.10
 		terrain_override = {
 			#Unaltered Vanilla
-			497 499 500 1098 1101 1999 1998 1994 1992 1989 1988 979 491
+			497 499 500 1098 1101 1999 1998 1994 1992 1989 1988 979 491 1174
 
 			#Victorum Universalis
 			7183 1981 7692 8431 8434 8433 7735 4560 4559 164 3195 4651 5702 5701 2686 1979 1978 367 368 4565 5096 1096 1095 495 3231 5586 483 
@@ -606,7 +606,7 @@ categories =  {
 
 		terrain_override = {
 			#Unaltered Vanilla
-			1952 974 975 977 2480 2609 2610 2613 2825 1273 1078 1787 1788 120 783 794 856 857 860 2617 2813 2817 2824 2871 2874 2395 583 587 2877 785 1856 689 693 694 2136 2177 2178 2180 2181 716 718 719 1066 2117 2189 2129 2103 2104 729 2111 2112 4206 4210 4214 4216 4217 4211 4222 732 2743 4232 7652
+			1952 974 7010 975 977 2480 2609 2610 2613 2825 1273 1078 1787 1788 120 783 794 856 857 860 2617 2813 2817 2824 2871 2874 2395 583 587 2877 785 1856 689 693 694 2136 2177 2178 2180 2181 716 718 719 1066 2117 2189 2129 2103 2104 729 2111 2112 4206 4210 4214 4216 4217 4211 4222 732 2743 4232 7652
 			# 1.29 Manchuria
 			4653 4655 4656 4680 4679
 			
@@ -6478,7 +6478,7 @@ categories =  {
         local_build_time = -0.30
         local_build_cost = -0.25
 		terrain_override = {
-			7010
+			4128
 		}
     }
 	# Romania
@@ -8896,126 +8896,6 @@ categories =  {
         local_build_cost = 0.10
 		terrain_override = {
 			1167
-		}
-    }
-    # Africa
-	urban_swakopmund = {
-		color = { 177 156 217 }
-        type = desert
-        sound_type = desert
-        supply_limit = 0
-        movement_cost = 1.20
-        local_development_cost = 0.30
-        allowed_num_of_buildings = 0
-        nation_designer_cost_multiplier = 1.25
-        defence = 2
-        attrition = 2
-        local_build_time = 0.50
-        local_build_cost = 0.25
-		terrain_override = {
-			1174
-		}
-    }
-    # Africa
-	urban_cape_town = {
-		color = { 177 156 217 }
-        type = plains
-        sound_type = plains
-        supply_limit = 10
-        movement_cost = 1.0
-        local_development_cost = -0.20
-        allowed_num_of_buildings = 4
-        nation_designer_cost_multiplier = 1.50
-        local_build_time = -0.30
-        local_build_cost = -0.25
-
-		terrain_override = {
-			1177
-		}
-    }
-    # Africa
-	urban_bloemfontein = {
-		color = { 177 156 217 }
-        type = plains
-        sound_type = plains
-        supply_limit = 10
-        movement_cost = 1.0
-        local_development_cost = -0.20
-        allowed_num_of_buildings = 4
-        nation_designer_cost_multiplier = 1.50
-        local_build_time = -0.30
-        local_build_cost = -0.25
-
-		terrain_override = {
-			5365
-		}
-    }
-    # Africa
-	urban_port_elizabeth = {
-		color = { 177 156 217 }
-        type = hills
-        sound_type = mountains
-        supply_limit = 2
-        movement_cost = 1.80
-        local_development_cost = 0.10
-        allowed_num_of_buildings = 2
-        nation_designer_cost_multiplier = 1.3
-        defence = 2
-        local_defensiveness = 0.2
-        local_build_time = 0.25
-		terrain_override = {
-			5356
-		}
-    }
-    # Africa
-	urban_durban = {
-		color = { 177 156 217 }
-        type = hills
-        sound_type = mountains
-        supply_limit = 2
-        movement_cost = 1.80
-        local_development_cost = 0.10
-        allowed_num_of_buildings = 2
-        nation_designer_cost_multiplier = 1.3
-        defence = 2
-        local_defensiveness = 0.2
-        local_build_time = 0.25
-		terrain_override = {
-			5371
-		}
-    }
-    # Africa
-	urban_pretoria = {
-		color = { 177 156 217 }
-        type = plains
-        sound_type = plains
-        supply_limit = 10
-        movement_cost = 1.0
-        local_development_cost = -0.30
-        allowed_num_of_buildings = 4
-        nation_designer_cost_multiplier = 1.50
-        local_build_time = -0.30
-        local_build_cost = -0.25
-
-		terrain_override = {
-			5368
-		}
-    }
-    # Africa
-	urban_johannesburg = {
-		color = { 177 156 217 }
-        type = plains
-        sound_type = plains
-        supply_limit = 10
-        movement_cost = 1.0
-        local_development_cost = -0.30
-        allowed_num_of_buildings = 4
-        nation_designer_cost_multiplier = 1.50
-        local_build_time = -0.30
-        local_build_cost = -0.25
-
-		terrain_override = {
-			4781
 		}
     }
     # Africa
@@ -11751,192 +11631,6 @@ categories =  {
 			1237
 		}
     }
-    # Oceania
-	urban_perth = {
-		color = { 177 156 217 }
-        type = plains
-        sound_type = plains
-        supply_limit = 10
-        movement_cost = 1.0
-        local_development_cost = -0.20
-        allowed_num_of_buildings = 4
-        nation_designer_cost_multiplier = 1.50
-        local_build_time = -0.30
-        local_build_cost = -0.25
-		terrain_override = {
-			1084
-		}
-    }
-    # Oceania
-	urban_sydney = {
-		color = { 177 156 217 }
-        type = plains
-        sound_type = plains
-        supply_limit = 10
-        movement_cost = 1.0
-        local_development_cost = -0.40
-        trade_goods_size = 1
-        allowed_num_of_buildings = 4
-        nation_designer_cost_multiplier = 1.50
-        local_build_time = -0.30
-        local_build_cost = -0.25
-		terrain_override = {
-			1090
-		}
-    }
-    # Oceania
-	urban_adelaide = {
-		color = { 177 156 217 }
-        type = plains
-        sound_type = plains
-        supply_limit = 10
-        movement_cost = 1.0
-        local_development_cost = -0.20
-        allowed_num_of_buildings = 4
-        nation_designer_cost_multiplier = 1.50
-        local_build_time = -0.30
-        local_build_cost = -0.25
-		terrain_override = {
-			1086
-		}
-    }
-    # Oceania
-	urban_port_melbourne = {
-		color = { 177 156 217 }
-        type = plains
-        sound_type = plains
-        supply_limit = 10
-        movement_cost = 1.0
-        local_development_cost = -0.30
-        
-        allowed_num_of_buildings = 4
-        nation_designer_cost_multiplier = 1.50
-        local_build_time = -0.30
-        local_build_cost = -0.25
-		terrain_override = {
-			1087
-		}
-    }
-    # Oceania
-	urban_brisbane = {
-		color = { 177 156 217 }
-        type = hills
-        sound_type = mountains
-        supply_limit = 2
-        movement_cost = 1.80
-        local_development_cost = 0.10
-        allowed_num_of_buildings = 2
-        nation_designer_cost_multiplier = 1.3
-        defence = 2
-        local_defensiveness = 0.2
-        local_build_time = 0.25
-		terrain_override = {
-			1094
-		}
-    }
-    # Oceania
-	urban_darwin = {
-		color = { 177 156 217 }
-        type = jungle
-        sound_type = jungle
-        supply_limit = 1
-        movement_cost = 2.0
-        local_development_cost = 0.20
-        allowed_num_of_buildings = 1
-        nation_designer_cost_multiplier = 1.25
-        defence = 3
-        local_build_time = 0.5
-        local_build_cost = 0.1
-		terrain_override = {
-			4846
-		}
-    }
-    # Oceania
-	urban_auckland = {
-		color = { 177 156 217 }
-        type = plains
-        sound_type = plains
-        supply_limit = 10
-        movement_cost = 1.0
-        local_development_cost = -0.30
-        
-        allowed_num_of_buildings = 4
-        nation_designer_cost_multiplier = 1.50
-        local_build_time = -0.30
-        local_build_cost = -0.25
-		terrain_override = {
-			5609
-		}
-    }
-    # Oceania
-	urban_wellington = {
-		color = { 177 156 217 }
-        type = hills
-        sound_type = mountains
-        supply_limit = 2
-        movement_cost = 1.80
-        local_development_cost = 0.10
-        allowed_num_of_buildings = 2
-        nation_designer_cost_multiplier = 1.3
-        defence = 2
-        local_defensiveness = 0.2
-        local_build_time = 0.25
-		terrain_override = {
-			1107
-		}
-    }
-    # Oceania
-	urban_christchurch = {
-		color = { 177 156 217 }
-        type = hills
-        sound_type = mountains
-        supply_limit = 2
-        movement_cost = 1.80
-        local_development_cost = 0.10
-        allowed_num_of_buildings = 2
-        nation_designer_cost_multiplier = 1.3
-        defence = 2
-        local_defensiveness = 0.2
-        local_build_time = 0.25
-		terrain_override = {
-			5600
-		}
-    }
-    # Oceania
-	urban_nelson = {
-		color = { 177 156 217 }
-        type = mountains
-        sound_type = mountains
-        supply_limit = 1
-        movement_cost = 2.5
-        local_development_cost = 0.30
-        allowed_num_of_buildings = 1
-        nation_designer_cost_multiplier = 1.00
-        defence = 4
-        local_defensiveness = 0.50
-        local_build_time = 0.5
-        local_build_cost = 0.25
-		terrain_override = {
-			2738
-		}
-    }
-    # Oceania
-	urban_whanganui = {
-		color = { 177 156 217 }
-        type = hills
-        sound_type = mountains
-        supply_limit = 2
-        movement_cost = 1.80
-        local_development_cost = 0.10
-        allowed_num_of_buildings = 2
-        nation_designer_cost_multiplier = 1.3
-        defence = 2
-        local_defensiveness = 0.2
-        local_build_time = 0.25
-		terrain_override = {
-			5604
-		}
-    }
     # Pacific Islands
 	urban_suva = {
 		color = { 177 156 217 }
@@ -12003,40 +11697,6 @@ categories =  {
         local_build_cost = 0.10
 		terrain_override = {
 			6971
-		}
-    }
-	# Africa
-	urban_george = {
-		color = { 177 156 217 }
-        type = hills
-        sound_type = mountains
-        supply_limit = 2
-        movement_cost = 1.80
-        local_development_cost = 0.10
-        allowed_num_of_buildings = 2
-        nation_designer_cost_multiplier = 1.3
-        defence = 2
-        local_defensiveness = 0.2
-        local_build_time = 0.25
-		terrain_override = {
-			5351
-		}
-    }
-	# Africa
-	urban_east_london = {
-		color = { 177 156 217 }
-        type = hills
-        sound_type = mountains
-        supply_limit = 2
-        movement_cost = 1.80
-        local_development_cost = 0.10
-        allowed_num_of_buildings = 2
-        nation_designer_cost_multiplier = 1.3
-        defence = 2
-        local_defensiveness = 0.2
-        local_build_time = 0.25
-		terrain_override = {
-			5358
 		}
     }
 	# Africa
@@ -14110,24 +13770,6 @@ categories =  {
         local_build_cost = -0.25
 		terrain_override = {
 			8669
-		}
-    }
-	# Australia
-	urban_canberra = {
-		color = { 177 156 217 }
-        type = mountains
-        sound_type = mountains
-        supply_limit = 1
-        movement_cost = 2.5
-        local_development_cost = -0.30
-        allowed_num_of_buildings = 1
-        nation_designer_cost_multiplier = 1.00
-        defence = 4
-        local_defensiveness = 0.50
-        local_build_time = 0.5
-        local_build_cost = 0.25
-		terrain_override = {
-			4859
 		}
     }
 	# Mongolia
@@ -16608,23 +16250,6 @@ categories =  {
         local_build_cost = -0.25
 		terrain_override = {
 			629
-		}
-    }
-	# Australia
-	urban_hobart = {
-		color = { 177 156 217 }
-        type = hills
-        sound_type = mountains
-        supply_limit = 2
-        movement_cost = 1.80
-        local_development_cost = 0.10
-        allowed_num_of_buildings = 2
-        nation_designer_cost_multiplier = 1.3
-        defence = 2
-        local_defensiveness = 0.2
-        local_build_time = 0.25
-		terrain_override = {
-			1085
 		}
     }
 	# Japan

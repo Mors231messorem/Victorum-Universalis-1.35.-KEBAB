@@ -102,3 +102,63 @@ mt_krakatoa_modifier = {
 	tolerance_heathen = 1
 	picture = "mt_krakatoa_icon"
 }
+
+#1.35 by Quonton
+
+vu_amazon_rainforest = {
+	trade_value = 0.5
+	trade_goods_size = 0.5
+	supply_limit_modifier = -0.1
+	picture = "vu_amazon_rainforest"
+}
+
+vu_komodo_island = {
+	trade_value = 0.25
+	prestige = 0.05
+	local_tax_modifier = 0.25
+	picture = "deans_blue_hole_icon"
+}
+
+vu_ha_long_bay = {
+	trade_value = 0.75
+	trade_goods_size = 0.05
+	picture = "waterford_harbour_icon"
+}
+
+vu_iguazu_falls = {
+	trade_value = 1
+	prestige = 0.05
+	local_tax_modifier = 0.1
+	picture = "niagara_falls_icon"
+}
+
+vu_table_mountain = {
+	trade_value = 0.1
+	prestige = 0.05
+	picture = "mt_babuyan_claro_icon"
+}
+
+vu_the_sundarbans = {
+	trade_goods_size = 0.1
+	trade_value = 0.2
+	picture = "laguna_lagoon_icon"
+}
+
+vu_angel_falls = {
+	trade_value = 1
+	local_tax_modifier = 0.1
+	picture = "niagara_falls_icon"
+}
+
+vu_cliffs_of_moher = {
+	trade_goods_size = 0.1
+	local_defensiveness = 0.1
+	picture = "vu_cliffs_moher"
+}
+
+vu_milford_sound = {
+	trade_value = 0.2
+	local_tax_modifier = 0.1
+	transport_cost = -0.1
+	picture = "vu_milford_sound"
+}
