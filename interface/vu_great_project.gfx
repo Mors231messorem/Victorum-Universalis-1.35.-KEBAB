@@ -1,5 +1,150 @@
-#VU additions by San Felipe
+#VU additions by Quonton
 spriteTypes = {
+    spriteType = {
+        name = "GFX_great_project_vu_darwin"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_darwin.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_brisbane"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_brisbane.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_canberra"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_canberra.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_melbourne"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_melbourne.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_adelaide"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_adelaide.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_hobart"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_hobart.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_perth"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_perth.dds"
+    }
+	spriteType = {
+        name = "GFX_great_project_vu_sydney"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_sydney.dds"
+    }
+	spriteType = {
+        name = "GFX_great_project_vu_whanganui"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_whanganui.dds"
+    }		
+   	spriteType = {
+        name = "GFX_great_project_vu_wellington"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_wellington.dds"
+    }		
+   	spriteType = {
+        name = "GFX_great_project_vu_nelson"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_nelson.dds"
+    }		
+    spriteType = {
+        name = "GFX_great_project_vu_christchurch"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_christchurch.dds"
+    }		
+	spriteType = {
+        name = "GFX_great_project_vu_auckland"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_auckland.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_capetown"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_capetown.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_swakopmund"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_swakopmund.dds"
+    }	
+    spriteType = {
+        name = "GFX_great_project_vu_george_city"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_george_city.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_port_elizabeth"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_port_elizabeth.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_east_london"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_east_london.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_durban"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_durban.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_pietermaritzburg"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_pietermaritzburg.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_bloemfontein"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_bloemfontein.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_johannesburg"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_johannesburg.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_pretoria"	
+        texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_pretoria.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_mammoth_cave"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_mammoth_cave.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_crater_lake"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_crater_lake.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_death_valley"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_death_valley.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_scotts_bluff"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_scotts_bluff.dds"
+    }
+	spriteType = {
+        name = "GFX_great_project_vu_black_hills"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_black_hills.dds"
+    }	
+    spriteType = {
+        name = "GFX_great_project_vu_montezuma_castle"	
+        texturefile = "gfx//interface//great_projects//VU_Native_Americans//great_project_vu_montezuma_castle.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_pipestone"	
+        texturefile = "gfx//interface//great_projects//VU_Native_Americans//great_project_vu_pipestone.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_devil_tower"	
+        texturefile = "gfx//interface//great_projects//VU_Native_Americans//great_project_vu_devil_tower.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_serpent_mound"	
+        texturefile = "gfx//interface//great_projects//VU_Native_Americans//great_project_vu_serpent_mound.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_ocmulgee_mound"	
+        texturefile = "gfx//interface//great_projects//VU_Native_Americans//great_project_vu_ocmulgee_mound.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_chaco_complex"	
+        texturefile = "gfx//interface//great_projects//VU_Native_Americans//great_project_vu_chaco_complex.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_poverty_point"	
+        texturefile = "gfx//interface//great_projects//VU_Native_Americans//great_project_vu_poverty_point.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_iron_range"	
+        texturefile = "gfx//interface//great_projects//VU_Mining//great_project_vu_iron_range.dds"
+    }
+	#VU additions by San Felipe
 	spriteType = {
 		name = "GFX_great_project_vu_el_morro"
 		texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_el_morro.dds"

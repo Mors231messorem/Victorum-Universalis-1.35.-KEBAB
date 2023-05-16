@@ -1,0 +1,162 @@
+﻿l_english:
+ #VU - Quonton
+ #Natural Monuments
+ great_project_vu_scotts_bluff: "Scotts Bluff"
+ vu_scotts_bluff: "Scotts Bluff"
+ vu_scotts_bluff_title: "Construct Scotts Bluff."
+ construct_vu_scotts_bluff_title: "Construct Scotts Bluff."
+ construct_vu_scotts_bluff_desc: "why are you seeing this ."
+ great_project_vu_scotts_bluff: "Scotts Bluff"
+
+ vu_death_valley: "Death Valley"
+ vu_death_valley_title: "Construct Death Valley."
+ construct_vu_death_valley_title: "Construct Death Valley."
+ construct_vu_death_valley_desc: "You really shouldnt be able to see this lol"
+ great_project_vu_death_valley: "Death Valley"
+
+ vu_crater_lake: "Crater Lake"
+ vu_crater_lake_title: "Construct Crater Lake."
+ construct_vu_crater_lake_title: "Construct Crater Lake."
+ construct_vu_crater_lake_desc: "A large lake created by a volcanic explosion."
+ great_project_vu_crater_lake: "Crater Lake"
+
+ vu_mammoth_cave: "Mammoth Cave"
+ vu_mammoth_cave_title: "Construct Mammoth Cave."
+ construct_vu_mammoth_cave: "Construct Mammoth Cave."
+ construct_vu_mammoth_cave_desc: "Mammoth Cave is the largest cave system under North America."
+ great_project_vu_mammoth_cave: "Mammoth Cave"
+
+ #Native Monuments
+ vu_montezuma_castle: "Sinagua Castle"
+ vu_montezuma_castle_title: "Construct Sinagua Castle."
+ construct_vu_montezuma_castle: "Construct Sinagua Castle."
+ construct_vu_montezuma_castle_desc: "Sinagua Castle is a large 'apartment complex' in the cliff side"."
+ great_project_vu_montezuma_castle_cave: "Sinagua Castle"
+
+ vu_black_hills: "Paha Sapa"
+ vu_black_hills_title: "Construct Paha Sapa."
+ construct_vu_black_hills: "Paha Sapa Castle."
+ construct_vu_black_hills_desc: "Paha Sapae is a large 'apartment complex' in the cliff side"."
+ great_project_vu_black_hills: "Paha Sapa"
+
+ vu_pipestone: "Pipestone"
+ vu_pipestone_title: "Construct Pipestone."
+ construct_vu_pipestone: "Construct Pipestone."
+ construct_vu_pipestone_desc: "Pipestone mhmmmmmmmmmmmm."
+ great_project_vu_pipestone: "Pipestone"
+
+ vu_devil_tower: "Mato Tipila"
+ vu_devil_tower_title: "Construct Mato Tipila."
+ construct_vu_devil_tower: "Construct Mato Tipila."
+ construct_vu_devil_tower_desc: "Mato Tipila is scaryyyyyyy"
+ great_project_vu_devil_tower_cave: "Mato Tipila"
+
+ vu_serpent_mound: "Serpent Mound"
+ vu_serpent_mound_title: "Construct Serpent Mound."
+ construct_vu_serpent_mound: "Construct Serpent Mound."
+ construct_vu_serpent_mound_desc: "Serpent Mound is a large earthwork in the shape of a serpent."
+ great_project_vu_serpent_mound: "Serpent Mound"
+
+ vu_ocmulgee_mound: "Ocmulgee Mound"
+ vu_ocmulgee_mound_title: "Construct Ocmulgee Mound."
+ construct_vu_ocmulgee_mound: "Construct Ocmulgee Mound."
+ construct_vu_ocmulgee_mound_desc: "Ocmulgee Mound is a large earthwork which was the epicenter of a native city."
+ great_project_vu_ocmulgee_mound: "Ocmulgee Mound"
+
+ vu_chaco_complex: "Chetro Ketl"
+ vu_chaco_complex_title: "Construct Chetro Ketl."
+ construct_vu_chaco_complex: "Construct Chetro Ketl."
+ construct_vu_chaco_complex_desc: "Chetro Ketl is a large trade center for the Pueblo people."
+ great_project_vu_chaco_complex: "Chetro Ketl"
+
+ vu_poverty_point: "Poverty Point"
+ vu_poverty_point_title: "Construct Poverty Point."
+ construct_vu_poverty_point: "Construct Poverty Point."
+ construct_vu_poverty_point_desc: "Poverty Point is a large system of earthoworks along the Mississippi, and is considered America's first city."
+ great_project_vu_poverty_point: "Poverty Point"
+
+ #Mining Monuments
+ vu_iron_range: "The Iron Range"
+ vu_iron_range_title: "Construct The Iron Range."
+ construct_vu_iron_range: "Construct The Iron Range."
+ construct_vu_iron_range_desc: "The Iron Range is North America's largest iron deposit."
+ great_project_vu_iron_range: "The Iron Range"
+
+ #Australian Cities Monuments
+ vu_sydney: "Sydney"
+ vu_sydney_title: "Construct Sydney."
+ construct_vu_sydney: "Construct Sydney."
+ construct_vu_sydney_desc: "Sydney is a large city in Australia."
+ great_project_vu_sydney: "Sydney"
+
+ vu_darwin: "Darwin"
+ vu_darwin_title: "Construct Darwin."
+ construct_vu_darwin: "Construct Darwin."
+ construct_vu_darwin_desc: "Darwin is a large city in Australia."
+ great_project_vu_darwin: "Darwin"
+
+ vu_brisbane: "Brisbane"
+ vu_brisbane_title: "Construct Brisbane."
+ construct_vu_brisbane: "Construct Brisbane."
+ construct_vu_brisbane_desc: "Brisbane is a large city in Australia."
+ great_project_vu_brisbane: "Brisbane"
+
+ vu_canberra: "Canberra"
+ vu_canberra_title: "Construct Canberra."
+ construct_vu_canberra: "Construct Canberra."
+ construct_vu_canberra_desc: "Canberra is a large city in Australia."
+ great_project_vu_canberra: "Canberra"
+
+ vu_melbourne: "Melbourne"
+ vu_melbourne_title: "Construct Melbourne."
+ construct_vu_melbourne: "Construct Melbourne."
+ construct_vu_melbourne_desc: "Melbourne is a large city in Australia."
+ great_project_vu_melbourne: "Melbourne"
+
+ vu_adelaide: "Adelaide"
+ vu_adelaide_title: "Construct Adelaide."
+ construct_vu_adelaide: "Construct Adelaide."
+ construct_vu_adelaide_desc: "Adelaide is a large city in Australia."
+ great_project_vu_adelaide: "Adelaide"
+
+ vu_hobart: "Hobart"
+ vu_hobart_title: "Construct Hobart."
+ construct_vu_hobart: "Construct Hobart."
+ construct_vu_hobart_desc: "Hobart is a large city in Australia."
+ great_project_vu_hobart: "Hobart"
+
+ vu_perth: "Perth"
+ vu_perth_title: "Construct Perth."
+ construct_vu_perth: "Construct Perth."
+ construct_vu_perth_desc: "Perth is a large city in Australia."
+ great_project_vu_perth: "Perth"
+
+ vu_auckland: "Auckland"
+ vu_auckland_title: "Construct Auckland."
+ construct_vu_auckland: "Construct Auckland."
+ construct_vu_auckland_desc: "Auckland is a large city in New Zealand."
+ great_project_vu_auckland: "Auckland"
+
+ vu_whanganui: "Whanganui"
+ vu_whanganui_title: "Construct Whanganui."
+ construct_vu_whanganui: "Construct Whanganui."
+ construct_vu_whanganui_desc: "Whanganui is a large city in New Zealand."
+ great_project_vu_whanganui: "Whanganui"
+
+ vu_wellington: "Wellington"
+ vu_wellington_title: "Construct Wellington."
+ construct_vu_wellington: "Construct Wellington."
+ construct_vu_wellington_desc: "Wellington is a large city in New Zealand."
+ great_project_vu_wellington: "Wellington"
+
+ vu_nelson: "Nelson"
+ vu_nelson_title: "Construct Nelson."
+ construct_vu_nelson: "Construct Nelson."
+ construct_vu_nelson_desc: "Nelson is a large city in New Zealand."
+ great_project_vu_nelson: "Nelson"
+
+ vu_christchurch: "Christchurch"
+ vu_christchurch_title: "Construct Christchurch."
+ construct_vu_christchurch: "Construct Christchurch."
+ construct_vu_christchurch_desc: "Christchurch is a large city in New Zealand."
+ great_project_vu_christchurch: "Christchurch"

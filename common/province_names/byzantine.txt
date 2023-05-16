@@ -16,7 +16,7 @@
 115 = "Pisna"
 116 = "Florentia"
 117 = "Senio" #Siena
-118 = { "Rhome" "Roma" } #Rome
+118 = { "Rhoma" "Roma" } #Rome
 119 = "Ankona" #Ancona
 120 = { "Abruzion" "Amiternis" }
 121 = { "Parthenope" "Parthenope" } #Napoli

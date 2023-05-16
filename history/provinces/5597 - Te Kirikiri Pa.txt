@@ -11,6 +11,9 @@ base_manpower = 1
 native_size = 10
 native_ferocity = 3
 native_hostileness = 5
-
+add_permanent_province_modifier = {
+	name = vu_milford_sound 
+	duration = -1
+}
 #History
 discovered_by = polynesian_tech

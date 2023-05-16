@@ -13,6 +13,10 @@ base_production = 3
 base_manpower = 2
 is_city = yes
 
+add_permanent_province_modifier = {
+    name = vu_komodo_island 
+    duration = -1
+}
 
 discovered_by = chinese
 discovered_by = indian
