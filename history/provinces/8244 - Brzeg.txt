@@ -4,7 +4,7 @@ capital = "Brzeg"
 is_city = yes
 owner = BEG
 controller = BEG
-culture = silesian_german
+culture = schlesian
 religion = catholic
 #Development and Trade
 base_tax = 2
@@ -37,6 +37,7 @@ discovered_by = ottoman
 } #Return to proper mod added owners and cuts vanilla core, typically.
 
 # Vassal of Hungary between 1478 - 1490
+1500.1.1 = { culture = silesian_german } # German settlement
 1521.5.30 = {
 	owner = LEG
 	controller = LEG
