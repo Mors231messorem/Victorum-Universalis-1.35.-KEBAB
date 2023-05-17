@@ -690,16 +690,31 @@ vu_extra_slot_missions_2 = {
 		trigger = { 
 			any_country = {
 				is_enemy = ROOT
-				ROOT = {	#Nation won war against its rival
-					has_won_war_against = {
-						who = PREV
-						max_years_since = 10
-					}
+				OR = {
+					NOT = { army_tradition = ROOT }
+					NOT = { army_size = ROOT }
 				}
+				
+				#ROOT = {	#Nation won war against its rival
+				#	has_won_war_against = {
+				#		who = PREV
+				#		max_years_since = 10
+				#	}
+				#}	#Not sure the scope is working correctly
+			}
+			calc_true_if = {
+				all_country = {
+					OR = {
+						transfers_trade_power_to = ROOT
+						steers_trade_to = ROOT
+					}
+					NOT = { is_subject_of = ROOT }
+				}
+				amount = 2
 			}
 			num_of_war_reparations = 2
 			NOT = { war_exhaustion = 2 }
-			power_projection = 50
+			power_projection = 40
 			OR = {
 				army_professionalism = 0.075
 				army_tradition = 40
@@ -717,6 +732,54 @@ vu_extra_slot_missions_2 = {
 				name = "vu_military_success"
 				duration = 3650 #10 years
 			}
+		}
+	}
+	
+	defeat_enemies_mission = {
+		icon = mission_cossack_cavalry
+		required_missions = { military_success_mission }
+		position = 4
+		trigger = {
+			any_country = {		#Humiliated current enemy
+				is_enemy = ROOT
+				has_been_humiliated_by = ROOT
+				OR = {
+					NOT = { army_tradition = ROOT }
+					NOT = { army_size = ROOT }
+				}
+				
+			}
+			calc_true_if = {	#2 countries steer or transfer trade to ROOT
+				all_country = {
+					OR = {
+						transfers_trade_power_to = ROOT
+						steers_trade_to = ROOT
+					}
+					NOT = { is_subject_of = ROOT }
+				}
+				amount = 2
+			}
+			calc_true_if = {	#Humiliated 3 random countries
+				all_country = {
+					has_been_humiliated_by = ROOT
+				}
+				amount = 3
+			}
+			num_of_war_reparations = 2
+			NOT = { war_exhaustion = 2 }
+			employed_advisor = {
+				category = MIL
+			}
+			power_projection = 50
+		}
+		effect = {
+			add_yearly_manpower = 1
+			add_splendor = 200
+			add_power_projection = {
+				type = mission_rewards_power_projection
+				amount = 15
+			}
+			add_army_professionalism = 0.05
 		}
 	}
 }
