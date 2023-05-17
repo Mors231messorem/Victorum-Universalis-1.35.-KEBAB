@@ -671,3 +671,5 @@
  USA_missions_liberia_desc: "A land for freedmen and born free men alike, long live Liberia!"
  #
  highlighted_provinces_converted_to_religion:0 "The highlighted provinces are following the §Y[Root.Religion.GetName]§! faith."
+ #
+ emp_pap_patrimony_of_st_peter_tt:0 "§Y6§! provinces in §YMarche-Abruzzo§! or §YEmilia-Romagna§! areas are owned by you or your non-tributary subjects"
