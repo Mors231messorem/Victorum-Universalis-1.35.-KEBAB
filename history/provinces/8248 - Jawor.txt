@@ -4,7 +4,7 @@ capital = "Jawor"
 is_city = yes
 owner = BOH
 controller = BOH
-culture = silesian_german
+culture = schlesian
 religion = catholic
 base_tax = 2
 base_production = 2
@@ -40,6 +40,7 @@ discovered_by = ottoman
 	owner = HAB
 	controller = HAB
 }
+1550.1.1 = { culture = silesian_german } # German settlement
 1618.5.23 = {
 	owner = BOH
 	controller = BOH
