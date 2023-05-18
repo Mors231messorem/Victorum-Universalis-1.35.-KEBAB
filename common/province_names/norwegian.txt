@@ -1,4 +1,4 @@
-10 = "Jemtland"
+10 = { "Jemtland" "Frösön" }
 16 = "Båhuslen"
 369 = "Orkneyjar"
 

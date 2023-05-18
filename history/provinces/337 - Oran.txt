@@ -2,7 +2,7 @@
 
 owner = TLC
 controller = TLC
-culture = berber
+culture = shenwa
 religion = sunni
 capital = "Oran"
 trade_goods = citrus

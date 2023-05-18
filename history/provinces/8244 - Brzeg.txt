@@ -4,7 +4,7 @@ capital = "Brzeg"
 is_city = yes
 owner = BEG
 controller = BEG
-culture = silesian_german
+culture = schlesian
 religion = catholic
 #Development and Trade
 base_tax = 2

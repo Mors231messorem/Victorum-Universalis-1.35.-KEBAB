@@ -9,7 +9,8 @@ owner = OLE
 controller = OLE
 
 #Demographics
-culture = silesian_german
+culture = polish
+
 religion = catholic
 
 #Development and Trade

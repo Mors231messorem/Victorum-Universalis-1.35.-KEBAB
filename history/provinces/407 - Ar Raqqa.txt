@@ -28,7 +28,7 @@ discovered_by = indian
 	controller = TUR
 	add_core = TUR
 } # Part of the Ottoman Empire
-1525.1.1 = { culture = syriac_culture }	#aramaic fades to obscurity
+1525.1.1 = { culture = al_suryah_arabic }	#aramaic fades to obscurity
 1550.1.1 = {
 	base_tax = 4
 	base_production = 3

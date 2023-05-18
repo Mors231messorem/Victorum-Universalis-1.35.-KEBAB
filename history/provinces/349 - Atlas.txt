@@ -2,7 +2,7 @@
 
 owner = TLC
 controller = TLC
-culture = shilha
+culture = ait_atta
 religion = sunni
 capital = "Figuig"
 trade_goods = fruit

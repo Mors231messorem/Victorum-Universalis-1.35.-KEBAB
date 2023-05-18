@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 owner = RAC
 controller = RAC
-culture = schlesian
+culture = silesian_german
 religion = catholic
 hre = yes
 base_tax = 4 

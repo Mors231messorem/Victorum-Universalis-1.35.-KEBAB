@@ -1,6 +1,6 @@
 #3032 - Bogue
 
-culture = tuareg 
+culture = fulani 
 religion = shamanism #Fetishism
 capital = "Bogue"
 trade_goods = unknown

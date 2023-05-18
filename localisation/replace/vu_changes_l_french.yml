@@ -515,7 +515,7 @@
  carribean:0 "waroid"           #May replace this later with 'Antillian', undecided
  sudanese:0 "nilotique"
  al_misr_arabic:0 "masri"
- berber:0 "zénète"
+ #berber:0 "zénète"
  tunisian:0 "maghrébine"
  dakelh:0 "porteuse"         #Just going with the trend of anglicising culture names.
  khoisan:0 "khoïkhoï"

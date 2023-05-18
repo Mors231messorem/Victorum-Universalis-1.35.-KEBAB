@@ -532,7 +532,7 @@ qadiri_order = {
         #primary_culture = andalusi_culture
 		OR = {
 		    primary_culture = andalucian
-		    primary_culture = berber
+		    culture_group = berber_group
 		}
 		religion_group = muslim
     }
@@ -567,7 +567,7 @@ aissawa_order = {
         #primary_culture = andalusi_culture
 		OR = {
 		    primary_culture = andalucian
-		    primary_culture = berber
+		    culture_group = berber_group
 		}
 		religion_group = muslim
     }

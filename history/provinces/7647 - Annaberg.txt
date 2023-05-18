@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Thuringia
 
-owner = SAX
-controller = SAX
-add_core = SAX
+owner = BOH
+controller = BOH
+add_core = BOH
 culture = saxon
 religion = catholic
 capital = "Annaberg"

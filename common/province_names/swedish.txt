@@ -1,5 +1,5 @@
 6 = "Skåne"
-10 = "Jämtland"
+10 = "Jämtlands Län"
 12 = "Själland"
 15 = "Mittjylland"
 16 = "Bohuslän"

@@ -3,7 +3,7 @@
 owner = MRK
 controller = MRK 
 add_core = MRK 
-culture = shilha
+culture = zayane
 religion = sunni
 capital = "Demnate"
 trade_goods = wool

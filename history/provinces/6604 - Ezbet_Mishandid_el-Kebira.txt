@@ -1,6 +1,6 @@
 #6604 - Ezbet_Mishandid_el-Kebira
 
-culture = libyan_berber_culture
+culture = siwa_culture
 religion = sunni
 capital = "Ezbet Mishandid"
 trade_goods = unknown

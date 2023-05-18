@@ -2,16 +2,16 @@
 #Region - Germany
 #Area - Franconia
 
-owner = BAM
-controller = BAM
-add_core = BAM
+owner = BOH
+controller = BOH
+add_core = BOH
 culture = franconian
 religion = catholic
 base_tax = 3
 base_production = 2
 base_manpower = 2
 trade_goods = vegetables
-capital = "Pegnitz"
+capital = "Kraslice"
 is_city = yes
 hre = yes
 

@@ -2,7 +2,7 @@
 
 owner = TLC
 controller = TLC
-culture = berber
+culture = ait_atta
 religion = sunni
 capital = "Debdou"
 trade_goods = wool

@@ -4,8 +4,9 @@ primary_culture = tunisian
 religion = sunni
 technology_group = muslim
 capital = 341	# Tunis
+add_accepted_culture = libyan_berber_culture
 add_accepted_culture = kabylian
-add_accepted_culture = berber
+add_accepted_culture = shawiya
 religious_school = maliki_school
 
 change_estate_land_share = {

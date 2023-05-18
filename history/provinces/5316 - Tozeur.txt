@@ -3,7 +3,7 @@
 owner = GHD
 controller = GHD 
 add_core = GHD
-culture = berber
+culture = libyan_berber_culture
 religion = sunni
 capital = "Tozeur"
 trade_goods = cloth

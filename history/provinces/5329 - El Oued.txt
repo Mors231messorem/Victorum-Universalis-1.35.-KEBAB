@@ -3,7 +3,7 @@
 owner = ZAB
 controller = ZAB
 add_core = ZAB
-culture = berber
+culture = mozabite
 religion = sunni
 capital = "EL Oued"
 trade_goods = fruit			#Dates from the oasis
