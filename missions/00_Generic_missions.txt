@@ -742,7 +742,7 @@ vu_extra_slot_missions_2 = {
 		trigger = {
 			any_country = {		#Humiliated current enemy
 				is_enemy = ROOT
-				has_been_humiliated_by = ROOT
+				#has_been_humiliated_by = ROOT
 				OR = {
 					NOT = { army_tradition = ROOT }
 					NOT = { army_size = ROOT }
@@ -759,12 +759,12 @@ vu_extra_slot_missions_2 = {
 				}
 				amount = 2
 			}
-			calc_true_if = {	#Humiliated 3 random countries
-				all_country = {
-					has_been_humiliated_by = ROOT
-				}
-				amount = 3
-			}
+			#calc_true_if = {	#Humiliated 3 random countries
+			#	all_country = {
+			#		has_been_humiliated_by = ROOT #PDX claims to add this but it isn't in any vanilla entry.
+			#	}
+			#	amount = 3
+			#}
 			num_of_war_reparations = 2
 			NOT = { war_exhaustion = 2 }
 			employed_advisor = {
