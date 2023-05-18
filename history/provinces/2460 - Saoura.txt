@@ -2,7 +2,7 @@
 
 owner = TFL
 controller = TFL
-culture = shilha
+culture = zayane
 religion = sunni
 capital = "Tamegroute"
 trade_goods = livestock

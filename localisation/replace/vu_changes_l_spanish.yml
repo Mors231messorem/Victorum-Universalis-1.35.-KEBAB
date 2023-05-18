@@ -515,7 +515,7 @@
  carribean:0 "Antillisch"
  sudanese:0 "Nilotisch"
  al_misr_arabic:0 "Masrisch"
- berber:0 "Zenatisch"
+ #berber:0 "Zenatisch"
  tunisian:0 "Maghrebinisch"
  dakelh:0 "Carrierisch"         #Just going with the trend of anglicising culture names.
  khoisan:0 "Khoikhoisch"

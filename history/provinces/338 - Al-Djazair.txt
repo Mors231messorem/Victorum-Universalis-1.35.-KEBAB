@@ -2,7 +2,7 @@
 
 owner = TLC
 controller = TLC
-culture = berber
+culture = kabylian
 religion = sunni
 capital = "Al-Djazair"
 trade_goods = sugar

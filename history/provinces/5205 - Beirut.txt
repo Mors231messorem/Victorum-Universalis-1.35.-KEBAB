@@ -38,7 +38,8 @@ discovered_by = east_african
 	owner = TUR
 	controller = TUR
 	add_core = TUR
-	religion = shiite			#Druze, actually, but dont want to bother with programming a new religion right now
+	religion = druze_new
+	culture = druze_culture
 } # Beirut was controlled by local Druze emirs throughout the Ottoman period
 
 #Fakhr-al-Din II, fortified it early in the 17th century, but the Ottomans reclaimed it in 1763.

@@ -1,6 +1,6 @@
 #1111 - Arguin
 
-culture = tuareg
+culture = lamtuna
 religion = sunni
 capital = "Arguin"
 trade_goods = unknown

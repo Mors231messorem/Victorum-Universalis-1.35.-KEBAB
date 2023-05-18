@@ -1,25 +1,25 @@
 #Scandinavian Province & City Names
 #PROVID = "PROVNAME" "CITY"
 #xxxxxx = { "xxxxxxxx" "xxxx" }
-1 = "Svíthjódh" #Agnafit #œ
-2 = "Austrgautland" #Linköking = Lyngkaupstadhur
-3 = "Moere" #Kalmar = Kalmarnir
-4 = "Bergslagen" #Vasteras = Vaestraaros
-5 = "Vaermaland" #Tingvalla
-6 = "Lundurland" #Lund = Lundur
-7 = "Skaraland"
-8 = "Jaernbaeraland"
-9 = "Helsingjaland" #Gävle = Gaevleaegarna
-10 = "Jamptaland" #Frösön = Fraeseyjar
-11 = "Vestrbotn" #Umea = Úmaár
+1 = { "Roslagen" "Stockholm" }
+2 = { "Östergötland" "Linköping" }
+3 = { "Möre" "Kalmar" }
+4 = { "Bergslagen" "Västerårs" }
+5 = { "Värmland" "Tingvalla" }
+6 = { "Lund" "Lund" }
+7 = { "Västergötland" "Skara" }
+8 = { "Järnbäraland" "Falun" }
+9 = { "Gästrikland" "Gävle" }
+10 = { "Jämtlands Län" "Frösön" }
+11 = { "Västerbotten" "Umeå" }
 12 = "Sjáland" #Kobenhavn = Kaupmannahöfn
 13 = "Slésvik" #Hedeby = Heidhabyr
 14 = "Fjón" #Odense = Ódhinsvé
 15 = "Vestrjotland" #Ribe = Rípar
 16 = "Baahuslen"
 17 = "Vestrfold" #Oslo = Kauphágur
-18 = "Laepmork"
-19 = "Austrbotn" #Korsholm = Korsholmr
+18 = { "Pite Lappmark" "Sorsele" }
+19 = { "Österbotten" "Vasa" }
 20 = "Trondalog" #Trondheim = Nidharós 
 21 = "Hálogaland"
 22 = "Eystridalr" #Hamar = Hamarr
@@ -27,11 +27,11 @@
 24 = "Ryggjafylki" #Stavanger = Stafangr
 25 = "Gutland" #Visby = Vísbýr
 26 = "Halland" #Halmstad = Halmstaede
-27 = "Árbaeland" #Abo = Árbae
-28 = "Nýrland" #Borga = Borgár
-29 = "Tafaeistaland" #Vanaja
-30 = "Vébjorgrland" #Vyborg = Vébjorgr
-31 = "Savolask" #Olofsborg = Ólafrsborgr
+27 = { "Egentliga Finland" "Åbo" }
+28 = { "Nyland" "Hälsingfors" }
+29 = "Tavastland"
+30 = { "Viborg" "Viborg" }
+31 = "Savolaks" #Olofsborg = Ólafrsborgr
 32 = "Keskholmrland" #Kexholm = Keskholmr
 33 = "Nyenland" #Nöteborg = Noeteborgr
 34 = "Ingrmanland" #Koporye = Koporje
@@ -163,7 +163,7 @@
 1868 = "Austrborgr"
 1874 = "Brimar"
 1876 = "Frakkafurdha"
-1930 = "Árland" #Sund
+1930 = "Åland"
 1933 = "Bár"
 1956 = "Súrsdalr"
 1961 = "Aldeigja" #Staraya Ladoga = Aldeigjuborg
@@ -173,7 +173,7 @@
 1982 = "Bleking" #Ronneby = Rotnaeby
 1983 = "Láland" #Falster = Falstur
 1984 = "Nordjotland" #Aalborg = Álaborg
-1985 = "Naerríki" #Örebro = Eyrarsundborgr
+1985 = { "Närke" "Örebro" }
 2298 = "Átalsborgr"
 2313 = "Antekya"
 2568 = "Fólk"
@@ -198,7 +198,7 @@
 3113 = "Inntak" "Frederikshåb"
 4110 = "Sudhrland"
 4113 = "Kvenland" #Uleaborg = Uleárborgr
-4114 = "Lule Laepmork" #Jokkmokk = Jokomuka
+4114 = { "Lule Lappmark" "Nederbyn" }
 4118 = "Deasmunstadhr" #Cork = Corcach
 4119 = "Nordhrkonnaktastadhr" #Sligo = Slicekborgr
 4120 = "Kildhar" #Naas = Nasborgr
@@ -214,7 +214,7 @@
 4147 = "Rádhstofa"
 4149 = "Kaldyng"
 4174 = "Duracur"
-4151 = "Finnbygdir"
+4151 = "Kemi Lappmark"
 4152 = "Kajanaland" #Kajana = Kajaneborgr 
 4163 = "Aelvoeseland" #Elfsborg = Aelvoeseborgr 
 4164 = "Dalsland" #Dalaborg = Dalaborgr

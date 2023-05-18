@@ -1,5 +1,5 @@
 #5222 - Talbalbala
-culture = tuareg
+culture = zayane
 religion = sunni
 capital = "Talbalbala"
 base_tax = 2

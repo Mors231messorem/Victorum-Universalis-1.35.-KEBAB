@@ -3,8 +3,8 @@
 owner = AKK
 controller = AKK
 add_core = AKK				#Aq-Qoyunlu border reached roughly this down the Euphrates
-capital = "Res Ayna"			#Syriac version
-culture = syriac_culture
+capital = "Ras Al Ayn"
+culture = al_suryah_arabic
 religion = sunni
 trade_goods = grain
 hre = no

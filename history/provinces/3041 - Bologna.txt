@@ -1,6 +1,6 @@
 #3041 - Kiffa
 
-culture = tuareg 
+culture = soninke 
 religion = shamanism #Fetishism
 capital = "Kiffa"
 trade_goods = unknown

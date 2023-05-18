@@ -3,7 +3,7 @@
 owner = TLC
 controller = TLC
 add_core = TLC
-culture = berber
+culture = shenwa
 religion = sunni
 capital = "Nedroma"
 trade_goods = cloth			#important textile center by the 1500s
@@ -21,9 +21,8 @@ discovered_by = eastern
 1491.1.1 = {
 	base_production = 6
 	base_tax = 4
-	#culture = andalusi_culture
-	culture = andalucian
-}	#First wave of explusions from Iberia. Moors and Jews expelled and flock to North Africa in huge numbers.
+	culture = algerian
+}	#First wave of explusions from Iberia. Moors and Jews expelled and flock to North Africa in huge numbers. Represented as Algerian as to show the Arabization resulting from the expulsions.
 1549.1.1 = {
 	owner = MOR
 	controller = MOR

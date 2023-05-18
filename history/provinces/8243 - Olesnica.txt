@@ -9,7 +9,7 @@ owner = OLE
 controller = OLE
 
 #Demographics
-culture = silesian_german
+culture = polish
 religion = catholic
 
 #Development and Trade
@@ -63,6 +63,7 @@ discovered_by = ottoman
 	controller = BOH
 	add_core = BOH
 } # Konrad X the White dies, duchy is split, Olesnica obtained by Bohemia (Henry I)
+1525.1.1 = { culture = schlesian }
 1526.8.30 = {
 	add_core = HAB
 	owner = HAB
@@ -71,6 +72,7 @@ discovered_by = ottoman
 1530.6.1 = {
 	base_manpower = 3
 } # Gymnasium established
+1600.1.1 = { culture = silesian_german }
 1618.5.23 = {
 	owner = BOH
 	controller = BOH

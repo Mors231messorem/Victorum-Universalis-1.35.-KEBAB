@@ -1,6 +1,6 @@
 #6968 Tichla
 
-culture = tuareg
+culture = lamtuna
 religion = sunni
 capital = "Tichla"
 trade_goods = unknown

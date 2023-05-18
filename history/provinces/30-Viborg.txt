@@ -1,10 +1,11 @@
-#Viborgs l�n, incl. Viborg, Villmansstrand, and Kivin�bb.
+#Viborgs l n, incl. Viborg, Villmansstrand, and Kivin bb.
 #Region - Russia
 #Area - Ingria
 
 owner = SWE
 controller = SWE
 add_core = SWE
+add_core = KRL
 add_core = NOV
 culture = karelian
 religion = catholic

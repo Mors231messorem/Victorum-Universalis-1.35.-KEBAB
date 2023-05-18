@@ -1,6 +1,6 @@
 #6962 - Bir Gandouz
 
-culture = tuareg
+culture = lamtuna
 religion = sunni
 capital = "Bir Gandouz"
 trade_goods = unknown

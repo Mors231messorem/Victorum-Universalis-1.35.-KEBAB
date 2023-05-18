@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Upper Bavaria
 
-owner = SAX
-controller = SAX
-add_core = SAX
+owner = BOH
+controller = BOH
+add_core = BOH
 culture = franconian
 religion = catholic
 base_tax = 3

@@ -1,5 +1,5 @@
 #5221 - Bechar
-culture = tuareg
+culture = zayane
 religion = sunni
 capital = "Béchar"
 base_tax = 1

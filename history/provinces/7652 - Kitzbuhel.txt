@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Upper Bavaria
 
-owner = VGT
-controller = VGT
-add_core = VGT
+owner = BOH
+controller = BOH
+add_core = BOH
 culture = franconian
 religion = catholic
 capital = "Kitzbühel"

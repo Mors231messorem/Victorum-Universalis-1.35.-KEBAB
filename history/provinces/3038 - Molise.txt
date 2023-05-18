@@ -1,6 +1,6 @@
 #3038 - Kaedi
 
-culture = tuareg 
+culture = soninke 
 religion = shamanism #Fetishism
 capital = "Kaédi"
 trade_goods = unknown

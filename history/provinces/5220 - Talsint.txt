@@ -2,7 +2,7 @@
 owner = TFL
 controller = TFL
 add_core = TFL
-culture = shilha
+culture = zayane
 religion = sunni
 capital = "Talsint"
 base_tax = 4

@@ -3,9 +3,9 @@
 owner = TLC
 controller = TLC
 add_core = TLC
-culture = berber
+culture = algerian
 religion = sunni
-capital = "Saï¿½da"
+capital = "Saïda"
 trade_goods = wool
 hre = no
 base_tax = 1 

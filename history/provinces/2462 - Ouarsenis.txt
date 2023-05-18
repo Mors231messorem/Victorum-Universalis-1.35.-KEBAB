@@ -2,7 +2,7 @@
 
 owner = TLC
 controller = TLC
-culture = tunisian
+culture = algerian
 religion = sunni
 capital = "Tiaret"
 trade_goods = naval_supplies

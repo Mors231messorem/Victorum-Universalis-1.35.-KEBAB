@@ -2,7 +2,7 @@
 
 owner = MOR
 controller = MOR 
-culture = riffian
+culture = ait_atta
 religion = sunni
 capital = "Taza"
 trade_goods = wool

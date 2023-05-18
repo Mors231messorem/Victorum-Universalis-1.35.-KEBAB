@@ -1,6 +1,6 @@
 #3957 - Atar
 
-culture = tuareg
+culture = lamtuna
 religion = sunni
 capital = "Atar"
 trade_goods = unknown

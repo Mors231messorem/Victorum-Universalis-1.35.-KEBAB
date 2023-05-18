@@ -34,6 +34,7 @@ discovered_by = east_african
 
 1475.1.1 = {
 	religion = sunni
+	culture = al_suryah_arabic
 } # Islam controled the city and upper class, and quickly became the majority religion, if it wasnt already in the 15th century
 1516.8.24 = {
 	owner = TUR

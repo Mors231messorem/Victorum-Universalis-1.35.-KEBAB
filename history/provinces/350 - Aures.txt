@@ -2,7 +2,7 @@
 
 owner = LGH
 controller = LGH 
-culture = berber
+culture = mozabite
 religion = ibadi
 capital = "Laghwat"
 trade_goods = livestock

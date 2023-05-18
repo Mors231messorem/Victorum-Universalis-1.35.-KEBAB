@@ -2,7 +2,7 @@
 
 owner = OGL
 controller = OGL
-culture = berber
+culture = mozabite
 religion = ibadi
 capital = "Ouargla"
 trade_goods = slaves
