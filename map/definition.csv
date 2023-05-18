@@ -1853,7 +1853,7 @@ province;red;green;blue;x;x
 1852;210;34;79;Tokachi;x
 1853;82;36;126;Kozani;x
 1854;210;38;173;Jaffa;x
-1855;82;40;32;Sidon;x
+1855;82;40;32;Akka;x
 1856;211;42;79;Abkhazia;x
 1857;83;44;126;Lauenburg;x
 1858;211;46;173;Stettin;x
@@ -3754,9 +3754,9 @@ province;red;green;blue;x;x
 3753;100;11;153;RNW;
 3754;100;11;154;RNW;
 3755;100;11;155;RNW;
-3756;100;11;156;RNW;
-3757;100;11;157;RNW;
-3758;100;11;158;RNW;
+3756;184;123;28;Tartus;
+3757;219;156;114;Yabroud;
+3758;168;173;200;Sidon;
 3759;182;173;158;Boroughbridge;
 3760;218;3;166;South_Sepik;
 3761;2;89;84;East_Sepik;

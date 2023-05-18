@@ -88,7 +88,7 @@
 418 = "Diyar al-Bakr"
 1099 = "Suqutra"
 1849 = "Hamah"	
-1855 = "Sayda"
+1855 = "Akka"
 1851 = "Qulumriya"
 2313 = "Antakiya"
 2315 = "as-Suways"
