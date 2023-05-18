@@ -441,6 +441,8 @@ egypt_region = {
 		bahari_area
 		vostani_area
 		said_area
+		al_farafra_area
+		egypt_oasis_area
 		#VU MOVEDFROMHORNOFAFRICA
 		dongola_area
 	}
@@ -790,6 +792,7 @@ libya_region = {
 		southeast_sahara_area
 		tripolitania_area
 		east_sahara_area
+		al_kufra_area
 	}
 	monsoon = {
 		00.06.01
