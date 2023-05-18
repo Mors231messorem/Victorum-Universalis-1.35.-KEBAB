@@ -429,6 +429,7 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3934 = { "Tyros" "Tyrus" }
 3942 = "Qaratia"
 3943 = "Brak"
 3945 = { "Ubari" "Ubari" }
@@ -641,7 +642,7 @@
 5180 = "Gaza"
 5181 = "Sinai"
 5203 = { "Mampsis" "Mampsis" }
-5205 = { "Tyros" "Tyrus" }
+5205 = { "Berytos" "Berytus" }
 5206 = { "Kerasous" "Cerasus" }
 5210 = { "Acrath" "Acrath" }
 5211 = { "Anatis" "Anatis" }

@@ -22,6 +22,7 @@
 2312 = { "Larak" "Larak" }
 2313 = { "Alalakh" "Alalah" }
 2314 = { "Terqa" "Terqa" }
+3934 = { "Surru" "Surru" }
 3968 = "Cabria"
 3971 = { "Evdokia" "Evdokia" }
 3972 = { "Sarissa" "Sarissa" }
@@ -45,7 +46,8 @@
 4310 = { "Harput" "Khaput" }
 4342 = { "Ayapir" "Ayapir" }
 5170 = { "Ugarit" "Ugarit" }
-5205 = { "Sidon" "Tyre" }
+#5205 = { "Sidon" "Tyre" }
+5205 = { "Biruta" "Biruta" }
 5293 = { "Khar" "Nagar" }
 5295 = { "South Hurrite" "Qardu" }
 5296 = { "Urkish" "Urkish" }
