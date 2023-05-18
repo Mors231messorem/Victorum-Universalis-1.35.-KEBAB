@@ -908,7 +908,7 @@ monarchy = {
 		courts_of_navarra
 		livonian_diplomatic_monarchy
 	}
-	
+
 	# Dictatorships etc
 	exclusive_reforms = {
 		military_dictatorship_reform
@@ -971,19 +971,19 @@ monarchy = {
 		prussian_monarchy_base
 		doppelsoldner_reform
 		swiss_mercenary_reform
-	    #GE
+		#GE
 		professional_army_reform
 		hessian_militarized_monarchy_reform
 		hessian_modern_militarized_monarchy_reform
 		empowered_expand_corvee_reform
 	}
-	
+
 	#Effects conflict with each other
 	exclusive_reforms = {
 		mughal_government
 		decentralize_reform
 	}
-	
+
 	color = { 179 25 25 }
 }
 
@@ -1043,30 +1043,30 @@ republic = {
 				civic_republicanism_government
 				pirate_republic_reform
 				noble_elite_reform
-		    	free_city
-		    	trading_city
-		    	ambrosian_republic
-		    	veche_republic
-		    	great_veche_republic
-		    	american_republic
-		    	federal_republic
-		    	colonial_government
-		    	crown_colony_government
-		    	private_enterprise_colony_government
-		    	self_governing_colony_government
-		    	dutch_republic
-		    	peasants_republic
+				free_city
+				trading_city
+				ambrosian_republic
+				veche_republic
+				great_veche_republic
+				american_republic
+				federal_republic
+				colonial_government
+				crown_colony_government
+				private_enterprise_colony_government
+				self_governing_colony_government
+				dutch_republic
+				peasants_republic
 				ikko_ikki_republic_reform
-		    	revolutionary_republic_reform
-		    	junior_revolutionary_republic_reform
-		    	presidential_despot_reform
-		    	cossacks_reform
-		    	military_dictatorship_reform
-		    	protectorate_parliament_reform
-		    	prussian_republic_reform
-		    	united_cantons_reform
-		    	kongsi_federation
-		    	millenarian_theocracy_reform
+				revolutionary_republic_reform
+				junior_revolutionary_republic_reform
+				presidential_despot_reform
+				cossacks_reform
+				military_dictatorship_reform
+				protectorate_parliament_reform
+				prussian_republic_reform
+				united_cantons_reform
+				kongsi_federation
+				millenarian_theocracy_reform
 				#1.35
 				great_russian_republic_reform
 				trade_company_government
@@ -1118,8 +1118,8 @@ republic = {
 				namestnik_reform
 				oprichnina_reform
 				consulate_of_the_sea
-		    	#GE
-		    	demedici_dynasty_reform
+				#GE
+			  	demedici_dynasty_reform
 		    	support_borghese_reform
 		    	rule_by_consent_reform
 		    	moedernegotie_reform
@@ -1402,7 +1402,7 @@ republic = {
 				power_to_the_captains_reform
 				absolute_president_reform
 				revolutionary_council_reform
-		    #	GE
+				#GE
 		    	supreme_court_reform
 		    	confederation_of_states_reform
 		    	hansa_domination_reform
@@ -1410,8 +1410,8 @@ republic = {
 		    	empowered_sovereign_trade_companies_reform
 		    	empowered_consolidation_of_power_reform
 				empowered_senate_reform
-			#	imperial_executive_branch_power_reform
-			#	federal_governorship_reform
+				#imperial_executive_branch_power_reform
+				#federal_governorship_reform
 			}
 		}
 		guiding_principle_of_administration = {
@@ -1493,7 +1493,7 @@ republic = {
 		merchants_reform
 		veche_republic
 		great_veche_republic
-	    great_russian_republic_reform
+		great_russian_republic_reform
 		federal_republic
 		free_city
 		trading_city
@@ -1891,7 +1891,7 @@ theocracy = {
 				curtail_clergy_power_reform
 				secure_clergy_power_reform
 				maintain_clergy_balance_of_power_reform
-		        #1.35
+				#1.35
 				fiqh_laws_reform
 				sufism_decree_reform
 				holy_synod_reform
