@@ -1,5 +1,5 @@
 #6960 - Oum El Assel
-culture = tuareg
+culture = zayane
 religion = sunni
 capital = "Oum El Assel"
 base_tax = 1

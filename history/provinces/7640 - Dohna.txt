@@ -2,9 +2,8 @@
 #Region - Germany
 #Area - Moravia
 
-owner = DOH
-controller = DOH
-add_core = DOH
+owner = BOH
+controller = BOH
 add_core = BOH
 capital = "Dohna"
 culture = saxon

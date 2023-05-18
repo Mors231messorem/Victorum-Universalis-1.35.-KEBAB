@@ -1,7 +1,7 @@
 #2244 - Tagant
 
-culture = tuareg 
-religion = shamanism #Fetishism
+culture = lamtuna 
+religion = sunni #Fetishism
 capital = "Kiffa"
 trade_goods = unknown
 hre = no

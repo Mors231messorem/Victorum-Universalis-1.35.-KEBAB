@@ -2,7 +2,7 @@
 
 owner = TUN
 controller = TUN 
-culture = berber
+culture = libyan_berber_culture
 religion = sunni
 capital = "Kibili"
 trade_goods = dates

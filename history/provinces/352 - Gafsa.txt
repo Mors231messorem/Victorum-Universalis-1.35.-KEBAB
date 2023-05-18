@@ -21,7 +21,7 @@ discovered_by = eastern
 
 
 1450.1.1 = { 
-	culture = berber 
+	culture = libyan_berber_culture 
 	religion = sunni
 } #African-Roman communities fade away
 1534.8.16 = {

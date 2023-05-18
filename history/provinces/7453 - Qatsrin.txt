@@ -2,7 +2,7 @@
 
 owner = MAM
 controller = MAM
-culture = al_suryah_arabic
+culture = druze_culture
 religion = druze_new
 capital = "Qatsrin"
 trade_goods = lumber	# was iron, continuation of strategic wood source in Lebanon

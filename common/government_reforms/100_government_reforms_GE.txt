@@ -1739,7 +1739,19 @@
 				accepted_culture = moroccan
 				accepted_culture = tunisian
 				accepted_culture = algerian
-				accepted_culture = berber
+				accepted_culture = tuareg 
+				accepted_culture = shilha
+				accepted_culture = zayane
+				accepted_culture = riffian
+				accepted_culture = ait_atta
+				accepted_culture = guanche
+				accepted_culture = kabylian
+				accepted_culture = shawiya
+				accepted_culture = shenwa
+				accepted_culture = mozabite
+				accepted_culture = lamtuna
+				accepted_culture = libyan_berber_culture
+				accepted_culture = siwa_culture
 			}
 		}
 		trigger = {
@@ -1750,7 +1762,19 @@
 				accepted_culture = moroccan
 				accepted_culture = tunisian
 				accepted_culture = algerian
-				accepted_culture = berber
+				accepted_culture = tuareg 
+				accepted_culture = shilha
+				accepted_culture = zayane
+				accepted_culture = riffian
+				accepted_culture = ait_atta
+				accepted_culture = guanche
+				accepted_culture = kabylian
+				accepted_culture = shawiya
+				accepted_culture = shenwa
+				accepted_culture = mozabite
+				accepted_culture = lamtuna
+				accepted_culture = libyan_berber_culture
+				accepted_culture = siwa_culture
 			}
 		}
 		modifiers = {

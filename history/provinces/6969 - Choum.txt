@@ -1,6 +1,6 @@
 #6969 - Choum
 
-culture = tuareg
+culture = lamtuna
 religion = sunni
 capital = "Choum"
 trade_goods = unknown

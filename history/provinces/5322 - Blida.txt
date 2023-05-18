@@ -3,9 +3,9 @@
 owner = TLC
 controller = TLC
 add_core = TLC
-culture = berber
+culture = shenwa
 religion = sunni
-capital = "T�n�s"
+capital = "Mitidja"
 trade_goods = grain
 hre = no
 base_tax = 3 
@@ -26,9 +26,8 @@ discovered_by = eastern
 	base_production = 8
 	base_manpower = 4
 	capital = "Ourida"
-	#culture = andalusi_culture
-	culture = andalucian
-}	#First wave of explusions from Iberia. Moors and Jews expelled and flock to North Africa in huge numbers. Mitidja plain in particular sees many immigrants.
+	culture = algerian
+}	#First wave of explusions from Iberia. Moors and Jews expelled and flock to North Africa in huge numbers. Represented as Algerian as to show the Arabization resulting from the expulsions. Mitidja plain in particular sees many immigrants.
 1510.1.1 = {
 	owner = ARA
 	controller = ARA

@@ -1,6 +1,6 @@
 #3959 - Wadan
 
-culture = tuareg
+culture = lamtuna
 religion = sunni
 capital = "Ouadane"
 trade_goods = unknown

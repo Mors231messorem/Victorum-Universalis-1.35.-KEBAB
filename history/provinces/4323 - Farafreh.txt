@@ -1,7 +1,7 @@
 #4323 - Farafreh
 
 capital = "A'l-Nyhaha"
-culture = libyan_berber_culture
+culture = siwa_culture
 religion = sunni
 trade_goods = unknown
 hre = no

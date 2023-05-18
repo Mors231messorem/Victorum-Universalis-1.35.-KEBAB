@@ -2,7 +2,7 @@
 #Region - Iberia
 #Area - Macaronesia
 
-culture = berber
+culture = shilha
 religion = animism
 capital = "Funchal"
 trade_goods = unknown

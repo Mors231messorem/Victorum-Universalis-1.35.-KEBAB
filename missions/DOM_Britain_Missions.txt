@@ -909,7 +909,7 @@ eng_row_slot_2 = {
 		
 		effect = {
 			add_adm_power = 75
-			munster_area = { 
+			munster_area = {
 				add_province_modifier = {
 					name = "eng_irish_revolts"
 					duration = 5475
@@ -927,7 +927,7 @@ eng_row_slot_2 = {
 					duration = 5475
 				}
 			}
-			leinster_area = { 
+			leinster_area = {
 				add_province_modifier = {
 					name = "eng_irish_revolts"
 					duration = 5475
