@@ -1799,7 +1799,7 @@ country_event = {
 			exists = yes
 			is_subject = no
 			NOT = { junior_union_with = POL }
-			dynasty = "Jagiellon"
+			dynasty = "Jagiello"
 		}
 		NOT = { is_year = 1450 }
 	}
@@ -1825,7 +1825,7 @@ country_event = {
 	}
 	
 	option = {
-		name = flavor_pol.18.a #We must retain the Jagiellon Dynasty
+		name = flavor_pol.18.a #We must retain the Jagiello Dynasty
 		ai_chance = { 
 			factor = 75 
 		}
