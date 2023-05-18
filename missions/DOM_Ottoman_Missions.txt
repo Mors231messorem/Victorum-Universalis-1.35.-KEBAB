@@ -4383,6 +4383,12 @@ tur_persian_conquest = {
 		}
 		trigger = {
 			army_size_percentage = 0.9
+			#New triggers had to be added, otherwise mission is completed at day 1
+			num_of_generals = 2
+			employed_advisor = {
+				category = MIL
+				skill = 2
+			}
 		}
 		effect = {
 			custom_tooltip = tur_refill_the_ortas_tt
@@ -4422,7 +4428,7 @@ tur_persian_conquest = {
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				culture = turkish
-				value = 30
+				value = 55		#Ottomans own 45 at the start
 			}
 		}
 		effect = {
@@ -4455,7 +4461,7 @@ tur_persian_conquest = {
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				region = anatolia_region
-				value = 40
+				value = 90		#Ottomans start with 45
 			}
 		}
 		effect = {

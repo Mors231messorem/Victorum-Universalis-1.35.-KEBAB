@@ -9215,6 +9215,26 @@ potosi = {
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
+
+		conditional_modifier = {  #Updated to vanilla
+			trigger = {
+				owner = {
+					OR = {
+						alliance_with = MNG
+						overlord = { alliance_with = MNG }
+						any_ally = { is_emperor_of_china = yes }
+					}
+				}
+				MNG = {
+					mission_completed = mng_single_whip_law
+					has_estate_privilege = estate_eunuchs_single_whip_law_privilege
+				}
+			}
+			modifier = {
+				trade_goods_size = 1
+				inflation_reduction = 0.02
+			}
+		}
 	}
 
 	tier_2 = {
@@ -9249,6 +9269,26 @@ potosi = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+		}
+
+		conditional_modifier = { #Updated to vanilla
+			trigger = {
+				owner = {
+					OR = {
+						alliance_with = MNG
+						overlord = { alliance_with = MNG }
+						any_ally = { is_emperor_of_china = yes }
+					}
+				}
+				MNG = {
+					mission_completed = mng_single_whip_law
+					has_estate_privilege = estate_eunuchs_single_whip_law_privilege
+				}
+			}
+			modifier = {
+				trade_goods_size = 2
+				inflation_reduction = 0.03
+			}
 		}
 	}
 
@@ -9286,6 +9326,25 @@ potosi = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+		}
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					OR = {
+						alliance_with = MNG
+						overlord = { alliance_with = MNG }
+						any_ally = { is_emperor_of_china = yes }
+					}
+				}
+				MNG = {
+					mission_completed = mng_single_whip_law
+					has_estate_privilege = estate_eunuchs_single_whip_law_privilege
+				}
+			}
+			modifier = {
+				trade_goods_size = 3
+				inflation_reduction = 0.05
+			}
 		}
 	}
 }

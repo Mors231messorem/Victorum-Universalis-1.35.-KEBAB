@@ -40,6 +40,7 @@ discovered_by = ottoman
 	owner = HAB
 	controller = HAB
 }
+1550.1.1 = { culture = silesian_german } # German settlement
 1618.5.23 = {
 	owner = BOH
 	controller = BOH

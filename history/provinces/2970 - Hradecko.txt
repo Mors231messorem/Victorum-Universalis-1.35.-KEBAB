@@ -37,6 +37,7 @@ discovered_by = ottoman
 	base_tax = 4 
 }	#mine flooded and city began to decline
 1576.1.1 = { religion = protestant }
+1600.1.1 = { culture = silesian_german } # German settlement
 1618.5.23 = {
 	owner = BOH
 	controller = BOH
