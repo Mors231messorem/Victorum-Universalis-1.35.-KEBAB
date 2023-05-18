@@ -245,7 +245,7 @@ trade_company_lebanon = { #Mandate of Lebanon
 	color = { 151 18 107 }
 	
 	provinces = {
-		378 3934 5205
+		378 3758 3934 4297 5205
 	}
 	
 	# Specific

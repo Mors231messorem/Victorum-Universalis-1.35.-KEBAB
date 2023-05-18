@@ -22,6 +22,8 @@
 2312 = { "Larak" "Larak" }
 2313 = { "Alalakh" "Alalah" }
 2314 = { "Terqa" "Terqa" }
+3756 = { "Antaradus" "Antaradus" }
+3757 = "Yarbous"
 3934 = { "Surru" "Surru" }
 3968 = "Cabria"
 3971 = { "Evdokia" "Evdokia" }

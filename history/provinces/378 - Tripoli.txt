@@ -4,8 +4,8 @@ owner = MAM
 controller = MAM
 add_core = MAM
 culture = syriac_culture
-religion = orthodox				#As far as I can tell, during this period realigion was really split 25-25-25-25 ER orthodox, Sunni, Shia or Druze, and Marionite Catholic... going with orthodox, for now
-capital = "Trablos" #Tripoli in the East.
+religion = monothelite 		#Maronite church
+capital = "Trablos"			#Tripoli in the East.
 trade_goods = sugar			#Tripoli became a major trading port of Syria supplying Europe with candy, loaf and powdered sugar especially during the latter part of the 14th century
 hre = no
 base_tax = 8
@@ -32,10 +32,7 @@ discovered_by = nomad_group
 discovered_by = indian
 discovered_by = east_african
 
-1475.1.1 = {
-	religion = sunni
-	culture = al_suryah_arabic
-} # Islam controled the city and upper class, and quickly became the majority religion, if it wasnt already in the 15th century
+
 1516.8.24 = {
 	owner = TUR
 	controller = TUR
