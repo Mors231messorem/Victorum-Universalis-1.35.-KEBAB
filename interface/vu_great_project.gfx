@@ -1,6 +1,54 @@
 #VU additions by Quonton
 spriteTypes = {
     spriteType = {
+        name = "GFX_great_project_vu_angle_falls"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_angle_falls.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_uguazu_falls"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_uguazu_falls.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_eye_of_sahara"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_eye_of_sahara.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_mt_kilimanjaro"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_mt_kilimanjaro.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_victoria_falls"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_victoria_falls.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_ha_long_bay"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_ha_long_bay.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_milford_sound"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_milford_sound.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_table_mountain"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_table_mountain.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_matterhorn"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_matterhorn.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_yushan_mountain"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_yushan_mountain.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_zhangjiajie"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_zhangjiajie.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_puerto_princesa"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_puerto_princesa.dds"
+    }
+    spriteType = {
         name = "GFX_great_project_vu_darwin"	
         texturefile = "gfx//interface//great_projects//VU_Non_Generic_Towns//great_project_vu_darwin.dds"
     }
