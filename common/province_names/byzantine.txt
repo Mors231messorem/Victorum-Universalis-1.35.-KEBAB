@@ -429,8 +429,10 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3755 = { "Karrhai" "Karrhai" }
 3756 = { "Avtiaradus" "Avtiaradus" }
 3757 = "Yarbous"
+3758 = "Sidon"
 3934 = { "Tyros" "Tyrus" }
 3942 = "Qaratia"
 3943 = "Brak"
