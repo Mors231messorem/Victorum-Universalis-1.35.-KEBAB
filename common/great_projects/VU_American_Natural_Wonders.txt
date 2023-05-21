@@ -242,7 +242,7 @@ mount_everest = {
 }
 
 mount_nemrut = {
-	start = 4310
+	start = 2303
 	date = 190.01.01 #escavation site
 	time = { months = 0 }
 	build_cost = 0
@@ -260,9 +260,9 @@ mount_nemrut = {
 	tier_0 = {
 		upgrade_time = { months = 0	}
 		cost_to_upgrade = { factor = 0 }
-		province_modifiers = { local_unrest = -3 } 
+		province_modifiers = { local_unrest = -2 } 
 		area_modifier = { local_monthly_devastation = -0.1 }
-		country_modifiers = { idea_cost = -0.05 innovativeness_gain = 0.05 prestige = 0.1 }
+		country_modifiers = { idea_cost = -0.01 innovativeness_gain = 0.05 prestige = 0.1 }
 		on_upgraded = {}
 	}
 	tier_1 = {

@@ -3,6 +3,7 @@
 2209 = "Ilam"
 2211 = { "Ardalan" "Sine" }
 2309 = "Singar"
+3754 = { "Pirsus" "Pirsus" }
 3966 = "Dersim"
 4293 = "Hewler"
 4294 = "Silemani"

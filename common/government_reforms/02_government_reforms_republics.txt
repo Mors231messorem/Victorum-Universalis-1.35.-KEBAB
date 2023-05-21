@@ -552,6 +552,15 @@ althing_elite_reform = {
 	    NOT = { has_reform = crown_colony_government }
 		NOT = { has_reform = private_enterprise_colony_government }
 		NOT = { has_reform = self_governing_colony_government }
+		culture_group = scandinavian
+	}
+	trigger = {
+		OR = {
+			tag = ICE
+			primary_culture = icelandic
+			primary_culture = greenlandic
+			primary_culture = vinlandic
+		}
 	}
 	modifiers = {
 		army_tradition = 0.25 #0.10
