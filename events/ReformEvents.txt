@@ -1,3 +1,4 @@
+#VU 1.35 GE_ReformedEvents renamed to ReformEvents by San Felipe
 namespace = reform_me_events
 
 country_event = {
@@ -5128,7 +5129,6 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			#Removed for VU since Sicily is part of Naples
 			sicily_area = {
 				add_province_modifier = {
 					name = Kingdom_Of_Sicily
@@ -18134,4 +18134,3 @@ country_event = {
 		clr_country_flag = Privy_Council_Goods
 	}
 }
-
