@@ -1133,7 +1133,7 @@ byzantine_transitional_gov_reform = {
 reformed_byzantine_monarchy_reform = {
 	icon = "byzantine_rule"
 	allow_normal_conversion = yes
-	lock_level_when_selected = yes
+	lock_level_when_selected = no
 	potential = {
 		OR = {
 			has_reform = reformed_byzantine_monarchy_reform
@@ -1147,6 +1147,8 @@ reformed_byzantine_monarchy_reform = {
 		global_autonomy = -0.05
 		culture_conversion_cost = -0.2
 		years_of_nationalism = -5
+		advisor_pool = 1
+		governing_capacity = 150
 		max_possible_parliament_seats = 8
 	}
 	
