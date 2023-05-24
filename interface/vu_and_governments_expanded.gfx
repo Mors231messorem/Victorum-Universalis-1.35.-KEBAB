@@ -898,4 +898,9 @@ spriteTypes = {
 		name = "government_reform_tsardom"
 		texturefile = "gfx//interface//government_reform_icons//tsardom.dds"
 	}
+	
+	spriteType = {
+		name = "government_reform_purple_phoenix"
+		texturefile = "gfx//interface//government_reform_icons//purple_phoenix.dds"
+	}
 }
