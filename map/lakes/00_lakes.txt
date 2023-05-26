@@ -1486,7 +1486,7 @@ lake = {
         3981 1459  #3
     }
     height = 26
-#}
+}
 
 #Lake Yamdrok Part 1
 lake = {
