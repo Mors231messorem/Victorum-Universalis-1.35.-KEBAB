@@ -263,7 +263,7 @@ shogunate = {
 	allow_vassal_alliance = yes
 	lock_level_when_selected = yes
 	#Start of VU addition by San Felipe
-#	can_change_primary_culture = no #Turned off in VU but Turned on in EU4 vanilla; not on in GE by San Felipe
+    #can_change_primary_culture = no #Turned off in VU but Turned on in EU4 vanilla; not on in GE by San Felipe
     #End of VU addition by San Felipe
 	conditional = {
 		allow = { has_dlc = "Mandate of Heaven" }

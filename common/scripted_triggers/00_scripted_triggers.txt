@@ -1613,6 +1613,7 @@ is_or_was_tag = {
 	}
 }
 
+#Start of 1.34.* LoTN additions - We will need to check out these provinces - San Felipe
 #Province scope
 is_trade_node_province = {
 	custom_trigger_tooltip = {
@@ -1833,6 +1834,7 @@ is_indian_trade_node_province = {
 	}
 }
 
+#Start of 1.34.* LoTN additions
 #Province scope
 is_african_trade_node_province = {
 	OR = {
@@ -2190,12 +2192,16 @@ gained_development_from_any_building = {
 		has_province_flag = built_dev_dock
 		has_province_flag = built_dev_regimental_camp
 		has_province_flag = built_dev_cathedral
+		has_province_flag = built_dev_grand_cathedral
 		has_province_flag = built_dev_university
 		has_province_flag = built_dev_trade_depot
 		has_province_flag = built_dev_grand_shipyard
 		has_province_flag = built_dev_training_fields
 		has_province_flag = built_dev_stock_exchange
+		has_province_flag = built_dev_corporative_headquarters
 		has_province_flag = built_dev_counting_house
+		has_province_flag = built_dev_treasury
+		has_province_flag = built_dev_factory
 		has_province_flag = built_dev_town_hall
 		has_province_flag = built_dev_drydock
 		has_province_flag = built_dev_conscription_center
