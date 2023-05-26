@@ -119,6 +119,8 @@
  regnum_dei_legacy_ruler:0 "Pope"
  regnum_dei_legacy_ruler_female:0 "Popette"
  regnum_dei_legacy_desc:0 "The Kingdom of God on Earth, ruled directly by the Holy Father."
+ byzantine_transitional_gov_reform:0 "Transitional Byzantine Government"
+ byzantine_transitional_gov_reform_desc:0 "Byzantine empire has survived the era of greatest turmoil and is slowly reforming itself into functioning state once again. The empire is undergoing a period of reforms and experimentation as the ruling class tries to reestablish its authority."
  #
  #VU New San Marino Reforms from Shattered Europa by San Felipe
  roman_diarchy_reform:0 "Roman Diarchy"

@@ -96,6 +96,7 @@ monarchy = {
 				angevin_monarchy
 				absolute_british_monarchy
 				byzantine_autocracy_reform
+				byzantine_transitional_gov_reform
 				reformed_byzantine_monarchy_reform
 				margraviate_reform
 				serbian_despotate_reform

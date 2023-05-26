@@ -1304,7 +1304,6 @@ country_event = {
 		days = 1
 	}
 
-
 	option = {
 		name = "EVTOPTA5027"		# Invest in army technology
 		ai_chance = { 
