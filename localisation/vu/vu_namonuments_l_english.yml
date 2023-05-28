@@ -1,5 +1,12 @@
 ﻿l_english:
- #VU - Quonton
+ #VU Quonton additions
+ #Romanian Monuments
+ great_project_vu_voronet_monastery: "Voronet Monastery"
+ vu_voronet_monastery: "Voronet Monastery"
+ vu_voronet_monastery_title: "Construct Voronet Monastery."
+ construct_vu_voronet_monastery_title: "Construct Voronet Monastery."
+ construct_vu_voronet_monastery_desc: "The Voroneț Monastery is a medieval monastery in the Romanian village of Voroneț, now a part of the town Gura Humorului."
+ great_project_vu_voronet_monastery: "Voronet Monastery"
  #Natural Monuments
  great_project_vu_scotts_bluff: "Scotts Bluff"
  vu_scotts_bluff: "Scotts Bluff"

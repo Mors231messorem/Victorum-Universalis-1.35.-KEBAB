@@ -1204,6 +1204,7 @@ estate_nobles_elite_guards = {
 	}
 	can_select = {
 		has_government_attribute = enables_elite_regiments
+		NOT = {has_estate_privilege = estate_noble_hajduk }
 	}
 	penalties = {
 		nobles_loyalty_modifier = -0.10

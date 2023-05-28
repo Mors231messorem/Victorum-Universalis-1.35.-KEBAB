@@ -1,4 +1,14 @@
 spriteTypes = {
+	#VU Quonton additions
+	spriteType = {
+		name = "government_reform_romanian_principality"
+		texturefile = "gfx//interface//government_reform_icons//romanian_principality.dds"
+	}
+	spriteType = {
+		name = "government_reform_romanian_united_principality"
+		texturefile = "gfx//interface//government_reform_icons//romanian_united_principality.dds"
+	}
+	#End of VU Quonton additions
 	spriteType = {
 		name = "government_reform_feudalism"
 		texturefile = "gfx//interface//government_reform_icons//feudalism.dds"
