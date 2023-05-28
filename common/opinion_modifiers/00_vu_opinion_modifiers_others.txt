@@ -8,6 +8,55 @@
 ##################################################################################################
 ##################################################################################################
 
+#VU Quonton Romanian additions
+
+mol_athlete_christ = {
+	opinion = 100
+	yearly_decay = 1
+}
+
+vu_wal_chirst_defender = {
+	opinion = 50
+	yearly_decay = 1
+}
+
+wal_vs_oto_pushback = {
+	opinion = 100
+	yearly_decay = 0.5
+}
+
+wal_vs_oto_independence = {
+	opinion = 50
+	yearly_decay = 1
+}
+
+wal_turk_cuck = {
+	opinion = 50
+	yearly_decay = 0.5
+}
+
+wal_vs_oto_rival = {
+	opinion = 50
+	yearly_decay = 1
+}
+
+wal_turk_chad = {
+	opinion = -100
+	yearly_decay = 0.5
+}
+
+wal_heritic = {
+	opinion = -100
+	yearly_decay = 0.5
+}
+
+vu_walachian_opinion = {
+	opinion = 100
+	yearly_decay = 0.5
+}
+
+#End of Quonton additions
+
 #New Papal subject stuff
 
 vu_is_papal_subject = {

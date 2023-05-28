@@ -1,4 +1,10 @@
 ﻿l_english:
+ #VU Quonton additions
+ romanian_principality:0 "Romanian Principality"
+ romanian_principality_desc:0 "As a historical term designating the pre-Union Principalities of Moldavia and Wallachia, sometimes including the Principality of Transylvania, the term "Romanian Principalities" dates back to the beginnings of modern Romanian history in the mid-19th century."
+ romanian_united_principality:0 "United Romanian Principalitys"
+ romanian_united_principality_desc:0 "The United Principalities of Moldavia and Wallachia (Romanian: Principatele Unite ale Moldovei si Tarii Romanesti), commonly called United Principalities or as Wallachia and Moldavia, was the personal union of the Principality of Moldavia and the Principality of Wallachia. After many tribulations the principalities have united, and now we have formally united to create the Romanian United Principalities, the core of the Romanian nation state"
+ #End of Quonton additions 
  sakdina_system_reform:0 "Sakdina System"
  sakdina_system_reform_desc:0 "Every man must know his place. By assigning numerical ranks to each of our subjects they will know thier standing in relation to one another and, most importantly, to the King."
  corvee_reform:0 "Corvée System"

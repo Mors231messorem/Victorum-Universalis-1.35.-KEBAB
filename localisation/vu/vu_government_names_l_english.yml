@@ -43,6 +43,7 @@
  FEARNAARDBANRION:0 "Fear Céile na hArdbhanríona"
  BANANARDRI:0 "Bean an Ardrí"
  #New Additions by San Felipe
+ #XXX:0 "xxxx" Template
  #Greek Principality
  PRINCIPALITY_GREECE:0 "Greek Principality"
  PRINCIPALITY_GRAND_GREECE:0 "Greek Grand Principality"
@@ -62,4 +63,23 @@
  PRINCESS_CONSORT_fem:0 "Basilissa Syzygos"
  PRINCE:0 "Prigkipas"
  PRINCESS:0 "Prigkipissa"
+ #Romanian Kingdom 
+ ROM_PRINCIPALITY:0 "Voievodat"
+ ROM_KINGDOM:0 "Regat"
+ ROM_EMPIRE:0 "Imperiu"
+ ROM_VOIVOD:0 "Voivod"
+ ROM_REGE:0 "Rege"
+ ROM_IMPARAT:0 "Împărat"
+ ROM_PRINCIPESA_fem:0 "Doamna"
+ ROM_REGINA_fem:0 "Regina"
+ ROM_IMPARATEASA_fem:0 "Împărăteasă"
+ ROM_PRINCIPE_CONSORT:0 "Voivod-Consort"
+ ROM_REGE_CONSORT:0 "Rege-Consort" 
+ ROM_IMPARAT-CONSORT:0 "Împărat-Consort"
+ ROM_DOAMNA_CONSORT_fem:0 "Doamna"
+ ROM_REGINA_CONSORT_fem:0 "Regina"
+ ROM_IMPARATEASA_CONSORT_fem:0 "Împărăteasă"
+ ROM_PRINCIPE:0 "Voivod"
+ ROM_PRINCIPESA_fem:0 "Doamna"
+ 
  
