@@ -80,9 +80,9 @@ principality_of_orange = {
     }
 
     ruler_female = {
-        1 = PRINCIPALITY_PRINCE_ORANGE
-        2 = PRINCIPALITY_PRINCE_ORANGE
-        3 = PRINCIPALITY_GRAND_PRINCE_ORANGE
+        1 = PRINCIPALITY_PRINCESS_ORANGE_fem
+        2 = PRINCIPALITY_PRINCESS_ORANGE_fem
+        3 = PRINCIPALITY_GRAND_PRINCESS_ORANGE_fem
     }
 
     consort_male = {
@@ -117,9 +117,9 @@ principality_of_wales = {
     }
 
     ruler_female = {
-        1 = PRINCIPALITY_PRINCE_WALES
-        2 = PRINCIPALITY_PRINCE_WALES
-        3 = PRINCIPALITY_GRAND_PRINCE_WALES
+        1 = PRINCIPALITY_PRINCESS_WALES_fem
+        2 = PRINCIPALITY_PRINCESS_WALES_fem
+        3 = PRINCIPALITY_GRAND_PRINCESS_WALES_fem
     }
 
     consort_male = {
@@ -137,6 +137,46 @@ principality_of_wales = {
     trigger = {
         primary_culture = welsh
         has_reform = welsh_principality
+    }
+}
+
+principality_of_greece = {
+    rank = {
+        1 = PRINCIPALITY_GREECE
+        2 = PRINCIPALITY_GREECE
+        3 = PRINCIPALITY_GRAND_GREECE
+    }
+
+    ruler_male = {
+        1 = PRINCIPALITY_PRINCE_GREECE
+        2 = PRINCIPALITY_PRINCE_GREECE
+        3 = PRINCIPALITY_GRAND_PRINCE_GREECE
+    }
+
+    ruler_female = {
+        1 = PRINCIPALITY_PRINCESS_GREECE
+        2 = PRINCIPALITY_PRINCESS_GREECE
+        3 = PRINCIPALITY_GRAND_PRINCESS_GREECE
+    }
+
+    consort_male = {
+		1 = PRINCIPALITY_PRINCE_CONSORT_GREECE
+		2 = PRINCIPALITY_PRINCE_CONSORT_GREECE
+		3 = GRAND_PRINCIPALITY_PRINCE_CONSORT_GREECE
+	}
+
+	consort_female = {
+		1 = PRINCIPALITY_PRINCESS_CONSORT_GREECE_fem
+		2 = PRINCIPALITY_PRINCESS_CONSORT_GREECE_fem
+		3 = GRAND_PRINCIPALITY_PRINCESS_CONSORT_GREECE_fem
+	}
+
+    trigger = {
+	    OR = {
+		    culture_group = byzantine
+		    culture_group = south_slavic
+        }
+        has_reform = greek_principality
     }
 }
 
@@ -516,6 +556,40 @@ gov_provincial_kingdom = { #Provincial Kingdom formables Munster, Leinster, Ulst
 	
 	trigger = {
 		has_reform = provincial_kingdom_reform
+	}
+}
+
+gov_greek_provincial_kingdom = { #Provincial Kingdom formables 
+	rank = {
+		1 = GREEKPROVKINGDOM
+	}
+	
+	ruler_male = {
+		1 = KING
+	}
+	
+	ruler_female = {
+		1 = QUEEN
+	}
+	
+	consort_male = {
+		1 = PRINCE_CONSORT
+	}
+
+	consort_female = {
+		1 = PRINCESS_CONSORT_fem
+	}
+	
+	heir_male = {
+		1 = PRINCE
+	}
+
+	heir_female = {
+		1 = PRINCESS
+	}
+	
+	trigger = {
+		has_reform = greek_provincial_kingdom_reform
 	}
 }
 

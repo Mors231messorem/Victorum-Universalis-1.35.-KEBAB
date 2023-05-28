@@ -7516,7 +7516,7 @@ anglois_dual_monarchy = {
 	}
 }
 
-#VU addition by San Felipe
+#VU additions by San Felipe
 scottish_monarchy = {
 	icon = "scottish_monarchy"
 	allow_normal_conversion = no
@@ -7549,5 +7549,134 @@ scottish_monarchy = {
 		custom_attributes = {
 			enables_privy_council = yes #pseudoparliament and a development of the King's Council
 		}#fixdis every option is the same
+	}
+}
+
+greek_lordship_reform = { #T1
+	icon = "castle"
+	allow_normal_conversion = no
+	potential = {
+	    OR = {
+		    culture_group = byzantine
+		    culture_group = south_slavic
+		}
+		#NOT = { culture_group = gaelic }
+		capital_scope = { region = balkan_region }
+		NOT = { has_reform = greek_duchy_reform }
+	}
+	lock_level_when_selected = yes
+	legacy_equivalent = greek_lordship_legacy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 20
+	nation_designer_trigger = {
+	    OR = {
+		    culture_group = byzantine
+		    culture_group = south_slavic
+		}
+		#NOT = { culture_group = gaelic }
+		capital_scope = { region = balkan_region }
+	}
+	fixed_rank = 1
+	modifiers = {
+		production_efficiency = 0.15
+		global_tax_modifier = 0.15
+		diplomatic_reputation = -2
+		max_absolutism = 10
+	}
+}
+
+greek_duchy_reform = { #T2
+	icon = "castle"
+	allow_normal_conversion = no
+	legacy_equivalent = greek_provincial_kingdom_legacy
+	valid_for_nation_designer = no
+	fixed_rank = 1
+	potential = {
+		OR = {
+		    culture_group = byzantine
+		    culture_group = south_slavic
+		}
+		#NOT = { culture_group = gaelic }
+		capital_scope = { region = balkan_region }
+		#NOT = { has_reform = anglo_irish_monarchy_reform }
+	}
+	modifiers = {
+		production_efficiency = 0.15
+		global_tax_modifier = 0.15
+		diplomatic_reputation = -1
+		max_absolutism = 10
+	}
+}
+
+greek_principality = {
+    icon = "greek_principality"
+	allow_normal_conversion = yes
+	potential = {
+		NOT = { has_reform = tsardom }
+
+		religion = orthodox
+		OR = {
+			culture_group = byzantine
+		    culture_group = south_slavic
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = greek_principality
+			}
+		}
+	}
+	fixed_rank = 1
+	legacy_equivalent = greek_principality_legacy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 5
+	nation_designer_trigger = {
+		OR = {
+			culture_group = byzantine
+		    culture_group = south_slavic
+		}
+		religion = orthodox
+	}
+	modifiers = {
+		global_unrest = -1
+		global_regiment_cost = -0.05
+		governing_capacity = 200
+		has_streltsy = yes
+		allowed_streltsy_fraction = 0.1
+	}
+
+	conditional = {
+		allow = { 
+			OR = {
+				has_dlc = "Third Rome" 
+				has_dlc = "Domination"
+			}
+		}
+		government_abilities = {
+			russian_mechanic
+		}
+		custom_attributes = {
+			weaker_russian_ability = yes
+		}
+	}
+}
+
+greek_provincial_kingdom_reform = { #T2
+	icon = "chieftain"
+	allow_normal_conversion = no
+	legacy_equivalent = greek_provincial_kingdom_legacy
+	valid_for_nation_designer = no
+	fixed_rank = 1
+	potential = {
+		OR = {
+		    culture_group = byzantine
+		    culture_group = south_slavic
+		}
+		capital_scope = { region = balkan_region }
+		#NOT = { has_reform = tanistry_reform }
+	}
+	modifiers = {
+		stability_cost_modifier = -0.1
+		global_manpower_modifier = 0.25
+		global_institution_spread = -0.05
+		max_absolutism = -10
 	}
 }

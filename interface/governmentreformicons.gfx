@@ -473,6 +473,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "government_reform_greek_principality"
+		texturefile = "gfx//interface//government_reform_icons//greek_principality.dds"
+	}
+	
+	spriteType = {
 		name = "government_reform_revolutionary_republic"
 		texturefile = "gfx//interface//government_reform_icons//revolutionary_republic.dds"
 	}

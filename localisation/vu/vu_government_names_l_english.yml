@@ -42,3 +42,24 @@
  BANTANAISTE:0 "Bantánaiste"
  FEARNAARDBANRION:0 "Fear Céile na hArdbhanríona"
  BANANARDRI:0 "Bean an Ardrí"
+ #New Additions by San Felipe
+ #Greek Principality
+ PRINCIPALITY_GREECE:0 "Greek Principality"
+ PRINCIPALITY_GRAND_GREECE:0 "Greek Grand Principality"
+ PRINCIPALITY_PRINCE_GREECE:0 "Prigkipas"
+ PRINCIPALITY_GRAND_PRINCE_GREECE:0 "Megalos Prigkipas"
+ PRINCIPALITY_PRINCESS_GREECE:0 "Prigkipissa"
+ PRINCIPALITY_GRAND_PRINCESS_GREECE:0 "Megali Prigkipissa"
+ PRINCIPALITY_PRINCE_CONSORT_GREECE:0 "Prigkipas Syzygos"
+ GRAND_PRINCIPALITY_PRINCE_CONSORT_GREECE:0 "Megas Prigkipas Syzygos"
+ PRINCIPALITY_PRINCESS_CONSORT_GREECE_fem:0 "Prigkipissa Syzygos"
+ GRAND_PRINCIPALITY_PRINCESS_CONSORT_GREECE_fem:0 "Megali Prigkipissa Syzygos"
+ #Greek Provincial Kingdom
+ GREEKPROVKINGDOM:0 "Greek Provincial Kingdom"
+ KING:0 "Basilias"
+ QUEEN:0 "Basilissa"
+ PRINCE_CONSORT:0 "Basilica Syzygos"
+ PRINCESS_CONSORT_fem:0 "Basilissa Syzygos"
+ PRINCE:0 "Prigkipas"
+ PRINCESS:0 "Prigkipissa"
+ 
