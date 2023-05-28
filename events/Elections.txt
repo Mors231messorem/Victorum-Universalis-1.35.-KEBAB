@@ -528,15 +528,15 @@ country_event = {
 				cost_multiplier = 0.50
 			}
 		}
-		if = {
-			limit = { 
-				has_faction = mr_guilds 
-			}
-			add_faction_influence = {
-				faction = mr_guilds
-				influence = 20
-			}				
-		}
+	#	if = {
+	#		limit = { 
+	#			has_faction = mr_guilds 
+	#		}
+	#		add_faction_influence = {
+	#			faction = mr_guilds
+	#			influence = 20
+	#		}				
+	#	}
 		add_karma = 10
 		if = {
 			limit = { has_government_attribute = enable_factional_elections }
@@ -653,15 +653,15 @@ country_event = {
 			}
 			create_admiral = { tradition = 50 }
 		}
-		if = {
-			limit = { 
-				has_faction = mr_traders 
-			}
-			add_faction_influence = {
-				faction = mr_traders
-				influence = 20
-			}				
-		}
+	#	if = {
+	#		limit = { 
+	#			has_faction = mr_traders 
+	#		}
+	#		add_faction_influence = {
+	#			faction = mr_traders
+	#			influence = 20
+	#		}				
+	#	}
 		add_karma = 10		
 		if = {
 			limit = { has_government_attribute = enable_factional_elections }
@@ -778,15 +778,15 @@ country_event = {
 			}
 			create_general = { tradition = 50 }
 		}
-		if = {
-			limit = { 
-				has_faction = mr_aristocrats 
-			}
-			add_faction_influence = {
-				faction = mr_aristocrats
-				influence = 20
-			}				
-		}
+	#	if = {
+	#		limit = { 
+	#			has_faction = mr_aristocrats 
+	#		}
+	#		add_faction_influence = {
+	#			faction = mr_aristocrats
+	#			influence = 20
+	#		}				
+	#	}
 		add_karma = 10
 		if = {
 			limit = { has_government_attribute = enable_factional_elections }
@@ -941,7 +941,7 @@ country_event = {
 				limit = { 
 					OR = {
 						has_government_attribute = enable_factional_elections 
-						 has_government_attribute = enables_veche_parties 
+						has_government_attribute = enables_veche_parties
 					}
 				}
 				random_list = {
@@ -1393,15 +1393,15 @@ country_event = {
 				type = adm
 			}
 		}
-		if = {
-			limit = { 
-				has_faction = mr_guilds 
-			}
-			add_faction_influence = {
-				faction = mr_guilds
-				influence = 20
-			}				
-		}
+	#	if = {
+	#		limit = { 
+	#			has_faction = mr_guilds 
+	#		}
+	#		add_faction_influence = {
+	#			faction = mr_guilds
+	#			influence = 20
+	#		}				
+	#	}
 		if = {
 			limit = { has_government_attribute = enable_factional_elections }
 			trigger_switch = {
@@ -1498,15 +1498,15 @@ country_event = {
 				type = dip
 			}
 		}
-		if = {
-			limit = { 
-				has_faction = mr_traders 
-			}
-			add_faction_influence = {
-				faction = mr_traders
-				influence = 20
-			}				
-		}
+	#	if = {
+	#		limit = { 
+	#			has_faction = mr_traders 
+	#		}
+	#		add_faction_influence = {
+	#			faction = mr_traders
+	#			influence = 20
+	#		}				
+	#	}
 		if = {
 			limit = { has_government_attribute = enable_factional_elections }
 			trigger_switch = {
@@ -1586,14 +1586,14 @@ country_event = {
 				dip = 1					
 			}
 		}
-		if = {
-			limit = { 
-				has_faction = mr_aristocrats 
-			}
-			add_faction_influence = {
-				faction = mr_aristocrats
-				influence = 20
-			}				
+	#	if = {
+	#		limit = { 
+	#			has_faction = mr_aristocrats 
+	#		}
+	#		add_faction_influence = {
+	#			faction = mr_aristocrats
+	#			influence = 20
+	#		}				
 		}		
 		if = {
 			limit = { has_government_attribute = elections_increase_factions_influence }
