@@ -17,6 +17,12 @@ spriteTypes = {
 	### New Ingame Icons ###
 	
 	#Quonton
+
+	spriteType = {
+		name = "vu_united_principalities"
+		texturefile = "gfx//interface//ideas_EU4//vu_united_principalities.dds"
+	}
+
 	spriteType = {
 		name = "vu_amazon_rainforest"
 		texturefile = "gfx//interface//ideas_EU4//vu_amazon_rainforest.dds"

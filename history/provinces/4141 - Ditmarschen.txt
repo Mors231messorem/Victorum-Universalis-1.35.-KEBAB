@@ -5,7 +5,7 @@
 owner = DTT
 controller = DTT
 add_core = DTT
-culture = north_frisian
+culture = ger_north_frisian
 religion = catholic
 hre = yes
 base_tax = 5 

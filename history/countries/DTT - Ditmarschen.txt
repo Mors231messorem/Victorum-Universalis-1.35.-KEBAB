@@ -4,7 +4,7 @@ add_government_reform = peasants_republic #Achtundvierziger
 technology_group = western
 religion = catholic
 primary_culture = lower_saxon
-add_accepted_culture = north_frisian
+add_accepted_culture = ger_north_frisian
 capital = 4141 #Ditmarschen
 
 1444.1.1 = {

@@ -501,6 +501,8 @@ country_event = {
 			OR = {
 				culture = dutch
 				culture = flemish
+				culture = ger_dutch
+				culture = ger_flemish
 			}
 			NOT = {	has_province_modifier = Regent_Investments }
 		}
@@ -517,6 +519,8 @@ country_event = {
 				OR = {
 					culture = dutch
 					culture = flemish
+				    culture = ger_dutch
+				    culture = ger_flemish
 				}
 				NOT = {	has_province_modifier = Regent_Investments }
             }

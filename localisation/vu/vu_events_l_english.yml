@@ -1,5 +1,70 @@
 ﻿l_english:
  #VU EVENTS
+ #VU Quonton additions
+ #Dutch Culture Events
+ dutch_culture.1.t:"The Dutch Cultural Awakening"
+ dutch_culture.1.d:"The Culture of the Lowlands has slowly over the past decades begun to drift apart from the other German nations, and now after years of influence from outside sources has gain a distinct cultural Identity apart from German. Centuries of being united by politics and economics allowed the people of the Low Countries – even though they spoke different languages – to feel part of a shared culture the Netherlandish culture"
+ dutch_culture.1.a:"A New Culture in Europe"
+ #
+ dutch_culture.2.t:"The Dutch Cultural Awakening"
+ dutch_culture.2.d:"The Culture of the Lowlands has slowly over the past decades begun to drift apart from the other German nations, and now after the formation of the Netherlands, the Dutch people have gained a distinct cultural Identity apart from German. Centuries of being united by politics and economics allowed the people of the Low Countries – even though they spoke different languages – to feel part of a shared culture the Netherlandish culture"
+ dutch_culture.2.a:"Our New Culture in Europe"
+ #
+ #Wallachia Events
+ wal_events.1.t:"Impale the Boyars"
+ wal_events.1.d:"You must come, oh dread Impaler and confound them to your care. Split them in two partitions, here the fools, the rascals there. Shove them into two enclosures from the broad daylight enisle 'em. Then set fire to the prison and the lunatic asylum."
+ wal_events.1.a:"And now let their heads roll"
+ #
+ wal_events.2.t:"Recruitment Frenzy"
+ wal_events.2.d:"I see you gather before me... hungry... terrified... Clutching your babes to your breast. Sultan Mehmet II has marched his legions into our lands... Laid siege to every fortress from Braila to Giurgiu.. Rabid and ravenous, he bites and bites away. Men of Wallachia, you stand at the precipice! Your boyars have failed you, so now you turn to God and Voievode! And yet you do not plead? You do not kneel to dust your heads with ash? Instead you wail, "Why has God forsaken us?" We must look into the trials we failed long ago! In a time past, after the death of Mircea the Great we have allowed unholy forces to slip into our domains. The offspring of our inaction was the rise of the Ottomans and Islam... Yet we did not banish it, instead studying their vile language and religion for our own power and wealth! And the monsters at our door... the unholy infidels who abduct our young for their jannisary corps ? Did we raise our swords against them? Or did we lay our burden on others? The so-called Hajduks... Filthy bandits impersonating folk heroes, their souls tainted through blasphemous ritual. Sent to fight the heathens or our bretheren for whomever pays better... they could not distinguish good from evil. Yes, their numbers have dwindled throughout the years. But still few roam our lands, offering their bloody work for coin. To this day they shame us with their very existence! Wallachia bleeds, flogged by war! The battles are Gods' whip, chastisement for our sins! And let us not forget the terrors, the scourges from beyond our world! The Strigoi rule the skies with every full moon! The dark raiders abduct our children into lands unknown! Some say they herald the Apocalipse! Can we chart a course back into the light? Will we find the strength to banish heathens from our kingdom? Unite around the warmth of the Holly Spirit? Nigh is the Time of the Sword and Axe! None will fight this war in our stead! Nigh is the Time of Madness and Disdain!"
+ wal_events.2.a:"The new recruits will make a fine addition to our armies"
+ #
+ wal_events.3.t:"The Wallachian Crusade"
+ wal_events.3.d:"The time had come to free all of Europe from the infidels, the Ottomans have pushed too far into Chrisitian lands and must be pushed back! For God and Vlad! "
+ wal_events.3.a:"May God forever be in our favor"
+ #
+ wal_events.4.t:"The End of the War"
+ wal_events.4.d:"After years of brutal conflict the war is over, and our soldiers wish for rest. After all they have done, they deserve it."
+ wal_events.4.a:"They've earned their peace"
+ #
+ wal_events.5.t:"Night Attack"
+ wal_events.5.d:"The Night Attack at Targoviste (Romanian Atacul de noapte de la Targoviste) was a battle fought between forces of prince Vlad III of Wallachia, and sultan Mehmed II of the Ottoman Empire on Thursday, 17 June 1462. The battle started after Mehmed, who already had tense relations with Vlad, discovered his alliance with Hungary's king Matthias Corvinus and ordered his forces to ambush him. Vlad foiled the attack and invaded Bulgaria. In response, Mehmed raised a great army with the objective to conquer Wallachia and annex it to his empire. The two leaders fought a series of skirmishes, the most notable one being the conflict where Vlad attacked the Turkish camp in the night in an attempt to kill Mehmed. The assassination attempt failed and Mehmed marched to the Wallachian capital of Targoviste, where he found a few men with cannons. After leaving the capital, Mehmed discovered 23,844 impaled Turks whom Vlad had killed during his invasion of Bulgaria. The number is mentioned by Vlad himself in a letter to Matthias Corvinus. The sultan and his troops then sailed to Braila and burned it to the ground before retreating to Adrianople. Both sides claimed victory in the campaign and Mehmed's forces returned home with many captured slaves, horses, and cattle."
+ wal_events.5.a:"The Sultan's head will be mine!"
+ #
+ wal_events.6.t:"Michael the Brave"
+ wal_events.6.d:"Michael the Brave (Romanian Mihai Viteazul or Mihai Bravu 1558 – 9 August 1601), born as Mihai Patrascu, was the Prince of Wallachia (as Michael II, 1593 – 1601), Prince of Moldavia (1600) and de facto ruler of Transylvania (1599 – 1600). He is considered one of Romania's greatest national heroes. Since the 19th century, Michael the Brave has been regarded by Romanian nationalists as a symbol of Romanian unity, as his reign marked the first time all principalities inhabited by Romanians were under the same ruler."
+ wal_events.6.a:"Let the Prince purchase his throne from the Sultan!"
+ wal_events.6.b:"Wallachian Independence is non-negotiable!"
+ #
+ wal_events.7.t:"Starina Novak joins our Ranks"
+ wal_events.7.d:"The horses gallop manned  Beneath the Reaper's band  Unveiling destiny  To Vlach identity  Turks are fleeing out their boots  The enemy's pushed back  Seven riders, Reaper's recruits  And Death's Baba Novak"
+ wal_events.7.a:"Let us welcome Starina Novak and his fighters!"
+ #
+ wal_events.8.t:"The War of Independence"
+ wal_events.8.d:"The time has come to commit to Michael's plan, and to gain our independence from the Ottomans. Their armies will break upon Romania like water upon stone, and our armies will hold strong. God favours us."
+ wal_events.8.a:"To Death, Glory, and Battle, for Romania's Freedom"
+ #
+ wal_events.9.t:"Our Independence Assured"
+ wal_events.9.d:"After years of war, and much bloodshed, finally we have our independence from the Sultan. Romania will forever more have it's independence, and never again shall we be under another nation's thumb"
+ wal_events.9.a:"May our nation forever be free"
+ #
+ wal_events.10.t:0 "Romanian Unification"
+ wal_events.10.d:0 "Let's lock together hand to hand  We of Romanian heart  And on our ancestral land  The dance of unity let's start!"
+ wal_events.10.a:0 "Now and Forever Together"
+ #
+ #Moldova Events
+ mol_events.1.t:"Rule of Stefan the Great"
+ mol_events.1.d:"Stephen III of Moldavia, most commonly known as Stephen the Great was Voivode and Prince of Moldavia from 1457 to 1504. He was the son of and co-ruler with Bogdan II, was murdered in 1451 by his brother who had organised conspirators to kill him. Stephen's uncle Peter III Aaron, who took the throne forced Stephen to flee to Hungary and later to Wallachia, through the support of Vlad III Tepes "Dracula" and Voivode of Wallachia. Stephen later returned to Moldavia forcing Aaron to seek refuge in Poland in the summer of 1457. Teoctist I, Metropolitan of Moldavia then anointed Stephen prince who later attacked Poland and prevented Casimir IV Jagiellon, King of Poland from supporting Peter Aaron."
+ mol_events.1.a:"He will make a fine ruler"
+ #
+ mol_events.2.t:"Athlete of Christ"
+ mol_events.2.d:"Stefen inflicted a decisive defeat on the Ottomans, with casualties according to Venetian and Polish records reaching beyond 40,000 on the Ottoman side. Mara Brankovic (Mara Hatun), the former younger wife of Murad II, told a Venetian envoy that the invasion had been the worst ever defeat for the Ottomans. Stephen was later awarded the title Athleta Christi ("Champion of Christ") by Pope Sixtus IV, who referred to him as "verus christianae fidei athleta" ("the true defender of the Christian faith")."
+ mol_events.2.a:"All of Christendom honors Stefan!"
+ #
+ mol_events.3.t:"The Death of Stefan"
+ mol_events.3.d:"All of Moldavia is in mourning as our great leader, Stefan the Great has joined God in Heaven. May the world forevermore remember his great deeds!"
+ mol_events.3.a:"He will be remembered"
+ #VU End of Quonton additions
  #JAPANESE EMPIRE
  japan.5.t:"Samurai Revolts!"
  japan.5.a:"Equal rights for all!"

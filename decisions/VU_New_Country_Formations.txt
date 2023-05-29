@@ -163,6 +163,9 @@ country_decisions = {
 			    primary_culture = brabantian
 				primary_culture = flemish
 				primary_culture = wallonian
+				primary_culture = ger_dutch
+				primary_culture = ger_flemish
+				primary_culture = ger_brabantian
 			}
 		}
 		provinces_to_highlight = {

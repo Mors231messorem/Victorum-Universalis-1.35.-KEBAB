@@ -1,5 +1,9 @@
 #VU additions by Quonton
 spriteTypes = {
+	spriteType = {
+        name = "GFX_great_project_vu_voronet_monastery"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_voronet_monastery.dds"
+    }
     spriteType = {
         name = "GFX_great_project_vu_angle_falls"	
         texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_project_vu_angle_falls.dds"

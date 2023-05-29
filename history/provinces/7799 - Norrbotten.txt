@@ -1,6 +1,7 @@
 #7799 - Norrbotten
 
 culture = sapmi
+add_core = SMI
 religion = finnish_pagan_reformed
 capital = "Lule�"
 base_tax = 1

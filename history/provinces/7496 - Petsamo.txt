@@ -4,6 +4,7 @@
 
 owner = NOV
 controller = NOV 
+add_core = SMI
 capital = "Petsamo"
 culture = sapmi
 religion = finnish_pagan_reformed

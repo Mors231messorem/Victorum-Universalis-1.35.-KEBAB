@@ -1618,6 +1618,8 @@
 			OR = {
 				primary_culture = dutch
 				primary_culture = flemish
+				primary_culture = ger_dutch
+				primary_culture = ger_flemish
 				has_reform = guild_dominance_reform
 			}
 			NOT = { mission_completed = emp_ned_reform_the_generality_lands }
@@ -1626,6 +1628,8 @@
 			OR = {
 				primary_culture = dutch
 				primary_culture = flemish
+				primary_culture = ger_dutch
+				primary_culture = ger_flemish
 				has_reform = guild_dominance_reform
 			}
 		}

@@ -3,7 +3,7 @@
 owner = HOL
 controller = HOL
 add_core = HOL
-culture = frisian
+culture = ger_frisian
 religion = catholic
 capital = "Alkmaar"
 base_tax = 1

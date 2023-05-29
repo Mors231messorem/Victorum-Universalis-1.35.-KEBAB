@@ -3,5 +3,5 @@ add_government_reform = feudalism_reform
 government_rank = 3
 technology_group = western
 religion = catholic
-primary_culture = frisian
+primary_culture = ger_frisian
 capital = 4382

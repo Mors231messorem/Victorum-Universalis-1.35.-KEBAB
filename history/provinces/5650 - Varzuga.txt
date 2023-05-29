@@ -3,6 +3,7 @@
 owner = NOV
 controller = NOV
 add_core = NOV
+add_core = SMI
 culture = sapmi
 religion = finnish_pagan_reformed
 capital = "Varzuga"			#Appears to date to around the 1430s to the 1440s

@@ -2,7 +2,7 @@
 
 owner = GEL
 controller = GEL
-culture = limburgish
+culture = ger_limburgish
 religion = catholic
 trade_goods = beer
 capital = "Heinsberg"

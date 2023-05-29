@@ -5692,7 +5692,10 @@ de_wallen = {
     type = monument
 
     build_trigger = {
-        culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -5706,7 +5709,10 @@ de_wallen = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -5714,7 +5720,10 @@ de_wallen = {
     }
 
     can_upgrade_trigger = {
-		culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		is_year = 1811
 		OR = {
 			has_owner_culture = yes
@@ -5858,7 +5867,10 @@ nieuwezijds_voorburgwal = {
     type = monument
 
     build_trigger = {
-        culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -5872,7 +5884,10 @@ nieuwezijds_voorburgwal = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -5880,7 +5895,10 @@ nieuwezijds_voorburgwal = {
     }
 
     can_upgrade_trigger = {
-		culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6378,7 +6396,10 @@ het_binnenhof = {
 
     build_trigger = {
 	    is_year = 1584
-        culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6395,9 +6416,8 @@ het_binnenhof = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
+				culture_group = germanic
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -6408,9 +6428,8 @@ het_binnenhof = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
+				culture_group = germanic
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -6755,7 +6774,10 @@ paleis_op_de_dam = {
 
     build_trigger = {
 	    is_year = 1648
-        culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6769,7 +6791,10 @@ paleis_op_de_dam = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6777,7 +6802,10 @@ paleis_op_de_dam = {
     }
 
     can_upgrade_trigger = {
-		culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6920,7 +6948,10 @@ windmolen = {
     type = monument
 
     build_trigger = {
-        culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6934,7 +6965,10 @@ windmolen = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6942,7 +6976,10 @@ windmolen = {
     }
 
     can_upgrade_trigger = {
-		culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes

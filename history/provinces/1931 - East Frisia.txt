@@ -4,7 +4,7 @@
 
 owner = EFR
 controller = EFR
-culture = east_frisian
+culture = ger_east_frisian
 religion = catholic
 capital = "Emden"
 trade_goods = salt

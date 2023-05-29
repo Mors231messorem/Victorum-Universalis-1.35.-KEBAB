@@ -7,6 +7,7 @@ estate_peasants =
 			has_reform = parliamentary_order_reform
 			has_government_attribute = enables_peasant_estate
 			has_reform = peasants_republic
+			has_country_flag = estate_peasants_enabled
 		}
 	}
 
@@ -47,7 +48,12 @@ estate_peasants =
 			NOT = { is_state_core = owner }
 		}
 	}
-	
+	custom_name = {
+		desc = estate_razesi
+		trigger = {
+			culture_group = dacian
+		}
+	}
 	# Influence modifiers
 	base_influence = 10
 	
@@ -74,6 +80,7 @@ estate_peasants =
 		estate_peasants_fight_the_elite
 		estate_peasants_bear_arms
 		estate_peasants_land_privileges
+		estate_peasant_expand_hajduk 
 	}
 
 	agendas = {
