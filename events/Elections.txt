@@ -1594,7 +1594,7 @@ country_event = {
 	#			faction = mr_aristocrats
 	#			influence = 20
 	#		}				
-		}		
+	#	}		
 		if = {
 			limit = { has_government_attribute = elections_increase_factions_influence }
 			add_influence_to_mil_faction = {
@@ -1752,7 +1752,7 @@ country_event = {
 				limit = { 
 					OR = {
 						has_government_attribute = enable_factional_elections 
-						 has_government_attribute = enables_veche_parties 
+						has_government_attribute = enables_veche_parties
 					}
 				}
 				random_list = {
