@@ -1383,7 +1383,7 @@ wallachia_missions_4 = {
 		icon = son_of_the_devil
 		required_missions = { }
 		trigger = {
-			NOT = { is_year = 1500 }				
+			NOT = { is_year = 1500 }
 			OR = { dynasty = "Draculesti" dynasty = "Basarab" }
 			prestige = 50
 		}
