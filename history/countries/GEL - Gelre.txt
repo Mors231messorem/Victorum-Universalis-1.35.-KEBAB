@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = guelders
-add_accepted_culture = dutch_saxon
-add_accepted_culture = limburgish
+primary_culture = ger_guelders
+add_accepted_culture = ger_dutch_saxon
+add_accepted_culture = ger_limburgish
 religion = catholic
 technology_group = western
 capital = 99	# Coevorde

@@ -3,7 +3,7 @@
 owner = FLA
 controller = FLA
 add_core = FLA
-culture = flemish
+culture = ger_flemish
 religion = catholic
 capital = "Torhout"
 base_tax = 3

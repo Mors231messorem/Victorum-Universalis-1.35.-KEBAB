@@ -11602,7 +11602,10 @@ dutch_polders = {
 	type = monument
 
 	build_trigger = {
-	    culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -11616,7 +11619,10 @@ dutch_polders = {
 	}
 
 	can_use_modifiers_trigger = {
-		culture = dutch
+	    OR = {
+	        culture = dutch
+	        culture = ger_dutch
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -11624,7 +11630,10 @@ dutch_polders = {
 	}
 
 	can_upgrade_trigger = {
-		culture = dutch
+	    OR = {
+	        culture = dutch
+	        culture = ger_dutch
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes

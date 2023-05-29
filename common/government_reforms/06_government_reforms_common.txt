@@ -3240,6 +3240,8 @@ staatse_leger_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = ger_dutch
+			primary_culture = ger_flemish
 		}
 	}
 	trigger = {
@@ -3274,6 +3276,8 @@ watergeuzen_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = ger_dutch
+			primary_culture = ger_flemish
 		}
 	}
 	trigger = {

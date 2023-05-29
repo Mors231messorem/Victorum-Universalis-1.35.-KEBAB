@@ -3,7 +3,7 @@
 owner = GEL
 controller = GEL
 add_core = GEL
-culture = limburgish
+culture = ger_limburgish
 religion = catholic
 trade_goods = grain
 capital = "Mönchengladbach"

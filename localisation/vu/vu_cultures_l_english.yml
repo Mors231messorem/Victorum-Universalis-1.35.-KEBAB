@@ -1,5 +1,15 @@
 ﻿l_english:
  #Cultures
+ ger_dutch:0 "Hollander"
+ ger_brabantian:0 "Brabantian"
+ ger_dutch_saxon:0 "Nedersaksisch"
+ ger_zeelandic:0 "Zeelander"
+ ger_limburgish:0 "Limburgish"
+ ger_guelders:0 "Guelderish"
+ ger_flemish:0 "Flemish"
+ ger_frisian:0 "Frisian"
+ ger_east_frisian:0 "East Frisian"
+ ger_north_frisian:0 "North Frisian"
  defunct_cultures:0 "Lost Cultures"
  flemish:0 "Flemish"
  frisian:0 "Frisian"

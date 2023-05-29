@@ -3,7 +3,7 @@
 owner = BRB
 controller = BRB
 add_core = BRB
-culture = brabantian
+culture = ger_brabantian
 religion = catholic
 capital = "Eindhoven"
 base_tax = 7

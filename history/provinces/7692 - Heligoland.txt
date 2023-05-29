@@ -4,7 +4,7 @@
 
 owner = OLD
 controller = OLD
-culture = north_frisian
+culture = ger_north_frisian
 religion = catholic
 capital = "Helgoland"
 trade_goods = salt

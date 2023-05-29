@@ -1,7 +1,7 @@
 government = republic
 add_government_reform = oligarchy_reform #administrative_republic #Ain't a thing any more.
 government_rank = 1
-primary_culture = frisian
+primary_culture = ger_frisian
 religion = catholic
 technology_group = western
 capital = 100	# Groningen
