@@ -5,7 +5,7 @@
 owner = EFR
 controller = EFR
 add_core = EFR
-culture = east_frisian
+culture = ger_east_frisian
 religion = catholic
 capital = "Schloss Siebethsburg" #Wilhelmshaven
 trade_goods = fish

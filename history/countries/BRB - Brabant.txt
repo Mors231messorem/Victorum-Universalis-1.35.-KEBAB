@@ -3,9 +3,9 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = brabantian
-add_accepted_culture = dutch
-add_accepted_culture = limburgish
+primary_culture = ger_brabantian
+add_accepted_culture = ger_dutch
+add_accepted_culture = ger_limburgish
 capital = 92
 
 1355.1.1 = {

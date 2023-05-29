@@ -339,6 +339,8 @@ moedernegotie_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = ger_dutch
+			primary_culture = ger_flemish
 			has_reform = moedernegotie_reform
 		}
 	}
@@ -503,6 +505,8 @@ vroedschappen_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = ger_dutch
+			primary_culture = ger_flemish
 			has_reform = vroedschappen_reform
 		}
 	}
@@ -535,6 +539,8 @@ reforms_of_william_3_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = ger_dutch
+			primary_culture = ger_flemish
 			has_reform = reforms_of_william_3_reform
 		}
 	}
@@ -1031,6 +1037,8 @@ united_indian_companies_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = ger_dutch
+			primary_culture = ger_flemish
 			has_reform = united_indian_companies_reform
 		}
 	}
@@ -1129,6 +1137,8 @@ ware_vrijheid_reform = {
 		OR = {
 			primary_culture  = dutch
 			primary_culture  = flemish
+			primary_culture = ger_dutch
+			primary_culture = ger_flemish
 			has_reform = ware_vrijheid_reform
 		}
 		NOT = {
@@ -1335,6 +1345,8 @@ confederation_of_states_reform = {
 		OR = {
 			primary_culture  = dutch
 			primary_culture  = flemish
+			primary_culture = ger_dutch
+			primary_culture = ger_flemish
 			has_reform = confederation_of_states_reform
 		}
 	}
@@ -1516,6 +1528,8 @@ tolerant_principle_reform = {
 		OR = {
 			primary_culture  = dutch
 			primary_culture  = flemish
+			primary_culture = ger_dutch
+			primary_culture = ger_flemish
 			has_reform = tolerant_principle_reform
 		}
 	}
@@ -1656,6 +1670,8 @@ regents_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = ger_dutch
+			primary_culture = ger_flemish
 			has_reform = regents_reform
 		}
 	}
@@ -1699,6 +1715,8 @@ raadspensionaris_reform = {
 		OR = {
 			primary_culture = dutch
 			primary_culture = flemish
+			primary_culture = ger_dutch
+			primary_culture = ger_flemish
 			has_reform = raadspensionaris_reform
 		}
 	}

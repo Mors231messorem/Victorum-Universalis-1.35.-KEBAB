@@ -66,7 +66,7 @@
  estate_razesi:0 "Razesi"
  razesi_loyalty_modifier:0 "Razesi Loyalty Equilibrium"
  razesi_influence_modifier:0 "Razesi Influence"
- estate_razesi_desc:0 Razesi were the richest and most powerful members of nobility. They were owners of large estates and palaces scattered around Polish country. They held big influence on ruler and other estates, usually with negative outcomes for the nation."
+ estate_razesi_desc:0 "Razesi were the richest and most powerful members of nobility. They were owners of large estates and palaces scattered around Polish country. They held big influence on ruler and other estates, usually with negative outcomes for the nation."
  #End of Quonton additions
  estate_magnates:0 "Magnates"
  magnates_loyalty_modifier:0 "Magnates Loyalty Equilibrium"

@@ -5,7 +5,7 @@
 owner = MUN
 controller = MUN
 add_core = MUN
-culture = east_frisian
+culture = ger_east_frisian
 religion = catholic
 trade_goods = vegetables
 capital = "Leer"

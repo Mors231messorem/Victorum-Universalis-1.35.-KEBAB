@@ -3,7 +3,7 @@ add_government_reform = elective_monarchy_reform
 government_rank = 1
 technology_group = western
 religion = catholic
-primary_culture = zeelandic
+primary_culture = ger_zeelandic
 capital = 96 # Middelburg
 
 1389.1.1 = {

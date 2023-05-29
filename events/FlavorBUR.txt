@@ -480,7 +480,10 @@ country_event = {
 		is_at_war = no
 		NOT = { exists = NED }
 		current_age = age_of_reformation
-		NOT = { culture_group = low_franconian }
+		OR = { 
+		    NOT = { culture_group = low_franconian }
+		    NOT = { OR = { 	primary_culture = ger_dutch primary_culture = ger_brabantian primary_culture = ger_dutch_saxon primary_culture = ger_zeelandic primary_culture = ger_limburgish primary_culture = ger_guelders primary_culture = ger_flemish primary_culture = ger_frisian primary_culture = ger_east_frisian primary_culture = ger_north_frisian  } }
+		}
 		NOT = { has_global_flag = dutch_revolt }
 		num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 			value = 5
@@ -498,14 +501,20 @@ country_event = {
 				limit = {
 					any_country = {
 						ai = no
-						culture_group = low_franconian
+						OR = {
+						    culture_group = low_franconian
+						    OR = { 	primary_culture = ger_dutch primary_culture = ger_brabantian primary_culture = ger_dutch_saxon primary_culture = ger_zeelandic primary_culture = ger_limburgish primary_culture = ger_guelders primary_culture = ger_flemish primary_culture = ger_frisian primary_culture = ger_east_frisian primary_culture = ger_north_frisian  }
+						}
 						is_subject_of = ROOT
 					}
 				}
 				random_country = {
 					limit = {
 						ai = no
-						culture_group = low_franconian
+						OR = {
+						    culture_group = low_franconian
+						    OR = { 	primary_culture = ger_dutch primary_culture = ger_brabantian primary_culture = ger_dutch_saxon primary_culture = ger_zeelandic primary_culture = ger_limburgish primary_culture = ger_guelders primary_culture = ger_flemish primary_culture = ger_frisian primary_culture = ger_east_frisian primary_culture = ger_north_frisian  }
+						}
 						is_subject_of = ROOT
 					}
 					save_event_target_as = dutch_unification_country
@@ -514,7 +523,10 @@ country_event = {
 			else = {
 				random_country = {
 					limit = {
-						culture_group = low_franconian
+						OR = {
+						    culture_group = low_franconian
+						    OR = { 	primary_culture = ger_dutch primary_culture = ger_brabantian primary_culture = ger_dutch_saxon primary_culture = ger_zeelandic primary_culture = ger_limburgish primary_culture = ger_guelders primary_culture = ger_flemish primary_culture = ger_frisian primary_culture = ger_east_frisian primary_culture = ger_north_frisian  }
+						}
 						is_subject_of = ROOT
 					}
 					save_event_target_as = dutch_unification_country
@@ -536,7 +548,10 @@ country_event = {
 		}
 		every_country = {
 			limit = {
-				culture_group = low_franconian
+				OR = {
+					culture_group = low_franconian
+					OR = { 	primary_culture = ger_dutch primary_culture = ger_brabantian primary_culture = ger_dutch_saxon primary_culture = ger_zeelandic primary_culture = ger_limburgish primary_culture = ger_guelders primary_culture = ger_flemish primary_culture = ger_frisian primary_culture = ger_east_frisian primary_culture = ger_north_frisian  }
+				}
 				is_subject_of = ROOT
 			}
 			add_liberty_desire = 15
@@ -555,7 +570,10 @@ country_event = {
 				limit = {
 					owner = {
 						is_subject_of = ROOT
-						culture_group = low_franconian
+						OR = {
+						    culture_group = low_franconian
+						    OR = { primary_culture = ger_dutch primary_culture = ger_brabantian primary_culture = ger_dutch_saxon primary_culture = ger_zeelandic primary_culture = ger_limburgish primary_culture = ger_guelders primary_culture = ger_flemish primary_culture = ger_frisian primary_culture = ger_east_frisian primary_culture = ger_north_frisian  }
+						}
 					}
 				}
 				cede_province = event_target:dutch_unification_country

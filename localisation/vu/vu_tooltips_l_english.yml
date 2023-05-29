@@ -1,6 +1,7 @@
 ﻿l_english:
  #Custom tooltips
  #VU Quonton additions
+ dutch_cultural_awakening:0 "All Countries who's primary culture is §YDutch§!, §YFlemish§!, or §YFrisian§!, along with their people, will gain a §YDistinct Cultural Identity§!"
  rom_remove:0 "Consolidates all Country Modifiers given by the §YWallachian§! and §YMoldavian§! Mission trees into one §GModifier§!"
  tra_ban_1:0 "If §YTransylvania§! is our subject then:"
  tra_ban_2:0 "Wallachia gets §Y"Romanian Brotherhood"§! until the end of the game, giving §G-0.15§! diplomatic annexation cost"

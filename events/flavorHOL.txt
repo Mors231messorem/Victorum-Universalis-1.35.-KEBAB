@@ -42,7 +42,7 @@ country_event = {
 			define_advisor = {
 				type = philosopher
 				name = "Erasmus"
-				culture = dutch
+				culture = ger_dutch
 				religion = catholic
 				discount = yes
 				skill = 3
@@ -93,7 +93,7 @@ country_event = {
 			define_advisor = {
 				type = statesman
 				name = "Hugo Grotius"
-				culture = dutch
+				culture = ger_dutch
 				discount = yes
 				skill = 3
 				location = 4383 #Delft
@@ -1493,7 +1493,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		NOT = { primary_culture = dutch }
+		NOT = { OR = { primary_culture = dutch primary_culture = ger_dutch} }
 		owns_core_province = 99
 		owns_core_province = 100
 		NOT = { is_year = 1523 }

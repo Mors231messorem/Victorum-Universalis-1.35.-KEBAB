@@ -1737,6 +1737,9 @@ stadthalter_monarchy_reform = {
 					primary_culture = dutch
 					primary_culture = frisian
 					primary_culture = flemish
+				    primary_culture = ger_dutch
+				    primary_culture = ger_flemish
+				    primary_culture = ger_frisian
 				}
 				NOT = { map_setup = map_setup_random }
 			}

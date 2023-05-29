@@ -3,7 +3,7 @@
 owner = KLE
 controller = KLE
 add_core = KLE
-culture = limburgish
+culture = ger_limburgish
 religion = catholic
 capital = "Cuijk"
 base_tax = 3
