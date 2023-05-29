@@ -350,9 +350,7 @@ wallachia_missions_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			tag = WAL
-		}
+		tag = WAL
 		NOT = { tag = RMN }
 		NOT = { map_setup = map_setup_random }
 	}
@@ -797,9 +795,7 @@ wallachia_missions_3_before = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			tag = WAL
-		}
+		tag = WAL
 		NOT = { tag = RMN }
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1377,9 +1373,7 @@ wallachia_missions_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			tag = WAL
-		}
+		tag = WAL
 		NOT = { tag = RMN }
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1541,9 +1535,7 @@ wallachia_missions_5 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			tag = WAL
-		}
+		tag = WAL
 		NOT = { tag = RMN }
 		NOT = { map_setup = map_setup_random }
 	}

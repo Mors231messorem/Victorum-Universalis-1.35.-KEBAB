@@ -1752,7 +1752,7 @@ country_event = {
 				limit = { 
 					OR = {
 						has_government_attribute = enable_factional_elections 
-						has_government_attribute = enables_veche_parties
+						 has_government_attribute = enables_veche_parties 
 					}
 				}
 				random_list = {
