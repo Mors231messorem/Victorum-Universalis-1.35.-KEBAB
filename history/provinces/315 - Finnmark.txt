@@ -5,6 +5,7 @@
 owner = NOR
 controller = NOR
 culture = sapmi
+add_core = SMI
 religion = finnish_pagan_reformed
 hre = no
 base_tax = 1  
