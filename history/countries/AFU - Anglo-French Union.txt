@@ -536,7 +536,7 @@ add_country_modifier = {
 1536.1.1 = { leader = {	name = "Anne de Montmorency"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1567.1.1 } }
 
 1538.7.3 = {
-	monarch = [
+	monarch = {
 		name = "Arthur II"
 		dynasty = "Lancaster"
 		birth_date = 1499.7.20

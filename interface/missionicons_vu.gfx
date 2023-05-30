@@ -201,3 +201,4 @@ spriteTypes = {
 		name = "fortress_system"
 		texturefile = "gfx//interface//missions//fortress_system.dds"
 	}
+}
