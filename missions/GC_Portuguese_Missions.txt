@@ -94,9 +94,10 @@ gc_por_1 = {
 		
 		provinces_to_highlight = {
 			OR = {
-				area = minas_gerais_area
-				area = rio_de_janeiro_area
-				area = sao_paolo_area
+				province_id = 763
+				province_id = 765
+				province_id = 2898
+				province_id = 2903
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -116,19 +117,20 @@ gc_por_1 = {
 						has_building = marketplace
 						has_building = trade_depot
 						has_building = stock_exchange
+						has_building = corporative_headquarters
 					}
 				}
 			}
-			minas_gerais_area = {
-				type = all
+			763 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			rio_de_janeiro_area = {
-				type = all
+			765 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			sao_paolo_area = {
-				type = all
+			2898 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2903 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
