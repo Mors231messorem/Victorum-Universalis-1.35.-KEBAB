@@ -321,9 +321,13 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					culture_group = turko_semitic
-					#NOT = { primary_culture = andalusi_culture }
-					NOT = { primary_culture = andalucian }
+					OR = {
+						culture_group = turko_semitic
+						AND = {
+							culture_group = berber_group
+							NOT = { primary_culture = andalucian }
+						}
+					}
 				}
 				#change_primary_culture = andalusi_culture
 				change_primary_culture = andalucian
