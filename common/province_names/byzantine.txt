@@ -429,6 +429,11 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3749 = { "Septem" "Septem Nihilos" }
+3750 = "Motrelos"
+3751 = { "Sexi" "Firmium Julium Sexi" }
+3752 = { "Iluritanum" "Iluritanum" }
+3753 = "Ronda"
 3754 = { "Birtha" "Makedonoupolis" }
 3755 = { "Karrhai" "Karrhai" }
 3756 = { "Avtiaradus" "Avtiaradus" }
