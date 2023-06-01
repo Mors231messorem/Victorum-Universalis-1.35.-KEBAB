@@ -3,7 +3,7 @@ gme_mount_kailash = {
 	date = 1.01.01
 	time = { months = 0 }
 	build_cost = 1000
-	starting_tier = 1
+	starting_tier = 0
 	type = monument
 	can_be_moved = no
 	build_trigger = { }
@@ -42,63 +42,36 @@ gme_mount_kailash = {
 	    always = yes
 	}
 	tier_0 = {
-		upgrade_time = { months = 0 }
-		cost_to_upgrade = { factor = 0 }
-		province_modifiers = { }
-		area_modifier = { }
-		country_modifiers = { }
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 5000 }
+		province_modifiers = { local_development_cost = -0.50 }
+		area_modifier = { local_unrest = -2	local_tax_modifier = 0.50 local_friendly_movement_speed = 0.22 allowed_num_of_buildings = 1	}
+		country_modifiers = { ae_impact = -0.05	core_creation = -0.10 }
 		on_upgraded = { }
 	}
 	tier_1 = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = 1000 }
-		province_modifiers = {
-			local_unrest = -1
-			local_development_cost = -0.25
-		}
-		area_modifier = {
-			local_tax_modifier = 0.25
-			local_friendly_movement_speed = 0.22
-		}
-		country_modifiers = {
-			ae_impact = -0.05
-		}
-		on_upgraded = { }
+		province_modifiers = {}
+		area_modifier = {}
+		country_modifiers = {}
+		on_upgraded = {}
 	}
 	tier_2 = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = { factor = 2500 }
-		province_modifiers = {
-			local_unrest = -2
-			local_development_cost = -0.33
-		}
-		area_modifier = {
-			local_tax_modifier = 0.33
-			local_friendly_movement_speed = 0.22
-		}
-		country_modifiers = {
-			ae_impact = -0.05
-			core_creation = -0.05			
-		}
-		on_upgraded = { }
+		province_modifiers = {}
+		area_modifier = {}
+		country_modifiers = {}
+		on_upgraded = {}
 	}
 	tier_3 = {
 		upgrade_time = { months = 480 }
 		cost_to_upgrade = { factor = 5000 }
-		province_modifiers = {
-			local_development_cost = -0.50
-		}
-		area_modifier = {
-			local_unrest = -2
-			local_tax_modifier = 0.50
-			local_friendly_movement_speed = 0.22
-			allowed_num_of_buildings = 1
-		}
-		country_modifiers = {
-			ae_impact = -0.05
-			core_creation = -0.10
-		}
-		on_upgraded = { }
+		province_modifiers = {}
+		area_modifier = {}
+		country_modifiers = {}
+		on_upgraded = {}
 	}
 }
 gme_padmasambhava_hidden_valley = {

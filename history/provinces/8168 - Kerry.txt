@@ -42,9 +42,15 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Histories
+
+1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # English Lordship of Ireland territory - By San Felipe
+
 1291.1.1 = {
 	capital = "Tráigh Lí"
 }
+
+1444.11.11 = { owner = DMS controller = DMS add_core = DMS } # Desmond clan territory - By San Felipe
+
 1602.1.3 = {
 	controller = ANI
 } #Battle of Kinsale, the end of the old Gaelic order

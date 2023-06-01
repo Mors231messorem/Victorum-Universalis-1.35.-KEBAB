@@ -531,7 +531,7 @@ elective_monarchy = {
 		shogunate_legacy
 		indep_daimyo_legacy
 		principality_legacy
-		greek_principality_legacy
+		#greek_aparchate_legacy
 		tsardom_legacy
 		holy_state_legacy
 		negusa_nagast_legacy
@@ -550,7 +550,7 @@ elective_monarchy = {
 		mamluk_government
 		tsardom
 		principality
-		greek_principality
+		#greek_aparchate_reform
 		parliamentary_reform
 		english_monarchy
 		states_general_reform

@@ -472,10 +472,10 @@ spriteTypes = {
 		texturefile = "gfx//interface//government_reform_icons//russian_principality.dds"
 	}
 	
-	spriteType = {
-		name = "government_reform_greek_principality"
-		texturefile = "gfx//interface//government_reform_icons//greek_principality.dds"
-	}
+	#spriteType = {
+	#	name = "government_reform_greek_aparchate_reform"
+	#	texturefile = "gfx//interface//government_reform_icons//greek_aparchate.dds"
+	#}
 	
 	spriteType = {
 		name = "government_reform_revolutionary_republic"

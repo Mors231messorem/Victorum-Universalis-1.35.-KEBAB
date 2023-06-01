@@ -19,6 +19,12 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
+#Histories
+
+1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # English Lordship of Ireland territory - By San Felipe
+
+1444.11.11 = { owner = KID controller = KID add_core = KID } # Kildare clan territory - By San Felipe
+
 1535.3.1 = {
 	controller = ENG 
 } #March 1535 this was taken by an English force under Sir William Skeffington by bribing a guard, while Thomas was absent gathering reinforcements to relieve it.

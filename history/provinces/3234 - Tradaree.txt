@@ -18,6 +18,12 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
+#Histories
+
+1215.6.15 = { owner = UIB controller = UIB add_core = UIB } # Ui Briain clan territory - By San Felipe
+
+1444.11.11 = { owner = THO controller = THO add_core = THO } # Thomond clan territory - By San Felipe
+
 1543.7.1 = {
 	owner = ANI
 	controller = ANI

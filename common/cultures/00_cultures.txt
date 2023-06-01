@@ -168,7 +168,7 @@ germanic = {
 		}
 	}
 	baltic_german = {
-		#primary = XXX
+		primary = RIG
         graphical_culture = westerngfx
 		male_names = {
 			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl
@@ -1219,6 +1219,94 @@ germanic = {
 			"van Krier" "van Braun" "van Wagener" "van Diederich"
 		}
 	}
+	#Beyond the Pale Culture VULegacy Culture
+	transylvanian_saxons = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	silesian_german = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	#VU addition - Needed for SEVU colonials
+	german_east_african = { 
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	german_east_asian = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	german_east_indian = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	german_indian = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	german_afrikaner = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	german_west_african = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	#VU addition - Needed for VUColonialCultures
+	deutsch_asiaten = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	#VU addition - Needed for VUColonialCultures and VU_Colonial_Cultures
+	#Brazil CR
+	hunsrik = {
+        graphical_culture = westerngfx
+	}
+	#La Plata, Chile CR
+	argentiner = {
+        graphical_culture = westerngfx
+	}
+	#Colombia, Venezuela, Ecuador CR
+	deutschkolumbian = {
+        graphical_culture = westerngfx
+	}
+	#Cuba CR
+	kubaner = {
+        graphical_culture = westerngfx
+	}
+	#Mexico CR
+	mexikaner = {
+        graphical_culture = westerngfx
+	}
+	#Eastern America, Mississippi, Great Lakes, Louisiana, Florida
+	pennsilfaanisch = {
+        graphical_culture = westerngfx
+	}
+	#California CR
+	kalifornier = {
+        graphical_culture = westerngfx
+	}
+	#Acadia, Canada, Newfoundland CR
+	neu_prussian = {	
+        graphical_culture = westerngfx
+	}
+	#Alaska CR
+	alaskaner = {
+        graphical_culture = westerngfx
+	}
+	#Cape CR
+	afrikaner = {
+        graphical_culture = westerngfx
+	}
+	#Australia CR
+	australier = {
+        graphical_culture = westerngfx
+	}
+	#New Zealand CR
+	seelander = {
+        graphical_culture = westerngfx
+	}
 	#Dutch
 	ger_dutch = { #renamed to Hollander
         graphical_culture = westerngfx
@@ -1317,94 +1405,6 @@ germanic = {
 	ger_north_frisian = {
         graphical_culture = westerngfx
 		primary = EFR
-	}
-	#Beyond the Pale Culture VULegacy Culture
-	transylvanian_saxons = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	silesian_german = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	#VU addition - Needed for SEVU colonials
-	german_east_african = { 
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	german_east_asian = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	german_east_indian = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	german_indian = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	german_afrikaner = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	german_west_african = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	#VU addition - Needed for VUColonialCultures
-	deutsch_asiaten = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	#VU addition - Needed for VUColonialCultures and VU_Colonial_Cultures
-	#Brazil CR
-	hunsrik = {
-        graphical_culture = westerngfx
-	}
-	#La Plata, Chile CR
-	argentiner = {
-        graphical_culture = westerngfx
-	}
-	#Colombia, Venezuela, Ecuador CR
-	deutschkolumbian = {
-        graphical_culture = westerngfx
-	}
-	#Cuba CR
-	kubaner = {
-        graphical_culture = westerngfx
-	}
-	#Mexico CR
-	mexikaner = {
-        graphical_culture = westerngfx
-	}
-	#Eastern America, Mississippi, Great Lakes, Louisiana, Florida
-	pennsilfaanisch = {
-        graphical_culture = westerngfx
-	}
-	#California CR
-	kalifornier = {
-        graphical_culture = westerngfx
-	}
-	#Acadia, Canada, Newfoundland CR
-	neu_prussian = {	
-        graphical_culture = westerngfx
-	}
-	#Alaska CR
-	alaskaner = {
-        graphical_culture = westerngfx
-	}
-	#Cape CR
-	afrikaner = {
-        graphical_culture = westerngfx
-	}
-	#Australia CR
-	australier = {
-        graphical_culture = westerngfx
-	}
-	#New Zealand CR
-	seelander = {
-        graphical_culture = westerngfx
 	}
 }
 
@@ -14364,21 +14364,6 @@ old_germanic_group = {
 			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
 		}
 	}
-#	frankish = { #Cutting that for now since it's also in ME. Leaving the code in in case Darth wants to review that.
-#		primary = FRX
-#		male_names = { #male and female copied from Rhenish
-#			Wilhelm Ludwig Friedrich Hermann Karl Moritz Philipp Heinrich Otto Adolf Christian Georg Leopold 
-#			Philipp Adelmar Albrecht Barnabas Denis Egon Erich Gerhard Gottlieb Gregor Hagan Helmut Isaak Isidor 
-#			Joachim Joseph Kreszens Lothar Oskar Siegfried Stefan Thomas Wenzel Werner Wolfram Maximilian Ivo
-#		}
-#		female_names = {
-#			Corinna Else Hedwig Helene Helen Hildegard Hildegard Hrothwina Ida Ida Imma Emma Irmgard Charlotte Chiara 
-#			Christa Christel Christiane Christina Christine Clara Claudia Constanze
-#		}
-#		dynasty_names = {
-#			"Merovech" "Karling" "Bosonid" "Capetian" "Hesbaye" "Arnufing" "Hattonid" "Rorgonid" "Reginarid" "Etichonid" "Agilolfing" "Widonid"
-#		}
-#	}
 	frisii = {
 		dynasty_names = {
 			Firsii Friti Ferisi Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing 
@@ -14441,6 +14426,7 @@ old_germanic_group = {
 mesopotamian_group = {
 	graphical_culture = muslimgfx
 	assyrian = {
+		primary = ASY
 		dynasty_names = {
 			Shalmaneser "Ashur-dan" "Ashur-nirari" "Adad-nirari" Ashurnasirpal Tukurti Ninurtal "Ashur-uballit" "Enlil-nirar" "Puzur-ashur" "Shalim-ahum" "Ilu-shuma"
 			"Ikunum" "Sargon" "Erishum" "Puzur-Ashur"  "Shamshi-Adad"  "Amorite" "Adaside" "Sargonid"
@@ -14993,6 +14979,10 @@ brythonic = {
 		}
 	}
 }
+
+#VU - Unused Cultures
+unused = { berber = {} }
+unused = { maghrebi = {} }
 
 berber_group = {
 	graphical_culture = persiangfx

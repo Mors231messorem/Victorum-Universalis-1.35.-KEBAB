@@ -603,7 +603,7 @@
 			}
 			turko_semitic = {
 			}
-			maghrebi = {
+			berber_group = {
 			}
 			malay = {
 			}
@@ -1159,34 +1159,6 @@
 			factor = 101
 		}
 	}
-	#tanistry_reform = {
-	#	icon = dutch_guilds
-	#	allow_normal_conversion = yes
-	#	valid_for_nation_designer = no
-	#	potential = {
-	#		OR = {
-	#			primary_culture = irish 
-	#			has_reform = tanistry_reform
-	#		}
-	#	}
-	#	trigger = {
-	#		OR = {
-	#			primary_culture = irish 
-	#			has_reform = tanistry_reform
-	#		}
-	#	}
-	#	modifiers = {
-	#		heir_chance = -2
-	#		same_culture_advisor_cost = -0.15
-	#	}
-	#	custom_attributes = {
-	#		enables_tanistry = yes #elect an heir
-	#		#enables_disputed_heir = yes #heir will face challenges
-	#	}
-	#	ai = {
-	#		factor = 101
-	#	}
-	#}
 	klever_union_reform = {
 		icon = crown
 		allow_normal_conversion = yes
@@ -1738,7 +1710,7 @@
 		potential = {
 			religion_group = muslim
 			OR = {
-				culture_group = maghrebi
+				culture_group = berber_group
 				has_reform = council_of_sheikhs_reform 
 				accepted_culture = moroccan
 				accepted_culture = tunisian
@@ -1761,7 +1733,7 @@
 		trigger = {
 			religion_group = muslim
 			OR = {
-				culture_group = maghrebi
+				culture_group = berber_group
 				has_reform = council_of_sheikhs_reform 
 				accepted_culture = moroccan
 				accepted_culture = tunisian
@@ -3034,7 +3006,7 @@
 		}
 		potential = {
 			NOT = { technology_group = eastern }
-			NOT = { culture_group = maghrebi }
+			NOT = { culture_group = berber_group }
 		}
 		modifiers = {
 			garrison_size = 0.15
@@ -3078,13 +3050,13 @@
 		}
 		potential = {
 			OR = {
-				culture_group = maghrebi
+				culture_group = berber_group
 				has_reform = regional_kasbah_reform
 			}
 		}
 		trigger = {
 			OR = {
-				culture_group = maghrebi
+				culture_group = berber_group
 				has_reform = regional_kasbah_reform
 			}
 		}
@@ -6892,13 +6864,13 @@
 		allow_normal_conversion = yes
 		potential = {
 			OR = {
-				culture_group = maghrebi
+				culture_group = berber_group
 				has_reform = nomad_councils_reform
 			}
 		}
 		trigger = {
 			OR = {
-				culture_group = maghrebi
+				culture_group = berber_group
 				has_reform = nomad_councils_reform
 			}
 		}
@@ -9025,13 +8997,13 @@
 		allow_normal_conversion = yes
 		potential = {
 			OR = {
-				culture_group = maghrebi
+				culture_group = berber_group
 				has_reform = expand_the_trans_saharan_trade_reform
 			}
 		}
 		trigger = {
 			OR = {
-				culture_group = maghrebi
+				culture_group = berber_group
 				has_reform = expand_the_trans_saharan_trade_reform
 			}
 		}

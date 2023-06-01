@@ -138,29 +138,26 @@ gme_externsteine = {
 	time = { months = 0 }
 	build_cost = 1000
 	can_be_moved = no
-	starting_tier = 1
+	starting_tier = 0
 	type = monument
 	build_trigger = { }
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = { }
-	can_upgrade_trigger = {	}
-	keep_trigger = { }
+	can_upgrade_trigger = { always = no }
+	keep_trigger = { always = yes }
 	tier_0 = {
 		upgrade_time = { months = 0 }
 		cost_to_upgrade = { factor = 0 }
-		province_modifiers = { }
+		province_modifiers = { local_development_cost = -0.15 local_missionary_strength = -0.03 }
 		area_modifier = { }
-		country_modifiers = { }
+		country_modifiers = { tolerance_own = 1 prestige = 1 }
 		on_upgraded = { }
 	}
 	tier_1 = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = 1000 }
-		province_modifiers = {
-			local_development_cost = -0.05
-			local_missionary_strength = -0.01
-		}
+		province_modifiers = {}
 		area_modifier = { }
 		country_modifiers = { }
 		on_upgraded = { }
@@ -168,28 +165,17 @@ gme_externsteine = {
 	tier_2 = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = { factor = 2500 }
-		province_modifiers = {
-			local_development_cost = -0.1
-			local_missionary_strength = -0.03
-		}
+		province_modifiers = {}
 		area_modifier = { }
-		country_modifiers = {
-			prestige = 0.5
-		}
+		country_modifiers = {}
 		on_upgraded = { }
 	}
 	tier_3 = {
 		upgrade_time = { months = 480 }
 		cost_to_upgrade = { factor = 5000 }
-		province_modifiers = {
-			local_development_cost = -0.15
-			local_missionary_strength = -0.05
-		}
+		province_modifiers = {}
 		area_modifier = { }
-		country_modifiers = {
-			tolerance_own = 1
-			prestige = 1
-		}
+		country_modifiers = {}
 		on_upgraded = { }
 	}
 }

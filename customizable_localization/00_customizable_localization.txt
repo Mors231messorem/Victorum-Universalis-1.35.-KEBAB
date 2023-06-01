@@ -3281,7 +3281,7 @@ defined_text = {
 					tag = BYZ
 					tag = ROM
 					culture_group = turko_semitic
-					culture_group = maghrebi
+					culture_group = berber_group
 				}
 			}
 		}
@@ -3334,7 +3334,7 @@ defined_text = {
 				tag = BYZ
 				tag = ROM
 				culture_group = turko_semitic
-				culture_group = maghrebi
+				culture_group = berber_group
 			}
 		}
 	}
@@ -3398,7 +3398,7 @@ defined_text = {
 					tag = BYZ
 					tag = ROM
 					culture_group = turko_semitic
-					culture_group = maghrebi
+					culture_group = berber_group
 				}
 			}
 		}
@@ -3450,7 +3450,7 @@ defined_text = {
 				tag = BYZ
 				tag = ROM
 				culture_group = turko_semitic
-				culture_group = maghrebi
+				culture_group = berber_group
 			}
 		}
 	}

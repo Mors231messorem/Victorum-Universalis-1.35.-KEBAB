@@ -140,45 +140,25 @@ principality_of_wales = {
     }
 }
 
-principality_of_greece = {
-    rank = {
-        1 = PRINCIPALITY_GREECE
-        2 = PRINCIPALITY_GREECE
-        3 = PRINCIPALITY_GRAND_GREECE
-    }
-
-    ruler_male = {
-        1 = PRINCIPALITY_PRINCE_GREECE
-        2 = PRINCIPALITY_PRINCE_GREECE
-        3 = PRINCIPALITY_GRAND_PRINCE_GREECE
-    }
-
-    ruler_female = {
-        1 = PRINCIPALITY_PRINCESS_GREECE
-        2 = PRINCIPALITY_PRINCESS_GREECE
-        3 = PRINCIPALITY_GRAND_PRINCESS_GREECE
-    }
-
-    consort_male = {
-		1 = PRINCIPALITY_PRINCE_CONSORT_GREECE
-		2 = PRINCIPALITY_PRINCE_CONSORT_GREECE
-		3 = GRAND_PRINCIPALITY_PRINCE_CONSORT_GREECE
-	}
-
-	consort_female = {
-		1 = PRINCIPALITY_PRINCESS_CONSORT_GREECE_fem
-		2 = PRINCIPALITY_PRINCESS_CONSORT_GREECE_fem
-		3 = GRAND_PRINCIPALITY_PRINCESS_CONSORT_GREECE_fem
-	}
-
-    trigger = {
-	    OR = {
-		    culture_group = byzantine
-		    culture_group = south_slavic
-        }
-        has_reform = greek_principality
-    }
-}
+#greek_aparchate = {
+#    rank = {
+#        1 = GREEK_APARCHATE
+#        2 = GREEK_MEGAS_APARCHATE
+#    }
+#
+#    ruler_male = {
+#        1 = GREEK_APARCHOS
+#        2 = GREEK_MEGAS_APARCHOS
+#    }
+#
+#    trigger = {
+#	    OR = {
+#		    culture_group = byzantine
+#		    culture_group = south_slavic
+#        }
+#        has_reform = greek_aparchate_reform
+#    }
+#}
 
 scottish_vassal_monarchy = {
 	rank = {
@@ -525,6 +505,156 @@ gov_irish_clann = { #Starting Irish minors
 	}
 }
 
+gov_earldom = { #Provincial Kingdom formables Chester
+	rank = {
+		1 = ENG_EARLDOM
+	}
+	
+	ruler_male = {
+		1 = ENG_EARL
+	}
+	
+	ruler_female = {
+		1 = ENG_COUNTESS_fem
+	}
+	
+	consort_male = {
+		1 = ENG_CONSORT
+	}
+
+	consort_female = {
+		1 = ENG_CONSORT_fem
+	}
+	
+	heir_male = {
+		1 = ENG_HEIR
+	}
+
+	heir_female = {
+		1 = ENG_HEIR_fem
+	}
+	
+	trigger = {
+		has_reform = earldom_reform
+	}
+}
+
+gov_welsh_cammote = { #Starting Welsh minors
+	rank = {
+		1 = WELSH_CAMMOTE
+	}
+	
+	ruler_male = {
+		1 = WELSH_CAMMOTE_CHIEFTAIN #Pennaeth
+	}
+	
+	ruler_female = {
+		1 = WELSH_CAMMOTE_CHIEFTESS_fem #Penaethiaid
+	}
+	
+	consort_male = {
+		1 = WELSH_CAMMOTE_CONSORT #Iarll
+	}
+
+	consort_female = {
+		1 = WELSH_CAMMOTE_CONSORT_fem #Iarlles
+	}
+	
+	heir_male = {
+		1 = WELSH_CAMMOTE_PRINCE #Tywysog
+	}
+
+	heir_female = {
+		1 = WELSH_CAMMOTE_PRINCESS_fem #Tywysoges
+	}
+	
+	trigger = {
+		has_reform = welsh_cammote_reform
+	}
+}
+
+gov_welsh_earldom = { #Provincial Kingdom formables Glywyssing
+	rank = {
+		1 = WELSH_EARLDOM #Iarllaeth
+	}
+	
+	ruler_male = {
+		1 = WELSH_EARL #Iarll
+	}
+	
+	ruler_female = {
+		1 = WELSH_COUNTESS_fem #Iarlles
+	}
+	
+	consort_male = {
+		1 = WELSH_CONSORT #Arglwydd
+	}
+
+	consort_female = {
+		1 = WELSH_CONSORT_fem #Arglwyddes
+	}
+	
+	heir_male = {
+		1 = WELSH_HEIR #Arglwydd
+	}
+
+	heir_female = {
+		1 = WELSH_HEIR_fem #Arglwyddes
+	}
+	
+	trigger = {
+		has_reform = welsh_earldom_reform
+	}
+}
+
+gov_welsh_teyrnas_kingship = { #Welsh petty Kingdom.
+	rank = {
+		1 = WELSH_TEYRNAS_KINGDOM #Teyrnas
+		2 = WELSH_TEYRNAS_KINGDOM
+		3 = WELSH_TEYRNAS_HIGH_KINGDOM
+	}
+	
+	ruler_male = {
+		1 = WELSH_TEYRNAS_KING
+		2 = WELSH_TEYRNAS_KING
+		3 = WELSH_TEYRNAS_HIGH_KING
+	}
+	
+	ruler_female = {
+		1 = WELSH_TEYRNAS_QUEEN_fem
+		2 = WELSH_TEYRNAS_QUEEN_fem
+		3 = WELSH_TEYRNAS_HIGH_QUEEN_fem
+	}
+	
+	consort_male = {
+		1 = WELSH_TEYRNAS_CONSORT
+		2 = WELSH_TEYRNAS_CONSORT
+		3 = WELSH_TEYRNAS_CONSORT
+	}
+
+	consort_female = {
+		1 = WELSH_TEYRNAS_CONSORT_fem
+		2 = WELSH_TEYRNAS_CONSORT_fem
+		3 = WELSH_TEYRNAS_CONSORT_fem
+	}
+	
+	heir_male = {
+		1 = WELSH_TEYRNAS_PRINCE
+		2 = WELSH_TEYRNAS_PRINCE
+		3 = WELSH_TEYRNAS_PRINCE
+	}
+
+	heir_female = {
+		1 = WELSH_TEYRNAS_PRINCESS_fem
+		2 = WELSH_TEYRNAS_PRINCESS_fem
+		3 = WELSH_TEYRNAS_PRINCESS_fem
+	}
+	
+	trigger = {
+		has_reform = welsh_teyrnas_reform
+	}
+}
+
 gov_provincial_kingdom = { #Provincial Kingdom formables Munster, Leinster, Ulster & Connacht, by Irish
 	rank = {
 		1 = PROVKINGDOM
@@ -559,37 +689,95 @@ gov_provincial_kingdom = { #Provincial Kingdom formables Munster, Leinster, Ulst
 	}
 }
 
-gov_greek_provincial_kingdom = { #Provincial Kingdom formables 
+gov_greek_catepanates = { #Starting Old English minors.
 	rank = {
-		1 = GREEKPROVKINGDOM
+		1 = GREEK_CATEPANATES 
 	}
 	
 	ruler_male = {
-		1 = KING
+		1 = GREEK_KATIPANOS
 	}
 	
-	ruler_female = {
-		1 = QUEEN
-	}
-	
-	consort_male = {
-		1 = PRINCE_CONSORT
-	}
-
-	consort_female = {
-		1 = PRINCESS_CONSORT_fem
-	}
-	
-	heir_male = {
-		1 = PRINCE
-	}
-
-	heir_female = {
-		1 = PRINCESS
-	}
+	#ruler_female = {
+	#	1 = GREEK_KATIPANOS_fem
+	#}
 	
 	trigger = {
-		has_reform = greek_provincial_kingdom_reform
+		has_reform = greek_catepanates_reform
+	}
+}
+
+gov_greek_ducates = { #Norma Duchy formables Munser, Leinster, Ulster & Connacht, by Old English
+	rank = {
+		1 = GREEK_DUCHY
+		2 = GREEK_GRAND_DUCHY
+		3 = GREEK_GRAND_DUCHY
+	}
+	
+	ruler_male = {
+		1 = GREEK_DUKE
+		2 = GREEK_GRAND_DUKE_STRAT
+		3 = GREEK_GRAND_DUKE
+	}
+	
+	#ruler_female = {
+	#	1 = GREEK_DUCHESS_fem
+	#	2 = GREEK_GRAND_DUCHESS_STRAT_fem
+	#	3 = GREEK_GRAND_DUCHESS_fem
+	#}
+	
+	consort_male = {
+		1 = GREEK_CONSORT
+		2 = GREEK_CONSORT
+		3 = GREEK_CONSORT
+	}
+
+	#consort_female = {
+	#	1 = GREEK_CONSORT_fem
+	#	2 = GREEK_CONSORT_fem
+	#	3 = GREEK_CONSORT_fem
+	#}
+	
+	heir_male = {
+		1 = GREEK_HEIR
+		2 = GREEK_HEIR
+		3 = GREEK_HEIR
+	}
+
+	#heir_female = {
+	#	1 = GREEK_HEIRESS_fem
+	#	2 = GREEK_HEIRESS_fem
+	#	3 = GREEK_HEIRESS_fem
+	#}
+	
+	trigger = {
+		has_reform = greek_ducates_reform
+	}
+}
+
+gov_greek_exarchates = { #Provincial Kingdom formables 
+	rank = {
+		1 = GREEK_EXARCHATE
+	}
+	
+	ruler_male = {
+		1 = GREEK_EXARCH
+	}
+	
+	#ruler_female = {
+	#	1 = GREEK_EXARCH_fem
+	#}
+	
+	heir_male = {
+		1 = GREEK_VICARIUS 
+	}
+
+	#heir_female = {
+	#	1 = GREEK_VICARIUS_fem
+	#}
+	
+	trigger = {
+		has_reform = greek_exarchates_reform
 	}
 }
 

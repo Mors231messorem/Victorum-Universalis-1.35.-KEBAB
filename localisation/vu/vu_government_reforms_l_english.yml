@@ -17,10 +17,10 @@
  siamese_absolutism_desc:0 "The monarch is more than a mere man. He is a divine sovereign, the very center of the universe. Only through him can there be peace and harmony in the world."
  vu_ayyubid_sultanate_reform:0 "Ayyubid Sultanate"
  vu_ayyubid_sultanate_reform_desc:0 "The Ayyubid Sultanate, established by the Great Saladin, or An-Nasir Salah ad-Din Yusuf ibn Ayyub, employed hereditary ownership throughout their lands with their Empire divided upon among his kinsmen. Family members presided over semi-autonomous fiefs and principalities. The right of succession wasn't always entirely certain as the sons would fight amongst themselves for the throne, however it ensured that whoever did succeed to the throne was in fact of Ayyubid blood."
- restoration_reform: "Japanese Government"
- restoration_reform_desc: "not implemented"
- imperial_navy:"Imperial Navy"
- imperial_navy_desc: "not implemented"
+ restoration_reform:0 "Japanese Government" #VU - Not yet Implemented
+ restoration_reform_desc:0 "not implemented" #VU - Not yet Implemented
+ imperial_navy:"Imperial Navy" #VU - Not yet Implemented
+ imperial_navy_desc:0 "not implemented" #VU - Not yet Implemented
  kongsi_federation:0 "Kongsi Federation"
  kongsi_federation_desc:1 "A democratic syndicate of mining republics that share its profits with its members. As the Kongsi Republics have become more powerful, they have also taken on the duties of government such as education and agricultural administration."
  confucian_bureaucracy:0 "Confucian Bureaucracy"
@@ -31,31 +31,47 @@
  puppet_kingdom_of_ireland_legacy_desc:0 "A Viceroyalty is typically a subordinate government ruled by proxy. A representative of the parent government safeguards the interests of the parent nation, and the transplanted elite from the parent nation often occupy the majority of government offices while the local poulation is often given little representation. Governments of this type are highly unpopular, but few can object to their productivity and tax collection. Well, few outside of those paying those taxes..."
  transitional_government_ireland_legacy:0 "Transitional Government"
  transitional_government_ireland_legacy_desc:0 "A transitional government fulfills administrative duties in a society in transition, often a nation recently independent from a foreign power, or a nation in the throws of a revolution. While this government may be all that stands between the country and pure anarchy, it is rarely much better than anarchy. Warlords and oligarchs vie for positions of power in the new society, patriots and revolutionaries scheme to take the country in a new direction, while loyalists and conservatives try to return the country to its former structure. Thankfully, this chaos most often proves very temporary, as one faction or another usually wins out within a few years and the nation returns to a more stable form of government."
- lithuanian_grand_duchy_legacy:0 "Grand Duchy"         #Copied from vanilla Lithuanian grand duchy reform localisation
+ lithuanian_grand_duchy_legacy:0 "Grand Duchy" #Inspired by the EU4 vanilla's Lithuanian grand_duchy_reform localisation
  lithuanian_grand_duchy_legacy_desc:0 "Our region never had many kings, instead it is our dukes that have united and led the various peoples within our borders to greatness."         #Copied from vanilla Lithuanian grand duchy reform localisation
  irish_clann_reform:0 "Clann"
  irish_clann_reform_desc:0 "Clanns were the primary local political and social unit in Gaelic Ireland. The hereditary system was highly stable, but its power structures were exceptionally weak and decentralized for early modern Europe and its largely rural population was quickly becoming unable to compete in a modernising Europe."
+ 
+ welsh_cammote_reform:0 "Cymwd" #Inspired by the irish_clann_reform
+ welsh_cammote_reform_desc:0 "A Commote or Cymwd in older documents is a secular division of land in Medieval Wales. The word derives from the prefix 'cym' or 'together with' and the noun bod 'home' or 'abode'. It is similar in administration to a Principality and or Provincial Kingdom but not at the same equal level."
+  
  provincial_kingdom_reform:0 "Provincial Kingdom"
  provincial_kingdom_reform_desc:0 "Ríthe Ruireach, or Overkings (also often call Ríthe Cúige, or Provincial Kings), were influential local kings, exercising their power over one of the ancient 5 provinces of Ireland. Historically second only to the High King, and indeed being the candidates from which most High Kings were chosen, these local kings were some of the most powerful men in Gaelic Ireland. Despite their influence, however, they often lacked the power structures and centralisation of larger European states, though not to the extent of the local Clann chiefs."
+  
+ earldom_reform:0 "Earldom" #Inspired by the provincial_kingdom_reform
+ earldom_reform_desc:0 "An Earldom is is an area of land within a Kingdom or Empire that is ruled over by an Earl or Eorl (Count) who rule the territory in the sovereign's stead, acting as both governor, judicial arbiter and representative of the monarch."
+  
+ welsh_earldom_reform:0 "Iarllaeth" #Inspired by the provincial_kingdom_reform
+ welsh_earldom_reform_desc:0 "A 'Iarllaeth' is the Welsh equivalent of an Earldom or area of land within a Kingdom or Empire that is ruled and presided over by an 'Iarll' or Earl (Count) who rules the territory in the sovereign's stead, acting as both governor, judicial arbiter and representative of the monarch."
+  
+ greek_exarchates_reform:0 "Exarchate" #Inspired by the provincial_kingdom_reform & greek_provincial_kingdom_reform
+ greek_exarchates_reform_desc:0 "Exarchates are generally under the jurisdiction of Exarchs who rule large political and ecclesiastical regions. Though not as powerful as Basilias (King) or Emperor, they never the less exercised great power within the Themes system that made up the later Eastern Roman empire, so much so that they would even later pose a threat to the established Basileus or Emperors in Constantinople, which had result in Alexios I Komnenos creating the title Megas Doux in a bid to check certain individuals with the title."
  
- greek_provincial_kingdom_reform:0 "Greek Provincial Kingdom"
- greek_provincial_kingdom_reform_desc:0 "Basilias, or King (also often called Basileus, or Eparchiakoi Basileis), were influential local kings, exercising their power over one of the ancient provinces of the Greco-Roman world. Historically second only to the Emperor and indeed being the candidates from which most Emperors were chosen, these local kings were some of the most powerful men in Greece and Western Anatolia. Despite their influence, however, they often lacked the power structures and centralisation of larger European states, though not to the extent of the local Greco-Roman provincial dukes."
- 
- tanistry_reform:0 "Tanistry"
+ tanistry_reform:0 "Tanistry" 
  tanistry_reform_desc:0 "Tanistry is the traditional inheritance system of Ireland and Britain. Under this system, a Tanist is elected by popular vote of the Dearbhfhine, or the decendants of a previous king up to four generations back, from the available Righdamhna, or kingly material, who are Dearbhfhine of the age of majority and without any physical or mental deformity. Unlike most primogeniture succession laws on the continent, it is common for a brother, uncle, or nephew to be first in line to inheirit, and also unlike most elective monarchy laws on the continent, only the direct descendants of previously ruling kings were eligible. This system is highly stable and typically ensures a compentent king is chosen, but it also occasionally causes civil wars between cousins."
  
+ welsh_teyrnas_reform:0 "Teyrnas" #Inspired by the tanistry_reform
+ welsh_teyrnas_reform_desc:0 "A Teyrnas of petty kingdom is a minor kingdom government in Wales that is within the immediate vicinity of larger kingdoms, such as the medieval kingdom of Powys relative to the kingdom of England."
+  
  norman_lordship_reform:0 "Norman Lordship"
  norman_lordship_reform_desc:0 "Norman Lordships are positions created by Anglo-Norman powers following the Norman conquest of Ireland in 1172, into which they installed loyal Anglo-Norman lords as a reward for miltary service as well as to ensure continued control over Ireland. Nominally vassals of the English monarch, these lordships quickly became de facto independent, and shared far more with their Gaelic neighbours than their distant English cousins."
  
- greek_lordship_reform:0 "Greek Lordship"
- greek_lordship_reform_desc:0 "Greek Lordships are positions created by Greco-Roman powers as terms meaning "Club Leader" to "Master of Tables" to "Roman Governor" that were installed during pre-Roman times by powerful Greek warlords and later on by both the Roman Republican and Imperial senates, including also by later Byzantine Emperors until the fall of the Roman Eastern Empire in 1453. Individuals charged with this role usuall received it as a form of reward or recognition for miltary service as well as to ensure continued control over Greco-Roman territorial holdings throughout Greece and parts of Western Anatolia." 
+ greek_catepanates_reform:0 "Catepanate" #Inspired by the greek_lordship_reform
+ greek_catepanates_reform_desc:0 "Catepanates, equivalent to Lordships in Western Europe consist of smaller military and administrative divisions headed by Kapetanos, official roles created by the Eastern Romans and is a term meaning either "Army Leader", "Master of Tables", "Roman Governor" and respectively "Military General". During pre-Byzantine times, powerful individuals were usually granted such roles via the casting of votes in the Republic and Imperial senates. This however gave way to pre-selection and direct appointments by the later Imperial administration and more recently through the personal selection of Byzantine Emperors. Individuals charged with this role usually received it as a form of reward or recognition for miltary service as well as to ensure continued control over Roman territorial holdings throughout Greece, parts of Western Anatolia, the Levant, Egypt and North Africa." 
  
  norman_duchy_reform:0 "Hiberno-Norman Duchy"
  norman_duchy_reform_desc:0 "A title granted by the English monarchy empowering the holder to rule one of the ancient provinces of Ireland in their name. Historically a replacement for the native provincial kingdoms, this title came to represent pervasive and aggressive English influence in Ireland, but they were also highly effective at squeezing out every last ducat from their subjects."
  
- greek_duchy_reform:0 "Greco Duchy"
- greek_duchy_reform_desc:0 "A title granted by the Greco-Roman monarchy empowering the holder to rule one of the ancient provinces of the Empire in their name. Historically a replacement for the native provincial kingdoms, this title came to represent pervasive, aggressive and or defensive Greco-Roman or Byzantine dominance and influence in Greece and parts of Anatolia, especially as guards against the rise of Islamic incurrions brought about by the Muslim armies that came out of Arabia during the first and latter halves of the 7th century AD."
-  
+ greek_ducates_reform:0 "Ducate" #Inspired by the norman_duchy_reform & greek_duchy_reform
+ greek_ducates_reform_desc:0 "A 'Ducate' is a large administrative zone under the governoship of dukes or Doukas. Though not as powerful as Basilias (King) or Emperor, they never the less exercised great power over Themes that made up the later Eastern Roman empire, so much so that they would even eventually surpass the military power and prestige of the Strategos, culminating even in the creation of the title "Megas Doux" or Grand Duke who was second only to the Byzantine Emperors and their power and influence would later pose a threat to the established Basileus or Emperors in Constantinople."
+ 
+ #greek_aparchate_reform:0 "Aparchate" #Inspired by the principality_reform & greek_principality_reform
+ #greek_aparchate_reform_desc:0 "Aparchos are generally pre-selected members of the Imperial Byzantine household under the jurisdiction of the Emperors and who's roles are equivalent to that of the Praetorian Prefects of old. Aprachos rule not only areas or regions but entire continental segments of the Eastern Roman Empire and are considered by most to be the direct rivals of the Basileus or Emperors in Constantinople."
+ 
  anglo_irish_monarchy_reform:0 "Anglo-Irish Monarchy"
  anglo_irish_monarchy_reform_desc:0 "A form of constitutional or representative monarchy based on the English parliamentary tradition of Westminster, with a parliament called regularly by the ruling monarch. It is based on the privileges defined in Magna Carta and adapted to the local economy."
  puppet_kingdom_reform:0 "Viceroyalty"
@@ -110,39 +126,61 @@
  irish_clann_legacy_ruler:0 "Rí"
  irish_clann_legacy_ruler_female:0 "Banríon"
  irish_clann_legacy_desc:0 "Clanns were the primary political and social unit in Gaelic Ireland. The system was highly stable, but its power structures were exceptionally weak in 15th century Europe and its largely rural population unable to compete in a modernising Europe."
+ 
+ earldom_legacy:0 "Earldom"
+ earldom_legacy_ruler:0 "Earl"
+ earldom_legacy_ruler_female:0 "Countessd"
+ earldom_legacy_legacy_desc:0 "An Earldom is is an area of land within a Kingdom or Empire that is ruled over by an Earl or Eorl (Count) who rule the territory in the sovereign's stead, acting as both governor, judicial arbiter and representative of the monarch."
+  
+ welsh_earldom_legacy:0 "Iarllaeth"
+ welsh_earldom_legacy_ruler:0 "Iarll"
+ welsh_earldom_legacy_ruler_female:0 "Iarlles"
+ welsh_earldom_legacy_desc:0 "A 'Iarllaeth' is the Welsh equivalent of an Earldom or area of land within a Kingdom or Empire that is ruled and presided over by an 'Iarll' or Earl (Count) who rules the territory in the sovereign's stead, acting as both governor, judicial arbiter and representative of the monarch."
+  
+ welsh_cammote_legacy:0 "Cymwd"
+ welsh_cammote_legacy_ruler:0 "Pennaeth"
+ welsh_cammote_legacy_ruler_female:0 "Penaethiaid"
+ welsh_cammote_legacy_desc:0 "A Commote or Cymwd in older documents is a secular division of land in Medieval Wales. The word derives from the prefix 'cym' or 'together with' and the noun bod 'home' or 'abode'. It is similar in administration to a Principality and or Provincial Kingdom but not at the same equal level."
+ 
  provincial_kingdom_legacy:0 "Provincial Kingdom"
  provincial_kingdom_legacy_ruler:0 "Rí Ruireach"
  provincial_kingdom_legacy_ruler_female:0 "Banríon Ruireach"
  provincial_kingdom_legacy_desc:0 "Ríthe Ruireach, or Overkings (also often call Ríthe Cúige, or Provincial Kings), were influential local kings, exercising their power over one of the ancient provinces of Ireland. Historically second only to the High King, and indeed being the candidates from which most High Kings were chosen, these local kings were some of the most powerful men in Gaelic Ireland. Despite their influence, however, they often lacked the power structures and centralisation of larger European states, though not to the extent of the local Clann chiefs."
  
- greek_provincial_kingdom_legacy:0 "Greek Provincial Kingdom"
- greek_provincial_kingdom_legacy_ruler:0 "Basilias"
- greek_provincial_kingdom_legacy_ruler_female:0 "Basilissa"
- greek_provincial_kingdom_legacy_desc:0 "Basilias, or King (also often called Basileus, or Eparchiakoi Basileis), were influential local kings, exercising their power over one of the ancient provinces of the Greco-Roman world. Historically second only to the Emperor and indeed being the candidates from which most Emperors were chosen, these local kings were some of the most powerful men in Greece and Western Anatolia. Despite their influence, however, they often lacked the power structures and centralisation of larger European states, though not to the extent of the local Greco-Roman provincial dukes."
+ greek_exarchates_legacy:0 "Exarchates" #greek_provincial_kingdom_legacy
+ greek_exarchates_legacy_ruler:0 "Exarch"
+ greek_exarchates_legacy_ruler_female:0 "Exarch"
+ greek_exarchates_legacy_desc:0 "Exarchates are generally under the jurisdiction of Exarchs who rule large political and ecclesiastical regions. Though not as powerful as Basilias (King) or Emperor, they never the less exercised great power within the Themes system that made up the later Eastern Roman empire, so much so that they would even later pose a threat to the established Basileus or Emperors in Constantinople, which had result in Alexios I Komnenos creating the title Megas Doux in a bid to check certain individuals with the title."
  
  high_kingship_legacy:0 "High Kingship"
  high_kingship_legacy_ruler:0 "Ard Rí"
  high_kingship_legacy_ruler_female:0 "Ard Banríon"
  high_kingship_legacy_desc:0 "The highest level of kingship in Gaelic Ireland. High Kings were crowned at the Aonach, an assembly of the leading men in Gaelic Irish society, at Teamhair na Rí. Though the exact reach and totality of the High King's authority varied over time, all other kings in Ireland were at the very least nominally subordinate, if not directly subservient, to the High King. The High Kingship also revives the traditional Tanistry system of succession, making it very difficult for a dynasty to lose power or be inherited by another kingdom."
+ 
  norman_lordship_legacy:0 "Norman Lordship"
  norman_lordship_legacy_ruler:0 "Earl"
  norman_lordship_legacy_ruler_female:0 "Lady"
  norman_lordship_legacy_desc:0 "Norman Lordships are positions created by Anglo-Norman powers following the Norman conquest of Ireland in 1172, into which they installed loyal Anglo-Norman lords as a reward for miltary service as well as to ensure continued control over Ireland. Nominally vassals of the English monarch, these lordships were de facto independent by the 15th century, and shared far more with their Gaelic neighbors than their distant English cousins."
  
- greek_lordship_legacy:0 "Greek Lordship"
- greek_lordship_legacy_ruler:0 "Archon"
- greek_lordship_legacy_ruler_female:0 "Kyria"
- greek_lordship_legacy_desc:0 "Greek Lordships are positions created by Greco-Roman powers as terms meaning "Club Leader" to "Master of Tables" to "Roman Governor" that were installed during pre-Roman times by powerful Greek warlords and later on by both the Roman Republican and Imperial senates, including also by later Byzantine Emperors until the fall of the Roman Eastern Empire in 1453. Individuals charged with this role usuall received it as a form of reward or recognition for miltary service as well as to ensure continued control over Greco-Roman territorial holdings throughout Greece and parts of Western Anatolia."
+ greek_catepanates_legacy:0 "Catepanates" #greek_lordship_legacy
+ greek_catepanates_legacy_ruler:0 "Kapetanos"
+ greek_catepanates_legacy_ruler_female:0 "Kapetanos"
+ greek_catepanates_legacy_desc:0 "Catepanates, equivalent to Lordships in Western Europe consist of smaller military and administrative divisions headed by Kapetanos, official roles created by the Eastern Romans and is a term meaning either "Army Leader", "Master of Tables", "Roman Governor" and respectively "Military General". During pre-Byzantine times, powerful individuals were usually granted such roles via the casting of votes in the Republic and Imperial senates. This however gave way to pre-selection and direct appointments by the later Imperial administration and more recently through the personal selection of Byzantine Emperors. Individuals charged with this role usually received it as a form of reward or recognition for miltary service as well as to ensure continued control over Roman territorial holdings throughout Greece, parts of Western Anatolia, the Levant, Egypt and North Africa." 
  
  norman_duchy_legacy:0 "Hiberno-Norman Duchy"
  norman_duchy_legacy_ruler:0 "Duke"
  norman_duchy_legacy_ruler_female:0 "Duchess"
  norman_duchy_legacy_desc:0 "A title granted by the English monarchy empowering the holder to rule one of the ancient provinces of Ireland in their name. Historically a replacement for the native provincial kingdoms, this title came to represent pervasive and aggressive English influence in Ireland, but they were also highly effective at squeezing out every last ducat from their subjects."
  
- greek_duchy_legacy:0 "Greek Duchy"
- greek_duchy_legacy_ruler:0 "Ducas"
- greek_duchy_legacy_ruler_female:0 "Doukissa"
- greek_duchy_legacy_desc:0 "A title granted by the Greco-Roman monarchy empowering the holder to rule one of the ancient provinces of the Empire in their name. Historically a replacement for the native provincial kingdoms, this title came to represent pervasive, aggressive and or defensive Greco-Roman or Byzantine dominance and influence in Greece and parts of Anatolia, especially as guards against the rise of Islamic incurrions brought about by the Muslim armies that came out of Arabia during the first and latter halves of the 7th century AD."
+ greek_ducates_legacy:0 "Ducates" #greek_duchy_legacy
+ greek_ducates_legacy_ruler:0 "Doux"
+ greek_ducates_legacy_ruler_female:0 "Doukissa"
+ greek_ducates_legacy_desc:0 "A 'Ducate' is a large administrative zone under the governoship of dukes or Doukas. Though not as powerful as Basilias (King) or Emperor, they never the less exercised great power over Themes that made up the later Eastern Roman empire, so much so that they would even eventually surpass the military power and prestige of the Strategos, culminating even in the creation of the title "Megas Doux" or Grand Duke who was second only to the Byzantine Emperors and their power and influence would later pose a threat to the established Basileus or Emperors in Constantinople."
+ 
+ greek_aparchate_legacy:0 "Aparchate" #greek_provincial_kingdom_legacy
+ greek_aparchate_legacy_ruler:0 "Aparchos"
+ greek_aparchate_legacy_ruler_female:0 "Aparchos"
+ greek_aparchate_legacy_desc:0 "Aparchos are generally pre-selected members of the Imperial Byzantine household under the jurisdiction of the Emperors and who's roles are equivalent to that of the Praetorian Prefects of old. Aprachos rule not only areas or regions but entire continental segments of the Eastern Roman Empire and are considered by most to be the direct rivals of the Basileus or Emperors in Constantinople."
  
  anglo_irish_monarchy_legacy:0 "Anglo-Irish Monarchy"
  anglo_irish_monarchy_legacy_ruler:0 "King"

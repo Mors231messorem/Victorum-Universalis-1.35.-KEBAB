@@ -569,7 +569,7 @@ defined_text = {
         trigger = {
 			OR = {
 				tag = GRA
-				culture_group = maghrebi
+				culture_group = berber_group
 				capital_scope = {
 					region = maghreb_region
 				}

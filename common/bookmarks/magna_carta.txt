@@ -6,10 +6,10 @@ bookmark = {
     
     center = 8123                 # Runnymeade Surrey, England
     country = ENG                 # Kingdom of England under King John 
-	country = SCO                 # Kingdom of Scotland under Alexander II
+	country = SCO                 # Kingdom of Scotland under King Alexander II
 	country = WLS                 # Kingdom of Gwynnedd under Llywelyn
-	country = FRA                 # Kingdom of France under Philip Augustus
-	country = CAS                 # Kingdom of Castile under Henry I
+	country = FRA                 # Kingdom of France under King Philip Augustus
+	country = CAS                 # Kingdom of Castile under King Henry I
 	
     easy_country = ENG            # Magna Carta is signed on June 15, 1215 in Runnymeade, England
 	easy_country = FRA            # French invasion of Southern England
