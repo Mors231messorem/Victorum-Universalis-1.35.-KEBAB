@@ -2466,7 +2466,7 @@ fort_canning_hill = {
 
 giants_causeway = {
 	# province it starts in
-	start = 4121
+	start = 3746
 	
 	# date built in real life 
 	date = -2000.01.01 #natural wonder
