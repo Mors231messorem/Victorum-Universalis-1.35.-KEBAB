@@ -2817,7 +2817,7 @@ mount_fuji = {
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 1
-	starting_tier = 2
+	starting_tier = 0
 	type = monument
 	build_trigger = {
 		custom_trigger_tooltip = {
@@ -2919,39 +2919,39 @@ mount_fuji = {
 			}
 		}
 	}
-	can_upgrade_trigger = {	always = no }
-	keep_trigger = {}
+	can_upgrade_trigger = { always = no }
+	keep_trigger = { always = yes }
 
 	tier_0 = {
-		upgrade_time = { months = 0	}
-		cost_to_upgrade = {	factor = 0 }
-		province_modifiers = {}
-		area_modifier = {}
-		country_modifiers = {}
+		upgrade_time = { months = 960 }
+		cost_to_upgrade = {	factor = 14000 }
+		province_modifiers = { tax_income = 60 local_development_cost = -0.3 }
+		area_modifier = { local_monthly_devastation = -0.03	local_tax_modifier = 0.3 }
+		country_modifiers = { monthly_karma = 0.3 prestige = 0.3 yearly_karma_decay = 0.003 missionaries = 3 }
 		on_upgraded = {}
 	}
 	tier_1 = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = {	factor = 3500 }
-		province_modifiers = { tax_income = 15 }
-		area_modifier = { local_tax_modifier = 0.1 }
-		country_modifiers = { monthly_karma = 0.1 prestige = 0.1 yearly_karma_decay = 0.001 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {  }
 		on_upgraded = {}
 	}
 	tier_2 = {
 		upgrade_time = { months = 480 }
 		cost_to_upgrade = {	factor = 7000 }
-		province_modifiers = { tax_income = 30 local_development_cost = -0.2 }
-		area_modifier = { local_tax_modifier = 0.2 }
-		country_modifiers = { monthly_karma = 0.2 prestige = 0.2 yearly_karma_decay = 0.002 missionaries = 2 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {  }
 		on_upgraded = {}
 	}
 	tier_3 = {
 		upgrade_time = { months = 960 }
 		cost_to_upgrade = {	factor = 14000 }
-		province_modifiers = { tax_income = 60 local_development_cost = -0.3 }
-		area_modifier = { local_monthly_devastation = -0.03	local_tax_modifier = 0.3 }
-		country_modifiers = { monthly_karma = 0.3 prestige = 0.3 yearly_karma_decay = 0.003	missionaries = 3 cb_on_religious_enemies = yes }
+		province_modifiers = {  }
+		area_modifier = { }
+		country_modifiers = {  }
 		on_upgraded = {}
 	}
 }
@@ -11602,10 +11602,7 @@ dutch_polders = {
 	type = monument
 
 	build_trigger = {
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+	    culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -11619,10 +11616,7 @@ dutch_polders = {
 	}
 
 	can_use_modifiers_trigger = {
-	    OR = {
-	        culture = dutch
-	        culture = ger_dutch
-	    }
+		culture = dutch
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -11630,10 +11624,7 @@ dutch_polders = {
 	}
 
 	can_upgrade_trigger = {
-	    OR = {
-	        culture = dutch
-	        culture = ger_dutch
-	    }
+		culture = dutch
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -14118,6 +14109,7 @@ nan_madoll = {
 	type = monument
 
 	build_trigger = {
+			culture_group = pacific 
 	}
 
 	on_built = {
@@ -14127,12 +14119,15 @@ nan_madoll = {
 	}
 
 	can_use_modifiers_trigger = {
+			culture_group = pacific 
 	}
 
 	can_upgrade_trigger = {
+			culture_group = pacific 
 	}
 
 	keep_trigger = {
+			culture_group = pacific 
 	}
 
 	tier_0 = {
@@ -16412,102 +16407,52 @@ dujiangyan = {
 	build_cost = 0
 	can_be_moved = no
 	move_days_per_unit_distance = 10
-	starting_tier = 1
+	starting_tier = 0
 	type = monument
-
-	build_trigger = {
-	}
-
-	on_built = {
-	}
-
-	on_destroyed = {
-	}
-
-	can_use_modifiers_trigger = {
-	}
-
-	can_upgrade_trigger = {
-	}
-
-	keep_trigger = {
-	}
+	build_trigger = {}
+	on_built = {}
+	on_destroyed = {}
+	can_use_modifiers_trigger = {}
+	can_upgrade_trigger = { always = no }
+	keep_trigger = { always = yes }
 
 	tier_0 = {
-		upgrade_time = {
-			months = 0
-		}
-		cost_to_upgrade = {
-			factor = 0
-		}
-		province_modifiers = {
-		}
-		area_modifier = {
-		}
-		country_modifiers = {
-		}
-		on_upgraded = {
-		}
-	}
-
-	tier_1 = {
-		upgrade_time = {
-			months = 120
-		}
-		cost_to_upgrade = {
-			factor = 1000
-		}
-		province_modifiers = {
-			local_development_cost_modifier = -0.05
-			local_governing_cost = -0.2
-		}
-		area_modifier = {
-			local_monthly_devastation = -0.05
-		}
-		on_upgraded = {
-		}
-	}
-
-	tier_2 = {
-		upgrade_time = {
-			months = 240
-		}
-		cost_to_upgrade = {
-			factor = 2500
-		}
-		province_modifiers = {
-			local_development_cost_modifier = -0.1
-			allowed_num_of_buildings = 1
-		}
-		area_modifier = {
-			local_governing_cost = -0.2
-		}
-		region_modifier = { 
-			local_monthly_devastation = -0.05
-		}
-		on_upgraded = {
-		}
-	}
-
-	tier_3 = {
-		upgrade_time = {
-			months = 480
-		}
-		cost_to_upgrade = {
-			factor = 5000
-		}
-		province_modifiers = {
-		}
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = {	factor = 5000 }
+		province_modifiers = {}
 		area_modifier = {
 			local_development_cost_modifier = -0.1
 			allowed_num_of_buildings = 1
 			local_governing_cost = -0.4
 		}
-		country_modifiers = {
-			global_monthly_devastation = -0.05
-		}
-		on_upgraded = {
-		}
+		country_modifiers = { global_monthly_devastation = -0.05 }
+		on_upgraded = {}
+	}
+
+	tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = {	factor = 1000 }
+		province_modifiers = {}
+		area_modifier = {}
+		on_upgraded = {}
+	}
+
+	tier_2 = {
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = {	factor = 2500 }
+		province_modifiers = {}
+		area_modifier = {}
+		region_modifier = {}
+		on_upgraded = {}
+	}
+
+	tier_3 = {
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = {	factor = 5000 }
+		province_modifiers = {}
+		area_modifier = {}
+		country_modifiers = {}
+		on_upgraded = {}
 	}
 }
 
@@ -17001,7 +16946,7 @@ aljaferia_palace = {
 }
 
 divrigi_hospital_mosque = {
-	start = 5158 #Divrigi
+	start = 4310 #Divrigi
 	date = 879.11.04
 	time = { months = 0	}
 	build_cost = 0

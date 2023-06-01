@@ -314,10 +314,7 @@ berber_ideas = {
 	}
 
 	trigger = {
-        OR = {
-		    culture_group = berber_group
-			culture_group = berber_group
-		}
+		culture_group = berber_group
 	}
 	free = yes
 

@@ -29,8 +29,12 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 
+1215.6.15 = { owner = FRA controller = FRA add_core = FRA } # Duchy of Normandy and part of the French Royal Domain - By San Felipe
 #1419.1.19 = { controller = ENG } # Incorporated into England by Henry V
 #1420.5.12 = { owner = ENG add_core = ENG } # Treaty of Troyes
+
+1444.11.11 = { owner = ENG controller = ENG add_core = ENG } # Duchy of Normandy and part of the French Royal Domain - By San Felipe
+
 #1449.1.1 = { owner = FRA controller = FRA } # Retaken by France
 1465.8.15 = { owner = NRM controller = NRM } # Treaty of Conflans
 1466.3.6 = { owner = FRA controller = FRA } # Louis XI reincorporates Normandy into the French crown

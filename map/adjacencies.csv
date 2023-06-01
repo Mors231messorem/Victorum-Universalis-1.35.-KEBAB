@@ -112,12 +112,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4891;983;sea;1491;-1;-1;-1;-1;Piktuk-Epekwitk
 1050;4658;sea;1379;-1;-1;-1;-1;Deren-Nanghaer
 1215;387;sea;1330;-1;-1;-1;-1;Tajura-Mocha
-8155;4364;sea;1283;-1;-1;-1;-1;Locahber-Inner Hebrides
+3745;4364;sea;1283;-1;-1;-1;-1;Locahber-Inner Hebrides
 253;3286;sea;1283;-1;-1;-1;-1;Outer Hebrides-Skye
 253;3296;sea;1283;-1;-1;-1;-1;Outer Hebrides-Uist
 3296;3286;sea;1283;-1;-1;-1;-1;Uist-Skye
 3286;3137;sea;1283;-1;-1;-1;-1;Skye-Ross
-3286;8155;sea;1283;-1;-1;-1;-1;Skye-Lochaber
+3286;3745;sea;1283;-1;-1;-1;-1;Skye-Lochaber
 3283;4364;sea;1283;-1;-1;-1;-1;Islay-Lochaber
 3275;3274;sea;1283;-1;-1;-1;-1;Jura-Bute
 3275;3283;sea;1283;-1;-1;-1;-1;Jura-Islay

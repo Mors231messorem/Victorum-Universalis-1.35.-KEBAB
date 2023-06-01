@@ -3,7 +3,7 @@
 #Region - Britain
 
 #Core Details
-capital = "Flint"
+capital = "Mold"
 is_city = yes
 owner = ENG
 controller = ENG
@@ -56,6 +56,10 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Histories
+1254.1.1 = { owner = ENG controller = ENG add_core = ENG } # Mold founded by Norman-French inhabitants. Mold Castle is also built by Robert de Montalt - By San Felipe
+
+1444.11.11 = { owner = ENG controller = ENG add_core = ENG } # By San Felipe
+
 1453.1.1 = { unrest = 5 } # Start of the War of the Roses
 1461.3.1 = { unrest = 0 revolt = { type = pretender_rebels size = 1 } controller = REB } # Coventry's Switch to the Yorkists
 1461.6.28 = { revolt = {} unrest = 2 controller = ENG } # Coronation of Edward IV
