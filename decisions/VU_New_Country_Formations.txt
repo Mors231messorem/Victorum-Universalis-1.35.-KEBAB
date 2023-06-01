@@ -464,13 +464,9 @@ country_decisions = {
     german_nation = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
+			vu_generic_can_form_potential_check = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_germany_flag }
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
 			NOT = { exists = GER }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
