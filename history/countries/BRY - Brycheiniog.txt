@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = welsh_cammote_reform
+government_rank = 1
+technology_group = western
+primary_culture = welsh
+add_accepted_culture = english	
+religion = catholic
+capital = 3743	#Garth Madryn
+#historical_rival = GWN #
+#historical_friend = BRI
+
+1215.1.1 = {
+	monarch = {
+		name = "Llys y Cyngor"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

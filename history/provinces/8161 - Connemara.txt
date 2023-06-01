@@ -26,9 +26,14 @@ discovered_by = ottoman
 discovered_by = eastern
 
 #Histories
+
+1215.6.15 = { owner = ECO controller = ECO add_core = ECO } # Connacht territory - By San Felipe
+
 1291.1.1 = {
 	capital = "Eanach Dhúin"
 }
+
+1444.11.11 = { owner = WCO controller = WCO add_core = WCO } # Clanricarde clan territory - By San Felipe
 
 1444.11.16 = { #VU Performance Start Begin
 	owner = GLW

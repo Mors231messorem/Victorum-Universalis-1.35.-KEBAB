@@ -274,14 +274,14 @@
  desc_grand_canal_modifier:0 "Controlling the man-made wonder of the Grand Canal increases both our reputation and national prestige."
  #moai_heads_of_easter_island_modifier:0 "Moai Heads of Easter Island"
  #desc_moai_heads_of_easter_island_modifier:0 "Controlling the man-made wonders of Easter Island increases both our reputation and national prestige."
- #great_wall_of_china_modifier:0 "Great Wall of China"
- #desc_great_wall_of_china_modifier:0 "Controlling the man-made wonder of the Great Wall increases both our reputation and national prestige."
+ great_wall_modifier:0 "Great Wall of China"
+ desc_great_wall_modifier:0 "The Great Wall of China (pinyin Wanli Changcheng, literally "ten thousand li long wall") is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with selective stretches later joined by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains. Later on, many successive dynasties built and maintained multiple stretches of border walls."
  #parthenon_modifier:0 "Acropolis of Athens"
  #desc_parthenon_modifier:0 "Controlling the man-made wonder of the Acropolis increases both our reputation and national prestige."
  #colosseum_modifier:0 "Colosseum of Rome"
  #desc_colosseum_modifier:0 "Controlling the man-made wonder of the Colosseum increases both our reputation and national prestige."
  hadrians_wall_modifier:0 "Hadrian's Wall"
- desc_hadrians_wall_modifier:0 "Controlling the man-made wonder of Hadrian's Wall increases both our reputation and national prestige."
+ desc_hadrians_wall_modifier:0 "Hadrian's Wall (Latin Vallum Aelium), also known as the Roman Wall, Picts' Wall, or Vallum Hadriani in Latin, is a former defensive fortification of the Roman province of Britannia, begun in AD 122 in the reign of the Emperor Hadrian. Running from Wallsend on the River Tyne in the east to Bowness-on-Solway in the west of what is now northern England, it was a stone wall with large ditches in front of it and behind it that crossed the whole width of the island. Soldiers were garrisoned along the line of the wall in large forts, smaller milecastles and intervening turrets. In addition to the wall's defensive military role, its gates may have been customs posts."
  #
  #Holy Sites
  #assisi_modifier:0 "Assisi"

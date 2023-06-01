@@ -1,6 +1,14 @@
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
+#VU Quonton additions - ect
+
+great_wall_modifier = {
+  prestige = 0.1
+  defensiveness = 0.25
+  hostile_attrition = 0.75
+  picture = "great_wall_of_china_icon"
+}
 
 #VU Quonton additions - Moldova
 
@@ -15538,7 +15546,7 @@ eye_of_sahara = {	#Richat Structure
 #Hard to Colonize
 vu_malaria_present = {		#ADD THIS MODIFIER TO PROVINCE, TO PREVENT EARLY COLONIZATION (LIKE INLAND AFRICA)
 	picture = "vu_malaria_icon"
-	local_colonial_growth = -100
+	#local_colonial_growth = -100
 }
 
 ##################################
@@ -16857,8 +16865,8 @@ grand_canal_modifier = {
 #}
 
 hadrians_wall_modifier = {
-  diplomatic_reputation = 0.5
-  prestige = 0.4
+  diplomatic_reputation = 0.2
+  prestige = 0.2
   defensiveness = 0.05
 	picture = "hadrians_wall_icon"
 }

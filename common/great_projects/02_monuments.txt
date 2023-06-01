@@ -5692,10 +5692,7 @@ de_wallen = {
     type = monument
 
     build_trigger = {
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+        culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -5709,10 +5706,7 @@ de_wallen = {
     }
 
     can_use_modifiers_trigger = {
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+	    culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -5720,10 +5714,7 @@ de_wallen = {
     }
 
     can_upgrade_trigger = {
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+		culture_group = low_franconian
 		is_year = 1811
 		OR = {
 			has_owner_culture = yes
@@ -5867,10 +5858,7 @@ nieuwezijds_voorburgwal = {
     type = monument
 
     build_trigger = {
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+        culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -5884,10 +5872,7 @@ nieuwezijds_voorburgwal = {
     }
 
     can_use_modifiers_trigger = {
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+	    culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -5895,10 +5880,7 @@ nieuwezijds_voorburgwal = {
     }
 
     can_upgrade_trigger = {
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+		culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6396,10 +6378,7 @@ het_binnenhof = {
 
     build_trigger = {
 	    is_year = 1584
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+        culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6416,8 +6395,9 @@ het_binnenhof = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				culture_group = low_franconian
-				culture_group = germanic
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -6428,8 +6408,9 @@ het_binnenhof = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				culture_group = low_franconian
-				culture_group = germanic
+				primary_culture = frisian
+				primary_culture = dutch
+				primary_culture = flemish
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -6774,10 +6755,7 @@ paleis_op_de_dam = {
 
     build_trigger = {
 	    is_year = 1648
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+        culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6791,10 +6769,7 @@ paleis_op_de_dam = {
     }
 
     can_use_modifiers_trigger = {
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+	    culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6802,10 +6777,7 @@ paleis_op_de_dam = {
     }
 
     can_upgrade_trigger = {
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+		culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6948,10 +6920,7 @@ windmolen = {
     type = monument
 
     build_trigger = {
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+        culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6965,10 +6934,7 @@ windmolen = {
     }
 
     can_use_modifiers_trigger = {
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+	    culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6976,10 +6942,7 @@ windmolen = {
     }
 
     can_upgrade_trigger = {
-	    OR = {
-	        culture_group = low_franconian
-	        culture_group = germanic
-	    }
+		culture_group = low_franconian
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -7503,7 +7466,7 @@ mt_vesuvius = {
     
     move_days_per_unit_distance = 10
     
-    starting_tier = 1
+    starting_tier = 0
     
     type = monument
 
@@ -7518,13 +7481,8 @@ mt_vesuvius = {
 	}
 
 	#can our country upgrade it?
-	can_upgrade_trigger = {
-		always = no
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
+	can_upgrade_trigger = { always = no }
+	keep_trigger = { always = yes }
 
 	#tier data
 	tier_0 = {
@@ -7540,6 +7498,9 @@ mt_vesuvius = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_development_cost = -0.15
+			local_monthly_devastation = -0.05
+			local_tax_modifier = 0.15
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -7568,8 +7529,6 @@ mt_vesuvius = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_development_cost = -0.1
-			local_monthly_devastation = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -7598,9 +7557,6 @@ mt_vesuvius = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_development_cost = -0.15
-			local_monthly_devastation = -0.05
-			local_tax_modifier = 0.15
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -7630,9 +7586,6 @@ mt_vesuvius = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_development_cost = -0.15
-			local_monthly_devastation = -0.05
-			local_tax_modifier = 0.15
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -7665,7 +7618,7 @@ mt_etna = {
     
     move_days_per_unit_distance = 10
     
-    starting_tier = 1
+    starting_tier = 0
     
     type = monument
 
@@ -7680,14 +7633,9 @@ mt_etna = {
 	}
 
 	#can our country upgrade it?
-	can_upgrade_trigger = {
-		always = no
-	}
-
-	#can our country keep it or is it destroyed when we get hold of it?
-	keep_trigger = {
-	}
-
+	can_upgrade_trigger = { always = no }
+	keep_trigger = { always = yes }
+  
 	#tier data
 	tier_0 = {
 		#time to upgrade to this level (0 for tier 0)
@@ -7702,10 +7650,13 @@ mt_etna = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_development_cost = -0.1
+			local_monthly_devastation = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -7730,8 +7681,6 @@ mt_etna = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_development_cost = -0.1
-			local_monthly_devastation = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -7760,8 +7709,6 @@ mt_etna = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_development_cost = -0.1
-			local_monthly_devastation = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -7790,8 +7737,6 @@ mt_etna = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_development_cost = -0.1
-			local_monthly_devastation = -0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier

@@ -499,47 +499,16 @@ gme_hallasan = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	starting_tier = 1
+	starting_tier = 0
 	type = monument
 	can_be_moved = no
 	build_trigger = { }
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = { }
-	can_upgrade_trigger = { }
-	keep_trigger = { }
+	can_upgrade_trigger = { always = no }
+	keep_trigger = { always = yes }
 	tier_0 = {
-		upgrade_time = { months = 0 }
-		cost_to_upgrade = { factor = 0 }
-		province_modifiers = { }
-		area_modifier = { }
-		country_modifiers = { }
-		on_upgraded = {	}
-	}
-	tier_1 = {
-		upgrade_time = { months = 120 }
-		cost_to_upgrade = { factor = 1000 }
-		province_modifiers = {
-			local_monthly_devastation = -0.025
-		}
-		area_modifier = { }
-		country_modifiers = { }
-		on_upgraded = {	}
-	}
-	tier_2 = {
-		upgrade_time = { months = 240 }
-		cost_to_upgrade = { factor = 2500 }
-		province_modifiers = {
-			trade_goods_size = 0.5
-			local_monthly_devastation = -0.05
-		}
-		area_modifier = { }
-		country_modifiers = {
-			monthly_splendor = 0.5
-		}
-		on_upgraded = {	}
-	}
-	tier_3 = {
 		upgrade_time = { months = 480 }
 		cost_to_upgrade = { factor = 5000 }
 		province_modifiers = {
@@ -549,6 +518,35 @@ gme_hallasan = {
 		area_modifier = { }
 		country_modifiers = {
 			monthly_splendor = 1
+		}
+		on_upgraded = {	}
+	}
+	tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = {
+		}
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = {	}
+	}
+	tier_2 = {
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 2500 }
+		province_modifiers = {
+		}
+		area_modifier = { }
+		country_modifiers = {
+		}
+		on_upgraded = {	}
+	}
+	tier_3 = {
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 5000 }
+		province_modifiers = {
+		}
+		area_modifier = { }
+		country_modifiers = {
 		}
 		on_upgraded = {	}
 	}
@@ -801,7 +799,7 @@ gme_mt_paekdu = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	starting_tier = 2
+	starting_tier = 0
 	type = monument
 	can_be_moved = no
 	build_trigger = { }
@@ -815,47 +813,9 @@ gme_mt_paekdu = {
 		}
 		has_owner_accepted_culture = yes
 	}
-	can_upgrade_trigger = {
-		OR = {
-			culture = korean
-			culture = korean_new
-			culture = manchu_new
-		}
-		has_owner_accepted_culture = yes
-	}
-	keep_trigger = { }
+	can_upgrade_trigger = { always = no }
+	keep_trigger = { always = yes }
 	tier_0 = {
-		upgrade_time = { months = 0 }
-		cost_to_upgrade = { factor = 0 }
-		province_modifiers = { }
-		area_modifier = { }
-		country_modifiers = { }
-		on_upgraded = {	}
-	}
-	tier_1 = {
-		upgrade_time = { months = 120 }
-		cost_to_upgrade = { factor = 1000 }
-		province_modifiers = { }
-		area_modifier = { }
-		country_modifiers = {
-			tolerance_heretic = 0.5
-			tolerance_own = 0.5
-		}
-		on_upgraded = {	}
-	}
-	tier_2 = {
-		upgrade_time = { months = 240 }
-		cost_to_upgrade = { factor = 2500 }
-		province_modifiers = { }
-		area_modifier = { }
-		country_modifiers = {
-			tolerance_heretic = 1
-			tolerance_own = 1
-			stability_cost_modifier = -0.10
-		}
-		on_upgraded = {	}
-	}
-	tier_3 = {
 		upgrade_time = { months = 480 }
 		cost_to_upgrade = { factor = 5000 }
 		province_modifiers = { }
@@ -865,6 +825,33 @@ gme_mt_paekdu = {
 			tolerance_own = 1
 			stability_cost_modifier = -0.20
 			culture_conversion_cost = -0.10
+		}
+		on_upgraded = {	}
+	}
+	tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {
+		}
+		on_upgraded = {	}
+	}
+	tier_2 = {
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 2500 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {
+		}
+		on_upgraded = {	}
+	}
+	tier_3 = {
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 5000 }
+		province_modifiers = { }
+		area_modifier = { }
+		country_modifiers = {
 		}
 		on_upgraded = {	}
 	}
