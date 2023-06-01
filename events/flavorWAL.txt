@@ -8,6 +8,7 @@ namespace = flavor_wal
 normal_or_historical_nations = yes
 
 # Vlad the Impaler!
+# Vlad the Impaler!
 #country_event = {
 #	id = flavor_wal.1
 #	title = "flavor_wal.EVTNAME1"
