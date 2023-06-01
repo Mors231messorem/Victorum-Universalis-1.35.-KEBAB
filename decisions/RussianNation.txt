@@ -3,17 +3,9 @@ country_decisions = {
 	russian_nation = {
 		major = yes
 		potential = {
-			normal_or_historical_nations = yes
+			vu_generic_can_form_potential_check = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_russia_flag }
-			OR = {
-				ai = no
-				is_playing_custom_nation = no
-			}
-			OR = {
-				is_free_or_tributary_trigger = yes
-				ai = no
-			}
 			NOT = { tag = POL }
 			NOT = { tag = RUS }
 			OR = {
@@ -35,14 +27,6 @@ country_decisions = {
 				AND = {
 					ai = yes
 					num_of_cities = 3
-				}
-			}
-			is_colonial_nation = no
-			OR = {
-				is_former_colonial_nation = no
-				AND = {
-					is_former_colonial_nation = yes
-					ai = no
 				}
 			}
 		}
