@@ -429,6 +429,11 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3737 = { "Nochiya" "Nochiapolis" }
+3738 = "Amedia"
+3739 = { "Palios" "Palios" }
+3740 = { "Ingilene" "Ingilene" }
+3742 = { "Chaboras" "Mogarisos" }
 3749 = { "Septem" "Septem Nihilos" }
 3750 = "Motrelos"
 3751 = { "Sexi" "Firmium Julium Sexi" }

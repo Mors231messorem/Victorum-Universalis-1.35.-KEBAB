@@ -22,6 +22,11 @@
 2312 = { "Larak" "Larak" }
 2313 = { "Alalakh" "Alalah" }
 2314 = { "Terqa" "Terqa" }
+3737 = { "Nochiya" "Samzdin" }
+3738 = "Amedya"
+3739 = { "Shebeteria" "Eski Palu" }
+3740 = { "Ingalawa" "Ingalawa" }
+3742 = { "Magarisu" "Magarisu" }
 3754 = { "Srug" "Srug" }
 3755 = { "Harran" "Huzirina" }
 3756 = { "Antaradus" "Antaradus" }

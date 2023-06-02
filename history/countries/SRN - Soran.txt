@@ -5,7 +5,7 @@ technology_group = eastern
 religion = nestorian
 primary_culture = assyrian
 add_accepted_culture = kurdish
-capital = 6642
+capital = 8412
 
 #Assyrian Kingdom
 1258.1.1 = {
