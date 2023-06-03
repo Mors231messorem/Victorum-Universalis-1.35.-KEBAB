@@ -338,3 +338,22 @@ alliance = {
 	end_date = 1868.1.1
 }
 
+#Mukriyan
+vassal = {
+	first = QAR
+	second = MUK
+	start_date = 1400.1.1
+	end_date = 1469.2.4
+}
+vassal = {
+	first = AKK
+	second = MUK
+	start_date = 1469.2.5
+	end_date = 1504.1.1
+}
+vassal = {
+	first = PER
+	second = MUK
+	start_date = 1504.1.2
+	end_date = 1800.1.1
+}
