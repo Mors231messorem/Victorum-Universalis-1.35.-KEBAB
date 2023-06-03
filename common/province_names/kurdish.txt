@@ -3,6 +3,9 @@
 2209 = "Ilam"
 2211 = { "Ardalan" "Sine" }
 2309 = "Singar"
+3733 = { "Sablagh" "Mehabad" }
+3734 = "Mako"
+3735 = "Chaldoran"
 3737 = { "Nochiya" "Semzinan" }
 3738 = { "Amedi" "Amedi" }
 3739 = { "Palo" "Palo" }
