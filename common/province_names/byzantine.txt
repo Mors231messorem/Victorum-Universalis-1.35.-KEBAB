@@ -429,6 +429,10 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3733 = "Savolbolagos"
+3734 = "Makos"
+3735 = { "Chaldoran" "Chaldoran" }
+3736 = { "Armavir" "Armaouria" }
 3737 = { "Nochiya" "Nochiapolis" }
 3738 = "Amedia"
 3739 = { "Palios" "Palios" }

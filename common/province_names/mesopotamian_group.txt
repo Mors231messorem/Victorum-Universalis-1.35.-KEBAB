@@ -22,6 +22,10 @@
 2312 = { "Larak" "Larak" }
 2313 = { "Alalakh" "Alalah" }
 2314 = { "Terqa" "Terqa" }
+3733 = "Mihabar"
+3734 = "Maki"
+3735 = "Aineh"
+3736 = "Armaouria"
 3737 = { "Nochiya" "Samzdin" }
 3738 = "Amedya"
 3739 = { "Shebeteria" "Eski Palu" }
