@@ -200,7 +200,13 @@ spriteTypes = {
 		texturefile = "gfx//interface//institutions//feudalism.dds"
 		loadType = "INGAME"
 		transparencecheck = yes
-	}	
+	}
+	spriteType = {
+		name = "GFX_icon_institution_gunpowder_warfare"
+		texturefile = "gfx//interface//institutions//gunpowder_warfare.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
 	spriteType = {
 		name = "GFX_icon_institution_renaissance"
 		texturefile = "gfx//interface//institutions//renaissance.dds"
@@ -308,6 +314,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_institution_tab_feudalism"
 		texturefile = "gfx/interface/institutions//institution_tab_feudalism.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_institution_tab_gunpowder_warfare"
+		texturefile = "gfx/interface/institutions//institution_tab_gunpowder_warfare.dds"
 		noOfFrames = 2
 		transparencecheck = yes
 	}
@@ -449,6 +462,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_tech_institution_nationalism_institution"
 		texturefile = "gfx/interface/institutions/tech_institution_nationalism_institution.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_tech_institution_gunpowder_warfare"
+		texturefile = "gfx/interface/institutions/tech_institution_gunpowder_warfare.dds"
 		noOfFrames = 5
 		transparencecheck = yes
 	}

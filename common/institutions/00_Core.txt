@@ -785,6 +785,659 @@ feudalism = {
 }
 
 #######################################
+# Gunpowder Warfare
+#
+# Starts in China and spreads west
+#######################################
+
+gunpowder_warfare = {
+	#penalty = 0.5
+	bonus = {
+		fire_damage = 0.10				#This may sound weird at first - why add and reduce at the same time? - this is done mostly to hinder those without it. Countries that have gunpowder would fight each other normally but those without it, would score double -20% efficiency in combat... brutal.
+		fire_damage_received = -0.10
+		siege_ability = 0.05
+	}
+
+	#trade_company_efficiency = 0.2
+
+	historical_start_date = 1100.1.1
+	historical_start_province = 690 #Qingzhou
+	
+	history = {
+		is_year = 1100
+		OR = {
+			AND = { #If this is changed costs for Nation Designer may also need to be changed.
+				OR = {
+					continent = new_world
+					continent = north_america
+					continent = south_america
+					continent = oceania
+				}
+				owner = {
+					is_playing_custom_nation = yes
+					OR = {
+						technology_group = western
+						technology_group = eastern
+						technology_group = ottoman
+						technology_group = muslim
+						technology_group = indian
+						technology_group = chinese
+						technology_group = japanese
+						#technology_group = high_american #Is listed below as High Americans get it regardless of if Nation Designer is used.
+					}
+				}
+			}
+			AND = {
+				owner = { is_playing_custom_nation = no }
+				is_year = 1100
+				OR = {
+					culture_group = east_asian
+					culture_group = korean_g
+				}
+				region = north_china_region
+			}
+			AND = {
+				is_year = 1150
+				OR = {
+					region = north_china_region
+					region = south_china_region
+					region = xinan_region
+				}
+			}
+			AND = {
+				is_year = 1200
+				OR = {
+					culture_group = east_asian
+					culture_group = korean_g
+				}
+			}
+			AND = {
+				is_year = 1200
+				OR = {
+					region = indo_china_region
+					region = malaya_region
+					region = burma_region
+				}
+				has_port = yes
+			}
+			AND = {
+				is_year = 1200
+				OR = {
+					province_id = 677
+					province_id = 2122
+					province_id = 702
+					province_id = 726
+					province_id = 4678
+					province_id = 2114
+					province_id = 2116
+					province_id = 710
+					province_id = 2124
+					province_id = 739
+					area = jilin_area
+					area = central_jilin_area
+					area = gaur_area
+					area = west_bengal_area
+					area = east_bengal_area
+				}
+			}
+			AND = {
+				is_year = 1200
+				superregion = india_superregion
+				owner = {
+					NOT = {
+						government = tribal
+						government = native
+					}
+				}
+				development = 25
+			}
+			AND = {		#Mongols unify and embrace gunpowder from China
+				is_year = 1206
+				OR = {
+					culture = mongol
+					culture = chahar
+					culture = khalkha
+				}
+			}
+			AND = {
+				is_year = 1215
+				OR = {
+					province_id = 2999
+					province_id = 454
+					province_id = 442
+					province_id = 408
+					province_id = 451
+					province_id = 2226
+					culture = oirats
+					AND = {
+						superregion = india_superregion
+						has_port = yes
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						region = sumatran_region
+						has_port = yes
+					}
+				}
+			}
+			AND = {		#Early Mongol conquests
+				is_year = 1230
+				OR = {
+					culture = uzbehk
+					culture = uyghur
+					culture = kirgiz
+					AND = {
+						superregion = tartary_superregion
+						development = 12
+						NOT = { has_empty_adjacent_province = yes }
+						owner = {
+							has_reform = steppe_horde
+						}
+					}
+				}
+			}
+			AND = {		#Muslim world finds gunpowder + later Mongol conquests
+				is_year = 1250
+				OR = {
+					culture_group = altaic
+					AND = {
+						superregion = persia_superregion
+						has_port = yes
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						superregion = persia_superregion
+						development = 20
+						owner = { NOT = { government = tribal } }
+					}
+					province_id = 410
+					province_id = 411
+					province_id = 6625
+					region = central_asia_region
+					area = mascat_area
+					AND = {
+						region = indo_china_region
+						development = 11
+					}
+				}
+			}
+			AND = {
+				is_year = 1280
+				OR = {
+					AND = {
+						region = burma_region
+						owner = { NOT = { government = tribal } }
+						development = 10
+					}
+					AND = {
+						region = indo_china_region
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						region = mesopotamia_region
+						development = 15
+						owner = { NOT = { government = tribal } }
+					}
+					province_id = 377
+					province_id = 1849
+					province_id = 382
+					province_id = 464
+					province_id = 466
+					province_id = 1971
+				}
+			}
+			AND = {		#Arabs begin developing their own gunpowder weapons
+				is_year = 1300
+				OR = {
+					AND = {
+						region = japan_region
+						development = 30
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						region = japan_region
+						development = 30
+						owner = { NOT = { government = tribal } }
+					}
+					superregion = persia_superregion
+					AND = {
+						region = mesopotamia_region
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						region = arabia_region
+						has_port = yes
+						development = 12
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						region = mashriq_region
+						development = 12
+						owner = { religion_group = muslim }
+					}
+					AND = {
+						region = crimea_region
+						has_terrain = steppe
+						owner = {
+							has_reform = steppe_horde
+						}
+					}
+					province_id = 358
+					province_id = 361
+					province_id = 286
+					province_id = 330
+					province_id = 385
+				}
+			}
+			AND = {		#Arabs begin developing their own gunpowder weapons
+				is_year = 1340
+				OR = {
+					AND = {
+						superregion = india_superregion
+						owner = { NOT = { government = tribal } }
+					}
+					region = mesopotamia_region
+					AND = {
+						region = caucasia_region
+						has_terrain = steppe
+					}
+					AND = {
+						region = caucasia_region
+						owner = { religion_group = muslim }
+					}
+					region = mashriq_region
+					AND = {
+						region = anatolia_region
+						owner = { religion_group = muslim}
+					}
+					area = delta_area
+					province_id = 286
+					province_id = 2410
+					province_id = 151
+					province_id = 280
+				}
+			}
+			AND = {		#Gunpowder in Europe
+				is_year = 1350
+				OR = {
+					region = crimea_region
+					AND = {
+						region = egypt_region
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						region = balkan_region
+						OR = {
+							development = 15
+							owner = { religion_group = muslim }
+						}
+					}
+					province_id = 354
+					province_id = 341
+					province_id = 101
+					province_id = 112
+					AND = {
+						region = italy_region
+						trade_goods = gunpowder
+					}
+					AND = {
+						region = carpathia_region
+						trade_goods = gunpowder
+					}
+				}
+			}
+			AND = {		#Gunpowder in Europe pt2
+				is_year = 1375
+				OR = {
+					region = crimea_region
+					AND = {
+						region = balkan_region
+						development = 10
+					}
+					AND = {
+						region = caucasia_region
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						region = italy_region
+						development = 20
+					}
+					AND = {
+						region = carpathia_region
+						development = 10
+					}
+					AND = {
+						region = south_german_region
+						trade_goods = gunpowder
+					}
+					AND = {
+						region = iberia_region
+						trade_goods = gunpowder
+					}
+					AND = {
+						region = france_region
+						trade_goods = gunpowder
+					}
+					AND = {
+						region = libya_region
+						has_port = yes
+					}
+					area = west_dniepr_area
+					area = east_dniepr_area
+					area = podolia_volhynia_area
+					area = pripyat_area
+					area = bryansk_area
+					area = eastern_volhynia_area
+					area = severia_area
+					province_id = 1082
+					province_id = 303
+					province_id = 1215
+					province_id = 1209
+					province_id = 1227
+				}
+			}
+			AND = {		#western Europe adopts Gunpowder
+				is_year = 1400
+				OR = {
+					region = italy_region
+					region = iberia_region
+					region = south_german_region
+					region = balkan_region
+					AND = {
+						continent = europe
+						trade_goods = gunpowder
+					}
+					AND = {
+						region = maghreb_region
+						has_port = yes
+					}
+					AND = {
+						region = indonesia_region
+						has_port = yes
+					}
+					AND = {
+						region = borneo_region
+						has_port = yes
+					}
+					region = japan_region
+				}
+			}
+			AND = {		#Normal start date
+				is_year = 1444
+				OR = {
+					AND = {
+						continent = europe
+						owner = { technology_group = western }
+					}
+					AND = {
+						continent = europe
+						development = 10
+						owner = { technology_group = eastern }
+					}
+					superregion = persia_superregion
+					superregion = india_superregion
+					AND = {
+						region = horn_of_africa_region
+						has_port = yes
+						owner = { NOT = { government = tribal } }
+					}
+				}
+			}
+			owner = { technology_group = high_american }
+			AND = {
+				is_year = 1475
+				owner = {
+					NOT = {
+						government = tribal
+						government = native
+						primary_culture = bedouin_arabic
+						technology_group = andean
+						technology_group = mesoamerican
+						technology_group = north_american
+						technology_group = south_american
+						technology_group = sub_saharan
+						technology_group = aboriginal_tech
+					}
+				}
+			}
+			AND = {
+				is_year = 1500
+				OR = {
+					continent = europe
+					region = arabia_region
+					region = sahel_region
+					region = horn_of_africa_region
+					region = maghreb_region
+					region = indo_china_region
+					region = manchuria_region
+				}
+			}
+			AND = {
+				is_year = 1550
+				owner = {
+					OR = {
+						technology_group = muslim
+						technology_group = east_african
+						technology_group = central_african
+						technology_group = sub_saharan
+						technology_group = chinese
+					}
+				}
+			}
+			AND = {
+				is_year = 1600
+				owner = {
+					NOT = {
+						OR = {
+							has_reform = siberian_tribe
+							government = native
+						}
+					}
+				}
+			}
+			is_year = 1750	#Until this time, everyone should have known about gunpowder
+		}
+	}
+
+	#no need for events, as its there from the start.
+	#can_start = { is_year = 1100 }
+	#start_chance = 100
+	#on_start = institution_events.1
+
+	can_embrace = {
+		always = yes
+	}
+
+	embracement_speed = {
+		modifier = {		#Nearby friendly prov has it	
+			factor = 0.6
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_GUNPOWDER
+				any_friendly_coast_border_province = {
+					gunpowder_warfare = 100
+				}
+			}
+		}
+		modifier = {		#Nearby province has it
+			factor = 0.1
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						gunpowder_warfare = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = NEIGHBOR_NOT_OWNED_HAS_GUNPOWDER
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					gunpowder_warfare = 100
+				}
+			}
+		}
+		modifier = {		#Nearby province has it and nation has gunpowder trade good
+			factor = 0.24
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						gunpowder_warfare = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = NEIGHBOR_NOT_OWNED_HAS_G_TRADE_GOOD
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					gunpowder_warfare = 100
+				}
+				owner = {
+					any_owned_province = {
+						trade_goods = gunpowder
+					}
+				}
+			}
+		}
+		
+		modifier = {		#Is colonial nation and overlord has it
+			factor = 0.6
+			scale = yes
+			force_potential = yes
+			potential = {
+				owner = {
+					is_colonial_nation = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = PORT_OR_CAPITAL_IN_COLONY_GUNPOWDER
+				OR = {
+					has_port = yes
+					is_capital = yes
+				}
+				owner = {
+					is_colonial_nation = yes
+					overlord = { has_institution = gunpowder_warfare }
+				}
+			}
+		}
+		modifier = {		#Embraced institution, extra spread in capital area
+			factor = 0.6
+			scale = yes
+			force_potential = yes
+			potential = {
+				owner = { has_institution = gunpowder_warfare }
+				is_in_capital_area = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_gunpowder_embraced
+				owner = { has_institution = gunpowder_warfare }
+				is_in_capital_area = yes
+			}
+		}
+		modifier = {		#Embraced institution and has gunpowder trade good
+			factor = 0.72
+			scale = yes
+			potential = {
+				owner = { has_institution = gunpowder_warfare }
+			}
+			custom_trigger_tooltip = {
+				tooltip = EMBRACED_GUNPOWDER_HAS_G
+				owner = { has_institution = gunpowder_warfare }
+				owner = {
+					any_owned_province = {
+						trade_goods = gunpowder
+					}
+				}
+			}
+		}
+		modifier = {		#Embraced institution, slow spread to prov outside capital area
+			factor = 0.2
+			scale = yes
+			force_potential = yes
+			potential = {
+				owner = { has_institution = gunpowder_warfare }
+                is_in_capital_area = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_gunpowder_embraced
+				
+				owner = { has_institution = gunpowder_warfare }
+				is_in_capital_area = no
+			}
+		}
+		modifier = {		#Extra spread for horde nations
+			factor = 0.24
+			scale = yes
+			force_potential = yes
+			potential = {
+				owner = {
+					has_institution = gunpowder_warfare
+					has_reform = steppe_horde
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = HORDE_HAS_EMBRACED_GUNPOWDER
+				
+				owner = {
+					has_institution = gunpowder_warfare
+					has_reform = steppe_horde
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		factor = 12			#VU AddOn changed from 24. Logic in notes at the top of the file.
+
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 1.5			#VU AddOn changed from 2.0. If a country is behind in tech, it wants to catch up, sure. But vanilla authorises AI to spend 4 years' income on embracement... uh uh. If a tag is that far behind, it will need its cash too.
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 1.5			#VU AddOn changed from 2.0. If a country is behind in tech, it wants to catch up, sure. But vanilla authorises AI to spend 8 years' income on embracement... uh uh. If a tag is that far behind, it will need its cash too.
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 1.5			#VU AddOn changed from 2.0. If a country is behind in tech, it wants to catch up, sure. But vanilla authorises AI to spend 16 years' income on embracement... uh uh. If a tag is that far behind, it will need its cash too.
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 1.5			#VU AddOn changed from 2.0. If a country is behind in tech, it wants to catch up, sure. But vanilla authorises AI to spend 32 years' income on embracement... uh uh. If a tag is that far behind, it will need its cash too.
+			neighbors_tech_discount = 0.4
+		}
+		modifier = {
+			factor = 2.0
+			overseas_provinces_percentage = 0.5
+		}			#VU AddOn new. This modifer is for a highly unusual (and unprecedented historically) thassalocracy. In this rare case, the lower factor above may cause a micro state in a rich area but with many colonies in poor areas to never reach the threshold for embracing.
+		modifier = {
+			factor = 2.0
+			OR = {
+				tag = GEN
+				tag = VEN
+			}
+		}			#VU AddOn new. These tags both have the disadvantage of having distant colonies, contrasted with the reality of both being some of the most cutting edge countries in the world at the time. Increasing this here for historical balance.
+		modifier = {
+			factor = 1.5
+			years_of_income = 10.0
+		}			#VU AddOn new. If a country is swimming in gold, they can fork out some extra. This will likely keep a few small rich states like Venice slightly ahead in tech and/or with a few extra MP for dev building, but this isn't such a bad thing
+		modifier = {
+			factor = 0.25
+			has_any_disaster = yes
+		}			#VU AddOn new. Same logic as vanilla's is at war check
+		modifier = {
+			factor = 1.5
+			is_great_power = yes
+		}			#VU AddOn new. Great Powers want to stay great powers, and can probably better afford it anyway. Note this may reintroduce my issue with some countries embracing with only one province, but at least here there is a reason =p
+	}
+}
+
+#######################################
 # Renaissance
 #
 # Flows from italy
