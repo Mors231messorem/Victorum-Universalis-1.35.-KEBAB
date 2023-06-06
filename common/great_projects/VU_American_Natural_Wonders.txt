@@ -962,9 +962,9 @@ vu_eye_of_sahara = {
 	tier_0 = {
 		upgrade_time = { months = 0 }
 		cost_to_upgrade = {	factor = 0 }
-		province_modifiers = { 	local_hostile_attrition = 5 local_tax_modifier = 0.1 trade_value_modifier = 0.25 }
-		area_modifier = { local_development_cost = -0.1  }
-		country_modifiers = { 	global_unrest = -1 global_autonomy = -0.05 caravan_power = 0.2 reform_progress_growth = 0.1	}
+		province_modifiers = { local_hostile_attrition = 1 local_tax_modifier = 0.1 }
+		area_modifier = { }
+		country_modifiers = { }
 		on_upgraded = {}
 	}
 	tier_1 = {
