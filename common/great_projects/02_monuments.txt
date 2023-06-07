@@ -11,11 +11,11 @@ walls_of_theodosius = {
 	move_days_per_unit_distance = 10
 	starting_tier = 3
 	type = monument
-	build_trigger = { OR = { AND = { religion_group = christian has_owner_religion = yes } AND= { religion_group = muslim has_owner_religion = yes } } }
+	build_trigger = { }
 	on_built = {}
 	on_destroyed = { hide_ambient_object = walls_of_theodosius }
-	can_use_modifiers_trigger = { OR = { AND = { religion_group = christian	has_owner_religion = yes } AND = { religion_group = muslim has_owner_religion = yes	} } }
-	can_upgrade_trigger = { OR = { AND = { religion_group = christian has_owner_religion = yes } AND= {	religion_group = muslim	has_owner_religion = yes } } }
+	can_use_modifiers_trigger = { }
+	can_upgrade_trigger = { }
 	keep_trigger = {}
 
 	tier_0 = {
@@ -9535,7 +9535,10 @@ diocletian_palace = {
     type = monument
 
     build_trigger = {
-        culture_group = south_slavic
+        OR = {
+		culture_group = south_slavic
+		culture_group = old_latin
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -9549,7 +9552,10 @@ diocletian_palace = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = south_slavic
+	 OR = {
+		culture_group = south_slavic
+		culture_group = old_latin
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -9557,7 +9563,10 @@ diocletian_palace = {
     }
 
     can_upgrade_trigger = {
+	OR = {
 		culture_group = south_slavic
+		culture_group = old_latin
+		}
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
