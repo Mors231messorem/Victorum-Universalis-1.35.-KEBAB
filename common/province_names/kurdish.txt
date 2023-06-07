@@ -3,6 +3,9 @@
 2209 = "Ilam"
 2211 = { "Ardalan" "Sine" }
 2309 = "Singar"
+3727 = { "Badd" "Keleivar" }
+3728 = { "Seqiz" "Bane" }
+3729 = { "Bokan" "Bokan" }
 3731 = "Mansurabad"
 3733 = { "Sablagh" "Mehabad" }
 3734 = "Mako"

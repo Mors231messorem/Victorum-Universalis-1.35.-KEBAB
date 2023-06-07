@@ -22,6 +22,9 @@
 2312 = { "Larak" "Larak" }
 2313 = { "Alalakh" "Alalah" }
 2314 = { "Terqa" "Terqa" }
+3727 = "Kalipar"
+3728 = { "Eskit" "Sakez" }
+3729 = "Bukan"
 3731 = { "Deh Luran" "Mansuraba" }
 3733 = "Mihabar"
 3734 = "Maki"
