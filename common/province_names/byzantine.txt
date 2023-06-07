@@ -429,6 +429,9 @@
 3256 = { "Syiunion" "Saganmos" }
 3294 = "Valetlisum"
 3295 = { "Etruria Orientalis" "Tarchuna" }
+3727 = "Kaleiros"
+3728 = { "Barzan" "Barza" }
+3729 = "Bokan"
 3731 = "Delos Lura"
 3733 = "Savolbolagos"
 3734 = "Makos"
