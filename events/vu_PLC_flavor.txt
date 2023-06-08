@@ -1590,7 +1590,7 @@ country_event = { # Secularization of Teutonic Order
 			owns = 41
 		}
 		is_religion_enabled = protestant
-		adm_tech = 8
+		adm_tech = 24
 	}
 	
 	mean_time_to_happen = {

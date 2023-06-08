@@ -1,6 +1,52 @@
 ﻿l_english:
  #VU EVENTS
  #VU Quonton additions
+ #German Immigration Events
+ volga_spawn.1.t:"German Immigration into Eastern Europe?"
+ volga_spawn.1.d:"Recently several Germans, sometimes small families, sometimes large caravans, have been found migrating east and into our Eastern European holdings. Many nobles are against this immigration and have been attempting to stop it, while others have been accepting these migrants with open arms. It now has come to the $MONARCHTITLE$ and now a decision must be made, should we allow this immigration? Or should we end it before it begins?"
+ volga_spawn.1.a:"Accept these migrants, they can only do good."
+ volga_spawn.1.b:"End this madness now!"
+ #
+ volga_spawn.2.t:"German Migration into Saratov"
+ volga_spawn.2.d:"A very large number of §YGermans§! have migrated into the area around §YSaratov§!, building new villages and infrastructure in the area. They have also brought along their culture and religion."
+ volga_spawn.2.a:"We welcome them into our lands."
+ #
+ volga_spawn.3.t:"German Migration into Samara"
+ volga_spawn.3.d:"A very large number of §YGermans§! have migrated into the area around §YSamara§!, building new villages and infrastructure in the area. They have also brought along their culture and religion."
+ volga_spawn.3.a:"We welcome them into our lands."
+ #
+ volga_spawn.4.t:"German Migration into Crimea"
+ volga_spawn.4.d:"A very large number of §YGermans§! have migrated into the island of §YCrimea§!, building new villages and infrastructure in the area. They have also brought along their culture and religion."
+ volga_spawn.4.a:"We welcome them into our lands."
+ #
+ volga_spawn.5.t:"German Migration into Siberia"
+ volga_spawn.5.d:"A very large number of §YGermans§! have migrated into §YSiberia§!, building new villages and infrastructure in the area. They have also brought along their culture and religion."
+ volga_spawn.5.a:"We welcome them into our lands."
+ #
+ volga_spawn.6.t:"German Migration into the Urals"
+ volga_spawn.6.d:"A very large number of §YGermans§! have migrated into §YUral Mountains§!, building new villages and infrastructure in the area. They have also brought along their culture and religion."
+ volga_spawn.6.a:"We welcome them into our lands."
+ #
+ volga_spawn.7.t:"German Migration into the Blacksea Coast"
+ volga_spawn.7.d:"A very large number of §YGermans§! have migrated into the §YBlacksea Coast§!, building new villages and infrastructure in the area. They have also brought along their culture and religion."
+ volga_spawn.7.a:"We welcome them into our lands."
+ #
+ volga_spawn.8.t:"German Migration into Russia"
+ volga_spawn.8.d:"A very large number of §YGermans§! have migrated into the §YRussian Heartland§!, building new villages and infrastructure in the area. They have also brought along their culture and religion."
+ volga_spawn.8.a:"We welcome them into our lands."
+ #
+ volga_spawn.9.t:"German Migration into Ruthenia"
+ volga_spawn.9.d:"A very large number of §YGermans§! have migrated into the region of §YRuthenia§!, building new villages and infrastructure in the area. They have also brought along their culture and religion."
+ volga_spawn.9.a:"We welcome them into our lands."
+ #
+ volga_spawn.10.t:"German Migration into the Baltic"
+ volga_spawn.10.d:"A very large number of §YGermans§! have migrated into the §YBaltic§!, building new villages and infrastructure in the area. They have also brought along their culture and religion."
+ volga_spawn.10.a:"We welcome them into our lands."
+ #
+ volga_spawn.11.t:"German Migration into the Caucasus"
+ volga_spawn.11.d:"A very large number of §YGermans§! have migrated into the §YCaucasus Region§!, building new villages and infrastructure in the area. They have also brought along their culture and religion."
+ volga_spawn.11.a:"We welcome them into our lands."
+
  #Dutch Culture Events
  dutch_culture.1.t:"The Dutch Cultural Awakening"
  dutch_culture.1.d:"The Culture of the Lowlands has slowly over the past decades begun to drift apart from the other German nations, and now after years of influence from outside sources has gain a distinct cultural Identity apart from German. Centuries of being united by politics and economics allowed the people of the Low Countries – even though they spoke different languages – to feel part of a shared culture the Netherlandish culture"

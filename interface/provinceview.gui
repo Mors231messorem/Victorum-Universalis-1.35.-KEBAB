@@ -2840,8 +2840,8 @@ guiTypes = {
 		windowType = {
 			name = "buildings_window"
 			backGround=""
-			position = { x = 480 y = 13 }
-			size = { x = 475 y = 480 }
+			position = { x = 480 y = 50 }
+			size = { x = 475 y = 610 }
 			dontRender = ""
 			horizontalBorder= ""
 			verticalBorder= ""
@@ -2896,7 +2896,7 @@ guiTypes = {
 				name = "general_buildings_window"
 				backGround=""
 				position = { x = 1 y = 115 }
-				size = { x = 475 y = 480 }
+				size = { x = 475 y = 610 }
 				dontRender = ""
 				horizontalBorder= ""
 				verticalBorder= ""
@@ -2925,13 +2925,13 @@ guiTypes = {
 
 				guiButtonType = {
 					name = "center_of_trade_button"
-					position = { x = 174 y = 180 }
+					position = { x = 174 y = 245 }
 					spriteType = "GFX_center_of_trade_inland_1"
 				}
 
 				iconType = {
 					name = "center_of_trade_icon"
-					position = { x = 174 y = 180 }
+					position = { x = 174 y = 245 }
 					spriteType = "GFX_center_of_trade_inland_1"
 				}
 
@@ -2940,8 +2940,8 @@ guiTypes = {
 			windowType = {
 				name = "province_values_window"
 				backGround=""
-				position = { x = 4 y = 354 }
-				size = { x = 475 y = 480 }
+				position = { x = 4 y = 419 }
+				size = { x = 475 y = 610 }
 				dontRender = ""
 				horizontalBorder= ""
 				verticalBorder= ""
@@ -3030,13 +3030,13 @@ guiTypes = {
 				iconType = {
 					name = "province_governing_cost_icon"
 					spriteType = "GFX_province_governing_cost"
-					position = { x = 224 y = 181  }
+					position = { x = 224 y = 82  }
 					Orientation = "UPPER_LEFT"
 				}
 				
 				instantTextBoxType = {
 					name = "capacity_value"
-					position = { x = 253 y = 187 }
+					position = { x = 253 y = 87 }
 					textureFile = ""
 					font = "vic_18"
 					borderSize = { x = 2 y = 2 }
@@ -3790,7 +3790,7 @@ guiTypes = {
 			listboxType = {
 				name = "institutions"
 				position = { x = 26 y = 178 }
-				size = { x = 306 y = 450 }
+				size = { x = 256 y = 480 }
 				Orientation = "UPPER_LEFT"
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -3811,7 +3811,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "institution_close_button"
-				position = { x = 354 y = 123 }
+				position = { x = 304 y = 123 }
 				quadTextureSprite ="GFX_closebutton2"
 				clicksound = close_window
 				shortcut = "n"
@@ -4650,7 +4650,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name ="build_upgrade_button"
-			position = { x = 193 y = 7 }
+			position = { x = 198 y = 7 }
 			quadTextureSprite ="GFX_great_project_level_icon_upgrade_build"
 			tooltip = ""
 			tooltipText =""
@@ -4662,7 +4662,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name ="use_money_to_boost_button"
-			position = { x = 193 y = 42 }
+			position = { x = 198 y = 42 }
 			quadTextureSprite ="GFX_great_project_level_icon_upgrade_money"
 			tooltip = ""
 			tooltipText =""
@@ -4674,7 +4674,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name ="use_manpower_to_boost_button"
-			position = { x = 193 y = 77 }
+			position = { x = 198 y = 77 }
 			quadTextureSprite ="GFX_great_project_level_icon_upgrade_manpower"
 			tooltip = ""
 			tooltipText =""

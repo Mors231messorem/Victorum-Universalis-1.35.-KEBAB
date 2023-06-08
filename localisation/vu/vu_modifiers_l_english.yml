@@ -1,5 +1,8 @@
 ﻿l_english:
  ##VU Quonton additions
+ vu_german_settlement:0 "German Settlements" 
+ desc_vu_german_settlement:0 "The German minority population in Russia, Ukraine, and Belarus stemmed from several sources and arrived in several waves"
+
  #Wallachia
  VU_dragon_knights:0 "Dragon Knights" 
  VU_hajuk:0 "Hadjuks" 

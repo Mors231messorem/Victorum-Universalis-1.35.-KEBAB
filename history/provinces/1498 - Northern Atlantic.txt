@@ -1,1 +1,2 @@
-1453.1.1 = { discovered_by = western }
+#1498 - Northern Atlantic
+1453.1.1 = { discovered_by = western discovered_by = dutch discovered_by = english discovered_by = french discovered_by = german_group discovered_by = italian discovered_by = portuguese discovered_by = scandinavian discovered_by = spanish discovered_by = swiss }

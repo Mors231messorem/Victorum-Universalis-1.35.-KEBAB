@@ -3,5 +3,19 @@
 
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 1444.1.1 = { discovered_by = SWE } 1444.1.1 = { discovered_by = NOR } 1444.1.1 = { discovered_by = DAN } 1444.1.1 = { discovered_by = FIN } 1444.1.1 = { discovered_by = GOT } 1444.1.1 = { discovered_by = SHL } 1444.1.1 = { discovered_by = SCA } 1444.1.1 = { discovered_by = NOV } 1444.1.1 = { discovered_by = MOS } 1444.1.1 = { discovered_by = PSK } 1444.1.1 = { discovered_by = RUS } 1444.1.1 = { discovered_by = RYA } 1444.1.1 = { discovered_by = TVE } 1444.1.1 = { discovered_by = YAR } 1444.1.1 = { discovered_by = PLT } 1444.1.1 = { discovered_by = SMO } 1444.1.1 = { discovered_by = NZH } 

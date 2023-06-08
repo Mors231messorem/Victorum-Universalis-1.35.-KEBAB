@@ -125,7 +125,7 @@ country_event = {
 		OR = {
 			mission_completed = emp_sax_meissen_porcelain
 			AND = {
-				adm_tech = 24
+				adm_tech = 40
 				has_global_flag = europeans_in_china_happened
 			}
 		}
@@ -224,7 +224,7 @@ country_event = {
 				any_owned_province = {
 					continent =  europe
 				}
-				dip_tech = 20
+				dip_tech = 36
 			}
 		}
 		NOT = { has_global_flag = coffee_boom_happened }
@@ -470,7 +470,7 @@ country_event = {
 			capital_scope = { continent = europe }
 			AND = {
 				any_owned_province = { continent = europe }
-				dip_tech = 20
+				dip_tech = 36
 			}
 		}
 		OR = {
@@ -582,7 +582,18 @@ country_event = {
 			}
 		}
 		has_discovered = 1460 # Cape of Good Hope
-		technology_group = western
+		OR = {
+			technology_group = western
+			technology_group = english
+			technology_group = french
+			technology_group = dutch
+			technology_group = german_group
+			technology_group = italian
+			technology_group = portuguese
+			technology_group = scandinavian
+			technology_group = spanish
+			technology_group = swiss
+		}
 		any_active_trade_node = {
 			has_merchant = PREV
 			OR = {
@@ -879,7 +890,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		dip_tech = 20
+		dip_tech = 36
 		wine = 1
 		glass = 1
 		NOT = { has_global_flag = wine_corks_happened }
@@ -930,7 +941,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		dip_tech = 11
+		dip_tech = 27
 		cloth = 1
 		NOT = { has_global_flag = new_draperies_happened }
 	}
@@ -980,7 +991,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		mil_tech = 21
+		mil_tech = 37
 		NOT = { has_global_flag = regulated_uniforms_happened }
 	}
 	mean_time_to_happen = {
@@ -1086,7 +1097,7 @@ country_event = {
 
 	trigger = {
 		capital_scope = { continent = europe }
-		dip_tech = 22
+		dip_tech = 38
 		OR = {
 			504 = { #Indus
 				trade_share = {
@@ -1242,7 +1253,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		dip_tech = 22
+		dip_tech = 38
 		num_of_ports = 3
 		NOT = { has_global_flag = permanent_navies_happened }
 	}
@@ -1312,7 +1323,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		mil_tech = 7
+		mil_tech = 23
 		copper = 1
 		NOT = { has_global_flag = bronze_cannons_happened }
 	}
@@ -1357,7 +1368,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		dip_tech = 8
+		dip_tech = 24
 		OR = {
 			has_reform = shogunate
 			tag = JAP
@@ -1465,11 +1476,11 @@ country_event = {
 			capital_scope = { continent = europe }
 			AND = {
 				any_owned_province = { continent = europe }
-				dip_tech = 25
+				dip_tech = 41
 			}
 		}
 		sugar = 5
-		dip_tech = 20
+		dip_tech = 36
 		OR = {
 			trading_part = {
 				trade_goods = cocoa
@@ -1527,7 +1538,7 @@ country_event = {
 
 	trigger = {
 		capital_scope = { continent = europe }
-		dip_tech = 18
+		dip_tech = 34
 		OR = {
 			current_age = age_of_absolutism #Not before this
 			current_age = age_of_revolutions
@@ -1659,7 +1670,7 @@ country_event = {
 
 	trigger = {
 		capital_scope = { continent = europe }
-		dip_tech = 12
+		dip_tech = 28
 		OR = {
 			current_age = age_of_reformation #Not before this
 			current_age = age_of_absolutism
@@ -1766,7 +1777,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		mil_tech = 18
+		mil_tech = 34
 		NOT = { has_global_flag = iron_working_happened }
 	}
 	mean_time_to_happen = {
@@ -1815,7 +1826,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		dip_tech = 16
+		dip_tech = 32
 		colony = 1
 		any_subject_country = {
 			is_colonial_nation = yes
@@ -1857,7 +1868,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		dip_tech = 16
+		dip_tech = 32
 		colony = 1
 		NOT = { has_global_flag = popularization_of_tobacco_happened }
 		any_subject_country = {
@@ -2287,7 +2298,7 @@ country_event = {
 
 	trigger = {
 		NOT = { has_global_flag = paper_in_bureaucracies }
-		adm_tech = 6
+		adm_tech = 22
 		has_institution = feudalism
 		OR = {
 			num_of_cities = 50
@@ -2908,7 +2919,7 @@ country_event = {
 				}
 				NOT = { has_global_flag = bohemian_glass }
 				owns = 1771
-				dip_tech = 17
+				dip_tech = 33
 			}
 		}
 	}
@@ -2952,7 +2963,7 @@ country_event = {
 
 	trigger = {
 		NOT = { has_global_flag = development_of_optics }
-		dip_tech = 18
+		dip_tech = 34
 		has_institution = global_trade
 		any_owned_province = {
 			trade_goods = glass
@@ -2992,7 +3003,7 @@ country_event = {
 
 	trigger = {
 		NOT = { has_global_flag = lead_crystal_happened }
-		dip_tech = 18
+		dip_tech = 34
 		has_institution = manufactories
 		any_owned_province = {
 			manufactories = 100

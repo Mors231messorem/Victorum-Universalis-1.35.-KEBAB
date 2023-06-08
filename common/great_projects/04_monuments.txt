@@ -1701,7 +1701,7 @@ church_of_holy_sepulchre = {
 			OR = {
 				religion_group = christian
 				religion_group = muslim
-				religion = zoroastrian
+				religion = jewish
 			}
 		}
 	}
@@ -1719,7 +1719,7 @@ church_of_holy_sepulchre = {
 			OR = {
 				religion_group = christian
 				religion_group = muslim
-				religion = zoroastrian
+				religion = jewish
 			}
 		}
 	}
@@ -1729,7 +1729,7 @@ church_of_holy_sepulchre = {
 			OR = {
 				religion_group = christian
 				religion_group = muslim
-				religion = zoroastrian
+				religion = jewish
 			}
 		}
 	}
@@ -1739,7 +1739,7 @@ church_of_holy_sepulchre = {
 			OR = {
 				religion_group = christian
 				religion_group = muslim
-				religion = zoroastrian
+				religion = jewish
 			}
 		}
 	}

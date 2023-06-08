@@ -418,7 +418,7 @@ emp_ita_war_branch = {
 						if = {
 							limit = {
 								ROOT = {
-									NOT = { mil_tech = 14 }
+									NOT = { mil_tech = 30 }
 								}
 							}
 							OR = {
@@ -432,8 +432,8 @@ emp_ita_war_branch = {
 							limit = {
 								ROOT = {
 									AND = {
-										mil_tech = 14
-										NOT = { mil_tech = 19 }
+										mil_tech = 30
+										NOT = { mil_tech = 35 }
 									}
 								}
 							}
@@ -447,8 +447,8 @@ emp_ita_war_branch = {
 							limit = {
 								ROOT = {
 									AND = {
-										mil_tech = 19
-										NOT = { mil_tech = 24 }
+										mil_tech = 35
+										NOT = { mil_tech = 40 }
 									}
 								}
 							}
@@ -460,7 +460,7 @@ emp_ita_war_branch = {
 						else_if = {
 							limit = {
 								ROOT = {
-									mil_tech = 24
+									mil_tech = 40
 								}
 							}
 							has_building = fort_18th
@@ -474,7 +474,7 @@ emp_ita_war_branch = {
 						if = {
 							limit = {
 								ROOT = {
-									NOT = { mil_tech = 14 }
+									NOT = { mil_tech = 30 }
 								}
 							}
 							has_building = fort_15th
@@ -483,8 +483,8 @@ emp_ita_war_branch = {
 							limit = {
 								ROOT = {
 									AND = {
-										mil_tech = 14
-										NOT = { mil_tech = 19 }
+										mil_tech = 30
+										NOT = { mil_tech = 35 }
 									}
 								}
 							}
@@ -498,8 +498,8 @@ emp_ita_war_branch = {
 							limit = {
 								ROOT = {
 									AND = {
-										mil_tech = 19
-										NOT = { mil_tech = 24 }
+										mil_tech = 35
+										NOT = { mil_tech = 40 }
 									}
 								}
 							}
@@ -511,7 +511,7 @@ emp_ita_war_branch = {
 						else_if = {
 							limit = {
 								ROOT = {
-									mil_tech = 24
+									mil_tech = 40
 								}
 							}
 							has_building = fort_18th
@@ -540,7 +540,7 @@ emp_ita_war_branch = {
 				if = {
 					limit = {
 						ROOT = {
-							NOT = { mil_tech = 14 }
+							NOT = { mil_tech = 30 }
 						}
 					}
 					OR = {
@@ -554,8 +554,8 @@ emp_ita_war_branch = {
 					limit = {
 						ROOT = {
 							AND = {
-								mil_tech = 14
-								NOT = { mil_tech = 19 }
+								mil_tech = 30
+								NOT = { mil_tech = 35 }
 							}
 						}
 					}
@@ -569,8 +569,8 @@ emp_ita_war_branch = {
 					limit = {
 						ROOT = {
 							AND = {
-								mil_tech = 19
-								NOT = { mil_tech = 24 }
+								mil_tech = 35
+								NOT = { mil_tech = 40 }
 							}
 						}
 					}
@@ -582,7 +582,7 @@ emp_ita_war_branch = {
 				else_if = {
 					limit = {
 						ROOT = {
-							mil_tech = 24
+							mil_tech = 40
 						}
 					}
 					has_building = fort_18th

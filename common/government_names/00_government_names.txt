@@ -1034,6 +1034,54 @@ march_christian_monarchy = {
 	}
 }
 
+#VU 1.35 Bodonista Frankish Marquisate
+gov_marquisiate = {
+	rank = {
+		1 = VISCOUNTY #Viscounty
+		2 = COUNTY #County
+		3 = MARCH #Marquisate 
+	}
+	
+	ruler_male = {
+		1 = VISCOUNT #Viscount
+		2 = COUNT #County
+		3 = MARQUIS #Marquis
+	}
+
+	ruler_female = {
+		1 = VISCOUNTESS_fem #Viscountess
+		2 = COUNTESS_fem #Countess
+		3 = MARCHIONESS_fem #Marchioness
+	}
+	
+	consort_male = {
+		1 = VISCOUNT_CONSORT #Consort
+		2 = COUNT_CONSORT #Consort
+		3 = MARQUIS_CONSORT #Consort
+	}
+
+	consort_female = {
+		1 = VISCOUNTESS_CONSORT_fem #Consort
+		2 = COUNTESS_CONSORT_fem #Consort
+		3 = MARCHIONESS_CONSORT_fem #Consort
+	}
+	heir_male = {
+		1 = HEIR #Lord
+		2 = HEIR #Lord
+		3 = HEIR #Lord
+	}
+
+	heir_female = {
+		1 = HEIR_fem #Lady
+		2 = HEIR_fem #Lady
+		3 = HEIR_fem #Lady
+	}
+
+	trigger = {
+		has_reform = marquisiate_reform
+	}
+}
+
 gov_papal_government_elector = {
 	rank = {
 		1 = PAPACY

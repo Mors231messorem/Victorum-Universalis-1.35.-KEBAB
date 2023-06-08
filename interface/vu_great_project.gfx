@@ -1,5 +1,327 @@
 #VU additions by Quonton
 spriteTypes = {
+    spriteType = {
+        name = "GFX_great_project_vu_konigsberg_castle"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_konigsberg_castle.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_hadrians_wall"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_hadrians_wall.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_althing"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_althing.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_at_turaif"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_at_turaif.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_bahla_fort"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_bahla_fort.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_qalhat"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_qalhat.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_al_ikanderiya_mosque"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_al_ikanderiya_mosque.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_temple_of_awwam"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_temple_of_awwam.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_barran_temple"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_barran_temple.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_nuri"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_nuri.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_musawwarat_es_sufra"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_musawwarat_es_sufra.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_abu_mena"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_abu_mena.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_temple_of_derr"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_temple_of_derr.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_temple_of_gerf_hussein"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_temple_of_gerf_hussein.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_qalat_bani_hammadr"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_qalat_bani_hammadr.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_cuicul"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_cuicul.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_icosium"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_icosium.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_constantine"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_constantine.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_oea"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_oea.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_sabratha"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_sabratha.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_volubilis"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_volubilis.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_leptis_magna"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_leptis_magna.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_timgrad"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_timgrad.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_cyrene"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_cyrene.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_dougga"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_dougga.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_thysdrus"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_thysdrus.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_tebessa_basilica"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_tebessa_basilica.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_zaghouan_aqueduct"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_zaghouan_aqueduct.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_casbah_of_algiers"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_casbah_of_algiers.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_kutubiyya_mosque"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_kutubiyya_mosque.dds"
+    }
+
+    spriteType = {
+        name = "GFX_great_project_vu_al_zaytuna_mosque"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_al_zaytuna_mosque.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_moulay_ismail"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_moulay_ismail.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_hohensalzburg_fortress"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_hohensalzburg_fortress.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_salzburg_cathedral"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_salzburg_cathedral.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_st_stephens_cathedral"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_st_stephens_cathedral.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_lubarts_castle"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_lubarts_castle.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_khortysia"	
+        texturefile = "gfx//interface//great_projects//VU_Natural_Wonders//great_projects_vu_khortysia.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_pochaiv_lavra"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_pochaiv_lavra.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_pidhirtsi_castle"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_pidhirtsi_castle.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_university_of_lviv"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_university_of_lviv.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_sofiyivka_park"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_sofiyivka_park.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_saint_sophia_cathedral"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_saint_sophia_cathedral.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_kamianets_podilskyi_castle"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_kamianets_podilskyi_castle.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_piatnytska_church"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_piatnytska_church.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_bilhorod_dnistrovskyi"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_bilhorod_dnistrovskyi.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_suyumbike_tower"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_suyumbike_tower.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_yaroslav_court"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_yaroslav_court.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_smolensk_kremlin"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_smolensk_kremlin.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_zaraysk_kremlin"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_zaraysk_kremlin.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_suzdal_kremlin"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_suzdal_kremlin.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_chersonesus"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_chersonesus.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_ferapontov_monastery"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_ferapontov_monastery.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_solovetsky_monastery"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_solovetsky_monastery.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_khans_palacee"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_khans_palacee.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_white_mosque_of_bolgar"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_white_mosque_of_bolgar.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_talinn_town_hall"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_talinn_town_hall.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_house_of_the_blackheads"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_house_of_the_blackheads.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_st_peter_church_riga"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_st_peter_church_riga.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_pazaislis_monastery"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_pazaislis_monastery.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_kaunas_castle"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_kaunas_castle.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_hermann_castle"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_hermann_castle.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_turku_castle"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_turku_castle.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_porvoo_cathedral"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_porvoo_cathedral.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_po_i_kalyan"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_po_i_kalyan.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_shahrisabz"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_shahrisabz.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_urgench"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_urgench.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_merv"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_merv.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_khoja_ahmed_yasawi"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_khoja_ahmed_yasawi.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_imperial_citadel_thang_long"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_imperial_citadel_thang_long.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_my_son"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_my_son.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_vat_phou"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_vat_phou.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_wat_chaiwatthanaram"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_wat_chaiwatthanaram.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_phanom_rung"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_phanom_rung.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_muara_takus"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_muara_takus.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_trowulan"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_trowulan.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_otanahaortress"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_otanahaortress.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_tamaudun"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_tamaudun.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_nijo_castle"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_nijo_castle.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_heijo_palace"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_heijo_palace.dds"
+    }
+    spriteType = {
+        name = "GFX_great_project_vu_itsukushima_ahrine"	
+        texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_itsukushima_ahrine.dds"
+    }
+	#
 	spriteType = {
         name = "GFX_great_project_vu_voronet_monastery"	
         texturefile = "gfx//interface//great_projects//VU_Monuments//great_projects_vu_voronet_monastery.dds"

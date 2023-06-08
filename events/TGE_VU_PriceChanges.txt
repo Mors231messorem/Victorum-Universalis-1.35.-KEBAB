@@ -143,7 +143,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		dip_tech = 16
+		dip_tech = 32
 		cheese = 2
 		NOT = { has_global_flag = cheeseislove }
 		OR = {
@@ -973,7 +973,7 @@ country_event = {
     major = yes
 
     trigger = {
-        adm_tech = 21
+        adm_tech = 37
     }
     
     mean_time_to_happen = {

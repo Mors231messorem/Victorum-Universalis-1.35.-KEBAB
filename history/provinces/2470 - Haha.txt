@@ -18,7 +18,21 @@ add_core = RGR
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 
 1465.1.1 = { unrest = 5 } #Marinid Sultan killed by mob. Mohammed ibn Ali Amrani-Joutey (Idrisid) proclaims himself Sultan. Unrest in the entire country. 
@@ -54,7 +68,7 @@ discovered_by = eastern
 1603.8.1 = { unrest = 5 } #Death of al-Mansur, long period of instability follows
 
 #During the 16th century, powers including Spain, England, the Netherlands and France tried in vain to conquer the locality. Essaouira remained a haven for the export of sugar, molasses and the anchoring of pirates.
-#French bombarded the city the Salé, destroyed three corsair ships, and then sent the Griffon under Captain Treillebois to Mogador.
+#French bombarded the city the Salï¿½, destroyed three corsair ships, and then sent the Griffon under Captain Treillebois to Mogador.
 #After these expeditions, France signed a treaty with Abd el-Malek II in 1631, giving France preferential treatment, known as "capitulations": preferential tariffs, the establishment of a Consulate, and freedom of religion for French subjects.
 
 1668.9.7 = { unrest = 0 } #Alaouites reunifies the country

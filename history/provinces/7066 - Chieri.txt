@@ -14,9 +14,23 @@ is_city = yes
 hre = yes
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 1340.1.1 = {
 	base_tax = 4
@@ -45,7 +59,7 @@ discovered_by = eastern
 1536.4.1 = { controller = FRA } 
 1551.1.1 = { controller = FRA owner = FRA } # no source is all that clear on when, where, how, or who, but apparently Chieri avoided going to france in the 1530s like much of the west of Savoy, but did go to France in 1551? Though same sources say it remained French after 1559, so.... yeah, might return later and figure this out.
 1554.1.1 = { religion = protestant }	#One of the few cities in Italy where Protestantism took a real hold.
-1559.1.1 = { owner = SAV controller = SAV remove_core = FRA }	#Peace of Cateau-Cambrésis
+1559.1.1 = { owner = SAV controller = SAV remove_core = FRA }	#Peace of Cateau-Cambrï¿½sis
 1565.1.1 = { religion = catholic }	#Rather violent actions returned Chieri to Catholicism, under Emanuele Filiberto
 1648.1.1 = { hre = no }	#Peace of Westphalia, the 'Kingdom of Italy' definitively leaves the Holy Roman Empire
 #1713.4.12 = { owner = SIC controller = SIC add_core = SIC } # Treaty of Utrecht gives Sicily to Savoy, who becomes the King of Sicily  -VU is calling this still Savoy, rather than Sicily.

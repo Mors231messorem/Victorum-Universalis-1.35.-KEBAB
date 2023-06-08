@@ -1,4 +1,4 @@
-#6385 - Überlingen
+#6385 - ï¿½berlingen
 #Region - Germany
 #Area - Upper Swabia
 
@@ -6,7 +6,7 @@ culture = swabian
 owner = KNZ
 controller = KNZ
 add_core = KNZ
-capital = "Überlingen"
+capital = "ï¿½berlingen"
 religion = catholic
 trade_goods = fish
 base_tax = 3
@@ -23,9 +23,23 @@ discovered_by = russian
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 1525.1.1 = { religion = protestant }
 1548.1.1 = {

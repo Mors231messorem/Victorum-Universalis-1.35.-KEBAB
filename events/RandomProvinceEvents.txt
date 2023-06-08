@@ -322,7 +322,7 @@ province_event = {
 		fort_level = 1
 		owner = {
 			mil = 4
-			mil_tech = 8
+			mil_tech = 24
 			treasury = 100
 		}
 		NOT = { has_province_modifier = improved_fortifications }

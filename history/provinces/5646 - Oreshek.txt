@@ -1,4 +1,4 @@
-#Näset + the land around the river Neva, incl. Nöteborg, Nyen and St.Petersburg.
+#Nï¿½set + the land around the river Neva, incl. Nï¿½teborg, Nyen and St.Petersburg.
 #Region - Russia
 #Area - Ingria
 
@@ -17,7 +17,21 @@ is_city = yes
 fort_15th = yes #Various border fortifications throughout the history of the province.
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
 
 
@@ -31,10 +45,10 @@ discovered_by = eastern
 1547.4.16 = { owner = RUS controller = RUS add_core = RUS remove_core = MOS }	#Ivan IV (the Terrible) crowned 'Tsar of all Russians'
 1610.1.1 = { culture = russian } # Russian cultural consolidation
 1612.4.10 = { controller = SWE } # The Ingermanian War-Captured by Evert Horn
-1617.2.17 = { owner = SWE add_core = SWE remove_core = RUS capital = "Nöteborg" } # The Peace of Stolbova, Nyenskans fortress built
-1656.8.1 = { controller = RUS } # Russo-Swedish war, Potemkin takes Nyenskans and Nöteborg
+1617.2.17 = { owner = SWE add_core = SWE remove_core = RUS capital = "Nï¿½teborg" } # The Peace of Stolbova, Nyenskans fortress built
+1656.8.1 = { controller = RUS } # Russo-Swedish war, Potemkin takes Nyenskans and Nï¿½teborg
 1658.8.1 = { controller = SWE } # Russo-Swedish war, retaken by Gustav Horn
-1702.10.22 = { controller = RUS } # Siege of Nöteborg
+1702.10.22 = { controller = RUS } # Siege of Nï¿½teborg
 1703.5.27 = {
 	owner = RUS
 	add_core = RUS

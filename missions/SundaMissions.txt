@@ -120,7 +120,7 @@ sun_1 = {
 		trigger = {
 			if = {
 				limit = {
-					adm_tech = 19
+					adm_tech = 35
 				}
 				cathedral = 15
 			}

@@ -1117,7 +1117,18 @@ emp_france_missions_2_c = {
 			has_discovered = ROOT
 			superregion = india_superregion
 			owner = {
-				technology_group = western
+				OR = {
+		        	technology_group = western
+		        	technology_group = english
+		        	technology_group = french
+		        	technology_group = dutch
+		        	technology_group = german_group
+		        	technology_group = italian
+			    	technology_group = portuguese
+		        	technology_group = scandinavian
+		        	technology_group = spanish
+			    	technology_group = swiss
+		        }
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -1130,9 +1141,18 @@ emp_france_missions_2_c = {
 					owned_by = FRA
 					owned_by = BFR
 					owner = {
-						NOT = {
-							technology_group = western
-						}
+						NOT = { 
+				        	technology_group = western
+		    	            technology_group = english
+		    	            technology_group = french
+		    	            technology_group = dutch
+		    	            technology_group = german_group
+		    	            technology_group = italian
+				        	technology_group = portuguese
+		    	            technology_group = scandinavian
+		    	            technology_group = spanish
+				        	technology_group = swiss
+			            }
 					}
 				}
 			}
@@ -2035,7 +2055,7 @@ emp_france_missions_5 = {
 		provinces_to_highlight = {
 		}
 		trigger = {
-			adm_tech = 16
+			adm_tech = 32
 			monthly_income = 100
 			crown_land_share = 80
 			owns_core_province = 183

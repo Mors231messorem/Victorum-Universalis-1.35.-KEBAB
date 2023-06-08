@@ -71,7 +71,21 @@ feudalism = {
 					is_playing_custom_nation = yes
 					OR = {
 						technology_group = western
-						technology_group = eastern
+						technology_group = english
+						technology_group = french
+						technology_group = dutch
+						technology_group = german_group
+						technology_group = italian
+						technology_group = portuguese
+						technology_group = scandinavian
+						technology_group = spanish
+						technology_group = swiss
+						technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian
 						technology_group = ottoman
 						technology_group = muslim
 						technology_group = indian
@@ -201,7 +215,22 @@ feudalism = {
 			factor = 0.6
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = western } }
+			potential = { 
+				owner = { 
+					OR = {
+					    technology_group = western
+					    technology_group = english
+					    technology_group = french
+					    technology_group = dutch
+					    technology_group = german_group
+					    technology_group = italian
+						technology_group = portuguese
+					    technology_group = scandinavian
+					    technology_group = spanish
+						technology_group = swiss
+					}
+				} 
+			}
 			custom_trigger_tooltip = {
 				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED
 				any_friendly_coast_border_province = { feudalism = 100 }
@@ -212,7 +241,20 @@ feudalism = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = western }
+				owner = { 
+					OR = {
+					    technology_group = western
+					    technology_group = english
+					    technology_group = french
+					    technology_group = dutch
+					    technology_group = german_group
+					    technology_group = italian
+						technology_group = portuguese
+					    technology_group = scandinavian
+					    technology_group = spanish
+						technology_group = swiss
+					}
+				}
 				NOT = { any_friendly_coast_border_province = { feudalism = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -230,7 +272,18 @@ feudalism = {
 			factor = 0.57
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = eastern } }
+			potential = { 
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian
+					}
+				} 
+			}
 			custom_trigger_tooltip = {
 				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED
 				any_friendly_coast_border_province = { feudalism = 100 }
@@ -241,7 +294,16 @@ feudalism = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian
+					}
+				}
 				NOT = { any_friendly_coast_border_province = { feudalism = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -817,7 +879,21 @@ gunpowder_warfare = {
 					is_playing_custom_nation = yes
 					OR = {
 						technology_group = western
-						technology_group = eastern
+					    technology_group = english
+					    technology_group = french
+					    technology_group = dutch
+					    technology_group = german_group
+					    technology_group = italian
+						technology_group = portuguese
+					    technology_group = scandinavian
+					    technology_group = spanish
+						technology_group = swiss
+						technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian
 						technology_group = ottoman
 						technology_group = muslim
 						technology_group = indian
@@ -1167,12 +1243,34 @@ gunpowder_warfare = {
 				OR = {
 					AND = {
 						continent = europe
-						owner = { technology_group = western }
+						owner = { 
+					        OR = {
+					            technology_group = western
+					            technology_group = english
+					            technology_group = french
+					            technology_group = dutch
+					            technology_group = german_group
+					            technology_group = italian
+					    		technology_group = portuguese
+					            technology_group = scandinavian
+					            technology_group = spanish
+					    		technology_group = swiss
+					        }
+					    }
 					}
 					AND = {
 						continent = europe
 						development = 10
-						owner = { technology_group = eastern }
+						owner = { 
+				        	OR = {
+				        	    technology_group = bohemian
+				        	    technology_group = byzantine
+				        	    technology_group = eastern
+				        	    technology_group = hungarian
+				        	    technology_group = polish
+				        	    technology_group = russian 
+				        	}
+				        } 
 					}
 					superregion = persia_superregion
 					superregion = india_superregion
@@ -1520,7 +1618,20 @@ renaissance = {
 			AND = {
 				is_year = 1500
 				OR = {
-					owner = { technology_group = western }
+					owner = { 
+					    OR = {
+					        technology_group = western
+					        technology_group = english
+					        technology_group = french
+					        technology_group = dutch
+					        technology_group = german_group
+					        technology_group = italian
+							technology_group = portuguese
+					        technology_group = scandinavian
+					        technology_group = spanish
+							technology_group = swiss
+					    }
+					}
 					owner = { technology_group = high_american }
 				}
 			}	#VU MiscAddonChange - Slows spread slightly for later start dates
@@ -1528,7 +1639,16 @@ renaissance = {
 			AND = {
 				is_year = 1525
 				OR = {
-					owner = { technology_group = eastern }
+					owner = { 
+				    	OR = {
+						    technology_group = bohemian
+					        technology_group = byzantine
+					        technology_group = eastern
+					        technology_group = hungarian
+					        technology_group = polish
+					        technology_group = russian
+						}
+				    }
 					owner = { technology_group = ottoman }
 				}
 			}	#VU MiscAddonChange - Slows spread slightly for later start dates
@@ -1667,7 +1787,22 @@ renaissance = {
 			factor = 0.6
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = western } }
+			potential = {
+				owner = { 
+					OR = {
+					    technology_group = western
+					    technology_group = english
+					    technology_group = french
+					    technology_group = dutch
+					    technology_group = german_group
+					    technology_group = italian
+						technology_group = portuguese
+					    technology_group = scandinavian
+					    technology_group = spanish
+						technology_group = swiss
+					}
+				}
+			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_renaissance
 				any_friendly_coast_border_province = { renaissance = 100 }
@@ -1678,7 +1813,20 @@ renaissance = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				NOT = { any_friendly_coast_border_province = { renaissance = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -1696,7 +1844,18 @@ renaissance = {
 			factor = 0.57
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = eastern } }
+			potential = { 
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				} 
+			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_renaissance
 				any_friendly_coast_border_province = { renaissance = 100 }
@@ -1707,7 +1866,16 @@ renaissance = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian
+					}
+				}
 				NOT = { any_friendly_coast_border_province = { renaissance = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -2119,12 +2287,38 @@ renaissance = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				continent = europe
 			}			#VU AddOn Change, now only western tech get the full bonus, whereas previously is was all of Europe which was boosting Nomadic groups too much. Note this could slow spread in a game with no western tech countries
 			custom_trigger_tooltip = {
 				tooltip = tooltip_vu_add_new_instituiton_details_aq
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				development = 16
 			}
 		}
@@ -2133,12 +2327,38 @@ renaissance = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				continent = europe
 			}			#VU AddOn Change, now only western tech get the full bonus, whereas previously is was all of Europe which was boosting Nomadic groups too much. Note this could slow spread in a game with no western tech countries
 			custom_trigger_tooltip = {
 				tooltip = tooltip_vu_add_new_instituiton_details_ar
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				development = 24
 			}
 		}
@@ -2151,12 +2371,30 @@ renaissance = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian
+					}
+				}
 				continent = europe
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_vu_add_new_instituiton_details_aq
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				development = 16
 			}
 		}
@@ -2165,12 +2403,30 @@ renaissance = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				continent = europe
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_vu_add_new_instituiton_details_ar
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				development = 24
 			}
 		}
@@ -2178,10 +2434,30 @@ renaissance = {
 			factor = 0.03
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = eastern } }
+			potential = { 
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				} 
+			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_8_post_1550
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				is_year = 1550
 				development = 8
 			}
@@ -2219,10 +2495,39 @@ renaissance = {
 			factor = 0.06
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = western } }			#VU changed from original continent = europe, note this could slow spread in a game with no western tech countries
+			potential = { 
+				owner = { 
+					OR = {
+					    technology_group = western
+					    technology_group = english
+					    technology_group = french
+					    technology_group = dutch
+					    technology_group = german_group
+					    technology_group = italian
+						technology_group = portuguese
+					    technology_group = scandinavian
+					    technology_group = spanish
+						technology_group = swiss
+					}
+				} 
+			}
+			#VU changed from original continent = europe, note this could slow spread in a game with no western tech countries
 			custom_trigger_tooltip = {
 				tooltip = tooltip_development_8_post_1500
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				is_year = 1500
 				development = 8
 			}
@@ -2468,7 +2773,20 @@ new_world_i = {
 					}
 					AND = {
 						owner = { is_colonial_nation = yes }
-						owner = { technology_group = western }
+						owner = { 
+				            OR = {
+				                technology_group = western
+				                technology_group = english
+				                technology_group = french
+				                technology_group = dutch
+				                technology_group = german_group
+				                technology_group = italian
+				        		technology_group = portuguese
+				                technology_group = scandinavian
+				                technology_group = spanish
+				        		technology_group = swiss
+				            }
+				        }
 					}
 				}
 			}	#VU MiscAddonChange - Slows spread slightly for later start dates
@@ -2521,12 +2839,34 @@ new_world_i = {
 
 			AND = {
 				is_year = 1550
-				owner = { technology_group = western }	#Note this includes colonies and overseas
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+					}
+				}	#Note this includes colonies and overseas
 			}	#VU MiscAddonChange - Slows spread slightly for later start dates
 
 			AND = {
 				is_year = 1575
-				owner = { technology_group = eastern }	#Note this includes colonies, overseas and Siberian holdings
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}	#Note this includes colonies, overseas and Siberian holdings
 			}	#VU MiscAddonChange - Slows spread slightly for later start dates
 
 			AND = {
@@ -2722,7 +3062,22 @@ new_world_i = {
 			factor = 1.2			#Special x2 bonus for western. Was moving too slowly now that everyone outside Iberia doesn't pick exploration as 2nd idea
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = western } }
+			potential = { 
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				} 
+			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_colonialism
 				any_friendly_coast_border_province = { new_world_i = 100 }
@@ -2733,7 +3088,20 @@ new_world_i = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				NOT = { any_friendly_coast_border_province = { new_world_i = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -2751,7 +3119,18 @@ new_world_i = {
 			factor = 0.76			#Special x1.5 bonus for eastern. Was moving too slowly now that everyone outside Iberia doesn't pick exploration as 2nd idea
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = eastern } }
+			potential = { 
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
+			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_colonialism
 				any_friendly_coast_border_province = { new_world_i = 100 }
@@ -2762,7 +3141,16 @@ new_world_i = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				NOT = { any_friendly_coast_border_province = { new_world_i = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -3525,7 +3913,20 @@ printing_press = {
 			AND = {
 				is_year = 1600
 				continent = europe
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 			}	#VU MiscAddonChange - Slows spread slightly for later start dates
 
 			AND = {
@@ -3533,9 +3934,31 @@ printing_press = {
 				OR = {
 					AND = {
 						continent = europe
-						owner = { technology_group = eastern }
+						owner = { 
+				        	OR = {
+					            technology_group = bohemian
+					            technology_group = byzantine
+					            technology_group = eastern
+					            technology_group = hungarian
+					            technology_group = polish
+					            technology_group = russian 
+					        }
+				        }
 					}
-					owner = { technology_group = western }
+					owner = { 
+				        OR = {
+				            technology_group = western
+				            technology_group = english
+				            technology_group = french
+				            technology_group = dutch
+				            technology_group = german_group
+				            technology_group = italian
+				    		technology_group = portuguese
+				            technology_group = scandinavian
+				            technology_group = spanish
+				    		technology_group = swiss
+				        }
+				    }
 					owner = { technology_group = andean }
 					owner = { technology_group = high_american }
 					owner = { technology_group = mesoamerican }
@@ -3547,7 +3970,16 @@ printing_press = {
 			AND = {
 				is_year = 1650
 				OR = {
-					owner = { technology_group = eastern }
+					owner = { 
+				    	OR = {
+					        technology_group = bohemian
+					        technology_group = byzantine
+					        technology_group = eastern
+					        technology_group = hungarian
+					        technology_group = polish
+					        technology_group = russian 
+					    }
+				    }
 					owner = { technology_group = ottoman }
 				}
 			}	#VU MiscAddonChange - Slows spread slightly for later start dates
@@ -3649,7 +4081,22 @@ printing_press = {
 			factor = 0.6
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = western } }
+			potential = { 
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				} 
+			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_printing_press
 				any_friendly_coast_border_province = { printing_press = 100 }
@@ -3660,7 +4107,20 @@ printing_press = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				NOT = { any_friendly_coast_border_province = { printing_press = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -3678,7 +4138,18 @@ printing_press = {
 			factor = 0.57
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = eastern } }
+			potential = { 
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
+			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_printing_press
 				any_friendly_coast_border_province = { printing_press = 100 }
@@ -3689,7 +4160,16 @@ printing_press = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				NOT = { any_friendly_coast_border_province = { printing_press = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -4129,13 +4609,39 @@ printing_press = {
 			scale = yes			#VU AddOn new, now scales
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				continent = europe
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_vu_add_new_instituiton_details_ap
 				development = 24
-				owner = { technology_group = western }			#VU AddOn new, added western only. Ottomans will get it through spread quickly enough, eastern gets their own version, and nomads shouldn't be getting this early at all... only downside is if someone went crazy and annihilated all European nations. On the other hand, you wipe out the cradle of modern civilisation, technology, and thought, and you get less modern civilisation, technology, and thought =p will still spread normally even then.
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}			#VU AddOn new, added western only. Ottomans will get it through spread quickly enough, eastern gets their own version, and nomads shouldn't be getting this early at all... only downside is if someone went crazy and annihilated all European nations. On the other hand, you wipe out the cradle of modern civilisation, technology, and thought, and you get less modern civilisation, technology, and thought =p will still spread normally even then.
 				#is_capital = yes			#VU AddOn removed - too limiting
 				continent = europe
 			}
@@ -4146,13 +4652,31 @@ printing_press = {
 			scale = yes			#VU AddOn new, now scales
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+				        technology_group = bohemian
+				        technology_group = byzantine
+				        technology_group = eastern
+				        technology_group = hungarian
+				        technology_group = polish
+				        technology_group = russian 
+				    }
+				}
 				continent = europe
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_vu_add_new_instituiton_details_ap
 				development = 24
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+				        technology_group = bohemian
+				        technology_group = byzantine
+				        technology_group = eastern
+				        technology_group = hungarian
+				        technology_group = polish
+				        technology_group = russian 
+				    }
+				}
 				continent = europe
 			}
 		}
@@ -4397,7 +4921,20 @@ global_trade = {
 				is_year = 1675
 				OR = {
 					AND = {
-						owner = { technology_group = western }
+						owner = { 
+				            OR = {
+				                technology_group = western
+				                technology_group = english
+				                technology_group = french
+				                technology_group = dutch
+				                technology_group = german_group
+				                technology_group = italian
+				        		technology_group = portuguese
+				                technology_group = scandinavian
+				                technology_group = spanish
+				        		technology_group = swiss
+				            }
+				        }
 						OR = {
 							continent = europe
 							continent = asia
@@ -4411,13 +4948,35 @@ global_trade = {
 				is_year = 1700
 				OR = {
 					AND = {
-						owner = { technology_group = eastern }
+						owner = { 
+				        	OR = {
+				        	    technology_group = bohemian
+				        	    technology_group = byzantine
+				        	    technology_group = eastern
+				        	    technology_group = hungarian
+				        	    technology_group = polish
+				        	    technology_group = russian 
+				        	}
+				        }
 						OR = {
 							continent = europe
 							continent = asia
 						}
 					}
-					owner = { technology_group = western }			#VU MiscAddon Note, The colonies, most notably the United States, didn't actually enter into the international trade arena until some years after independance, in the early 19th century, but whatever, don't want the US, or any colonies, too far behind
+					owner = { 
+				        OR = {
+				            technology_group = western
+				            technology_group = english
+				            technology_group = french
+				            technology_group = dutch
+				            technology_group = german_group
+				            technology_group = italian
+				    		technology_group = portuguese
+				            technology_group = scandinavian
+				            technology_group = spanish
+				    		technology_group = swiss
+				        }
+				    }			#VU MiscAddon Note, The colonies, most notably the United States, didn't actually enter into the international trade arena until some years after independance, in the early 19th century, but whatever, don't want the US, or any colonies, too far behind
 					region = poland_region
 					region = ruthenia_region
 					region = balkan_region
@@ -4427,7 +4986,16 @@ global_trade = {
 			AND = {
 				is_year = 1725
 				OR = {
-					owner = { technology_group = eastern }
+					owner = { 
+				    	OR = {
+				    	    technology_group = bohemian
+				    	    technology_group = byzantine
+				    	    technology_group = eastern
+				    	    technology_group = hungarian
+				    	    technology_group = polish
+				    	    technology_group = russian 
+				    	}
+				    }
 					owner = { technology_group = ottoman }			#VU MiscAddon Note - The Ottomans weren't too far behind Western Europe for most of the period.
 					region = anatolia_region
 					region = mashriq_region
@@ -4554,8 +5122,19 @@ global_trade = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = {
-					technology_group = western
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
 				}
 				has_port = yes
 			}
@@ -4569,8 +5148,19 @@ global_trade = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = {
-					technology_group = western
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
 				}
 				OR = {
 					has_port = no
@@ -4590,8 +5180,15 @@ global_trade = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = {
-					technology_group = eastern
+				owner = { 
+					OR = {
+				        technology_group = bohemian
+				        technology_group = byzantine
+				        technology_group = eastern
+				        technology_group = hungarian
+				        technology_group = polish
+				        technology_group = russian 
+				    }
 				}
 				has_port = yes
 			}
@@ -4605,8 +5202,15 @@ global_trade = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = {
-					technology_group = eastern
+				owner = { 
+					OR = {
+				        technology_group = bohemian
+				        technology_group = byzantine
+				        technology_group = eastern
+				        technology_group = hungarian
+				        technology_group = polish
+				        technology_group = russian 
+				    }
 				}
 				OR = {
 					has_port = no
@@ -5431,11 +6035,33 @@ manufactories = {
 				continent = europe
 				OR = {
 					AND = {
-						owner = { technology_group = western }
+						owner = { 
+				            OR = {
+				                technology_group = western
+				                technology_group = english
+				                technology_group = french
+				                technology_group = dutch
+				                technology_group = german_group
+				                technology_group = italian
+				        		technology_group = portuguese
+				                technology_group = scandinavian
+				                technology_group = spanish
+				        		technology_group = swiss
+				            }
+				        }
 						development = 32
 					}
 					AND = {
-						owner = { technology_group = eastern }
+						owner = { 
+				        	OR = {
+				                technology_group = bohemian
+				                technology_group = byzantine
+				                technology_group = eastern
+				                technology_group = hungarian
+				                technology_group = polish
+				                technology_group = russian 
+				            }
+				        }
 						development = 40
 					}
 					development = 48
@@ -5446,11 +6072,33 @@ manufactories = {
 				continent = europe
 				OR = {
 					AND = {
-						owner = { technology_group = western }
+						owner = { 
+				            OR = {
+				                technology_group = western
+				                technology_group = english
+				                technology_group = french
+				                technology_group = dutch
+				                technology_group = german_group
+				                technology_group = italian
+				        		technology_group = portuguese
+				                technology_group = scandinavian
+				                technology_group = spanish
+				        		technology_group = swiss
+				            }
+				        }
 						development = 24
 					}
 					AND = {
-						owner = { technology_group = eastern }
+						owner = { 
+				        	OR = {
+				        	    technology_group = bohemian
+				        	    technology_group = byzantine
+				        	    technology_group = eastern
+				        	    technology_group = hungarian
+				        	    technology_group = polish
+				        	    technology_group = russian 
+				        	}
+				        }
 						development = 32
 					}
 					development = 40
@@ -5461,11 +6109,33 @@ manufactories = {
 				continent = europe
 				OR = {
 					AND = {
-						owner = { technology_group = western }
+						owner = { 
+				            OR = {
+				                technology_group = western
+				                technology_group = english
+				                technology_group = french
+				                technology_group = dutch
+				                technology_group = german_group
+				                technology_group = italian
+				        		technology_group = portuguese
+				                technology_group = scandinavian
+				                technology_group = spanish
+				        		technology_group = swiss
+				            }
+				        }
 						development = 16
 					}
 					AND = {
-						owner = { technology_group = eastern }
+						owner = { 
+				        	OR = {
+				        	    technology_group = bohemian
+				        	    technology_group = byzantine
+				        	    technology_group = eastern
+				        	    technology_group = hungarian
+				        	    technology_group = polish
+				        	    technology_group = russian 
+				        	}
+				        }
 						development = 24
 					}
 					development = 32
@@ -5476,11 +6146,33 @@ manufactories = {
 				continent = europe
 				OR = {
 					AND = {
-						owner = { technology_group = western }
+						owner = { 
+				            OR = {
+				                technology_group = western
+				                technology_group = english
+				                technology_group = french
+				                technology_group = dutch
+				                technology_group = german_group
+				                technology_group = italian
+				        		technology_group = portuguese
+				                technology_group = scandinavian
+				                technology_group = spanish
+				        		technology_group = swiss
+				            }
+				        }
 						development = 8
 					}
 					AND = {
-						owner = { technology_group = eastern }
+						owner = { 
+				        	OR = {
+				        	    technology_group = bohemian
+				        	    technology_group = byzantine
+				        	    technology_group = eastern
+				        	    technology_group = hungarian
+				        	    technology_group = polish
+				        	    technology_group = russian 
+				        	}
+				        }
 						development = 16
 					}
 					development = 24
@@ -5490,9 +6182,31 @@ manufactories = {
 				is_year = 1690
 				continent = europe
 				OR = {
-					owner = { technology_group = western }
+					owner = { 
+				        OR = {
+				            technology_group = western
+				            technology_group = english
+				            technology_group = french
+				            technology_group = dutch
+				            technology_group = german_group
+				            technology_group = italian
+				    		technology_group = portuguese
+				            technology_group = scandinavian
+				            technology_group = spanish
+				    		technology_group = swiss
+				        }
+				    }
 					AND = {
-						owner = { technology_group = eastern }
+						owner = { 
+				        	OR = {
+				        	    technology_group = bohemian
+				        	    technology_group = byzantine
+				        	    technology_group = eastern
+				        	    technology_group = hungarian
+				        	    technology_group = polish
+				        	    technology_group = russian 
+				        	}
+				        }
 						development = 8
 					}
 					development = 16
@@ -5502,8 +6216,30 @@ manufactories = {
 				is_year = 1700
 				continent = europe
 				OR = {
-					owner = { technology_group = western }
-					owner = { technology_group = eastern }
+					owner = { 
+				        OR = {
+				            technology_group = western
+				            technology_group = english
+				            technology_group = french
+				            technology_group = dutch
+				            technology_group = german_group
+				            technology_group = italian
+				    		technology_group = portuguese
+				            technology_group = scandinavian
+				            technology_group = spanish
+				    		technology_group = swiss
+				        }
+				    }
+					owner = { 
+				    	OR = {
+				    	    technology_group = bohemian
+				    	    technology_group = byzantine
+				    	    technology_group = eastern
+				    	    technology_group = hungarian
+				    	    technology_group = polish
+				    	    technology_group = russian 
+				    	}
+				    }
 					development = 8
 				}
 			}
@@ -5511,11 +6247,33 @@ manufactories = {
 				is_year = 1725
 				OR = {
 					AND = {
-						owner = { technology_group = western }
+						owner = { 
+				            OR = {
+				                technology_group = western
+				                technology_group = english
+				                technology_group = french
+				                technology_group = dutch
+				                technology_group = german_group
+				                technology_group = italian
+				        		technology_group = portuguese
+				                technology_group = scandinavian
+				                technology_group = spanish
+				        		technology_group = swiss
+				            }
+				        }
 						development = 16
 					}
 					AND = {
-						owner = { technology_group = eastern }
+						owner = { 
+				        	OR = {
+				        	    technology_group = bohemian
+				        	    technology_group = byzantine
+				        	    technology_group = eastern
+				        	    technology_group = hungarian
+				        	    technology_group = polish
+				        	    technology_group = russian 
+				        	}
+				        }
 						development = 24
 					}
 					AND = {
@@ -5528,11 +6286,33 @@ manufactories = {
 				is_year = 1750
 				OR = {
 					AND = {
-						owner = { technology_group = western }
+						owner = { 
+				            OR = {
+				                technology_group = western
+				                technology_group = english
+				                technology_group = french
+				                technology_group = dutch
+				                technology_group = german_group
+				                technology_group = italian
+				        		technology_group = portuguese
+				                technology_group = scandinavian
+				                technology_group = spanish
+				        		technology_group = swiss
+				            }
+				        }
 						development = 8
 					}
 					AND = {
-						owner = { technology_group = eastern }
+						owner = { 
+				        	OR = {
+				        	    technology_group = bohemian
+				        	    technology_group = byzantine
+				        	    technology_group = eastern
+				        	    technology_group = hungarian
+				        	    technology_group = polish
+				        	    technology_group = russian 
+				        	}
+				        }
 						development = 16
 					}
 					AND = {
@@ -5556,9 +6336,31 @@ manufactories = {
 			AND = {
 				is_year = 1775
 				OR = {
-					owner = { technology_group = western }
+					owner = { 
+				        OR = {
+				            technology_group = western
+				            technology_group = english
+				            technology_group = french
+				            technology_group = dutch
+				            technology_group = german_group
+				            technology_group = italian
+				    		technology_group = portuguese
+				            technology_group = scandinavian
+				            technology_group = spanish
+				    		technology_group = swiss
+				        }
+				    }
 					AND = {
-						owner = { technology_group = eastern }
+						owner = { 
+				        	OR = {
+				        	    technology_group = bohemian
+				        	    technology_group = byzantine
+				        	    technology_group = eastern
+				        	    technology_group = hungarian
+				        	    technology_group = polish
+				        	    technology_group = russian 
+				        	}
+				        }
 						development = 8
 					}
 					AND = {
@@ -5594,8 +6396,30 @@ manufactories = {
 			AND = {
 				is_year = 1800
 				OR = {
-					owner = { technology_group = western }
-					owner = { technology_group = eastern }
+					owner = { 
+				        OR = {
+				            technology_group = western
+				            technology_group = english
+				            technology_group = french
+				            technology_group = dutch
+				            technology_group = german_group
+				            technology_group = italian
+				    		technology_group = portuguese
+				            technology_group = scandinavian
+				            technology_group = spanish
+				    		technology_group = swiss
+				        }
+				    }
+					owner = { 
+				    	OR = {
+				    	    technology_group = bohemian
+				    	    technology_group = byzantine
+				    	    technology_group = eastern
+				    	    technology_group = hungarian
+				    	    technology_group = polish
+				    	    technology_group = russian 
+				    	}
+				    }
 					AND = {
 						owner = { technology_group = ottoman }
 						development = 8
@@ -5722,7 +6546,22 @@ manufactories = {
 			factor = 0.3
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = western } }
+			potential = { 
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
+			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_manufactories
 				any_friendly_coast_border_province = { manufactories = 100 }
@@ -5733,7 +6572,20 @@ manufactories = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				NOT = { any_friendly_coast_border_province = { manufactories = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -5751,7 +6603,18 @@ manufactories = {
 			factor = 0.28
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = eastern } }
+			potential = { 
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				} 
+			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_manufactories
 				any_friendly_coast_border_province = { manufactories = 100 }
@@ -5762,7 +6625,16 @@ manufactories = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				NOT = { any_friendly_coast_border_province = { manufactories = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -6213,12 +7085,38 @@ manufactories = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				NOT = { development = 32 }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_vu_add_new_instituiton_details_p
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				development = 24
 				NOT = { development = 32 }
 			}
@@ -6228,13 +7126,39 @@ manufactories = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				development = 24
 				NOT = { development = 40 }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_vu_add_new_instituiton_details_q
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				development = 32
 				NOT = { development = 40 }
 			}
@@ -6244,12 +7168,38 @@ manufactories = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				development = 32
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_vu_add_new_instituiton_details_r
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				development = 40
 			}
 		}
@@ -6258,12 +7208,30 @@ manufactories = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				NOT = { development = 32 }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_vu_add_new_instituiton_details_p
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				development = 24
 				NOT = { development = 32 }
 			}
@@ -6273,13 +7241,31 @@ manufactories = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				development = 24
 				NOT = { development = 40 }
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_vu_add_new_instituiton_details_q
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				development = 32
 				NOT = { development = 40 }
 			}
@@ -6289,12 +7275,30 @@ manufactories = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				development = 32
 			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_vu_add_new_instituiton_details_r
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				development = 40
 			}
 		}
@@ -6421,41 +7425,124 @@ enlightenment = {
 			AND = {
 				is_year = 1716
 				continent = europe
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				development = 40
 			}
 			AND = {
 				is_year = 1724
 				continent = europe
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				development = 36
 			}
 			AND = {
 				is_year = 1732
 				continent = europe
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				development = 32
 			}
 			AND = {
 				is_year = 1740
 				continent = europe
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				development = 24
 			}
 			AND = {
 				is_year = 1760
 				continent = europe
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				development = 32
 			}
 			AND = {
 				is_year = 1780
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 			}
 			AND = {
 				is_year = 1800
 				continent = europe
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				development = 24
 			}
 		}
@@ -6575,7 +7662,22 @@ enlightenment = {
 			factor = 0.12
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = western } }
+			potential = { 
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				} 
+			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_enlightenment
 				any_friendly_coast_border_province = { enlightenment = 100 }
@@ -6586,7 +7688,20 @@ enlightenment = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				NOT = { any_friendly_coast_border_province = { enlightenment = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -6604,7 +7719,18 @@ enlightenment = {
 			factor = 0.12
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = eastern } }
+			potential = { 
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				} 
+			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_enlightenment
 				any_friendly_coast_border_province = { enlightenment = 100 }
@@ -6615,7 +7741,16 @@ enlightenment = {
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
-				owner = { technology_group = eastern }
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
 				NOT = { any_friendly_coast_border_province = { enlightenment = 100 } }
 			}
 			custom_trigger_tooltip = {
@@ -6633,7 +7768,18 @@ enlightenment = {
 			factor = 0.11
 			scale = yes
 			force_potential = yes	# Hide the this modifier when potential is false
-			potential = { owner = { technology_group = ottoman } }
+			potential = {
+				owner = { 
+					OR = {
+					    technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian 
+					}
+				}
+			}
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_enlightenment
 				any_friendly_coast_border_province = { enlightenment = 100 }
@@ -7073,8 +8219,19 @@ enlightenment = {
 			force_potential = yes	# Hide the this modifier when potential is false
 			potential = {
 				is_in_capital_area = yes
-				owner = {
-					technology_group = western
+				owner = { 
+					OR = {
+					    technology_group = western
+					    technology_group = english
+					    technology_group = french
+					    technology_group = dutch
+					    technology_group = german_group
+					    technology_group = italian
+						technology_group = portuguese
+					    technology_group = scandinavian
+					    technology_group = spanish
+						technology_group = swiss
+					}
 				}
 			}
 			custom_trigger_tooltip = {
@@ -7083,7 +8240,18 @@ enlightenment = {
 				owner = {
 					is_great_power = yes
 					capital_scope = { continent = europe }
-					technology_group = western
+					OR = {
+					    technology_group = western
+					    technology_group = english
+					    technology_group = french
+					    technology_group = dutch
+					    technology_group = german_group
+					    technology_group = italian
+						technology_group = portuguese
+					    technology_group = scandinavian
+					    technology_group = spanish
+						technology_group = swiss
+					}
 				}
 			}
 		}
@@ -7096,7 +8264,18 @@ enlightenment = {
 				is_in_capital_area = yes
 				owner = {
 					is_former_colonial_nation = yes
-					technology_group = western
+					OR = {
+					    technology_group = western
+					    technology_group = english
+					    technology_group = french
+					    technology_group = dutch
+					    technology_group = german_group
+					    technology_group = italian
+						technology_group = portuguese
+					    technology_group = scandinavian
+					    technology_group = spanish
+						technology_group = swiss
+					}
 				}
 			}
 			custom_trigger_tooltip = {
@@ -7104,7 +8283,18 @@ enlightenment = {
 				is_in_capital_area = yes
 				owner = {
 					is_former_colonial_nation = yes
-					technology_group = western
+					OR = {
+					    technology_group = western
+					    technology_group = english
+					    technology_group = french
+					    technology_group = dutch
+					    technology_group = german_group
+					    technology_group = italian
+						technology_group = portuguese
+					    technology_group = scandinavian
+					    technology_group = spanish
+						technology_group = swiss
+					}
 				}
 			}
 		}
@@ -7367,13 +8557,39 @@ industrialization = { #Unmodified, pending Darth Modus rebalance.
 			AND = {
 				is_year = 1780
 				continent = europe
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 			}
 
 			AND = {
 				is_year = 1820
 				OR = {
-					owner = { technology_group = western }
+					owner = { 
+				        OR = {
+				            technology_group = western
+				            technology_group = english
+				            technology_group = french
+				            technology_group = dutch
+				            technology_group = german_group
+				            technology_group = italian
+				    		technology_group = portuguese
+				            technology_group = scandinavian
+				            technology_group = spanish
+				    		technology_group = swiss
+				        }
+				    }
 					continent = europe
 				}
 			}
@@ -8030,7 +9246,20 @@ imperialism = {
 			}
 			AND = {
 				is_year = 1840
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 			}
 		}
 	}
@@ -8384,7 +9613,20 @@ nationalism_institution = {
 	history = {
 		AND = {
 				is_year = 1860
-				owner = { technology_group = western }
+				owner = { 
+				    OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				    }
+				}
 				development = 35
 			}
 	}

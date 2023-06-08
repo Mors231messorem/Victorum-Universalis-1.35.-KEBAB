@@ -1,0 +1,10 @@
+government = monarchy
+add_government_reform = appanage_reform
+government_rank = 1
+primary_culture = cosmopolitan_french
+religion = catholic
+technology_group = western
+capital = 182	# Valois
+fixed_capital = 182 # Cannot move capital away from this province & no power cost to move to it
+
+#Is part of the French Royal Domain in 1215. 

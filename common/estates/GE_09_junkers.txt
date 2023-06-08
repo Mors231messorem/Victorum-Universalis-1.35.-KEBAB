@@ -49,7 +49,14 @@ estate_junkers = {
 	influence_modifier = {
 		desc = EST_VAL_EASTERN_TECH
 		trigger = {
-			technology_group = eastern
+			OR = {
+			    technology_group = bohemian
+				technology_group = byzantine
+				technology_group = eastern
+				technology_group = hungarian
+				technology_group = polish
+				technology_group = russian
+			}
 		}	
 		influence = 5
 	}

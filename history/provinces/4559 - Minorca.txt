@@ -17,7 +17,21 @@ capital = "Ciutadella"
 is_city = yes
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 discovered_by = muslim
 discovered_by = ottoman
 
@@ -26,8 +40,8 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-1462.1.1 = { unrest = 2 } # Remença peasant revolt, in parallel with the Catalan civil war.
-1472.1.1 = { unrest = 0 } # End of the First Remença revolt
+1462.1.1 = { unrest = 2 } # Remenï¿½a peasant revolt, in parallel with the Catalan civil war.
+1472.1.1 = { unrest = 0 } # End of the First Remenï¿½a revolt
 1516.1.23 = {
 	controller = SPA
 	owner = SPA
@@ -51,7 +65,7 @@ add_permanent_province_modifier = {
 1782.1.5 = {
 	controller = SPA
 	add_core = SPA
-	capital = "Mahón"
+	capital = "Mahï¿½n"
 }# Invasion of Menorca during American Revolutionary War
 1783.9.3 = {
 	owner = SPA

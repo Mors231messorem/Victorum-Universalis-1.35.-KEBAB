@@ -14,13 +14,27 @@ is_city = yes
 hre = no
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 #1444 on
 1531.11.10 = { unrest = 10 } # The Return of Christian II
 1532.7.15 = { unrest = 0 } # The Capture of Christian II
 1536.1.1 = { religion = protestant} # Unknown date
-1536.1.1 = { owner = DAN controller = DAN add_core = DAN } # 'Handfästningen'(Unknown date)
+1536.1.1 = { owner = DAN controller = DAN add_core = DAN } # 'Handfï¿½stningen'(Unknown date)
 1564.3.3 = { controller = SWE } # Nordic Seven-years War
 1564.5.21 = { controller = DAN } # Nordic Seven-years War
 1658.2.26 = { owner = SWE controller = SWE add_core = SWE } # The Peace of Roskilde

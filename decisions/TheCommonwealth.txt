@@ -48,9 +48,9 @@ country_decisions = {
 			}
 			if = {
 				limit = { has_country_flag = pol_tech_8_form_plc_flag }
-				adm_tech = 8
+				adm_tech = 24
 			}
-			else = { adm_tech = 10 }
+			else = { adm_tech = 26 }
 			is_subject = no
 			is_nomad = no
 			stability = 1
@@ -211,7 +211,7 @@ country_decisions = {
 				NOT = { num_of_cities = 61 } 
 				NOT = { liberty_desire = 25 }
 			} #Keep this number the same as in potential. Original 14+10
-			adm_tech = 10
+			adm_tech = 26
 			is_subject = no
 			is_nomad = no
 			stability = 3
@@ -371,7 +371,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			adm_tech = 10
+			adm_tech = 26
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			stability = 3

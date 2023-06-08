@@ -1,10 +1,10 @@
-#3096 - Nagykároly
+#3096 - Nagykï¿½roly
 
 owner = HUN
 controller = HUN 
 culture = hungarian
 religion = catholic
-capital = "Nagykároly"
+capital = "Nagykï¿½roly"
 trade_goods = vegetables
 hre = no
 base_tax = 1
@@ -24,7 +24,21 @@ add_permanent_province_modifier = {
 
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 discovered_by = muslim
 discovered_by = ottoman
 
@@ -38,7 +52,7 @@ discovered_by = ottoman
 	owner = TRA
 	controller = TRA
 	add_core = HAB
-} # Battle of Mohács, the end of the independent Kingdom of Hungary
+} # Battle of Mohï¿½cs, the end of the independent Kingdom of Hungary
 1540.1.1 = { religion = reformed }
 1551.7.19 = {
 	owner = HAB

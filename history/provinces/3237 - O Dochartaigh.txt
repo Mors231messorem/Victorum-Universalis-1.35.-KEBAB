@@ -14,9 +14,23 @@ capital = "O' Dochartaigh"
 is_city = yes
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 1602.1.3 = {
 	controller = ANI
@@ -41,7 +55,7 @@ discovered_by = eastern
 	remove_core = TRY
 	religion = catholic 
 	culture = irish
-	capital = "Dún na nGall"
+	capital = "Dï¿½n na nGall"
 } # Catholic Remonstrance signed, Beginning of Confederate Ireland. Still de jure under Charles I, it was effectively an independant polity for the duration of the revolt. How to handle this? personal union? revolt? might return and figure this out later.
 #This Rebellion was initially led by Sir Phelim O'Neill, and was intended to overthrow British rule rapidly, but quickly degenerated into attacks on colonists, in which dispossessed Irish slaughtered thousands of the colonists.
 

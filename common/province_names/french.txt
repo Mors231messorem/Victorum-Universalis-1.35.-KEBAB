@@ -246,6 +246,7 @@
 163 = "Crète"
 165 = "Berne"
 166 = "Waldstätten"
+169 = { "Côtes-du-Nord" "Saint-Brieuc" }
 181 = "Rethélois"
 188 = { "Metz" "Metz" }
 189 = "Lorraine"
@@ -322,6 +323,7 @@
 2992 = "Albengue"
 3001 = "Scopie"
 3003 = "Negroponte"
+3073 = { "Eure" "Évreux" }
 3091 = { "Mâcon" "Mâcon" }
 4174 = "Duras"
 4701 = "Corinthe"
@@ -351,6 +353,8 @@
 4779 = "Gallipoli"
 7944 = { "Bas-Rhin" "Haguenau" }
 7949 = { "Sarreguemines" "Sarreguemines" }
+7988 = { "Sablé" "La Flèche" }
+7995 = { "Côte d'Émeraude" "Cancale" }
 8459 = { "Amnéville" "Amnéville" }
 8461 = { "Forbach" "Forbach" }
 8463 = { "La Petite-Pierre" "La Petite-Pierre" }

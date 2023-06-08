@@ -11,11 +11,11 @@ walls_of_theodosius = {
 	move_days_per_unit_distance = 10
 	starting_tier = 3
 	type = monument
-	build_trigger = { }
+	build_trigger = { OR = { AND = { religion_group = christian has_owner_religion = yes } AND= { religion_group = muslim has_owner_religion = yes } } }
 	on_built = {}
 	on_destroyed = { hide_ambient_object = walls_of_theodosius }
-	can_use_modifiers_trigger = { }
-	can_upgrade_trigger = { }
+	can_use_modifiers_trigger = { OR = { AND = { religion_group = christian	has_owner_religion = yes } AND = { religion_group = muslim has_owner_religion = yes	} } }
+	can_upgrade_trigger = { OR = { AND = { religion_group = christian has_owner_religion = yes } AND= {	religion_group = muslim	has_owner_religion = yes } } }
 	keep_trigger = {}
 
 	tier_0 = {
@@ -2115,7 +2115,8 @@ krakow_main_square = {
         }
 
         province_modifiers = {
-		    province_trade_power_modifier = 0.15
+		    province_trade_power_modifier = 0.2
+			local_development_cost = -0.1
         }
 
         area_modifier = {
@@ -2123,9 +2124,9 @@ krakow_main_square = {
         }
 
         country_modifiers = {
-		    burghers_loyalty_modifier = 0.1
+		    burghers_loyalty_modifier = 0.2
  		    merchants = 1
-		    diplomatic_upkeep = 1
+		    diplomatic_upkeep = 2
 		}
 
         on_upgraded = {
@@ -2461,9 +2462,9 @@ drottningholm_palace = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_tax_modifier = 0.2
-			improve_relation_modifier = 0.1
-			vassal_income = 0.1
+			global_tax_modifier = 0.3
+			improve_relation_modifier = 0.2
+			vassal_income = 0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -2754,6 +2755,7 @@ frauenkirche = {
 		    religious_unity = 0.1
 			global_missionary_strength = 0.02
 			missionaries = 1
+			relation_with_same_religion = 5
 		}
 
         on_upgraded = {
@@ -2777,10 +2779,11 @@ frauenkirche = {
         }
 
         country_modifiers = {
-		    church_loyalty_modifier = 0.15
-		    religious_unity = 0.1
-			global_missionary_strength = 0.02
+		    church_loyalty_modifier = 0.2
+		    religious_unity = 0.2
+			global_missionary_strength = 0.03
 			missionaries = 1
+			relation_with_same_religion = 10
 		}
 
         on_upgraded = {
@@ -2933,10 +2936,11 @@ wormser_dom = {
         }
 
         country_modifiers = {
-		    church_loyalty_modifier = 0.15
-		    religious_unity = 0.1
-			global_missionary_strength = 0.02
+		    church_loyalty_modifier = 0.2
+		    religious_unity = 0.15
+			global_missionary_strength = 0.03
 			missionaries = 1
+			relation_with_same_religion = 10
 		}
 
         on_upgraded = {
@@ -3202,6 +3206,7 @@ universidad_de_salamanca = {
 		    church_loyalty_modifier = 0.1
 		    religious_unity = 0.05
 			global_missionary_strength = 0.01
+	        technology_cost = -0.05
         }
 
         on_upgraded = {
@@ -3229,6 +3234,7 @@ universidad_de_salamanca = {
 		    religious_unity = 0.1
 			global_missionary_strength = 0.02
 			missionaries = 1
+			technology_cost = -0.075
 		}
 
         on_upgraded = {
@@ -3252,10 +3258,11 @@ universidad_de_salamanca = {
         }
 
         country_modifiers = {
-		    church_loyalty_modifier = 0.15
-		    religious_unity = 0.1
-			global_missionary_strength = 0.02
+		    church_loyalty_modifier = 0.20
+		    religious_unity = 0.2
+			global_missionary_strength = 0.03
 			missionaries = 1
+			technology_cost = -0.1
 		}
 
         on_upgraded = {
@@ -3600,7 +3607,7 @@ oxford_university = {
 }
 
 uffington_white_horse = {
-    start = 237
+    start = 8170
     
     date = 1380.01.01 #BCE
     
@@ -3690,8 +3697,9 @@ uffington_white_horse = {
         }
 
         country_modifiers = {
+			advisor_cost = -0.05
 		    build_time = -0.01 #The horse is believed to represent a tribal symbol, perhaps connected with the builders of Uffington Castle?
-			relation_with_heathens = -10 #The horse is also believed to have some sort of religious significance and correlation with sun worshiping in the region?
+			relation_with_heathens = -5 #The horse is also believed to have some sort of religious significance and correlation with sun worshiping in the region?
         }
 
         on_upgraded = {
@@ -3714,8 +3722,9 @@ uffington_white_horse = {
         }
 
         country_modifiers = {
-			build_time = -0.02 #The horse is believed to represent a tribal symbol, perhaps connected with the builders of Uffington Castle?
-			relation_with_heathens = -20 #The horse is also believed to have some sort of religious significance and correlation with sun worshiping in the region?
+			advisor_cost = -0.1
+			build_time = -0.05 #The horse is believed to represent a tribal symbol, perhaps connected with the builders of Uffington Castle?
+			relation_with_heathens = -10 #The horse is also believed to have some sort of religious significance and correlation with sun worshiping in the region?
 		}
 
         on_upgraded = {
@@ -3738,8 +3747,10 @@ uffington_white_horse = {
         }
 
         country_modifiers = {
-			build_time = -0.03 #The horse is believed to represent a tribal symbol, perhaps connected with the builders of Uffington Castle?
-			relation_with_heathens = -30 #The horse is also believed to have some sort of religious significance and correlation with sun worshiping in the region?
+			advisor_cost = -0.15
+			advisor_pool = 1
+			build_time = -0.1 #The horse is believed to represent a tribal symbol, perhaps connected with the builders of Uffington Castle?
+			relation_with_heathens = -15 #The horse is also believed to have some sort of religious significance and correlation with sun worshiping in the region?
         }
 
         on_upgraded = {
@@ -3891,9 +3902,9 @@ sorbonne_university = {
         }
 
         country_modifiers = {
-		    church_loyalty_modifier = 0.15
-		    religious_unity = 0.1
-			global_missionary_strength = 0.02
+		    church_loyalty_modifier = 0.2
+		    religious_unity = 0.2
+			global_missionary_strength = 0.03
 			missionaries = 1
 		}
 
@@ -4535,16 +4546,17 @@ old_london_bridge = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			trade_goods_size_modifier = 0.05
+			local_development_cost = -0.05
+			local_development_cost_modifier = -0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -4569,13 +4581,17 @@ old_london_bridge = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
+			province_trade_power_modifier = 0.05
+			trade_goods_size_modifier = 0.1
+			local_unrest = -0.05
+			local_development_cost = -0.1
+			local_development_cost_modifier = -0.1
+			local_production_efficiency = 0.05
+			local_tax_modifier = 0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -4600,12 +4616,17 @@ old_london_bridge = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
+			province_trade_power_modifier = 0.1
+			trade_goods_size_modifier = 0.20
+			local_unrest = -1
+			local_development_cost = -0.2
+			local_development_cost_modifier = -0.20
+			local_production_efficiency = 0.1
+			local_tax_modifier = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
 			prestige = 0.25
 		}
 
@@ -5673,7 +5694,7 @@ bastille = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			
+		discipline = 0.05	
 		}
 
 		#what effects happen when this tier is achieved
@@ -5701,8 +5722,11 @@ de_wallen = {
     
     type = monument
 
-    build_trigger = {
-        culture_group = low_franconian
+     build_trigger = {
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -5716,7 +5740,10 @@ de_wallen = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -5724,7 +5751,10 @@ de_wallen = {
     }
 
     can_upgrade_trigger = {
-		culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		is_year = 1811
 		OR = {
 			has_owner_culture = yes
@@ -5770,7 +5800,12 @@ de_wallen = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			tax_income = 6
+			local_tax_modifier = 0.05
+			local_production_efficiency = 0.05
+			province_trade_power_modifier = 0.05
+			province_trade_power_value = 5
+			trade_goods_size_modifier = 0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -5779,7 +5814,6 @@ de_wallen = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -5800,16 +5834,24 @@ de_wallen = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			tax_income = 12
+			local_tax_modifier = 0.1
+			local_production_efficiency = 0.1
+			province_trade_power_modifier = 0.15
+			province_trade_power_value = 10
+			trade_goods_size_modifier = 0.10
+			local_unrest = 1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_tax_modifier = 0.05
+			local_production_efficiency = 0.05
+			province_trade_power_modifier = 0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -5830,16 +5872,24 @@ de_wallen = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			tax_income = 24
+			local_tax_modifier = 0.2
+			local_production_efficiency = 0.2
+			province_trade_power_modifier = 0.25
+			province_trade_power_value = 20
+			trade_goods_size_modifier = 0.20
+			local_unrest = 2
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_tax_modifier = 0.1
+			local_production_efficiency = 0.1
+			province_trade_power_modifier = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
 		}
 
 		#what effects happen when this tier is achieved
@@ -5868,7 +5918,10 @@ nieuwezijds_voorburgwal = {
     type = monument
 
     build_trigger = {
-        culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -5882,7 +5935,10 @@ nieuwezijds_voorburgwal = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -5890,7 +5946,10 @@ nieuwezijds_voorburgwal = {
     }
 
     can_upgrade_trigger = {
-		culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -5922,94 +5981,29 @@ nieuwezijds_voorburgwal = {
         }
     }
 
-    tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+   tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = { local_defensiveness = 0.11 local_development_cost = -0.05 }
+		area_modifier = { local_hostile_attrition = 0.5 local_monthly_devastation = -0.01 defensiveness = 0.05}
+		country_modifiers = { }
+		on_upgraded = { }
 	}
-	
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 4500 }
+		province_modifiers = { local_defensiveness = 0.22 local_development_cost = -0.1 }
+		area_modifier = { local_hostile_attrition = 1 local_monthly_devastation = -0.05 local_manpower_modifier = 0.05 local_development_cost = -0.05	 }
+		country_modifiers = {  }
+		on_upgraded = { }
 	}
-	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 9000 }
+		province_modifiers = { 	fort_level = 1 	local_defensiveness = 0.33 local_development_cost = -0.15 }
+		area_modifier = { local_hostile_attrition = 2 local_monthly_devastation = -0.1 local_manpower_modifier = 0.10 local_development_cost = -0.1}
+		country_modifiers = { defensiveness = 0.10  }
+		on_upgraded = { }
 	}
 }
 
@@ -6115,93 +6109,28 @@ castel_del_monte = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = { local_defensiveness = 0.05 local_manpower_modifier = 0.05 }
+		area_modifier = { local_hostile_attrition = 0.5 local_monthly_devastation = -0.01 defensiveness = 0.05}
+		country_modifiers = { }
+		on_upgraded = { }
 	}
-	
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 4500 }
+		province_modifiers = { local_defensiveness = 0.1 local_manpower_modifier = 0.10 local_garrison_size = 0.05 }
+		area_modifier = { local_hostile_attrition = 1 local_monthly_devastation = -0.05 local_manpower_modifier = 0.05 }
+		country_modifiers = { reinforce_speed = 0.05  rival_border_fort_maintenance = -0.05 defensiveness = 0.10 }
+		on_upgraded = { }
 	}
-	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 9000 }
+		province_modifiers = { 	fort_level = 1 	local_defensiveness = 0.15 local_manpower_modifier = 0.15 local_garrison_size = 0.10 }
+		area_modifier = { local_hostile_attrition = 2 local_monthly_devastation = -0.1 local_manpower_modifier = 0.10}
+		country_modifiers = { reinforce_speed = 0.10 rival_border_fort_maintenance = -0.10 defensiveness = 0.15 }
+		on_upgraded = { }
 	}
 }
 
@@ -6288,13 +6217,15 @@ de_domkerk = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_missionary_strength = 0.005
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_missionary_strength = 0.01
-			religious_unity = 0.05
-			church_power_modifier = 0.10
+			tolerance_own = 0.5
+			papal_influence = 0.5
+			monthly_fervor_increase = 0.25
+			church_power_modifier = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -6320,13 +6251,16 @@ de_domkerk = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_missionary_strength = 0.01
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_missionary_strength = 0.01
-			religious_unity = 0.05
+			tolerance_own = 1
+			papal_influence = 1
+			monthly_fervor_increase = 0.5
 			church_power_modifier = 0.10
+			institution_spread_from_true_faith = 0.20
 		}
 
 		#what effects happen when this tier is achieved
@@ -6352,13 +6286,16 @@ de_domkerk = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_missionary_strength = 0.02
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			global_missionary_strength = 0.01
-			religious_unity = 0.05
-			church_power_modifier = 0.10
+			tolerance_own = 2
+			papal_influence = 1
+			monthly_fervor_increase = 1
+			church_power_modifier = 0.15
+			institution_spread_from_true_faith = 0.50
 		}
 
 		#what effects happen when this tier is achieved
@@ -6388,7 +6325,10 @@ het_binnenhof = {
 
     build_trigger = {
 	    is_year = 1584
-        culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6405,9 +6345,8 @@ het_binnenhof = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
+				culture_group = germanic		 
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -6418,9 +6357,8 @@ het_binnenhof = {
 		has_owner_accepted_culture = yes
 		owner = {
 			OR = {
-				primary_culture = frisian
-				primary_culture = dutch
-				primary_culture = flemish
+				culture_group = low_franconian
+				culture_group = germanic	 
 				primary_culture = wallonian
 				primary_culture = burgundian
 			}
@@ -6765,7 +6703,10 @@ paleis_op_de_dam = {
 
     build_trigger = {
 	    is_year = 1648
-        culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6779,7 +6720,10 @@ paleis_op_de_dam = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6787,7 +6731,10 @@ paleis_op_de_dam = {
     }
 
     can_upgrade_trigger = {
-		culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6930,7 +6877,10 @@ windmolen = {
     type = monument
 
     build_trigger = {
-        culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6944,7 +6894,10 @@ windmolen = {
     }
 
     can_use_modifiers_trigger = {
-	    culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6952,7 +6905,10 @@ windmolen = {
     }
 
     can_upgrade_trigger = {
-		culture_group = low_franconian
+	    OR = {
+	        culture_group = low_franconian
+	        culture_group = germanic
+	    }
 		OR = {
 			has_owner_culture = yes
 			has_owner_accepted_culture = yes
@@ -6992,17 +6948,23 @@ windmolen = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 4500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
 			local_development_cost = -0.10
+			local_production_efficiency = 0.1
+			province_trade_power_modifier = 0.1
+			trade_goods_size_modifier = 0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
 			local_development_cost = -0.05
+			local_production_efficiency = 0.05
+			province_trade_power_modifier = 0.05
+			trade_goods_size_modifier = 0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -7022,21 +6984,28 @@ windmolen = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 9000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_development_cost = -0.10
+			local_development_cost = -0.20
+			local_production_efficiency = 0.2
+			province_trade_power_modifier = 0.2
+			trade_goods_size_modifier = 0.2
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_development_cost = -0.05
+			local_development_cost = -0.1
+			local_production_efficiency = 0.1
+			province_trade_power_modifier = 0.1
+			trade_goods_size_modifier = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			development_cost = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -7052,21 +7021,31 @@ windmolen = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 14000
+			factor = 16000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_development_cost = -0.10
+			local_development_cost = -0.30
+			local_production_efficiency = 0.30
+			province_trade_power_modifier = 0.3
+			trade_goods_size_modifier = 0.3
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_development_cost = -0.05
+			local_development_cost = -0.15
+			local_production_efficiency = 0.15
+			province_trade_power_modifier = 0.15
+			trade_goods_size_modifier = 0.15
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
+			development_cost = -0.10
+			production_efficiency = 0.05
+			global_prov_trade_power_modifier = 0.05
+			global_trade_goods_size_modifier = 0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -7370,92 +7349,75 @@ ponte_vecchio = {
         }
     }
 
-    tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
+	tier_1 = {
 		upgrade_time = {
-			months = 240
+			months = 120
 		}
 
-		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 500
 		}
 
-		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_friendly_movement_speed = 0.05
 		}
 
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			supply_limit = 1
 		}
 
-		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
 		}
 
-		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
 	}
-	
+
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
-			months = 480
+			months = 120
 		}
-
-		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 500
 		}
 
-		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_friendly_movement_speed = 0.1
 		}
 
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			supply_limit = 3
 		}
 
-		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
-		}
+			caravan_power = 0.1
+		}	
 
-		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
 	}
 	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
-			months = 960
+			months = 120
 		}
 
-		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 14000
+			factor = 500
 		}
 
-		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_friendly_movement_speed = 0.15
 		}
 
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			supply_limit = 5
 		}
 
-		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
+			caravan_power = 0.15
 		}
 
-		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
 	}
@@ -8047,7 +8009,7 @@ alcazar_de_seville = {
     tier_1 = {
 		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
-			months = 240
+			months = 120
 		}
 
 		#cost to upgrade to this level (0 for tier 0)
@@ -8057,7 +8019,6 @@ alcazar_de_seville = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -8066,7 +8027,8 @@ alcazar_de_seville = {
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
+			global_tax_modifier = 0.1
+			improve_relation_modifier = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -8091,13 +8053,13 @@ alcazar_de_seville = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
+			global_tax_modifier = 0.15
+			improve_relation_modifier = 0.15
+			vassal_income = 0.1
 		}
 
 		#what effects happen when this tier is achieved
@@ -8122,13 +8084,13 @@ alcazar_de_seville = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
+			global_tax_modifier = 0.2
+			improve_relation_modifier = 0.2
+			vassal_income = 0.2
 		}
 
 		#what effects happen when this tier is achieved
@@ -8393,93 +8355,28 @@ basel_town_hall = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 3500 }
+		province_modifiers = { local_state_maintenance_modifier = -0.25 }
+		area_modifier = { local_warscore_cost_modifier = 0.2 }
+		country_modifiers = { republican_tradition = 0.5 reelection_cost = -0.15 }
+		on_upgraded = {}
 	}
-	
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 7000 }
+		province_modifiers = { local_state_maintenance_modifier = -0.35 statewide_governing_cost = -0.25 }
+		area_modifier = { local_warscore_cost_modifier = 0.3 }
+		country_modifiers = { republican_tradition = 1 reelection_cost = -0.25  }
+		on_upgraded = {}
 	}
-	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 14000 }
+		province_modifiers = { local_state_maintenance_modifier = -0.55 statewide_governing_cost = -0.45 }
+		area_modifier = { local_warscore_cost_modifier = 0.5 local_development_cost = -0.2 }
+		country_modifiers = { republican_tradition = 2 reelection_cost = -0.5 }
+		on_upgraded = {}
 	}
 }
 
@@ -8549,95 +8446,28 @@ basilica_di_san_marco = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = {	factor = 3500 }
+		province_modifiers = {  }
+		area_modifier = { local_tax_modifier = 0.05 }
+		country_modifiers = { missionary_maintenance_cost = -0.05 }
+		on_upgraded = {}
 	}
-
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = {	factor = 7000 }
+		province_modifiers = { tax_income = 12 local_development_cost = -0.05 }
+		area_modifier = {  local_tax_modifier = 0.1}
+		country_modifiers = { global_missionary_strength = 0.01 missionary_maintenance_cost = -0.1 tolerance_own = 1 tolerance_heretic = 1 }
+		on_upgraded = {}
 	}
-
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.5
-			prestige = 0.5
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 960 }
+		cost_to_upgrade = {	factor = 14000 }
+		province_modifiers = { min_local_autonomy = -10 tax_income = 24 local_development_cost = -0.1 }
+		area_modifier = { local_tax_modifier = 0.2 }
+		country_modifiers = { global_missionary_strength = 0.02 tolerance_own = 2 tolerance_heretic = 2 missionary_maintenance_cost = -0.2 relation_with_heretics = 25 }
+		on_upgraded = { }
 	}
 }
 
@@ -8717,93 +8547,28 @@ beogradska_tvrdava = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = { local_defensiveness = 0.05 local_manpower_modifier = 0.05 }
+		area_modifier = { local_hostile_attrition = 0.5 local_monthly_devastation = -0.01 defensiveness = 0.05}
+		country_modifiers = { }
+		on_upgraded = { }
 	}
-	
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 4500 }
+		province_modifiers = { local_defensiveness = 0.1 local_manpower_modifier = 0.10 local_garrison_size = 0.05 }
+		area_modifier = { local_hostile_attrition = 1 local_monthly_devastation = -0.05 local_manpower_modifier = 0.05 }
+		country_modifiers = { reinforce_speed = 0.05  rival_border_fort_maintenance = -0.05 defensiveness = 0.10 }
+		on_upgraded = { }
 	}
-	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 9000 }
+		province_modifiers = { 	fort_level = 1 	local_defensiveness = 0.15 local_manpower_modifier = 0.15 local_garrison_size = 0.10 }
+		area_modifier = { local_hostile_attrition = 2 local_monthly_devastation = -0.1 local_manpower_modifier = 0.10}
+		country_modifiers = { reinforce_speed = 0.10 rival_border_fort_maintenance = -0.10 defensiveness = 0.15 }
+		on_upgraded = { }
 	}
 }
 
@@ -8883,93 +8648,28 @@ bratislava_castle = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = { local_defensiveness = 0.05 local_manpower_modifier = 0.05 }
+		area_modifier = { local_hostile_attrition = 0.5 local_monthly_devastation = -0.01 }
+		country_modifiers = { discipline = 0.05 infantry_power = 0.05 }
+		on_upgraded = { }
 	}
-	
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 4500 }
+		province_modifiers = { local_defensiveness = 0.1 local_manpower_modifier = 0.15 local_garrison_size = 0.05 }
+		area_modifier = { local_hostile_attrition = 1 local_monthly_devastation = -0.05 }
+		country_modifiers = { discipline = 0.1 infantry_power = 0.10 }
+		on_upgraded = { }
 	}
-	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 9000 }
+		province_modifiers = { 	fort_level = 1 	local_defensiveness = 0.15 local_manpower_modifier = 0.25 local_garrison_size = 0.10 }
+		area_modifier = { local_hostile_attrition = 2 local_monthly_devastation = -0.1}
+		country_modifiers = { 	discipline = 0.15 infantry_power = 0.15 }
+		on_upgraded = { }
 	}
 }
 
@@ -9075,95 +8775,28 @@ castello_sforzesco = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = { local_defensiveness = 0.05 local_manpower_modifier = 0.05 }
+		area_modifier = { local_hostile_attrition = 0.5 local_monthly_devastation = -0.01 defensiveness = 0.05}
+		country_modifiers = { global_garrison_growth = 0.05 }
+		on_upgraded = { }
 	}
-	
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 4500 }
+		province_modifiers = { local_defensiveness = 0.1 local_manpower_modifier = 0.10 local_garrison_size = 0.05 }
+		area_modifier = { local_hostile_attrition = 1 local_monthly_devastation = -0.05 local_manpower_modifier = 0.05 }
+		country_modifiers = { global_garrison_growth = 0.10 siege_ability = 0.05 land_forcelimit_modifier = 0.05 }
+		on_upgraded = { }
 	}
-	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 9000 }
+		province_modifiers = { 	fort_level = 1 	local_defensiveness = 0.15 local_manpower_modifier = 0.15 local_garrison_size = 0.10 }
+		area_modifier = { local_hostile_attrition = 2 local_monthly_devastation = -0.1 local_manpower_modifier = 0.10}
+		country_modifiers = { 	global_garrison_growth = 0.15 siege_ability = 0.10 land_forcelimit_modifier = 0.10 }
+		on_upgraded = { }
 	}
 }
 
@@ -9260,93 +8893,28 @@ chillon_castle = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = { local_defensiveness = 0.05 local_manpower_modifier = 0.05 }
+		area_modifier = { }
+		country_modifiers = { mercenary_cost = -0.15 merc_maintenance_modifier = -0.05	mercenary_manpower = 0.10 }
+		on_upgraded = { }
 	}
-	
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 4500 }
+		province_modifiers = { local_defensiveness = 0.1 local_manpower_modifier = 0.10 local_garrison_size = 0.05 }
+		area_modifier = { local_hostile_attrition = 1 local_monthly_devastation = -0.05 local_manpower_modifier = 0.05 }
+		country_modifiers = {  mercenary_cost = -0.25 merc_maintenance_modifier = -0.15 mercenary_discipline = 0.05 	mercenary_manpower = 0.20 }
+		on_upgraded = { }
 	}
-	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 9000 }
+		province_modifiers = { 	fort_level = 1 	local_defensiveness = 0.15 local_manpower_modifier = 0.15 local_garrison_size = 0.10 }
+		area_modifier = { local_hostile_attrition = 2 local_monthly_devastation = -0.1 local_manpower_modifier = 0.10}
+		country_modifiers = { mercenary_cost = -0.5 merc_maintenance_modifier = -0.25 mercenary_discipline = 0.10 	mercenary_manpower = 0.25}
+		on_upgraded = { }
 	}
 }
 
@@ -9425,94 +8993,93 @@ danzig_town_hall = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
+        upgrade_time = {
+            months = 120
+        }
+
+        cost_to_upgrade = {
+            factor = 6000
+        }
+
+        province_modifiers = {
+			local_development_cost = -0.05
+		   local_institution_spread = 0.1
+		local_governing_cost = -0.1
+        }
+
+        area_modifier = {
+		    local_monthly_devastation = -0.1
+	local_governing_cost = -0.1
+        }
+
+        country_modifiers = {
 		}
 
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
+        on_upgraded = {
+        }
+    }
 	
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
+        upgrade_time = {
+            months = 240
+        }
+
+        cost_to_upgrade = {
+            factor = 8000
+        }
+
+        province_modifiers = {
+	local_development_cost = -0.1
+		    local_institution_spread = 0.15
+				local_governing_cost = -0.15
+        }
+
+        area_modifier = {
+		    local_monthly_devastation = -0.15
+			local_governing_cost = -0.15
+        }
+
+        country_modifiers = {
+        	republican_tradition = 0.75
+		    state_governing_cost = -0.05
+			reform_progress_growth = 0.1
 		}
 
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
+        on_upgraded = {
+        }
+    }
 	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
+        upgrade_time = {
+            months = 480
+        }
+
+        cost_to_upgrade = {
+            factor = 10000
+        }
+
+        province_modifiers = {
+	local_development_cost = -0.15
+		    local_institution_spread = 0.2
+				local_governing_cost = -0.25
+        }
+
+        area_modifier = {
+		    local_monthly_devastation = -0.2
+			local_friendly_movement_speed = 0.1
+				local_governing_cost = -0.25
+        }
+
+        country_modifiers = {
+        	republican_tradition = 0.5
+			reform_progress_growth = 0.2
+		    state_governing_cost = -0.10
+			candidate_random_bonus = 1
 		}
 
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
+        on_upgraded = {
+        }
+    }
 }
 
 diocletian_palace = {
@@ -9599,93 +9166,49 @@ diocletian_palace = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_governing_cost = -0.10
+			local_defensiveness = 0.15
+			regiment_recruit_speed = -0.25
+			local_regiment_cost = -0.05
 		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		area_modifier = { }
+		country_modifiers = { 			governing_cost = -0.05 }
+		on_upgraded = { }
 	}
-	
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 2500 }
 		province_modifiers = {
+			local_state_maintenance_modifier = -0.15
+			local_governing_cost = -0.20
 			local_defensiveness = 0.25
+			regiment_recruit_speed = -0.50
+			local_regiment_cost = -0.10
 		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		area_modifier = { }
+		country_modifiers = { 			governing_cost= -0.15 }
+		on_upgraded = { }
 	}
-	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 5000 }
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_state_maintenance_modifier = -0.25
+			local_defensiveness = 0.33
+			local_regiment_cost = -0.15
 		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			regiment_recruit_speed = -0.75
 		}
-
-		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
+			governing_cost = -0.25
+			prestige = 0.5
+			legitimacy = 0.5
 		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		on_upgraded = { }
 	}
 }
 
@@ -9765,93 +9288,42 @@ matthias_church = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_tax_modifier = 0.15
 		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		area_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
 	}
-	
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 2500 }
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_tax_modifier = 0.25
 		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
+		area_modifier = { }
 		country_modifiers = {
-			army_tradition = 0.25
+			church_loyalty_modifier = 0.05
 		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		on_upgraded = { }
 	}
-	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 5000 }
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_tax_modifier = 0.33
 		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
+		area_modifier = { }
 		country_modifiers = {
-			army_tradition = 0.25
+			church_loyalty_modifier = 0.05
+			tolerance_heretic = 1
+			tolerance_of_heretics_capacity = 1
+			tolerance_heathen = 1
+			tolerance_of_heathens_capacity = 1
 		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		on_upgraded = { }
 	}
 }
 
@@ -9931,93 +9403,28 @@ fishermans_bastion = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = {	factor = 3500 }
+		province_modifiers = {  }
+		area_modifier = { local_tax_modifier = 0.05 }
+		country_modifiers = { monthly_church_power = 0.01 relation_with_same_religion = 5}
+		on_upgraded = {}
 	}
-	
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = {	factor = 4000 }
+		province_modifiers = { local_development_cost = -0.05 }
+		area_modifier = {  local_tax_modifier = 0.1  }
+		country_modifiers = { monthly_church_power = 0.02 relation_with_same_religion = 15 	global_tax_modifier = 0.05}
+		on_upgraded = {}
 	}
-	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 960 }
+		cost_to_upgrade = {	factor = 9000 }
+		province_modifiers = {  local_development_cost = -0.1 }
+		area_modifier = { local_tax_modifier = 0.2  }
+		country_modifiers = { missionaries = 1 	monthly_church_power = 0.03 relation_with_same_religion = 25 	global_tax_modifier = 0.1}
+		on_upgraded = { }
 	}
 }
 
@@ -10109,23 +9516,28 @@ kalmar_castle = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			trade_value_modifier = 0.075
+			local_defensiveness = 0.05
+			local_defensiveness = 0.05
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_tax_modifier = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
+			improve_relation_modifier = 0.1
+			stability_cost_modifier = -0.01
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			add_prestige = 5
 		}
 	}
-
+	
 	tier_2 = {
 		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
@@ -10139,21 +9551,29 @@ kalmar_castle = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			local_defensiveness = 0.05
+			trade_value_modifier = 0.125
+			statewide_governing_cost = -0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
+			local_tax_modifier = 0.2
+			local_build_cost = -0.2
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
+			improve_relation_modifier = 0.2
+			stability_cost_modifier = -0.02
+			diplomatic_reputation = 1
+			liberty_desire_from_subject_development = -0.10
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			add_prestige = 5
+			add_splendor = 50
 		}
 	}
 	
@@ -10170,21 +9590,30 @@ kalmar_castle = {
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			trade_value_modifier = 0.3
+			local_defensiveness = 0.1
+			local_development_cost = -0.05
+			statewide_governing_cost = -0.15
+			local_state_maintenance_modifier = -0.1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
-			local_defensiveness = 0.25
+			local_tax_modifier = 0.3
+			local_build_cost = -0.3
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
+			improve_relation_modifier = 0.3
+			stability_cost_modifier = -0.03
+			diplomatic_reputation = 2
+			liberty_desire_from_subject_development = -0.20
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			add_prestige = 5
 		}
 	}
 }
@@ -10459,94 +9888,82 @@ borgund_stavkirke = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
+        upgrade_time = {
+            months = 240
+        }
 
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
+        cost_to_upgrade = {
+            factor = 3500
+        }
 
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
+        province_modifiers = {
+        }
 
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
+        area_modifier = {
+        }
 
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
+        country_modifiers = {
+		    church_loyalty_modifier = 0.1
+		    religious_unity = 0.05
+			global_missionary_strength = 0.01
+        }
 
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
+        on_upgraded = {
+        }
+    }
 	
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
+        upgrade_time = {
+            months = 480
+        }
+
+        cost_to_upgrade = {
+            factor = 7000
+        }
+
+        province_modifiers = {
+        }
+
+        area_modifier = {
+        }
+
+        country_modifiers = {
+		    church_loyalty_modifier = 0.15
+		    religious_unity = 0.1
+			global_missionary_strength = 0.02
+			missionaries = 1
 		}
 
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
+        on_upgraded = {
+        }
+    }
 	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
+        upgrade_time = {
+            months = 960
+        }
+
+        cost_to_upgrade = {
+            factor = 14000
+        }
+
+        province_modifiers = {
+        }
+
+        area_modifier = {
+        }
+
+        country_modifiers = {
+		    church_loyalty_modifier = 0.2
+		    religious_unity = 0.15
+			global_missionary_strength = 0.03
+			missionaries = 1
+			relation_with_same_religion = 10
 		}
 
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
-	}
+        on_upgraded = {
+        }
+    }
 }
 
 uppsala_domkyrka = {
@@ -10625,95 +10042,44 @@ uppsala_domkyrka = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_tax_modifier = 0.10
 		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
+		area_modifier = { }
 		country_modifiers = {
-			army_tradition = 0.25
+			monthly_church_power = 0.1
 		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		on_upgraded = { }
 	}
-
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 2500 }
 		province_modifiers = {
+			local_tax_modifier = 0.15
 		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
+		area_modifier = { }
 		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
+			monthly_church_power = 0.3
+			papal_influence = 1
 		}
-
-		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
 	}
-	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 5000 }
 		province_modifiers = {
+			local_tax_modifier = 0.20
 		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
+		area_modifier = { }
 		country_modifiers = {
-			army_tradition = 0.25
-			prestige = 0.25
+			monthly_church_power = 0.5
+			tolerance_own = 1
+			missionaries = 1
 		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		on_upgraded = { }
 	}
 }
 
@@ -10812,86 +10178,99 @@ zytglogge = {
     tier_1 = {
 		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
-			months = 240
+			months = 12
 		}
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 3500
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_development_cost = -0.1
+			trade_goods_size_modifier = 0.10
+			local_unrest = -0.5
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			trade_goods_size_modifier = 0.05
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
+			global_tax_modifier = 0.05
+			stability_cost_modifier = -0.05
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
 	}
-	
+
 	tier_2 = {
 		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
-			months = 480
+			months = 24
 		}
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 7000
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_development_cost = -0.15
+			trade_goods_size_modifier = 0.20
+			local_unrest = -1
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			trade_goods_size_modifier = 0.1
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
+			global_tax_modifier = 0.10
+			stability_cost_modifier = -0.10
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
 	}
-	
+
 	tier_3 = {
 		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
-			months = 960
+			months = 24
 		}
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 14000
+			factor = 1500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
-			local_defensiveness = 0.25
+			local_development_cost = -0.2
+			trade_goods_size_modifier = 0.30
+			local_unrest = -2
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.1
+			trade_goods_size_modifier = 0.20
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			army_tradition = 0.25
+			global_tax_modifier = 0.15
+			stability_cost_modifier = -0.15
 		}
 
 		#what effects happen when this tier is achieved
@@ -11006,93 +10385,28 @@ kazan_kremlin = {
     }
 
     tier_1 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 240
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 3500
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = { local_defensiveness = 0.05 local_manpower_modifier = 0.05 }
+		area_modifier = { local_hostile_attrition = 0.5 local_monthly_devastation = -0.01 }
+		country_modifiers = { army_tradition = 0.5 }
+		on_upgraded = { }
 	}
-	
 	tier_2 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 480
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 7000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 4500 }
+		province_modifiers = { local_defensiveness = 0.1 local_manpower_modifier = 0.10 local_garrison_size = 0.05 local_development_cost = -0.05 local_production_efficiency = 0.05 }
+		area_modifier = { local_hostile_attrition = 1 local_monthly_devastation = -0.05 local_manpower_modifier = 0.05 }
+		country_modifiers = { army_tradition = 0.75 cavalry_power = 0.05 cav_to_inf_ratio = 0.05 general_cost = -0.05 }
+		on_upgraded = { }
 	}
-	
 	tier_3 = {
-		#time to upgrade to this level (0 for tier 0)
-		upgrade_time = {
-			months = 960
-		}
-
-		#cost to upgrade to this level (0 for tier 0)
-		cost_to_upgrade = {
-			factor = 14000
-		}
-
-		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {
-			local_defensiveness = 0.25
-		}
-
-		#what modifiers are added to the provinces in the map area when we have this project here on this tier
-		area_modifier = {
-		}
-
-		#what modifiers are added to the country when we have this project here on this tier
-		country_modifiers = {
-			army_tradition = 0.25
-		}
-
-		#what effects happen when this tier is achieved
-		on_upgraded = {
-		}
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 9000 }
+		province_modifiers = { 	fort_level = 1 	local_defensiveness = 0.15 local_manpower_modifier = 0.2 local_garrison_size = 0.10 local_development_cost = -0.10 local_production_efficiency = 0.1 }
+		area_modifier = { local_hostile_attrition = 2 local_monthly_devastation = -0.1 local_manpower_modifier = 0.10}
+		country_modifiers = { army_tradition = 1 cavalry_power = 0.10 cav_to_inf_ratio = 0.10 general_cost = -0.10}
+		on_upgraded = { }
 	}
 }
 

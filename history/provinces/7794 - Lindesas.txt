@@ -5,7 +5,7 @@ controller = SWE
 add_core = SWE
 culture = swedish
 religion = catholic
-capital = "Lindesås"
+capital = "Lindesï¿½s"
 base_tax = 1
 base_production = 1
 base_manpower = 1
@@ -14,10 +14,24 @@ is_city = yes
 hre = no
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 1434.6.1 = { revolt = { type = anti_tax_rebels size = 2 name = "Engelbrekt" } controller = REB } # Engelbrekt rebellion
-1436.4.27 = { revolt = {} controller = SWE } # Engelbrekt was murdered by Måns Bengtsson Natt och Dag
+1436.4.27 = { revolt = {} controller = SWE } # Engelbrekt was murdered by Mï¿½ns Bengtsson Natt och Dag
 1436.4.28 = { revolt = { type = anti_tax_rebels size = 1 } controller = REB } # Karl Knutsson Bonde elected leader
 1438.3.1 = { revolt = {} controller = SWE } # Unclear date
 1438.10.1 = { revolt = { type = anti_tax_rebels size = 1 } controller = REB } # Karl Knutsson Bonde, unclear date

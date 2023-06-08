@@ -1,4 +1,4 @@
-#Uppland, contains Stockholm, Uppsala & Nyköping.
+#Uppland, contains Stockholm, Uppsala & Nykï¿½ping.
 #Region - Scandinavia
 #Area - Svealand
 
@@ -26,11 +26,23 @@ add_permanent_province_modifier = {
 # add_province_triggered_modifier = test_modifier
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-
-
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 #Province history completed by docRobert
 
@@ -43,7 +55,7 @@ discovered_by = eastern
 1448.6.20 = { revolt = {} controller = SWE } # Karl VIII is elected king of Sweden
 1501.8.1 = { controller = DAN } # Danish loyalists at Swedish DoW and breaking of vassalage
 1502.5.9 = { controller = SWE } # Retaken by Sweden
-1523.6.7 = { base_manpower = 5 } # Kgl.Drabantkåren/Svea Livgarde
+1523.6.7 = { base_manpower = 5 } # Kgl.Drabantkï¿½ren/Svea Livgarde
 1527.6.1 = {
 	religion = protestant
 	reformation_center = protestant

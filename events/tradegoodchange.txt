@@ -8,7 +8,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        mil_tech = 12
+        mil_tech = 26
 	owns_core_province = 910
         NOT = { religion_group = pagan }
     }
@@ -53,7 +53,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        mil_tech = 12
+        mil_tech = 26
 	owns_core_province = 5014
         NOT = { religion_group = pagan }
     }
@@ -100,7 +100,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 11
+        adm_tech = 27
 	owns_core_province = 4898
         NOT = { religion_group = pagan }
     }
@@ -145,7 +145,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 11
+        adm_tech = 27
 	owns_core_province = 877
         NOT = { religion_group = pagan }
     }
@@ -190,7 +190,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 11
+        adm_tech = 27
 	owns_core_province = 879
         NOT = { religion_group = pagan }
     }
@@ -235,7 +235,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 11
+        adm_tech = 27
 	owns_core_province = 5738
         NOT = { religion_group = pagan }
     }
@@ -280,7 +280,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 11
+        adm_tech = 27
 	owns_core_province = 5893
         NOT = { religion_group = pagan }
     }
@@ -327,7 +327,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        dip_tech = 12
+        dip_tech = 28
 	owns_core_province = 5898
         NOT = { religion_group = pagan }
     }
@@ -372,7 +372,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        dip_tech = 12
+        dip_tech = 28
 	owns_core_province = 5587
         NOT = { religion_group = pagan }
     }
@@ -417,7 +417,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        dip_tech = 12
+        dip_tech = 28
 	owns_core_province = 5049
         NOT = { religion_group = pagan }
     }
@@ -464,7 +464,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        dip_tech = 12
+        dip_tech = 28
 	owns_core_province = 5079
         NOT = { religion_group = pagan }
     }
@@ -508,7 +508,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        dip_tech = 12
+        dip_tech = 28
 	owns_core_province = 2571
         NOT = { religion_group = pagan }
     }
@@ -555,7 +555,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        dip_tech = 14
+        dip_tech = 30
 	owns_core_province = 5785
         NOT = { religion_group = pagan }
     }
@@ -600,7 +600,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        dip_tech = 14
+        dip_tech = 30
 	owns_core_province = 2520
         NOT = { religion_group = pagan }
     }
@@ -647,7 +647,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5854
         NOT = { religion_group = pagan }
     }
@@ -692,7 +692,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 4637
         NOT = { religion_group = pagan }
     }
@@ -737,7 +737,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5016
         NOT = { religion_group = pagan }
     }
@@ -784,7 +784,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5752
         NOT = { religion_group = pagan }
     }
@@ -829,7 +829,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 949
         NOT = { religion_group = pagan }
     }
@@ -874,7 +874,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5837
         NOT = { religion_group = pagan }
     }
@@ -921,7 +921,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5753
         NOT = { religion_group = pagan }
     }
@@ -968,7 +968,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5762
         NOT = { religion_group = pagan }
     }
@@ -1013,7 +1013,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5631
         NOT = { religion_group = pagan }
     }
@@ -1060,7 +1060,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5178
         NOT = { religion_group = pagan }
     }
@@ -1105,7 +1105,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 1002
         NOT = { religion_group = pagan }
     }
@@ -1149,7 +1149,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5004
         NOT = { religion_group = pagan }
     }
@@ -1193,7 +1193,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5770
         NOT = { religion_group = pagan }
     }
@@ -1237,7 +1237,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5821
         NOT = { religion_group = pagan }
     }
@@ -1281,7 +1281,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5017
         NOT = { religion_group = pagan }
     }
@@ -1325,7 +1325,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 4953
         NOT = { religion_group = pagan }
     }
@@ -1369,7 +1369,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 2479
         NOT = { religion_group = pagan }
     }
@@ -1413,7 +1413,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5765
         NOT = { religion_group = pagan }
     }
@@ -1457,7 +1457,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5768
         NOT = { religion_group = pagan }
     }
@@ -1501,7 +1501,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 5858
         NOT = { religion_group = pagan }
     }
@@ -1545,7 +1545,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 2581
         NOT = { religion_group = pagan }
     }
@@ -1589,7 +1589,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 8009
         NOT = { religion_group = pagan }
     }
@@ -1633,7 +1633,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 8000
         NOT = { religion_group = pagan }
     }
@@ -1678,7 +1678,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 14
+        adm_tech = 40
 	owns_core_province = 8764
         NOT = { religion_group = pagan }
     }
@@ -1724,7 +1724,7 @@ country_event = {
     fire_only_once = yes
 
     trigger = {
-        adm_tech = 16
+        adm_tech = 32
 	owns_core_province = 5071
         NOT = { religion_group = pagan }
     }

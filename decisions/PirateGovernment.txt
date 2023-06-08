@@ -88,7 +88,21 @@ country_decisions = {
 				limit = {
 					OR = {
 						technology_group = western
-						technology_group = eastern
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+						technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+						technology_group = swiss
+				        technology_group = bohemian
+				        technology_group = byzantine
+				        technology_group = eastern
+				        technology_group = hungarian
+				        technology_group = polish
+				        technology_group = russian
 					}
 				}
 				apply_sprite_pack = dlc098_nss_sprite_pack
@@ -120,7 +134,7 @@ country_decisions = {
 			NOT = { has_dlc = "Emperor" }
 		}
 		allow = {
-			adm_tech = 12
+			adm_tech = 28
 			stability = 1
 			custom_trigger_tooltip = {
 				tooltip = recently_changed_government_flag_tooltip
@@ -148,7 +162,7 @@ country_decisions = {
 			NOT = { has_dlc = "Emperor" }
 		}
 		allow = {
-			adm_tech = 12
+			adm_tech = 28
 			full_idea_group = trade_ideas
 			stability = 1
 			custom_trigger_tooltip = {
@@ -177,7 +191,7 @@ country_decisions = {
 			NOT = { has_dlc = "Emperor" }
 		}
 		allow = {
-			adm_tech = 12
+			adm_tech = 28
 			republican_tradition = 90
 			stability = 1
 			custom_trigger_tooltip = {

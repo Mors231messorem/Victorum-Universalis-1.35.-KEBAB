@@ -459,7 +459,7 @@ gme_salt_mines_wieliczka_bochnia = {
 	tier_0 = {
 		upgrade_time = { months = 0	}
 		cost_to_upgrade = {	factor = 0 }
-		province_modifiers = { }
+		province_modifiers = { 	trade_value_modifier = 0.05 }
 		area_modifier = { }
 		country_modifiers = { }
 		on_upgraded = { }
@@ -468,8 +468,10 @@ gme_salt_mines_wieliczka_bochnia = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = 1000 }
 		province_modifiers = {
+			local_development_cost = -0.05
 			trade_goods_size_modifier = 0.10
-			production_efficiency = 0.10
+			trade_value_modifier = 0.1
+			local_production_efficiency 0.1
 		}
 		area_modifier = { }
 		country_modifiers = { }
@@ -479,25 +481,46 @@ gme_salt_mines_wieliczka_bochnia = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = { factor = 2500 }
 		province_modifiers = {
+			local_development_cost = -0.1
 			trade_goods_size_modifier = 0.15
-			production_efficiency = 0.15
+			trade_value_modifier = 0.15
+			local_production_efficiency 0.15
 		}
 		area_modifier = { }
 		country_modifiers = { }
-		on_upgraded = { }
+		on_upgraded = {
+			define_advisor = {
+				type = natural_scientist
+				skill = 2
+				cost_multiplier = 0.5
+				culture = polish
+				religion = catholic
+			} 
+		}
 	}
 	tier_3 = {
 		upgrade_time = { months = 480 }
 		cost_to_upgrade = { factor = 5000 }
 		province_modifiers = {
+			local_development_cost = -0.15
 			trade_goods_size = 1
+			trade_value_modifier = 0.25
+			local_production_efficiency = 0.2
 		}
 		area_modifier = {
-			production_efficiency = 0.15
+			local_production_efficiency = 0.15
 			trade_goods_size_modifier = 0.15
 		}
 		country_modifiers = { }
-		on_upgraded = { }
+		on_upgraded = {
+			define_advisor = {
+				type = natural_scientist
+				skill = 3
+				cost_multiplier = 0.25
+				culture = polish
+				religion = catholic
+			}
+		}
 	}
 }
 # gme_sigismund_column = {
@@ -643,7 +666,7 @@ gme_wawel = {
 			local_development_cost = -0.10
 		}
 		country_modifiers = {
-			governing_capacity_modifier = 0.15
+			governing_capacity_modifier = 0.10
 		}
 		on_upgraded = {
 			owner = {
@@ -663,7 +686,7 @@ gme_wawel = {
 			local_development_cost = -0.10
 		}
 		country_modifiers = {
-			governing_capacity_modifier = 0.10
+			governing_capacity_modifier = 0.15
 		}
 		on_upgraded = {
 			owner = {

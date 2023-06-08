@@ -360,8 +360,8 @@ east_african_trade_slot2 = {
 					army_professionalism = 0.8
 					navy_tradition = 75
 				}
-				mil_tech = 20
-				dip_tech = 20
+				mil_tech = 36
+				dip_tech = 36
 			}
 		}
 		effect = {
@@ -382,7 +382,7 @@ east_african_trade_slot2 = {
 		icon = mission_indian_stateman
 		required_missions = { east_africa_modern_army }
 		trigger = {
-			adm_tech = 20
+			adm_tech = 36
 			has_better_tech_than_westerns = yes
 			has_more_institutions_than_westerns = yes
 		}

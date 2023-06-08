@@ -1,3 +1,9 @@
+nor_silver_tax = {
+	global_tax_income = 50
+}
+nor_silver_efficiency = {
+	local_gold_depletion_chance_modifier = -0.5
+}
 ten_years_eng_fra_country_modifier = {
 	global_prosperity_growth = 0.25
 	global_autonomy = -0.20

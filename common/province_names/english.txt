@@ -205,6 +205,7 @@
 4729 = { "Padua" "Padua" }
 4776 = { "Blesceter" "Blesceter" }
 7944 = { "Upper Rhine" "Hagenaw" }
+7995 = { "Emerald Coast" "Cancale" }
 8434 = { "Isle of St. George" "Isle of St. George" }
 
 #Ireland

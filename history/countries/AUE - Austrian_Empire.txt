@@ -4,7 +4,9 @@ government_rank = 1
 primary_culture = austrian
 add_accepted_culture = alsatian
 religion = catholic
-technology_group = western
+#technology_group = western
+technology_group = german_group
+unit_type = western
 capital = 134 # Schonbrunn
 historical_friend = HUN
 #Added historical friendship with Castille/Spain to try and nudge an alliance between the two.

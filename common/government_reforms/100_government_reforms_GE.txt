@@ -58,8 +58,30 @@
 			governing_capacity = 100
 		}
 	}
-
-
+	
+	#VU 1.35 addition by San Felipe
+    marquisiate_reform = { #Bodonista Frankish Crusader State
+    	icon = march
+    	allow_normal_conversion = yes
+    	potential = {
+    		NOT = { has_reform = revolutionary_empire_reform }
+    		NOT = { religion = orthodox }
+    		religion_group = christian
+    		is_part_of_hre = no
+    		NOT = { total_development = 250 }
+    	}
+    	trigger = {
+    		is_part_of_hre = no
+    		NOT = { total_development = 175 }
+    	}
+    	valid_for_nation_designer = yes
+    	nation_designer_cost = 10
+    	modifiers = {
+    		defensiveness = 0.10
+    		global_manpower_modifier = 0.15
+    		nobles_influence_modifier = 0.10
+    	}
+    }
 
 	#margrave_reform = {
 	#	icon = march
@@ -2075,13 +2097,23 @@
 		}
 		potential = {
 			OR = {
+				technology_group = bohemian
+				technology_group = byzantine
 				technology_group = eastern
+				technology_group = hungarian
+				technology_group = polish
+				technology_group = russian
 				has_reform = magnate_law_reform
 			}
 		}
 		trigger = {
 			OR = {
+				technology_group = bohemian
+				technology_group = byzantine
 				technology_group = eastern
+				technology_group = hungarian
+				technology_group = polish
+				technology_group = russian
 				has_reform = magnate_law_reform
 			}
 		}
@@ -3005,7 +3037,14 @@
 			}
 		}
 		potential = {
-			NOT = { technology_group = eastern }
+			NOT = { 
+				technology_group = bohemian
+				technology_group = byzantine
+				technology_group = eastern
+				technology_group = hungarian
+				technology_group = polish
+				technology_group = russian
+			}
 			NOT = { culture_group = berber_group }
 		}
 		modifiers = {
@@ -3088,13 +3127,23 @@
 		}
 		potential = {
 			OR = {
+				technology_group = bohemian
+				technology_group = byzantine
 				technology_group = eastern
+				technology_group = hungarian
+				technology_group = polish
+				technology_group = russian
 				has_reform = magnate_govenors_reform
 			}
 		}
 		trigger = {
 			OR = {
+				technology_group = bohemian
+				technology_group = byzantine
 				technology_group = eastern
+				technology_group = hungarian
+				technology_group = polish
+				technology_group = russian
 				has_reform = magnate_govenors_reform
 			}
 		}
@@ -5453,7 +5502,14 @@
 				which = Noble_Influence
 				value = 2
 			}
-			NOT = { technology_group = eastern }
+			NOT = { 
+				technology_group = bohemian
+				technology_group = byzantine
+				technology_group = eastern
+				technology_group = hungarian
+				technology_group = polish
+				technology_group = russian
+			}
 			NOT = {
 				has_estate = estate_maratha
 				technology_group = indian

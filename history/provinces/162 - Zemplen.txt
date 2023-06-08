@@ -1,10 +1,10 @@
-#162 - Zemplén
+#162 - Zemplï¿½n
 
 owner = HUN
 controller = HUN 
 culture = rusyn
 religion = orthodox
-capital = "Zemplín"
+capital = "Zemplï¿½n"
 trade_goods = cheese #Changed this to cheese since I'm moving the leather to Munster and cheese can be a byproduct of livestock.
 hre = no
 base_tax = 2
@@ -18,7 +18,21 @@ center_of_trade = 1
 
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 discovered_by = muslim
 discovered_by = ottoman
 
@@ -26,7 +40,7 @@ discovered_by = ottoman
 	owner = HAB
 	controller = HAB
 	add_core = HAB
-} # Battle of Mohács, the end of the independent Kingdom of Hungary, Hungary came under military rule
+} # Battle of Mohï¿½cs, the end of the independent Kingdom of Hungary, Hungary came under military rule
 1545.1.1 = { religion = protestant } # Synod of Erdod
 1570.1.1 = {remove_core = TRA	} #Treaty of Speyer
 1604.1.1 = { revolt = { type = nationalist_rebels size = 1 } controller = REB } # The nobility in Royal Hungary rebelled against Habsburg & Jesuit repression

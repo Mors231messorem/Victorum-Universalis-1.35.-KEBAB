@@ -27,3 +27,158 @@ VU_CLEAR_EFFECTS = {
 	remove_country_modifier = hired_mercenaries_CC
 	remove_country_modifier = hired_mercenaries_CCL
 }
+
+#####################################
+# VU Additions by San Felipe 1.35.3 #
+#####################################
+
+vu_change_tech_group_to_western = {
+    if = {
+        limit = {
+            OR = {
+			    tag = BFR
+				tag = FRA
+				tag = FSR
+				tag = FSE
+				tag = NPF
+				tag = OFR
+				tag = RVF
+				tag = TFR
+			}
+        }
+		change_technology_group = french
+    }
+	else_if = {
+        limit = {
+            OR = {
+			    tag = BBS
+				tag = BSP
+				tag = CAS
+				tag = CSP
+				tag = MEX
+				tag = SPA
+				tag = SPB
+			}
+        }
+		change_technology_group = spanish
+    }
+	else_if = {
+        limit = {
+            OR = {
+			    tag = ENG
+				tag = GBR
+				tag = UNK
+				tag = USA
+			}
+        }
+		change_technology_group = english
+    }
+	else_if = {
+        limit = {
+            OR = {
+			    tag = HOL
+				tag = NED
+			}
+        }
+		change_technology_group = dutch
+    }
+	else_if = {
+        limit = {
+            OR = {
+			    tag = DAN
+				tag = NOR
+				tag = SWE
+			}
+        }
+		change_technology_group = scandinavian
+    }
+	else_if = {
+        limit = {
+            OR = {
+			    tag = LAN
+				tag = MLO
+				tag = NAP
+				tag = PAP
+				tag = SAV
+				tag = VEN
+			}
+        }
+		change_technology_group = italian
+    }
+	else_if = {
+        limit = {
+            OR = {
+			    tag = POR
+				primary_culture = brazilian
+			}
+        }
+		change_technology_group = portuguese
+    }
+    else_if = {
+        limit = {
+            OR = {
+			    tag = AHE
+				tag = AUE
+				tag = BAV
+				tag = BRA
+				tag = GEM
+				tag = GER
+				tag = KOL
+				tag = NGC
+				tag = SAX
+				tag = SWI
+				tag = WUR
+			}
+        }
+		change_technology_group = german_group
+    }
+	else_if = {
+        limit = {
+			tag = SWI
+        }
+		change_technology_group = swiss
+    }
+	else = {
+		change_technology_group = western
+    }
+}
+	
+vu_change_tech_group_to_eastern = {
+	if = {
+        limit = {
+            OR = {
+				tag = MOS
+				tag = RUS
+				tag = TZR
+			}
+        }
+		change_technology_group = russian
+    }
+	else_if = {
+        limit = {
+			tag = BOH
+        }
+		change_technology_group = bohemian
+    }
+	else_if = {
+        limit = {
+			tag = BYZ
+        }
+		change_technology_group = byzantine
+    }
+	else_if = {
+        limit = {
+			tag = HUN
+        }
+		change_technology_group = hungarian
+    }
+	else_if = {
+        limit = {
+		    tag = POL
+        }
+		change_technology_group = polish
+    }
+	else = {
+		change_technology_group = eastern
+    }
+}

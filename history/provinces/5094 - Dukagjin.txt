@@ -18,7 +18,21 @@ add_core = SER
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 
 1450.1.1 = { owner = TUR controller = TUR add_core = TUR add_local_autonomy = 90 }	#In 1450, Dukagjini family abandoned Skanderbeg's army and allied with Ottomans against Skanderbeg. 
 1460.1.1 = { add_local_autonomy = 25 } # Mal�sia people have had the most rights among many peoples of the Balkans. Most of the time they have refused to pay taxes, give soldiers to the Ottoman Army, and accept the laws of the Ottoman Empire. -Grammar doesn't inspire confidence in the wiki quote, but meh....
