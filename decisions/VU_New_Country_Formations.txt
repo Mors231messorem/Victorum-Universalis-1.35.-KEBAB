@@ -34,7 +34,7 @@ country_decisions = {
 
 		allow = {
 			num_of_cities = 20
-			adm_tech = 32
+			adm_tech = 48
 			is_free_or_tributary_trigger = yes
 			government = monarchy
 			is_nomad = no
@@ -204,7 +204,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			adm_tech = 20
+			adm_tech = 36
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
@@ -386,7 +386,7 @@ country_decisions = {
 				limit = { government = monarchy }
 				legitimacy = 100
 			}
-			adm_tech = 10			#Diplo tech requirement
+			adm_tech = 26			#Diplo tech requirement
 			owns_or_vassal_of = 183			# Paris
 			owns_or_vassal_of = 186			# Reims, coronation site
 			owns_or_vassal_of = 203			# Lyon
@@ -476,7 +476,7 @@ country_decisions = {
 				AND = {
 					ai = yes
 					num_of_cities = 15
-					adm_tech = 36
+					adm_tech = 52
 				}
 			}
 			OR = {
@@ -535,7 +535,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			adm_tech = 36
+			adm_tech = 52
 			NOT = { exists = GER }
 			government = monarchy
 			is_free_or_tributary_trigger = yes
@@ -625,7 +625,7 @@ country_decisions = {
 				AND = {
 					ai = yes
 					num_of_cities = 15
-					adm_tech = 30
+					adm_tech = 32
 				}
 			}
 			OR = {
@@ -669,7 +669,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			adm_tech = 32
+			adm_tech = 48
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
@@ -1454,7 +1454,7 @@ country_decisions = {
 			owns_core_province = 8231
 			NOT = { exists = POL }
 			NOT = { exists = PLC }
-			adm_tech = 20
+			adm_tech = 36
 			OR = {
 				tag = MAZ
 				AND = {
@@ -1581,7 +1581,7 @@ country_decisions = {
 			owns_or_non_sovereign_subject_of = 3119
 			owns_or_non_sovereign_subject_of = 1983
 			is_year = 1500
-			adm_tech = 10
+			adm_tech = 26
 			NOT = {
 				SWE = { is_subject_of = ROOT }
 			}

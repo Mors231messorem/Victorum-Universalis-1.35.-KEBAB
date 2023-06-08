@@ -192,7 +192,6 @@ gme_reformatus_nagytemplom = {
 			papal_influence = 1
 		}
 		on_upgraded = {
-			owner = { add_fervor = 5 }
 		}
 	}
 	tier_3 = {

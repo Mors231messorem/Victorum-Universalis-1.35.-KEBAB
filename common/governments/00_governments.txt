@@ -125,22 +125,13 @@ monarchy = {
 				tibetan_dual_government_reform
 				sisterhood_of_jeanne_darc_reform
 				#####EndOfVanillaReforms#####
-				#Start_of_VU_and_other_additions
-				irish_clann_reform
-				welsh_cammote_reform
-				welsh_teyrnas_reform
-				provincial_kingdom_reform
-				earldom_reform
-				welsh_earldom_reform
-				greek_exarchates_reform
-				norman_lordship_reform
-				greek_catepanates_reform
-				norman_duchy_reform
-				greek_ducates_reform
-				anglo_irish_monarchy_reform
-				vu_ayyubid_sultanate_reform
-				scottish_monarchy
-		        american_monarchy
+				#VU_and_other_additions
+				greek_lordship_reform
+				welsh_lordship_reform
+				greek_duchy_reform
+				welsh_duchy_reform
+				greek_roman_governors_reform
+				welsh_monarchy_reform
 				welsh_principality
 				western_principality
 				belgian_kingdom_reform
@@ -150,14 +141,22 @@ monarchy = {
 				french_monarchic_restoration_reform
 				french_orleanist_restoration_reform
 				second_french_empire_reform
+				vu_ayyubid_sultanate_reform
+				scottish_monarchy
+				#GE
+				irish_clann_reform
+				provincial_kingdom_reform
+				norman_lordship_reform
+				norman_duchy_reform
+				anglo_irish_monarchy_reform
+		        american_monarchy
 		        #parliamentary_monarchy
 				restoration_reform
 				crusader_state_vu_reform
-				greek_marquisiat_reform
-				#greek_aparchate_reform
 				romanian_principality 
 				romanian_united_principality 
-		        #End_of_VU_and_other_additions
+				marquisiate_reform
+		        #VU_End of additions
 			    #####BeginMEReforms#####	Leaving those here for updating purpose, do not remove ! 
 				#crusader_kingdom
 				#khaganate
@@ -254,7 +253,7 @@ monarchy = {
 				house_of_lords_reform
 				ministerialis_promotion_reform
 				separation_of_boyars_from_court_reform
-				#ME		#Leaving here for updating purpose, do not remove !
+				#ME Leaving here for updating purpose, do not remove !
 				#sharia_reform
 		        #GE
 				papal_embassy_GE_reform
@@ -845,16 +844,19 @@ monarchy = {
 		mossi_federal_kingdom_legacy
 		#VU
 		scottish_monarchy_legacy
-		earldom_legacy
-		welsh_earldom_legacy
-		welsh_cammote_legacy
+		first_french_empire_legacy
+		second_french_empire_legacy
+		greek_lordship_legacy
+		welsh_lordship_legacy
+		greek_duchy_legacy
+		welsh_duchy_legacy
+		greek_roman_governors_legacy
+		welsh_monarchy_legacy
+		#GE
 		irish_clann_legacy
 		norman_lordship_legacy
-		greek_catepanates_legacy
 		provincial_kingdom_legacy
-		greek_exarchates_legacy
 		norman_duchy_legacy
-		greek_ducates_legacy
 		high_kingship_legacy
 		anglo_irish_monarchy_legacy
 		florence_republic_legacy
@@ -863,9 +865,6 @@ monarchy = {
 		western_principality_legacy
 		belgian_kingdom_legacy
 		french_kingdom_legacy
-		first_french_empire_legacy
-		second_french_empire_legacy
-		#greek_aparchate_legacy
 		#parliamentary_monarchy
 	}
 
@@ -899,11 +898,11 @@ monarchy = {
 		french_kingdom_reform
 		#parliamentary_monarchy
 		scottish_monarchy
-		#greek_aparchate_reform
 	    #GE
 		granadan_iqta_reform
 		crown_of_saint_wenceslaus
 		anglo_irish_monarchy_reform
+		greek_roman_governors_reform
 	    #ME
 		empire_of_japan_reform
 	}
@@ -968,6 +967,7 @@ monarchy = {
 		crown_of_saint_wenceslaus
 		polish_constitutionalism_reform
 		anglo_irish_monarchy_reform
+		greek_roman_governors_reform
 	}
 
 	#Flavor
@@ -2390,37 +2390,6 @@ pre_dharma_mapping = {
 		government = republic
 		legacy_government = veche_republic_legacy
 	}
-	#Start of VU additions by San Felipe
-	welsh_principality = {
-		government = monarchy
-		legacy_government = welsh_principality_legacy
-	}
-	belgian_kingdom_reform = {
-		government = monarchy
-		legacy_government = belgian_kingdom_legacy
-	}
-	french_kingdom_reform = {
-		government = monarchy
-		legacy_government = french_kingdom_legacy
-	}
-	first_french_empire_reform = {
-		government = monarchy
-		legacy_government = first_french_empire_legacy
-	}
-	second_french_empire_reform = {
-		government = monarchy
-		legacy_government = second_french_empire_legacy
-	}
-	#Added by San Felipe
-	western_principality = {
-		government = monarchy
-		legacy_government = western_principality_legacy
-	}
-	#greek_aparchate = {
-	#	government = monarchy
-	#	legacy_government = greek_aparchate_legacy
-	#}
-	#End of VU additions by San Felipe
 	principality = {
 		government = monarchy
 		legacy_government = principality_legacy
@@ -2455,41 +2424,18 @@ pre_dharma_mapping = {
 		government = monarchy
 		legacy_government = irish_clann_legacy
 	}
-	earldom = {
-		government = monarchy
-		legacy_government = earldom_legacy
-	}
-	welsh_earldom = {
-		government = monarchy
-		legacy_government = welsh_earldom_legacy
-	}
-	welsh_cammote = {
-		government = monarchy
-		legacy_government = welsh_cammote_legacy
-	}
 	norman_lordship = {
 		government = monarchy
 		legacy_government = norman_lordship_legacy
 	}
-	greek_catepanates = {
-		government = monarchy
-		legacy_government = greek_catepanates_legacy
-	}
+	#GE
 	provincial_kingdom = {
 		government = monarchy
 		legacy_government = provincial_kingdom_legacy
 	}
-	greek_exarchates = {
-		government = monarchy
-		legacy_government = greek_exarchates_legacy
-	}
 	norman_duchy = {
 		government = monarchy
 		legacy_government = norman_duchy_legacy
-	}
-	greek_ducates = {
-		government = monarchy
-		legacy_government = greek_ducates_legacy
 	}
 	high_kingship = {
 		government = monarchy
@@ -2518,7 +2464,57 @@ pre_dharma_mapping = {
 	lithuanian_grand_duchy = {
 		government = monarchy
 		legacy_government = lithuanian_grand_duchy_legacy
-	}	#This is probably not needed, though I also don't expect it will hurt.
+	}
+	#VU additions by San Felipe
+	welsh_principality = {
+		government = monarchy
+		legacy_government = welsh_principality_legacy
+	}
+	belgian_kingdom_reform = {
+		government = monarchy
+		legacy_government = belgian_kingdom_legacy
+	}
+	french_kingdom_reform = {
+		government = monarchy
+		legacy_government = french_kingdom_legacy
+	}
+	first_french_empire_reform = {
+		government = monarchy
+		legacy_government = first_french_empire_legacy
+	}
+	second_french_empire_reform = {
+		government = monarchy
+		legacy_government = second_french_empire_legacy
+	}
+	western_principality = {
+		government = monarchy
+		legacy_government = western_principality_legacy
+	}
+	greek_lordship = {
+		government = monarchy
+		legacy_government = greek_lordship_legacy
+	}
+	welsh_lordship = {
+		government = monarchy
+		legacy_government = welsh_lordship_legacy
+	}
+	greek_duchy = {
+		government = monarchy
+		legacy_government = greek_duchy_legacy
+	}
+	welsh_duchy = {
+		government = monarchy
+		legacy_government = welsh_duchy_legacy
+	}
+	greek_roman_governors = {
+		government = monarchy
+		legacy_government = greek_roman_governors_legacy
+	}
+	welsh_monarchy = {
+		government = monarchy
+		legacy_government = welsh_monarchy_legacy
+	}
+	#VU End of additions by San Felipe
 }
 
 ##############################

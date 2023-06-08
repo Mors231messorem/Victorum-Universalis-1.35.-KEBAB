@@ -5,7 +5,7 @@ controller = TLC
 add_core = TLC
 culture = algerian
 religion = sunni
-capital = "Saïda"
+capital = "Saï¿½da"
 trade_goods = wool
 hre = no
 base_tax = 1 
@@ -16,7 +16,21 @@ is_city = yes
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 
 #Core territory of Tlemcen

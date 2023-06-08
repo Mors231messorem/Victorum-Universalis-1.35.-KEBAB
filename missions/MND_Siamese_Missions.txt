@@ -233,7 +233,18 @@ mnd_siam_2 = {
 						tooltip = had_siamese_revolution_tt_2
 						NOT = {
 							any_country = {
-								technology_group = western
+								OR = {
+		                        	technology_group = western
+		                        	technology_group = english
+		                        	technology_group = french
+		                        	technology_group = dutch
+		                        	technology_group = german_group
+		                        	technology_group = italian
+		                        	technology_group = portuguese
+		                        	technology_group = scandinavian
+		                        	technology_group = spanish
+		                        	technology_group = swiss
+		                        }
 								any_owned_province = {
 									superregion = east_indies_superregion
 								}

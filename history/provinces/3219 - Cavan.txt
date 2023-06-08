@@ -15,16 +15,30 @@ hre = no
 
 #Discoveries
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 #Histories
 
 1215.6.15 = { owner = ECO controller = ECO add_core = ECO } # Connacht territory - By San Felipe
 
 1291.1.1 = {
-	capital = "Droim Dhá Thiar"
+	capital = "Droim Dhï¿½ Thiar"
 }
 
 1444.11.11 = { owner = BIF controller = BIF add_core = BIF } # Breffny clan territory - By San Felipe

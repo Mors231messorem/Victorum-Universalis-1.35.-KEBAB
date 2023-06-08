@@ -26,7 +26,20 @@
 #			}
 #			AND = {
 #				is_year = 1840
-#				owner = { technology_group = western }
+#				owner = { 
+#				    OR = {
+#				        technology_group = western
+#				        technology_group = english
+#				        technology_group = french
+#				        technology_group = dutch
+#				        technology_group = german_group
+#				        technology_group = italian
+#						technology_group = portuguese
+#				        technology_group = scandinavian
+#				        technology_group = spanish
+#						technology_group = swiss
+#				    }
+#				}
 #			}
 #		}
 #	}
@@ -380,7 +393,20 @@
 #	history = {
 #		AND = {
 #				is_year = 1860
-#				owner = { technology_group = western }
+#				owner = { 
+#				    OR = {
+#				        technology_group = western
+#				        technology_group = english
+#				        technology_group = french
+#				        technology_group = dutch
+#				        technology_group = german_group
+#				        technology_group = italian
+#						technology_group = portuguese
+#				        technology_group = scandinavian
+#				        technology_group = spanish
+#						technology_group = swiss
+#				    }
+#				}
 #				development = 35
 #			}
 #	}
@@ -681,7 +707,20 @@
 #	history = {
 #		AND = {
 #				is_year = 1929
-#				owner = { technology_group = western }
+#				owner = { 
+#				    OR = {
+#				        technology_group = western
+#				        technology_group = english
+#				        technology_group = french
+#				        technology_group = dutch
+#				        technology_group = german_group
+#				        technology_group = italian
+#						technology_group = portuguese
+#				        technology_group = scandinavian
+#				        technology_group = spanish
+#						technology_group = swiss
+#				    }
+#				}
 #				development = 35
 #			}
 #	}

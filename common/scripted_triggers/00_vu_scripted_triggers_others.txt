@@ -1,5 +1,40 @@
 #VU updated to 1.35 by San Felipe
 
+#Quonton
+
+is_european = {
+	custom_trigger_tooltip = {
+	tooltip = is_europeans_tooltip
+		OR = {
+			culture_group = iberian
+			culture_group = old_latin 
+			culture_group = latin
+			culture_group = byzantine  
+			culture_group = turkish_g 
+			culture_group = slavic 
+			culture_group = east_slavic 
+			culture_group = west_slavic 
+			culture_group = finno_ugric 
+			culture_group = scandinavian 
+			culture_group = baltic
+			culture_group = south_slavic 
+			culture_group = illyrian 
+			culture_group = egyptian_group 
+			culture_group = mesopotamian_group 
+			culture_group = french	
+			culture_group = brythonic 
+			culture_group = gaelic	
+			culture_group = british	
+			culture_group = low_franconian 
+			culture_group = aquitanian 
+			culture_group = carpathian  
+			culture_group = caucasian  
+			culture_group = unified_celtic_group 
+		}
+	}
+}
+
+
 #############################################################
 #############################################################
 #############################################################

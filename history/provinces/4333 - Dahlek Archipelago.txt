@@ -1,4 +1,10 @@
+#4333 - Dahlek Archipelago
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = indian
@@ -6,6 +12,6 @@ discovered_by = nomad_group
 discovered_by = east_african
 
 1421.1.1 = { discovered_by = MNG }
-1453.1.1 = { discovered_by = western }
+1453.1.1 = { discovered_by = western discovered_by = dutch discovered_by = english discovered_by = french discovered_by = german_group discovered_by = italian discovered_by = portuguese discovered_by = scandinavian discovered_by = spanish discovered_by = swiss }
 1488.1.1 = { discovered_by = POR }
 

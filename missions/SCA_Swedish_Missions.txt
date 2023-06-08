@@ -1965,7 +1965,7 @@ swe_kalmar_union_mission_slot = {
 			reform_level = 5
 			OR = {
 				AND = {
-					mil_tech = 19
+					mil_tech = 35
 					army_tradition = 40
 				}
 				absolutism = 75
@@ -2005,7 +2005,7 @@ swe_kalmar_union_mission_slot = {
 			if = {
 				limit = {
 					OR = {
-						mil_tech = 19
+						mil_tech = 35
 						absolutism = 75
 					}
 				}
@@ -5513,7 +5513,7 @@ swe_sca_competent_fleet_slot = {
 			navy_tradition = 50
 			sailors = 1000
 			num_of_ports = 20
-			dip_tech = 15
+			dip_tech = 31
 			if = {
 				limit = {
 					has_dlc = "Golden Century"

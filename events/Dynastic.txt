@@ -491,7 +491,18 @@ country_event = {
 			has_country_flag = last_jousting_tournament_held
 		}
 		army_tradition =  20
-		technology_group = western
+		OR = {
+			technology_group = western
+			technology_group = english
+			technology_group = french
+			technology_group = dutch
+			technology_group = german_group
+			technology_group = italian
+			technology_group = portuguese
+			technology_group = scandinavian
+			technology_group = spanish
+			technology_group = swiss
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -603,7 +614,7 @@ country_event = {
 		NOT = { has_reform = mamluk_government }
 		NOT = { has_government_attribute = has_harem_events }
 		NOT = { has_reform = celestial_empire }
-		adm_tech = 20
+		adm_tech = 36
 		adm_power = 200
 		has_factions = no
 	}
@@ -1660,7 +1671,18 @@ country_event = {
 		picture = ROYAL_STRESS_eventPicture
 		trigger = {
 			has_dlc = "Lions of the North"
-			technology_group = western
+		    OR = {
+		        technology_group = western
+		        technology_group = english
+		        technology_group = french
+		        technology_group = dutch
+		        technology_group = german_group
+		        technology_group = italian
+		        technology_group = portuguese
+		        technology_group = scandinavian
+		        technology_group = spanish
+		        technology_group = swiss
+			}
 		}
 	}
 	picture = {
@@ -1668,7 +1690,18 @@ country_event = {
 		trigger = {
 			OR = {
 				NOT = { has_dlc = "Lions of the North" }
-				NOT = { technology_group = western }
+				NOT = { 
+					technology_group = western
+		    	    technology_group = english
+		    	    technology_group = french
+		    	    technology_group = dutch
+		    	    technology_group = german_group
+		    	    technology_group = italian
+					technology_group = portuguese
+		    	    technology_group = scandinavian
+		    	    technology_group = spanish
+					technology_group = swiss
+			    }
 			}
 		}
 	}

@@ -1,4 +1,4 @@
-#6477 - Kitzbühel
+#6477 - Kitzbï¿½hel
 #Region - Germany
 #Area - Upper Bavaria
 
@@ -7,7 +7,7 @@ controller = BOH
 add_core = BOH
 culture = franconian
 religion = catholic
-capital = "Kitzbühel"
+capital = "Kitzbï¿½hel"
 trade_goods = salt
 hre = yes
 base_tax = 3
@@ -16,6 +16,11 @@ base_manpower = 2
 is_city = yes
 
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 discovered_by = english
 discovered_by = french
 discovered_by = german_group
@@ -24,6 +29,15 @@ discovered_by = russian
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 
@@ -46,7 +60,7 @@ discovered_by = ottoman
 	controller = BAV
 	add_core = BAV
 	remove_core = HAB
-} # Treaty of Schönbrunn
+} # Treaty of Schï¿½nbrunn
 1814.5.30 = {
 	owner = HAB
 	controller = HAB

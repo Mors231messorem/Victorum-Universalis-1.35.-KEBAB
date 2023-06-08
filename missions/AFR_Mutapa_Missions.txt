@@ -1010,7 +1010,7 @@ mutapa_modernize_missions_slot = {
 				}
 				num_of_cities = 3
 			}
-			adm_tech = 15
+			adm_tech = 31
 		}
 		effect = {
 			country_event = {

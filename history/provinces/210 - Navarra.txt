@@ -28,7 +28,21 @@ add_permanent_province_modifier = {
 }
 
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 
@@ -43,7 +57,7 @@ discovered_by = ottoman
 	remove_core = CAS
 } # King Fernando dies, Carlos inherits Aragon and becomes co-regent of Castille
 1521.5.1 = { controller = FRA } # Exploiting the turmoil provoked by the revolt of the Comunidades, France attacks the unprotected Navarrese border.
-1521.6.30 = { controller = SPA } # French troops are defeated at the battle of Quirós
+1521.6.30 = { controller = SPA } # French troops are defeated at the battle of Quirï¿½s
 1569.1.1 = { fort_15th = no fort_16th = yes } #Fortifications of Pamplona
 1808.6.6 = { revolt = { type = pretender_rebels size = 1 } controller = REB }
 1808.12.1 = { revolt = {} controller = SPA }

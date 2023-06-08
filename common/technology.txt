@@ -24,6 +24,125 @@ groups = {
 			value = 75
 		}
 	}
+	english = {
+		start_level = 3
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			value = 75
+		}
+	}
+	french = {
+		start_level = 3
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			value = 75
+		}
+	}
+	german_group = {
+		start_level = 3
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			value = 75
+		}
+	}
+	italian = {
+	   start_level = 3
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			value = 75
+		}
+	}
+	russian = {
+		start_level = 3
+		start_cost_modifier = 0.20
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			value = 75
+		}
+	}
+    scandinavian = {
+	   start_level = 3
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			value = 75
+		}
+	}
+	spanish = {
+		start_level = 3
+		start_cost_modifier = 0
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			value = 75
+		}
+	}
 	eastern = {
 		start_level = 3
 		start_cost_modifier = 0.20
@@ -145,6 +264,23 @@ groups = {
 			value = 75
 		}
 	}
+	japanese = {
+		start_level = 3
+		start_cost_modifier = 0.6
+		nation_designer_cost = {
+			trigger = {
+				capital_scope = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			value = 75
+		}
+	}
 	nomad_group = {
 		start_level = 3
 		start_cost_modifier = 0.75
@@ -203,9 +339,35 @@ groups = {
 		nation_designer_unit_type = south_american
 		is_primitive = yes
 	}
+	high_american = {
+		start_level = 3
+		start_cost_modifier = 0
+		nation_designer_unit_type = high_american
+		nation_designer_trigger = {
+			capital_scope = {
+				OR = {
+					continent = new_world
+					continent = north_america
+					continent = south_america
+					continent = oceania
+				}
+			}
+		}
+		nation_designer_cost = {
+			value = 75
+		}
+	}
 	aboriginal_tech = {
 		start_level = 1
 		start_cost_modifier = 2.5
+		is_primitive = yes
+		nation_designer_cost = {
+			value = 50
+		}
+	}
+	rapanuan = {
+		start_level = 3
+		start_cost_modifier = 0
 		is_primitive = yes
 		nation_designer_cost = {
 			value = 50
@@ -229,25 +391,15 @@ groups = {
 			value = 50
 		}
 	}
-	high_american = {
-		start_level = 3
-		start_cost_modifier = 0
-		nation_designer_unit_type = high_american
-		nation_designer_trigger = {
-			capital_scope = {
-				OR = {
-					continent = new_world
-					continent = north_america
-					continent = south_america
-					continent = oceania
-				}
-			}
-		}
+	papuan = {
+		start_level = 2
+		start_cost_modifier = 2.25
+		is_primitive = yes
 		nation_designer_cost = {
-			value = 75
+			value = 50
 		}
 	}
-	english = {
+	dutch = {
 		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -264,7 +416,7 @@ groups = {
 			value = 75
 		}
 	}
-	french = {
+	portuguese = {
 		start_level = 3
 		start_cost_modifier = 0
 		nation_designer_cost = {
@@ -281,41 +433,7 @@ groups = {
 			value = 75
 		}
 	}
-	german_group = {
-		start_level = 3
-		start_cost_modifier = 0
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
-	}
-	italian = {
-	   start_level = 3
-		start_cost_modifier = 0
-		nation_designer_cost = {
-			trigger = {
-				capital_scope = {
-					OR = {
-						continent = new_world
-						continent = north_america
-						continent = south_america
-						continent = oceania
-					}
-				}
-			}
-			value = 75
-		}
-	}
-	russian = {
+	byzantine = {
 		start_level = 3
 		start_cost_modifier = 0.20
 		nation_designer_cost = {
@@ -332,9 +450,9 @@ groups = {
 			value = 75
 		}
 	}
-    scandinavian = {
-	   start_level = 3
-		start_cost_modifier = 0
+	hungarian = {
+		start_level = 3
+		start_cost_modifier = 0.20
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -349,10 +467,9 @@ groups = {
 			value = 75
 		}
 	}
-	spanish = {
+	polish = {
 		start_level = 3
-		start_cost_modifier = 0
-		nation_designer_unit_type = sub_saharan								 
+		start_cost_modifier = 0.20
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -367,9 +484,9 @@ groups = {
 			value = 75
 		}
 	}
-	japanese = {
+	swiss = {
 		start_level = 3
-		start_cost_modifier = 0.6
+		start_cost_modifier = 0.20
 		nation_designer_cost = {
 			trigger = {
 				capital_scope = {
@@ -384,20 +501,21 @@ groups = {
 			value = 75
 		}
 	}
-	rapanuan = {
+	bohemian = {
 		start_level = 3
-		start_cost_modifier = 0
-		is_primitive = yes
+		start_cost_modifier = 0.20
 		nation_designer_cost = {
-			value = 50
-		}
-	}
-	papuan = {
-		start_level = 2
-		start_cost_modifier = 2.25
-		is_primitive = yes
-		nation_designer_cost = {
-			value = 50
+			trigger = {
+				capital_scope = {
+					OR = {
+						continent = new_world
+						continent = north_america
+						continent = south_america
+						continent = oceania
+					}
+				}
+			}
+			value = 75
 		}
 	}
 }

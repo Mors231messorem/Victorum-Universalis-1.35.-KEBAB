@@ -142,7 +142,18 @@ songhai_military_slot = {
 				tooltip = son_modernize_army_tt
 				NOT = {
 					any_country = {
-						technology_group = western
+						OR = {
+		                	technology_group = western
+		                	technology_group = english
+		                	technology_group = french
+		                	technology_group = dutch
+		                	technology_group = german_group
+		                	technology_group = italian
+			            	technology_group = portuguese
+		                	technology_group = scandinavian
+		                	technology_group = spanish
+			            	technology_group = swiss
+		                }
 						ROOT = {
 							NOT = { mil_tech = PREV }	#Checks if no country with western tech has more mil tech than Songhai. Double negations are fun!
 						}

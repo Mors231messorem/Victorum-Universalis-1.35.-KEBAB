@@ -512,7 +512,7 @@ gme_port_de_moon = {
 			ship_recruit_speed = -0.15
 		}
 		area_modifier = {
-			ship_recruit_speed = -0.25
+			ship_recruit_speed = -0.15
 		}
 		country_modifiers = {
 			naval_forcelimit_modifier = 0.05
@@ -525,6 +525,7 @@ gme_port_de_moon = {
 		province_modifiers = {
 			province_trade_power_value = 10
 			local_ship_repair = 0.25
+			ship_recruit_speed = -0.25
 		}
 		area_modifier = {
 			ship_recruit_speed = -0.25

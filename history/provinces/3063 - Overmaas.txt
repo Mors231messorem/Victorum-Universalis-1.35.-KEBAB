@@ -19,9 +19,23 @@ base_manpower = 2
 fort_15th = yes
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 1473.2.23 = { owner = BUR controller = BUR add_core = BUR } # Charles the Bold annexes Gelre
 

@@ -14,7 +14,21 @@ is_city = yes
 hre = no
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 #1444 on
 1531.11.5 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # The Return of Christian II
@@ -23,7 +37,7 @@ discovered_by = eastern
 	controller = DAN
 	add_core = DAN
 	religion = protestant
-} # 'Handfästningen'(Unknown date)
+} # 'Handfï¿½stningen'(Unknown date)
 1630.1.1 = { trade_goods = copper } # Approximate date
 1814.1.14 = {
 	owner = SWE

@@ -1,6 +1,9 @@
 ﻿l_english:
  #Custom tooltips
  #VU Quonton additions
+ FRA_tower_london:0 "Is §YFrance§!, Was §YFrance§!, or our Liege is or was §YFrance§! And §YFrance§! has completed the Mission §YLondon Calling§!"
+ is_europeans_tooltip:0 "Is §YGEuropean§!"
+ german_imigration_stuff:0 "Large Numbers of §YGermans§! will immigrate into Eastern Europe, §GImproving and Developing§! our land"
  dutch_cultural_awakening:0 "All Countries who's primary culture is §YDutch§!, §YFlemish§!, or §YFrisian§!, along with their people, will gain a §YDistinct Cultural Identity§!"
  rom_remove:0 "Consolidates all Country Modifiers given by the §YWallachian§! and §YMoldavian§! Mission trees into one §GModifier§!"
  tra_ban_1:0 "If §YTransylvania§! is our subject then:"

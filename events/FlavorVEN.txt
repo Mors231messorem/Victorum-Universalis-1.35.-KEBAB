@@ -695,7 +695,7 @@ country_event = {
 	trigger ={
 		tag = VEN
 		owns = 112
-		mil_tech = 9
+		mil_tech = 25
 		NOT = { is_year = 1600 }
 	}
 	

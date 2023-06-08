@@ -4956,7 +4956,7 @@ country_event = {
 	option = { #we should spread some rumors about their real reputation
 		name = colonial_nation.189.c
 		trigger = {
-			dip_tech = 3
+			dip_tech = 19
 			OR = {
 				has_dip_advisor = yes
 				ruler_has_personality_ancestor = { key = silver_tongue }

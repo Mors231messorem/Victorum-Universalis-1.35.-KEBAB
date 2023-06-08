@@ -230,7 +230,7 @@ sioux_1 = {
 		effect = {
 			if = {
 				limit = {
-					mil_tech = 6
+					mil_tech = 22
 				}
 				add_country_modifier = {
 					name = sio_seven_fires
@@ -251,7 +251,18 @@ sioux_1 = {
 		
 		trigger = {
 			any_known_country = {
-				technology_group = western
+				OR = {
+		        	technology_group = western
+		        	technology_group = english
+		        	technology_group = french
+		        	technology_group = dutch
+		        	technology_group = german_group
+		        	technology_group = italian
+			    	technology_group = portuguese
+		        	technology_group = scandinavian
+		        	technology_group = spanish
+			    	technology_group = swiss
+		        }
 				OR = {
 					alliance_with = ROOT
 					has_opinion = {

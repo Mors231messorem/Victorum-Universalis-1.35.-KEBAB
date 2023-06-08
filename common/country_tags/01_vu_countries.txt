@@ -4,6 +4,8 @@
 #Africa
 #TYO SYO LUB KIK KZB YAK KLD KUB RWA BUU BUG NKO
 #KRW NBY BSG UBH MRA LDU TBK MKU RZW MIR SKA BTA MFY ANT
+#German Diaspora
+#VLG GCU GCR GBL URG GMK SBR VLH UBD
 
 #New 1.20 - no conflicts
 #ASK AKM AKT CBA ISK ITO KKC KNO OGS SHN STK TKI UTN TTI
@@ -45,6 +47,16 @@ RED = "countries/SussyPirates.txt"
 ##########
 # Europe #
 ##########
+#German Diaspora
+VOG = "countries/Wolgadeutche.txt"
+GCU = "countries/Kaukasusdeutche.txt"
+GCR = "countries/Krimdeutche.txt"
+GBL = "countries/SchwarzesMeerDeutche.txt"
+URG = "countries/Uralischdeutche.txt"
+GMK = "countries/Moskauerdeutche.txt"
+SBR = "countries/Sibirischdeutche.txt"
+VLH = "countries/Wolhyniandeutche.txt"
+UBD = "countries/Deutschbalten.txt"
 
 #VU - Anatolia
 RMM = "countries/RumVU.txt"
@@ -449,6 +461,8 @@ NRE = "countries/NorthSeaEmpire.txt"
 #SWR = "countries/Schwerin.txt"
 WRM = "countries/Warmia.txt"
 DNR = "countries/DenmarkNorway.txt"
+IGR = "countries/Ingria.txt"
+FAR = "countries/FaroeIslands.txt"
 
 #VU - Switzerland
 BSL = "countries/Basel.txt"
@@ -832,6 +846,13 @@ RAP = "countries/Rapanui.txt"
 #XXX = "countries/xxxx.txt"
 
 #VU New Magna Carta Start Date
+#China
+SNG = "countries/Song.txt"
+
+#France
+BLS = "countries/Blois.txt"
+VLS = "countries/Valois.txt"
+
 #Greece & Balkans
 ABN = "countries/Arbanon.txt"
 BNA = "countries/Bodonitsa.txt"

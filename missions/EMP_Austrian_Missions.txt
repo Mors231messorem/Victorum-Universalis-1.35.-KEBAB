@@ -917,7 +917,7 @@ emp_hab_minorities_branch = {
 			}
 		}
 		trigger = {
-			adm_tech = 10
+			adm_tech = 26
 			num_of_owned_provinces_with = {
 				value = 30
 				NOT = { culture_group = root }

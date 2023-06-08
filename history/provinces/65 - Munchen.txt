@@ -1,4 +1,4 @@
-# 65 - München
+# 65 - Mï¿½nchen
 #Region - Germany
 #Area - Upper Bavaria
 
@@ -11,7 +11,7 @@ base_tax = 9
 base_production = 8			#Not nearly so rich at this period. Total BAV dev lowered from 58 to 39, which is already much to high. Most of the extremely high population densities and wealth which were in the region were not under Bavaria, like Regensburg and Nuremberg
 trade_goods = beer
 base_manpower = 4
-capital = "München"
+capital = "Mï¿½nchen"
 is_city = yes
 hre = yes
 center_of_trade = 3
@@ -23,9 +23,23 @@ add_permanent_province_modifier = {
 }
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 
 1510.1.1 = { base_tax = 12 base_production = 12 base_manpower = 10 } # around this time Munich actually becomes close to as important as it is represented in vanilla

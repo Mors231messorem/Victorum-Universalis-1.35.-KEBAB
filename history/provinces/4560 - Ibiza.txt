@@ -17,13 +17,27 @@ capital = "Eivissa"			#Problem, FR wiki says town not founded until 16th century
 is_city = yes
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 discovered_by = muslim
 discovered_by = ottoman
 
 
-1462.1.1 = { unrest = 2 } # Remença peasant revolt, in parallel with the Catalan civil war.
-1472.1.1 = { unrest = 0 } # End of the First Remença revolt
+1462.1.1 = { unrest = 2 } # Remenï¿½a peasant revolt, in parallel with the Catalan civil war.
+1472.1.1 = { unrest = 0 } # End of the First Remenï¿½a revolt
 1516.1.23 = {
 	controller = SPA
 	owner = SPA
@@ -32,6 +46,6 @@ discovered_by = ottoman
 1521.3.16 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # The Germanies movement reaches the archipelago, the viceroy is deposed by the revolters
 1523.3.8 = { revolt = {} controller = SPA } # The royal army retakes the city of Palma
 1705.10.9 = { controller = HAB } # Balearic isles side with the Austrian cause
-1713.4.11 = { revolt = { type = revolutionary_rebels size = 1 } controller = REB } # The pro-Austrian forces in Mallorca and Eïvissa ignore the Treaty of Utrecht.
+1713.4.11 = { revolt = { type = revolutionary_rebels size = 1 } controller = REB } # The pro-Austrian forces in Mallorca and Eï¿½vissa ignore the Treaty of Utrecht.
 1713.7.13 = { revolt = {} remove_core = ARA }
-1714.9.14 = { controller = SPA } # Mallorca and Eïvissa surrender shortly after the fall of Barcelona
+1714.9.14 = { controller = SPA } # Mallorca and Eï¿½vissa surrender shortly after the fall of Barcelona

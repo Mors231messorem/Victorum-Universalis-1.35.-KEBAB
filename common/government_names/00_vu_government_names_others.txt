@@ -140,26 +140,6 @@ principality_of_wales = {
     }
 }
 
-#greek_aparchate = {
-#    rank = {
-#        1 = GREEK_APARCHATE
-#        2 = GREEK_MEGAS_APARCHATE
-#    }
-#
-#    ruler_male = {
-#        1 = GREEK_APARCHOS
-#        2 = GREEK_MEGAS_APARCHOS
-#    }
-#
-#    trigger = {
-#	    OR = {
-#		    culture_group = byzantine
-#		    culture_group = south_slavic
-#        }
-#        has_reform = greek_aparchate_reform
-#    }
-#}
-
 scottish_vassal_monarchy = {
 	rank = {
 		1 = EARLDOM
@@ -505,47 +485,13 @@ gov_irish_clann = { #Starting Irish minors
 	}
 }
 
-gov_earldom = { #Provincial Kingdom formables Chester
+gov_welsh_lordship = { #Starting Old Welsh minors.
 	rank = {
-		1 = ENG_EARLDOM
+		1 = WELSH_CANTREF #Cantref
 	}
 	
 	ruler_male = {
-		1 = ENG_EARL
-	}
-	
-	ruler_female = {
-		1 = ENG_COUNTESS_fem
-	}
-	
-	consort_male = {
-		1 = ENG_CONSORT
-	}
-
-	consort_female = {
-		1 = ENG_CONSORT_fem
-	}
-	
-	heir_male = {
-		1 = ENG_HEIR
-	}
-
-	heir_female = {
-		1 = ENG_HEIR_fem
-	}
-	
-	trigger = {
-		has_reform = earldom_reform
-	}
-}
-
-gov_welsh_cammote = { #Starting Welsh minors
-	rank = {
-		1 = WELSH_CAMMOTE
-	}
-	
-	ruler_male = {
-		1 = WELSH_CAMMOTE_CHIEFTAIN #Pennaeth
+		1 = WELSH_CHIEFTAIN #Pennaeth
 	}
 	
 	ruler_female = {
@@ -553,45 +499,11 @@ gov_welsh_cammote = { #Starting Welsh minors
 	}
 	
 	consort_male = {
-		1 = WELSH_CAMMOTE_CONSORT #Iarll
+		1 = WELSH_CONSORT #Cydymaith 
 	}
 
 	consort_female = {
-		1 = WELSH_CAMMOTE_CONSORT_fem #Iarlles
-	}
-	
-	heir_male = {
-		1 = WELSH_CAMMOTE_PRINCE #Tywysog
-	}
-
-	heir_female = {
-		1 = WELSH_CAMMOTE_PRINCESS_fem #Tywysoges
-	}
-	
-	trigger = {
-		has_reform = welsh_cammote_reform
-	}
-}
-
-gov_welsh_earldom = { #Provincial Kingdom formables Glywyssing
-	rank = {
-		1 = WELSH_EARLDOM #Iarllaeth
-	}
-	
-	ruler_male = {
-		1 = WELSH_EARL #Iarll
-	}
-	
-	ruler_female = {
-		1 = WELSH_COUNTESS_fem #Iarlles
-	}
-	
-	consort_male = {
-		1 = WELSH_CONSORT #Arglwydd
-	}
-
-	consort_female = {
-		1 = WELSH_CONSORT_fem #Arglwyddes
+		1 = WELSH_CONSORT_fem #Cydymaith 
 	}
 	
 	heir_male = {
@@ -599,59 +511,93 @@ gov_welsh_earldom = { #Provincial Kingdom formables Glywyssing
 	}
 
 	heir_female = {
-		1 = WELSH_HEIR_fem #Arglwyddes
+		1 = WELSH_HEIRESS_fem #Arglwyddes
 	}
 	
 	trigger = {
-		has_reform = welsh_earldom_reform
+		has_reform = welsh_lordship_reform
 	}
 }
 
-gov_welsh_teyrnas_kingship = { #Welsh petty Kingdom.
+gov_welsh_duchy = { #Starting Old Welsh Duchy minors
 	rank = {
-		1 = WELSH_TEYRNAS_KINGDOM #Teyrnas
-		2 = WELSH_TEYRNAS_KINGDOM
-		3 = WELSH_TEYRNAS_HIGH_KINGDOM
+		1 = WELSH_DUCHY #Dugiaeth
 	}
 	
 	ruler_male = {
-		1 = WELSH_TEYRNAS_KING
-		2 = WELSH_TEYRNAS_KING
-		3 = WELSH_TEYRNAS_HIGH_KING
+		1 = WELSH_DUKE #Dug
 	}
 	
 	ruler_female = {
-		1 = WELSH_TEYRNAS_QUEEN_fem
-		2 = WELSH_TEYRNAS_QUEEN_fem
-		3 = WELSH_TEYRNAS_HIGH_QUEEN_fem
+		1 = WELSH_DUCHESS_fem #Duges
 	}
 	
 	consort_male = {
-		1 = WELSH_TEYRNAS_CONSORT
-		2 = WELSH_TEYRNAS_CONSORT
-		3 = WELSH_TEYRNAS_CONSORT
+		1 = WELSH_CONSORT #Cydymaith
 	}
 
 	consort_female = {
-		1 = WELSH_TEYRNAS_CONSORT_fem
-		2 = WELSH_TEYRNAS_CONSORT_fem
-		3 = WELSH_TEYRNAS_CONSORT_fem
+		1 = WELSH_CONSORT_fem #Cydymaith
 	}
 	
 	heir_male = {
-		1 = WELSH_TEYRNAS_PRINCE
-		2 = WELSH_TEYRNAS_PRINCE
-		3 = WELSH_TEYRNAS_PRINCE
+		1 = WELSH_HEIR #Arglwydd
 	}
 
 	heir_female = {
-		1 = WELSH_TEYRNAS_PRINCESS_fem
-		2 = WELSH_TEYRNAS_PRINCESS_fem
-		3 = WELSH_TEYRNAS_PRINCESS_fem
+		1 = WELSH_HEIRESS_fem #Arglwyddes
 	}
 	
 	trigger = {
-		has_reform = welsh_teyrnas_reform
+		has_reform = welsh_duchy_reform
+	}
+}
+
+gov_welsh_monarchy = { #Welsh minor kingdoms.
+	rank = {
+		1 = WELSH_CAMMOTE #Cymwd
+		2 = WELSH_EARLDOM #Iarllwys
+		3 = WELSH_PETTY_KINGDOM #Teyrnas
+	}	
+	
+	ruler_male = {
+		1 = WELSH_CHIEFTAIN #Pennaeth
+		2 = WELSH_EARL #Iarll
+		3 = WELSH_PETTY_KING #Brenin
+	}
+	
+	ruler_female = {
+		1 = WELSH_CHIEFTESS_fem #Penaethiaid
+		2 = WELSH_COUNTESS_fem #Iarlles
+		3 = WELSH_PETTY_QUEEN_fem #Brenhines
+	}
+	
+	consort_male = {
+		1 = WELSH_CONSORT #Cydymaith 
+		2 = WELSH_CONSORT #Cydymaith 
+		3 = WELSH_CONSORT #Cydymaith 
+	}
+
+	consort_female = {
+		1 = WELSH_CONSORT_fem #Cydymaith 
+		2 = WELSH_CONSORT_fem #Cydymaith 
+		3 = WELSH_CONSORT_fem #Cydymaith 
+	}
+	
+	heir_male = {
+		1 = WELSH_HEIR #Arglwydd
+		2 = WELSH_HEIR #Arglwydd
+		3 = WELSH_HEIR_PRINCE #Tywysog
+	}
+
+	heir_female = {
+		1 = WELSH_HEIRESS_fem #Arglwydd
+		2 = WELSH_HEIRESS_fem #Arglwydd
+		3 = WELSH_HEIRESS_PRINCESS_fem #Tywysoges
+	}
+	
+	trigger = {
+		has_reform = welsh_monarchy_reform
 	}
 }
 
@@ -689,95 +635,147 @@ gov_provincial_kingdom = { #Provincial Kingdom formables Munster, Leinster, Ulst
 	}
 }
 
-gov_greek_catepanates = { #Starting Old English minors.
+gov_greek_lordship = { #Starting Old Byzantine minors.
 	rank = {
-		1 = GREEK_CATEPANATES 
+		1 = GREEK_LORDSHIP #Despotate
+		2 = GREEK_EPARCHATE #Eparchate
+		3 = GREEK_THEME #Theme
 	}
 	
 	ruler_male = {
-		1 = GREEK_KATIPANOS
+		1 = GREEK_LORD #Despotēs
+		2 = GREEK_EPARCH #Eparch
+		3 = GREEK_STRATEGOS #Strategos
 	}
 	
 	#ruler_female = {
-	#	1 = GREEK_KATIPANOS_fem
+	#	1 = GREEK_LADY_fem #Despoina
+	#	2 = GREEK_COUNTESS_fem #Despoina
+	#	3 = GREEK_STRATEGOS_fem #Despoina
 	#}
 	
-	trigger = {
-		has_reform = greek_catepanates_reform
-	}
-}
+	#consort_male = {
+	#	1 = GREEK_CONSORT #Syzygos
+	#	2 = GREEK_CONSORT #Syzygos
+	#	3 = GREEK_CONSORT #Syzygos
+	#}
 
-gov_greek_ducates = { #Norma Duchy formables Munser, Leinster, Ulster & Connacht, by Old English
-	rank = {
-		1 = GREEK_DUCHY
-		2 = GREEK_GRAND_DUCHY
-		3 = GREEK_GRAND_DUCHY
+	consort_female = {
+		1 = GREEK_CONSORT_fem #Syzygos
+		2 = GREEK_CONSORT_fem #Syzygos
+		3 = GREEK_CONSORT_fem #Syzygos
 	}
-	
-	ruler_male = {
-		1 = GREEK_DUKE
-		2 = GREEK_GRAND_DUKE_STRAT
-		3 = GREEK_GRAND_DUKE
-	}
-	
-	#ruler_female = {
-	#	1 = GREEK_DUCHESS_fem
-	#	2 = GREEK_GRAND_DUCHESS_STRAT_fem
-	#	3 = GREEK_GRAND_DUCHESS_fem
-	#}
-	
-	consort_male = {
-		1 = GREEK_CONSORT
-		2 = GREEK_CONSORT
-		3 = GREEK_CONSORT
-	}
-
-	#consort_female = {
-	#	1 = GREEK_CONSORT_fem
-	#	2 = GREEK_CONSORT_fem
-	#	3 = GREEK_CONSORT_fem
-	#}
 	
 	heir_male = {
-		1 = GREEK_HEIR
-		2 = GREEK_HEIR
-		3 = GREEK_HEIR
+		1 = GREEK_HEIR #Kyrios
+		2 = GREEK_HEIR #Kyrios
+		3 = GREEK_HEIR #Kyrios
 	}
 
 	#heir_female = {
-	#	1 = GREEK_HEIRESS_fem
-	#	2 = GREEK_HEIRESS_fem
-	#	3 = GREEK_HEIRESS_fem
+	#	1 = GREEK_HEIRESS_fem #Kūríā
+	#	2 = GREEK_HEIRESS_fem #Kūríā
+	#	3 = GREEK_HEIRESS_fem #Kūríā
 	#}
 	
 	trigger = {
-		has_reform = greek_ducates_reform
+		has_reform = greek_lordship_reform
 	}
 }
 
-gov_greek_exarchates = { #Provincial Kingdom formables 
+gov_greek_duchy = { #Greek Duchy formables
 	rank = {
-		1 = GREEK_EXARCHATE
+		1 = GREEK_KATEPANATE #Katepanate
+		2 = GREEK_DUCATE #Ducate
+		3 = GREEK_GRAND_DUCATE #Megas Ducate
 	}
 	
 	ruler_male = {
-		1 = GREEK_EXARCH
+	    1 = GREEK_KATEPANOS #Katepanos
+		2 = GREEK_DUKE #Doux
+		3 = GREEK_GRAND_DUKE #Megas Doux
 	}
 	
 	#ruler_female = {
-	#	1 = GREEK_EXARCH_fem
+	#   1 = GREEK_STRATEGOSS_fem #Strategos
+	#	2 = GREEK_DUCHESS_fem #Doukissa
+	#	3 = GREEK_GRAND_DUCHESS_fem #Doukissa
 	#}
 	
+	#consort_male = {
+	#	1 = GREEK_CONSORT #Syzygos
+	#	2 = GREEK_CONSORT #Syzygos
+	#	3 = GREEK_CONSORT #Syzygos
+	#}
+
+	consort_female = {
+		1 = GREEK_CONSORT_fem #Syzygos
+		2 = GREEK_CONSORT_fem #Syzygos
+		3 = GREEK_CONSORT_fem #Syzygos
+	}
+	
 	heir_male = {
-		1 = GREEK_VICARIUS 
+		1 = GREEK_HEIR #Krites
+		2 = GREEK_HEIR #Krites
+		3 = GREEK_HEIR #Krites
 	}
 
 	#heir_female = {
-	#	1 = GREEK_VICARIUS_fem
+	#	1 = GREEK_HEIRESS_fem #Kūríā
+	#	2 = GREEK_HEIRESS_fem #Kūríā
+	#	3 = GREEK_HEIRESS_fem #Kūríā
 	#}
 	
 	trigger = {
-		has_reform = greek_exarchates_reform
+		has_reform = greek_duchy_reform
+	}
+}
+
+gov_greek_roman_governors = { #Greco-Roman political/military governors
+	rank = {
+	    1 = GREEK_GOV_DUCATE #Ducate
+		2 = GREEK_EXARCHATE #Exarchate
+		3 = GREEK_NOMARCHATE #Nomarchate
+	}	
+	
+	ruler_male = {
+	    1 = GREEK_GOV_DUKE #Doux
+		2 = GREEK_EXARCH #Exarch
+		3 = GREEK_PRAETORIAN_PREFECT #Nomarch
+	}
+	
+	#ruler_female = {
+	#   1 = GREEK_DUCHESS_fem #Doukissa
+	#	2 = GREEK_EXARCH_fem #Exarch
+	#	3 = GREEK_PRAETORIAN_PREFECT_fem #Nomarch
+	#}
+	
+	#consort_male = {
+	#	1 = GREEK_CONSORT #Syzygos
+	#	2 = GREEK_CONSORT #Syzygos
+	#	3 = GREEK_CONSORT #Syzygos
+	#}
+
+	consort_female = {
+		1 = GREEK_CONSORT_fem #Syzygos
+		2 = GREEK_CONSORT_fem #Syzygos
+		3 = GREEK_CONSORT_fem #Syzygos
+	}
+	
+	heir_male = {
+		1 = GREEK_HEIR #Archon
+		1 = GREEK_HEIR #Archon
+		2 = GREEK_HEIR #Archon
+	}
+
+	#heir_female = {
+	#	1 = GREEK_HEIRESS_fem #Kyria
+	#	1 = GREEK_HEIRESS_fem #Kyria
+	#	2 = GREEK_HEIRESS_fem #Kyria 
+	#}
+	
+	trigger = {
+		has_reform = greek_roman_governors_reform
 	}
 }
 

@@ -1825,7 +1825,7 @@ country_event = {
 				}
 				has_regency = no
 				mil = 6
-				adm_tech = 25
+				adm_tech = 41
 				is_year = 1600
 				is_free_or_tributary_trigger = yes
 			}

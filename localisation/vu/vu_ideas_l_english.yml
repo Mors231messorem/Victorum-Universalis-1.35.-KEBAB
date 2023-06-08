@@ -1,4 +1,29 @@
 ﻿l_english: 
+ #Quonton
+ gerdia_ideas: "German Diasporan Ideas"
+ gerdia_ideas: "German Diasporan Tradition"
+ gerdia_ideas_bonus: "German Diasporan Ambitions"
+ german_industrialism_desc: "Our German ancestory and traditions give us a greater mastery of the world around us, and allows us to improve our industry."
+ german_industrialism: "German Industrialism"
+
+ militias_for_our_farms_desc: "We are a small people in a large land. To protect ourselves from Slavs, Tartars, Uralics, and all other foes, we must arm ourselves."
+ militias_for_our_farms: "The People's Militia"
+
+ alone_around_enemies_desc: "Are people are scattered, and surrounded on all sides by enemies. We must stand togeather if we want a chance in surviving."
+ alone_around_enemies: "Alone Surrounded by Enemies"
+
+ profesional_armyies_desc: "For most of our history we've used small malitias to protect ourselves. This is no more. We will great a professional modern army to protect ourselves and our people."
+ profesional_armyies: "A Professional Army"
+
+ gaurd_the_cities_desc: "The cities and towns are the only places which we can truely mount a defence. We must protect our homes with all we are."
+ gaurd_the_cities: "Guard the Cities"
+
+ german_efficiencys_desc: "Our German Culture gives us a great edge in the efficiency of our farming and industry. We must lean on this strength of ours to protect ourselves"
+ german_efficiencys: "German Efficiency"
+
+ small_yet_powerful_desc: "Our people are small, and few in numbers, but those who are here prosper and thrive."
+ small_yet_powerful: "Small Yet Powerful"
+
  #Basic Ideas
  military_reconaissance: "Military Reconaissance"
  military_reconaissance_desc: "By deploying our spies as scouts on the battlefield, we can learn much about the layout of enemy territory, greatly informing the logistical and organizational planning of our military campaigns. With knowledge of the land, our troops will be able to better secure supplies and move unimpeded through even the most hostile of environments."

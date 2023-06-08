@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = welsh_cammote_reform
+add_government_reform = welsh_lordship_reform
 government_rank = 1
 technology_group = western
 primary_culture = welsh

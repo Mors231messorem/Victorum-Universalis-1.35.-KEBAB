@@ -6,7 +6,9 @@ primary_culture = ligurian
 add_accepted_culture = greek
 add_accepted_culture = cypriot
 religion = catholic
-technology_group = western
+#technology_group = western
+technology_group = italian
+unit_type = western
 capital = 101	# Genova
 fixed_capital = 101 # Cannot move capital away from this province & no power cost to move to it
 

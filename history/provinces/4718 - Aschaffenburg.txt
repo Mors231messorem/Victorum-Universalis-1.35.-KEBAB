@@ -17,9 +17,23 @@ hre = yes
 
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 1631.12.22 = { controller = SWE }
 1635.1.1 = {
@@ -38,7 +52,7 @@ discovered_by = eastern
 	controller = FRN
 	add_core = FRN
 	remove_core = MAI
-} # The Grand Duchy of Frankfurt, established after the Treaty of Schönbrunn
+} # The Grand Duchy of Frankfurt, established after the Treaty of Schï¿½nbrunn
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
 1814.1.1 = {
 	owner = BAV

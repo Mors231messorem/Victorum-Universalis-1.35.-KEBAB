@@ -4,7 +4,7 @@
 
 culture = guanche
 religion = animism
-capital = "Añazo"
+capital = "Aï¿½azo"
 trade_goods = unknown
 hre = no
 base_tax = 3 
@@ -15,6 +15,15 @@ native_ferocity = 1
 native_hostileness = 0
 
 	discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 	discovered_by = muslim
 	discovered_by = ottoman
 
@@ -28,7 +37,7 @@ native_hostileness = 0
 	culture = castillian	
 	trade_goods = wine
 	capital = "Santa Cruz"
-} # Alonso Fernández de Lugo lands on the island of Tenerife and founds an advance post, the rest of the island falls soon after
+} # Alonso Fernï¿½ndez de Lugo lands on the island of Tenerife and founds an advance post, the rest of the island falls soon after
 1516.1.23 = {
 	controller = SPA
 	owner = SPA

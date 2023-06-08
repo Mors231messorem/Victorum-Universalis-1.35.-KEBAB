@@ -14,9 +14,23 @@ is_city = yes
 hre = yes
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 
 1720.2.17 = { owner = SPI controller = SPI add_core = SPI remove_core = SAV } # Treaty of the Hague, Victor Amadeus II trades Sicily for Sardinia, founding the Kingdom of Piedmont-Sardinia
 1792.9.1 = { controller = FRA } # Conquered by Napoleon without a siege at the beginning of the War of the First Coalition

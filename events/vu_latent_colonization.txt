@@ -14,8 +14,8 @@ province_event = {
 		NOT = { has_global_flag = malaria_turned_off }
 
 		owner = {
-			# Diplomatic Technology 35 (~1850s) will unlock malaria provinces, preventing this event.
-			NOT = { dip_tech = 35 }
+			# Diplomatic Technology 46 (~1850s) will unlock malaria provinces, preventing this event.
+			NOT = { dip_tech = 46 }
 			
 			# If the province isn't from the same continent as the owner's capital, the event will trigger.
 			# Colonial nations should still be affected - at least before their independence.

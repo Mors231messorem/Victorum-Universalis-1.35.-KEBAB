@@ -168,7 +168,7 @@ germanic = {
 		}
 	}
 	baltic_german = {
-		primary = RIG
+		primary = UBD
         graphical_culture = westerngfx
 		male_names = {
 			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl
@@ -333,7 +333,7 @@ germanic = {
 	#VU addition
 	caucasian_german = {
         graphical_culture = latingfx
-		#primary = XXX
+		primary = GCU
 		male_names = {
 			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl
 			Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard
@@ -376,7 +376,7 @@ germanic = {
 	russian_german = {
 		#TY: I am not sure what the point of the something_german cultures are, they are near identical,
 		#but see if you like what I have done to this one
-		#primary = XXX
+		primary = GMK
         graphical_culture = easterngfx
 		male_names = {
 			# Some names that are both Russian and German
@@ -471,7 +471,7 @@ germanic = {
 	}
 	crimean_german = {
         graphical_culture = westerngfx
-		#primary = XXX
+		primary = GCR
 		male_names = {
 			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl
 			Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard
@@ -512,7 +512,7 @@ germanic = {
 		}
 	}
 	ukraine_german = {
-		#primary = XXX
+		primary = GBL
         graphical_culture = westerngfx
 		male_names = {
 			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl
@@ -638,7 +638,7 @@ germanic = {
 		}
 	}
 	volhynian_german = {
-		#primary = XXX
+		primary = VLH
         graphical_culture = westerngfx
 		male_names = {
 			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl
@@ -680,7 +680,7 @@ germanic = {
 		}
 	}
 	siberian_german = {
-		#primary = XXX
+		primary = SBR
         graphical_culture = westerngfx
 		male_names = {
 			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl
@@ -764,7 +764,7 @@ germanic = {
 		}
 	}
 	ural_german = {
-		#primary = XXX
+		primary = URG
 		male_names = {
 			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl
 			Clemens Wenzel Franz Xaver Joachim Joseph Magnus Maximilian Severinus Wolfgang Andreas Bruno Burkhard
@@ -1093,7 +1093,7 @@ germanic = {
 		}
 	}
 	pontic_steppe_german = {
-		#primary = XXX
+		primary = VOG
 		male_names = {
 			Vladimir Kyu
 			Friedrich Albrecht Christian Heinrich Rudolf August Ernst Georg Moritz Alexander Anton Hektor Johann Karl
@@ -1219,94 +1219,6 @@ germanic = {
 			"van Krier" "van Braun" "van Wagener" "van Diederich"
 		}
 	}
-	#Beyond the Pale Culture VULegacy Culture
-	transylvanian_saxons = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	silesian_german = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	#VU addition - Needed for SEVU colonials
-	german_east_african = { 
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	german_east_asian = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	german_east_indian = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	german_indian = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	german_afrikaner = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	german_west_african = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	#VU addition - Needed for VUColonialCultures
-	deutsch_asiaten = {
-        graphical_culture = westerngfx
-		#primary = #no tag so no seperatists
-	}
-	#VU addition - Needed for VUColonialCultures and VU_Colonial_Cultures
-	#Brazil CR
-	hunsrik = {
-        graphical_culture = westerngfx
-	}
-	#La Plata, Chile CR
-	argentiner = {
-        graphical_culture = westerngfx
-	}
-	#Colombia, Venezuela, Ecuador CR
-	deutschkolumbian = {
-        graphical_culture = westerngfx
-	}
-	#Cuba CR
-	kubaner = {
-        graphical_culture = westerngfx
-	}
-	#Mexico CR
-	mexikaner = {
-        graphical_culture = westerngfx
-	}
-	#Eastern America, Mississippi, Great Lakes, Louisiana, Florida
-	pennsilfaanisch = {
-        graphical_culture = westerngfx
-	}
-	#California CR
-	kalifornier = {
-        graphical_culture = westerngfx
-	}
-	#Acadia, Canada, Newfoundland CR
-	neu_prussian = {	
-        graphical_culture = westerngfx
-	}
-	#Alaska CR
-	alaskaner = {
-        graphical_culture = westerngfx
-	}
-	#Cape CR
-	afrikaner = {
-        graphical_culture = westerngfx
-	}
-	#Australia CR
-	australier = {
-        graphical_culture = westerngfx
-	}
-	#New Zealand CR
-	seelander = {
-        graphical_culture = westerngfx
-	}
 	#Dutch
 	ger_dutch = { #renamed to Hollander
         graphical_culture = westerngfx
@@ -1405,6 +1317,94 @@ germanic = {
 	ger_north_frisian = {
         graphical_culture = westerngfx
 		primary = EFR
+	}
+	#Beyond the Pale Culture VULegacy Culture
+	transylvanian_saxons = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	silesian_german = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	#VU addition - Needed for SEVU colonials
+	german_east_african = { 
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	german_east_asian = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	german_east_indian = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	german_indian = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	german_afrikaner = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	german_west_african = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	#VU addition - Needed for VUColonialCultures
+	deutsch_asiaten = {
+        graphical_culture = westerngfx
+		#primary = #no tag so no seperatists
+	}
+	#VU addition - Needed for VUColonialCultures and VU_Colonial_Cultures
+	#Brazil CR
+	hunsrik = {
+        graphical_culture = westerngfx
+	}
+	#La Plata, Chile CR
+	argentiner = {
+        graphical_culture = westerngfx
+	}
+	#Colombia, Venezuela, Ecuador CR
+	deutschkolumbian = {
+        graphical_culture = westerngfx
+	}
+	#Cuba CR
+	kubaner = {
+        graphical_culture = westerngfx
+	}
+	#Mexico CR
+	mexikaner = {
+        graphical_culture = westerngfx
+	}
+	#Eastern America, Mississippi, Great Lakes, Louisiana, Florida
+	pennsilfaanisch = {
+        graphical_culture = westerngfx
+	}
+	#California CR
+	kalifornier = {
+        graphical_culture = westerngfx
+	}
+	#Acadia, Canada, Newfoundland CR
+	neu_prussian = {	
+        graphical_culture = westerngfx
+	}
+	#Alaska CR
+	alaskaner = {
+        graphical_culture = westerngfx
+	}
+	#Cape CR
+	afrikaner = {
+        graphical_culture = westerngfx
+	}
+	#Australia CR
+	australier = {
+        graphical_culture = westerngfx
+	}
+	#New Zealand CR
+	seelander = {
+        graphical_culture = westerngfx
 	}
 }
 
@@ -14364,6 +14364,21 @@ old_germanic_group = {
 			Beorning Iceling Wuffing Wihtgilsing Ross Ciesla Rowe Borthwick
 		}
 	}
+#	frankish = { #Cutting that for now since it's also in ME. Leaving the code in in case Darth wants to review that.
+#		primary = FRX
+#		male_names = { #male and female copied from Rhenish
+#			Wilhelm Ludwig Friedrich Hermann Karl Moritz Philipp Heinrich Otto Adolf Christian Georg Leopold 
+#			Philipp Adelmar Albrecht Barnabas Denis Egon Erich Gerhard Gottlieb Gregor Hagan Helmut Isaak Isidor 
+#			Joachim Joseph Kreszens Lothar Oskar Siegfried Stefan Thomas Wenzel Werner Wolfram Maximilian Ivo
+#		}
+#		female_names = {
+#			Corinna Else Hedwig Helene Helen Hildegard Hildegard Hrothwina Ida Ida Imma Emma Irmgard Charlotte Chiara 
+#			Christa Christel Christiane Christina Christine Clara Claudia Constanze
+#		}
+#		dynasty_names = {
+#			"Merovech" "Karling" "Bosonid" "Capetian" "Hesbaye" "Arnufing" "Hattonid" "Rorgonid" "Reginarid" "Etichonid" "Agilolfing" "Widonid"
+#		}
+#	}
 	frisii = {
 		dynasty_names = {
 			Firsii Friti Ferisi Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing 
@@ -14979,10 +14994,6 @@ brythonic = {
 		}
 	}
 }
-
-#VU - Unused Cultures
-unused = { berber = {} }
-unused = { maghrebi = {} }
 
 berber_group = {
 	graphical_culture = persiangfx

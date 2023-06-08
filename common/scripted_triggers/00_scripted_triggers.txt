@@ -2232,7 +2232,18 @@ has_better_tech_than_westerns = {
 		NOT = {
 		    any_country = {
 				tech_difference = 1
-				technology_group = western
+				OR = {
+				    technology_group = western
+				    technology_group = english
+				    technology_group = french
+				    technology_group = dutch
+				    technology_group = german_group
+				    technology_group = italian
+					technology_group = portuguese
+				    technology_group = scandinavian
+				    technology_group = spanish
+					technology_group = swiss
+				}
 				NOT = { tag = ROOT }
 			}
 		}
@@ -2249,7 +2260,18 @@ has_more_institutions_than_westerns = {
 						who = ROOT
 						value = 1
 					}
-					technology_group = western
+					OR = {
+				        technology_group = western
+				        technology_group = english
+				        technology_group = french
+				        technology_group = dutch
+				        technology_group = german_group
+				        technology_group = italian
+				    	technology_group = portuguese
+				        technology_group = scandinavian
+				        technology_group = spanish
+				    	technology_group = swiss
+				    }
 					NOT = { tag = ROOT }
 				}
 				amount = 1

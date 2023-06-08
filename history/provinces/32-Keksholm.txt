@@ -1,4 +1,4 @@
-#Keksholms län+Karelen, incl. Sordavala and Keksholm.
+#Keksholms lï¿½n+Karelen, incl. Sordavala and Keksholm.
 #Region - Russia
 #Area - Karelia
 
@@ -19,7 +19,21 @@ is_city = yes
 add_local_autonomy = 25
 
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 
 
 1478.1.15 = {	owner = MOS controller = MOS add_core = MOS remove_core = NOV }			#Annexation of Novgorod by Moscovy

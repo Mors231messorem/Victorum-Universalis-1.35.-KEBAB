@@ -1,4 +1,4 @@
-#Småland, also contains Öland. Kalmar, Jönköping etc..
+#Smï¿½land, also contains ï¿½land. Kalmar, Jï¿½nkï¿½ping etc..
 #Region - Scandinavia
 #Area - Gotaland
 
@@ -18,9 +18,23 @@ fort_15th = yes # Kalmar Slott
 add_core = GTA
 
 discovered_by = western
+discovered_by = dutch
+discovered_by = english
+discovered_by = french
+discovered_by = german_group
+discovered_by = italian
+discovered_by = portuguese
+discovered_by = scandinavian
+discovered_by = spanish
+discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
+discovered_by = bohemian
+discovered_by = byzantine
+discovered_by = hungarian
+discovered_by = polish
+discovered_by = russian
 center_of_trade = 1
 extra_cost = 10
 
@@ -49,6 +63,6 @@ add_permanent_province_modifier = {
 	controller = DAN 
 	base_manpower = 1
 } # The War of Kalmar-Captured by Christian IV, town takes heavy toll
-1613.1.20 = { controller = SWE }# The Peace of Knäred
+1613.1.20 = { controller = SWE }# The Peace of Knï¿½red
 1703.1.1 = { cathedral = yes } #Kalmar Cathedral innauguration
 1750.1.1 = { base_manpower = 3 } #Population restored
