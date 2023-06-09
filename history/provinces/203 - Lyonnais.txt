@@ -1,9 +1,11 @@
-# 203 Lyonnais - Principal cities: Lyon
+#203 - Lyonnais
 #Region - France
 #Area - Savoy
 
+#Default
 owner = FRA
 controller = FRA
+add_core = FRA
 capital = "Lyon"
 is_city = yes
 culture = arpitan
@@ -14,9 +16,18 @@ base_production = 12
 trade_goods = vegetables
 base_manpower = 7
 #add_local_autonomy = 35			#Added to represent relative autonomy until 1457
-add_core = FRA
+center_of_trade = 3
+extra_cost = 20
+
+#Claimants
+add_core = DAU
+
+#Buildings
 fort_15th = yes
 
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -24,6 +35,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -36,9 +48,10 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
-center_of_trade = 3
-extra_cost = 20
+#Histories
+1215.6.15 = { owner = DAU controller = DAU add_core = DAU } # Part of English Duchy of Aquitaine - By San Felipe
 
+1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe
 
 #1399.1.1 = { add_core = DAU }
 1446.9.27 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Dauphin� is ruled as a separate kingdom by Louis

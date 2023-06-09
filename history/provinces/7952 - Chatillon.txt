@@ -1,11 +1,12 @@
-#7952 - Chatillon
+#7952 - Châtillon
 
+#Default
 owner = BUR
 controller = BUR
 add_core = BUR
 culture = burgundian
 religion = catholic
-capital = "Chï¿½tillon"
+capital = "Châtillon"
 base_tax = 2
 base_production = 3
 base_manpower = 2
@@ -13,6 +14,11 @@ trade_goods = copper
 is_city = yes
 hre = no
 
+#Claimants
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -20,6 +26,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -32,5 +39,6 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
 1477.1.5 = { owner = HAB controller = HAB add_core = HAB }	#from vanilla. Mary of Burgundy, an heiress, passes all Burgundian holdings in the Low Countries to the Habsburgs
 1481.1.1 = { owner = FRA controller = FRA add_core = FRA } # Provence added to France after the death of Duke Charles

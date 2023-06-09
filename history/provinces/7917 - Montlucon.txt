@@ -1,11 +1,12 @@
-#7917 - Montluï¿½on
+#7917 - Montluçon
 
+#Default
 owner = BOU
 controller = BOU
 add_core = BOU
 culture = auvergnat_culture
 religion = catholic
-capital = "Montluï¿½on"
+capital = "Montluçon"
 base_tax = 3
 base_production = 3
 base_manpower = 2
@@ -13,6 +14,13 @@ trade_goods = fruit
 is_city = yes
 hre = no
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -20,6 +28,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -32,4 +41,5 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
 1531.1.1 = { owner = FRA controller = FRA add_core = FRA }

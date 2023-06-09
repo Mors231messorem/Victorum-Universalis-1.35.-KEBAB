@@ -1,7 +1,9 @@
 #205 - Savoie
 
+#Default
 owner = SAV
 controller = SAV
+add_core = SAV
 culture = arpitan
 religion = catholic
 hre = yes
@@ -9,11 +11,16 @@ base_tax = 5
 base_production = 5
 trade_goods = lead
 base_manpower = 3
-capital = "Chambï¿½ry"
+capital = "Chambéry"
 is_city = yes	
-add_core = SAV
 
+#Claimants
 
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -21,6 +28,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -33,6 +41,7 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
 1495.1.1 = { hre = no }
 1499.1.1 = { owner = FRA controller = FRA add_core = FRA } 
 1529.1.1 = { owner = SAV controller = SAV } 

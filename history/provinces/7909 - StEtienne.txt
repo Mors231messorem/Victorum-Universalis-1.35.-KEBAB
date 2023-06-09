@@ -1,15 +1,16 @@
-#7909 - StEtienne
+#7909 - Saint-Étienne
 
 latent_trade_goods = {
 	coal
 }
 
+#Default
 owner = FOR
 controller = FOR
 add_core = FOR
 culture = arpitan
 religion = catholic
-capital = "St. ï¿½tienne"
+capital = "Saint-Étienne"
 base_tax = 3
 base_production = 3
 base_manpower = 2
@@ -17,7 +18,13 @@ trade_goods = cloth
 is_city = yes
 hre = no
 
+#Claimants
 
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -25,6 +32,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -36,3 +44,5 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories

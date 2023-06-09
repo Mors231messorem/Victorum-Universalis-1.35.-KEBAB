@@ -1,10 +1,12 @@
-# 193 Franche-Comtï¿½ - Principal cities: Besanï¿½on
+#193 Franche-Comté
 #Region - France
 #Area - Burgundy
 
+#Default
 owner = BSA
-controller = BSA 
-capital = "Besanï¿½on"
+controller = BSA
+add_core = BSA
+capital = "Besançon"
 is_city = yes
 culture = burgundian
 religion = catholic
@@ -13,9 +15,16 @@ base_tax = 5
 base_production = 5
 trade_goods = glass			#Clock making, apparently quite the business
 base_manpower = 3
-add_core = BSA
-fort_15th = yes
 center_of_trade = 1
+
+#Claimants
+
+#Buildings
+fort_15th = yes
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -23,6 +32,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -35,6 +45,7 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = BUR
 	controller = BUR

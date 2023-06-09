@@ -1,8 +1,10 @@
-#194 - Pï¿½rigord
+#194 - Périgord
 
+#Default
 owner = FRA
 controller = FRA
-capital = "Pï¿½rigueux"
+add_core = FRA
+capital = "Périgord"
 is_city = yes
 culture = auvergnat_culture	#aquitaine vanilla
 religion = catholic
@@ -11,10 +13,16 @@ base_tax = 2
 base_production = 3 
 trade_goods = fur
 base_manpower = 2
-fort_15th = yes
-add_core = FRA
-add_core = ENG
 
+#Claimants
+add_core = GUY
+
+#Buildings
+fort_15th = yes
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -22,6 +30,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -34,7 +43,10 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
-#Possible Province Modifier
+#Histories
+1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # Part of English Duchy of Aquitaine - By San Felipe
+
+1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe
 
 1560.1.1 = { religion = reformed }
 1565.1.1 = { unrest = 8 } # France is restless once again as ultra-catholic intentions become clear

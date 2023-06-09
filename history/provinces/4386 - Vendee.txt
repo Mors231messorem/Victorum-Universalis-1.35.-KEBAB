@@ -1,5 +1,6 @@
 #4386 - Fontenay
 
+#Default
 owner = AUV
 controller = AUV
 capital = "Fontenay"
@@ -11,9 +12,16 @@ base_tax = 2
 base_production = 2
 trade_goods = lumber
 base_manpower = 1 
+
+#Claimants
 add_core = FRA
+
+#Buildings
 fort_15th = yes
 
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -21,6 +29,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -33,7 +42,11 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = FRA controller = FRA add_core = FRA } # Part of French Royal Domain - By San Felipe
+
 1398.1.1 = { add_core = AUV }
+
 1416.3.15 = { owner = FRA controller = FRA remove_core = AUV } # Death of Jean de Valois
 1560.1.1 = { religion = reformed }
 1565.1.1 = { unrest = 8 } # France is restless once again as ultra-catholic intentions become clear

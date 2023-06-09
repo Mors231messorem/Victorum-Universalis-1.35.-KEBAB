@@ -1,7 +1,9 @@
 #199 - Auvergne
 
+#Default
 owner = FRA
 controller = FRA
+add_core = FRA
 capital = "Clermont"
 is_city = yes
 culture = auvergnat_culture
@@ -11,9 +13,15 @@ base_tax = 5
 base_production = 5
 trade_goods = silver
 base_manpower = 3
-add_core = FRA
+
+#Claimants
 add_core = AUV
 
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = eastern
 discovered_by = bohemian
 discovered_by = byzantine
@@ -27,12 +35,14 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 
+#Histories
 1453.1.1 = { add_core = BOU }
 1560.1.1 = { religion = reformed }
 1565.1.1 = { unrest = 8 } # France is restless once again as ultra-catholic intentions become clear

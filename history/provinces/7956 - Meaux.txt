@@ -1,9 +1,9 @@
 #7956 - Meaux
 
+#Default
 owner = FRA
 controller = FRA
 add_core = FRA
-add_core = CHP
 culture = cosmopolitan_french
 religion = catholic
 capital = "Meaux"
@@ -14,6 +14,14 @@ trade_goods = fur
 is_city = yes
 hre = no
 
+#Claimants
+add_core = CHP
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -21,6 +29,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -33,7 +42,7 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = CHP controller = CHP add_core = CHP } # Countship of Champagne - By San Felipe
 
-#Province history completed by - Darth Modus
-
-#1444 on
+1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe

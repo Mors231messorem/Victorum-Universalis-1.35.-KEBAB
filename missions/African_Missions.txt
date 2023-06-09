@@ -87,7 +87,8 @@ african_missions = {
 		        	technology_group = german_group
 		        	technology_group = italian
 			    	technology_group = portuguese
-		        	technology_group = scandinavian
+		        	technology_group = roman
+					technology_group = scandinavian
 		        	technology_group = spanish
 			    	technology_group = swiss
 		        }

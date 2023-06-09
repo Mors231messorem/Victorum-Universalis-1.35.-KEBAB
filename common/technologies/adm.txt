@@ -1,6 +1,181 @@
 #VU updated by San Felipe for 1.35
 monarch_power = ADM
 
+#Begining of pre-1444 tech NEEDS WORK
+technology = {  
+	year = 1204
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+
+technology = {  
+	year = 1217
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+
+technology = {  
+	year = 1232
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+
+technology = {  
+	year = 1245
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+
+
+technology = {  
+	year = 1258
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+
+technology = {  
+	year = 1271
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+
+technology = {  
+	year = 1284
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+
+technology = {  
+	year = 1297
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+
+technology = {  
+	year = 1310
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+
+technology = {  
+	year = 1323
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+technology = {  
+	year = 1336
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+technology = {  
+	year = 1349
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+technology = {  
+	year = 1362
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+technology = {  
+	year = 1375
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+technology = {  
+	year = 1388
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+technology = {  
+	year = 1401
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+technology = {  
+	year = 1414
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+technology = {  
+	year = 1427
+	#THIS IS COPY PASTE NEEDS WORK
+	expects_institution = {
+		feudalism = 0.5
+		gunpowder_warfare = 0.05
+	}
+}
+
+#End of pre-1444 techs
+
 # applied when a country is ahead of time in this technology
 ahead_of_time = {
 	production_efficiency = 0.1
@@ -54,7 +229,7 @@ technology = { #Feudal Monarchy
 
 # The 30 big techs from here on
 
-technology = { #Medieval Administration
+technology = { #Medieval Administration  
 	# Tech 3
 	year = 1440
 	expects_institution = {

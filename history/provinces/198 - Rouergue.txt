@@ -6,6 +6,7 @@ latent_trade_goods = {
 	coal
 }
 
+#Default
 owner = AMG
 controller = AMG
 capital = "Rodez"
@@ -21,6 +22,14 @@ add_core = AMG
 add_core = TOU
 center_of_trade = 1
 
+#Claimants
+add_core = TOU
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = eastern
 discovered_by = bohemian
 discovered_by = byzantine
@@ -34,12 +43,17 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 
+#Histories
+1215.6.15 = { owner = TOU controller = TOU add_core = TOU } # Countship of Toulouse - By San Felipe
+
+1444.11.11 = { owner = AMG controller = AMG add_core = AMG } # Part of the duchy of Armagnac - By San Felipe
 
 1588.12.1 = { unrest = 5 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
 1589.1.5 = { owner = NAV controller = NAV add_core = NAV }

@@ -1,7 +1,8 @@
-# - Urgell
+#2987 - Urgell
 #Region - Iberia
 #Area - Catalonia
 
+#Default
 owner = ARA		#Alfons V of Aragon
 controller = ARA
 add_core = ARA
@@ -14,8 +15,13 @@ base_production = 1
 trade_goods = horses
 base_manpower = 2
 capital = "Urgell" #Tarrega is way down south in Lleida. Hence it has to be Seu d'Urgell. #"T�rrega" 
-is_city = yes 
+is_city = yes
 
+#Claimants
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -23,6 +29,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -35,7 +42,10 @@ discovered_by = russian
 discovered_by = muslim
 discovered_by = ottoman
 
+#Histories
+1215.6.15 = { owner = UGL controller = UGL add_core = UGL } # Countship of Urgell - By San Felipe
 
+1444.11.11 = { owner = ARA controller = ARA add_core = ARA } # Aragonese territorial lands - By San Felipe
 1412.6.29 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Jaime de Urgell Uprising
 1413.1.1 = { revolt = {} revolt = { type = pretender_rebels size = 1 leader = "Jaume d'Urgell" } controller = REB }
 1413.8.31 = { revolt = {} controller = ARA }

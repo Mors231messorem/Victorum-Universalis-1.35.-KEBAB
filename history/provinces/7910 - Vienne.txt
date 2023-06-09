@@ -1,5 +1,6 @@
 #7910 - Vienne
 
+#Default
 owner = VNE
 controller = VNE
 add_core = VNE
@@ -13,6 +14,14 @@ trade_goods = books
 is_city = yes
 hre = yes
 
+#Claimants
+add_core = DAU
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -20,6 +29,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -31,6 +41,11 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = DAU controller = DAU add_core = DAU } # Part of English Duchy of Aquitaine - By San Felipe
+
+1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe
 
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = FRA

@@ -1,9 +1,11 @@
-# 180 Poitou - Principal cities: Poitiers
+#180 - Poitou
 #Region - France
 #Area - Guyenne
 
+#Default
 owner = FRA
 controller = FRA
+add_core = FRA
 capital = "Poitiers"
 is_city = yes
 culture = poitevin_culture
@@ -13,9 +15,18 @@ base_tax = 6
 base_production = 6
 trade_goods = books
 base_manpower = 3
-add_core = FRA
+center_of_trade = 2
+extra_cost = 20
+
+#Claimants
+add_core = GUY
 add_core = POI
 
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -23,6 +34,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -34,9 +46,11 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
-center_of_trade = 2
-extra_cost = 20
 
+#Histories
+1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # Part of English Duchy of Aquitaine - By San Felipe
+
+1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe
 
 1560.1.1 = { religion = reformed }
 1565.1.1 = { unrest = 8 } # France is restless once again as ultra-catholic intentions become clear

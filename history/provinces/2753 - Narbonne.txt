@@ -1,7 +1,9 @@
 #2753 - Narbonne
 
+#Default
 owner = FRA
 controller = FRA
+add_core = FRA
 capital = "Narbonne"
 is_city = yes
 culture = occitain
@@ -11,16 +13,21 @@ base_tax = 5
 base_production = 5
 trade_goods = seafood
 base_manpower = 3 
-add_core = FRA
-add_core = TOU
-fort_15th = yes
 center_of_trade = 1
 
+#Claimants
+add_core = TOU
+
+#Buildings
+fort_15th = yes
+
+#Special Modifiers
 add_permanent_province_modifier = {
     name = navalbase_modifier
     duration = -1
 }
 
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -28,6 +35,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -39,6 +47,11 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = TOU controller = TOU add_core = TOU } # Countship of Toulouse - By San Felipe
+
+1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe
 
 1560.1.1 = { religion = reformed }
 1565.1.1 = { unrest = 8 } # France is restless once again as ultra-catholic intentions become clear
