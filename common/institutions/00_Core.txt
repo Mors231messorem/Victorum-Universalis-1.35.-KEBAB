@@ -1236,6 +1236,7 @@ gunpowder_warfare = {
 						has_port = yes
 					}
 					region = japan_region
+					province_id = 161
 				}
 			}
 			AND = {		#Normal start date
