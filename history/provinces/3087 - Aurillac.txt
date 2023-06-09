@@ -2,8 +2,10 @@
 #Region - France
 #Area - Massif Central
 
+#Default
 owner = BOU
 controller = BOU
+add_core = BOU
 capital = "Aurillac"
 is_city = yes
 culture = auvergnat_culture
@@ -13,9 +15,15 @@ base_tax = 2
 base_production = 2
 trade_goods = fruit			#Nuts
 base_manpower = 1 
-add_core = BOU
+
+#Claimants
 add_core = AUV
 
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -23,6 +31,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -34,6 +43,11 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = TOU controller = TOU add_core = TOU } # Countship of Toulouse - By San Felipe
+
+1444.11.11 = { owner = BOU controller = BOU } # Duchy of Bourbonais - By San Felipe
 
 1453.1.1 = { add_core = BOU }
 1560.1.1 = { religion = reformed }

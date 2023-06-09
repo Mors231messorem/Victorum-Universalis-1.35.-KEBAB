@@ -10,6 +10,11 @@ religion = catholic
 technology_group = western
 capital = 7893 # Aix-en-Provence
 
+1215.6.15 = {
+    add_government_reform = marquisiate_reform
+	government_rank = 2
+}
+
 1399.8.1 = {
 	monarch = {
 		name = "Louis II"
@@ -101,6 +106,11 @@ capital = 7893 # Aix-en-Provence
 
 1444.1.1 = {
 	capital = 178 #Anjou
+}
+
+1444.11.11 = {
+    add_government_reform = feudalism_reform
+	government_rank = 1
 }
 
 1454.9.10 = {

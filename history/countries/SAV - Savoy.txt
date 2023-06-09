@@ -10,6 +10,11 @@ unit_type = western
 capital = 205 # Chambéry
 add_army_professionalism = 0.05
 
+1215.6.15 = {
+    add_government_reform = marquisiate_reform
+	government_rank = 2
+}
+
 1391.1.1 = {
 	monarch = {
 		name = "Amedeo VIII"
@@ -69,6 +74,11 @@ add_army_professionalism = 0.05
 		dip = 2
 		mil = 0
 	}
+}
+
+1444.11.11 = {
+    add_government_reform = feudalism_reform
+	government_rank = 1
 }
 
 1465.1.30 = {

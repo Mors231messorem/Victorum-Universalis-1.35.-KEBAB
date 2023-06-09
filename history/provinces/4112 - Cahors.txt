@@ -2,8 +2,10 @@
 #Region - France
 #Area - Guyenne
 
+#Default
 owner = FRA
 controller = FRA
+add_core = FRA
 capital = "Cahors"
 is_city = yes
 culture = occitain	#aquitaine vanilla
@@ -13,9 +15,15 @@ base_tax = 2
 base_production = 2 
 trade_goods = wine
 base_manpower = 2 
-add_core = FRA
+
+#Claimants
 add_core = TOU
 
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -23,6 +31,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -34,6 +43,11 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = TOU controller = TOU add_core = TOU } # Countship of Toulouse - By San Felipe
+
+1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe
 
 1560.1.1 = { religion = reformed }
 1565.1.1 = { unrest = 8 } # France is restless once again as ultra-catholic intentions become clear

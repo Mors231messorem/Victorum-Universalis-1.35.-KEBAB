@@ -1,7 +1,9 @@
 #190 - Bourbon
 
+#Default
 owner = BOU
 controller = BOU
+add_core = BOU
 capital = "Moulins"
 is_city = yes
 culture = auvergnat_culture
@@ -11,9 +13,14 @@ base_tax = 3
 base_production = 3
 trade_goods = salt
 base_manpower = 2 
-add_core = BOU
 center_of_trade = 1
 
+#Claimants
+add_core = AUV
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -21,6 +28,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -32,6 +40,11 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe
+
+1444.11.11 = { owner = BOU controller = BOU add_core = BOU } # Duchy of Bourbonnais - By San Felipe
 
 1537.1.1 = { owner = FRA controller = FRA } # Charles IV of Bourbon dies, Bourbon added to France
 1573.9.1 = { unrest = 5 } # Saint Barthelew's Day Massacre: the consequences in the land

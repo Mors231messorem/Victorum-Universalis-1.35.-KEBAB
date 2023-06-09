@@ -1,5 +1,6 @@
 #8020 - Tournai
 
+#Default
 owner = TOA
 controller = TOA
 add_core = TOA
@@ -13,6 +14,11 @@ trade_goods = cloth			#major cloth center
 is_city = yes
 hre = no
 
+#Claimants
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -20,6 +26,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -31,6 +38,11 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = FLA controller = FLA add_core = FLA } # County of Flanders - By San Felipe
+
+1444.11.11 = { owner = TOA controller = TOA add_core = TOA } # Republic of Tournai territorial lands - By San Felipe
 
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = FLA

@@ -1,9 +1,11 @@
-# 87 Calais - Principal cities: Calais
+#87 - Calais
 #Region - Low Countries
 #Area - Flanders
 
+#Default
 owner = ENG
-controller = ENG 
+controller = ENG
+add_core = ENG
 capital = "Calais"
 culture = picard_culture
 religion = catholic
@@ -12,12 +14,23 @@ base_tax = 7
 base_production = 7 
 trade_goods = fish
 base_manpower = 4 
-add_core = ENG
 is_city = yes
-fort_15th = yes
-
+center_of_trade = 2
+extra_cost = 8
 seat_in_parliament = yes
 
+#Claimants
+
+#Buildings
+fort_15th = yes
+
+#Special Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier_2
+    duration = -1
+}
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -25,6 +38,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -36,14 +50,13 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
-center_of_trade = 2
-extra_cost = 8
 
-add_permanent_province_modifier = {
-    name = navalbase_modifier_2
-    duration = -1
-}
+#Histories
+1215.6.15 = { owner = FLA controller = FLA add_core = FLA } # County of Flanders - By San Felipe
 
+1346.9.4 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe
+
+1347.8.4 = { owner = ENG controller = ENG add_core = ENG } # Won by Edward III after the battle of Crecy - By San Felipe
 
 1459.1.1 = { unrest = 7 } # War of the Roses in England
 1459.11.1 = { revolt = { type = pretender_rebels size = 2 } controller = REB } # Yorkist control over Calais

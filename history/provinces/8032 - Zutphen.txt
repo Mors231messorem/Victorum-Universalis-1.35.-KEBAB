@@ -1,5 +1,6 @@
 #8032 - Zutphen
 
+#Default
 owner = GEL
 controller = GEL
 add_core = GEL
@@ -13,6 +14,11 @@ trade_goods = cloth
 is_city = yes
 hre = yes
 
+#Claimants
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -20,6 +26,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -31,3 +38,8 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = ZPN controller = ZPN add_core = ZPN } # Countship of Zutphen - By San Felipe
+
+1444.11.11 = { owner = GEL controller = GEL add_core = GEL } # Countship of Gelders territorial lands - By San Felipe

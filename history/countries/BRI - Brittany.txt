@@ -9,7 +9,9 @@ capital = 172	# Nantes
 historical_friend = SCO			#This is really just to prevent Scotland and Brittany rivaling each other at day 1, as they historically got on well, but game mechanics encouraged them to rival. Probably necessary indeed.
 historical_friend = BUR			#Brittany allied several times with Burgundy, often secretly to counter France. Will probably need to be removed due the 1291 start date.
 
-#History file overhauled by Math
+#History file overhauled by San Felipe (formerly by Math)
+
+1215.06.15 = { capital = 4384 } #Rennes whilst Nantes is occupied by France
 
 1286.10.8 = {
 	monarch = {

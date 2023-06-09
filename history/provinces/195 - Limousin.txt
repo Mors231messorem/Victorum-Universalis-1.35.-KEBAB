@@ -1,7 +1,9 @@
 #195 - Limousin
 
+#Default
 owner = FRA
 controller = FRA
+add_core = FRA
 capital = "Limoges"
 is_city = yes
 culture = auvergnat_culture	#aquitaine vanilla
@@ -11,9 +13,14 @@ base_tax = 5
 base_production = 5 
 trade_goods = glass
 base_manpower = 3 
-add_core = FRA
 center_of_trade = 1
 
+#Claimants
+add_core = GUY
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -21,6 +28,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -33,6 +41,10 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = ENG controller = ENG add_core = ENG } # Part of English Duchy of Aquitaine - By San Felipe
+
+1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe
 1560.1.1 = { religion = reformed }
 1565.1.1 = { unrest = 8 } # France is restless once again as ultra-catholic intentions become clear
 1568.9.1 = { unrest = 15 } # Catherine de Medici and Charles IX side with the Guise faction, religious intolerance peaks
@@ -41,8 +53,7 @@ discovered_by = russian
 1574.5.1 = { unrest = 7 } # Charles IX dies, situation cools a bit	
 1584.1.1 = { unrest = 12 } # Situation heats up again
 1588.12.1 = { unrest = 15 } # Henri de Guise assassinated at Blois, Ultra-Catholics into a frenzy
-1589.1.1 = { base_tax = 8 
-base_production = 8 } # At the walls of Paris - French War of Religion
+1589.1.1 = { base_tax = 8 base_production = 8 } # At the walls of Paris - French War of Religion
 1594.1.1 = { unrest = 10 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
 1598.4.13 = { unrest = 3 } # Edict of Nantes, alot more freedom to the protestants
 1598.5.2 = { unrest = 0 } # Peace of Vervins, formal end to the Wars of Religion

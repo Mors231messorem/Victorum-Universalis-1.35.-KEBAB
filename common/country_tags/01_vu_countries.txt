@@ -850,8 +850,13 @@ RAP = "countries/Rapanui.txt"
 SNG = "countries/Song.txt"
 
 #France
+ALL = "countries/Albi.txt"
 BLS = "countries/Blois.txt"
+CRC = "countries/Carcassonne.txt"
+DRE = "countries/Dreux.txt"
+PTH = "countries/Ponthieu.txt"
 VLS = "countries/Valois.txt"
+VLY = "countries/Velay.txt"
 
 #Greece & Balkans
 ABN = "countries/Arbanon.txt"
@@ -866,8 +871,17 @@ THE = "countries/Thessalonica.txt"
 TSP = "countries/Tsepina.txt"
 TSS = "countries/Tsakones.txt"
 
+#Iberia
+UGL = "countries/Urgell.txt"
+
 #Ireland
 UIB = "countries/Ui_Briain.txt"
+
+#Low Countries
+ZPN = "countries/Zutphen.txt"
+
+#North Africa
+AMD = "countries/Almohad_Caliphate.txt"
 
 #Wales
 BRY = "countries/Brycheiniog.txt"

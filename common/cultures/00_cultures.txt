@@ -7,7 +7,7 @@
 # graphical_culture = westerngfx second_graphical_culture = muslimgfx (fallback if the first does not exist)
 
 #VU Corrupted encoding symbols to look out for
-#? ¿½ ï VUl ?? ¿
+#ï ½ ? ¿½ ï VUl ?? ¿ ï¿½
 
 germanic = {
 	graphical_culture = westerngfx

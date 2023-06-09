@@ -1,11 +1,9 @@
 #7967 - Eu
 
+#Default
 owner = PIC
 controller = PIC
 add_core = PIC
-add_core = NEV
-add_core = NRM
-add_core = FRA
 culture = normand
 religion = catholic
 capital = "Eu"
@@ -16,6 +14,16 @@ trade_goods = seafood
 is_city = yes
 hre = no
 
+#Claimants
+add_core = NEV
+add_core = NRM
+add_core = FRA
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -23,6 +31,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -35,7 +44,7 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe
 
-#Province history completed by - Darth Modus
-
-#1444 on
+1444.11.11 = { owner = PIC controller = PIC add_core = PIC } # Duchy of Artois territorial lands - By San Felipe

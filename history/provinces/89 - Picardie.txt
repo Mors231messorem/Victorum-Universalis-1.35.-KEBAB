@@ -1,7 +1,8 @@
-# 89 Picardie - Principal cities: Amiens
+#89 - Picardie
 #Region - France
 #Area - Picardy
 
+#Default
 owner = PIC
 controller = PIC
 add_core = PIC
@@ -14,8 +15,17 @@ base_tax = 8
 base_production = 8
 trade_goods = livestock
 base_manpower = 5
+center_of_trade = 2
+extra_cost = 20
+
+#Claimants
+
+#Buildings
 fort_15th = yes
 
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -23,6 +33,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -34,10 +45,11 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
-center_of_trade = 2
-extra_cost = 20
 
+#Histories
+1215.6.15 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe
 
+1444.11.11 = { owner = PIC controller = PIC add_core = PIC } # Duchy of Artois territorial lands - By San Felipe
 
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = BUR

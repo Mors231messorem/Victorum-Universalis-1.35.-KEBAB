@@ -1,9 +1,11 @@
-# 169 Armor - Principal cities: Rennes
+#169 - Armor
 #Region - France
 #Area - Brittany
 
+#Default
 owner = BRI
 controller = BRI
+add_core = BRI
 capital = "Rennes"
 is_city = yes
 culture = gallo_culture
@@ -13,15 +15,16 @@ base_tax = 8
 base_production = 8
 trade_goods = beer
 base_manpower = 4
-add_core = BRI
+
+#Claimants
 
 #Special Modifiers
-
 add_permanent_province_modifier = {
     name = rich_black_soil
     duration = -1
 }
 
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -29,6 +32,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -41,6 +45,7 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
 1453.1.1 = { add_core = FRA }
 1532.8.4 = { owner = FRA controller = FRA } # Union Treaty
 1560.1.1 = { religion = reformed }

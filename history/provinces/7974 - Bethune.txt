@@ -1,11 +1,12 @@
-#7974 - Bethune
+#7974 - Béthune
 
+#Default
 owner = ATS
 controller = ATS
 add_core = ATS
 culture = picard_culture
 religion = catholic
-capital = "Bï¿½thune"
+capital = "Béthune"
 base_tax = 5
 base_production = 5
 base_manpower = 3
@@ -13,6 +14,13 @@ trade_goods = apiculture
 is_city = yes
 hre = no
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -20,6 +28,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -32,7 +41,7 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = FLA controller = FLA add_core = FLA } # County of Flanders - By San Felipe
 
-#Province history completed by - Darth Modus
-
-#1444 on
+1444.11.11 = { owner = ATS controller = ATS add_core = ATS } # Duchy of artois territorial lands - By San Felipe

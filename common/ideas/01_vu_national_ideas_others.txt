@@ -52,11 +52,11 @@ gerdia_ideas = {
 	}
 	profesional_armyies = {
 		army_tradition = 1
-		discipline = 0.01
+		discipline = 0.1
 		fire_damage = 0.10
 	}
 	german_efficiencys = {
-		global_trade_goods_size = 0.075
+		global_trade_goods_size = 0.25
 	}
 	small_yet_powerful = {
 		expand_infrastructure_cost_modifier = -0.40

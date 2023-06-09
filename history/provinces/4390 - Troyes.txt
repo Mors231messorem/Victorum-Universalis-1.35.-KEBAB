@@ -2,8 +2,10 @@
 #Region - France
 #Area - Seine
 
+#Default
 owner = FRA
 controller = FRA
+add_core = FRA
 capital = "Troyes"
 is_city = yes
 culture = cosmopolitan_french
@@ -13,9 +15,16 @@ base_tax = 5
 base_production = 5
 trade_goods = champagne
 base_manpower = 3 
-add_core = CHP
-add_core = FRA
 center_of_trade = 1
+
+#Claimants
+add_core = CHP
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -23,6 +32,7 @@ discovered_by = french
 discovered_by = german_group
 discovered_by = italian
 discovered_by = portuguese
+discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
@@ -34,6 +44,11 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = CHP controller = CHP add_core = CHP } # Countship of Champagne - By San Felipe
+
+1444.11.11 = { owner = FRA controller = FRA add_core = FRA } # Part of the Royal French Domain - By San Felipe
 
 1420.5.12 = { owner = ENG controller = ENG add_core = ENG } # Treaty of Troyes, ceded to the English
 1429.1.1 = { owner = FRA controller = FRA remove_core = ENG } # Retaken by the French

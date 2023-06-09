@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = marquisiate_reform
+government_rank = 2
+primary_culture = cosmopolitan_french
+religion = catholic
+technology_group = western
+capital = 7981	# Dreux 
+fixed_capital = 7981 # Cannot move capital away from this province & no power cost to move to it

@@ -5,6 +5,24 @@
  CTT:0 "Catalonia"
  CTT_ADJ:0 "Catalonian"
  #VU New Magna Carta Tags
+ #France
+ ALL:0 "Albi"
+ ALL_ADJ:0 "Albigeois"
+ BLS:0 "Blois"
+ BLS_ADJ:0 "Blésois"
+ CRC:0 "Carcassonne"
+ CRC_ADJ:0 "Carcassonnais"
+ DRE:0 "Dreux"
+ DRE_ADJ:0 "Drouais"
+ PTH:0 "Ponthieu"
+ PTH_ADJ:0 "Ponthieuais"
+ VLS:0 "Valois"
+ VLS_ADJ:0 "Valois"
+ VLY:0 "Velay"
+ VLY_ADJ:0 "Vellave"
+ #Low Countries
+ ZPN:0 "Zutphen"
+ ZPN_ADJ:0 "Zutphenaren"
  #Greece & Balkans
  ABN:0 "Arbanon"
  ABN_ADJ:0 "Arbanoner"
@@ -28,6 +46,9 @@
  TSP_ADJ:0 "Tsepinan"
  TSS:0 "Tsakones"
  TSS_ADJ:0 "Tsakonesan"
+ #Iberia
+ UGL:0 "Urgell"
+ UGL_ADJ:0 "Urgellencs"
  #Ireland
  UIB:0 "Ui Briain"
  UIB_ADJ:0 "Ui Briainan"
