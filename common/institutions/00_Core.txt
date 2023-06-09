@@ -1240,6 +1240,7 @@ gunpowder_warfare = {
 						has_port = yes
 					}
 					region = japan_region
+					province_id = 161
 				}
 			}
 			AND = {		#Normal start date
@@ -1487,6 +1488,608 @@ gunpowder_warfare = {
 					has_institution = gunpowder_warfare
 					has_reform = steppe_horde
 				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		factor = 12			#VU AddOn changed from 24. Logic in notes at the top of the file.
+
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 1.5			#VU AddOn changed from 2.0. If a country is behind in tech, it wants to catch up, sure. But vanilla authorises AI to spend 4 years' income on embracement... uh uh. If a tag is that far behind, it will need its cash too.
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 1.5			#VU AddOn changed from 2.0. If a country is behind in tech, it wants to catch up, sure. But vanilla authorises AI to spend 8 years' income on embracement... uh uh. If a tag is that far behind, it will need its cash too.
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 1.5			#VU AddOn changed from 2.0. If a country is behind in tech, it wants to catch up, sure. But vanilla authorises AI to spend 16 years' income on embracement... uh uh. If a tag is that far behind, it will need its cash too.
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 1.5			#VU AddOn changed from 2.0. If a country is behind in tech, it wants to catch up, sure. But vanilla authorises AI to spend 32 years' income on embracement... uh uh. If a tag is that far behind, it will need its cash too.
+			neighbors_tech_discount = 0.4
+		}
+		modifier = {
+			factor = 2.0
+			overseas_provinces_percentage = 0.5
+		}			#VU AddOn new. This modifer is for a highly unusual (and unprecedented historically) thassalocracy. In this rare case, the lower factor above may cause a micro state in a rich area but with many colonies in poor areas to never reach the threshold for embracing.
+		modifier = {
+			factor = 2.0
+			OR = {
+				tag = GEN
+				tag = VEN
+			}
+		}			#VU AddOn new. These tags both have the disadvantage of having distant colonies, contrasted with the reality of both being some of the most cutting edge countries in the world at the time. Increasing this here for historical balance.
+		modifier = {
+			factor = 1.5
+			years_of_income = 10.0
+		}			#VU AddOn new. If a country is swimming in gold, they can fork out some extra. This will likely keep a few small rich states like Venice slightly ahead in tech and/or with a few extra MP for dev building, but this isn't such a bad thing
+		modifier = {
+			factor = 0.25
+			has_any_disaster = yes
+		}			#VU AddOn new. Same logic as vanilla's is at war check
+		modifier = {
+			factor = 1.5
+			is_great_power = yes
+		}			#VU AddOn new. Great Powers want to stay great powers, and can probably better afford it anyway. Note this may reintroduce my issue with some countries embracing with only one province, but at least here there is a reason =p
+	}
+}
+
+#######################################
+# Medicine
+#
+# Starts during Islamic Golden Age and explodes from there
+#######################################
+
+medicine = {
+	#penalty = 0.5
+	bonus = {
+		monarch_lifespan = 0.05
+		regiment_manpower_usage = -0.1
+	}
+
+	#trade_company_efficiency = 0.2
+
+	historical_start_date = 1150.1.1
+	historical_start_province = 410 #Baghdad, Islamic Golden Era, Baghdad House of Wisdom, etc.
+	
+	history = {
+		is_year = 1150
+		OR = {
+			AND = { #If this is changed costs for Nation Designer may also need to be changed.
+				OR = {
+					continent = new_world
+					continent = north_america
+					continent = south_america
+					continent = oceania
+				}
+				owner = {
+					is_playing_custom_nation = yes
+					OR = {
+						technology_group = western
+					    technology_group = english
+					    technology_group = french
+					    technology_group = dutch
+					    technology_group = german_group
+					    technology_group = italian
+						technology_group = portuguese
+					    technology_group = scandinavian
+					    technology_group = spanish
+						technology_group = swiss
+						technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian
+						technology_group = ottoman
+						technology_group = muslim
+						technology_group = indian
+						technology_group = chinese
+						technology_group = japanese
+						#technology_group = high_american #Is listed below as High Americans get it regardless of if Nation Designer is used.
+					}
+				}
+			}
+			AND = {
+				owner = { is_playing_custom_nation = no }
+				is_year = 1150
+				culture_group = turko_semitic
+				region = mesopotamia_region
+				development = 10
+			}
+			AND = {
+				is_year = 1200
+				OR = {
+					region = mesopotamia_region
+					region = mashriq_region
+				}
+				development = 10
+				religion_group = muslim
+			}
+			AND = {
+				is_year = 1200
+				region = persia_region
+				religion_group = muslim
+				development = 10
+			}
+			AND = {			#Chinese medicine developed independendly
+				is_year = 1200
+				development = 20
+				superregion = china_superregion
+			}
+			AND = {
+				is_year = 1200
+				OR = {
+					province_id = 361
+					province_id = 358
+					province_id = 2999
+					province_id = 360
+					province_id = 384
+					province_id = 385
+					province_id = 388
+					province_id = 151
+					province_id = 726
+					province_id = 395
+				}
+			}
+			AND = {
+				is_year = 1200
+				superregion = far_east_superregion
+				owner = {
+					NOT = {
+						government = tribal
+						government = native
+					}
+				}
+				development = 25
+			}
+			AND = {			#First start date
+				is_year = 1215
+				OR = {
+					region = mesopotamia_region
+					region = persia_region
+					region = egypt_region
+					area = cyrenaica_area
+					area = tripolitania_area
+					area = tunisia_area
+					AND = {
+						culture_group = byzantine
+						development = 12
+					}
+					AND = {
+						superregion = persia_superregion
+						development = 10
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						superregion = near_east_superregion
+						owner = { NOT = { government = tribal } }
+						development = 10
+					}
+					AND = {
+						region = maghreb_region
+						development = 12
+						has_port = yes
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						region = iberia_region
+						development = 10
+						owner = { religion_group = muslim }
+					}
+					AND = {
+						continent = asia
+						trade_goods = opium
+					}
+					AND = {
+						region = italy_region
+						development = 30
+					}
+					AND = {
+						region = central_asia_region
+						development = 20
+						owner = { NOT = { government = tribal } }
+					}
+				}
+			}
+			AND = {
+				is_year = 1230
+				OR = {
+					region = north_china_region
+					region = south_china_region
+					AND = {
+						superregion = persia_superregion
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						superregion = near_east_superregion
+						has_port = yes
+						owner = { NOT = { government = tribal } }
+					}
+					region = anatolia_region
+				}
+			}
+			AND = {
+				is_year = 1250
+				OR = {
+					AND = {
+						region = japan_region
+						development = 20
+					}
+					region = korea_region
+					province_id = 215
+					province_id = 219
+					province_id = 227
+					province_id = 215
+					province_id = 213
+					province_id = 220
+					province_id = 200
+					province_id = 201
+					province_id = 202
+					province_id = 137
+					province_id = 2410
+					province_id = 231
+					area = sicily_area
+					area = sardinia_area
+					area = corsica_sardinia_area
+					area = lower_andalucia_area
+					area = upper_andalucia_area
+				}
+			}
+			AND = {	#Muslim technology spread
+				is_year = 1300
+				OR = {
+					province_id = 2474
+					province_id = 1132
+					province_id = 1133
+					province_id = 1134
+					AND = {
+						region = maghreb_region
+						development = 10
+					}
+					AND = {
+						region = horn_of_africa_region
+						has_port = yes
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						superregion = india_superregion
+						OR = {
+							development = 20
+							any_neighbor_province = { trade_goods = opium }
+						}
+						owner = { NOT = { government = tribal } }
+					}
+				}
+			}
+			AND = {	#Some medicine leaks to Mongol hordes
+				is_year = 1340
+				OR = {
+					AND = {
+						superregion = tartary_superregion
+						development = 15
+					}
+					province_id = 2122
+					province_id = 4207
+					province_id = 2420
+					province_id = 464
+					province_id = 466
+				}
+			}
+			AND = {	#Black death hits Europe
+				is_year = 1350
+				OR = {
+					superregion = persia_superregion
+					AND = {
+						superregion = india_superregion
+						development = 10
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						region = italy_region
+						development = 10
+					}
+					AND = {
+						region = iberia_region
+						development = 10
+					}
+					AND = {
+						region = balkan_region
+						development = 10
+					}
+					area = provence_area
+					area = west_languedoc_area
+					area = languedoc_area
+					province_id = 852
+					AND = {
+						region = indo_china_region
+						development = 10
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						region = burma_region
+						development = 10
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						region = malaya_region
+						development = 10
+					}
+				}
+			}
+			AND = {	#Medicine progress after black death
+				is_year = 1375
+				OR = {
+					region = iberia_region
+					region = balkan_region
+					region = italy_region
+					region = france_region
+					region = south_german_region
+					region = low_countries_region
+					region = north_german_region
+					region = carpathia_region
+					region = austria_region
+					region = bohemia_region
+					AND = {
+						region = british_isles_region
+						development = 10
+					}
+					AND = {
+						region = poland_region
+						development = 10
+					}
+					AND = {
+						region = ruthenia_region
+						development = 10
+					}
+					AND = {
+						region = scandinavia_region
+						development = 10
+					}
+					AND = {
+						region = horn_of_africa_region
+						development = 10
+						owner = { NOT = { government = tribal } }
+					}
+					superregion = near_east_superregion
+					region = sumatran_region
+					province_id = 4570
+					province_id = 850
+				}
+			}
+			AND = {	#Most of Europe now
+				is_year = 1400
+				OR = {
+					AND = {
+						continent = europe
+						development = 8
+					}
+					AND = {
+						superregion = tartary_superregion
+						development = 10
+					}
+					region = indonesia_region
+					AND = {
+						region = sahel_region
+						development = 12
+					}
+					province_id = 808
+					province_id = 1186
+					province_id = 1193
+					province_id = 1196
+					province_id = 1201
+					province_id = 1202
+					province_id = 1203
+					province_id = 1204
+					province_id = 1205
+				}
+			}
+			AND = {		#Normal start date
+				is_year = 1444
+				OR = {
+					AND = {
+						continent = europe
+						development = 5
+					}
+					province_id = 849
+					province_id = 2623
+					province_id = 854
+					province_id = 4582
+					province_id = 4585
+					province_id = 846
+					province_id = 807
+					region = borneo_region
+					region = nusa_tenggara_region
+					AND = {
+						region = sahel_region
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						region = niger_region
+						owner = { NOT = { government = tribal } }
+						development = 10
+					}
+				}
+			}
+			owner = { technology_group = high_american }
+			AND = {
+				is_year = 1475
+				OR = {
+					continent = europe
+					AND = {
+						continent = asia
+						development = 8
+						owner = { NOT = { government = tribal } }
+					}
+					AND = {
+						region = niger_region
+						development = 10
+					}
+				}
+			}
+			AND = {
+				is_year = 1500
+				OR = {
+					continent = europe
+					region = arabia_region
+					region = sahel_region
+					region = horn_of_africa_region
+					region = maghreb_region
+					region = indo_china_region
+					region = manchuria_region
+					superregion = tartary_superregion
+					region = mexico_region
+					AND = {
+						region = peru_region
+						development = 10
+					}
+				}
+			}
+			AND = {
+				is_year = 1550
+				owner = {
+					OR = {
+						technology_group = western
+					    technology_group = english
+					    technology_group = french
+					    technology_group = dutch
+					    technology_group = german_group
+					    technology_group = italian
+						technology_group = portuguese
+					    technology_group = scandinavian
+					    technology_group = spanish
+						technology_group = swiss
+						technology_group = bohemian
+					    technology_group = byzantine
+					    technology_group = eastern
+					    technology_group = hungarian
+					    technology_group = polish
+					    technology_group = russian
+						technology_group = ottoman
+						technology_group = muslim
+						technology_group = indian
+						technology_group = chinese
+						technology_group = japanese
+						technology_group = east_african
+						technology_group = sub_saharan
+					}
+				}
+			}
+			AND = {
+				is_year = 1600
+				owner = {
+					technology_group = central_african
+				}
+			}
+			AND = {
+				is_year = 1700
+				owner = {
+					NOT = {
+						OR = {
+							has_reform = siberian_tribe
+							government = native
+						}
+					}
+				}
+			}
+			is_year = 1750	#Until this time, everyone should have basic knowledge
+		}
+	}
+
+	#no need for events, as its there from the start.
+	#can_start = { is_year = 1100 }
+	#start_chance = 100
+	#on_start = institution_events.1
+
+	can_embrace = {
+		always = yes
+	}
+
+	embracement_speed = {
+		modifier = {		#Nearby friendly prov has it	
+			factor = 0.6
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_MEDICINE
+				any_friendly_coast_border_province = {
+					medicine = 100
+				}
+			}
+		}
+		modifier = {		#Nearby province has it
+			factor = 0.1
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						medicine = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = NEIGHBOR_NOT_OWNED_HAS_MEDICINE
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					medicine = 100
+				}
+			}
+		}
+		
+		modifier = {		#Is colonial nation and overlord has it
+			factor = 0.6
+			scale = yes
+			force_potential = yes
+			potential = {
+				owner = {
+					is_colonial_nation = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = PORT_OR_CAPITAL_IN_COLONY_MEDICINE
+				OR = {
+					has_port = yes
+					is_capital = yes
+				}
+				owner = {
+					is_colonial_nation = yes
+					overlord = { has_institution = medicine }
+				}
+			}
+		}
+		modifier = {		#Embraced institution, extra spread in capital area
+			factor = 0.6
+			scale = yes
+			force_potential = yes
+			potential = {
+				owner = { has_institution = medicine }
+				is_in_capital_area = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_medicine_embraced
+				owner = { has_institution = medicine }
+				is_in_capital_area = yes
+			}
+		}
+		modifier = {		#Embraced institution, slow spread to prov outside capital area
+			factor = 0.2
+			scale = yes
+			force_potential = yes
+			potential = {
+				owner = { has_institution = medicine }
+                is_in_capital_area = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_medicine_embraced
+				
+				owner = { has_institution = medicine }
+				is_in_capital_area = no
 			}
 		}
 	}
