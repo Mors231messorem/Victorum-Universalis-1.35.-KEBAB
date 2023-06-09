@@ -357,3 +357,20 @@ vassal = {
 	start_date = 1504.1.2
 	end_date = 1800.1.1
 }
+
+#Egil
+alliance = {	#"Egil has maintained friendly relations with AKK"
+	first = EGI
+	second = AKK
+	start_date = 1425.1.1
+	end_date = 1507.1.1
+}
+
+#Annexed in 1507 to Persia
+
+vassal = {			#"The Ottomans allowed the locals of the principality to govern themselves
+	first = TUR		#and would not interfere and it was exempted from the timar system."
+	second = EGI
+	start_date = 1516.8.24		
+	end_date = 1864.1.1
+}
