@@ -831,14 +831,14 @@ NCountry = {
 
 	START_YEARLY_INFLATION = 0.0, 					-- _CDEF_START_YEARLY_INFLATION_
 	CLAIM_LOSE = 25,								-- how many years until a claim is lost.
-	CORE_LOSE = 50, 								-- how many years until a core is lost.
-	CORE_LOSE_CULTURE_GROUP =150,					-- how many years until a core in a country's culture group is lost.
+	CORE_LOSE = 250, 								-- how many years until a core is lost. (TEMPORARY INCREASE FROM 50 DUE TO NEW START DATE NOW BEING 200+ YEARS EARLIER) (REVERT ONLY WHEN HISTORY FILES ARE 100% COMPLETE)
+	CORE_LOSE_CULTURE_GROUP = 300,					-- how many years until a core in a country's culture group is lost. (TEMP INCREASE FROM 250 DUE TO START DATE NOW BEING 200+ YEARS EARLIER)
 	CORE_LOSE_PRIMARY_CULTURE_TAG = -1,				-- how many years until a core is lost for the primary tag of a country (-1 = never lost)
 	CORE_LOSE_PRESTIGE = -10.0,						-- Prestige change when lost core
 	ABANDON_CORE_PRESTIGE = -5.0,					-- The cost of abandoning a core that some other country owns.
 	ABANDON_IDEAGROUP_REFUND = 0.20,				-- The part of the idea group spent that will be refunded upon abandonment.
 	NEIGHBOURBONUS = -0.025, 						-- _CDEF_NEIGHBOURBONUS_
-	NEIGHBOURBONUS_CAP = -0.5, 					-- _CDEF_NEIGHBOURBONUS_CAP_
+	NEIGHBOURBONUS_CAP = -0.5, 						-- _CDEF_NEIGHBOURBONUS_CAP_
 	NEIGHBOURBONUS_CORRUPTION = 0.0,
 	LAGGINGTECH_CORRUPTION = 0.1,					-- Corruption increase/year. Multiplied by (highest - lowest) tech level
 	LAGGINGTECH_CORRUPTION_MAX = 0.5,				-- Max increase/year
