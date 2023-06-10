@@ -283,7 +283,7 @@ mild_winter = {
 	3770 3771 3772 3773 3774
 	
 	#Magna Carta Start Date
-	3743 3744
+	3726 3743 3744
 }
 
 #Generally places where snow is nearly guaranteed any given year, and average winter temperatures hover around 0C

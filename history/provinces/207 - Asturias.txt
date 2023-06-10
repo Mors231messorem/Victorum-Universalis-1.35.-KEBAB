@@ -6,11 +6,10 @@ latent_trade_goods = {
 	coal
 }
 
+#Default
 owner = CAS		#Juan II of Castille
 controller = CAS
 add_core = CAS
-add_core = ASU #BTB added: Castilian revolter tag.
-#add_core = LON
 culture = leonese
 religion = catholic
 hre = no
@@ -22,6 +21,15 @@ capital = "Oviedo"
 is_city = yes
 center_of_trade = 1
 
+#Claimants
+add_core = ASU
+add_core = LON
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -42,7 +50,10 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = LON controller = LON add_core = LON } # Leonese territorial lands - By San Felipe
 
+1444.11.11 = { owner = CAS controller = CAS add_core = CAS capital = "La CoruÃ±a" } # Castilian territorial lands - By San Felipe
 1475.6.2 = { controller = POR }
 1476.3.2 = { controller = CAS }
 1516.1.23 = {	controller = SPA

@@ -314,6 +314,7 @@
  PROV3301:0 "Dorogobuzh"
  PROV3302:0 "Bakhmut"
  PROV3303:0 "Beloye"
+ PROV3726:0 "Moraleja"
 
  ############################################################
  #VU_prov_names_adj_l_english (Adjectives) - These are HR's provinces
@@ -613,6 +614,7 @@
  PROV_ADJ3298:0 "Ávila"
  PROV_ADJ3299:0 "Segovia"
  PROV_ADJ3300:0 "San Marino"
+ PROV_ADJ3726:0 "Moralejan"
  PROV_ADJ4322:0 "Ababda"
  
  
