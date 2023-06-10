@@ -55,6 +55,7 @@ discovered_by = swiss
 1829.9.12 = {
 	controller = GRE
 	owner = GRE
+	unrest = 0
 } #Independence war ends
 1832.8.30 = { remove_core = TUR } #Kingdom of Greece, borders established
 1850.1.1 = { base_manpower = 2 }
