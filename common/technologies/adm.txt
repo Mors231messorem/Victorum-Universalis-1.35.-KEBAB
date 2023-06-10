@@ -184,9 +184,14 @@ ahead_of_time = {
 }
 
 # Pre-era techs
+
+##################################
+#	THIS NEEDS FIXED!!!!!!   #
+##################################
+
 technology = { #Tribal Government
 	# Tech 0
-	year = 1350
+	year = 1150
 
 	tribal_despotism_legacy = yes
 	tribal_federation_legacy = yes
@@ -203,9 +208,10 @@ technology = { #Tribal Government
 	native_ceremonial_fire_pit = yes
 }
 
+#Did this to give nations aproprate stuff as a stopgap messure to fix problems
 technology = { #Advanced Tribes
 	# Tech 1
-	year = 1390
+	year = 1190
 	expects_institution = {
 		feudalism = 0.25
 	}
@@ -216,7 +222,7 @@ technology = { #Advanced Tribes
 
 technology = { #Feudal Monarchy
 	# Tech 2
-	year = 1420
+	year = 1220
 	expects_institution = {
 		feudalism = 0.5
 	}
@@ -226,6 +232,10 @@ technology = { #Feudal Monarchy
 	feudal_monarchy = yes
 	oligarchic_republic = yes
 }
+
+##################################
+#	THIS NEEDS FIXED!!!!!!   #
+##################################
 
 # The 30 big techs from here on
 
