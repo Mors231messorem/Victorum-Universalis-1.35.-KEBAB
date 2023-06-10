@@ -1,9 +1,9 @@
 #8043 - Ponferrada
 
+#Default
 owner = CAS
 controller = CAS
 add_core = CAS
-add_core = LON
 culture = leonese
 religion = catholic
 capital = "Ponferrada"
@@ -14,6 +14,14 @@ trade_goods = mercury
 is_city = yes
 hre = no
 
+#Claimants
+add_core = LON
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -33,3 +41,8 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = LON controller = LON add_core = LON } # Leonese territorial lands - By San Felipe
+
+1444.11.11 = { owner = CAS controller = CAS add_core = CAS capital = "La Coruña" } # Castilian territorial lands - By San Felipe

@@ -1,12 +1,12 @@
-#8037 - Aviles
+#8037 - Avilés
 
+#Default
 owner = CAS
 controller = CAS
 add_core = CAS
-add_core = ASU #BTB added: Castilian revolter tag.
 culture = leonese
 religion = catholic
-capital = "Avilï¿½s"
+capital = "Avilés"
 base_tax = 2
 base_production = 2
 base_manpower = 1
@@ -14,6 +14,24 @@ trade_goods = naval_supplies
 is_city = yes
 hre = no
 center_of_trade = 1
+
+#Claimants
+add_core = ASU
+
+#Buildings
+
+#Special Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+add_permanent_province_modifier = {
+	name = aviles_estuary_modifier
+	duration = -1
+}
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -34,12 +52,7 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
-add_permanent_province_modifier = {
-    name = navalbase_modifier
-    duration = -1
-}
+#Histories
+1215.6.15 = { owner = LON controller = LON add_core = LON } # Leonese territorial lands - By San Felipe
 
-add_permanent_province_modifier = {
-	name = aviles_estuary_modifier
-	duration = -1
-}
+1444.11.11 = { owner = CAS controller = CAS add_core = CAS capital = "La CoruÃ±a" } # Castilian territorial lands - By San Felipe
