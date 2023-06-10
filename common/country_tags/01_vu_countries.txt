@@ -83,6 +83,7 @@ SZE = "countries/Szeklerland.txt"
 UHU = "countries/UpperHungary.txt"
 VBZ = "countries/Velbazhd.txt"
 YLT = "countries/Yelets.txt"
+RML = "countries/Rumelia.txt"
 
 #VU - Britannia
 BIF = "countries/Breifne.txt"

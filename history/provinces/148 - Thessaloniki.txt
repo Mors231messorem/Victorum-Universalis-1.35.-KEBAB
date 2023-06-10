@@ -61,7 +61,7 @@ add_permanent_province_modifier = {
 	base_production = 8
 } #Growth as strategic trade hub
 1500.1.1 = { base_manpower = 8 } #Jewish migrants expelled from Spain
-1519.1.1 = { religion = judaism } #By 1519 city becomes 55% jewish
+1519.1.1 = { religion = jewish } #By 1519 city becomes 55% jewish
 #The city became both the largest Jewish city in the world and the only Jewish majority city in the world in the 16th century.
 1520.1.1 = { culture = ashkenazi }
 1525.1.1 = { remove_core = BYZ }
