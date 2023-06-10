@@ -1,5 +1,6 @@
-#New Victorum Universalis Province
+#5319 - Setif
 
+#Default
 owner = TUN
 controller = TUN
 add_core = TUN
@@ -13,6 +14,13 @@ base_production = 4
 base_manpower = 2 
 is_city = yes
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
@@ -33,6 +41,10 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+
+1444.11.11 = { owner = TUN controller = TUN add_core = TUN } # Tunisian territorial lands - By San Felipe
 
 1491.1.1 = {
 	base_production = 6

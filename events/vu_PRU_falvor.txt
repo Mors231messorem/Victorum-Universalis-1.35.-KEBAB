@@ -26,8 +26,8 @@ country_event = { # Prussia and Brandenburg will unite into bigger Prussia
 			BRA = { ai = yes }
 		}
 		total_development = 100
-		dip_tech = 24
-		adm_tech = 24
+		dip_tech = 25
+		adm_tech = 25
 		OR = {
 			PRU = { is_subject_of = BRA }
 			BRA = { is_subject_of = PRU }

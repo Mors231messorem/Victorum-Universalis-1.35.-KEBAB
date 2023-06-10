@@ -4,8 +4,10 @@ latent_trade_goods = {
 	coal
 }
 
+#Default
 owner = ENG
 controller = ENG
+add_core = ENG
 culture = welsh
 religion = catholic
 hre = no
@@ -15,10 +17,16 @@ base_manpower = 1
 trade_goods = copper
 capital = "Sweyse" #Later Swansea
 is_city = yes
-add_core = ENG
-add_core = GLA
-add_core = WLS
 
+#Claimants
+add_core = GLA
+
+#Buildings
+
+#Special Modifiers
+add_local_autonomy = 75
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -38,8 +46,6 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
-
-add_local_autonomy = 75
 
 #Histories
 

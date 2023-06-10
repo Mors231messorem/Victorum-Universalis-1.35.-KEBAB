@@ -3,34 +3,27 @@
 #Region - Britain
 
 #Core Details
-capital = "Radnor"
-is_city = yes
 owner = WMC
 controller = WMC
-
-#Demographics
+add_core = WMC
+capital = "Radnor"
+is_city = yes
 culture = welsh
 religion = catholic
-
-#Development and Trade
 base_tax = 2
 base_production = 1
 base_manpower = 1
 trade_goods = livestock #lots of quarries as well so that could work
-
-#Cores and Occupation (Alphabetical after current)
-add_core = WMC
-add_core = WLS
-
-#Other Political
 hre = no
 
-#Fort/Other Buildings
+#Claimants
+add_core = WLS
+
+#Buildings
 
 #Special Modifiers
 
-
-#Discoveries
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -52,7 +45,6 @@ discovered_by = polish
 discovered_by = russian
 
 #Histories
-
 1215.6.15 = { owner = BUE controller = BUE add_core = BUE } # Welsh territory - By San Felipe
 
 1444.11.11 = { owner = WMC controller = WMC add_core = WMC } # Welsh Marches territory - By San Felipe

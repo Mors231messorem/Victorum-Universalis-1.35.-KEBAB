@@ -615,7 +615,7 @@ country_event = {
 		NOT = { has_reform = mamluk_government }
 		NOT = { has_government_attribute = has_harem_events }
 		NOT = { has_reform = celestial_empire }
-		adm_tech = 36
+		adm_tech = 37
 		adm_power = 200
 		has_factions = no
 	}

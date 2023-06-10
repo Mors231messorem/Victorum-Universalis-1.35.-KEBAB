@@ -463,7 +463,7 @@ native_becomes_horde_reform = {
 			}
 			is_migratory_tribe = yes
 		}
-		mil_tech = 6
+		mil_tech = 23
 	}
 	effect = {
 		every_tribal_land_province = {

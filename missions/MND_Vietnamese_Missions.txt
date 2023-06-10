@@ -451,7 +451,7 @@ mnd_dai_3 = {
 			religious_unity = 0.9
 			if = {
 				limit = {
-					adm_tech = 35
+					adm_tech = 36
 				}
 				cathedral = 15
 			}

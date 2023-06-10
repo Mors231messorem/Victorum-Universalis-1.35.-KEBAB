@@ -1,12 +1,11 @@
-#3099 - Mï¿½rida
+#3099 - Mérida
 #Region - Iberia
 #Area - Leon
 
+#Default
 owner = CAS		#Juan II of Castille
 controller = CAS
 add_core = CAS
-add_core = LON
-add_core = TLD #BTB added: Castilian revolter tag.
 culture = castillian
 religion = catholic
 hre = no
@@ -14,9 +13,17 @@ base_tax = 2
 base_production = 2 
 trade_goods = beer 
 base_manpower = 1 
-capital = "Mï¿½rida" 
+capital = "Mérida" 
 is_city = yes
 
+#Claimants
+add_core = TLD
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -37,12 +44,18 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+
+1444.11.11 = { owner = CAS controller = CAS add_core = CAS } # Castilian territorial lands - By San Felipe
+
+
 1464.5.1 = { unrest = 3 } # Nobiliary uprising against King Enrique, Castilla goes into anarchy
 1468.9.18 = { unrest = 0 } # Pactos de los Toros de Guisando. Isabel of Castille becomes heir to the throne and a temporary peace is achieved
 1470.1.1 = { unrest = 3 } # Isabel marries with Fernando of Aragon, breaking the Pacts of Guisando. King Enrique choses his daughter Juana ("La Beltraneja") as new heiress and a succession War erupts.
 1475.6.2 = { controller = POR }
 1479.2.25 = { controller = CAS }
-1479.9.4 = { unrest = 0 } # Peace of Alcaï¿½ovas, between Queen Isabel and King Alfonso of Portugal who had entered the war supporting her wife Juana
+1479.9.4 = { unrest = 0 } # Peace Treaty of Alcáçovas, between Queen Isabel and King Alfonso of Portugal who had entered the war supporting her wife Juana
 1516.1.23 = {	controller = SPA
 	owner = SPA
 	add_core = SPA

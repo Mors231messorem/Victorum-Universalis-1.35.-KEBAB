@@ -4375,7 +4375,7 @@ dan_sca_merc_mission_slot = {
 				army_tradition = 60
 			}
 			has_mil_advisor_3 = yes
-			mil_tech = 32
+			mil_tech = 33
 		}
 		effect = {
 			country_event = {

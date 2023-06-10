@@ -1,16 +1,85 @@
 #VU updated by San Felipe for 1.35
 monarch_power = MIL
 
-#Begining of pre-1444 tech NEEDS WORK
-technology = {  
-	year = 1204
-	#THIS IS COPY PASTE NEEDS WORK
-	expects_institution = {
-		feudalism = 0.5
-		gunpowder_warfare = 0.05
-	}
+##################################
+#	THIS NEEDS FIXED!!!!!!   #
+##################################
+
+technology = {
+	# Tech 0
+	year = 1150
+	
+	sprite_level = 1
+
+	infantry_fire = 0.25
+	infantry_shock = 0.20	
+	cavalry_shock = 0.8	
+	land_morale = 2.0
+	artillery_shock = 0.05
+
+	enable = south_american_spearmen		
+	enable = native_indian_archer
+	enable = native_clubmen
+	enable = african_spearmen
+	enable = african_clubmen
+	enable = indian_archers
 }
 
+technology = {
+	# Tech 1
+	year = 1190
+	expects_institution = {
+		feudalism = 0.25
+	}
+	
+	infantry_shock = 0.1
+	infantry_fire = 0.1
+	
+	#Castle Building
+	fort_15th = yes
+	
+	enable = african_mandelaku
+	enable = african_abyssinian_light_cavalry
+	enable = bardiche_infantry
+	enable = billmen_infantry
+	enable = charge_chevauchee
+	enable = chevauchee
+	enable = chinese_archer
+	enable = chinese_longspear
+	enable = defensive_billmen
+    enable = eastern_medieval_infantry
+	enable = eastern_bow
+    enable = east_asian_spearmen
+    enable = english_knights
+    enable = french_common_infantry
+    enable = french_early_knights
+    enable = french_halberd
+    enable = halberd_infantry
+	enable = ha_xantican_warrior
+	enable = indian_footsoldier
+	enable = japanese_archer
+    enable = japanese_horse_archer
+	enable = japanese_longspear
+	enable = japanese_spearmen
+	enable = japanese_skrimish_cavalry
+	enable = light_hobliers
+	enable = mesoamerican_spearmen
+	enable = muslim_cavalry_archers
+	enable = mongolian_bow
+	enable = ottoman_yaya
+	enable = persian_footsoldier
+	enable = persian_cavalry_charge
+	enable = rajput_hill_fighters
+	enable = spanish_medieval_knights
+	enable = spanish_medieval_infantry
+	enable = spanish_aggresive_knights
+	enable = spanish_pikemen
+	enable = western_medieval_knights
+	enable = western_medieval_infantry
+	enable = aboriginal_boomerang
+	enable = aboriginal_warrior
+	enable = pacific_spearman
+}
 
 technology = {  
 	year = 1217
@@ -22,6 +91,32 @@ technology = {
 }
 
 
+technology = {
+	# Tech 2
+	year = 1220
+	expects_institution = {
+		feudalism = 0.5
+	}
+	
+	infantry_shock = 0.2
+	cavalry_shock = 0.2
+	
+	enable = eastern_knights
+    enable = druzhina_cavalry
+	enable = ottoman_musellem
+	enable = mamluk_archer
+	enable = mamluk_cavalry_charge
+	enable = mongol_swarm
+	enable = mongol_bow
+	
+	combat_width = 5
+}
+
+##################################
+#	THIS NEEDS FIXED!!!!!!   #
+##################################
+
+#Begining of pre-1444 tech NEEDS WORK
 technology = {  
 	year = 1232
 	#THIS IS COPY PASTE NEEDS WORK
@@ -183,112 +278,6 @@ ahead_of_time = {
 }
 
 # Pre-era techs
-
-##################################
-#	THIS NEEDS FIXED!!!!!!   #
-##################################
-
-technology = {
-	# Tech 0
-	year = 1150
-	
-	sprite_level = 1
-
-	infantry_fire = 0.25
-	infantry_shock = 0.20	
-	cavalry_shock = 0.8	
-	land_morale = 2.0
-	artillery_shock = 0.05
-
-	enable = south_american_spearmen		
-	enable = native_indian_archer
-	enable = native_clubmen
-	enable = african_spearmen
-	enable = african_clubmen
-	enable = indian_archers
-}
-
-technology = {
-	# Tech 1
-	year = 1190
-	expects_institution = {
-		feudalism = 0.25
-	}
-	
-	infantry_shock = 0.1
-	infantry_fire = 0.1
-	
-	#Castle Building
-	fort_15th = yes
-	
-	enable = african_mandelaku
-	enable = african_abyssinian_light_cavalry
-	enable = bardiche_infantry
-	enable = billmen_infantry
-	enable = charge_chevauchee
-	enable = chevauchee
-	enable = chinese_archer
-	enable = chinese_longspear
-	enable = defensive_billmen
-    enable = eastern_medieval_infantry
-	enable = eastern_bow
-    enable = east_asian_spearmen
-    enable = english_knights
-    enable = french_common_infantry
-    enable = french_early_knights
-    enable = french_halberd
-    enable = halberd_infantry
-	enable = ha_xantican_warrior
-	enable = indian_footsoldier
-	enable = japanese_archer
-    enable = japanese_horse_archer
-	enable = japanese_longspear
-	enable = japanese_spearmen
-	enable = japanese_skrimish_cavalry
-	enable = light_hobliers
-	enable = mesoamerican_spearmen
-	enable = muslim_cavalry_archers
-	enable = mongolian_bow
-	enable = ottoman_yaya
-	enable = persian_footsoldier
-	enable = persian_cavalry_charge
-	enable = rajput_hill_fighters
-	enable = spanish_medieval_knights
-	enable = spanish_medieval_infantry
-	enable = spanish_aggresive_knights
-	enable = spanish_pikemen
-	enable = western_medieval_knights
-	enable = western_medieval_infantry
-	enable = aboriginal_boomerang
-	enable = aboriginal_warrior
-	enable = pacific_spearman
-}
-
-technology = {
-	# Tech 2
-	year = 1220
-	expects_institution = {
-		feudalism = 0.5
-	}
-	
-	infantry_shock = 0.2
-	cavalry_shock = 0.2
-	
-	enable = eastern_knights
-    enable = druzhina_cavalry
-	enable = ottoman_musellem
-	enable = mamluk_archer
-	enable = mamluk_cavalry_charge
-	enable = mongol_swarm
-	enable = mongol_bow
-	
-	combat_width = 5
-}
-
-##################################
-#	THIS NEEDS FIXED!!!!!!   #
-##################################
-
 # The 30 big techs from here on
 
 technology = {

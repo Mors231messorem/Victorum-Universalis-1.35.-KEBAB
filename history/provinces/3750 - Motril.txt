@@ -1,5 +1,6 @@
 #3750 - Motril
 
+#Default
 owner = GRA
 controller = GRA
 add_core = GRA
@@ -13,6 +14,13 @@ trade_goods = sugar		#important sugar production as well as other tropical fruit
 is_city = yes
 hre = no
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -32,6 +40,12 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+
+1444.11.11 = { owner = GRA controller = GRA add_core = GRA } # Granadan territorial lands - By San Felipe
+
 
 1491.6.1 = {
 	owner = CAS

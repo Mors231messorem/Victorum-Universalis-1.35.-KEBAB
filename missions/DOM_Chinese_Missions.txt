@@ -1205,7 +1205,7 @@ ming_missions_2 = {
 			OR = {
 				AND = {
 					exploration_ideas = 1 
-					dip_tech = 23
+					dip_tech = 24
 					num_of_light_ship = 25
 				}
 				AND = {
@@ -1244,7 +1244,7 @@ ming_missions_2 = {
 				if = {
 					limit = {
 						exploration_ideas = 1 
-						dip_tech = 23 
+						dip_tech = 24
 						num_of_light_ship = 25
 					}
 					add_country_modifier = {
@@ -1331,7 +1331,7 @@ DOM_Qing_Missions_2 = {
 				add_permanent_claim = ROOT 
 			}
 			if = { 
-				limit = { mil_tech = 39 } 
+				limit = { mil_tech = 40 } 
 				custom_tooltip = mjz_receive_8_advanced_cav_units_tt 
 				hidden_effect = { 
 					capital_scope = { 
@@ -1347,7 +1347,7 @@ DOM_Qing_Missions_2 = {
 				}
 			}
 			else_if = {
-				limit = { mil_tech = 34 }
+				limit = { mil_tech = 35 }
 				custom_tooltip = mjz_receive_8_advanced_cav_units_tt 
 				hidden_effect = { 
 					capital_scope = { 
@@ -1363,7 +1363,7 @@ DOM_Qing_Missions_2 = {
 				}
 			}
 			else_if = {
-				limit = { mil_tech = 30 }
+				limit = { mil_tech = 31 }
 				custom_tooltip = mjz_receive_8_advanced_cav_units_tt 
 				hidden_effect = { 
 					capital_scope = { 
@@ -1379,7 +1379,7 @@ DOM_Qing_Missions_2 = {
 				}
 			}
 			else_if = {
-				limit = { mil_tech = 26 }
+				limit = { mil_tech = 27 }
 				custom_tooltip = mjz_receive_4_advanced_cav_units_tt 
 				hidden_effect = { 
 					capital_scope = { 
@@ -3806,7 +3806,7 @@ DOM_Qing_Missions_3 = {
 			is_in_deficit = no 
 			if = {
 				limit = { current_age = age_of_discovery }
-				adm_tech = 21
+				adm_tech = 22
 			}
 			else = {
 				OR = {

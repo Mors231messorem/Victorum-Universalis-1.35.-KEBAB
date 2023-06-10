@@ -7,7 +7,7 @@ merc_lotf_minutemen = {
 	cost_modifier = 0.4
 	home_province = 956
 	trigger = {
-		NOT = { mil_tech = 17 }
+		NOT = { mil_tech = 34 }
 		OR = {
 			tag = USA
 			AND = {

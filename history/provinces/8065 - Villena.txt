@@ -1,9 +1,9 @@
 #8065 - Villena
 
+#Default
 owner = CAS
 controller = CAS
 add_core = CAS
-add_core = MUR #BTB added: Castilian revolter tag.
 culture = andalucian
 religion = catholic
 capital = "Villena"
@@ -14,6 +14,14 @@ trade_goods = salt
 is_city = yes
 hre = no
 
+#Claimants
+add_core = MUR
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -34,7 +42,7 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
 
-#Province history completed by - Darth Modus
-
-#1444 on
+1444.11.11 = { owner = CAS controller = CAS add_core = CAS } # Castilian territorial lands - By San Felipe

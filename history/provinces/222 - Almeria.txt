@@ -1,7 +1,8 @@
-#222 - Almerï¿½a
+#222 - Almería
 #Region - Iberia
 #Area - Upper Andalucia
 
+#Default
 owner = GRA		#Mustapha Sa'd King of Granada
 controller = GRA
 add_core = GRA
@@ -12,11 +13,16 @@ base_tax = 6
 base_production = 6 
 trade_goods = copper	#"Almeria imported indigo dye and wool from the Maghreb and linen from Egypt, while it exported copper to Fez and Tlemcen as well as its highly sought textiles." - so could also be dyes or textiles
 base_manpower = 4 
-capital = "Almerï¿½a"
+capital = "Almería"
 is_city = yes
 
+#Claimants
 
+#Buildings
 
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -37,6 +43,10 @@ discovered_by = russian
 discovered_by = muslim
 discovered_by = ottoman
 
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+
+1444.11.11 = { owner = GRA controller = GRA add_core = GRA } # Granadan territorial lands - By San Felipe
 
 1487.1.1 = { revolt = { type = religious_rebels size = 2 } controller = REB } # After King Muhammad X pacts with the Catholic Kings, Muhammad El Zagal flees to Almerï¿½a to proceed the war against the christians from there.
 1489.12.10 = { revolt = {} controller = CAS owner = CAS add_core = CAS } # After the capitulation of the town of Baza, Sultan Muhammad El Zagal gives the port of Almerï¿½a to the Catholic Kings

@@ -1,7 +1,7 @@
 #Triggers: any province has the basic conditions, country has adm tech 4
 estate_church_build_temple_in_y = {
 	can_select = {
-		adm_tech = 4
+		adm_tech = 21
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = grand_cathedral }
@@ -12,7 +12,7 @@ estate_church_build_temple_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-				    ROOT = { adm_tech = 19 }
+				    ROOT = { adm_tech = 36 }
 					NOT = { has_building = cathedral }
 					OR = {
 						num_free_building_slots = 1
@@ -20,7 +20,7 @@ estate_church_build_temple_in_y = {
 					}
 				}
 				AND = {
-					ROOT = { adm_tech = 29 }
+					ROOT = { adm_tech = 46 }
 					OR = {
 						num_free_building_slots = 1
 						has_building = cathedral
@@ -45,7 +45,7 @@ estate_church_build_temple_in_y = {
 				        	num_free_building_slots = 1
 				        }
 				        AND = {
-				            ROOT = { adm_tech = 19 }
+				            ROOT = { adm_tech = 36 }
 				        	NOT = { has_building = cathedral }
 				        	OR = {
 				        		num_free_building_slots = 1
@@ -53,7 +53,7 @@ estate_church_build_temple_in_y = {
 				        	}
 				        }
 				        AND = {
-				        	ROOT = { adm_tech = 29 }
+				        	ROOT = { adm_tech = 46 }
 				        	OR = {
 				        		num_free_building_slots = 1
 				        		has_building = cathedral
@@ -76,7 +76,7 @@ estate_church_build_temple_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				        ROOT = { adm_tech = 19 }
+				        ROOT = { adm_tech = 36 }
 				    	NOT = { has_building = cathedral }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -84,7 +84,7 @@ estate_church_build_temple_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 29 }
+				    	ROOT = { adm_tech = 46 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = cathedral
@@ -116,7 +116,7 @@ estate_church_build_temple_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				        ROOT = { adm_tech = 19 }
+				        ROOT = { adm_tech = 36 }
 				    	NOT = { has_building = cathedral }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -124,7 +124,7 @@ estate_church_build_temple_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 29 }
+				    	ROOT = { adm_tech = 46 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = cathedral
@@ -146,7 +146,7 @@ estate_church_build_temple_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				        ROOT = { adm_tech = 19 }
+				        ROOT = { adm_tech = 36 }
 				    	NOT = { has_building = cathedral }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -154,7 +154,7 @@ estate_church_build_temple_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 29 }
+				    	ROOT = { adm_tech = 46 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = cathedral
@@ -176,7 +176,7 @@ estate_church_build_temple_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				        ROOT = { adm_tech = 19 }
+				        ROOT = { adm_tech = 36 }
 				    	NOT = { has_building = cathedral }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -184,7 +184,7 @@ estate_church_build_temple_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 29 }
+				    	ROOT = { adm_tech = 46 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = cathedral
@@ -331,7 +331,7 @@ estate_church_build_temple_in_y = {
 
 estate_brahmins_build_temple_in_y = {
 	can_select = {
-		adm_tech = 4
+		adm_tech = 21
 		if = {
 			limit = {
 				NOT = { religion = hinduism }
@@ -347,7 +347,7 @@ estate_brahmins_build_temple_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				        ROOT = { adm_tech = 19 }
+				        ROOT = { adm_tech = 36 }
 				    	NOT = { has_building = cathedral }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -355,7 +355,7 @@ estate_brahmins_build_temple_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 29 }
+				    	ROOT = { adm_tech = 46 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = cathedral
@@ -375,7 +375,7 @@ estate_brahmins_build_temple_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				        ROOT = { adm_tech = 19 }
+				        ROOT = { adm_tech = 36 }
 				    	NOT = { has_building = cathedral }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -383,7 +383,7 @@ estate_brahmins_build_temple_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 29 }
+				    	ROOT = { adm_tech = 46 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = cathedral
@@ -410,7 +410,7 @@ estate_brahmins_build_temple_in_y = {
 				        	num_free_building_slots = 1
 				        }
 				        AND = {
-				            ROOT = { adm_tech = 19 }
+				            ROOT = { adm_tech = 36 }
 				        	NOT = { has_building = cathedral }
 				        	OR = {
 				        		num_free_building_slots = 1
@@ -418,7 +418,7 @@ estate_brahmins_build_temple_in_y = {
 				        	}
 				        }
 				        AND = {
-				        	ROOT = { adm_tech = 29 }
+				        	ROOT = { adm_tech = 46 }
 				        	OR = {
 				        		num_free_building_slots = 1
 				        		has_building = cathedral
@@ -442,7 +442,7 @@ estate_brahmins_build_temple_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				        ROOT = { adm_tech = 19 }
+				        ROOT = { adm_tech = 36 }
 				    	NOT = { has_building = cathedral }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -450,7 +450,7 @@ estate_brahmins_build_temple_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 29 }
+				    	ROOT = { adm_tech = 46 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = cathedral
@@ -488,7 +488,7 @@ estate_brahmins_build_temple_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				        ROOT = { adm_tech = 19 }
+				        ROOT = { adm_tech = 36 }
 				    	NOT = { has_building = cathedral }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -496,7 +496,7 @@ estate_brahmins_build_temple_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 29 }
+				    	ROOT = { adm_tech = 46 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = cathedral
@@ -524,7 +524,7 @@ estate_brahmins_build_temple_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				        ROOT = { adm_tech = 19 }
+				        ROOT = { adm_tech = 36 }
 				    	NOT = { has_building = cathedral }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -532,7 +532,7 @@ estate_brahmins_build_temple_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 29 }
+				    	ROOT = { adm_tech = 46 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = cathedral
@@ -560,7 +560,7 @@ estate_brahmins_build_temple_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				        ROOT = { adm_tech = 19 }
+				        ROOT = { adm_tech = 36 }
 				    	NOT = { has_building = cathedral }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -568,7 +568,7 @@ estate_brahmins_build_temple_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 29 }
+				    	ROOT = { adm_tech = 46 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = cathedral
@@ -726,7 +726,7 @@ estate_brahmins_build_temple_in_y = {
 
 estate_nobles_build_army_building_in_y = {
 	can_select = {
-		mil_tech = 6
+		mil_tech = 23
 		any_owned_province = {
 			is_state_core = root
 			OR = {
@@ -739,13 +739,13 @@ estate_nobles_build_army_building_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { mil_tech = 13 }
+					ROOT = { mil_tech = 30 }
 					NOT = { has_building = regimental_camp }
 					num_free_building_slots = 1
 				}
 				AND = {
 					NOT = { has_building = training_fields }
-					ROOT = { mil_tech = 16 }
+					ROOT = { mil_tech = 33 }
 					OR = {
 						has_building = barracks
 						num_free_building_slots = 1
@@ -753,7 +753,7 @@ estate_nobles_build_army_building_in_y = {
 				}
 				AND = {
 					NOT = { has_building = conscription_center }
-					ROOT = { mil_tech = 18 }
+					ROOT = { mil_tech = 35}
 					OR = {
 						has_building = regimental_camp
 						num_free_building_slots = 1
@@ -780,13 +780,13 @@ estate_nobles_build_army_building_in_y = {
 							num_free_building_slots = 1
 						}
 						AND = {
-							ROOT = { mil_tech = 13 }
+							ROOT = { mil_tech = 30 }
 							NOT = { has_building = regimental_camp }
 							num_free_building_slots = 1
 						}
 						AND = {
 							NOT = { has_building = training_fields }
-							ROOT = { mil_tech = 16 }
+							ROOT = { mil_tech = 33 }
 							OR = {
 								has_building = barracks
 								num_free_building_slots = 1
@@ -794,7 +794,7 @@ estate_nobles_build_army_building_in_y = {
 						}
 						AND = {
 							NOT = { has_building = conscription_center }
-							ROOT = { mil_tech = 18 }
+							ROOT = { mil_tech = 35}
 							OR = {
 								has_building = regimental_camp
 								num_free_building_slots = 1
@@ -819,13 +819,13 @@ estate_nobles_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 13 }
+						ROOT = { mil_tech = 30 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 33 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
@@ -833,7 +833,7 @@ estate_nobles_build_army_building_in_y = {
 					}
 					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 18 }
+						ROOT = { mil_tech = 35}
 						OR = {
 							has_building = regimental_camp
 							num_free_building_slots = 1
@@ -867,13 +867,13 @@ estate_nobles_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 13 }
+						ROOT = { mil_tech = 30 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 33 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
@@ -881,7 +881,7 @@ estate_nobles_build_army_building_in_y = {
 					}
 					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 18 }
+						ROOT = { mil_tech = 35}
 						OR = {
 							has_building = regimental_camp
 							num_free_building_slots = 1
@@ -905,13 +905,13 @@ estate_nobles_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 13 }
+						ROOT = { mil_tech = 30 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 33 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
@@ -919,7 +919,7 @@ estate_nobles_build_army_building_in_y = {
 					}
 					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 18 }
+						ROOT = { mil_tech = 35}
 						OR = {
 							has_building = regimental_camp
 							num_free_building_slots = 1
@@ -943,13 +943,13 @@ estate_nobles_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 13 }
+						ROOT = { mil_tech = 30 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 33 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
@@ -957,7 +957,7 @@ estate_nobles_build_army_building_in_y = {
 					}
 					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 18 }
+						ROOT = { mil_tech = 35}
 						OR = {
 							has_building = regimental_camp
 							num_free_building_slots = 1
@@ -971,7 +971,7 @@ estate_nobles_build_army_building_in_y = {
 			if = {
 				limit = {
 					NOT = { has_building = training_fields }
-					ROOT = { mil_tech = 16 }
+					ROOT = { mil_tech = 33 }
 					OR = {
 						num_free_building_slots = 1
 						has_building = barracks
@@ -1000,7 +1000,7 @@ estate_nobles_build_army_building_in_y = {
 			else_if = {
 				limit = {
 					has_building = regimental_camp
-					ROOT = { mil_tech = 18 }
+					ROOT = { mil_tech = 35}
 				}
 				ROOT = {
 					set_variable = {
@@ -1133,7 +1133,7 @@ estate_nobles_build_army_building_in_y = {
 
 estate_rajput_build_army_building_in_y = {
 	can_select = {
-		mil_tech = 6
+		mil_tech = 23
 		any_owned_province = {
 			is_state_core = root
 			OR = {
@@ -1146,13 +1146,13 @@ estate_rajput_build_army_building_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { mil_tech = 13 }
+					ROOT = { mil_tech = 30 }
 					NOT = { has_building = regimental_camp }
 					num_free_building_slots = 1
 				}
 				AND = {
 					NOT = { has_building = training_fields }
-					ROOT = { mil_tech = 16 }
+					ROOT = { mil_tech = 33 }
 					OR = {
 						has_building = barracks
 						num_free_building_slots = 1
@@ -1160,7 +1160,7 @@ estate_rajput_build_army_building_in_y = {
 				}
 				AND = {
 					NOT = { has_building = conscription_center }
-					ROOT = { mil_tech = 18 }
+					ROOT = { mil_tech = 35}
 					OR = {
 						has_building = regimental_camp
 						num_free_building_slots = 1
@@ -1187,13 +1187,13 @@ estate_rajput_build_army_building_in_y = {
 							num_free_building_slots = 1
 						}
 						AND = {
-							ROOT = { mil_tech = 13 }
+							ROOT = { mil_tech = 30 }
 							NOT = { has_building = regimental_camp }
 							num_free_building_slots = 1
 						}
 						AND = {
 							NOT = { has_building = training_fields }
-							ROOT = { mil_tech = 16 }
+							ROOT = { mil_tech = 33 }
 							OR = {
 								has_building = barracks
 								num_free_building_slots = 1
@@ -1201,7 +1201,7 @@ estate_rajput_build_army_building_in_y = {
 						}
 						AND = {
 							NOT = { has_building = conscription_center }
-							ROOT = { mil_tech = 18 }
+							ROOT = { mil_tech = 35}
 							OR = {
 								has_building = regimental_camp
 								num_free_building_slots = 1
@@ -1226,13 +1226,13 @@ estate_rajput_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 13 }
+						ROOT = { mil_tech = 30 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 33 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
@@ -1240,7 +1240,7 @@ estate_rajput_build_army_building_in_y = {
 					}
 					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 18 }
+						ROOT = { mil_tech = 35}
 						OR = {
 							has_building = regimental_camp
 							num_free_building_slots = 1
@@ -1274,13 +1274,13 @@ estate_rajput_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 13 }
+						ROOT = { mil_tech = 30 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 33 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
@@ -1288,7 +1288,7 @@ estate_rajput_build_army_building_in_y = {
 					}
 					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 18 }
+						ROOT = { mil_tech = 35}
 						OR = {
 							has_building = regimental_camp
 							num_free_building_slots = 1
@@ -1312,13 +1312,13 @@ estate_rajput_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 13 }
+						ROOT = { mil_tech = 30 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 33 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
@@ -1326,7 +1326,7 @@ estate_rajput_build_army_building_in_y = {
 					}
 					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 18 }
+						ROOT = { mil_tech = 35}
 						OR = {
 							has_building = regimental_camp
 							num_free_building_slots = 1
@@ -1350,13 +1350,13 @@ estate_rajput_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 13 }
+						ROOT = { mil_tech = 30 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 33 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
@@ -1364,7 +1364,7 @@ estate_rajput_build_army_building_in_y = {
 					}
 					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 18 }
+						ROOT = { mil_tech = 35}
 						OR = {
 							has_building = regimental_camp
 							num_free_building_slots = 1
@@ -1378,7 +1378,7 @@ estate_rajput_build_army_building_in_y = {
 			if = {
 				limit = {
 					NOT = { has_building = training_fields }
-					ROOT = { mil_tech = 16 }
+					ROOT = { mil_tech = 33 }
 					OR = {
 						num_free_building_slots = 1
 						has_building = barracks
@@ -1539,7 +1539,7 @@ estate_rajput_build_army_building_in_y = {
 
 estate_maratha_build_army_building_in_y = {
 	can_select = {
-		mil_tech = 6
+		mil_tech = 23
 		any_owned_province = {
 			is_state_core = root
 			OR = {
@@ -1552,13 +1552,13 @@ estate_maratha_build_army_building_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { mil_tech = 13 }
+					ROOT = { mil_tech = 30 }
 					NOT = { has_building = regimental_camp }
 					num_free_building_slots = 1
 				}
 				AND = {
 					NOT = { has_building = training_fields }
-					ROOT = { mil_tech = 16 }
+					ROOT = { mil_tech = 33 }
 					OR = {
 						has_building = barracks
 						num_free_building_slots = 1
@@ -1566,7 +1566,7 @@ estate_maratha_build_army_building_in_y = {
 				}
 				AND = {
 					NOT = { has_building = conscription_center }
-					ROOT = { mil_tech = 18 }
+					ROOT = { mil_tech = 35}
 					OR = {
 						has_building = regimental_camp
 						num_free_building_slots = 1
@@ -1593,13 +1593,13 @@ estate_maratha_build_army_building_in_y = {
 							num_free_building_slots = 1
 						}
 						AND = {
-							ROOT = { mil_tech = 13 }
+							ROOT = { mil_tech = 30 }
 							NOT = { has_building = regimental_camp }
 							num_free_building_slots = 1
 						}
 						AND = {
 							NOT = { has_building = training_fields }
-							ROOT = { mil_tech = 16 }
+							ROOT = { mil_tech = 33 }
 							OR = {
 								has_building = barracks
 								num_free_building_slots = 1
@@ -1607,7 +1607,7 @@ estate_maratha_build_army_building_in_y = {
 						}
 						AND = {
 							NOT = { has_building = conscription_center }
-							ROOT = { mil_tech = 18 }
+							ROOT = { mil_tech = 35}
 							OR = {
 								has_building = regimental_camp
 								num_free_building_slots = 1
@@ -1632,13 +1632,13 @@ estate_maratha_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 13 }
+						ROOT = { mil_tech = 30 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 33 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
@@ -1646,7 +1646,7 @@ estate_maratha_build_army_building_in_y = {
 					}
 					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 18 }
+						ROOT = { mil_tech = 35}
 						OR = {
 							has_building = regimental_camp
 							num_free_building_slots = 1
@@ -1680,13 +1680,13 @@ estate_maratha_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 13 }
+						ROOT = { mil_tech = 30 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 33 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
@@ -1694,7 +1694,7 @@ estate_maratha_build_army_building_in_y = {
 					}
 					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 18 }
+						ROOT = { mil_tech = 35}
 						OR = {
 							has_building = regimental_camp
 							num_free_building_slots = 1
@@ -1718,13 +1718,13 @@ estate_maratha_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 13 }
+						ROOT = { mil_tech = 30 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 33 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
@@ -1732,7 +1732,7 @@ estate_maratha_build_army_building_in_y = {
 					}
 					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 18 }
+						ROOT = { mil_tech = 35}
 						OR = {
 							has_building = regimental_camp
 							num_free_building_slots = 1
@@ -1756,13 +1756,13 @@ estate_maratha_build_army_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { mil_tech = 13 }
+						ROOT = { mil_tech = 30 }
 						NOT = { has_building = regimental_camp }
 						num_free_building_slots = 1
 					}
 					AND = {
 						NOT = { has_building = training_fields }
-						ROOT = { mil_tech = 16 }
+						ROOT = { mil_tech = 33 }
 						OR = {
 							has_building = barracks
 							num_free_building_slots = 1
@@ -1770,7 +1770,7 @@ estate_maratha_build_army_building_in_y = {
 					}
 					AND = {
 						NOT = { has_building = conscription_center }
-						ROOT = { mil_tech = 18 }
+						ROOT = { mil_tech = 35}
 						OR = {
 							has_building = regimental_camp
 							num_free_building_slots = 1
@@ -1784,7 +1784,7 @@ estate_maratha_build_army_building_in_y = {
 			if = {
 				limit = {
 					NOT = { has_building = training_fields }
-					ROOT = { mil_tech = 16 }
+					ROOT = { mil_tech = 33 }
 					OR = {
 						num_free_building_slots = 1
 						has_building = barracks
@@ -2022,15 +2022,15 @@ estate_nobles_build_fort_building_in_y = {
 				}
 				AND = {
 					has_building = fort_15th
-					ROOT = { mil_tech = 14 }
+					ROOT = { mil_tech = 31 }
 				}
 				AND = {
 					has_building = fort_16th
-					ROOT = { mil_tech = 19 }
+					ROOT = { mil_tech = 36 }
 				}
 				AND = {
 					has_building = fort_17th
-					ROOT = { mil_tech = 24 }
+					ROOT = { mil_tech = 41 }
 				}
 			}
 			NOT = { has_building = fort_18th }
@@ -2132,15 +2132,15 @@ estate_nobles_build_fort_building_in_y = {
 					}
 					AND = {
 						has_building = fort_15th
-						ROOT = { mil_tech = 14 }
+						ROOT = { mil_tech = 31 }
 					}
 					AND = {
 						has_building = fort_16th
-						ROOT = { mil_tech = 19 }
+						ROOT = { mil_tech = 36 }
 					}
 					AND = {
 						has_building = fort_17th
-						ROOT = { mil_tech = 24 }
+						ROOT = { mil_tech = 41 }
 					}
 				}
 				NOT = { has_building = fort_18th }
@@ -2227,15 +2227,15 @@ estate_nobles_build_fort_building_in_y = {
 					}
 					AND = {
 						has_building = fort_15th
-						ROOT = { mil_tech = 14 }
+						ROOT = { mil_tech = 31 }
 					}
 					AND = {
 						has_building = fort_16th
-						ROOT = { mil_tech = 19 }
+						ROOT = { mil_tech = 36 }
 					}
 					AND = {
 						has_building = fort_17th
-						ROOT = { mil_tech = 24 }
+						ROOT = { mil_tech = 41 }
 					}
 				}
 				NOT = { has_building = fort_18th }
@@ -2322,15 +2322,15 @@ estate_nobles_build_fort_building_in_y = {
 					}
 					AND = {
 						has_building = fort_15th
-						ROOT = { mil_tech = 14 }
+						ROOT = { mil_tech = 31 }
 					}
 					AND = {
 						has_building = fort_16th
-						ROOT = { mil_tech = 19 }
+						ROOT = { mil_tech = 36 }
 					}
 					AND = {
 						has_building = fort_17th
-						ROOT = { mil_tech = 24 }
+						ROOT = { mil_tech = 41 }
 					}
 				}
 				NOT = { has_building = fort_18th }
@@ -2417,15 +2417,15 @@ estate_nobles_build_fort_building_in_y = {
 					}
 					AND = {
 						has_building = fort_15th
-						ROOT = { mil_tech = 14 }
+						ROOT = { mil_tech = 31 }
 					}
 					AND = {
 						has_building = fort_16th
-						ROOT = { mil_tech = 19 }
+						ROOT = { mil_tech = 36 }
 					}
 					AND = {
 						has_building = fort_17th
-						ROOT = { mil_tech = 24 }
+						ROOT = { mil_tech = 41 }
 					}
 				}
 				NOT = { has_building = fort_18th }
@@ -2660,15 +2660,15 @@ estate_rajput_build_fort_building_in_y = {
 				}
 				AND = {
 					has_building = fort_15th
-					ROOT = { mil_tech = 14 }
+					ROOT = { mil_tech = 31 }
 				}
 				AND = {
 					has_building = fort_16th
-					ROOT = { mil_tech = 19 }
+					ROOT = { mil_tech = 36 }
 				}
 				AND = {
 					has_building = fort_17th
-					ROOT = { mil_tech = 24 }
+					ROOT = { mil_tech = 41 }
 				}
 			}
 			NOT = { has_building = fort_18th }
@@ -2770,15 +2770,15 @@ estate_rajput_build_fort_building_in_y = {
 					}
 					AND = {
 						has_building = fort_15th
-						ROOT = { mil_tech = 14 }
+						ROOT = { mil_tech = 31 }
 					}
 					AND = {
 						has_building = fort_16th
-						ROOT = { mil_tech = 19 }
+						ROOT = { mil_tech = 36 }
 					}
 					AND = {
 						has_building = fort_17th
-						ROOT = { mil_tech = 24 }
+						ROOT = { mil_tech = 41 }
 					}
 				}
 				NOT = { has_building = fort_18th }
@@ -2865,15 +2865,15 @@ estate_rajput_build_fort_building_in_y = {
 					}
 					AND = {
 						has_building = fort_15th
-						ROOT = { mil_tech = 14 }
+						ROOT = { mil_tech = 31 }
 					}
 					AND = {
 						has_building = fort_16th
-						ROOT = { mil_tech = 19 }
+						ROOT = { mil_tech = 36 }
 					}
 					AND = {
 						has_building = fort_17th
-						ROOT = { mil_tech = 24 }
+						ROOT = { mil_tech = 41 }
 					}
 				}
 				NOT = { has_building = fort_18th }
@@ -2960,15 +2960,15 @@ estate_rajput_build_fort_building_in_y = {
 					}
 					AND = {
 						has_building = fort_15th
-						ROOT = { mil_tech = 14 }
+						ROOT = { mil_tech = 31 }
 					}
 					AND = {
 						has_building = fort_16th
-						ROOT = { mil_tech = 19 }
+						ROOT = { mil_tech = 36 }
 					}
 					AND = {
 						has_building = fort_17th
-						ROOT = { mil_tech = 24 }
+						ROOT = { mil_tech = 41 }
 					}
 				}
 				NOT = { has_building = fort_18th }
@@ -3055,15 +3055,15 @@ estate_rajput_build_fort_building_in_y = {
 					}
 					AND = {
 						has_building = fort_15th
-						ROOT = { mil_tech = 14 }
+						ROOT = { mil_tech = 31 }
 					}
 					AND = {
 						has_building = fort_16th
-						ROOT = { mil_tech = 19 }
+						ROOT = { mil_tech = 36 }
 					}
 					AND = {
 						has_building = fort_17th
-						ROOT = { mil_tech = 24 }
+						ROOT = { mil_tech = 41 }
 					}
 				}
 				NOT = { has_building = fort_18th }
@@ -3298,15 +3298,15 @@ estate_maratha_build_fort_building_in_y = {
 				}
 				AND = {
 					has_building = fort_15th
-					ROOT = { mil_tech = 14 }
+					ROOT = { mil_tech = 31 }
 				}
 				AND = {
 					has_building = fort_16th
-					ROOT = { mil_tech = 19 }
+					ROOT = { mil_tech = 36 }
 				}
 				AND = {
 					has_building = fort_17th
-					ROOT = { mil_tech = 24 }
+					ROOT = { mil_tech = 41 }
 				}
 			}
 			NOT = { has_building = fort_18th }
@@ -3408,15 +3408,15 @@ estate_maratha_build_fort_building_in_y = {
 					}
 					AND = {
 						has_building = fort_15th
-						ROOT = { mil_tech = 14 }
+						ROOT = { mil_tech = 31 }
 					}
 					AND = {
 						has_building = fort_16th
-						ROOT = { mil_tech = 19 }
+						ROOT = { mil_tech = 36 }
 					}
 					AND = {
 						has_building = fort_17th
-						ROOT = { mil_tech = 24 }
+						ROOT = { mil_tech = 41 }
 					}
 				}
 				NOT = { has_building = fort_18th }
@@ -3503,15 +3503,15 @@ estate_maratha_build_fort_building_in_y = {
 					}
 					AND = {
 						has_building = fort_15th
-						ROOT = { mil_tech = 14 }
+						ROOT = { mil_tech = 31 }
 					}
 					AND = {
 						has_building = fort_16th
-						ROOT = { mil_tech = 19 }
+						ROOT = { mil_tech = 36 }
 					}
 					AND = {
 						has_building = fort_17th
-						ROOT = { mil_tech = 24 }
+						ROOT = { mil_tech = 41 }
 					}
 				}
 				NOT = { has_building = fort_18th }
@@ -3598,15 +3598,15 @@ estate_maratha_build_fort_building_in_y = {
 					}
 					AND = {
 						has_building = fort_15th
-						ROOT = { mil_tech = 14 }
+						ROOT = { mil_tech = 31 }
 					}
 					AND = {
 						has_building = fort_16th
-						ROOT = { mil_tech = 19 }
+						ROOT = { mil_tech = 36 }
 					}
 					AND = {
 						has_building = fort_17th
-						ROOT = { mil_tech = 24 }
+						ROOT = { mil_tech = 41 }
 					}
 				}
 				NOT = { has_building = fort_18th }
@@ -3693,15 +3693,15 @@ estate_maratha_build_fort_building_in_y = {
 					}
 					AND = {
 						has_building = fort_15th
-						ROOT = { mil_tech = 14 }
+						ROOT = { mil_tech = 31 }
 					}
 					AND = {
 						has_building = fort_16th
-						ROOT = { mil_tech = 19 }
+						ROOT = { mil_tech = 36 }
 					}
 					AND = {
 						has_building = fort_17th
-						ROOT = { mil_tech = 24 }
+						ROOT = { mil_tech = 41 }
 					}
 				}
 				NOT = { has_building = fort_18th }
@@ -3859,7 +3859,7 @@ estate_maratha_build_fort_building_in_y = {
 
 estate_burghers_build_trade_building_in_y = {
 	can_select = {
-		dip_tech = 4
+		dip_tech = 21
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = corporative_headquarters }
@@ -3871,7 +3871,7 @@ estate_burghers_build_trade_building_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { dip_tech = 17 }
+					ROOT = { dip_tech = 34 }
 					NOT = { has_building = trade_depot }
 					OR = {
 						num_free_building_slots = 1
@@ -3879,7 +3879,7 @@ estate_burghers_build_trade_building_in_y = {
 					}
 				}
 				AND = {
-					ROOT = { dip_tech = 22 }
+					ROOT = { dip_tech = 39 }
 					NOT = { has_building = stock_exchange }
 					OR = {
 						num_free_building_slots = 1
@@ -3887,7 +3887,7 @@ estate_burghers_build_trade_building_in_y = {
 					}
 				}
 				AND = {
-					ROOT = { dip_tech = 32 }
+					ROOT = { dip_tech = 49 }
 					OR = {
 						num_free_building_slots = 1
 						has_building = stock_exchange
@@ -3916,7 +3916,7 @@ estate_burghers_build_trade_building_in_y = {
 							num_free_building_slots = 1
 						}
 						AND = {
-							ROOT = { dip_tech = 17 }
+							ROOT = { dip_tech = 34 }
 							NOT = { has_building = trade_depot }
 							OR = {
 								num_free_building_slots = 1
@@ -3924,7 +3924,7 @@ estate_burghers_build_trade_building_in_y = {
 							}
 						}
 						AND = {
-						    ROOT = { dip_tech = 22 }
+						    ROOT = { dip_tech = 39 }
 							NOT = { has_building = stock_exchange }
 					        OR = {
 						        num_free_building_slots = 1
@@ -3932,7 +3932,7 @@ estate_burghers_build_trade_building_in_y = {
 					        }
 				        }
 						AND = {
-							ROOT = { dip_tech = 32 }
+							ROOT = { dip_tech = 49 }
 							OR = {
 								num_free_building_slots = 1
 								has_building = stock_exchange
@@ -3959,7 +3959,7 @@ estate_burghers_build_trade_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 17 }
+						ROOT = { dip_tech = 34 }
 						NOT = { has_building = trade_depot }
 						OR = {
 							num_free_building_slots = 1
@@ -3967,7 +3967,7 @@ estate_burghers_build_trade_building_in_y = {
 						}
 					}
 					AND = {
-					    ROOT = { dip_tech = 22 }
+					    ROOT = { dip_tech = 39 }
 						NOT = { has_building = stock_exchange }
 					    OR = {
 					        num_free_building_slots = 1
@@ -3975,7 +3975,7 @@ estate_burghers_build_trade_building_in_y = {
 						}
 				    }
 					AND = {
-						ROOT = { dip_tech = 32 }
+						ROOT = { dip_tech = 49 }
 						OR = {
 							num_free_building_slots = 1
 							has_building = stock_exchange
@@ -4013,7 +4013,7 @@ estate_burghers_build_trade_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 17 }
+						ROOT = { dip_tech = 34 }
 						NOT = { has_building = trade_depot }
 						OR = {
 							num_free_building_slots = 1
@@ -4021,7 +4021,7 @@ estate_burghers_build_trade_building_in_y = {
 						}
 					}
 					AND = {
-					    ROOT = { dip_tech = 22 }
+					    ROOT = { dip_tech = 39 }
 						NOT = { has_building = stock_exchange }
 					    OR = {
 					        num_free_building_slots = 1
@@ -4029,7 +4029,7 @@ estate_burghers_build_trade_building_in_y = {
 						}
 				    }
 					AND = {
-						ROOT = { dip_tech = 32 }
+						ROOT = { dip_tech = 49 }
 						OR = {
 							num_free_building_slots = 1
 							has_building = stock_exchange
@@ -4055,7 +4055,7 @@ estate_burghers_build_trade_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 17 }
+						ROOT = { dip_tech = 34 }
 						NOT = { has_building = trade_depot }
 						OR = {
 							num_free_building_slots = 1
@@ -4063,7 +4063,7 @@ estate_burghers_build_trade_building_in_y = {
 						}
 					}
 					AND = {
-					    ROOT = { dip_tech = 22 }
+					    ROOT = { dip_tech = 39 }
 						NOT = { has_building = stock_exchange }
 					    OR = {
 					        num_free_building_slots = 1
@@ -4071,7 +4071,7 @@ estate_burghers_build_trade_building_in_y = {
 						}
 				    }
 					AND = {
-						ROOT = { dip_tech = 32 }
+						ROOT = { dip_tech = 49 }
 						OR = {
 							num_free_building_slots = 1
 							has_building = stock_exchange
@@ -4097,7 +4097,7 @@ estate_burghers_build_trade_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 17 }
+						ROOT = { dip_tech = 34 }
 						NOT = { has_building = trade_depot }
 						OR = {
 							num_free_building_slots = 1
@@ -4105,7 +4105,7 @@ estate_burghers_build_trade_building_in_y = {
 						}
 					}
 					AND = {
-					    ROOT = { dip_tech = 22 }
+					    ROOT = { dip_tech = 39 }
 						NOT = { has_building = stock_exchange }
 					    OR = {
 					        num_free_building_slots = 1
@@ -4113,7 +4113,7 @@ estate_burghers_build_trade_building_in_y = {
 						}
 				    }
 					AND = {
-						ROOT = { dip_tech = 32 }
+						ROOT = { dip_tech = 49 }
 						OR = {
 							num_free_building_slots = 1
 							has_building = stock_exchange
@@ -4288,7 +4288,7 @@ estate_burghers_build_trade_building_in_y = {
 
 estate_burghers_build_port_building_in_y = {
 	can_select = {
-		dip_tech = 6
+		dip_tech = 23
 		any_owned_province = {
 			is_state_core = root
 			has_port = yes
@@ -4302,12 +4302,12 @@ estate_burghers_build_port_building_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { dip_tech = 8 }
+					ROOT = { dip_tech = 25 }
 					NOT = { has_building = shipyard }
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { dip_tech = 19 }
+					ROOT = { dip_tech = 36 }
 					NOT = { has_building = drydock }
 					OR = {
 						num_free_building_slots = 1
@@ -4315,7 +4315,7 @@ estate_burghers_build_port_building_in_y = {
 					}
 				}
 				AND = {
-					ROOT = { dip_tech = 24 }
+					ROOT = { dip_tech = 41 }
 					NOT = { has_building = grand_shipyard }
 					OR = {
 						num_free_building_slots = 1
@@ -4357,12 +4357,12 @@ estate_burghers_build_port_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 8 }
+						ROOT = { dip_tech = 25 }
 						NOT = { has_building = shipyard }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 19 }
+						ROOT = { dip_tech = 36 }
 						NOT = { has_building = drydock }
 						OR = {
 							num_free_building_slots = 1
@@ -4370,7 +4370,7 @@ estate_burghers_build_port_building_in_y = {
 						}
 					}
 					AND = {
-						ROOT = { dip_tech = 24 }
+						ROOT = { dip_tech = 41 }
 						NOT = { has_building = grand_shipyard }
 						OR = {
 							num_free_building_slots = 1
@@ -4396,12 +4396,12 @@ estate_burghers_build_port_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 8 }
+						ROOT = { dip_tech = 25 }
 						NOT = { has_building = shipyard }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 19 }
+						ROOT = { dip_tech = 36 }
 						NOT = { has_building = drydock }
 						OR = {
 							num_free_building_slots = 1
@@ -4409,7 +4409,7 @@ estate_burghers_build_port_building_in_y = {
 						}
 					}
 					AND = {
-						ROOT = { dip_tech = 24 }
+						ROOT = { dip_tech = 41 }
 						NOT = { has_building = grand_shipyard }
 						OR = {
 							num_free_building_slots = 1
@@ -4435,12 +4435,12 @@ estate_burghers_build_port_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 8 }
+						ROOT = { dip_tech = 25 }
 						NOT = { has_building = shipyard }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 19 }
+						ROOT = { dip_tech = 36 }
 						NOT = { has_building = drydock }
 						OR = {
 							num_free_building_slots = 1
@@ -4448,7 +4448,7 @@ estate_burghers_build_port_building_in_y = {
 						}
 					}
 					AND = {
-						ROOT = { dip_tech = 24 }
+						ROOT = { dip_tech = 41 }
 						NOT = { has_building = grand_shipyard }
 						OR = {
 							num_free_building_slots = 1
@@ -4464,7 +4464,7 @@ estate_burghers_build_port_building_in_y = {
 				limit = {
 					has_building = shipyard
 					NOT = { has_building = grand_shipyard }
-					ROOT = { dip_tech = 24 }
+					ROOT = { dip_tech = 41 }
 				}
 				ROOT = {
 					set_variable = {
@@ -4477,7 +4477,7 @@ estate_burghers_build_port_building_in_y = {
 				limit = {
 					NOT = { has_building = shipyard }
 					NOT = { has_building = grand_shipyard }
-					ROOT = { dip_tech = 8 }
+					ROOT = { dip_tech = 25 }
 				}
 				ROOT = {
 					set_variable = {
@@ -4621,7 +4621,7 @@ estate_burghers_build_port_building_in_y = {
 
 estate_burghers_build_production_building_in_y = {
 	can_select = {
-		adm_tech = 6
+		adm_tech = 23
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = factory }
@@ -4633,7 +4633,7 @@ estate_burghers_build_production_building_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { adm_tech = 12 }
+					ROOT = { adm_tech = 29 }
 					NOT = { has_building = counting_house }
 					OR = {
 						num_free_building_slots = 1
@@ -4641,7 +4641,7 @@ estate_burghers_build_production_building_in_y = {
 					}
 				} 
 				AND = {
-					ROOT = { adm_tech = 24 }
+					ROOT = { adm_tech = 41 }
 					NOT = { has_building = treasury }
 					OR = {
 						num_free_building_slots = 1
@@ -4649,7 +4649,7 @@ estate_burghers_build_production_building_in_y = {
 					}
 				}
 				AND = {
-					ROOT = { adm_tech = 32 }
+					ROOT = { adm_tech = 49 }
 					OR = {
 						num_free_building_slots = 1
 						has_building = treasury
@@ -4677,7 +4677,7 @@ estate_burghers_build_production_building_in_y = {
 						    num_free_building_slots = 1
 						}
 				        AND = {
-				        	ROOT = { adm_tech = 12 }
+				        	ROOT = { adm_tech = 29 }
 				        	NOT = { has_building = counting_house }
 				        	OR = {
 				        		num_free_building_slots = 1
@@ -4685,7 +4685,7 @@ estate_burghers_build_production_building_in_y = {
 				        	}
 				        } 
 				        AND = {
-				        	ROOT = { adm_tech = 24 }
+				        	ROOT = { adm_tech = 41 }
 				        	NOT = { has_building = treasury }
 				        	OR = {
 				        		num_free_building_slots = 1
@@ -4693,7 +4693,7 @@ estate_burghers_build_production_building_in_y = {
 				        	}
 				        }
 				        AND = {
-				        	ROOT = { adm_tech = 32 }
+				        	ROOT = { adm_tech = 49 }
 				        	OR = {
 				        		num_free_building_slots = 1
 				        		has_building = treasury
@@ -4729,7 +4729,7 @@ estate_burghers_build_production_building_in_y = {
 						num_free_building_slots = 1
 					}
 				    AND = {
-				    	ROOT = { adm_tech = 12 }
+				    	ROOT = { adm_tech = 29 }
 				    	NOT = { has_building = counting_house }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -4737,7 +4737,7 @@ estate_burghers_build_production_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { adm_tech = 24 }
+				    	ROOT = { adm_tech = 41 }
 				    	NOT = { has_building = treasury }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -4745,7 +4745,7 @@ estate_burghers_build_production_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 32 }
+				    	ROOT = { adm_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = treasury
@@ -4780,7 +4780,7 @@ estate_burghers_build_production_building_in_y = {
 						num_free_building_slots = 1
 					}
 				    AND = {
-				    	ROOT = { adm_tech = 12 }
+				    	ROOT = { adm_tech = 29 }
 				    	NOT = { has_building = counting_house }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -4788,7 +4788,7 @@ estate_burghers_build_production_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { adm_tech = 24 }
+				    	ROOT = { adm_tech = 41 }
 				    	NOT = { has_building = treasury }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -4796,7 +4796,7 @@ estate_burghers_build_production_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 32 }
+				    	ROOT = { adm_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = treasury
@@ -4821,7 +4821,7 @@ estate_burghers_build_production_building_in_y = {
 						num_free_building_slots = 1
 					}
 				    AND = {
-				    	ROOT = { adm_tech = 12 }
+				    	ROOT = { adm_tech = 29 }
 				    	NOT = { has_building = counting_house }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -4829,7 +4829,7 @@ estate_burghers_build_production_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { adm_tech = 24 }
+				    	ROOT = { adm_tech = 41 }
 				    	NOT = { has_building = treasury }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -4837,7 +4837,7 @@ estate_burghers_build_production_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 32 }
+				    	ROOT = { adm_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = treasury
@@ -4872,7 +4872,7 @@ estate_burghers_build_production_building_in_y = {
 						num_free_building_slots = 1
 					}
 				    AND = {
-				    	ROOT = { adm_tech = 12 }
+				    	ROOT = { adm_tech = 29 }
 				    	NOT = { has_building = counting_house }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -4880,7 +4880,7 @@ estate_burghers_build_production_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { adm_tech = 24 }
+				    	ROOT = { adm_tech = 41 }
 				    	NOT = { has_building = treasury }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -4888,7 +4888,7 @@ estate_burghers_build_production_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 32 }
+				    	ROOT = { adm_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = treasury
@@ -5064,7 +5064,7 @@ estate_burghers_build_production_building_in_y = {
 
 estate_vaisyas_build_trade_building_in_y = {
 	can_select = {
-		dip_tech = 4
+		dip_tech = 21
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = corporative_headquarters }
@@ -5076,7 +5076,7 @@ estate_vaisyas_build_trade_building_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { dip_tech = 17 }
+					ROOT = { dip_tech = 34 }
 					NOT = { has_building = trade_depot }
 					OR = {
 						num_free_building_slots = 1
@@ -5084,7 +5084,7 @@ estate_vaisyas_build_trade_building_in_y = {
 					}
 				}
 				AND = {
-					ROOT = { dip_tech = 22 }
+					ROOT = { dip_tech = 39 }
 					NOT = { has_building = stock_exchange }
 					OR = {
 						num_free_building_slots = 1
@@ -5092,7 +5092,7 @@ estate_vaisyas_build_trade_building_in_y = {
 					}
 				}
 				AND = {
-					ROOT = { dip_tech = 32 }
+					ROOT = { dip_tech = 49 }
 					OR = {
 						num_free_building_slots = 1
 						has_building = stock_exchange
@@ -5121,7 +5121,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				        	num_free_building_slots = 1
 				        }
 				        AND = {
-				        	ROOT = { dip_tech = 17 }
+				        	ROOT = { dip_tech = 34 }
 				        	NOT = { has_building = trade_depot }
 				        	OR = {
 				        		num_free_building_slots = 1
@@ -5129,7 +5129,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				        	}
 				        } 
 				        AND = {
-				        	ROOT = { dip_tech = 22 }
+				        	ROOT = { dip_tech = 39 }
 				        	NOT = { has_building = stock_exchange }
 				        	OR = {
 				        		num_free_building_slots = 1
@@ -5137,7 +5137,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				        	}
 				        }
 				        AND = {
-				        	ROOT = { dip_tech = 32 }
+				        	ROOT = { dip_tech = 49 }
 				        	OR = {
 				        		num_free_building_slots = 1
 				        		has_building = stock_exchange
@@ -5164,7 +5164,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 17 }
+				    	ROOT = { dip_tech = 34 }
 				    	NOT = { has_building = trade_depot }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -5172,7 +5172,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { dip_tech = 22 }
+				    	ROOT = { dip_tech = 39 }
 				    	NOT = { has_building = stock_exchange }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -5180,7 +5180,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 32 }
+				    	ROOT = { dip_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = stock_exchange
@@ -5218,7 +5218,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 17 }
+				    	ROOT = { dip_tech = 34 }
 				    	NOT = { has_building = trade_depot }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -5226,7 +5226,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { dip_tech = 22 }
+				    	ROOT = { dip_tech = 39 }
 				    	NOT = { has_building = stock_exchange }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -5234,7 +5234,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 32 }
+				    	ROOT = { dip_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = stock_exchange
@@ -5260,7 +5260,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 17 }
+				    	ROOT = { dip_tech = 34 }
 				    	NOT = { has_building = trade_depot }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -5268,7 +5268,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { dip_tech = 22 }
+				    	ROOT = { dip_tech = 39 }
 				    	NOT = { has_building = stock_exchange }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -5276,7 +5276,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 32 }
+				    	ROOT = { dip_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = stock_exchange
@@ -5302,7 +5302,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 17 }
+				    	ROOT = { dip_tech = 34 }
 				    	NOT = { has_building = trade_depot }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -5310,7 +5310,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { dip_tech = 22 }
+				    	ROOT = { dip_tech = 39 }
 				    	NOT = { has_building = stock_exchange }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -5318,7 +5318,7 @@ estate_vaisyas_build_trade_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 32 }
+				    	ROOT = { dip_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = stock_exchange
@@ -5493,7 +5493,7 @@ estate_vaisyas_build_trade_building_in_y = {
 
 estate_vaisyas_build_port_building_in_y = {
 	can_select = {
-		dip_tech = 6
+		dip_tech = 23
 		any_owned_province = {
 			is_state_core = root
 			has_port = yes
@@ -5507,12 +5507,12 @@ estate_vaisyas_build_port_building_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { dip_tech = 8 }
+					ROOT = { dip_tech = 25 }
 					NOT = { has_building = shipyard }
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { dip_tech = 19 }
+					ROOT = { dip_tech = 36 }
 					NOT = { has_building = drydock }
 					OR = {
 						num_free_building_slots = 1
@@ -5520,7 +5520,7 @@ estate_vaisyas_build_port_building_in_y = {
 					}
 				}
 				AND = {
-					ROOT = { dip_tech = 24 }
+					ROOT = { dip_tech = 41 }
 					NOT = { has_building = grand_shipyard }
 					OR = {
 						num_free_building_slots = 1
@@ -5562,12 +5562,12 @@ estate_vaisyas_build_port_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 8 }
+						ROOT = { dip_tech = 25 }
 						NOT = { has_building = shipyard }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 19 }
+						ROOT = { dip_tech = 36 }
 						NOT = { has_building = drydock }
 						OR = {
 							num_free_building_slots = 1
@@ -5575,7 +5575,7 @@ estate_vaisyas_build_port_building_in_y = {
 						}
 					}
 					AND = {
-						ROOT = { dip_tech = 24 }
+						ROOT = { dip_tech = 41 }
 						NOT = { has_building = grand_shipyard }
 						OR = {
 							num_free_building_slots = 1
@@ -5601,12 +5601,12 @@ estate_vaisyas_build_port_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 8 }
+						ROOT = { dip_tech = 25 }
 						NOT = { has_building = shipyard }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 19 }
+						ROOT = { dip_tech = 36 }
 						NOT = { has_building = drydock }
 						OR = {
 							num_free_building_slots = 1
@@ -5614,7 +5614,7 @@ estate_vaisyas_build_port_building_in_y = {
 						}
 					}
 					AND = {
-						ROOT = { dip_tech = 24 }
+						ROOT = { dip_tech = 41 }
 						NOT = { has_building = grand_shipyard }
 						OR = {
 							num_free_building_slots = 1
@@ -5640,12 +5640,12 @@ estate_vaisyas_build_port_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 8 }
+						ROOT = { dip_tech = 25 }
 						NOT = { has_building = shipyard }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 19 }
+						ROOT = { dip_tech = 36 }
 						NOT = { has_building = drydock }
 						OR = {
 							num_free_building_slots = 1
@@ -5653,7 +5653,7 @@ estate_vaisyas_build_port_building_in_y = {
 						}
 					}
 					AND = {
-						ROOT = { dip_tech = 24 }
+						ROOT = { dip_tech = 41 }
 						NOT = { has_building = grand_shipyard }
 						OR = {
 							num_free_building_slots = 1
@@ -5669,7 +5669,7 @@ estate_vaisyas_build_port_building_in_y = {
 				limit = {
 					has_building = shipyard
 					NOT = { has_building = grand_shipyard }
-					ROOT = { dip_tech = 24 }
+					ROOT = { dip_tech = 41 }
 				}
 				ROOT = {
 					set_variable = {
@@ -5682,7 +5682,7 @@ estate_vaisyas_build_port_building_in_y = {
 				limit = {
 					NOT = { has_building = shipyard }
 					NOT = { has_building = grand_shipyard }
-					ROOT = { dip_tech = 8 }
+					ROOT = { dip_tech = 25 }
 				}
 				ROOT = {
 					set_variable = {
@@ -5826,7 +5826,7 @@ estate_vaisyas_build_port_building_in_y = {
 
 estate_vaisyas_build_production_building_in_y = {
 	can_select = {
-		adm_tech = 6
+		adm_tech = 23
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = factory }
@@ -5838,7 +5838,7 @@ estate_vaisyas_build_production_building_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { adm_tech = 12 }
+					ROOT = { adm_tech = 29 }
 					NOT = { has_building = counting_house }
 					OR = {
 						num_free_building_slots = 1
@@ -5846,7 +5846,7 @@ estate_vaisyas_build_production_building_in_y = {
 					}
 				} 
 				AND = {
-					ROOT = { adm_tech = 24 }
+					ROOT = { adm_tech = 41 }
 					NOT = { has_building = treasury }
 					OR = {
 						num_free_building_slots = 1
@@ -5854,7 +5854,7 @@ estate_vaisyas_build_production_building_in_y = {
 					}
 				}
 				AND = {
-					ROOT = { adm_tech = 32 }
+					ROOT = { adm_tech = 49 }
 					OR = {
 						num_free_building_slots = 1
 						has_building = treasury
@@ -5882,7 +5882,7 @@ estate_vaisyas_build_production_building_in_y = {
 						    num_free_building_slots = 1
 						}
 				        AND = {
-				        	ROOT = { adm_tech = 12 }
+				        	ROOT = { adm_tech = 29 }
 				        	NOT = { has_building = counting_house }
 				        	OR = {
 				        		num_free_building_slots = 1
@@ -5890,7 +5890,7 @@ estate_vaisyas_build_production_building_in_y = {
 				        	}
 				        } 
 				        AND = {
-				        	ROOT = { adm_tech = 24 }
+				        	ROOT = { adm_tech = 41 }
 				        	NOT = { has_building = treasury }
 				        	OR = {
 				        		num_free_building_slots = 1
@@ -5898,7 +5898,7 @@ estate_vaisyas_build_production_building_in_y = {
 				        	}
 				        }
 				        AND = {
-				        	ROOT = { adm_tech = 32 }
+				        	ROOT = { adm_tech = 49 }
 				        	OR = {
 				        		num_free_building_slots = 1
 				        		has_building = treasury
@@ -5934,7 +5934,7 @@ estate_vaisyas_build_production_building_in_y = {
 						num_free_building_slots = 1
 					}
 				    AND = {
-				    	ROOT = { adm_tech = 12 }
+				    	ROOT = { adm_tech = 29 }
 				    	NOT = { has_building = counting_house }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -5942,7 +5942,7 @@ estate_vaisyas_build_production_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { adm_tech = 24 }
+				    	ROOT = { adm_tech = 41 }
 				    	NOT = { has_building = treasury }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -5950,7 +5950,7 @@ estate_vaisyas_build_production_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 32 }
+				    	ROOT = { adm_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = treasury
@@ -5985,7 +5985,7 @@ estate_vaisyas_build_production_building_in_y = {
 						num_free_building_slots = 1
 					}
 				    AND = {
-				    	ROOT = { adm_tech = 12 }
+				    	ROOT = { adm_tech = 29 }
 				    	NOT = { has_building = counting_house }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -5993,7 +5993,7 @@ estate_vaisyas_build_production_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { adm_tech = 24 }
+				    	ROOT = { adm_tech = 41 }
 				    	NOT = { has_building = treasury }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -6001,7 +6001,7 @@ estate_vaisyas_build_production_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 32 }
+				    	ROOT = { adm_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = treasury
@@ -6026,7 +6026,7 @@ estate_vaisyas_build_production_building_in_y = {
 						num_free_building_slots = 1
 					}
 				    AND = {
-				    	ROOT = { adm_tech = 12 }
+				    	ROOT = { adm_tech = 29 }
 				    	NOT = { has_building = counting_house }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -6034,7 +6034,7 @@ estate_vaisyas_build_production_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { adm_tech = 24 }
+				    	ROOT = { adm_tech = 41 }
 				    	NOT = { has_building = treasury }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -6042,7 +6042,7 @@ estate_vaisyas_build_production_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 32 }
+				    	ROOT = { adm_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = treasury
@@ -6077,7 +6077,7 @@ estate_vaisyas_build_production_building_in_y = {
 						num_free_building_slots = 1
 					}
 				    AND = {
-				    	ROOT = { adm_tech = 12 }
+				    	ROOT = { adm_tech = 29 }
 				    	NOT = { has_building = counting_house }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -6085,7 +6085,7 @@ estate_vaisyas_build_production_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { adm_tech = 24 }
+				    	ROOT = { adm_tech = 41 }
 				    	NOT = { has_building = treasury }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -6093,7 +6093,7 @@ estate_vaisyas_build_production_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 32 }
+				    	ROOT = { adm_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = treasury
@@ -6270,7 +6270,7 @@ estate_vaisyas_build_production_building_in_y = {
 
 estate_jains_build_trade_building_in_y = {
 	can_select = {
-		dip_tech = 4
+		dip_tech = 21
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = corporative_headquarters }
@@ -6282,7 +6282,7 @@ estate_jains_build_trade_building_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { dip_tech = 17 }
+					ROOT = { dip_tech = 34 }
 					NOT = { has_building = trade_depot }
 					OR = {
 						num_free_building_slots = 1
@@ -6290,7 +6290,7 @@ estate_jains_build_trade_building_in_y = {
 					}
 				}
 				AND = {
-					ROOT = { dip_tech = 22 }
+					ROOT = { dip_tech = 39 }
 					NOT = { has_building = stock_exchange }
 					OR = {
 						num_free_building_slots = 1
@@ -6298,7 +6298,7 @@ estate_jains_build_trade_building_in_y = {
 					}
 				}
 				AND = {
-					ROOT = { dip_tech = 32 }
+					ROOT = { dip_tech = 49 }
 					OR = {
 						num_free_building_slots = 1
 						has_building = stock_exchange
@@ -6327,7 +6327,7 @@ estate_jains_build_trade_building_in_y = {
 				        	num_free_building_slots = 1
 				        }
 				        AND = {
-				        	ROOT = { dip_tech = 17 }
+				        	ROOT = { dip_tech = 34 }
 				        	NOT = { has_building = trade_depot }
 				        	OR = {
 				        		num_free_building_slots = 1
@@ -6335,7 +6335,7 @@ estate_jains_build_trade_building_in_y = {
 				        	}
 				        } 
 				        AND = {
-				        	ROOT = { dip_tech = 22 }
+				        	ROOT = { dip_tech = 39 }
 				        	NOT = { has_building = stock_exchange }
 				        	OR = {
 				        		num_free_building_slots = 1
@@ -6343,7 +6343,7 @@ estate_jains_build_trade_building_in_y = {
 				        	}
 				        }
 				        AND = {
-				        	ROOT = { dip_tech = 32 }
+				        	ROOT = { dip_tech = 49 }
 				        	OR = {
 				        		num_free_building_slots = 1
 				        		has_building = stock_exchange
@@ -6370,7 +6370,7 @@ estate_jains_build_trade_building_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 17 }
+				    	ROOT = { dip_tech = 34 }
 				    	NOT = { has_building = trade_depot }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -6378,7 +6378,7 @@ estate_jains_build_trade_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { dip_tech = 22 }
+				    	ROOT = { dip_tech = 39 }
 				    	NOT = { has_building = stock_exchange }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -6386,7 +6386,7 @@ estate_jains_build_trade_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 32 }
+				    	ROOT = { dip_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = stock_exchange
@@ -6424,7 +6424,7 @@ estate_jains_build_trade_building_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 17 }
+				    	ROOT = { dip_tech = 34 }
 				    	NOT = { has_building = trade_depot }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -6432,7 +6432,7 @@ estate_jains_build_trade_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { dip_tech = 22 }
+				    	ROOT = { dip_tech = 39 }
 				    	NOT = { has_building = stock_exchange }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -6440,7 +6440,7 @@ estate_jains_build_trade_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 32 }
+				    	ROOT = { dip_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = stock_exchange
@@ -6466,7 +6466,7 @@ estate_jains_build_trade_building_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 17 }
+				    	ROOT = { dip_tech = 34 }
 				    	NOT = { has_building = trade_depot }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -6474,7 +6474,7 @@ estate_jains_build_trade_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { dip_tech = 22 }
+				    	ROOT = { dip_tech = 39 }
 				    	NOT = { has_building = stock_exchange }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -6482,7 +6482,7 @@ estate_jains_build_trade_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 32 }
+				    	ROOT = { dip_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = stock_exchange
@@ -6508,7 +6508,7 @@ estate_jains_build_trade_building_in_y = {
 				    	num_free_building_slots = 1
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 17 }
+				    	ROOT = { dip_tech = 34 }
 				    	NOT = { has_building = trade_depot }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -6516,7 +6516,7 @@ estate_jains_build_trade_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { dip_tech = 22 }
+				    	ROOT = { dip_tech = 39 }
 				    	NOT = { has_building = stock_exchange }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -6524,7 +6524,7 @@ estate_jains_build_trade_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { dip_tech = 32 }
+				    	ROOT = { dip_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = stock_exchange
@@ -6698,7 +6698,7 @@ estate_jains_build_trade_building_in_y = {
 
 estate_jains_build_port_building_in_y = {
 	can_select = {
-		dip_tech = 6
+		dip_tech = 23
 		any_owned_province = {
 			is_state_core = root
 			has_port = yes
@@ -6712,12 +6712,12 @@ estate_jains_build_port_building_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { dip_tech = 8 }
+					ROOT = { dip_tech = 25 }
 					NOT = { has_building = shipyard }
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { dip_tech = 19 }
+					ROOT = { dip_tech = 36 }
 					NOT = { has_building = drydock }
 					OR = {
 						num_free_building_slots = 1
@@ -6725,7 +6725,7 @@ estate_jains_build_port_building_in_y = {
 					}
 				}
 				AND = {
-					ROOT = { dip_tech = 24 }
+					ROOT = { dip_tech = 41 }
 					NOT = { has_building = grand_shipyard }
 					OR = {
 						num_free_building_slots = 1
@@ -6767,12 +6767,12 @@ estate_jains_build_port_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 8 }
+						ROOT = { dip_tech = 25 }
 						NOT = { has_building = shipyard }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 19 }
+						ROOT = { dip_tech = 36 }
 						NOT = { has_building = drydock }
 						OR = {
 							num_free_building_slots = 1
@@ -6780,7 +6780,7 @@ estate_jains_build_port_building_in_y = {
 						}
 					}
 					AND = {
-						ROOT = { dip_tech = 24 }
+						ROOT = { dip_tech = 41 }
 						NOT = { has_building = grand_shipyard }
 						OR = {
 							num_free_building_slots = 1
@@ -6806,12 +6806,12 @@ estate_jains_build_port_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 8 }
+						ROOT = { dip_tech = 25 }
 						NOT = { has_building = shipyard }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 19 }
+						ROOT = { dip_tech = 36 }
 						NOT = { has_building = drydock }
 						OR = {
 							num_free_building_slots = 1
@@ -6819,7 +6819,7 @@ estate_jains_build_port_building_in_y = {
 						}
 					}
 					AND = {
-						ROOT = { dip_tech = 24 }
+						ROOT = { dip_tech = 41 }
 						NOT = { has_building = grand_shipyard }
 						OR = {
 							num_free_building_slots = 1
@@ -6845,12 +6845,12 @@ estate_jains_build_port_building_in_y = {
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 8 }
+						ROOT = { dip_tech = 25 }
 						NOT = { has_building = shipyard }
 						num_free_building_slots = 1
 					}
 					AND = {
-						ROOT = { dip_tech = 19 }
+						ROOT = { dip_tech = 36 }
 						NOT = { has_building = drydock }
 						OR = {
 							num_free_building_slots = 1
@@ -6858,7 +6858,7 @@ estate_jains_build_port_building_in_y = {
 						}
 					}
 					AND = {
-						ROOT = { dip_tech = 24 }
+						ROOT = { dip_tech = 41 }
 						NOT = { has_building = grand_shipyard }
 						OR = {
 							num_free_building_slots = 1
@@ -6874,7 +6874,7 @@ estate_jains_build_port_building_in_y = {
 				limit = {
 					has_building = shipyard
 					NOT = { has_building = grand_shipyard }
-					ROOT = { dip_tech = 24 }
+					ROOT = { dip_tech = 41 }
 				}
 				ROOT = {
 					set_variable = {
@@ -6887,7 +6887,7 @@ estate_jains_build_port_building_in_y = {
 				limit = {
 					NOT = { has_building = shipyard }
 					NOT = { has_building = grand_shipyard }
-					ROOT = { dip_tech = 8 }
+					ROOT = { dip_tech = 25 }
 				}
 				ROOT = {
 					set_variable = {
@@ -7031,7 +7031,7 @@ estate_jains_build_port_building_in_y = {
 
 estate_jains_build_production_building_in_y = {
 	can_select = {
-		adm_tech = 6
+		adm_tech = 23
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = factory }
@@ -7043,7 +7043,7 @@ estate_jains_build_production_building_in_y = {
 					num_free_building_slots = 1
 				}
 				AND = {
-					ROOT = { adm_tech = 12 }
+					ROOT = { adm_tech = 29 }
 					NOT = { has_building = counting_house }
 					OR = {
 						num_free_building_slots = 1
@@ -7051,7 +7051,7 @@ estate_jains_build_production_building_in_y = {
 					}
 				} 
 				AND = {
-					ROOT = { adm_tech = 24 }
+					ROOT = { adm_tech = 41 }
 					NOT = { has_building = treasury }
 					OR = {
 						num_free_building_slots = 1
@@ -7059,7 +7059,7 @@ estate_jains_build_production_building_in_y = {
 					}
 				}
 				AND = {
-					ROOT = { adm_tech = 32 }
+					ROOT = { adm_tech = 49 }
 					OR = {
 						num_free_building_slots = 1
 						has_building = treasury
@@ -7087,7 +7087,7 @@ estate_jains_build_production_building_in_y = {
 						    num_free_building_slots = 1
 						}
 				        AND = {
-				        	ROOT = { adm_tech = 12 }
+				        	ROOT = { adm_tech = 29 }
 				        	NOT = { has_building = counting_house }
 				        	OR = {
 				        		num_free_building_slots = 1
@@ -7095,7 +7095,7 @@ estate_jains_build_production_building_in_y = {
 				        	}
 				        } 
 				        AND = {
-				        	ROOT = { adm_tech = 24 }
+				        	ROOT = { adm_tech = 41 }
 				        	NOT = { has_building = treasury }
 				        	OR = {
 				        		num_free_building_slots = 1
@@ -7103,7 +7103,7 @@ estate_jains_build_production_building_in_y = {
 				        	}
 				        }
 				        AND = {
-				        	ROOT = { adm_tech = 32 }
+				        	ROOT = { adm_tech = 49 }
 				        	OR = {
 				        		num_free_building_slots = 1
 				        		has_building = treasury
@@ -7139,7 +7139,7 @@ estate_jains_build_production_building_in_y = {
 						num_free_building_slots = 1
 					}
 				    AND = {
-				    	ROOT = { adm_tech = 12 }
+				    	ROOT = { adm_tech = 29 }
 				    	NOT = { has_building = counting_house }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -7147,7 +7147,7 @@ estate_jains_build_production_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { adm_tech = 24 }
+				    	ROOT = { adm_tech = 41 }
 				    	NOT = { has_building = treasury }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -7155,7 +7155,7 @@ estate_jains_build_production_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 32 }
+				    	ROOT = { adm_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = treasury
@@ -7190,7 +7190,7 @@ estate_jains_build_production_building_in_y = {
 						num_free_building_slots = 1
 					}
 				    AND = {
-				    	ROOT = { adm_tech = 12 }
+				    	ROOT = { adm_tech = 29 }
 				    	NOT = { has_building = counting_house }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -7198,7 +7198,7 @@ estate_jains_build_production_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { adm_tech = 24 }
+				    	ROOT = { adm_tech = 41 }
 				    	NOT = { has_building = treasury }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -7206,7 +7206,7 @@ estate_jains_build_production_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 32 }
+				    	ROOT = { adm_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = treasury
@@ -7231,7 +7231,7 @@ estate_jains_build_production_building_in_y = {
 						num_free_building_slots = 1
 					}
 				    AND = {
-				    	ROOT = { adm_tech = 12 }
+				    	ROOT = { adm_tech = 29 }
 				    	NOT = { has_building = counting_house }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -7239,7 +7239,7 @@ estate_jains_build_production_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { adm_tech = 24 }
+				    	ROOT = { adm_tech = 41 }
 				    	NOT = { has_building = treasury }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -7247,7 +7247,7 @@ estate_jains_build_production_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 32 }
+				    	ROOT = { adm_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = treasury
@@ -7282,7 +7282,7 @@ estate_jains_build_production_building_in_y = {
 						num_free_building_slots = 1
 					}
 				    AND = {
-				    	ROOT = { adm_tech = 12 }
+				    	ROOT = { adm_tech = 29 }
 				    	NOT = { has_building = counting_house }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -7290,7 +7290,7 @@ estate_jains_build_production_building_in_y = {
 				    	}
 				    } 
 				    AND = {
-				    	ROOT = { adm_tech = 24 }
+				    	ROOT = { adm_tech = 41 }
 				    	NOT = { has_building = treasury }
 				    	OR = {
 				    		num_free_building_slots = 1
@@ -7298,7 +7298,7 @@ estate_jains_build_production_building_in_y = {
 				    	}
 				    }
 				    AND = {
-				    	ROOT = { adm_tech = 32 }
+				    	ROOT = { adm_tech = 49 }
 				    	OR = {
 				    		num_free_building_slots = 1
 				    		has_building = treasury
@@ -9156,7 +9156,7 @@ estate_brahmins_build_manufactory_in_y = {
 estate_church_build_university_in_y = {
 	can_select = {
 		government = theocracy
-		adm_tech = 17
+		adm_tech = 34
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = university }
@@ -9287,7 +9287,7 @@ estate_church_build_university_in_y = {
 estate_brahmins_build_university_in_y = {
 	can_select = {
 		government = theocracy
-		adm_tech = 17
+		adm_tech = 34
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = university }
@@ -9419,7 +9419,7 @@ estate_brahmins_build_university_in_y = {
 estate_nobles_build_university_in_y = {
 	can_select = {
 		government = monarchy
-		adm_tech = 17
+		adm_tech = 34
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = university }
@@ -9550,7 +9550,7 @@ estate_nobles_build_university_in_y = {
 estate_maratha_build_university_in_y = {
 	can_select = {
 		government = monarchy
-		adm_tech = 17
+		adm_tech = 34
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = university }
@@ -9681,7 +9681,7 @@ estate_maratha_build_university_in_y = {
 estate_rajput_build_university_in_y = {
 	can_select = {
 		government = monarchy
-		adm_tech = 17
+		adm_tech = 34
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = university }
@@ -9812,7 +9812,7 @@ estate_rajput_build_university_in_y = {
 estate_burghers_build_university_in_y = {
 	can_select = {
 		government = republic
-		adm_tech = 17
+		adm_tech = 34
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = university }
@@ -9943,7 +9943,7 @@ estate_burghers_build_university_in_y = {
 estate_vaisyas_build_university_in_y = {
 	can_select = {
 		government = republic
-		adm_tech = 17
+		adm_tech = 34
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = university }
@@ -10074,7 +10074,7 @@ estate_vaisyas_build_university_in_y = {
 estate_jains_build_university_in_y = {
 	can_select = {
 		government = republic
-		adm_tech = 17
+		adm_tech = 34
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = university }

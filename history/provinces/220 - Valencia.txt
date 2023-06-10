@@ -1,11 +1,11 @@
-#220 - Valï¿½ncia
+#220 - València
 #Region - Iberia
 #Area - Valencia
 
+#Default
 owner = ARA	#Alfons V of Aragon
 controller = ARA
 add_core = ARA
-add_core = VAL
 culture = catalan
 religion = catholic
 hre = no
@@ -13,15 +13,29 @@ base_tax = 9
 base_production = 9
 trade_goods = books
 base_manpower = 5
-fort_15th = yes
-capital = "Valï¿½ncia" 
+capital = "València" 
 is_city = yes
+center_of_trade = 2
+extra_cost = 15
 
+#Claimants
+add_core = VAL
+
+#Buildings
+fort_15th = yes
+
+#Special Modifiers
 add_permanent_province_modifier = {
     name = navalbase_modifier_3
     duration = -1
 }
 
+add_permanent_province_modifier = {
+	name = jucar_estuary_modifier
+	duration = -1
+}
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -42,14 +56,10 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
-add_permanent_province_modifier = {
-	name = jucar_estuary_modifier
-	duration = -1
-}
-center_of_trade = 2
-extra_cost = 15
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
 
-
+1444.11.11 = { owner = ARA controller = ARA add_core = ARA } # Aragonese territorial lands - By San Felipe
 
 1516.1.23 = {
 	controller = SPA

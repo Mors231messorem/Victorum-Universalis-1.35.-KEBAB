@@ -1302,7 +1302,7 @@ teu_pru_dummy_hre_mission_slot_1 = {
 						}
 						value = 100
 					}
-					adm_tech = 36
+					adm_tech = 37
 					is_free_or_tributary_trigger = yes
 					is_nomad = no
 					is_at_war = no
@@ -1750,7 +1750,7 @@ teu_pru_dummy_hre_mission_slot_2 = {
 							is_core = ROOT
 							type = all
 						}
-						adm_tech = 26
+						adm_tech = 27
 						reform_level = 4
 						stability = 2
 					}
@@ -2545,7 +2545,7 @@ teu_pru_diplomatic_seculization_mission_slot = {
 				is_core = ROOT
 				type = all
 			}
-			adm_tech = 26
+			adm_tech = 27
 			reform_level = 4
 			stability = 2
 		}
@@ -2881,7 +2881,7 @@ teu_pru_conquest_hre_mission_slot = {
 				}
 				value = 100
 			}
-			adm_tech = 36
+			adm_tech = 37
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no

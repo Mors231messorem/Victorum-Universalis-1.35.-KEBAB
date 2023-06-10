@@ -855,7 +855,7 @@ country_event = {
 	
 	trigger = {
 		tag = NED
-		dip_tech = 26 #Flutes
+		dip_tech = 27 #Flutes
 		NOT = { is_year = 1610 }
 		owns = 97
 	}

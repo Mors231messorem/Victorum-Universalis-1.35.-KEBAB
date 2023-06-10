@@ -1,5 +1,6 @@
-#New Victorum Universalis Province
+#5318 - Koukou
 
+#Default
 owner = TLC
 controller = TLC
 add_core = TLC
@@ -12,9 +13,16 @@ base_tax = 6
 base_production = 6
 base_manpower = 4
 is_city = yes
+
+#Claimants
 add_core = KBA
+
+#Buildings
+
+#Special Modifiers
 add_local_autonomy = 75			#Kabylians highly autonomous under Hafsids
 
+#Known by Technology groups
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
@@ -35,11 +43,10 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
-#Wiki quote on the region. I know... Wiki... but it actually sounds like it outlines it decently enough and I have no access to specialised sources for this region -Darth Modus
-#Deux hypoth�ses sont en concurrence pour expliquer la fondation du royaume de Koukou.
-#L'une voudrait qu'il ait �t� fond� avant la prise de B�ja�a par les Espagnols en 1510, dans un contexte d'affaiblissement du pouvoir hafside. Cette hypoth�se est peu soutenue du fait qu'il est peu probable que les Hafsides tol�rent la constitution de cette principaut� avant la prise de B�ja�a.
-#L'autre l'attribue aux Belkadi, des imrabden (un lignage maraboutique), une famille de lettr�s au service du sultan de B�ja�a (dissident des Hafsides de Tunis) et originaires du village d'Aourir de la tribu des A�t Ghoubri (Grande Kabylie). Ils seraient d'ailleurs les descendants d'un illustre 
-#grand cadi de B�ja�a du XIIIe si�cle, Abu Abbas El Ghoubrini. Au service des Hafsides il est donc complexe d'imaginer qu'ils auraient pu constituer leur principaut� avant la chute de B�ja�a.
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+
+1444.11.11 = { owner = TLC controller = TLC add_core = TLC } # Tlemcen territorial lands - By San Felipe
 
 1491.1.1 = {
 	base_tax = 8

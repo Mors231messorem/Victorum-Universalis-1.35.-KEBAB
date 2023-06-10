@@ -97,12 +97,12 @@ estate_maratha_land_rights = {
 		}
 		modifier = {
 			factor = 8
-			NOT = { adm_tech = 12 }
+			NOT = { adm_tech = 30 }
 			governing_capacity_percentage = 0.8
 		}
 		modifier = {
 			factor = 5
-			NOT = { adm_tech = 12 }
+			NOT = { adm_tech = 30 }
 			NOT = { government_rank = 1 }
 			governing_capacity_percentage = 0.65
 		}
@@ -110,100 +110,100 @@ estate_maratha_land_rights = {
 		modifier = {
 			factor = 1.25
 			tag = MOS
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = RUS
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = TUR
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = MNG
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = FRA
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = SPA
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = PLC
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		#VU French Tags
 		modifier = {
 			factor = 1.25
 			tag = BFR
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = FSR
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = FSE
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = NPF
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = OFR
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = RVF
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = TFR
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		#VU Spanish Tags
 		modifier = {
 			factor = 1.25
 			tag = BSP
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = SPB
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = BBS
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		modifier = {
 			factor = 1.25
 			tag = CSP
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		#VU Tzarist Russia
 		modifier = {
 			factor = 1.25
 			tag = TZR
-			NOT = { adm_tech = 17 }
+			NOT = { adm_tech = 35 }
 		}
 		#Has already a similar privilege active
 		modifier = {

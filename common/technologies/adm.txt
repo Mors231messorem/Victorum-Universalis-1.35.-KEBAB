@@ -1,9 +1,62 @@
 #VU updated by San Felipe for 1.35
 monarch_power = ADM
 
+##################################
+#	THIS NEEDS FIXED!!!!!!   #
+##################################
+
+technology = { #Tribal Government
+	# Tech 0
+	year = 1150
+
+	tribal_despotism_legacy = yes
+	tribal_federation_legacy = yes
+
+	native_earthwork = yes
+	native_palisade = yes
+	native_fortified_house = yes
+	native_three_sisters_field = yes
+	native_irrigation = yes
+	native_storehouse = yes
+	native_longhouse = yes
+	native_sweat_lodge = yes
+	native_great_trail = yes
+	native_ceremonial_fire_pit = yes
+}
+
+##################################
+#	THIS NEEDS FIXED!!!!!!   #
+##################################
+
+
+
+##################################
+#	THIS NEEDS FIXED!!!!!!   #
+##################################
+
+#Did this to give nations aproprate stuff as a stopgap messure to fix problems
+technology = { #Advanced Tribes
+	# Tech 1
+	year = 1190
+	expects_institution = {
+		feudalism = 0.25
+	}
+	
+	tribal_democracy_legacy = yes
+	tribal_kingdom_legacy = yes
+}
+
+##################################
+#	THIS NEEDS FIXED!!!!!!   #
+##################################
+
 #Begining of pre-1444 tech NEEDS WORK
+##################################
+#	THIS NEEDS FIXED!!!!!!   #
+##################################
+
 technology = {  
-	year = 1204
+	year = 1196
 	#THIS IS COPY PASTE NEEDS WORK
 	expects_institution = {
 		feudalism = 0.5
@@ -11,15 +64,22 @@ technology = {
 	}
 }
 
-
-technology = {  
-	year = 1217
-	#THIS IS COPY PASTE NEEDS WORK
+technology = { #Feudal Monarchy
+	# Tech 2
+	year = 1214
 	expects_institution = {
 		feudalism = 0.5
-		gunpowder_warfare = 0.05
 	}
+
+	#Monarchies
+	despotic_monarchy = yes
+	feudal_monarchy = yes
+	oligarchic_republic = yes
 }
+
+##################################
+#	THIS NEEDS FIXED!!!!!!   #
+##################################
 
 
 technology = {  
@@ -184,59 +244,6 @@ ahead_of_time = {
 }
 
 # Pre-era techs
-
-##################################
-#	THIS NEEDS FIXED!!!!!!   #
-##################################
-
-technology = { #Tribal Government
-	# Tech 0
-	year = 1150
-
-	tribal_despotism_legacy = yes
-	tribal_federation_legacy = yes
-
-	native_earthwork = yes
-	native_palisade = yes
-	native_fortified_house = yes
-	native_three_sisters_field = yes
-	native_irrigation = yes
-	native_storehouse = yes
-	native_longhouse = yes
-	native_sweat_lodge = yes
-	native_great_trail = yes
-	native_ceremonial_fire_pit = yes
-}
-
-#Did this to give nations aproprate stuff as a stopgap messure to fix problems
-technology = { #Advanced Tribes
-	# Tech 1
-	year = 1190
-	expects_institution = {
-		feudalism = 0.25
-	}
-	
-	tribal_democracy_legacy = yes
-	tribal_kingdom_legacy = yes
-}
-
-technology = { #Feudal Monarchy
-	# Tech 2
-	year = 1220
-	expects_institution = {
-		feudalism = 0.5
-	}
-
-	#Monarchies
-	despotic_monarchy = yes
-	feudal_monarchy = yes
-	oligarchic_republic = yes
-}
-
-##################################
-#	THIS NEEDS FIXED!!!!!!   #
-##################################
-
 # The 30 big techs from here on
 
 technology = { #Medieval Administration  

@@ -218,7 +218,7 @@ estate_peasants_build_wood_workshop = {
 		factor = 1
 	}
 	can_select = {
-		adm_tech = 6
+		adm_tech = 23
 		any_owned_province = {
 			is_state_core = root
 			NOT = { has_building = workshop }

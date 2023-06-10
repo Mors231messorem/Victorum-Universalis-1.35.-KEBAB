@@ -1,5 +1,6 @@
 #8104 - Moura
 
+#Default
 owner = POR
 controller = POR
 add_core = POR
@@ -13,6 +14,13 @@ trade_goods = grain
 is_city = yes
 hre = no
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -33,6 +41,7 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
-#Province history completed by - Darth Modus
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
 
-#1444 on
+1444.11.11 = { owner = POR controller = POR add_core = POR } # Portuguese territorial lands - By San Felipe

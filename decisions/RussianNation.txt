@@ -66,7 +66,7 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = RUS }
-			adm_tech = 26
+			adm_tech = 27
 			NOT = { has_reform = states_general_reform }
 			is_free_or_tributary_trigger = yes
 			is_nomad = no

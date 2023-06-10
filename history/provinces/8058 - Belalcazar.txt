@@ -1,12 +1,12 @@
-#8058 - Belalcazar
+#8058 - Belalcázar
 
+#Default
 owner = CAS
 controller = CAS
 add_core = CAS
-add_core = TLD #BTB added: Castilian revolter tag.
 culture = castillian
 religion = catholic
-capital = "Belalcï¿½zar"
+capital = "Belalcázar"
 base_tax = 2
 base_production = 2
 base_manpower = 1
@@ -14,13 +14,18 @@ trade_goods = saffron
 is_city = yes
 hre = no
 
-#Special Modifiers
+#Claimants
+add_core = TLD
 
+#Buildings
+
+#Special Modifiers
 add_permanent_province_modifier = {
     name = rich_black_soil
     duration = -1
 }
 
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -40,3 +45,8 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+
+1444.11.11 = { owner = CAS controller = CAS add_core = CAS } # Castilian territorial lands - By San Felipe

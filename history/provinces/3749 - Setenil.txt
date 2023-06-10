@@ -1,5 +1,6 @@
 #3749 - Setenil
 
+#Default
 owner = GRA
 controller = GRA
 add_core = GRA
@@ -14,6 +15,13 @@ trade_goods = olive_oil			#Arab olive and almond groves city is known for
 is_city = yes
 hre = no
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -34,7 +42,10 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
-#Province history completed by - Darth Modus
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+
+1444.11.11 = { owner = GRA controller = GRA add_core = GRA } # Granadan territorial lands - By San Felipe
 
 1407.1.1 = {
 	add_permanent_claim = CAS
