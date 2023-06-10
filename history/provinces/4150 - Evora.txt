@@ -1,21 +1,35 @@
-#3107 - ï¿½vora
+#3107 - Évora
 #Region - Iberia
 #Area - Alentejo
 
+#Default
 owner = POR
 controller = POR
+add_core = POR
 culture = portugese
 religion = catholic
-capital = "ï¿½vora"
+capital = "Évora"
 trade_goods = fruit
 hre = no
 base_tax = 4 
 base_production = 4 
 base_manpower = 2 
 is_city = yes
-add_core = POR
+center_of_trade = 1
+extra_cost = 8
+
+#Claimants
+
+#Buildings
 #fort_15th = yes			#Portuguese forts moved around for gameplay reasons
 
+#Special Modifiers
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -35,14 +49,11 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
-center_of_trade = 1
-extra_cost = 8
 
-add_permanent_province_modifier = {
-    name = navalbase_modifier
-    duration = -1
-}
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
 
+1444.11.11 = { owner = POR controller = POR add_core = POR } # Portuguese territorial lands - By San Felipe
 
 1640.1.1 = { unrest = 8 } # Revolt headed by John of Braganï¿½a
 1640.12.1 = { unrest = 0 }

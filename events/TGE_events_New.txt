@@ -10,7 +10,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		dip_tech = 27
+		dip_tech = 28
 		whaling = 3
 		NOT = { has_global_flag = whaling_price }
 	}

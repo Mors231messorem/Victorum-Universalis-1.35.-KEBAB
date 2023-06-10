@@ -7539,7 +7539,7 @@ ruhr_valley = {
 		FROM = {
 			owns_or_vassal_of = 84
 			is_subject = no			
-			adm_tech = 21
+			adm_tech = 38
 		}
 	}
 

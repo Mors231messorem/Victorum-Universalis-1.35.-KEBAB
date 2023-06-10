@@ -135,7 +135,7 @@ country_decisions = {
 			NOT = { has_dlc = "Emperor" }
 		}
 		allow = {
-			adm_tech = 28
+			adm_tech = 29
 			stability = 1
 			custom_trigger_tooltip = {
 				tooltip = recently_changed_government_flag_tooltip
@@ -163,7 +163,7 @@ country_decisions = {
 			NOT = { has_dlc = "Emperor" }
 		}
 		allow = {
-			adm_tech = 28
+			adm_tech = 29
 			full_idea_group = trade_ideas
 			stability = 1
 			custom_trigger_tooltip = {
@@ -192,7 +192,7 @@ country_decisions = {
 			NOT = { has_dlc = "Emperor" }
 		}
 		allow = {
-			adm_tech = 28
+			adm_tech = 29
 			republican_tradition = 90
 			stability = 1
 			custom_trigger_tooltip = {

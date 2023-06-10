@@ -54,7 +54,7 @@ country_decisions = {
 				accepted_culture = latgalian
 				accepted_culture = selonian
 			}
-			adm_tech = 24
+			adm_tech = 25
 		}
 		effect = {
 			add_dip_power = -100

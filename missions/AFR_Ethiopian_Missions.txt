@@ -209,7 +209,7 @@ ethiopia_european_slot = {
 					army_tradition = 75
 					army_professionalism = 0.8
 				}
-				mil_tech = 36
+				mil_tech = 37
 			}
 			mil_power = 200
 		}

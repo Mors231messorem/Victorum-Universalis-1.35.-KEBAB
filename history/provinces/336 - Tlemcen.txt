@@ -1,7 +1,9 @@
 #336 - Tlemcen
 
+#Default
 owner = TLC
 controller = TLC 
+add_core = TLC
 culture = shenwa
 religion = sunni
 capital = "Tlemcen"
@@ -11,10 +13,16 @@ base_tax = 8
 base_production = 8			#Peaked at around 40k people in the early 1300s. 
 base_manpower = 6
 is_city = yes
-fort_15th = yes #Tlemcen Fortifications, site of many long sieges - Controls this area.
-add_core = TLC
 center_of_trade = 2
 
+#Claimants
+
+#Buildings
+fort_15th = yes #Tlemcen Fortifications, site of many long sieges - Controls this area.
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -35,6 +43,10 @@ discovered_by = russian
 discovered_by = muslim
 discovered_by = ottoman
 
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+
+1444.11.11 = { owner = TLC controller = TLC add_core = TLC } # Tlemcen territorial lands - By San Felipe
 
 1491.1.1 = {
 	base_tax = 10

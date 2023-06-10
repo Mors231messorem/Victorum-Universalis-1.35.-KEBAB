@@ -3901,10 +3901,10 @@ country_event = {
 
 	trigger = {
 		capital_scope = { continent = europe }
-		mil_tech = 21 #firearms generally adopted
+		mil_tech = 22 #firearms generally adopted
 		any_neighbor_country = {
 			same_continent = root
-			mil_tech = 21
+			mil_tech = 22
 			if = {
 				limit = {
 					has_dlc = "Cradle of Civilization"
@@ -3955,7 +3955,7 @@ country_event = {
 							}
 						}
 					}
-					mil_tech = 21
+					mil_tech = 22
 				}
 				save_event_target_as = drill_instructor_country
 				root = {
@@ -8459,8 +8459,8 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		mil_tech = 22
-		NOT = { mil_tech = 31 }
+		mil_tech = 23
+		NOT = { mil_tech = 32 }
 	}
 	
 	mean_time_to_happen = {
@@ -9129,7 +9129,7 @@ country_event = {
 		capital_scope = {
 			continent = europe
 		}
-		NOT = { adm_tech = 26 }
+		NOT = { adm_tech = 27 }
 		NOT = { has_country_flag = has_competent_doctors }
 	}
 	
@@ -11845,9 +11845,9 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		mil_tech = 24
+		mil_tech = 25
 		NOT = {
-			mil_tech = 30
+			mil_tech = 31
 		}
 		has_regency = no
 		NOT = {
@@ -12867,7 +12867,7 @@ country_event = {
 
 	trigger = {
 		copper = 1
-		mil_tech = 23
+		mil_tech = 24
 		NOT = { has_country_modifier = poor_copper }
 	}
 

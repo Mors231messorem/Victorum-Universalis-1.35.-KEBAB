@@ -2,6 +2,7 @@
 #Region - Iberia
 #Area - Upper Andalucia
 
+#Default
 owner = GRA		# Mustapha Sa'd King of Granada
 controller = GRA
 add_core = GRA
@@ -14,7 +15,29 @@ trade_goods = fish
 base_manpower = 1 
 capital = "Gibraltar" 
 is_city = yes
+center_of_trade = 2
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+add_permanent_province_modifier = {
+	name = straits_of_gibraltar_estuary_modifier
+	duration = -1
+}
+
+add_permanent_province_modifier = {
+    name = navalbase_modifier
+    duration = -1
+}
+
+add_permanent_province_modifier = {
+	name = port_of_gibraltar_modifier
+	duration = -1
+}
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -35,22 +58,10 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
-center_of_trade = 2
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
 
-add_permanent_province_modifier = {
-	name = straits_of_gibraltar_estuary_modifier
-	duration = -1
-}
-
-add_permanent_province_modifier = {
-    name = navalbase_modifier
-    duration = -1
-}
-
-add_permanent_province_modifier = {
-	name = port_of_gibraltar_modifier
-	duration = -1
-}
+1444.11.11 = { owner = GRA controller = GRA add_core = GRA } # Granadan territorial lands - By San Felipe
 
 1462.1.1 = { owner = CAS controller = CAS add_core = CAS } # Conquest of Gibraltar by King Enrique of Castilla
 1499.12.1 = { unrest = 2 } # The Inquisition forces Spanish muslims to convert back to Christianity. Occasional revolts occur.

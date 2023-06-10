@@ -1,7 +1,9 @@
 #230 - Algarve
 
+#Default
 owner = POR
 controller = POR
+add_core = POR
 culture = portugese
 religion = catholic
 capital = "Lagos"
@@ -10,9 +12,16 @@ hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 2 
-is_city = yes 
-add_core = POR
+is_city = yes
+extra_cost = 20
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -33,9 +42,12 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
-extra_cost = 20
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
 
-1640.1.1 = { unrest = 8 } # Revolt headed by John of Braganï¿½a
+1444.11.11 = { owner = POR controller = POR add_core = POR } # Portuguese territorial lands - By San Felipe
+
+1640.1.1 = { unrest = 8 } # Revolt headed by John of Bragança
 1640.12.1 = { unrest = 0 }
 1807.11.30 = { controller = FRA } # Occupied by troops led by Manuel Godoy
-1808.6.18 = { controller = POR } # Revolt in Olhï¿½o
+1808.6.18 = { controller = POR } # Revolt in Olhão

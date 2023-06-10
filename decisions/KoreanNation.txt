@@ -11,7 +11,7 @@ country_decisions = {
 			NOT = { tag = YUA }
 			NOT = { tag = MCH }
 			primary_culture = korean
-			adm_tech = 36
+			adm_tech = 37
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -41,7 +41,7 @@ country_decisions = {
 			owns_core_province = 1845	# Pyeongyang
 			owns_core_province = 732	# Hamheung
 			prestige = 25
-			adm_tech = 36
+			adm_tech = 37
 		}
 		effect = {
 			change_tag = KRE

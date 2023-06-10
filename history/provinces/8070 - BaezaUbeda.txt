@@ -1,12 +1,12 @@
-#8070 - BaezalUbeda
+#8070 - BaezalÚbeda
 
+#Default
 owner = CAS
 controller = CAS
 add_core = CAS
-add_core = JAE #BTB added: Castilian revolter tag.
 culture = andalucian
 religion = catholic
-capital = "ï¿½beda"			#Also Baeza
+capital = "Úbeda"			#Also Baeza
 base_tax = 2
 base_production = 2
 base_manpower = 2
@@ -14,6 +14,14 @@ trade_goods = olive_oil
 is_city = yes
 hre = no
 
+#Claimants
+add_core = JAE
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -34,7 +42,7 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
 
-#Province history completed by - Darth Modus
-
-#1444 on
+1444.11.11 = { owner = CAS controller = CAS add_core = CAS } # Castilian territorial lands - By San Felipe

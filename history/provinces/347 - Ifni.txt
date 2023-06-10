@@ -1,7 +1,9 @@
 #347 - Ifni
 
+#Default
 owner = SOS
 controller = SOS
+add_core = SOS
 culture = shilha
 religion = sunni
 capital = "Tantan"
@@ -11,8 +13,14 @@ base_tax = 2
 base_production = 1 
 base_manpower = 1 
 is_city = yes
-add_core = SOS
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
@@ -26,6 +34,11 @@ discovered_by = roman
 discovered_by = scandinavian
 discovered_by = spanish
 discovered_by = swiss
+
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+
+1444.11.11 = { owner = SOS controller = SOS add_core = SOS } # Sus territorial lands - By San Felipe
 
 #Copying Sidi Ifni. Doesn't seem to have been any settlements of note in the region, so could probably be merged with Sidi Ifni, but Noah seperated them and isnt available right now, plus that would be a long, ugly province, so leaving it split but with the same history
 

@@ -87,7 +87,7 @@ country_event = {
 	trigger = {
 		tag = MLC
 		NOT = { has_country_modifier = mlc_piracy_controlled }
-		NOT = { dip_tech = 26 } #Pirates less of a problem at this point.
+		NOT = { dip_tech = 27 } #Pirates less of a problem at this point.
 	}
 
 	mean_time_to_happen = {

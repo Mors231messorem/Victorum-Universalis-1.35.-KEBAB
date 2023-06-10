@@ -1,11 +1,12 @@
-#3751 - Almunecar
+#3751 - Almuñécar
 
+#Default
 owner = GRA
 controller = GRA
 add_core = GRA
 culture = andalusi_arabic
 religion = sunni
-capital = "Almuï¿½ï¿½car"
+capital = "Almuñécar"
 base_tax = 2
 base_production = 1
 base_manpower = 2
@@ -13,6 +14,13 @@ trade_goods = fish		#Fish treating or salting industry
 is_city = yes
 hre = no
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -32,6 +40,11 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+
+1444.11.11 = { owner = GRA controller = GRA add_core = GRA } # Granadan territorial lands - By San Felipe
 
 1489.6.1 = {
 	owner = CAS

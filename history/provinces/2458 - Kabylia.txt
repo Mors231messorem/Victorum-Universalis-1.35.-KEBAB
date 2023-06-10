@@ -1,7 +1,9 @@
-# - Hodna
+#2458 - Hodna
 
+#Default
 owner = TUN
 controller = TUN
+add_core = TUN
 culture = algerian
 religion = sunni
 capital = "Msila"
@@ -11,9 +13,15 @@ base_tax = 1
 base_production = 1 
 base_manpower = 1 
 is_city = yes
-add_core = TUN
+
+#Claimants
+
+#Buildings
+
+#Special Modifiers
 add_local_autonomy = 75			#frontier desert area very autonomous
 
+#Known by Technology groups
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
@@ -34,6 +42,10 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
+
+1444.11.11 = { owner = TUN controller = TUN add_core = TUN } # Tunisian territorial lands - By San Felipe
 
 1534.1.1 = {
 	owner = ZAB

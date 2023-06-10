@@ -20,7 +20,7 @@ country_event = {
 		NOT = { has_global_flag = greek_cores }
 		NOT = { primary_culture = greek }
 		NOT = { primary_culture = pontic_greek }
-		adm_tech = 36
+		adm_tech = 37
 		any_owned_province = {
 			culture = greek
 			vu_trigger_historical_greece_areas = yes

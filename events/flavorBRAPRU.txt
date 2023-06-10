@@ -765,7 +765,7 @@ country_event = {
 				capital = 50
 				is_year = 1650
 				NOT = { is_year = 1710 }
-				adm_tech = 36
+				adm_tech = 37
 				years_of_income = 0.2
 			}
 		}

@@ -971,7 +971,7 @@ country_event = {
 			factor = 40
 			modifier = {
 				NOT = {
-					adm_tech = 28
+					adm_tech = 29
 				}
 			}
 		}

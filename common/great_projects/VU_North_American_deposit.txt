@@ -20,7 +20,7 @@ vu_iron_range = {
 
    build_trigger = {
 		owner = {
-			adm_tech = 12	
+			adm_tech = 30	
 		}
 		NOT = { religion_group = pagan }
 	}
@@ -32,7 +32,7 @@ vu_iron_range = {
     }
 
     can_use_modifiers_trigger = {
-		adm_tech = 12
+		adm_tech = 30
 		910 = {
 			trade_goods = iron
 		}
@@ -40,7 +40,7 @@ vu_iron_range = {
 	}
 
     can_upgrade_trigger = {
-		adm_tech = 12
+		adm_tech = 30
 		910 = {
 			trade_goods = iron
 		}
@@ -108,7 +108,7 @@ vu_iron_range = {
         }
 
         province_modifiers = {
-		    trade_goods_size = 4
+		    trade_goods_size = 6
 		
         }
 
@@ -137,7 +137,7 @@ vu_iron_range = {
         }
 
         province_modifiers = {
-		    trade_goods_size = 6
+		    trade_goods_size = 10
 		    local_production_efficiency = 0.1	#+20% with area modifier below
         }
 

@@ -227,7 +227,7 @@ emp_ser_danube = {
 				if = {
 					limit = {
 						ROOT = {
-							NOT = { mil_tech = 30 }
+							NOT = { mil_tech = 31 }
 						}
 					}
 					custom_trigger_tooltip = {
@@ -239,8 +239,8 @@ emp_ser_danube = {
 					limit = {
 						ROOT = {
 							AND = {
-								mil_tech = 30
-								NOT = { mil_tech = 35 }
+								mil_tech = 31
+								NOT = { mil_tech = 36 }
 							}
 						}
 					}
@@ -253,8 +253,8 @@ emp_ser_danube = {
 					limit = {
 						ROOT = {
 							AND = {
-								mil_tech = 35
-								NOT = { mil_tech = 40 }
+								mil_tech = 36
+								NOT = { mil_tech = 39 }
 							}
 						}
 					}
@@ -266,7 +266,7 @@ emp_ser_danube = {
 				else_if = {
 					limit = {
 						ROOT = {
-							mil_tech = 40
+							mil_tech = 41
 						}
 					}
 					has_building = fort_18th

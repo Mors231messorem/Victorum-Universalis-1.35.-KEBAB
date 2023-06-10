@@ -223,7 +223,7 @@ bng_slot_2 = {
 		provinces_to_highlight = {
 		}
 		trigger = {
-			mil_tech = 20
+			mil_tech = 21
 			army_size_percentage = 1
 			total_development = 200
 		}

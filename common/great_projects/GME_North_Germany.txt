@@ -48,7 +48,7 @@ gme_reichstag = {
 	}
 	can_upgrade_trigger = {
 	    is_year = 1885
-		FROM = { adm_tech = 20 }
+		FROM = { adm_tech = 37 }
 		FROM = {
 			OR = {
 				tag = GER

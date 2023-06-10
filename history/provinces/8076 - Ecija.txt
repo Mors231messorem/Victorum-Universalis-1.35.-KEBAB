@@ -1,12 +1,13 @@
-#8076 - Ecija
+#8076 - Écija
 
+#Default
 owner = CAS
 controller = CAS
 add_core = CAS
 add_core = SVL #BTB added: Castilian revolter tag.
 culture = andalucian
 religion = catholic
-capital = "ï¿½cija"
+capital = "Écija"
 base_tax = 4
 base_production = 4
 base_manpower = 2
@@ -14,6 +15,13 @@ trade_goods = cotton
 is_city = yes
 hre = no
 
+#Claimants
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -34,5 +42,7 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+#Histories
+1215.6.15 = { owner = AMD controller = AMD add_core = AMD } # Alhomad territorial lands - By San Felipe
 
-#
+1444.11.11 = { owner = CAS controller = CAS add_core = CAS } # Castilian territorial lands - By San Felipe

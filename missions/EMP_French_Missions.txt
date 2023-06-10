@@ -2057,7 +2057,7 @@ emp_france_missions_5 = {
 		provinces_to_highlight = {
 		}
 		trigger = {
-			adm_tech = 32
+			adm_tech = 33
 			monthly_income = 100
 			crown_land_share = 80
 			owns_core_province = 183

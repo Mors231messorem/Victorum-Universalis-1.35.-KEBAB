@@ -1024,19 +1024,19 @@ emp_sav_missions_security = {
 			owned_by = root
 			if = {
 				limit = {
-					root = { mil_tech = 40 }
+					root = { mil_tech = 41 }
 				}
 				NOT = { has_building = fort_18th }
 			}
 			else_if = {
 				limit = {
-					root = { mil_tech = 35 }
+					root = { mil_tech = 36 }
 				}
 				NOT = { has_building = fort_17th }
 			}
 			else_if = {
 				limit = {
-					root = { mil_tech = 30 }
+					root = { mil_tech = 31 }
 				}
 				NOT = { has_building = fort_16th }
 			}
@@ -1049,19 +1049,19 @@ emp_sav_missions_security = {
 						value = 6
 						if = {
 							limit = {
-								root = { mil_tech = 40 }
+								root = { mil_tech = 41 }
 							}
 							has_building = fort_18th
 						}
 						else_if = {
 							limit = {
-								root = { mil_tech = 35 }
+								root = { mil_tech = 36 }
 							}
 							has_building = fort_17th
 						}
 						else_if = {
 							limit = {
-								root = { mil_tech = 30 }
+								root = { mil_tech = 31 }
 							}
 							has_building = fort_16th
 						}
@@ -1086,19 +1086,19 @@ emp_sav_missions_security = {
 				value = 6
 				if = {
 					limit = {
-						root = { mil_tech = 40 }
+						root = { mil_tech = 41 }
 					}
 					has_building = fort_18th
 				}
 				else_if = {
 					limit = {
-						root = { mil_tech = 35 }
+						root = { mil_tech = 36 }
 					}
 					has_building = fort_17th
 				}
 				else_if = {
 					limit = {
-						root = { mil_tech = 30 }
+						root = { mil_tech = 31 }
 					}
 					has_building = fort_16th
 				}
