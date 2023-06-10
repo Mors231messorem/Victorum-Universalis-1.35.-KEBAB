@@ -1,11 +1,11 @@
-#3101 - Zamora
+#4553 - Zamora
 #Region - Iberia
 #Area - Leon
 
+#Default
 owner = CAS		#Juan II of Castille
 controller = CAS
 add_core = CAS
-add_core = LON
 culture = leonese
 religion = catholic
 hre = no
@@ -16,6 +16,15 @@ base_manpower = 1
 capital = "Zamora"
 is_city = yes
 center_of_trade = 1
+
+#Claimants
+add_core = LON
+
+#Buildings
+
+#Special Modifiers
+
+#Known by Technology groups
 discovered_by = western
 discovered_by = dutch
 discovered_by = english
@@ -35,6 +44,11 @@ discovered_by = byzantine
 discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
+
+#Histories
+1215.6.15 = { owner = LON controller = LON add_core = LON } # Leonese territorial lands - By San Felipe
+
+1444.11.11 = { owner = CAS controller = CAS add_core = CAS } # Castilian territorial lands - By San Felipe
 
 1464.5.1 = { unrest = 3 } #Nobiliary uprising against King Enrique, Castilla goes into anarchy
 1468.9.18 = { unrest = 0 } #Pactos de los Toros de Guisando. Isabel of Castille becomes heir to the throne and a temporary peace is achieved
