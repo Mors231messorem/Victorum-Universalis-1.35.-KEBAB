@@ -5,11 +5,11 @@
 #Core Details
 capital = "Ziebice"
 is_city = yes
-owner = TRO
-controller = TRO
+owner = SIL
+controller = SIL
 
 #Demographics
-culture = silesian_german
+culture = polish
 religion = catholic
 
 #Development and Trade
@@ -19,7 +19,7 @@ base_manpower = 1
 trade_goods = livestock
 
 #Cores and Occupation (Alphabetical after current)
-add_core = TRO
+add_core = SIL
 add_core = MSTS
 
 #Other Political
@@ -53,6 +53,13 @@ discovered_by = ottoman
 
 #History completed by docRobert
 
+1444.1.1 = 
+	owner = TRO
+	controller = TRO
+	remove_core = SIL
+	remove_core = POL
+	add_core = TRO
+	add_core = MSTS
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = OPL
 	controller = OPL

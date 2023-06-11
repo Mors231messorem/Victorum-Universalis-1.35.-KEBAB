@@ -1,8 +1,8 @@
 #7826 - Butow
 
-owner = POM
-controller = POM
-add_core = POM
+owner = POL
+controller = POL
+add_core = POL
 culture = kashubian_culture # at 1444 was major population of the town and remained center of polish resistance against germanization
 religion = catholic
 capital = "B�tow"

@@ -1,8 +1,8 @@
 #7828 - Putzig
 
-owner = TEU
-controller = TEU
-add_core = TEU
+owner = POL
+controller = POL
+add_core = POL
 culture = kashubian_culture
 religion = catholic
 capital = "Putzig"
@@ -47,7 +47,11 @@ add_permanent_province_modifier = {
 # History for VU completed by docRobert
 
 #1444 on
-
+1444.1.1 = {
+	owner = TEU
+	controller = TEU
+	add_core = TEU
+	remove_core = POL
 1454.6.1 = {
 	owner = DNZ
 	controller = DNZ

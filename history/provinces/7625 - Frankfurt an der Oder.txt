@@ -1,8 +1,7 @@
 #7625 - Frankfurt an der Oder
 
-owner = BOH
-controller = BOH
-add_core = BOH
+owner = SOR
+controller = SOR
 add_core = SOR
 culture = sorbian
 religion = catholic
@@ -35,6 +34,10 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+1444.1.1 = 
+	owner = BOH
+	controller = BOH
+	add_core = BOH
 1419.12.1 = { unrest = 5 } # Hussite Wars, Battle of Nekmir
 1436.7.5 = { unrest = 0 } # Peace is signed in Jihlava
 1453.1.1 = { add_core = POL }

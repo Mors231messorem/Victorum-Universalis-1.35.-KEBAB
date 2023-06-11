@@ -1,8 +1,9 @@
 #7273 - Pokuttia
 
-owner = POL		# Pokuttia and town of Kolomea was part of Halich Land which was conquered by Casimir the Great in 1349 and remained within Poland until partitions
-controller = POL
-add_core = POL
+ 		# Pokuttia and town of Kolomea was part of Halich Land which was conquered by Casimir the Great in 1349 and remained within Poland until partitions
+owner = HUN
+controller = HUN
+add_core = HUN
 culture = ruthenian
 religion = orthodox
 capital = "Kolomea"
@@ -34,6 +35,10 @@ discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 
+1444.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Northern Saxony
 
-owner = SAX
-controller = SAX
-add_core = SAX
+owner = MEI
+controller = MEI
+add_core = MEI
 culture = saxon
 religion = catholic
 hre = yes
@@ -36,6 +36,11 @@ discovered_by = polish
 discovered_by = russian
 
 #Documented 948 AD
+1444.1.1 = 
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+	remove_core = MEI
 1539.1.1 = { religion = protestant }
 1650.1.1 = { culture = prussian }
 1813.10.13 = {

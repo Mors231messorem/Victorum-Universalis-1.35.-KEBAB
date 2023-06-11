@@ -4,10 +4,11 @@ latent_trade_goods = {
 	coal
 }
 
-owner = TES		# Silesian duchy under Bohemian rule, giving temporarily to Teschen to avoid creating new vassals
-controller = TES
-add_core = TES
-culture = schlesian
+owner = OPL		# Silesian duchy under Bohemian rule, giving temporarily to Teschen to avoid creating new vassals
+controller = OPL
+add_core = OPL
+add_core = POL
+culture = polish
 religion = catholic
 hre = yes
 base_tax = 2
@@ -39,6 +40,11 @@ discovered_by = russian
 
 # History completed by docRobert
 
+1444.1.1 = 
+	owner = TES
+	controller = TES
+	remove_core = OPL
+	add_core = TES
 #Settlement dated back to 12th - 14th century AD
 1457.1.1 = {
 	add_core = POL

@@ -4,12 +4,12 @@ latent_trade_goods = {
 	coal
 }
 
-owner = BOH
-controller = BOH
-add_core = BOH
-add_core = MVA
+owner = OPL
+controller = OPL
+add_core = OPL
+add_core = POL
 capital = "Trinec"
-culture = schlesian
+culture = polish
 religion = catholic
 trade_goods = wool 
 hre = yes
@@ -40,6 +40,12 @@ discovered_by = russian
 discovered_by = muslim
 discovered_by = ottoman
 
+1444.1.1 = 
+	owner = BOH
+	controller = BOH
+	remove_core = OPL
+	add_core = BOH
+	add_core = MVA
 1419.12.1 = { revolt = { type = heretic_rebels size = 2 } controller = REB } # Hussite Wars, Battle of Nekmir
 1436.7.5 = { revolt = {} controller = BOH } # Peace is signed in Jihlava
 1457.1.1 = { unrest = 5 } # George of Podiebrand had to secure recognition from the German and Catholic towns

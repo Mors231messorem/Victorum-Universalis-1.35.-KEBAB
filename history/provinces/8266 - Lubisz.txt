@@ -2,15 +2,16 @@
 
 capital = "Lebus"
 is_city = yes
-owner = BRA
-controller = BRA
-culture = saxon
+owner = SIL
+controller = SIL
+culture = polabian_culture
 religion = catholic
 base_tax = 2
 base_production = 2
 base_manpower = 1
 trade_goods = fur
-add_core = BRA
+add_core = SIL
+add_core = POL
 hre = yes
 
 #Discoveries
@@ -34,6 +35,12 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+1444.1.11 = 
+	owner = BRA
+	controller = BRA
+	remove_core = SIL
+	remove_core = POL
+	add_core = BRA
 1539.1.1 = { religion = protestant }
 1594.1.1 = { fort_15th = no fort_16th = yes }
 1650.1.1 = { culture = prussian }

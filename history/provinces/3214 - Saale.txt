@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Thuringia
 
-owner = HRF
-controller = HRF 
-add_core = HRF
+owner = MEI
+controller = MEI
+add_core = MEI
 culture = saxon
 religion = catholic
 capital = "Naumburg"
@@ -42,6 +42,12 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+
+1444.1.1 = 
+	owner = HRF
+	controller = HRF
+	add_core = HRF
+	remove_core = MEI
 1539.1.1 = { religion = protestant } # The reformation reaches Leipzig
 1790.8.1 = { unrest = 5 } # Peasant revolt
 1791.1.1 = { unrest = 0 }

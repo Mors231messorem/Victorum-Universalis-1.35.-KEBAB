@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Northern Saxony
 
-owner = MAG
-controller = MAG
-add_core = MAG
+owner = SOR
+controller = SOR
+add_core = SOR
 culture = saxon
 religion = catholic
 hre = yes
@@ -39,6 +39,10 @@ extra_cost = 15
 
 	#Darth Modus added this, was a major center of culture, politics, trade, and learning			#hehe, in vanilla now, but I beat them to it =p  -Darth Modus
 
+1444.1.1 = 
+	owner = MAG
+	controller = MAG
+	add_core = MAG
 1524.1.1 = { religion = protestant }
 1650.1.1 = { culture = prussian }
 1680.10.4 = {

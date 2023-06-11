@@ -4,8 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = POL
-controller = POL
+owner = HUN
+controller = HUN
+add_core = HUN
 capital= "Lwow"
 culture = polish			#I believe they may have been in the majority in the city proper, even by 1444, but the province itself would almost certainly have still been Ruthenian.... city vs. rural, tough call
 religion = catholic
@@ -15,7 +16,6 @@ base_tax = 4 		#JP suggests 6
 base_production = 4 #JP suggests 5
 base_manpower = 2  	#JP suggests 4
 is_city = yes
-add_core = POL
 add_core = VOL
 
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
@@ -43,6 +43,10 @@ extra_cost = 15
 
 # History completed by docRobert
 
+1444.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

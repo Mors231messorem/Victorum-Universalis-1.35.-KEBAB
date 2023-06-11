@@ -2,9 +2,9 @@
 #Region - Germany
 #Area - Neumark
 
-owner = WLB
-controller = WLB
-add_core = WLB
+owner = BOH
+controller = BOH
+add_core = BOH
 culture = saxon
 religion = catholic
 hre = yes
@@ -36,5 +36,10 @@ discovered_by = polish
 discovered_by = russian
 
 #Documented 11th Century AD
+1444.1.1 = 
+	owner = WLB
+	controller = WLB
+	add_core = WLB
+	remove_core = BOH
 1539.1.1 = { religion = protestant }
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

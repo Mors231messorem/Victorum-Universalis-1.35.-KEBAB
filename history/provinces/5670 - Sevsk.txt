@@ -1,8 +1,8 @@
 #New Victorum Universalis Province
 
-owner = CHR
-controller = CHR
-add_core = CHR
+owner = KIR
+controller = KIR
+add_core = KIR 
 culture = ruthenian
 religion = orthodox
 capital = "Sevsk"
@@ -41,6 +41,10 @@ discovered_by = ottoman
 discovered_by = muslim
 
 
+1444.1.11 = {
+    owner = CHR
+    controller = CHR
+    add_core = CHR
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

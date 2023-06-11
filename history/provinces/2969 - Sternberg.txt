@@ -2,10 +2,11 @@
 #Region - Germany
 #Area - Neumark
 
-owner = BRA
-controller = BRA
-add_core = BRA
-culture = saxon
+owner = SIL
+controller = SIL
+add_core = SIL
+add_core = POL
+culture = polish
 religion = catholic
 hre = yes
 base_tax = 2			#Okay, Brandenburg's population was minute and the little wealth it did have at the time was overflow from the Novgorod-Brugge route... giving dev based on later importance. Historic rise to power from nothing, like the Low Countries, needs events which I'm too lazy for atm
@@ -37,6 +38,12 @@ discovered_by = russian
 
 #History completed by docRobert
 
+1444.1.1 = 
+	owner = BRA
+	controller = BRA
+	remove_core = SIL
+	remove_core = POL
+	add_core = BRA
 1535.7.11 = {
 	owner = TEU		# TEMPORARY TAG, should be Neumark in the future
 	controller = TEU

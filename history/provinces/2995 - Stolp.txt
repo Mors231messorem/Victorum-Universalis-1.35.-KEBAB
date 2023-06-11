@@ -2,10 +2,10 @@
 #Region - Germany
 #Area - Hinterpommern
 
-owner = POM
-controller = POM
-add_core = POM
-culture = pommeranian
+owner = POL
+controller = POL
+add_core = POL
+culture = kashubian_culture
 religion = catholic
 hre = yes
 base_tax = 3

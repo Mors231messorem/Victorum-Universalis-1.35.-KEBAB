@@ -1,7 +1,7 @@
 #Chelm
 
-owner = POL
-controller = POL  
+owner = KIR
+controller = KIR
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -11,7 +11,7 @@ trade_goods = wool
 base_manpower = 2
 capital = "Chelm"
 is_city = yes 
-add_core = POL
+add_core = KIR
 add_core = VOL
 
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
@@ -37,6 +37,10 @@ discovered_by = ottoman
 
 # History completed by docRobert
 
+1444.1.11 = {
+	owner = POL
+	controller = POL
+	add_core = POL
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

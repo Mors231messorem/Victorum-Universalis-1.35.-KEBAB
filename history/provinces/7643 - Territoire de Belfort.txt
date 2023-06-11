@@ -1,8 +1,8 @@
 #Pirna
 
-owner = SAX
-controller = SAX
-add_core = SAX
+owner = MEI
+controller = MEI
+add_core = MEI
 capital = "Pirna"
 is_city = yes
 culture = saxon
@@ -40,4 +40,9 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+1444.1.1 = 
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+	remove_core = MEI
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

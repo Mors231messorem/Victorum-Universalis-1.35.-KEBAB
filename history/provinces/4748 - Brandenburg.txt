@@ -1,8 +1,8 @@
 #4748 - Brandenburg
 
-owner = BRA
-controller = BRA
-add_core = BRA
+owner = SOR
+controller = SOR
+add_core = SOR
 culture = saxon
 religion = catholic
 hre = yes
@@ -33,6 +33,10 @@ discovered_by = swiss
 discovered_by = muslim
 discovered_by = ottoman
 
+1444.1.1 = 
+    owner = BRA
+	controller = BRA
+	add_core = BRA
 1539.1.1 = { religion = protestant }
 1650.1.1 = { culture = prussian }
 1701.1.18 = {

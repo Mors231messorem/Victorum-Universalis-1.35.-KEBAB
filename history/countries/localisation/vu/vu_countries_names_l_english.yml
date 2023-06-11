@@ -1,0 +1,58 @@
+﻿l_english:
+#Quonton Counties
+ IGR:0 "Ingria"
+ IGR_ADJ:0 "Ingrian"
+ IGR_ADJ2:0 "Ingrian"
+
+ FAR:0 "The Faroes"
+ FAR_ADJ:0 "Faroese"
+ FAR_ADJ2:0 "Faroese"
+
+ GBL:0 "Meer Stadt"
+ GBL_ADJ:0 "Meer Stadte"
+ GBL_ADJ2:0 "Meer Stadte"
+
+ GCR:0 "Krim"
+ GCR_ADJ:0 "Krim"
+ GCR_ADJ2:0 "Krim"
+
+ UBD:0 "Ostseeland"
+ UBD_ADJ:0 "Baltisch"
+ UBD_ADJ2:0 "Baltisch"
+
+ GCU:0 "Kaukasien"
+ GCU_ADJ:0 "Kaukasisch"
+ GCU_ADJ2:0 "Kaukasisch"
+
+ GMK:0 "Russland"
+ GMK_ADJ:0 "Russisch"
+ GMK_ADJ2:0 "Russisch"
+
+ SBR:0 "Sibirien"
+ SBR_ADJ:0 "Sibirisch"
+ SBR_ADJ2:0 "Sibirisch"
+
+ URG:0 "Uralberg"
+ URG_ADJ:0 "Uralisch"
+ URG_ADJ2:0 "Uralisch"
+
+ VLH:0 "Wolhynien"
+ VLH_ADJ:0 "Wolhynisch"
+ VLH_ADJ2:0 "Wolhynisch"
+
+ VOG:0 "Wolgaberg"
+ VOG_ADJ:0 "Wolgisch"
+ VOG_ADJ2:0 "Wolgisch"
+
+ ###########################
+ kadipaten: "Kadipaten"
+ kerajaan: "Kerajaan"
+ panembahan: "Panembahan"
+ adipati: "Adipati"
+ sri_sultan: "Sri Sultan"
+ nyai: "Nyai"
+ indonesia_states: "Indonesian State"
+ usarebel: "United States of America"
+ usarebel_ADJ: "American"
+ usakingdom: "United Kingdoms of America"
+ usakingdom_ADJ: "Imperial American"

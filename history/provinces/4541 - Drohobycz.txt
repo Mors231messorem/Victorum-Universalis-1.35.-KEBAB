@@ -1,7 +1,7 @@
 #4541 - Drohobycz
 
-owner = POL
-controller = POL
+owner = HUN
+controller = HUN
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -11,7 +11,7 @@ trade_goods = salt
 base_manpower = 2
 capital = "Drohobych"
 is_city = yes
-add_core = POL
+add_core = HUN
 add_core = VOL
 fort_15th = yes
 
@@ -43,6 +43,10 @@ discovered_by = muslim
 
 # History completed by docRobert
 
+1444.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
 1492.1.1 = { unrest = 0 } 
 
 1569.7.1 = {

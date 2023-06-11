@@ -1,9 +1,9 @@
 #4747 - Dramburg
 
-owner = TEU
-controller = TEU
-add_core = TEU
-culture = pommeranian
+owner = DYM
+controller = DYM
+add_core = DYM
+culture = kashubian_culture
 religion = catholic
 capital = "Dramburg"
 base_tax = 2 
@@ -35,6 +35,10 @@ discovered_by = swiss
 
 # History for VU completed by docRobert
 
+1444.1.11 = 
+    owner = TEU
+	controller = TEU
+	add_core = TEU
 1454.2.22 = {
 	owner = BRA
 	controller = BRA

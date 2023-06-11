@@ -118,6 +118,8 @@ VOL	= "countries/Volyn.txt"
 KIE	= "countries/Kiev.txt"
 CHR	= "countries/Chernigov.txt"
 OKA = "countries/Oka.txt"
+DYM = "countries/Dymin.txt"
+SLP = "countries/Slawno.txt"
 
 #France 
 ALE = "countries/Alencon.txt"
@@ -957,6 +959,9 @@ VRN = "countries/Verona.txt"
 COB = "countries/Coburg.txt"
 LOT = "countries/Lotharingia.txt"
 PGA = "countries/Perugia.txt"
+GPL = "countries/Greaterpoland.txt"
+KPL = "countries/Kalisz.txt"
+KIR = "countries/Kievan RUS.txt"
 
 
 # 1.30 Formables

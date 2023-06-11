@@ -4,10 +4,11 @@ latent_trade_goods = {
 	coal
 }
 
-owner = ASC
-controller = ASC
-add_core = ASC
-culture = silesian_german
+owner = OPL
+controller = OPL
+add_core = OPL
+add_core = POL
+culture = polish
 religion = catholic
 hre = yes
 base_tax = 2
@@ -41,6 +42,12 @@ discovered_by = russian
 
 #German-speaking merchants called it "Auswintz" and by 15th century AD the name changed to "Auschwitz"
 
+1444.1.1 = 
+	owner = ASC
+	controller = ASC
+	remove_core = OPL
+	remove_core = POL
+	add_core = ASC
 1457.1.1 = {
 	owner = POL
 	controller = POL

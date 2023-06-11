@@ -2,15 +2,14 @@
 
 capital = "Guben"
 is_city = yes
-owner = BOH
-controller = BOH
+owner = SOR
+controller = SOR
 culture = saxon
 religion = catholic
 base_tax = 2
 base_production = 1
 base_manpower = 1
 trade_goods = wool
-add_core = BOH
 add_core = SOR
 hre = yes
 
@@ -35,3 +34,7 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+1444.1.1 = 
+	owner = BOH
+	controller = BOH
+	add_core = BOH

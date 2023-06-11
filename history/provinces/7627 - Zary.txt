@@ -4,9 +4,10 @@ latent_trade_goods = {
 	coal
 }
 
-owner = BOH
-controller = BOH
-add_core = BOH
+owner = SIL
+controller = SIL
+add_core = SIL
+add_core = POL
 add_core = SOR
 capital = "Zary"
 culture = sorbian
@@ -38,6 +39,12 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+1444.1.1 = 
+	owner = BOH
+	controller = BOH
+	remove_core = SIL
+	remove_core = POL
+	add_core = BOH
 1419.12.1 = { unrest = 5 } # Hussite Wars, Battle of Nekmir
 1436.7.5 = { unrest = 0 } # Peace is signed in Jihlava
 1453.1.1 = { add_core = POL }

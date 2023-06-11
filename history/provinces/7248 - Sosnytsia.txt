@@ -1,8 +1,8 @@
 #7248 - Sosnytsia
 
-owner = CHR
-controller = CHR
-add_core = CHR
+owner = KIR
+controller = KIR
+add_core = KIR 
 culture = ruthenian
 religion = orthodox
 capital = "Sosnytsia"
@@ -33,3 +33,10 @@ discovered_by = russian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
+
+
+
+1444.1.11 = {
+    owner = CHR
+    controller = CHR
+    add_core = CHR

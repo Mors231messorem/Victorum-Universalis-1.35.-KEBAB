@@ -2,10 +2,10 @@
 #Region - Germany
 #Area - Hinterpommern
 
-owner = KMI
-controller = KMI
-add_core = KMI
-culture = pommeranian
+owner = SLP
+controller = SLP
+add_core = SLP
+culture = kashubian_culture
 religion = catholic
 hre = yes
 base_tax = 3  
@@ -47,6 +47,10 @@ discovered_by = russian
 
 # History completed by docRobert
 
+1444.1.11 = 
+    owner = KMI
+	controller = KMI
+	add_core = KMI
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = STP
 	controller = STP

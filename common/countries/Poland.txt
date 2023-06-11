@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx #easterngfx
 
-color = { 212  61  81 }
+color = { 155  28  49 }
 
 revolutionary_colors = { 5  0  5 }
 

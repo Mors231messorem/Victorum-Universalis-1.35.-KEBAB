@@ -1,7 +1,8 @@
 #59 - Wittenberg
 
-owner = SAX
-controller = SAX
+owner = MEI
+controller = MEI
+add_core = MEI
 culture = saxon
 religion = catholic
 capital = "Wittenberg"
@@ -11,7 +12,6 @@ base_tax = 4
 base_production = 4 
 base_manpower = 3
 is_city = yes
-add_core = SAX
 center_of_trade = 1
 
 #Special Modifiers
@@ -41,6 +41,11 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+1444.1.1 = 
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+	remove_core = MEI
 1445.9.10 = { owner = THU controller = THU add_core = THU }
 1520.12.10 = {
 	religion = protestant

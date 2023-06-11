@@ -1,7 +1,7 @@
 #4526 - Gniezno
 
-owner = POL
-controller = POL
+owner = GPL
+controller = GPL
 culture = polish
 religion = catholic
 capital = "Gniezno"
@@ -12,6 +12,7 @@ base_production = 4
 base_manpower = 2
 is_city = yes
 add_core = POL
+add_core = GPL
 
 #Special Modifiers
 
@@ -43,6 +44,10 @@ discovered_by = ottoman
 
 # History completed by docRobert
 
+1444.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
 1569.7.1 = {
 	add_core = LIT	# Union of Lublin, west to Poland & south to Lithuania
 	owner = PLC

@@ -1,8 +1,8 @@
 #7641 - Bocholt
 
-owner = BRU
-controller = BRU
-add_core = BRU
+owner = MEI
+controller = MEI
+add_core = MEI
 culture = saxon
 religion = catholic
 trade_goods = grain
@@ -36,4 +36,9 @@ discovered_by = russian
 extra_cost = 10
 
 #Documented 1222 AD
+1444.1.1 = 
+	owner = BRU
+	controller = BRU
+	add_core = BRU
+	remove_core = MEI
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved. Grand Duchy of Berg

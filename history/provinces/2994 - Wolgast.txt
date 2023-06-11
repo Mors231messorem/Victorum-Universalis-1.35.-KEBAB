@@ -2,10 +2,10 @@
 #Region - Germany
 #Area - Vorpommern
 
-owner = POM
-controller = POM
-add_core = POM
-culture = pommeranian
+owner = DYM
+controller = DYM
+add_core = DYM
+culture = polabian_culture
 religion = catholic
 hre = yes
 base_tax = 4

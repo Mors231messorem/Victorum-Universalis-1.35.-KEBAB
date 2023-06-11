@@ -1,7 +1,7 @@
 #254 - Poznan
 
-owner = POL
-controller = POL
+owner = GPL
+controller = GPL
 capital = "Poznan"
 culture = polish
 religion = catholic
@@ -11,6 +11,7 @@ base_tax = 5
 base_production = 4
 base_manpower = 3
 is_city = yes
+add_core = GPL
 add_core = POL
 center_of_trade = 1
 fort_15th = yes
@@ -38,6 +39,10 @@ discovered_by = ottoman
 
 # History completed by docRobert
 
+1444.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

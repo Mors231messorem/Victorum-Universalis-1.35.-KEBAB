@@ -2,9 +2,9 @@
 #Region - Baltic
 #Area - West Prussia
 
-owner = TEU
-controller = TEU
-add_core = TEU
+owner = POL
+controller = POL
+add_core = POL
 capital = "Tuchel"
 culture = kashubian_culture
 religion = catholic
@@ -37,6 +37,11 @@ discovered_by = russian
 
 # History completed by docRobert
 
+1444.1.1 = {
+	owner = TEU
+	controller = TEU
+	add_core = TEU
+	remove_core = POL
 1454.2.10 = {
 	add_core = POL
 	revolt = {

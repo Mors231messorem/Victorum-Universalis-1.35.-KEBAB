@@ -6,8 +6,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = SAX
-controller = SAX 
+owner = MEI
+controller = MEI
+add_core = MEI
 culture = saxon
 religion = catholic
 capital = "Leipzig"
@@ -17,7 +18,6 @@ base_tax = 8
 base_production = 6
 base_manpower = 2 
 is_city = yes
-add_core = SAX
 center_of_trade = 2
 
 discovered_by = western
@@ -40,6 +40,11 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+1444.1.1 = 
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+	remove_core = MEI
 1539.1.1 = { religion = protestant } # The reformation reaches Leipzig
 1790.8.1 = { unrest = 5 } # Peasant revolt
 1791.1.1 = { unrest = 0 }

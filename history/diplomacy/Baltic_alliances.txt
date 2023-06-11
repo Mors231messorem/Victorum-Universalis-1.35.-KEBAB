@@ -273,8 +273,40 @@ alliance = {
 vassal = {
 	first = POL
 	second = MAZ
-	start_date = 1444.1.1
+	start_date = 1215.1.15
 	end_date = 1526.3.9
+}
+
+# Polish vassal
+vassal = {
+	first = POL
+	second = KPL
+	start_date = 1215.1.15
+	end_date = 1526.3.9
+}
+
+# Polish vassal
+vassal = {
+	first = POL
+	second = GPL
+	start_date = 1215.1.15
+	end_date = 1526.3.9
+}
+
+# Polish vassal
+vassal = {
+	first = POL
+	second = SIL
+	start_date = 1215.1.15
+	end_date = 1444.1.1
+}
+
+# Polish vassal
+vassal = {
+	first = POL
+	second = OPL
+	start_date = 1215.1.15
+	end_date = 1444.1.1
 }
 
 # Polish vassal

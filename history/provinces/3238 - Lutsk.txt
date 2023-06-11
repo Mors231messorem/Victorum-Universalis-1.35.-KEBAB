@@ -6,8 +6,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = LIT
-controller = LIT
+owner = KIR
+controller = KIR
+add_core = KIR
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -18,7 +19,6 @@ base_manpower = 2
 capital = "Lutsk"
 is_city = yes
 fort_15th = yes #Lutsk Upper Castle - Main Lithuanian Fortress in the south.
-add_core = LIT
 add_core = VOL
 add_local_autonomy = 15
 center_of_trade = 1
@@ -46,6 +46,10 @@ discovered_by = muslim
 discovered_by = ottoman
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
 
+1444.1.11 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
 1569.3.26 = { owner = POL controller = POL add_core = POL } # annexed by Poland
 1569.7.1 = {
 	remove_core = LIT	# Union of Lublin, western part ceded to Poland & southern part still belonged to Lithuania

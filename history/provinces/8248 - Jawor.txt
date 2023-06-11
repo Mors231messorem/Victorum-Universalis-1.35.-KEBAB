@@ -2,16 +2,16 @@
 
 capital = "Jawor"
 is_city = yes
-owner = BOH
-controller = BOH
-culture = schlesian
+owner = SIL
+controller = SIL
+culture = polish
 religion = catholic
 base_tax = 2
 base_production = 2
 base_manpower = 1
 trade_goods = beer
-add_core = BOH 
-add_core = JAW
+add_core = SIL
+add_core = POL
 hre = yes
 
 #Discoveries
@@ -38,6 +38,13 @@ discovered_by = ottoman
 
 #History completed by docRobert
 
+1444.1.1 = 
+	owner = BOH
+	controller = BOH
+	remove_core = SIL
+	remove_core = POL
+	add_core = BOH
+	add_core = JAW
 1469.1.1 = {
 	owner = HUN
 	controller = HUN

@@ -5,8 +5,8 @@
 #Core Details
 capital = "Olesnica"
 is_city = yes
-owner = OLE
-controller = OLE
+owner = SIL
+controller = SIL
 
 #Demographics
 culture = polish
@@ -19,7 +19,8 @@ base_manpower = 2
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = OLE
+add_core = SIL
+add_core = POL
 
 #Other Political
 hre = yes
@@ -57,6 +58,12 @@ discovered_by = ottoman
 
 #History completed by docRobert
 
+1444.1.1 = 
+	owner = OLE
+	controller = OLE
+	remove_core = SIL
+	remove_core = POL
+	add_core = OLE
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = GLG
 	controller = GLG

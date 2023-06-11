@@ -1,8 +1,8 @@
 #7268 - Peremyl
 
-owner = POL		# Town of Peremyl was part of Kremenets Land and was also incorporated to Poland in 1366 by Casimir the Great.
-controller = POL
-add_core = POL
+owner = KIR		# Town of Peremyl was part of Kremenets Land and was also incorporated to Poland in 1366 by Casimir the Great.
+controller = KIR
+add_core = KIR
 add_core = VOL
 #add_core = LIT		# Disputed territory with Lithuania as it is also part of Kremenets Land
 add_claim = LIT			# Going for just claim, to reduce big opinion penalties
@@ -45,6 +45,10 @@ discovered_by = russian
 
 # History for VU completed by docRobert
 
+1444.1.11 = {
+	owner = POL
+	controller = POL
+	add_core = POL
 1569.3.26 = { remove_core = LIT } # annexed by Poland
 1569.7.1 = { 
 	remove_core = LIT	# Union of Lublin, western part ceded to Poland & southern part still belonged to Lithuania

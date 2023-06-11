@@ -3724,7 +3724,7 @@ province;red;green;blue;x;x
 3723;100;11;123;RNW;
 3724;100;11;124;RNW;
 3725;100;11;125;RNW;
-3726;96;156;115;Moraleja;
+3726;100;11;126;RNW;
 3727;229;232;126;Baddayn;
 3728;199;95;50;Saqqez;
 3729;67;79;24;Bukan;
@@ -8768,3 +8768,4 @@ province;red;green;blue;x;x
 8767;197;172;90;Decin;x
 8768;112;22;68;Rumburk;x
 8769;126;20;114;Nikalsburg;x
+8770;229;190;1;Luckenwalde;x

@@ -2,7 +2,7 @@
 
 owner = OPL
 controller = OPL
-culture = schlesian
+culture = polish
 religion = catholic
 hre = yes
 base_tax = 3
@@ -12,6 +12,7 @@ is_city = yes
 trade_goods = glass	#was wine, silesia was quite developed region at the time, Opole being prominent town, glass making was present as part of iustrial and mining region of Silesia. Also there's too much cloth
 base_manpower = 2 
 add_core = OPL
+add_core = POL
 center_of_trade = 1
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
 discovered_by = western

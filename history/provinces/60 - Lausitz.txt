@@ -1,8 +1,8 @@
 #60 - Bautzen
 
-owner = SAX
-controller = SAX
-add_core = SAX
+owner = BOH
+controller = BOH
+add_core = BOH
 capital = "Bautzen"
 culture = saxon
 religion = catholic
@@ -33,6 +33,11 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
+1444.1.1 = 
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+	remove_core = MEI
 1419.12.1 = { unrest = 10 } # Hussite Wars, Battle of Nekmir
 1436.7.5 = { unrest = 0 } # Peace is signed in Jihlava
 1453.1.1 = { add_core = POL }

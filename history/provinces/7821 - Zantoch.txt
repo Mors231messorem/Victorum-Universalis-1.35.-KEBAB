@@ -1,7 +1,8 @@
 #7821 - Zantoch
 
-owner = POL
-controller = POL
+owner = GPL
+controller = GPL
+add_core = GPL
 add_core = POL
 culture = polish
 religion = catholic
@@ -42,6 +43,10 @@ discovered_by = swiss
 
 # History for VU completed by docRobert
 
+1444.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

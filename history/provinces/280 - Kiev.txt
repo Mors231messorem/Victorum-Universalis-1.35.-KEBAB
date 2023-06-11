@@ -2,8 +2,8 @@
 #Region - Ruthenia
 #Area - West Dniepr
 
-owner = KIE
-controller = KIE  
+owner = KIR
+controller = KIR 
 culture = ruthenian
 religion = orthodox
 hre = no
@@ -14,7 +14,7 @@ base_manpower = 8
 capital = "Kiev"
 is_city = yes
 fort_15th = yes
-add_core = KIE
+add_core = KIR
 
 add_permanent_province_modifier = {
     name = navalbase_modifier_4
@@ -50,6 +50,10 @@ extra_cost = 16
 #	duration = -1
 #}
 
+1444.1.1 = {
+	owner = KIE
+	controller = KIE
+	add_core = KIE
 1471.1.1 = {
 	owner = LIT
 	controller = LIT 

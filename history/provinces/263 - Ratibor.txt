@@ -4,9 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = RAC
-controller = RAC
-culture = silesian_german
+owner = OPL
+controller = OPL
+culture = polish
 religion = catholic
 hre = yes
 base_tax = 4 
@@ -15,7 +15,8 @@ capital = "Ratibor"
 is_city = yes
 trade_goods = cloth #Was wine
 base_manpower = 3 
-add_core = RAC
+add_core = OPL
+add_core = POL
 center_of_trade = 1
 
 discovered_by = western
@@ -40,6 +41,12 @@ discovered_by = russian
 
 # History completed by docRobert
 
+1444.1.1 = 
+	owner = RAT
+	controller = RAT
+	remove_core = OPL
+	remove_core = POL
+	add_core = RAT
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = OPL
 	controller = OPL

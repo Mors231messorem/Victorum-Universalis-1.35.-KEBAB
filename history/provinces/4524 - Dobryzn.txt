@@ -1,7 +1,7 @@
 # 4525 - Dobryzn
 
-owner = POL
-controller = POL
+owner = MAZ
+controller = MAZ
 capital = "Dobryzn"
 is_city = yes
 culture = polish
@@ -11,7 +11,7 @@ hre = no
 base_tax = 2
 base_production = 1
 base_manpower = 1
-add_core = POL
+add_core = MAZ
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
 discovered_by = western
 discovered_by = dutch
@@ -35,6 +35,11 @@ discovered_by = ottoman
 
 # History completed by docRobert
 
+1444.1.1 = {
+	owner = POL
+	controller = POL
+	add_core = POL
+	remove_core = MAZ
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

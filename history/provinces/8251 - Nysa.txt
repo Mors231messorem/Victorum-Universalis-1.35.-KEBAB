@@ -5,11 +5,11 @@
 #Core Details
 capital = "Nysa"
 is_city = yes
-owner = NIE
-controller = NIE
+owner = SIL
+controller = SIL
 
 #Demographics
-culture = silesian_german
+culture = polish
 religion = catholic
 
 #Development and Trade
@@ -19,7 +19,8 @@ base_manpower = 1
 trade_goods = cloth
 
 #Cores and Occupation (Alphabetical after current)
-add_core = NIE
+add_core = SIL
+add_core = POL
 
 #Other Political
 hre = yes
@@ -52,6 +53,12 @@ discovered_by = ottoman
 
 #History completed by docRobert
 
+1444.1.1 = 
+	owner = NIE
+	controller = NIE
+	remove_core = SIL
+	remove_core = POL
+	add_core = NIE
 1444.11.16 = { #VictorumUniversalis batch edit shortcut second performance start begins
 	owner = OPL
 	controller = OPL

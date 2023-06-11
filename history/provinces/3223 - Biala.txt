@@ -1,8 +1,8 @@
 #3223 - Biala
 
-owner = LIT
-controller = LIT
-add_core = LIT
+owner = KIR
+controller = KIR
+add_core = KIR
 culture = yotvingian_culture
 religion = catholic
 capital = "Bialystok"
@@ -36,6 +36,10 @@ discovered_by = ottoman
 
 # History completed by docRobert
 
+1444.1.11 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
 1569.7.1 = {
 	owner = PLC
 	controller = PLC

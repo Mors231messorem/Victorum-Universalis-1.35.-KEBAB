@@ -5,8 +5,8 @@
 #Core Details
 capital = "Pforten"
 is_city = yes
-owner = BOH
-controller = BOH
+owner = SOR
+controller = SOR
 
 #Demographics
 culture = sorbian
@@ -19,7 +19,6 @@ base_manpower = 1
 trade_goods = grain
 
 #Cores and Occupation (Alphabetical after current)
-add_core = BOH
 add_core = SOR
 
 #Other Political
@@ -51,3 +50,7 @@ discovered_by = polish
 discovered_by = russian
 
 #Histories
+1444.1.1 = 
+	owner = BOH
+	controller = BOH
+	add_core = BOH

@@ -1,8 +1,8 @@
 #7626 - Luckau
 
-owner = MAG
-controller = MAG
-add_core = MAG
+owner = SOR
+controller = SOR
+add_core = SOR
 culture = sorbian
 religion = catholic
 hre = yes
@@ -34,6 +34,11 @@ discovered_by = polish
 discovered_by = russian
 
 #Documented 997 AD
+
+1444.1.1 = 
+	owner = MAG
+	controller = MAG
+	add_core = MAG
 1539.1.1 = { religion = protestant }
 1650.1.1 = { culture = prussian }
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved

@@ -1,8 +1,8 @@
 #7239 - YuriyevBilaTserka
 
-owner = KIE
-controller = KIE
-add_core = KIE
+owner = KIR
+controller = KIR
+add_core = KIR
 culture = ruthenian
 religion = orthodox
 capital = "Bila Tserkva"			#Former name Yuriev, unclear when the names changed, though pretty early it appears.
@@ -39,3 +39,8 @@ discovered_by = russian
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
+
+1444.1.1 = {
+	owner = KIE
+	controller = KIE
+	add_core = KIE

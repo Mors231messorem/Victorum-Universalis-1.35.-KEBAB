@@ -1,8 +1,8 @@
 #7207 - Ostrog
 
-owner = LIT
-controller = LIT
-add_core = LIT
+owner = KIR
+controller = KIR
+add_core = KIR
 add_core = VOL
 culture = ruthenian
 religion = orthodox
@@ -42,3 +42,8 @@ discovered_by = russian
 1444.1.1 = { discovered_by = KAZ } 1444.1.1 = { discovered_by = CRI } 1444.1.1 = { discovered_by = GOL } 1444.1.1 = { discovered_by = AST } 1444.1.1 = { discovered_by = QAS } 
 
 
+1444.1.11 = {
+	owner = LIT
+	controller = LIT
+	add_core = LIT
+	add_core = VOL
