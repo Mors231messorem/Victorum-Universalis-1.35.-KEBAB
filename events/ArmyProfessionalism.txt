@@ -1034,7 +1034,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Cradle of Civilization"
 		has_country_modifier = gunpowder_core
-		mil_tech = 35
+		mil_tech = 34
 	}
 	
 	
@@ -1076,4 +1076,4 @@ province_event = {
 			}
 		}
 	}
-}	
+}
