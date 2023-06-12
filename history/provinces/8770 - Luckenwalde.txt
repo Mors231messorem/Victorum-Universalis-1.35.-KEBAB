@@ -35,10 +35,6 @@ discovered_by = hungarian
 discovered_by = polish
 discovered_by = russian
 
-1444.1.11 = {
-	owner = BRA
-	controller = BRA
-	add_core = BRA
 1539.1.1 = { religion = protestant }
 1650.1.1 = { culture = prussian }
 1660.1.1 = {
